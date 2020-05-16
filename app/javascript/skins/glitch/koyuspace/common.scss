@@ -1128,16 +1128,6 @@ body.lighter .card__img {
   padding-bottom: 25px;
 }
 
-.getting-started__footer p {
-  visibility: hidden;
-}
-.getting-started__footer p:after {
-  content: "koyu.space is free software and running glitch-soc 3.1.4. You can help the people over on GitHub at glitch-soc/mastodon. You can also donate at liberapay.com/koyu.space to keep the servers running.";
-  visibility: visible;
-  display: block;
-  margin-top: -45px;
-}
-
 .poll__chart.leading {
   background: #fe53e1;
 }
@@ -1281,10 +1271,6 @@ body {
 
 .radio-button__input {
   border: 1px solid #ccc;
-}
-
-.spoiler-button__overlay__label span {
-  display: none;
 }
 
 .confirmation-modal__cancel-button,
@@ -1664,4 +1650,13 @@ body.embed,
 .notification-follow,
 .notification-follow-request {
   border-bottom: 0;
+}
+
+.drawer--header a:focus, .drawer--header a:hover,
+.drawer--header {
+  background: #223;
+}
+
+.wide .columns-area:not(.columns-area--mobile) .column {
+  max-width: none;
 }
