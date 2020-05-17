@@ -1668,3 +1668,12 @@ body.embed,
   min-width: 150px;
   border-radius: 10px;
 }
+
+.composer--upload_form--progress>.message>.backdrop>.tracker {
+  background: #fe53e1;
+}
+
+.composer--upload_form--progress>.fa,
+.composer--upload_form--progress>.message>span {
+  color: #333;
+}
