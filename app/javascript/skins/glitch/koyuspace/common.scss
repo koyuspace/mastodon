@@ -1660,3 +1660,11 @@ body.embed,
 .wide .columns-area:not(.columns-area--mobile) .column {
   max-width: none;
 }
+
+.loading-indicator {
+  color: #fff;
+  background: #223;
+  padding: 20px;
+  min-width: 150px;
+  border-radius: 10px;
+}
