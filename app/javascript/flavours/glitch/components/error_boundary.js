@@ -65,7 +65,7 @@ export default class ErrorBoundary extends React.PureComponent {
     return (
       <div tabIndex='-1'>
         <div className='error-boundary'>
-          <h1><FormattedMessage id='web_app_crash.title' defaultMessage="We're sorry, but something went wrong with the Mastodon app." /></h1>
+          <h1><FormattedMessage id='web_app_crash.title' defaultMessage="We're sorry, but something went wrong with koyu.space." /></h1>
           <p>
             <FormattedMessage id='web_app_crash.content' defaultMessage='You could try any of the following:' />
           </p>

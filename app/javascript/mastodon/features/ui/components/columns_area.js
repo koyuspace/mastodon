@@ -48,7 +48,7 @@ const componentMap = {
 };
 
 const messages = defineMessages({
-  publish: { id: 'compose_form.publish', defaultMessage: 'Toot' },
+  publish: { id: 'compose_form.hop', defaultMessage: 'Hop' },
 });
 
 const shouldHideFAB = path => path.match(/^\/statuses\/|^\/search|^\/getting-started/);

@@ -1677,3 +1677,8 @@ body.embed,
 .composer--upload_form--progress>.message>span {
   color: #333;
 }
+
+.column-header__notif-cleaning-buttons button,
+.column-header__notif-cleaning-buttons button.active:hover {
+  background: #fe53e1;
+}

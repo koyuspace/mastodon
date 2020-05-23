@@ -149,7 +149,7 @@ export function submitCompose(routerHistory) {
 
     dispatch(submitComposeRequest());
     if (getState().getIn(['compose', 'advanced_options', 'do_not_federate'])) {
-      status = status + ' 👁️';
+      status = status + ' 🐇️';
     }
     api(getState).post('/api/v1/statuses', {
       status,

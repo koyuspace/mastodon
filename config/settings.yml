@@ -2,7 +2,7 @@
 # important settings can be changed from the admin interface.
 
 defaults: &defaults
-  site_title: 'dev.glitch.social'
+  site_title: 'koyu.space'
   site_short_description: ''
   site_description: ''
   site_extended_description: ''
@@ -34,7 +34,7 @@ defaults: &defaults
   hide_followers_count: false
   enable_keybase: true
   flavour: 'glitch'
-  skin: 'default'
+  skin: 'koyuspace'
   aggregate_reblogs: true
   advanced_layout: false
   use_blurhash: true

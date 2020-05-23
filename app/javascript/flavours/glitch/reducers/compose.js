@@ -178,7 +178,7 @@ function continueThread (state, status) {
     map.set('in_reply_to', status.id);
     map.update(
       'advanced_options',
-      map => map.merge(new ImmutableMap({ do_not_federate: /👁\ufe0f?\u200b?(?:<\/p>)?$/.test(status.content) }))
+      map => map.merge(new ImmutableMap({ do_not_federate: /🐇\ufe0f?\u200b?(?:<\/p>)?$/.test(status.content) }))
     );
     map.set('privacy', status.visibility);
     map.set('sensitive', false);
@@ -377,7 +377,7 @@ export default function compose(state = initialState, action) {
       map.set('privacy', privacyPreference(action.status.get('visibility'), state.get('default_privacy')));
       map.update(
         'advanced_options',
-        map => map.merge(new ImmutableMap({ do_not_federate: /👁\ufe0f?\u200b?(?:<\/p>)?$/.test(action.status.get('content')) }))
+        map => map.merge(new ImmutableMap({ do_not_federate: /🐇\ufe0f?\u200b?(?:<\/p>)?$/.test(action.status.get('content')) }))
       );
       map.set('focusDate', new Date());
       map.set('caretPosition', null);
