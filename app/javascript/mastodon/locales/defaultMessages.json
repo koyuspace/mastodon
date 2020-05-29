@@ -573,11 +573,11 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Toots",
+        "defaultMessage": "Hops",
         "id": "account.posts"
       },
       {
-        "defaultMessage": "Toots and replies",
+        "defaultMessage": "Hops and replies",
         "id": "account.posts_with_replies"
       },
       {
@@ -624,7 +624,7 @@
         "id": "empty_column.account_unavailable"
       },
       {
-        "defaultMessage": "No toots here!",
+        "defaultMessage": "No hops here!",
         "id": "empty_column.account_timeline"
       }
     ],
@@ -713,7 +713,7 @@
         "id": "account.show_reblogs"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned hops",
         "id": "navigation_bar.pins"
       },
       {
@@ -785,7 +785,7 @@
         "id": "account.badges.group"
       },
       {
-        "defaultMessage": "Toots",
+        "defaultMessage": "Hops",
         "id": "account.posts"
       },
       {
@@ -844,7 +844,7 @@
         "id": "column.bookmarks"
       },
       {
-        "defaultMessage": "You don't have any bookmarked toots yet. When you bookmark one, it will show up here.",
+        "defaultMessage": "You don't have any bookmarked hops yet. When you bookmark one, it will show up here.",
         "id": "empty_column.bookmarked_statuses"
       }
     ],
@@ -879,7 +879,7 @@
         "id": "account.edit_profile"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned hops",
         "id": "navigation_bar.pins"
       },
       {
@@ -1135,11 +1135,11 @@
         "id": "search_results.accounts"
       },
       {
-        "defaultMessage": "Toots",
+        "defaultMessage": "Hops",
         "id": "search_results.statuses"
       },
       {
-        "defaultMessage": "Searching toots by their content is not enabled on this Mastodon server.",
+        "defaultMessage": "Searching hops by their content is not enabled on this Mastodon server.",
         "id": "search_results.statuses_fts_disabled"
       },
       {
@@ -1271,7 +1271,7 @@
         "id": "compose_form.lock_disclaimer.lock"
       },
       {
-        "defaultMessage": "This toot won't be listed under any hashtag as it is unlisted. Only public toots can be searched by hashtag.",
+        "defaultMessage": "This toot won't be listed under any hashtag as it is unlisted. Only public hops can be searched by hashtag.",
         "id": "compose_form.hashtag_warning"
       },
       {
@@ -1424,7 +1424,7 @@
         "id": "confirmations.unfollow.message"
       },
       {
-        "defaultMessage": "Toots",
+        "defaultMessage": "Hops",
         "id": "account.posts"
       },
       {
@@ -1491,7 +1491,7 @@
         "id": "column.favourites"
       },
       {
-        "defaultMessage": "You don't have any favourite toots yet. When you favourite one, it will show up here.",
+        "defaultMessage": "You don't have any favourite hops yet. When you favourite one, it will show up here.",
         "id": "empty_column.favourited_statuses"
       }
     ],
@@ -1651,7 +1651,7 @@
         "id": "navigation_bar.mutes"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned hops",
         "id": "navigation_bar.pins"
       },
       {
@@ -1824,7 +1824,7 @@
         "id": "introduction.interactions.reply.headline"
       },
       {
-        "defaultMessage": "You can reply to other people's and your own toots, which will chain them together in a conversation.",
+        "defaultMessage": "You can reply to other people's and your own hops, which will chain them together in a conversation.",
         "id": "introduction.interactions.reply.text"
       },
       {
@@ -1832,7 +1832,7 @@
         "id": "introduction.interactions.reblog.headline"
       },
       {
-        "defaultMessage": "You can share other people's toots with your followers by boosting them.",
+        "defaultMessage": "You can share other people's hops with your followers by boosting them.",
         "id": "introduction.interactions.reblog.text"
       },
       {
@@ -1961,7 +1961,7 @@
         "id": "keyboard_shortcuts.favourites"
       },
       {
-        "defaultMessage": "to open pinned toots list",
+        "defaultMessage": "to open pinned hops list",
         "id": "keyboard_shortcuts.pinned"
       },
       {
