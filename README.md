@@ -15,8 +15,11 @@ If you want the full source code please clone with the `css-plugins` submodule s
 ## Changing things around
 
 Logo: `css-plugins/logo.scss`
+
 Disable CSS plugins: `app/javascript/styles/application.scss`
+
 Hop button: `app/javascript/flavours/glitch/features/compose/components/publisher.js`
+
 Sidebar content (simple UI): `app/javascript/flavours/glitch/features/ui/components/navigation_panel.js`
 
 And probably many more things that are getting documented soon
