@@ -33,8 +33,8 @@ const NavigationPanel = ({ onOpenSettings }) => (
 
     <hr />
 
-    <p><audio src="http://anonradio.net:8010/koyu" controls></audio></p>
-    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
+    <p><audio src="https://api.nordcast.app/radio" style={{width: "200px"}} controls></audio></p>
+    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
 
     <hr />
 
