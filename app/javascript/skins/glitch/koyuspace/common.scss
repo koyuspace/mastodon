@@ -1,5 +1,9 @@
 @import 'flavours/glitch/styles/index';
 
+body {
+  font-size: 10.5pt;
+}
+
 .landing-page #mastodon-timeline,
 .landing-page__forms,
 .landing-page__information,
@@ -1684,5 +1688,10 @@ body.embed,
 }
 
 .drawer--account {
+  background: #223;
+}
+
+
+.getting-started__wrapper {
   background: #223;
 }

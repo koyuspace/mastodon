@@ -2,6 +2,8 @@ import React from 'react';
 import Column from 'flavours/glitch/features/ui/components/column';
 import ColumnLink from 'flavours/glitch/features/ui/components/column_link';
 import ColumnSubheading from 'flavours/glitch/features/ui/components/column_subheading';
+import Icon from 'flavours/glitch/components/icon';
+import { NavLink } from 'react-router-dom';
 import { defineMessages, injectIntl, FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { openModal } from 'flavours/glitch/actions/modal';
@@ -177,6 +179,13 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             <ColumnSubheading text={intl.formatMessage(messages.settings_subheading)} />
             { preferencesLink !== undefined && <ColumnLink icon='cog' text={intl.formatMessage(messages.preferences)} href={preferencesLink} /> }
             <ColumnLink icon='cogs' text={intl.formatMessage(messages.settings)} onClick={openSettings} />
+            <ColumnSubheading text={intl.formatMessage(messages.misc)} />
+            <a className='column-link' href='/about' target='_blank'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
+            <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
+            <p><audio src="https://api.nordcast.app/radio" style={{width: "200px"}} controls></audio></p>
+            <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
+            <br />
+            <p><FormattedMessage id='navigation_bar.mumble' defaultMessage='Our Mumble server is available at mumble.koyu.space and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
           </div>
 
           <LinkFooter />

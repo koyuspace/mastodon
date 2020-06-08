@@ -876,6 +876,14 @@
 .getting-started__wrapper {
   position: relative;
   overflow-y: auto;
+
+  p, audio {
+    padding-left: 10px;
+  }
+
+  audio {
+    padding-top: 10px;
+  }
 }
 
 .flex-spacer {

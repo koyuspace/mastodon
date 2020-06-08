@@ -22,6 +22,8 @@ Hop button: `app/javascript/flavours/glitch/features/compose/components/publishe
 
 Sidebar content (simple UI): `app/javascript/flavours/glitch/features/ui/components/navigation_panel.js`
 
+Sidebar content (advanced UI): `app/javascript/flavours/glitch/features/getting_started/index.js`
+
 And probably many more things that are getting documented soon
 
 ## Building a Docker image
