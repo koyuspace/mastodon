@@ -3,6 +3,7 @@ import Options from '../components/options';
 import {
   changeComposeAdvancedOption,
   changeComposeContentType,
+  changeCompose,
   addPoll,
   removePoll,
 } from 'flavours/glitch/actions/compose';
@@ -47,6 +48,11 @@ const mapDispatchToProps = (dispatch) => ({
 
   onDoodleOpen() {
     dispatch(openModal('DOODLE', { noEsc: true }));
+  },
+
+  onEmbedJitsi() {
+    var x = Math.floor((Math.random() * 10000000000000000) + 1);
+    dispatch(changeCompose("https://meet.jit.si//"+x));
   },
 
   onModalClose() {
