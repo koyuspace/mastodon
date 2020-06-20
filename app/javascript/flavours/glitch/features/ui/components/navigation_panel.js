@@ -38,7 +38,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
 
     <hr />
 
-    <p><FormattedMessage id='navigation_bar.mumble' defaultMessage='Our Mumble server is available at mumble.koyu.space and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
+    <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Matrix room is at #koyuspace:matrix.org and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
 
     {showTrends && <div className='flex-spacer' />}
     {showTrends && <TrendsContainer />}

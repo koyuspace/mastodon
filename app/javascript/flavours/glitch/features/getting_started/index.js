@@ -185,7 +185,7 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             <p><audio src="https://api.nordcast.app/radio" style={{width: "200px"}} controls></audio></p>
             <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
             <br />
-            <p><FormattedMessage id='navigation_bar.mumble' defaultMessage='Our Mumble server is available at mumble.koyu.space and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
+            <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Matrix room is at #koyuspace:matrix.org and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
           </div>
 
           <LinkFooter />
