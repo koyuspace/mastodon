@@ -33,6 +33,8 @@ const makeGetStatusIds = (pending = false) => createSelector([
     const statusForId = statuses.get(id);
     let showStatus    = true;
 
+    if (statusForId.get('account') === me) return true;
+
     if (columnSettings.getIn(['shows', 'reblog']) === false) {
       showStatus = showStatus && statusForId.get('reblog') === null;
     }
@@ -45,7 +47,7 @@ const makeGetStatusIds = (pending = false) => createSelector([
       showStatus = showStatus && statusForId.get('visibility') !== 'direct';
     }
 
-    if (showStatus && regex && statusForId.get('account') !== me) {
+    if (showStatus && regex) {
       const searchIndex = statusForId.get('reblog') ? statuses.getIn([statusForId.get('reblog'), 'search_index']) : statusForId.get('search_index');
       showStatus = !regex.test(searchIndex);
     }
