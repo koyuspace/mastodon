@@ -29,6 +29,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
     {!!preferencesLink && <a className='column-link column-link--transparent' href={preferencesLink} target='_blank'><Icon className='column-link__icon' id='cog' fixedWidth /><FormattedMessage id='navigation_bar.preferences' defaultMessage='Preferences' /></a>}
     <a className='column-link column-link--transparent' href='#' onClick={onOpenSettings}><Icon className='column-link__icon' id='cogs' fixedWidth /><FormattedMessage id='navigation_bar.app_settings' defaultMessage='App settings' /></a>
     {!!relationshipsLink && <a className='column-link column-link--transparent' href={relationshipsLink} target='_blank'><Icon className='column-link__icon' id='users' fixedWidth /><FormattedMessage id='navigation_bar.follows_and_followers' defaultMessage='Follows and followers' /></a>}
+    <a className='column-link column-link--transparent' href='https://discuss.koyu.space' target='_blank'><Icon className='column-link__icon' id='book' fixedWidth /><FormattedMessage id='navigation_bar.discuss' defaultMessage='koyu.space Discuss' /></a>
     <a className='column-link column-link--transparent' href='/about' target='_blank'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
 
     <hr />
