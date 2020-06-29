@@ -35,7 +35,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <hr />
 
     <p><audio src="https://api.nordcast.app/radio" style={{width: "200px"}} controls></audio></p>
-    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
+    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://koyu.space/about' target='_blank'>koyu.space Radio</a></p>
 
     <hr />
 

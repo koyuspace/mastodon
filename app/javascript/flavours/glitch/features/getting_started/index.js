@@ -184,7 +184,7 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
             <a className='column-link' href='https://discuss.koyu.space' target='_blank'><Icon className='column-link__icon' id='book' fixedWidth /><FormattedMessage id='navigation_bar.discuss' defaultMessage='koyu.space Discuss' /></a>
             <p><audio src="https://api.nordcast.app/radio" style={{width: "200px"}} controls></audio></p>
-            <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://anonradio.net' target='_blank'>aNONradio (koyu)</a></p>
+            <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://koyu.space/about' target='_blank'>koyu.space Radio</a></p>
             <br />
             <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Matrix room is at #koyuspace:matrix.org and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
           </div>
