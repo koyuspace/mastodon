@@ -142,8 +142,9 @@ export default class DetailedStatus extends ImmutablePureComponent {
             src={attachment.get('url')}
             alt={attachment.get('description')}
             duration={attachment.getIn(['meta', 'original', 'duration'], 0)}
-            height={110}
-            preload
+            poster={attachment.get('preview_url') || status.getIn(['account', 'avatar_static'])}
+            blurhash={attachment.get('blurhash')}
+            height={150}
           />
         );
         mediaIcon = 'music';
