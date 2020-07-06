@@ -224,8 +224,6 @@ body {
 #cards {
     display: block;
     margin: 0 auto;
-    width: 80%;
-    padding-left: 10%;
 }
 
 #cards:after {
@@ -338,7 +336,7 @@ body {
 
     #logo {
         font-size: 24pt;
-	margin-top: 60px;
+	    margin-top: -60px;
     }
 
     #logo img {
@@ -364,43 +362,70 @@ body {
 }
 
 #nav {
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    overflow: hidden;
     background-color: #223;
 }
 
-#nav > li {
-    float: left;
-    list-style-type: none;
-}
-
-#nav > li:last-child {
-    border-right: none;
-}
-
-#nav > li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#nav svg {
-    vertical-align: middle;
-}
-
-#nav > li:hover {
+#nav li:hover {
     background: #fe53e1;
 }
 
-#nav .fa {
-    padding: 5px;
+@media(min-width: 1024px) {
+    #cards {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    #nav {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    #links > li {
+        float: left;
+        list-style-type: none;
+    }
+
+    #links > li:last-child {
+        border-right: none;
+    }
+
+    #nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #nav svg {
+        vertical-align: middle;
+    }
+
+    #nav .fa {
+        padding: 5px;
+    }
+
+    #nav .icon {
+        display: none;
+    }
+
+    .right {
+        float: right !important;
+    }
+
+    #links {
+        margin-top: 0;
+        display: block !important;
+    }
+    
+    .mobile {
+        display: none !important;
+    }
 }
 
 .footer .grid,
@@ -510,4 +535,44 @@ mark,
 audio,
 video {
   scrollbar-color: #181824 rgba(0, 0, 0, 0.1) !important;
+}
+
+@media(max-width:1024px) {
+    #nav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    #nav #links {
+        display: none;
+        padding-left: 0;
+    }
+
+    #nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    #nav a.icon {
+        background: #112;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #nav a.logofont:hover {
+        background-color: #223;
+    }
+
+    #nav li {
+        list-style: none;
+    }
+
+    .desktop {
+        display: none !important;
+    }
 }

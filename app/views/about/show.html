@@ -9,22 +9,32 @@
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="/about.js"></script>
         <script>if (window.module) module = window.module;</script>
-        <link rel="shortcut icon" href="https://koyu.space/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body style="overflow: hidden;">
+        <noscript>
+            <div style="position: absolute; z-index: 3000;height: 114vh; width: 100vw; background-color: #223; color: #fff;">
+                <p><b style="width: 300px; height: 200px; z-index: 15; top: 50%; left: 50%; margin: -100px 0 0 -150px; position: absolute;">Please enable JavaScript to view this page.</b></p>
+            </div>
+        </noscript>
         <div class="page">
-            <ul id="nav">
-                <li><a href="#" class="logofont blanklink"><i class="fa fa-circle-o" aria-hidden="true"></i> koyu.space</a></li>
-                <li><a href="https://blog.koyu.space" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> <span id="blog-text">Blog</span></a></li>
-                <li><a href="https://liberapay.com/koyu.space" target="_blank"><i class="fa fa-liberapay" aria-hidden="true"></i> <span id="donate-text">Donate</span></a></li>
-                <li><a href="https://gitlab.com/users/koyuawsmbrtn/projects" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i> <span id="foss-text">Open Source</span></a></li>
-                <li><a href="https://t.me/s/koyuspace" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> Telegram</a></li>
-                <li><a href="#" id="contact-button"><i class="fa fa-address-card" aria-hidden="true"></i> <span id="contact-text">Contact</span></a></li>
-                <li style="float: right;"><a href="/auth/sign_in"><i class="fa fa-sign-in" aria-hidden="true"></i> <span id="login-text">Login or sign-up</span></a></li>
-                <li style="float: right;"><a href="/public"><i class="fa fa-globe" aria-hidden="true"></i> <span id="public-text">Public timeline</span></a></li>
-                <li style="float: right;"><a href="/explore"><i class="fa fa-address-book-o" aria-hidden="true"></i> <span id="explore-text">Profile directory</span></a></li>
-            </ul>
+            <div id="nav">
+                <li class="mobile"><a href="#" class="logofont blanklink"><i class="fa fa-circle-o" aria-hidden="true"></i> koyu.space</a></li>
+                <ul id="links">
+                    <li><a href="#" class="logofont desktop blanklink"><i class="fa fa-circle-o" aria-hidden="true"></i> koyu.space</a></li>
+                    <li><a href="https://blog.koyu.space" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> <span id="blog-text">Blog</span></a></li>
+                    <li><a href="https://liberapay.com/koyu.space" target="_blank"><i class="fa fa-liberapay" aria-hidden="true"></i> <span id="donate-text">Donate</span></a></li>
+                    <li><a href="https://gitlab.com/users/koyuawsmbrtn/projects" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i> <span id="foss-text">Open Source</span></a></li>
+                    <li><a href="https://t.me/s/koyuspace" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i> Telegram</a></li>
+                    <li><a href="mailto:support@koyu.space" id="contact-button"><i class="fa fa-address-card" aria-hidden="true"></i> <span id="contact-text">Contact</span></a></li>
+                    <li class="right"><a href="/auth/sign_in"><i class="fa fa-sign-in" aria-hidden="true"></i> <span id="login-text">Login or sign-up</span></a></li>
+                    <li class="right"><a href="/public"><i class="fa fa-globe" aria-hidden="true"></i> <span id="public-text">Public timeline</span></a></li>
+                    <li class="right"><a href="/explore"><i class="fa fa-address-book-o" aria-hidden="true"></i> <span id="explore-text">Profile directory</span></a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
             <div class="content">
                 <div id="logo"><img src="https://themedata.koyu.space/img/pb-icon.svg" alt="Logo"> koyu.space</div>
                 <h1 id="tagline">We are creating free internet services for you and your friends.</h1>
@@ -60,5 +70,6 @@
                 </div>
             </div>
         </div>
+        <div id="loading"></div>
     </body>
 </html>
