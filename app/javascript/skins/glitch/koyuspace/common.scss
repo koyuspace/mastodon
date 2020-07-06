@@ -1694,3 +1694,10 @@ body.embed,
 .account__header__account-note {
   background: #fe53e1;
 }
+
+.timeline-hint a:hover,
+.timeline-hint a:focus,
+.timeline-hint a:active,
+.timeline-hint a {
+  color: #fe53e1;
+}
