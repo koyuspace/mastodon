@@ -363,6 +363,7 @@ body {
 
 #nav {
     background-color: #223;
+    margin-top: 0;
 }
 
 #nav li:hover {
@@ -425,6 +426,18 @@ body {
     
     .mobile {
         display: none !important;
+    }
+
+    ul.jabber {
+        list-style: none;
+    }
+    
+    .jabber li:hover {
+        background: transparent !important;
+    }
+    
+    .jabber li:first-child {
+        position: absolute;
     }
 }
 

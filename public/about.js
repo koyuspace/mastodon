@@ -58,13 +58,20 @@ $(document).ready(function() {
 
 
     // Loading screen
+    function getInterval() {
+        if (location.href.includes("/about")) {
+            return 3000;
+        } else {
+            return 1000;
+        }
+    }
     function onReady(callback) {
         var intervalId = window.setInterval(function() {
             if (document.getElementsByTagName('body')[0] !== undefined) {
             window.clearInterval(intervalId);
             callback.call(this);
             }
-        }, 3000);
+        }, getInterval());
     }
     onReady(function() {
         $(".page").removeAttr("style");
