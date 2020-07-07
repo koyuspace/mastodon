@@ -1701,3 +1701,8 @@ body.embed,
 .timeline-hint a {
   color: #fe53e1;
 }
+
+.column-header__button:focus,
+.column-header__notif-cleaning-buttons button:focus {
+  text-shadow: none;
+}
