@@ -35,7 +35,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <hr />
 
     <p><audio src="https://radio.tildeverse.org/radio/8000/radio.ogg" style={{width: "200px"}} controls></audio></p>
-    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://tilderadio.org' target='_blank'>Tilderadio</a></p>
+    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://tilderadio.org' target='_blank'>TildeRadio</a></p>
 
     <hr />
 
