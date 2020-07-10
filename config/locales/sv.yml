@@ -66,8 +66,8 @@ sv:
     people_who_follow: Personer som följer %{name}
     pin_errors:
       following: Du måste vara följare av den person du vill godkänna
-    posts_tab_heading: Toots
-    posts_with_replies: Toots med svar
+    posts_tab_heading: Hops
+    posts_with_replies: Hops med svar
     reserved_username: Användarnamnet är reserverat
     roles:
       admin: Administratör

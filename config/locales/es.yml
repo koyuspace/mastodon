@@ -73,10 +73,10 @@ es:
     pin_errors:
       following: Debes estar siguiendo a la persona a la que quieres aprobar
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots con respuestas
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops con respuestas
     reserved_username: El nombre de usuario está reservado
     roles:
       admin: Administrador
@@ -1165,7 +1165,7 @@ es:
       unlisted: Público, pero no mostrar en la historia federada
       unlisted_long: Todos pueden ver, pero no está listado en las líneas de tiempo públicas
   stream_entries:
-    pinned: Toot fijado
+    pinned: Hop fijado
     reblogged: retooteado
     sensitive_content: Contenido sensible
   tags:

@@ -79,12 +79,12 @@ cs:
     pin_errors:
       following: Osobu, kterou chcete podpořit, už musíte sledovat
     posts:
-      few: Tooty
-      many: Tootů
-      one: Toot
-      other: Tootů
-    posts_tab_heading: Tooty
-    posts_with_replies: Tooty a odpovědi
+      few: Hopy
+      many: Hopů
+      one: Hop
+      other: Hopů
+    posts_tab_heading: Hopy
+    posts_with_replies: Hopy a odpovědi
     reserved_username: Toto uživatelské jméno je rezervováno
     roles:
       admin: Administrátor
@@ -192,7 +192,7 @@ cs:
         targeted_reports: Nahlášeni ostatními
       silence: Ztišit
       silenced: Uživatel ztišen
-      statuses: Tooty
+      statuses: Hopy
       subscribe: Odebírat
       suspended: Uživatel pozastaven
       time_in_queue: Čeká ve frontě %{time}
@@ -612,7 +612,7 @@ cs:
         title: Média
       no_media: Žádná média
       no_status_selected: Nebyly změněny žádné tooty, neboť žádné nebyly vybrány
-      title: Tooty účtu
+      title: Hopy účtu
       with_media: S médii
     tags:
       accounts_today: Dnešní jedinečná použití

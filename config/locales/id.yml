@@ -67,9 +67,9 @@ id:
     pin_errors:
       following: Anda harus mengikuti orang yang ingin anda endorse
     posts:
-      other: Toot
-    posts_tab_heading: Toot
-    posts_with_replies: Toot dan balasan
+      other: Hop
+    posts_tab_heading: Hop
+    posts_with_replies: Hop dan balasan
     reserved_username: Nama pengguna telah dipesan
     roles:
       admin: Admin
@@ -1104,8 +1104,8 @@ id:
     over_character_limit: melebihi %{max} karakter
     pin_errors:
       limit: Anda sudah mencapai jumlah maksimum toot yang dapat disematkan
-      ownership: Toot orang lain tidak bisa disematkan
-      private: Toot privat tidak bisa disematkan
+      ownership: Hop orang lain tidak bisa disematkan
+      private: Hop privat tidak bisa disematkan
       reblog: Boost tidak bisa disematkan
     poll:
       total_people:
@@ -1125,7 +1125,7 @@ id:
       unlisted: Bisa dilihat semua orang, tapi tidak ditampilkan di linimasa publik
       unlisted_long: Tidak terdaftar di linimasa publik tetapi siapapun dapat melihat
   stream_entries:
-    pinned: Toot tersemat
+    pinned: Hop tersemat
     reblogged: di-boost-kan
     sensitive_content: Konten sensitif
   tags:

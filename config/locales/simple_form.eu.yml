@@ -7,12 +7,12 @@ eu:
       account_migration:
         acct: Zehaztu migrazioaren xede den kontuaren erabiltzaile@domeinua
       account_warning_preset:
-        text: Toot sintaxia erabili dezakezu, URLak, traolak eta aipamenak
+        text: Hop sintaxia erabili dezakezu, URLak, traolak eta aipamenak
         title: Aukerakoa. Hartzaileak ez du ikusiko
       admin_account_action:
         include_statuses: Erabiltzaileak moderazio ekintza edo abisu bat eragin duten tootak ikusi ahal izango ditu
         send_email_notification: Erabiltzaileak bere kontuarekin gertatutakoaren azalpen bat jasoko du
-        text_html: Aukerakoa. Toot sintaxia erabili dezakezu. <a href="%{path}">Abisu aurre-ezarpenak</a> gehitu ditzakezu denbora aurrezteko
+        text_html: Aukerakoa. Hop sintaxia erabili dezakezu. <a href="%{path}">Abisu aurre-ezarpenak</a> gehitu ditzakezu denbora aurrezteko
         type_html: Erabaki zer egin <strong>%{acct}</strong> kontuarekin
         warning_preset_id: Aukerakoa. Zure testua gehitu dezakezu aurre-ezarpenaren ostean
       announcement:
@@ -20,7 +20,7 @@ eu:
         ends_at: Aukerakoa. Iragapena une honetan automatikoki desargitaratuko da
         scheduled_at: Laga hutsik iragarpena berehala argitaratzeko
         starts_at: Aukerakoa. Zure iragarpena denbora-tarte batera lotuta dagoenerako
-        text: Tootetako sintaxia erabili dezakezu. Kontuan izan iragarpenak erabiltzailearen pantailan hartuko duen neurria
+        text: Hopetako sintaxia erabili dezakezu. Kontuan izan iragarpenak erabiltzailearen pantailan hartuko duen neurria
       defaults:
         autofollow: Gonbidapena erabiliz izena ematen dutenek automatikoki jarraituko dizute
         avatar: PNG, GIF edo JPG. Gehienez %{size}. %{dimensions}px neurrira eskalatuko da
@@ -47,7 +47,7 @@ eu:
         setting_display_media_show_all: Erakutsi beti hunkigarri gisa markatutako multimedia
         setting_hide_network: Nor jarraitzen duzun eta nork jarraitzen zaituen ez da bistaratuko zure profilean
         setting_noindex: Zure profil publiko eta tooten orrietan eragina du
-        setting_show_application: Tootak bidaltzeko erabiltzen duzun aplikazioa zure tooten ikuspegi xehetsuan bistaratuko da
+        setting_show_application: Hopak bidaltzeko erabiltzen duzun aplikazioa zure tooten ikuspegi xehetsuan bistaratuko da
         setting_use_blurhash: Gradienteak ezkutatutakoaren koloreetan oinarritzen dira, baina xehetasunak ezkutatzen dituzte
         setting_use_pending_items: Ezkutatu denbora-lerroko eguneraketak klik baten atzean jarioa automatikoki korritu ordez
         username: Zure erabiltzaile-izena bakana izango da %{domain} domeinuan

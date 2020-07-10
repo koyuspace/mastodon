@@ -70,10 +70,10 @@ tr:
     pin_errors:
       following: Onaylamak istediğiniz kişiyi zaten takip ediyor olmalısınız
     posts:
-      one: Toot
-      other: Tootlar
-    posts_tab_heading: Tootlar
-    posts_with_replies: Tootlar ve yanıtlar
+      one: Hop
+      other: Hoplar
+    posts_tab_heading: Hoplar
+    posts_with_replies: Hoplar ve yanıtlar
     reserved_username: Kullanıcı adı saklıdır
     roles:
       admin: Yönetici
@@ -609,7 +609,7 @@ tr:
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Herkes katkıda bulunabilir.
     sensitive_content: Hassas içerik
-    toot_layout: Toot yerleşimi
+    toot_layout: Hop yerleşimi
   application_mailer:
     notification_preferences: E-posta tercihlerini değiştir
     salutation: "%{name},"
@@ -742,7 +742,7 @@ tr:
     archive_takeout:
       date: Tarih
       download: Arşivinizi indirin
-      hint_html: "<strong>Tootlarınızın ve yüklediğiniz ortamların</strong> bir arşivini talep edebilirsiniz. Dışa aktarılan veriler, herhangi bir uyumlu yazılım tarafından okunabilen ActivityPub formatında olacaktır. Her 7 günde bir arşiv talep edebilirsiniz."
+      hint_html: "<strong>Hoplarınızın ve yüklediğiniz ortamların</strong> bir arşivini talep edebilirsiniz. Dışa aktarılan veriler, herhangi bir uyumlu yazılım tarafından okunabilen ActivityPub formatında olacaktır. Her 7 günde bir arşiv talep edebilirsiniz."
       in_progress: Arşivinizi derliyoruz...
       request: Arşiv isteği
       size: Boyut

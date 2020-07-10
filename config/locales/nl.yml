@@ -40,7 +40,7 @@ nl:
       domain: Server
       reason: 'Reden:'
       rejecting_media: 'Mediabestanden van deze server worden niet verwerkt en er worden geen thumbnails getoond. Je moet handmatig naar deze server doorklikken om de mediabestanden te kunnen bekijken:'
-      silenced: Toots van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
+      silenced: Hops van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
       suspended: Je bent niet in staat om iemand van deze server te volgen, en er worden geen gegevens van deze server verwerkt of opgeslagen, en met deze server uitgewisseld.
     unavailable_content_html: Met Mastodon kun je in het algemeen berichten bekijken van en communiceren met gebruikers van elke andere server in de fediverse. Dit zijn de uitzonderingen die door deze server zijn gemaakt en expliciet alleen hier gelden.
     user_count_after:
@@ -70,10 +70,10 @@ nl:
     pin_errors:
       following: Je moet dit account wel al volgen, alvorens je het kan aanbevelen
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots en reacties
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops en reacties
     reserved_username: Deze gebruikersnaam is gereserveerd
     roles:
       admin: Beheerder
@@ -179,7 +179,7 @@ nl:
         targeted_reports: Door anderen gerapporteerd
       silence: Negeren
       silenced: Genegeerd
-      statuses: Toots
+      statuses: Hops
       subscribe: Abonneren
       suspended: Opgeschort
       time_in_queue: "%{time} in de wachtrij"
@@ -209,7 +209,7 @@ nl:
         destroy_domain_allow: "%{name} heeft het domein %{target} van de witte lijst verwijderd"
         destroy_domain_block: Domein %{target} is door %{name} gedeblokkeerd
         destroy_email_domain_block: E-maildomein %{target} is door %{name} op de witte lijst geplaatst
-        destroy_status: Toot van %{target} is door %{name} verwijderd
+        destroy_status: Hop van %{target} is door %{name} verwijderd
         disable_2fa_user: Vereisten tweestapsverificatie van %{target} zijn door %{name} uitgeschakeld
         disable_custom_emoji: Emoji %{target} is door %{name} uitgeschakeld
         disable_user: Inloggen voor %{target} is door %{name} uitgeschakeld
@@ -441,7 +441,7 @@ nl:
       reported_by: Gerapporteerd door
       resolved: Opgelost
       resolved_msg: Rapportage succesvol opgelost!
-      status: Toot
+      status: Hop
       title: Rapportages
       unassign: Niet langer toewijzen
       unresolved: Onopgelost
@@ -461,7 +461,7 @@ nl:
         title: Aangepaste CSS
       default_noindex:
         desc_html: Heeft invloed op alle gebruikers die deze instelling niet zelf hebben veranderd
-        title: Toots van gebruikers standaard niet door zoekmachines laten indexeren
+        title: Hops van gebruikers standaard niet door zoekmachines laten indexeren
       domain_blocks:
         all: Naar iedereen
         disabled: Naar niemand
@@ -552,7 +552,7 @@ nl:
         title: Media
       no_media: Geen media
       no_status_selected: Er werden geen toots gewijzigd, omdat er geen enkele werd geselecteerd
-      title: Toots van account
+      title: Hops van account
       with_media: Met media
     tags:
       accounts_today: Aantal verschillende keren vandaag gebruikt
@@ -703,7 +703,7 @@ nl:
     success_msg: Jouw account is succesvol verwijderd
     warning:
       before: 'Lees deze tekst zorgvuldig voordat je verder gaat:'
-      caches: Toots en media die op andere servers zijn opgeslagen kunnen daar achterblijven
+      caches: Hops en media die op andere servers zijn opgeslagen kunnen daar achterblijven
       data_removal: Jouw toots en andere gegevens worden permanent verwijderd
       email_change_html: Je kunt <a href="%{path}">je e-mailadres wijzigen</a> zonder dat je jouw account hoeft te verwijderen
       email_contact_html: Wanneer het nog steeds niet aankomt, kun je voor hulp e-mailen naar <a href="mailto:%{email}">%{email}</a>

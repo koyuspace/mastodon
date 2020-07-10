@@ -59,10 +59,10 @@ en_GB:
     pin_errors:
       following: You must be already following the person you want to endorse
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots and replies
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops and replies
     reserved_username: The username is reserved
     roles:
       admin: Admin

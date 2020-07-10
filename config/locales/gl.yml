@@ -73,10 +73,10 @@ gl:
     pin_errors:
       following: Tes que seguir á persoa que queres engadir
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots e respostas
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops e respostas
     reserved_username: O nome de usuaria está reservado
     roles:
       admin: Administradora

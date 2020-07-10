@@ -73,10 +73,10 @@ es-AR:
     pin_errors:
       following: Ya tenés que estar siguiendo a la persona que querés recomendar
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots con respuestas
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops con respuestas
     reserved_username: El nombre de usuario está reservado
     roles:
       admin: Administrador
@@ -1165,7 +1165,7 @@ es-AR:
       unlisted: No listado
       unlisted_long: Todos pueden ver, pero no está listado en las líneas temporales públicas
   stream_entries:
-    pinned: Toot fijado
+    pinned: Hop fijado
     reblogged: retooteó
     sensitive_content: Contenido sensible
   tags:
@@ -1177,8 +1177,8 @@ es-AR:
 
       <ul>
       <li><em>Información básica de la cuenta</em>: Si te registrás en este servidor, se te va a pedir un nombre de usuario, una dirección de correo electrónico y una contraseña. También podés ingresar información adicional de perfil como un nombre para mostrar y una biografía, y subir un avatar y una imagen de cabecera. El nombre de usuario, nombre para mostrar, biografía, avatar e imagen de cabecera siempre son visibles públicamente.</li>
-      <li><em>Toots, seguimiento y otra información pública</em>: La lista de gente a la que seguís es mostrada públicamente, al igual que la de tus seguidores. Cuando enviás un mensaje, se almacenan la fecha y hora, así como la aplicación desde la cual enviaste el mensaje. Los mensajes pueden contener archivos adjuntos de medios, como imágenes y videos. Los toots públicos y no listados están técnicamente disponibles para todos. Cuando destacás un toot en tu perfil, eso también se considera información disponible públicamente. Tus toots son entregados a tus seguidores, en algunos casos significa que son entregados a diferentes servidores y las copias son almacenadas allí. Cuando eliminás toots, esto también afecta a tus seguidores. La acción de retootear o marcar como favorito otro toot es siempre pública.</li>
-      <li><em>Toots directos y sólo para seguidores</em>: Todos los toots se almacenan y procesan en el servidor. Los toots sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos toots sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en Mastodon.</em></li>
+      <li><em>Hops, seguimiento y otra información pública</em>: La lista de gente a la que seguís es mostrada públicamente, al igual que la de tus seguidores. Cuando enviás un mensaje, se almacenan la fecha y hora, así como la aplicación desde la cual enviaste el mensaje. Los mensajes pueden contener archivos adjuntos de medios, como imágenes y videos. Los toots públicos y no listados están técnicamente disponibles para todos. Cuando destacás un toot en tu perfil, eso también se considera información disponible públicamente. Tus toots son entregados a tus seguidores, en algunos casos significa que son entregados a diferentes servidores y las copias son almacenadas allí. Cuando eliminás toots, esto también afecta a tus seguidores. La acción de retootear o marcar como favorito otro toot es siempre pública.</li>
+      <li><em>Hops directos y sólo para seguidores</em>: Todos los toots se almacenan y procesan en el servidor. Los toots sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos toots sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en Mastodon.</em></li>
       <li><em>Direcciones IP y otros metadatos</em>: Cuando iniciás sesión, registramos la dirección IP desde dónde lo estás haciendo, así como el nombre de tu navegador web. Todos los inicios de sesiones están disponibles para tu revisión y revocación en la configuración. La última dirección IP usada se almacena hasta por 12 meses. También podemos conservar los registros del servidor que incluyen la dirección IP de cada solicitud a nuestro servidor.</li>
       </ul>
 

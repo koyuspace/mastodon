@@ -142,7 +142,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "{count, plural, one {{counter} Toot} other {{counter} Toots}}",
+        "defaultMessage": "{count, plural, one {{counter} Hop} other {{counter} Hops}}",
         "id": "account.statuses_counter"
       },
       {
@@ -1008,7 +1008,7 @@
         "id": "compose_form.spoiler_placeholder"
       },
       {
-        "defaultMessage": "Toot",
+        "defaultMessage": "Hop",
         "id": "compose_form.publish"
       },
       {
@@ -2716,7 +2716,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Toot",
+        "defaultMessage": "Hop",
         "id": "compose_form.publish"
       }
     ],

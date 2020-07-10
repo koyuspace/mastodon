@@ -363,7 +363,7 @@
   "search_popout.tips.user": "användare",
   "search_results.accounts": "Människor",
   "search_results.hashtags": "Hashtaggar",
-  "search_results.statuses": "Toots",
+  "search_results.statuses": "Hops",
   "search_results.statuses_fts_disabled": "Att söka toots med deras innehåll är inte möjligt på denna Mastodon-server.",
   "search_results.total": "{count, number} {count, plural, ett {result} andra {results}}",
   "status.admin_account": "Öppet modereringsgränssnitt för @{name}",

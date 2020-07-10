@@ -653,7 +653,7 @@ pt-PT:
       guide_link: https://crowdin.com/project/mastodon/pt-PT
       guide_link_text: Todos podem contribuir.
     sensitive_content: Conteúdo sensível
-    toot_layout: Disposição do Toot
+    toot_layout: Disposição do Hop
   application_mailer:
     notification_preferences: Alterar preferências de e-mail
     salutation: "%{name},"
@@ -1165,7 +1165,7 @@ pt-PT:
       unlisted: Público, mas não mostre no timeline público
       unlisted_long: Todos podem ver, porém não será postado nas timelines públicas
   stream_entries:
-    pinned: Toot fixado
+    pinned: Hop fixado
     reblogged: partilhado
     sensitive_content: Conteúdo sensível
   tags:

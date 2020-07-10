@@ -70,10 +70,10 @@ eu:
     pin_errors:
       following: Onetsi nahi duzun pertsona aurretik jarraitu behar duzu
     posts:
-      one: Toot
-      other: Toot
-    posts_tab_heading: Tootak
-    posts_with_replies: Tootak eta erantzunak
+      one: Hop
+      other: Hop
+    posts_tab_heading: Hopak
+    posts_with_replies: Hopak eta erantzunak
     reserved_username: Erabiltzaile-izena erreserbatuta dago
     roles:
       admin: Administratzailea
@@ -635,7 +635,7 @@ eu:
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Edonork lagundu dezake.
     sensitive_content: Eduki hunkigarria
-    toot_layout: Toot disposizioa
+    toot_layout: Hop disposizioa
   application_mailer:
     notification_preferences: Aldatu e-mail hobespenak
     salutation: "%{name},"
@@ -1016,13 +1016,13 @@ eu:
   remote_interaction:
     favourite:
       proceed: Bihurtu gogoko
-      prompt: 'Toot hau gogoko bihurtu nahi duzu:'
+      prompt: 'Hop hau gogoko bihurtu nahi duzu:'
     reblog:
       proceed: Eman bultzada
-      prompt: 'Toot honi bultzada eman nahi diozu:'
+      prompt: 'Hop honi bultzada eman nahi diozu:'
     reply:
       proceed: Ekin erantzuteari
-      prompt: 'Toot honi erantzun nahi diozu:'
+      prompt: 'Hop honi erantzun nahi diozu:'
   scheduled_statuses:
     over_daily_limit: Egun horretarako programatutako toot kopuruaren muga gainditu duzu (%{limit})
     over_total_limit: Programatutako toot kopuruaren muga gainditu duzu (%{limit})

@@ -34,7 +34,7 @@ id:
         fields: Anda bisa memiliki hingga 4 item utk ditampilkan sebagai tabel di profil Anda
         header: PNG, GIF atau JPG. Maksimal %{size}. Ukuran dikecilkan menjadi %{dimensions}px
         inbox_url: Salin URL dari halaman depan relai yang ingin Anda pakai
-        irreversible: Toot tersaring akan hilang permanen bahkan jika saringan dihapus kemudian
+        irreversible: Hop tersaring akan hilang permanen bahkan jika saringan dihapus kemudian
         locale: Bahasa antar muka pengguna, surel, dan notifikasi dorong
         locked: Anda harus menerima permintaan pengikut secara manual dan setting privasi postingan akan diubah khusus untuk pengikut
         password: Gunakan minimal 8 karakter

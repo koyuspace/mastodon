@@ -32,8 +32,8 @@ lt:
     people_who_follow: Žmonės kurie seka %{name}
     pin_errors:
       following: Privalai sekti žmogų kurį nori pagerbti
-    posts_tab_heading: Tootai
-    posts_with_replies: Tootai ir atsakymai
+    posts_tab_heading: Hopai
+    posts_with_replies: Hopai ir atsakymai
     reserved_username: Vartotojo vardas rezervuotas
     roles:
       admin: Administratorius

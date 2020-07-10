@@ -36,7 +36,7 @@
   "account.requested": "Awaiting approval. Click to cancel follow request",
   "account.share": "Share @{name}'s profile",
   "account.show_reblogs": "Show boosts from @{name}",
-  "account.statuses_counter": "{count, plural, one {{counter} Toot} other {{counter} Toots}}",
+  "account.statuses_counter": "{count, plural, one {{counter} Hop} other {{counter} Hops}}",
   "account.unblock": "Unblock @{name}",
   "account.unblock_domain": "Unblock domain {domain}",
   "account.unendorse": "Don't feature on profile",

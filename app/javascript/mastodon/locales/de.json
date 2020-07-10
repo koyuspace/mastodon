@@ -423,7 +423,7 @@
   "timeline_hint.remote_resource_not_displayed": "{resource} von anderen Servern werden nicht angezeigt.",
   "timeline_hint.resources.followers": "Follower",
   "timeline_hint.resources.follows": "Folgt",
-  "timeline_hint.resources.statuses": "Ältere Toots",
+  "timeline_hint.resources.statuses": "Ältere Hops",
   "trends.count_by_accounts": "{count} {rawCount, plural, eine {Person} other {Personen}} reden darüber",
   "trends.trending_now": "In den Trends",
   "ui.beforeunload": "Dein Entwurf geht verloren, wenn du Mastodon verlässt.",

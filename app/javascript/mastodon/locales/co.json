@@ -96,7 +96,7 @@
   "compose_form.poll.remove_option": "Toglie sta scelta",
   "compose_form.poll.switch_to_multiple": "Cambià u scandagliu per accittà parechje scelte",
   "compose_form.poll.switch_to_single": "Cambià u scandagliu per ùn accittà ch'una scelta",
-  "compose_form.publish": "Toot",
+  "compose_form.publish": "Hop",
   "compose_form.publish_loud": "{publish}!",
   "compose_form.sensitive.hide": "Indicà u media cum'è sensibile",
   "compose_form.sensitive.marked": "Media indicatu cum'è sensibile",

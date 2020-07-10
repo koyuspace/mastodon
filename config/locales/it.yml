@@ -73,10 +73,10 @@ it:
     pin_errors:
       following: Devi gia seguire la persona che vuoi promuovere
     posts:
-      one: Toot
-      other: Toot
-    posts_tab_heading: Toot
-    posts_with_replies: Toot e risposte
+      one: Hop
+      other: Hop
+    posts_tab_heading: Hop
+    posts_with_replies: Hop e risposte
     reserved_username: Questo nome utente è già stato preso
     roles:
       admin: Amministratore
@@ -1167,7 +1167,7 @@ it:
       unlisted: Pubblico, ma non visibile sulla timeline pubblica
       unlisted_long: Tutti lo possono vedere, ma non compare nelle timeline pubbliche
   stream_entries:
-    pinned: Toot fissato in cima
+    pinned: Hop fissato in cima
     reblogged: condiviso
     sensitive_content: Materiale sensibile
   tags:

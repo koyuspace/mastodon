@@ -41,7 +41,7 @@ pt-BR:
       reason: 'Motivo:'
       rejecting_media: 'Arquivos de mídia destas instâncias não serão processados ou armazenados e nenhuma miniatura será exibida, exigindo que o usuário abra o arquivo original manualmente:'
       rejecting_media_title: Mídia filtrada
-      silenced: 'Toots destas instâncias serão ocultos em linhas e conversas públicas, e nenhuma notificação será gerada a partir das interações dos seus usuários, a menos que esteja sendo seguido:'
+      silenced: 'Hops destas instâncias serão ocultos em linhas e conversas públicas, e nenhuma notificação será gerada a partir das interações dos seus usuários, a menos que esteja sendo seguido:'
       silenced_title: Servidores silenciados
       suspended: 'Você não será capaz de seguir ninguém destas instâncias, e nenhum dado delas será processado, armazenado ou trocado:'
       suspended_title: Servidores banidos
@@ -73,10 +73,10 @@ pt-BR:
     pin_errors:
       following: Você deve estar seguindo a pessoa que você deseja sugerir
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots e respostas
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops e respostas
     reserved_username: Nome de usuário reservado
     roles:
       admin: Admin
@@ -184,7 +184,7 @@ pt-BR:
         targeted_reports: Denúncias sobre esta conta
       silence: Silenciar
       silenced: Silenciado
-      statuses: Toots
+      statuses: Hops
       subscribe: Inscrever-se
       suspended: Banido
       time_in_queue: Esperando na fila por %{time}
@@ -598,7 +598,7 @@ pt-BR:
         title: Mídia
       no_media: Sem mídia
       no_status_selected: Nenhum status foi modificado porque nenhum estava selecionado
-      title: Toots da conta
+      title: Hops da conta
       with_media: Com mídia
     tags:
       accounts_today: Usos únicos de hoje
@@ -653,7 +653,7 @@ pt-BR:
       guide_link: https://br.crowdin.com/project/mastodon
       guide_link_text: Todos podem contribuir.
     sensitive_content: Conteúdo sensível
-    toot_layout: Layout do Toot
+    toot_layout: Layout do Hop
   application_mailer:
     notification_preferences: Alterar preferências de e-mail
     salutation: "%{name},"
@@ -1142,8 +1142,8 @@ pt-BR:
     over_character_limit: limite de caracteres de %{max} excedido
     pin_errors:
       limit: Quantidade máxima de toots excedida
-      ownership: Toots dos outros não podem ser fixados
-      private: Toots não-públicos não podem ser fixados
+      ownership: Hops dos outros não podem ser fixados
+      private: Hops não-públicos não podem ser fixados
       reblog: Boosts não podem ser fixados
     poll:
       total_people:
@@ -1165,7 +1165,7 @@ pt-BR:
       unlisted: Não-listado
       unlisted_long: Não posta em linhas públicas
   stream_entries:
-    pinned: Toot fixado
+    pinned: Hop fixado
     reblogged: deu boost
     sensitive_content: Conteúdo sensível
   tags:
@@ -1177,8 +1177,8 @@ pt-BR:
 
       <ul>
       <li><em>Dados básicos de conta</em>: Se você criar conta nesta instância, um nome de usuário, um e-mail e uma senha serão exigidos. Você também pode adicionar dados extras como nome de exibição, biografia, imagem de perfil e capa. Com exceção do e-mail e da senha, os dados citados sempre são públicos.</li>
-      <li><em>Toots, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Toots podem conter mídias anexadas, como áudios, imagens e vídeos. Toots públicos e não-listados são visíveis publicamente. Os toots fixados no seu perfil são públicos. Seus toots são enviados aos seus seguidores, em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui toots, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
-      <li><em>Mensagens Diretas e toots privados</em>: Todos os toots são armazenados e processados na instância. Toots privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou toots diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes toots somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais toots</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os toots. <em>Não compartilhe informação confidencial pelo Mastodon.</em></li>
+      <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os toots fixados no seu perfil são públicos. Seus toots são enviados aos seus seguidores, em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui toots, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
+      <li><em>Mensagens Diretas e toots privados</em>: Todos os toots são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou toots diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes toots somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais toots</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os toots. <em>Não compartilhe informação confidencial pelo Mastodon.</em></li>
       <li><em>IPs e outros metadados</em>: Ao entrar na sua conta, nós armazenamos o seu endereço de IP e o nome do navegador usado. Todas as sessões abertas estão disponíveis para serem analisadas e revogadas nas configurações. O último endereço de IP usado é armazenado por até 12 meses. Nós também podemos reter históricos da instância que incluem o endereço de IP de todas as conexões à nossa instância.</li>
       </ul>
 

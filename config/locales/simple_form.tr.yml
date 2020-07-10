@@ -11,7 +11,7 @@ tr:
       admin_account_action:
         include_statuses: Kullanıcı hangi tootların denetleme eylemi ya da uyarısına neden olduğunu görecektir
         send_email_notification: Kullanıcı, hesabına ne olduğu hakkında bir bildirim alacak
-        text_html: İsteğe bağlı. Toot sözdizimleri kullanabilirsiniz. Zamandan kazanmak için <a href="%{path}">uyarı ön-ayarları ekleyebilirsiniz</a>
+        text_html: İsteğe bağlı. Hop sözdizimleri kullanabilirsiniz. Zamandan kazanmak için <a href="%{path}">uyarı ön-ayarları ekleyebilirsiniz</a>
         type_html: "<strong>%{acct}</strong> ile ne yapılacağını seçin"
         warning_preset_id: İsteğe bağlı. Hazır ayarın sonuna hala özel metin ekleyebilirsiniz
       announcement:
@@ -19,7 +19,7 @@ tr:
         ends_at: İsteğe bağlı. Duyuru, bu tarihte otomatik olarak yayından kaldırılacak
         scheduled_at: Duyuruyu hemen yayınlamak için boş bırakın
         starts_at: İsteğe bağlı. Duyurunuzun belirli bir zaman aralığına bağlı olması durumunda
-        text: Toot söz dizimini kullanabilirsiniz. Lütfen duyurunun kullanıcının ekranında yer alacağı alanı göz önünde bulundurun
+        text: Hop söz dizimini kullanabilirsiniz. Lütfen duyurunun kullanıcının ekranında yer alacağı alanı göz önünde bulundurun
       defaults:
         autofollow: Davetiyeyle kaydolan kişiler sizi otomatik olarak takip eder
         avatar: En fazla %{size} olacak şekilde PNG, GIF veya JPG formatında yükleyiniz. %{dimensions}px büyüklüğüne indirgenecektir
@@ -46,7 +46,7 @@ tr:
         setting_display_media_show_all: Hassas olarak işaretlenmiş medyayı göster
         setting_hide_network: Takip edilenler ve takipçiler profilinizde gösterilmeyecek
         setting_noindex: Herkese açık profilinizi ve durum sayfalarınızı etkiler
-        setting_show_application: Tootlamak için kullandığınız uygulama, tootlarınızın detaylı görünümünde gösterilecektir
+        setting_show_application: Hoplamak için kullandığınız uygulama, tootlarınızın detaylı görünümünde gösterilecektir
         setting_use_blurhash: Gradyenler gizli görsellerin renklerine dayanır, ancak detayları gizler
         setting_use_pending_items: Zaman çizelgesi güncellemelerini, akışı otomatik olarak kaydırmak yerine bir tıklamanın arkasına gizleyin
         username: Kullanıcı adınız %{domain} alanında benzersiz olacak
@@ -139,7 +139,7 @@ tr:
         setting_hide_network: Ağını gizle
         setting_noindex: Arama motoru endekslemesini iptal et
         setting_reduce_motion: Animasyonlarda hareketi azalt
-        setting_show_application: Toot göndermek için kullanılan uygulamayı belirt
+        setting_show_application: Hop göndermek için kullanılan uygulamayı belirt
         setting_system_font_ui: Sistemin varsayılan yazı tipini kullan
         setting_theme: Site teması
         setting_trends: Bugünün trendlerini göster
@@ -175,7 +175,7 @@ tr:
         listable: Bu etiketin aramalarda ve profil dizininde görünmesine izin ver
         name: Hashtag
         trendable: Bu etiketin trendlerin altında görünmesine izin ver
-        usable: Tootların bu etiketi kullanmasına izin ver
+        usable: Hopların bu etiketi kullanmasına izin ver
     'no': Hayır
     recommended: Önerilen
     required:

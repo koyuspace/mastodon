@@ -55,7 +55,7 @@ const messages = defineMessages({
   detailedStatus: { id: 'status.detailed_status', defaultMessage: 'Detailed conversation view' },
   replyConfirm: { id: 'confirmations.reply.confirm', defaultMessage: 'Reply' },
   replyMessage: { id: 'confirmations.reply.message', defaultMessage: 'Replying now will overwrite the message you are currently composing. Are you sure you want to proceed?' },
-  tootHeading: { id: 'column.toot', defaultMessage: 'Toots and replies' },
+  tootHeading: { id: 'column.toot', defaultMessage: 'Hops and replies' },
 });
 
 const makeMapStateToProps = () => {
