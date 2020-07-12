@@ -908,7 +908,7 @@ body.theme-default:after {
 
 button.icon-button i.fa-retweet,
 button.icon-button i.fa-retweet:hover {
-  background: url(https://themedata.koyu.space/img/rt.svg);
+  background: url(/img/rt.svg);
 }
 
 .simple_form .input.boolean label a {
@@ -1108,7 +1108,7 @@ body.lighter .card__img {
 }
 
 .regeneration-indicator__figure {
-  background: transparent url(https://cdn.koyu.space/v1/AUTH_91eb37814936490c95da7b85993cc2ff/koyu/custom_emojis/images/000/074/502/original/1a58dfbc46614512.png) no-repeat top/100% auto !important;
+  background: transparent url(/img/pb-icon_melt.svg) no-repeat top/100% auto !important;
   margin-top: -50px;
 }
 
@@ -1216,7 +1216,7 @@ body {
 }
 
 .public-layout {
-  background: url(https://themedata.koyu.space/img/bg.jpg) !important;
+  background: url(/img/bg.jpg) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
 }
@@ -1421,14 +1421,14 @@ div.directory__tag:nth-child(3) > a:nth-child(1) {
   font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
-  src: local('Titan One'), local('TitanOne'), url(https://themedata.koyu.space/fonts/titan-one.woff2) format('woff2');
+  src: local('Titan One'), local('TitanOne'), url(/fonts/titan-one.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Didact Gothic';
   font-style: normal;
   font-weight: 400;
-  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://themedata.koyu.space/fonts/didact-gothic.woff2) format('woff2');
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(/fonts/didact-gothic.woff2) format('woff2');
 }
 
 * {
@@ -1458,7 +1458,7 @@ div.directory__tag:nth-child(3) > a:nth-child(1) {
 @media(min-width:800px) {
   .page-header h1 {
     padding-left: 70px;
-    background: #223 url(https://themedata.koyu.space/img/pb-icon.svg) no-repeat left/52px auto;
+    background: #223 url(/img/pb-icon.svg) no-repeat left/52px auto;
     padding-bottom: 0;
   }
 }
@@ -1471,7 +1471,7 @@ div.directory__tag:nth-child(3) > a:nth-child(1) {
   border: 0;
   -webkit-animation: none;
   animation: none;
-  background: transparent url(https://themedata.koyu.space/img/loading.svg) no-repeat top/100% auto !important;
+  background: transparent url(/img/loading.svg) no-repeat top/100% auto !important;
   border-radius: 0;
   width: 100px;
   height: 100px;
