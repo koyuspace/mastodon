@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://themedata.koyu.space/img/pb-icon.svg">
+  <img src="https://koyu.space/img/pb-icon.svg">
 </p>
 
 # koyu.space

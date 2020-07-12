@@ -2,21 +2,21 @@
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
-    src: local('Titan One'), local('TitanOne'), url(https://themedata.koyu.space/fonts/titan-one.woff2) format('woff2');
+    src: local('Titan One'), local('TitanOne'), url(/fonts/titan-one.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'Didact Gothic';
     font-style: normal;
     font-weight: 400;
-    src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://themedata.koyu.space/fonts/didact-gothic.woff2) format('woff2');
+    src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(/fonts/didact-gothic.woff2) format('woff2');
 }
 
 body {
     color: #fff;
     font-family: 'Didact Gothic', sans-serif !important;
     text-align: center;
-    background-image: url(https://themedata.koyu.space/img/bg.jpg);
+    background-image: url(/img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ body {
     width: 102vw;
     height: 100vh;
     background-color: #223;
-    background-image: url("https://themedata.koyu.space/img/loading.svg");
+    background-image: url("/img/loading.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
