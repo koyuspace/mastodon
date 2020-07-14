@@ -24,6 +24,8 @@ Sidebar content (simple UI): `app/javascript/flavours/glitch/features/ui/compone
 
 Sidebar content (advanced UI): `app/javascript/flavours/glitch/features/getting_started/index.js`
 
+About page (you may have to add a few lines of CSS code to make it work properly with yours): `app/views/about/show.html`
+
 And probably many more things that are getting documented soon
 
 ## Building a Docker image
