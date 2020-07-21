@@ -13,6 +13,7 @@ $(document).ready(function() {
         $("#card1").html("koyu.space<br><small>(Mastodon-Instanz)</small>");
         $("#card4").html("Minecraft-Server<br><small>(mc.koyu.space)</small>");
         $("#card5").html("Nordcast<br><small>(Podcast-App)</small>");
+        $("#card7").html("koyu.space auf VHS<br><small>(PeerTube-Instanz)</small>");
         $("#more").html("Impressum & Nutzungsbedingungen");
         $("#privacy").html("Datenschutzerklärung");
         $("#donate-text").html("Spenden");

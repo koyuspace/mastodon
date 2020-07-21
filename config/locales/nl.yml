@@ -28,7 +28,7 @@ nl:
     server_stats: 'Serverstatistieken:'
     source_code: Broncode
     status_count_after:
-      one: toot
+      one: hop
       other: toots
     status_count_before: Zij schreven
     tagline: Vrienden volgen en nieuwe ontdekken
@@ -38,13 +38,9 @@ nl:
       domain: Server
       reason: 'Reden:'
       rejecting_media: 'Mediabestanden van deze server worden niet verwerkt en er worden geen thumbnails getoond. Je moet handmatig naar deze server doorklikken om de mediabestanden te kunnen bekijken:'
-<<<<<<< HEAD
-      silenced: Hops van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
-=======
       rejecting_media_title: Mediabestanden geweigerd
       silenced: Toots van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
       silenced_title: Genegeerde servers
->>>>>>> 37c092e9fdedd36c167e4b84610e7346c446e1d3
       suspended: Je bent niet in staat om iemand van deze server te volgen, en er worden geen gegevens van deze server verwerkt of opgeslagen, en met deze server uitgewisseld.
       suspended_title: Opgeschorte servers
     unavailable_content_html: Met Mastodon kun je in het algemeen berichten bekijken van en communiceren met gebruikers van elke andere server in de fediverse. Dit zijn de uitzonderingen die door deze server zijn gemaakt en expliciet alleen hier gelden.
@@ -216,7 +212,7 @@ nl:
         destroy_domain_allow: Domeingoedkeuring verwijderen
         destroy_domain_block: Domeinblokkade verwijderen
         destroy_email_domain_block: E-maildomeinblokkade verwijderen
-        destroy_status: Toot verwijderen
+        destroy_status: hop verwijderen
         disable_2fa_user: Tweestapsverificatie uitschakelen
         disable_custom_emoji: Lokale emojij uitschakelen
         disable_user: Gebruiker uitschakelen
@@ -235,7 +231,7 @@ nl:
         unsuspend_account: Account niet langer opschorten
         update_announcement: Mededeling bijwerken
         update_custom_emoji: Lokale emoji bijwerken
-        update_status: Toot bijwerken
+        update_status: hop bijwerken
       actions:
         assigned_to_self_report: "%{name} heeft rapportage %{target} aan zichzelf toegewezen"
         change_email_user: "%{name} veranderde het e-mailadres van gebruiker %{target}"
@@ -272,7 +268,7 @@ nl:
         update_announcement: "%{name} heeft de mededeling %{target} bijgewerkt"
         update_custom_emoji: Emoji %{target} is door %{name} bijgewerkt
         update_status: De toots van %{target} zijn door %{name} bijgewerkt
-      deleted_status: "(verwijderde toot}"
+      deleted_status: "(verwijderde hop}"
       empty: Geen logs gevonden.
       filter_by_action: Op actie filteren
       filter_by_user: Op gebruiker filteren
@@ -858,7 +854,7 @@ nl:
     i_am_html: Ik ben %{username} op %{service}.
     identity: Identiteit
     inactive: Inactief
-    publicize_checkbox: 'En toot dit:'
+    publicize_checkbox: 'En hop dit:'
     publicize_toot: 'Het is bewezen! Ik ben %{username} op %{service}: %{url}'
     remove: Bewijs uit account verwijderen
     removed: Bewijs is succesvol uit account verwijderd
@@ -906,7 +902,7 @@ nl:
       limit: Je hebt het maximaal aantal lijsten bereikt
   media_attachments:
     validations:
-      images_and_video: Een video kan niet aan een toot met afbeeldingen worden gekoppeld
+      images_and_video: Een video kan niet aan een hop met afbeeldingen worden gekoppeld
       not_ready: Kan geen bestanden toevoegen die nog niet zijn verwerkt. Probeer het later opnieuw!
       too_many: Er kunnen niet meer dan 4 afbeeldingen toegevoegd worden
   migrations:
@@ -959,8 +955,8 @@ nl:
         other: "%{count} nieuwe meldingen sinds jouw laatste bezoek \U0001F418"
       title: Tijdens jouw afwezigheid...
     favourite:
-      body: 'Jouw toot werd door %{name} aan hun favorieten toegevoegd:'
-      subject: "%{name} voegde jouw toot als favoriet toe"
+      body: 'Jouw hop werd door %{name} aan hun favorieten toegevoegd:'
+      subject: "%{name} voegde jouw hop als favoriet toe"
       title: Nieuwe favoriet
     follow:
       body: "%{name} volgt jou nu!"
@@ -977,8 +973,8 @@ nl:
       subject: Jij bent vermeld door %{name}
       title: Nieuwe vermelding
     reblog:
-      body: 'Jouw toot werd door %{name} geboost:'
-      subject: "%{name} boostte jouw toot"
+      body: 'Jouw hop werd door %{name} geboost:'
+      subject: "%{name} boostte jouw hop"
       title: Nieuwe boost
   notifications:
     email_events: E-mailmeldingen voor gebeurtenissen
@@ -1045,17 +1041,17 @@ nl:
   remote_interaction:
     favourite:
       proceed: Doorgaan met toevoegen aan jouw favorieten
-      prompt: 'Je wilt de volgende toot aan jouw favorieten toevoegen:'
+      prompt: 'Je wilt de volgende hop aan jouw favorieten toevoegen:'
     reblog:
       proceed: Doorgaan met boosten
-      prompt: 'Je wilt de volgende toot boosten:'
+      prompt: 'Je wilt de volgende hop boosten:'
     reply:
       proceed: Doorgaan met reageren
-      prompt: 'Je wilt op de volgende toot reageren:'
+      prompt: 'Je wilt op de volgende hop reageren:'
   scheduled_statuses:
     over_daily_limit: Je hebt de limiet van %{limit} in te plannen toots voor die dag overschreden
     over_total_limit: Je hebt de limiet van %{limit} in te plannen toots overschreden
-    too_soon: De datum voor de ingeplande toot moet in de toekomst liggen
+    too_soon: De datum voor de ingeplande hop moet in de toekomst liggen
   sessions:
     activity: Laatst actief
     browser: Webbrowser
@@ -1138,13 +1134,13 @@ nl:
       one: 'bevatte een niet toegestane hashtag: %{tags}'
       other: 'bevatte niet toegestane hashtags: %{tags}'
     errors:
-      in_reply_not_found: De toot waarop je probeert te reageren lijkt niet te bestaan.
+      in_reply_not_found: De hop waarop je probeert te reageren lijkt niet te bestaan.
     language_detection: Taal automatisch detecteren
     open_in_web: In de webapp openen
     over_character_limit: Limiet van %{max} tekens overschreden
     pin_errors:
       limit: Je hebt het maximaal aantal toots al vastgezet
-      ownership: Een toot van iemand anders kan niet worden vastgezet
+      ownership: Een hop van iemand anders kan niet worden vastgezet
       private: Alleen openbare toots kunnen worden vastgezet
       reblog: Een boost kan niet worden vastgezet
     poll:
@@ -1167,7 +1163,7 @@ nl:
       unlisted: Minder openbaar
       unlisted_long: Aan iedereen tonen, maar niet op openbare tijdlijnen
   stream_entries:
-    pinned: Vastgemaakte toot
+    pinned: Vastgemaakte hop
     reblogged: boostte
     sensitive_content: Gevoelige inhoud
   tags:
