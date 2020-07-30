@@ -1706,3 +1706,7 @@ body.embed,
 .column-header__notif-cleaning-buttons button:focus {
   text-shadow: none;
 }
+
+.scrollable__append {
+  min-height: 300px;
+}
