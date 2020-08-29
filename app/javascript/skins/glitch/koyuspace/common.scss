@@ -1417,14 +1417,14 @@ div.directory__tag:nth-child(3) > a:nth-child(1) {
   font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
-  src: local('Titan One'), local('TitanOne'), url(/fonts/titan-one.woff2) format('woff2');
+  src: local('Titan One'), local('TitanOne'), url(https://koyu.space/fonts/titan-one.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'Didact Gothic';
   font-style: normal;
   font-weight: 400;
-  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(/fonts/didact-gothic.woff2) format('woff2');
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://koyu.space/fonts/didact-gothic.woff2) format('woff2');
 }
 
 * {
