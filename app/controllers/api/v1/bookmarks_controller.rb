@@ -17,11 +17,14 @@ class Api::V1::BookmarksController < Api::BaseController
   end
 
   def cached_bookmarks
-    cache_collection(results.map(&:status), Status)
+    cache_collection(
+      Status.reorder(nil).joins(:bookmarks).merge(results),
+      Status
+    )
   end
 
   def results
-    @_results ||= account_bookmarks.eager_load(:status).paginate_by_id(
+    @_results ||= account_bookmarks.paginate_by_id(
       limit_param(DEFAULT_STATUSES_LIMIT),
       params_slice(:max_id, :since_id, :min_id)
     )

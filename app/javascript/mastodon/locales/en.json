@@ -394,7 +394,7 @@
   "status.pinned": "Pinned hop",
   "status.read_more": "Read more",
   "status.reblog": "Boost",
-  "status.reblog_private": "Boost with original visibility",
+  "status.reblog_private": "Boost to original audience",
   "status.reblogged_by": "{name} boosted",
   "status.reblogs.empty": "No one has boosted this hop yet. When someone does, they will show up here.",
   "status.redraft": "Delete & re-draft",

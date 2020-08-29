@@ -45,7 +45,6 @@ Rails.application.routes.draw do
     namespace :auth do
       resource :setup, only: [:show, :update], controller: :setup
       resource :challenge, only: [:create], controller: :challenges
-      get 'sessions/security_key_options', to: 'sessions#webauthn_options'
     end
   end
 
@@ -125,22 +124,7 @@ Rails.application.routes.draw do
       resources :domain_blocks, only: :index, controller: :blocked_domains
     end
 
-    resources :two_factor_authentication_methods, only: [:index] do
-      collection do
-        post :disable
-      end
-    end
-
-    resource :otp_authentication, only: [:show, :create], controller: 'two_factor_authentication/otp_authentication'
-
-    resources :webauthn_credentials, only: [:index, :new, :create, :destroy],
-              path: 'security_keys',
-              controller: 'two_factor_authentication/webauthn_credentials' do
-
-      collection do
-        get :options
-      end
-    end
+    resource :two_factor_authentication, only: [:show, :create, :destroy]
 
     namespace :two_factor_authentication do
       resources :recovery_codes, only: [:create]

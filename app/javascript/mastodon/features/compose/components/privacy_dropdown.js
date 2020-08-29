@@ -179,7 +179,7 @@ class PrivacyDropdown extends React.PureComponent {
     } else {
       const { top } = target.getBoundingClientRect();
       if (this.state.open && this.activeElement) {
-        this.activeElement.focus({ preventScroll: true });
+        this.activeElement.focus();
       }
       this.setState({ placement: top * 2 < innerHeight ? 'bottom' : 'top' });
       this.setState({ open: !this.state.open });
@@ -220,7 +220,7 @@ class PrivacyDropdown extends React.PureComponent {
 
   handleClose = () => {
     if (this.state.open && this.activeElement) {
-      this.activeElement.focus({ preventScroll: true });
+      this.activeElement.focus();
     }
     this.setState({ open: false });
   }
