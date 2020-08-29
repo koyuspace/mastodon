@@ -54,6 +54,8 @@ export default class GIFV extends React.PureComponent {
 
         <video
           src={src}
+          width={width}
+          height={height}
           role='button'
           tabIndex='0'
           aria-label={alt}

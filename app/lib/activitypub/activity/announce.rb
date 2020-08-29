@@ -34,20 +34,12 @@ class ActivityPub::Activity::Announce < ActivityPub::Activity
 
   private
 
-  def audience_to
-    as_array(@json['to']).map { |x| value_or_id(x) }
-  end
-
-  def audience_cc
-    as_array(@json['cc']).map { |x| value_or_id(x) }
-  end
-
   def visibility_from_audience
-    if audience_to.include?(ActivityPub::TagManager::COLLECTIONS[:public])
+    if equals_or_includes?(@json['to'], ActivityPub::TagManager::COLLECTIONS[:public])
       :public
-    elsif audience_cc.include?(ActivityPub::TagManager::COLLECTIONS[:public])
+    elsif equals_or_includes?(@json['cc'], ActivityPub::TagManager::COLLECTIONS[:public])
       :unlisted
-    elsif audience_to.include?(@account.followers_url)
+    elsif equals_or_includes?(@json['to'], @account.followers_url)
       :private
     else
       :direct
