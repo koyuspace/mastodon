@@ -1707,3 +1707,12 @@ body.embed,
 .scrollable__append {
   min-height: 300px;
 }
+
+.drawer--results {
+  background: #223;
+}
+
+.drawer--results>.search-results__contents>section h5 {
+  background: #223;
+  border-bottom: 0;
+}
