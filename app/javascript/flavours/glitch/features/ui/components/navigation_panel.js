@@ -39,6 +39,9 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://tilderadio.org' target='_blank'>TildeRadio</a></p>
 
     <hr />
+    <p>IRC: irc.koyu.space/6667 (Channel: #koyu)</p>
+
+    <hr />
 
     <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Matrix room is at #koyuspace:matrix.org and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
 
