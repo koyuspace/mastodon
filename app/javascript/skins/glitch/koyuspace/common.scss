@@ -1716,3 +1716,8 @@ body.embed,
   background: #223;
   border-bottom: 0;
 }
+
+.drawer__inner,
+.composer--options--dropdown--content {
+  z-index: 1;
+}
