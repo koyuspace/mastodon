@@ -12,8 +12,10 @@ import {
   mountNotifications,
   unmountNotifications,
   loadPending,
+  markNotificationsAsRead,
 } from 'flavours/glitch/actions/notifications';
 import { addColumn, removeColumn, moveColumn } from 'flavours/glitch/actions/columns';
+import { submitMarkers } from 'flavours/glitch/actions/markers';
 import NotificationContainer from './containers/notification_container';
 import { defineMessages, injectIntl, FormattedMessage } from 'react-intl';
 import ColumnSettingsContainer from './containers/column_settings_container';
@@ -24,12 +26,14 @@ import { debounce } from 'lodash';
 import ScrollableList from 'flavours/glitch/components/scrollable_list';
 import LoadGap from 'flavours/glitch/components/load_gap';
 import Icon from 'flavours/glitch/components/icon';
+import compareId from 'flavours/glitch/util/compare_id';
 
 import NotificationPurgeButtonsContainer from 'flavours/glitch/containers/notification_purge_buttons_container';
 
 const messages = defineMessages({
   title: { id: 'column.notifications', defaultMessage: 'Notifications' },
   enterNotifCleaning : { id: 'notification_purge.start', defaultMessage: 'Enter notification cleaning mode' },
+  markAsRead : { id: 'notifications.mark_as_read', defaultMessage: 'Mark every notification as read' },
 });
 
 const getNotifications = createSelector([
@@ -56,12 +60,18 @@ const mapStateToProps = state => ({
   hasMore: state.getIn(['notifications', 'hasMore']),
   numPending: state.getIn(['notifications', 'pendingItems'], ImmutableList()).size,
   notifCleaningActive: state.getIn(['notifications', 'cleaningMode']),
+  lastReadId: state.getIn(['notifications', 'readMarkerId']),
+  canMarkAsRead: state.getIn(['notifications', 'readMarkerId']) !== '0' && getNotifications(state).some(item => item !== null && compareId(item.get('id'), state.getIn(['notifications', 'readMarkerId'])) > 0),
 });
 
 /* glitch */
 const mapDispatchToProps = dispatch => ({
   onEnterCleaningMode(yes) {
     dispatch(enterNotificationClearingMode(yes));
+  },
+  onMarkAsRead() {
+    dispatch(markNotificationsAsRead());
+    dispatch(submitMarkers());
   },
   onMount() {
     dispatch(mountNotifications());
@@ -93,6 +103,8 @@ class Notifications extends React.PureComponent {
     onEnterCleaningMode: PropTypes.func,
     onMount: PropTypes.func,
     onUnmount: PropTypes.func,
+    lastReadId: PropTypes.string,
+    canMarkAsRead: PropTypes.bool,
   };
 
   static defaultProps = {
@@ -194,8 +206,12 @@ class Notifications extends React.PureComponent {
     this.props.onEnterCleaningMode(!this.props.notifCleaningActive);
   }
 
+  handleMarkAsRead = () => {
+    this.props.onMarkAsRead();
+  }
+
   render () {
-    const { intl, notifications, shouldUpdateScroll, isLoading, isUnread, columnId, multiColumn, hasMore, numPending, showFilterBar } = this.props;
+    const { intl, notifications, shouldUpdateScroll, isLoading, isUnread, columnId, multiColumn, hasMore, numPending, showFilterBar, lastReadId, canMarkAsRead } = this.props;
     const { notifCleaning, notifCleaningActive } = this.props;
     const { animatingNCD } = this.state;
     const pinned = !!columnId;
@@ -224,6 +240,7 @@ class Notifications extends React.PureComponent {
           accountId={item.get('account')}
           onMoveUp={this.handleMoveUp}
           onMoveDown={this.handleMoveDown}
+          unread={lastReadId !== '0' && compareId(item.get('id'), lastReadId) > 0}
         />
       ));
     } else {
@@ -252,6 +269,21 @@ class Notifications extends React.PureComponent {
       </ScrollableList>
     );
 
+    const extraButtons = [];
+
+    if (canMarkAsRead) {
+      extraButtons.push(
+        <button
+          aria-label={intl.formatMessage(messages.markAsRead)}
+          title={intl.formatMessage(messages.markAsRead)}
+          onClick={this.handleMarkAsRead}
+          className='column-header__button'
+        >
+          <Icon id='check' />
+        </button>
+      );
+    }
+
     const notifCleaningButtonClassName = classNames('column-header__button', {
       'active': notifCleaningActive,
     });
@@ -263,7 +295,7 @@ class Notifications extends React.PureComponent {
 
     const msgEnterNotifCleaning = intl.formatMessage(messages.enterNotifCleaning);
 
-    const notifCleaningButton = (
+    extraButtons.push(
       <button
         aria-label={msgEnterNotifCleaning}
         title={msgEnterNotifCleaning}
@@ -300,7 +332,7 @@ class Notifications extends React.PureComponent {
           pinned={pinned}
           multiColumn={multiColumn}
           localSettings={this.props.localSettings}
-          extraButton={notifCleaningButton}
+          extraButton={extraButtons}
           appendContent={notifCleaningDrawer}
         >
           <ColumnSettingsContainer />

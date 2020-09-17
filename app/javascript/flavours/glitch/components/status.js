@@ -122,6 +122,7 @@ class Status extends ImmutablePureComponent {
     'notification',
     'hidden',
     'expanded',
+    'unread',
   ]
 
   updateOnStates = [
@@ -694,7 +695,7 @@ class Status extends ImmutablePureComponent {
       collapsed: isCollapsed,
       'has-background': isCollapsed && background,
       'status__wrapper-reply': !!status.get('in_reply_to_id'),
-      read: unread === false,
+      unread,
       muted,
     }, 'focusable');
 
