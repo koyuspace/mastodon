@@ -1721,3 +1721,11 @@ body.embed,
 .composer--options--dropdown--content {
   z-index: 1;
 }
+
+.follow_requests-unlocked_explanation {
+  background: #223;
+}
+
+.notification.unread:before, .status.unread:before {
+  border-left: 2px solid #FE53E0;
+}
