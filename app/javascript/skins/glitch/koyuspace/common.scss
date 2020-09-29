@@ -1729,3 +1729,17 @@ body.embed,
 .notification.unread:before, .status.unread:before {
   border-left: 2px solid #FE53E0;
 }
+
+@media(min-width:800px) {
+  body.lighter {
+    background: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .container-alt {
+    background: #223;
+    border-radius: 20px;
+    padding: 20px;
+  }
+}
