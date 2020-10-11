@@ -113,6 +113,7 @@
   .gap {
     font-size: 14px;
     color: $primary-text-color;
+    background: $ui-base-color;
     font-weight: 500;
     display: inline-block;
     padding: 6px 10px;
@@ -154,6 +155,7 @@
     .fa {
       display: inline-block;
       margin-left: 5px;
+      margin-right: 7px;
     }
   }
 
@@ -323,5 +325,30 @@
 
   &__body {
     margin-top: 10px;
+  }
+}
+
+.bg-profile {
+  display: none;
+}
+
+@supports (filter: blur()) {
+  .bg-profile {
+    display: block;
+    filter: blur(8px);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+    .bg-profile-img {
+      background-position: center;
+      background-size: cover;
+      height: calc(100% + 30px);
+      margin: -15px;
+      width: calc(100% + 30px);
+    }
   }
 }

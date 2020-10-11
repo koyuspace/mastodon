@@ -19,6 +19,8 @@
 
 .grid
   .column-0
+    .bg-profile
+    .bg-profile-img{ style: "background-image: url(#{@account.header_static_url})" }
     .activity-stream.h-entry
       = render partial: 'status', locals: { status: @status, include_threads: true }
   .column-1
