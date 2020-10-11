@@ -329,26 +329,20 @@
 }
 
 .bg-profile {
-  display: none;
-}
+  display: block;
+  filter: blur(12px);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 
-@supports (filter: blur()) {
-  .bg-profile {
-    display: block;
-    filter: blur(8px);
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-
-    .bg-profile-img {
-      background-position: center;
-      background-size: cover;
-      height: calc(100% + 30px);
-      margin: -15px;
-      width: calc(100% + 30px);
-    }
+  .bg-profile-img {
+    background-size: cover;
+    background-position: 50%;
+    height: calc(100% + 30px);
+    margin: -15px;
+    width: calc(100% + 30px);
   }
 }

@@ -1211,12 +1211,6 @@ body {
   background: #223;
 }
 
-.public-layout {
-  background: url(https://koyu.space/img/bg.jpg) !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
-}
-
 .public-layout .header .nav-button {
   background: #446;
 }
@@ -1487,11 +1481,6 @@ div.directory__tag:nth-child(3) > a:nth-child(1) {
   background: transparent !important;
 }
 
-.avatar,
-.public-account-header__tabs {
-  z-index: 1;
-}
-
 @media(max-width: 600px) {
   .avatar {
     margin-top: -5px;
@@ -1715,11 +1704,6 @@ body.embed,
 .drawer--results>.search-results__contents>section h5 {
   background: #223;
   border-bottom: 0;
-}
-
-.drawer__inner,
-.composer--options--dropdown--content {
-  z-index: 1;
 }
 
 .follow_requests-unlocked_explanation {
