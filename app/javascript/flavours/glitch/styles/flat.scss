@@ -514,17 +514,17 @@ dl {
   border: 0 !important;
 }
 
-.account__header .account__header__fields dd:not(.verified),
-.account__header__fields dd:not(.verified) {
-  background: #1E1E2D;
-}
-
-.account__header .account__header__fields dt {
-  background:#1b1b28;
-}
-
 .account__header__fields {
   border: 0 !important;
+}
+
+.account__header__fields dt {
+  background: rgba(23,23,23,.5);
+}
+
+.account__header .account__header__fields dd:not(.verified),
+.account__header__fields dd:not(.verified) {
+  background: rgba(23,23,23,.25);
 }
 
 .light {
