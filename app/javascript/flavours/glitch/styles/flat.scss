@@ -518,7 +518,8 @@ dl {
   border: 0 !important;
 }
 
-.account__header__fields dt {
+.account__header__fields dt,
+.account__header .account__header__fields dt {
   background: rgba(23,23,23,.5);
 }
 
