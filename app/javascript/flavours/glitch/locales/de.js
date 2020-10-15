@@ -8,7 +8,7 @@ const messages = {
   'layout.mobile': 'Mobil',
   'navigation_bar.app_settings': 'App-Einstellungen',
   'navigation_bar.frontpage': 'Zeige Startseite',
-  'navigation_bar.weekly': 'Unser Matrix-Raum ist verfügbar auf #koyuspace:matrix.org und wir veranstalten eine große Stammtischrunde jeden Samstag um 18:00 Uhr in UTC-Zeit.',
+  'navigation_bar.weekly': 'Unser Discord-Server ist verfügbar unter 6MsakA3 und wir veranstalten eine große Stammtischrunde jeden Samstag um 18:00 Uhr in UTC-Zeit.',
   'navigation_bar.radiostation': 'Aktuelle Radiostation',
   'getting_started.onboarding': 'Führe mich rum',
   'onboarding.page_one.federation': '{domain} ist eine \'Instanz\' von Mastodon. Mastodon ist ein Netzwerk unabhängiger Server, die sich zu einem größeren sozialen Netzwerk zusammenschließen. Wir nennen diese Serverinstanzen.',
