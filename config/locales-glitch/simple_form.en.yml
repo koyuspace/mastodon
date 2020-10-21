@@ -3,14 +3,14 @@ en:
   simple_form:
     hints:
       defaults:
-        setting_default_content_type_html: When writing toots, assume they are written in raw HTML, unless specified otherwise
-        setting_default_content_type_markdown: When writing toots, assume they are using Markdown for rich text formatting, unless specified otherwise
-        setting_default_content_type_plain: When writing toots, assume they are plain text with no special formatting, unless specified otherwise (default Mastodon behavior)
-        setting_default_language: The language of your toots can be detected automatically, but it's not always accurate
+        setting_default_content_type_html: When writing hops, assume they are written in raw HTML, unless specified otherwise
+        setting_default_content_type_markdown: When writing hops, assume they are using Markdown for rich text formatting, unless specified otherwise
+        setting_default_content_type_plain: When writing hops, assume they are plain text with no special formatting, unless specified otherwise (default Mastodon behavior)
+        setting_default_language: The language of your hops can be detected automatically, but it's not always accurate
         setting_skin: Reskins the selected koyu.space flavour
     labels:
       defaults:
-        setting_default_content_type: Default format for toots
+        setting_default_content_type: Default format for hops
         setting_default_content_type_html: HTML
         setting_default_content_type_markdown: Markdown
         setting_default_content_type_plain: Plain text

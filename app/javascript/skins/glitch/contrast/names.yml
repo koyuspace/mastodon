@@ -2,3 +2,8 @@ en:
   skins:
     glitch:
       contrast: High contrast
+
+de:
+  skins:
+    glitch:
+      contrast: Hoher Kontrast

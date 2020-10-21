@@ -13,3 +13,11 @@ pl:
   skins:
     glitch:
       default: Domyślny
+
+de:
+  flavours:
+    glitch:
+      description: Die Standard-Variante von GlitchSoc-Instanzen
+  skins:
+    glitch:
+      default: Standard

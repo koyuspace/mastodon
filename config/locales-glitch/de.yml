@@ -1,0 +1,25 @@
+---
+en:
+  admin:
+    dashboard:
+      keybase: Keybase-Integration
+    settings:
+      enable_keybase:
+        desc_html: Erlaube Nutzern ihre Identität über Keybase zu verifizieren
+        title: Aktiviere Keybase-Integration
+      outgoing_spoilers:
+        desc_html: When federating toots, add this content warning to toots that do not have one. It is useful if your server is specialized in content other servers might want to have under a Content Warning. Media will also be marked as sensitive.
+        title: Inhaltswarnung für ausgehende Beiträge
+      hide_followers_count:
+        desc_html: Zeige keine Followerzahlen auf Profilen
+        title: Verstecke Followerzahlen
+      show_reblogs_in_public_timelines:
+        desc_html: Zeige Boosts von öffentlichen Beiträgen in der lokalen und öffentlichen Zeitleiste
+        title: Zeige Boosts in öffentlichen Zeitleisten
+      show_replies_in_public_timelines:
+        desc_html: Zeige zusätzlich zu öffentlichen Selbstantworten (Threads) öffentliche Antworten in lokalen und öffentlichen Zeitleisten an.
+        title: Antworten in öffentlichen Zeitleisten anzeigen
+  generic:
+    use_this: Nimm dies
+  settings:
+    flavours: Geschmäcker

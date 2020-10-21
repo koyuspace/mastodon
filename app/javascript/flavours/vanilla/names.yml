@@ -14,3 +14,12 @@ pl:
   skins:
     vanilla:
       default: Domyślny
+
+de:
+  flavours:
+    vanilla:
+      description: Das Theme von Mastodon. Dieses Theme unterstützt möglicherweise nicht alle Features von GlitchSoc.
+      name: Vanilla Mastodon
+  skins:
+    vanilla:
+      default: Standard
