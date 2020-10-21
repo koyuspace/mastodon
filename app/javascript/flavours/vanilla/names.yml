@@ -23,3 +23,11 @@ de:
   skins:
     vanilla:
       default: Standard
+es:
+  flavours:
+    vanilla:
+      description: El diseño predeterminado en las instancias de Mastodon. Puede que no soporte todas las características de GlitchSoc.
+      name: Mastodon Original
+  skins:
+    vanilla:
+      default: Predeterminado

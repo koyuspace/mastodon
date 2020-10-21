@@ -21,3 +21,11 @@ de:
   skins:
     glitch:
       default: Standard
+es:
+  flavours:
+    glitch:
+      description: El diseño predeterminado para las instancias con GlitchSoc.
+      name: Glitchsoc
+  skins:
+    glitch:
+      default: Predeterminado
