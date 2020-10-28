@@ -2,21 +2,21 @@
 lt:
   about:
     about_hashtag_html: Čia visiems prieinamas įrankis <strong>#%{hashtag}</strong>. Jūs galite juo naudotis bet kur, jeigu turite paskyra fedi-visatoje.
-    about_mastodon_html: Mastodon, tai socialinis tinklas pagrįstas atviro kodo programavimu, ir atvirais web protokolais. Visiškai nemokamas. Ši sistema decantrilizuota kaip jūsų elektroninis paštas.
+    about_mastodon_html: koyu.space, tai socialinis tinklas pagrįstas atviro kodo programavimu, ir atvirais web protokolais. Visiškai nemokamas. Ši sistema decantrilizuota kaip jūsų elektroninis paštas.
     about_this: Apie
     administered_by: 'Administruoja:'
     apps: Mobilioji Aplikacija
     contact: Kontaktai
     contact_missing: Nenustatyta
     documentation: Dokumentacija
-    hosted_on: Mastodon palaikomas naudojantis %{domain} talpinimu
+    hosted_on: koyu.space palaikomas naudojantis %{domain} talpinimu
     learn_more: Daugiau
     privacy_policy: Privatumo Politika
     source_code: Šaltinio kodas
     status_count_before: Autorius
     terms: Naudojimo sąlygos
     user_count_before: Namai
-    what_is_mastodon: Kas tai, Mastodon?
+    what_is_mastodon: Kas tai, koyu.space?
   accounts:
     choices_html: "%{name} pasirinkimai:"
     follow: Sekti
@@ -372,13 +372,13 @@ lt:
         desc_html: Rodyti personalo ženklelį vartotojo puslapyje
         title: Rodyti personalo ženklelį
       site_description:
-        desc_html: Introdukcinis paragrafas pagrindiniame puslapyje. Apibūdink, kas padaro šį Mastodon serverį išskirtiniu ir visa kita, kas svarbu. Nebijok naudoti HTML žymes, pavyzdžiui <code> &lt; a &gt;</code> bei <code>&lt;em&gt;</code>.
+        desc_html: Introdukcinis paragrafas pagrindiniame puslapyje. Apibūdink, kas padaro šį koyu.space serverį išskirtiniu ir visa kita, kas svarbu. Nebijok naudoti HTML žymes, pavyzdžiui <code> &lt; a &gt;</code> bei <code>&lt;em&gt;</code>.
         title: Serverio apibūdinimas
       site_description_extended:
         desc_html: Gera vieta Jūsų elgesio kodeksui, taisyklėms, nuorodms ir kitokiai informacijai, kuri yra išskirtinė Jūsų serveriui. Galite naudoti HTML žymes
         title: Išsamesnė išskirtine informacija
       site_short_description:
-        desc_html: Rodoma šoniniame meniu ir meta žymėse. Apibūdink kas yra Mastodon, ir kas daro šį serverį išskirtiniu, vienu paragrafu. Jeigu tuščias, naudojamas numatytasis tekstas.
+        desc_html: Rodoma šoniniame meniu ir meta žymėse. Apibūdink kas yra koyu.space, ir kas daro šį serverį išskirtiniu, vienu paragrafu. Jeigu tuščias, naudojamas numatytasis tekstas.
         title: Trumpas serverio apibūdinimas
       site_terms:
         desc_html: Jūs galite parašyti savo pačio privatumo politika, naudojimo sąlygas ar kita informacija. Galite naudoti HTML žymes
@@ -495,7 +495,7 @@ lt:
       content: Atsiprašome, tačiau mūsų pusėje įvyko klaida.
       title: Netinkamas puslapis
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Kad naudotumėtės Mastodon web aplikacija, prašome įsijungti JavaScript. Alternatyviai, pabandykite viena iš <a href="%{apps_path}">vietinių aplikacijų</a> Mastodon savo platformai.
+    noscript_html: Kad naudotumėtės koyu.space web aplikacija, prašome įsijungti JavaScript. Alternatyviai, pabandykite viena iš <a href="%{apps_path}">vietinių aplikacijų</a> koyu.space savo platformai.
   exports:
     archive_takeout:
       date: Data
@@ -645,7 +645,7 @@ lt:
       generic: Nežinoma naršyklė
     current_session: Dabartinė sesija
     description: "%{browser} ant %{platform}"
-    explanation: Čia rodomos web naršyklės prijungtos prie Jūsų Mastodon paskyros.
+    explanation: Čia rodomos web naršyklės prijungtos prie Jūsų koyu.space paskyros.
     platforms:
       other: nežinoma platforma
     revoke: Atšaukti
@@ -653,7 +653,7 @@ lt:
     title: Sesijos
   settings:
     authorized_apps: Autorizuotos aplikacijos
-    back: Atgal į Mastodon
+    back: Atgal į koyu.space
     delete: Paskyros trynimas
     development: Plėtojimas
     edit_profile: Keisti profilį
@@ -697,7 +697,7 @@ lt:
       <ul>
       <li><em>Paprasa paskyros informacija</em>: Jeigu Jūs užsiregistruojate šiame serveryje, Jūsų gali paklausti, kad įrašytumėte slapyvardį, el pašto adresą ir paskyros slaptąžodį. Jūs irgi galite įrašyti papildomą profilio informaciją, tokią kaip rodomas vardas ir biografiją bei įkelti profilio nuotrauką ir antraštės nuotrauką. Slapyvardis , rodomas vardas, biografija, profilio nuotrauka ir antraštės nuotrauka visada viešai prieinama informacija.</li>
       <li><em>Įrašai, sekami ir kita vieša informacija</em>: Sąrašas žmonių, kuriuos Jūs sekate yra matomas viešai, taip pat kaip ir Jūsų sekėjams. Kai Jūs išsiunčiate žinutę, data ir laikas yra išsaugomi bei aplikacija iš kurios jūs išsiuntėte žinutę. Žinutėse gali būti prisegtų medijos failų kaip vaizdo įrašai bei nuotraukos. Viešos ir neįtrauktos į sąrašus žinutės yra viešai prieinamos. Kai nusprendžiate rodyti pranešimą ant savo profilio, tai irgi yra viešai prieinama informacija. Jūsų pranešimai yra pristatomi Jūsų sekėjams, kai kuriais atvėjais tai gali reikšti, kad šie pranešimai yra pristatomi į kitus serverius ir saugomi ten. Kai Jūs ištrinate įrašus, šie įrašai ištrinami ir Jūsų sekėjams. Veiksmas pamėgti kitus įrašus irgi yra viešas.
-      </li><li><em>Tiesioginiai ir tik sekėjams įrašai</em>: Visi įrašai yra saugomi ir apdorojami serveryje. Tik sekėjams įrašai yra pristatomi Jūsų sekėjams ir vartotojams, kurie yra paminėti įrašuose, ir tiesioginiai įrašai pristatomi tik vartotojams, kurie yra paminėti įraše. Kai kuriais atvėjais tai gali reikšti, kad šie įrašai yra pristatomi į kitą serverį ir įrašų kopijos saugomos ten. Mes stengiames riboti prieigą prie šių pranešimų tiktai autorizuotiems gavėjams, tačiau kiti serveriai to gali nedaryti. Todėl yra svarbu peržiurėti serverius, kuriems Jūsų sekėjai priklauso. Jūs galite įjungti būseną nustatymuose, kad galėtumetė priimti arba atmesti naujas sekimo užklausas.<em> Prašome nepamiršti, kad serverio operatoriai ir kiti serveriai, kurie gauna šias žinutes, gali jas peržiurėti </em> bei, kad gavėjai gali padaryti foto kopija, tektso kopija ar kitaip pasidalinti Jūsų žinutėmis.<em> Nesidalinkite jokia jautria ar pavojinga informacija naudojantis Mastodon.</em></li>
+      </li><li><em>Tiesioginiai ir tik sekėjams įrašai</em>: Visi įrašai yra saugomi ir apdorojami serveryje. Tik sekėjams įrašai yra pristatomi Jūsų sekėjams ir vartotojams, kurie yra paminėti įrašuose, ir tiesioginiai įrašai pristatomi tik vartotojams, kurie yra paminėti įraše. Kai kuriais atvėjais tai gali reikšti, kad šie įrašai yra pristatomi į kitą serverį ir įrašų kopijos saugomos ten. Mes stengiames riboti prieigą prie šių pranešimų tiktai autorizuotiems gavėjams, tačiau kiti serveriai to gali nedaryti. Todėl yra svarbu peržiurėti serverius, kuriems Jūsų sekėjai priklauso. Jūs galite įjungti būseną nustatymuose, kad galėtumetė priimti arba atmesti naujas sekimo užklausas.<em> Prašome nepamiršti, kad serverio operatoriai ir kiti serveriai, kurie gauna šias žinutes, gali jas peržiurėti </em> bei, kad gavėjai gali padaryti foto kopija, tektso kopija ar kitaip pasidalinti Jūsų žinutėmis.<em> Nesidalinkite jokia jautria ar pavojinga informacija naudojantis koyu.space.</em></li>
       <li><em>IP adresai ir kiti metaduomenys</em>: Kai prisijungiate, mes įrašome IP adresą iš kurio jūs prisijungėte, ir naudojamos naršyklės pavadinimą. Visos prisijungimo sesijos yra prieinamos Jūsų apžvalgai ir atšaukimams nustatymuose. Paskutiniai IP adresai yra saugomi iki 12-kos mėnesių. Mes taipogi galime pasilikti serverio registrą, kuriuose yra saugoma IP adresai iš visų bandymu prisijungti prie serverio prašant informacijos.
       </li></ul>
 
@@ -706,7 +706,7 @@ lt:
       <h3 id="use">Kam mes naudojame Jūsų informaciją?</h3>
       <p>Visa surinkta informacija apie jus, gali būti panaudota šiems tikslams: </p>
       <ul>
-      <li>Suteikti pagrindį Mastodon funkcialumą. Jūs galite sąveikauti su kitų vartotojų turiniu ir kelti sąvajį, kuomet esate prisijungęs. Pavyzdžiui, galite sekti kitus žmones, peržiūrėti jų sujungtus įrašus savo pačio personalizuotoje laiko juostoje. </li>
+      <li>Suteikti pagrindį koyu.space funkcialumą. Jūs galite sąveikauti su kitų vartotojų turiniu ir kelti sąvajį, kuomet esate prisijungęs. Pavyzdžiui, galite sekti kitus žmones, peržiūrėti jų sujungtus įrašus savo pačio personalizuotoje laiko juostoje. </li>
       <li>Padėti bendruomenės moderavimui, pavyzdžiui, lyginant Jūsų IP adresą, su kitu žinomu IP adresu, kad nustatyti bandymus vengti užblokavimo.</li>
       <li>Jūsų el pašto adresas gali būti naudojamas išsiųsti informacija jums, priminimus apie kitų vartotojų interakciją su jūsų paskyra, pavyzdžiui, kai jie jums siunčia žinutes, ir atsakyti į užklausas ir/arba kitais klausimais. </li>
       </ul>
@@ -772,9 +772,9 @@ lt:
       <p>Originaliai adaptuotas iš <a href="https://github.com/discourse/discourse">Discourse privatumo politika</a>.</p>
     title: "%{instance} Naudojimosi Sąlygos ir Privatumo Politika"
   themes:
-    contrast: Mastodon (Didelio Kontrasto)
-    default: Mastodon (Tamsus)
-    mastodon-light: Mastodon (Šviesus)
+    contrast: koyu.space (Didelio Kontrasto)
+    default: koyu.space (Tamsus)
+    mastodon-light: koyu.space (Šviesus)
   two_factor_authentication:
     code_hint: Įveskite autentikacijos aplikacijos sugeneruotą kodą kad galėtumete tęsti
     description_html: Jeigu įjungiate <strong>dviejų veiksnių autentikaciją</strong>, prisijungiant jums reikės turėti su savimi savo telefoną, kuris jums generuos prisijungimo žetonus.
@@ -793,7 +793,7 @@ lt:
     wrong_code: Koda netinkamas! Ar serverio laikas ir prietaiso laikas vienodi?
   user_mailer:
     backup_ready:
-      explanation: Jūs prašėte pilnos Mastodon paskyros atsarginės kopijos. Ji paruošta parsisiuntimui!
+      explanation: Jūs prašėte pilnos koyu.space paskyros atsarginės kopijos. Ji paruošta parsisiuntimui!
       subject: Jūsų archyvas paruoštas parsisiuntimui
       title: Archyvas išimtas
     warning:
@@ -822,11 +822,11 @@ lt:
       full_handle_hint: Štai ką jūs sakytumėte savo draugams, kad jie galėtų jums siųsti žinutes arba just sekti iš kitų serverių.
       review_preferences_action: Pakeisti pasirinkimus
       review_preferences_step: Nustatykite savo pasirinkimus, tokius kaip el pašto laiškai, kuriuos norėtumėte gauti, arba kokiu privatumo lygiu norėtumėte, kad jūsų įrašai būtų talpinami, taip pat galite įjungti automatinį GIF paleidimą.
-      subject: Sveiki atvykę į Mastodon
-      tip_federated_timeline: Federuota laiko juosta yra lyg gaisrininkų žarną rodanti Mastodon tinklą. Tačiau, joje rodomi tik žmonės kurie yra sekami Jūsų kaimynų.
+      subject: Sveiki atvykę į koyu.space
+      tip_federated_timeline: Federuota laiko juosta yra lyg gaisrininkų žarną rodanti koyu.space tinklą. Tačiau, joje rodomi tik žmonės kurie yra sekami Jūsų kaimynų.
       tip_following: Jūs sekate savo serverio administratorius numatyta tvarka. Norint rasti įdomesnių žmonių, patikrinkite lokalią bei federuotą laiko juostas.
       tip_local_timeline: Lokali laiko juosta, joje rodomi žmonės iš %{instance}. Jie yra Jūsų artimiausi kaimynai!
-      tip_mobile_webapp: Jeigu Jūsų mobilioji naršyklė leidžia jums pridėti Mastodon prie namų ekrano, jūs galite gauti priminimus. Tai gali veikti kaip vietinė aplikacija!
+      tip_mobile_webapp: Jeigu Jūsų mobilioji naršyklė leidžia jums pridėti koyu.space prie namų ekrano, jūs galite gauti priminimus. Tai gali veikti kaip vietinė aplikacija!
       tips: Patarimai
       title: Sveiki atvykę, %{name}!
   users:
@@ -837,5 +837,5 @@ lt:
     seamless_external_login: Jūs esate prisijungę per išorini įrenginį, todėl slaptąžodis ir el pašto nustatymai neprieinami.
     signed_in_as: 'Prisijungta kaip:'
   verification:
-    explanation_html: 'Jūs galite <strong>patvirtinti savę kaip savininką nuorodų savo profilio meta duomenyse</strong>. Kad tai padarytumėte, susieta svetainė privalo turėti nuorodą atgal į Jūsų Mastodon profilį. Nuoroda atgal <strong> privalo </strong> turėti <code>rel="me"</code> savybę. Teksto turinys nuorodoje nesvarbus. Štai pavyzdys:'
+    explanation_html: 'Jūs galite <strong>patvirtinti savę kaip savininką nuorodų savo profilio meta duomenyse</strong>. Kad tai padarytumėte, susieta svetainė privalo turėti nuorodą atgal į Jūsų koyu.space profilį. Nuoroda atgal <strong> privalo </strong> turėti <code>rel="me"</code> savybę. Teksto turinys nuorodoje nesvarbus. Štai pavyzdys:'
     verification: Patvirtinimas

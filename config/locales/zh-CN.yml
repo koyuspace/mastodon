@@ -1,26 +1,26 @@
 ---
 zh-CN:
   about:
-    about_hashtag_html: 这里展示的是带有话题标签 <strong>#%{hashtag}</strong> 的公开嘟文。如果你想与他们互动，你需要在任意一个 Mastodon 站点或与其兼容的网站上拥有一个帐户。
-    about_mastodon_html: Mastodon 是一个建立在开放式网络协议和自由、开源软件之上的社交网络，有着类似于电子邮件的分布式设计。
+    about_hashtag_html: 这里展示的是带有话题标签 <strong>#%{hashtag}</strong> 的公开嘟文。如果你想与他们互动，你需要在任意一个 koyu.space 站点或与其兼容的网站上拥有一个帐户。
+    about_mastodon_html: koyu.space 是一个建立在开放式网络协议和自由、开源软件之上的社交网络，有着类似于电子邮件的分布式设计。
     about_this: 关于本站
     active_count_after: 活跃
     active_footnote: 每月活跃用户
     administered_by: 本站管理员：
     api: API
     apps: 移动应用
-    apps_platforms: 在 iOS、Android 和其他平台上使用 Mastodon
+    apps_platforms: 在 iOS、Android 和其他平台上使用 koyu.space
     browse_directory: 浏览用户目录并按兴趣筛选
     browse_local_posts: 浏览此服务器上实时公开嘟文
-    browse_public_posts: 浏览 Mastodon 上公共嘟文的实时信息流
+    browse_public_posts: 浏览 koyu.space 上公共嘟文的实时信息流
     contact: 联系方式
     contact_missing: 未设定
     contact_unavailable: 未公开
     discover_users: 发现用户
     documentation: 文档
-    federation_hint_html: 在%{instance} 上拥有账号后，你可以关注任何 Mastodon 服务器或其他服务器上的人。
+    federation_hint_html: 在%{instance} 上拥有账号后，你可以关注任何 koyu.space 服务器或其他服务器上的人。
     get_apps: 尝试移动应用
-    hosted_on: 一个在 %{domain} 上运行的 Mastodon 实例
+    hosted_on: 一个在 %{domain} 上运行的 koyu.space 实例
     instance_actor_flash: 这个账号是个虚拟帐号，不代表任何用户，只用来代表服务器本身。它用于和其它服务器互通，所以不应该被封禁，除非你想封禁整个实例。但是想封禁整个实例的时候，你应该用域名封禁。
     learn_more: 了解详情
     privacy_policy: 隐私政策
@@ -42,11 +42,11 @@ zh-CN:
       silenced_title: 已隐藏的服务器
       suspended: 这些服务器的数据将不会被处理、存储或者交换，本站也将无法和来自这些服务器的用户互动或者交流。
       suspended_title: 已封禁的服务器
-    unavailable_content_html: 通常来说，在Mastodon上，你可以浏览联邦宇宙中任何一台服务器上的内容，并且和上面的用户互动。但是某些站点上不排除会有例外。
+    unavailable_content_html: 通常来说，在koyu.space上，你可以浏览联邦宇宙中任何一台服务器上的内容，并且和上面的用户互动。但是某些站点上不排除会有例外。
     user_count_after:
       other: 位用户
     user_count_before: 这里共注册有
-    what_is_mastodon: Mastodon 是什么？
+    what_is_mastodon: koyu.space 是什么？
   accounts:
     choices_html: "%{name} 的推荐："
     endorsements_hint: 您可以在web界面上推荐你关注的人，他们会出现在这里。
@@ -545,20 +545,20 @@ zh-CN:
         desc_html: 在个人资料页上显示管理人员标志
         title: 显示管理人员标志
       site_description:
-        desc_html: 首页上的介绍文字。 描述一下本 Mastodon 实例的特殊之处以及其他重要信息。可以使用 HTML 标签，包括 <code>&lt;a&gt;</code> 和 <code>&lt;em&gt;</code> 。
+        desc_html: 首页上的介绍文字。 描述一下本 koyu.space 实例的特殊之处以及其他重要信息。可以使用 HTML 标签，包括 <code>&lt;a&gt;</code> 和 <code>&lt;em&gt;</code> 。
         title: 本站简介
       site_description_extended:
         desc_html: 可以填写行为守则、规定、指南或其他本站特有的内容。可以使用 HTML 标签
         title: 本站详细介绍
       site_short_description:
-        desc_html: 会在在侧栏和元数据标签中显示。可以用一小段话描述 Mastodon 是什么，以及本服务器的特点。
+        desc_html: 会在在侧栏和元数据标签中显示。可以用一小段话描述 koyu.space 是什么，以及本服务器的特点。
         title: 服务器一句话介绍
       site_terms:
         desc_html: 可以填写自己的隐私权政策、使用条款或其他法律文本。可以使用 HTML 标签
         title: 自定义使用条款
       site_title: 本站名称
       spam_check_enabled:
-        desc_html: Mastodon可以自动隐藏和举报重复发送垃圾消息的帐号。但是本功能有可能误伤无辜。
+        desc_html: koyu.space可以自动隐藏和举报重复发送垃圾消息的帐号。但是本功能有可能误伤无辜。
         title: 自动反垃圾
       thumbnail:
         desc_html: 用于在 OpenGraph 和 API 中显示预览图。推荐分辨率 1200×630px
@@ -639,7 +639,7 @@ zh-CN:
     confirmation_dialogs: 确认对话框
     discovery: 发现
     localization:
-      body: Mastodon 由志愿者翻译。
+      body: koyu.space 由志愿者翻译。
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: 每个人都可以参与翻译。
     sensitive_content: 敏感内容
@@ -667,9 +667,9 @@ zh-CN:
     delete_account: 删除帐户
     delete_account_html: 如果你想删除你的帐户，请<a href="%{path}">点击这里继续</a>。你需要确认你的操作。
     description:
-      prefix_invited_by_user: "@%{name} 邀请您加入这个Mastodon服务器！"
-      prefix_sign_up: 现在就注册 Mastodon！
-      suffix: 注册一个帐号，你就可以关注别人、发布嘟文、并和其它任何Mastodon服务器上的用户交流，而且还有其它更多功能！
+      prefix_invited_by_user: "@%{name} 邀请您加入这个koyu.space服务器！"
+      prefix_sign_up: 现在就注册 koyu.space！
+      suffix: 注册一个帐号，你就可以关注别人、发布嘟文、并和其它任何koyu.space服务器上的用户交流，而且还有其它更多功能！
     didnt_get_confirmation: 没有收到确认邮件？
     forgot_password: 忘记密码？
     invalid_reset_password_token: 密码重置令牌无效或已过期。请重新发起重置密码请求。
@@ -773,7 +773,7 @@ zh-CN:
       content: 抱歉，我们的后台出错了。
       title: 这个页面有问题
     '503': 服务暂时不可用，无法请求该页面。
-    noscript_html: 使用 Mastodon 网页版应用需要启用 JavaScript。你也可以选择适用于你的平台的 <a href="%{apps_path}">Mastodon 应用</a>。
+    noscript_html: 使用 koyu.space 网页版应用需要启用 JavaScript。你也可以选择适用于你的平台的 <a href="%{apps_path}">koyu.space 应用</a>。
   existing_username_validator:
     not_found: 在本站找不到此用户
     not_found_multiple: 找不到 %{usernames}
@@ -1063,7 +1063,7 @@ zh-CN:
       weibo: 新浪微博
     current_session: 当前会话
     description: "%{platform} 上的 %{browser}"
-    explanation: 你的 Mastodon 帐户目前已在这些浏览器上登录。
+    explanation: 你的 koyu.space 帐户目前已在这些浏览器上登录。
     ip: IP 地址
     platforms:
       adobe_air: Adobe Air
@@ -1087,7 +1087,7 @@ zh-CN:
     aliases: 帐号别名
     appearance: 外观
     authorized_apps: 已授权的应用
-    back: 返回 Mastodon
+    back: 返回 koyu.space
     delete: 删除帐户
     development: 开发
     edit_profile: 更改个人资料
@@ -1158,7 +1158,7 @@ zh-CN:
       <ul>
       <li><em>基本帐户信息</em>:如果您在此服务器上注册，可能会要求您输入用户名，电子邮件地址和密码。 您还可以输入其他个人资料信息，例如显示名称和传记，并上传个人资料照片和标题图像。 用户名，显示名称，传记，个人资料图片和标题图片始终公开列出。</li>
       <li><em>帖子，关注和其他公共信息</em>: 您关注的人员列表会公开列出，您的粉丝也是如此。 提交邮件时，会存储日期和时间以及您提交邮件的应用程序。 消息可能包含媒体附件，例如图片和视频。 公开和非上市帖子可公开获取。 当您在个人资料中添加帖子时，这也是公开信息。 您的帖子会发送给您的关注者，在某些情况下，这意味着他们会将其发送到不同的服务器，并将副本存储在那里。 当您删除帖子时，同样会将其发送给您的关注者。 重新记录或赞成其他职位的行为始终是公开的。</li>
-      <li><em>直接和关注者的帖子</em>: 所有帖子都在服务器上存储和处理。 仅限关注者的帖子会发送给您的关注者和用户，并且直接帖子仅会发送给他们中提到的用户。 在某些情况下，这意味着它们被传送到不同的服务器并且副本存储在那里。 我们善意努力限制只有授权人员访问这些帖子，但其他服务器可能无法这样做。 因此，查看您的关注者所属的服务器非常重要。 您可以在设置中切换选项以手动批准和拒绝新关注者。 <em>请记住，服务器和任何接收服务器的操作员可能会查看此类消息</em>, 并且收件人可以截图，复制或以其他方式重新共享它们。 <em> 不要在 Mastodon 上分享任何危险信息。</em></li>
+      <li><em>直接和关注者的帖子</em>: 所有帖子都在服务器上存储和处理。 仅限关注者的帖子会发送给您的关注者和用户，并且直接帖子仅会发送给他们中提到的用户。 在某些情况下，这意味着它们被传送到不同的服务器并且副本存储在那里。 我们善意努力限制只有授权人员访问这些帖子，但其他服务器可能无法这样做。 因此，查看您的关注者所属的服务器非常重要。 您可以在设置中切换选项以手动批准和拒绝新关注者。 <em>请记住，服务器和任何接收服务器的操作员可能会查看此类消息</em>, 并且收件人可以截图，复制或以其他方式重新共享它们。 <em> 不要在 koyu.space 上分享任何危险信息。</em></li>
       <li><em>IP和其他元数据</em>: 登录时，我们会记录您登录的IP地址以及浏览器应用程序的名称。 所有登录的会话都可供您在设置中查看和撤销。 使用的最新IP地址最长可存储12个月。 我们还可以保留服务器日志，其中包括我们服务器的每个请求的IP地址。</li>
       </ul>
 
@@ -1169,7 +1169,7 @@ zh-CN:
       <p>我们向您收集的任何信息均可通过以下方式使用：</p>
 
       <ul>
-      <li>提供Mastodon的核心功能。 您只能在登录时与其他人的内容进行互动并发布您自己的内容。例如，您可以关注其他人在您自己的个性化家庭时间轴中查看他们的组合帖子。</li>
+      <li>提供koyu.space的核心功能。 您只能在登录时与其他人的内容进行互动并发布您自己的内容。例如，您可以关注其他人在您自己的个性化家庭时间轴中查看他们的组合帖子。</li>
       <li>为了帮助社区适度，例如将您的IP地址与其他已知的IP地址进行比较，以确定禁止逃税或其他违规行为。</li>
       <li>您提供的电子邮件地址可能用于向您发送信息，有关其他人与您的内容交互或向您发送消息的通知，以及回复查询和/或其他请求或问题。</li>
       </ul>
@@ -1234,9 +1234,9 @@ zh-CN:
       <p>最初改编自 <a href="https://github.com/discourse/discourse">Discourse 隐私政策</a>.</p>
     title: "%{instance} 使用条款和隐私权政策"
   themes:
-    contrast: Mastodon（高对比度）
-    default: Mastodon（暗色主题）
-    mastodon-light: Mastodon（亮色主题）
+    contrast: koyu.space（高对比度）
+    default: koyu.space（暗色主题）
+    mastodon-light: koyu.space（亮色主题）
   time:
     formats:
       default: "%Y年%-m月%d日 %H:%M"
@@ -1259,7 +1259,7 @@ zh-CN:
     wrong_code: 输入的认证码无效！请确认服务器时间与设备时间是否正确？
   user_mailer:
     backup_ready:
-      explanation: 你请求了一份 Mastodon 帐户的完整备份。现在你可以下载了！
+      explanation: 你请求了一份 koyu.space 帐户的完整备份。现在你可以下载了！
       subject: 你的存档已经准备完毕
       title: 存档导出
     sign_in_token:
@@ -1296,11 +1296,11 @@ zh-CN:
       full_handle_hint: 你需要把这个告诉你的朋友们，这样他们就能从另一台服务器向你发送信息或者关注你。
       review_preferences_action: 更改首选项
       review_preferences_step: 记得调整你的偏好设置，比如你想接收什么类型的邮件，或者你想把你的嘟文可见范围默认设置为什么级别。如果你没有晕动病的话，考虑一下启用“自动播放 GIF 动画”这个选项吧。
-      subject: 欢迎来到 Mastodon
-      tip_federated_timeline: 跨站公共时间轴可以让你一窥更广阔的 Mastodon 网络。不过，由于它只显示你的邻居们所订阅的内容，所以并不是全部。
+      subject: 欢迎来到 koyu.space
+      tip_federated_timeline: 跨站公共时间轴可以让你一窥更广阔的 koyu.space 网络。不过，由于它只显示你的邻居们所订阅的内容，所以并不是全部。
       tip_following: 默认情况下，你会自动关注你所在服务器的管理员。想结交更多有趣的人的话，记得多逛逛本站时间轴和跨站公共时间轴哦。
       tip_local_timeline: 本站时间轴可以让你一窥 %{instance} 上的用户。他们就是离你最近的邻居！
-      tip_mobile_webapp: 如果你的移动设备浏览器允许你将 Mastodon 添加到主屏幕，你就能够接收推送消息。它就像本地应用一样好使！
+      tip_mobile_webapp: 如果你的移动设备浏览器允许你将 koyu.space 添加到主屏幕，你就能够接收推送消息。它就像本地应用一样好使！
       tips: 小贴士
       title: "%{name}，欢迎你的加入！"
   users:
@@ -1314,5 +1314,5 @@ zh-CN:
     signed_in_as: 当前登录的帐户：
     suspicious_sign_in_confirmation: 你似乎没有在这台设备上登录过，并且你也有很久没有登录过了，所以我们给你的电子邮箱发了封邮件，想确认一下确实是你。
   verification:
-    explanation_html: 您可以 <strong>验证自己是个人资料元数据中的某个链接的所有者</strong>。 为此，被链接网站必须包含一个到您的 Mastodon 主页的链接。链接中 <strong>必须</strong> 包括 <code>rel="me"</code> 属性。链接的文本内容可以随意填写。例如：
+    explanation_html: 您可以 <strong>验证自己是个人资料元数据中的某个链接的所有者</strong>。 为此，被链接网站必须包含一个到您的 koyu.space 主页的链接。链接中 <strong>必须</strong> 包括 <code>rel="me"</code> 属性。链接的文本内容可以随意填写。例如：
     verification: 验证

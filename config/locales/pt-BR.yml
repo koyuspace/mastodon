@@ -2,14 +2,14 @@
 pt-BR:
   about:
     about_hashtag_html: Estes são toots públicos com a hashtag <strong>#%{hashtag}</strong>. Você pode interagir com eles se tiver uma conta em qualquer lugar no fediverso.
-    about_mastodon_html: 'A rede social do futuro: Sem anúncios, sem vigilância corporativa, com design ético e muita descentralização! Possua seus próprios dados com o Mastodon!'
+    about_mastodon_html: 'A rede social do futuro: Sem anúncios, sem vigilância corporativa, com design ético e muita descentralização! Possua seus próprios dados com o koyu.space!'
     about_this: Sobre
     active_count_after: ativo
     active_footnote: Usuários Ativos Mensalmente (UAM)
     administered_by: 'Administrado por:'
     api: API
     apps: Aplicativos
-    apps_platforms: Use o Mastodon a partir do iOS, Android e outras plataformas
+    apps_platforms: Use o koyu.space a partir do iOS, Android e outras plataformas
     browse_directory: Navegue pelo diretório de perfis e filtre por interesses
     browse_local_posts: Navegue pelos toots públicos locais em tempo real
     browse_public_posts: Navegue pelos toots públicos globais em tempo real
@@ -20,7 +20,7 @@ pt-BR:
     documentation: Documentação
     federation_hint_html: Com uma conta em %{instance} você vai poder seguir e interagir com pessoas de qualquer canto do fediverso.
     get_apps: Experimente um aplicativo
-    hosted_on: Instância Mastodon em %{domain}
+    hosted_on: Instância koyu.space em %{domain}
     instance_actor_flash: |
       Esta conta é um ator virtual usado para representar o próprio servidor e não qualquer usuário individual.
       É usado para propósitos de federação e não deve ser bloqueado a menos que queira bloquear toda a instância, o que no caso devia usar um bloqueio de domínio.
@@ -45,12 +45,12 @@ pt-BR:
       silenced_title: Servidores silenciados
       suspended: 'Você não será capaz de seguir ninguém destas instâncias, e nenhum dado delas será processado, armazenado ou trocado:'
       suspended_title: Servidores banidos
-    unavailable_content_html: Mastodon geralmente permite que você veja o conteúdo e interaja com usuários de qualquer outra instância no fediverso. Estas são as exceções desta instância em específico.
+    unavailable_content_html: koyu.space geralmente permite que você veja o conteúdo e interaja com usuários de qualquer outra instância no fediverso. Estas são as exceções desta instância em específico.
     user_count_after:
       one: usuário
       other: usuários
     user_count_before: Casa de
-    what_is_mastodon: O que é Mastodon?
+    what_is_mastodon: O que é koyu.space?
   accounts:
     choices_html: 'Sugestões de %{name}:'
     endorsements_hint: Você pode sugerir pessoas que você segue, elas aparecerão aqui.
@@ -561,14 +561,14 @@ pt-BR:
         desc_html: Um ótimo lugar para seu código de conduta, regras, diretrizes e outras coisas para diferenciar a sua instância. Você pode usar tags HTML
         title: Informação estendida personalizada
       site_short_description:
-        desc_html: Mostrada na barra lateral e em etiquetas de metadados. Descreve o que é o Mastodon e o que torna esta instância especial num único parágrafo. Se deixada em branco, é substituído pela descrição da instância.
+        desc_html: Mostrada na barra lateral e em etiquetas de metadados. Descreve o que é o koyu.space e o que torna esta instância especial num único parágrafo. Se deixada em branco, é substituído pela descrição da instância.
         title: Descrição curta da instância
       site_terms:
         desc_html: Você pode escrever a sua própria Política de Privacidade, Termos de Serviço, entre outras coisas. Você pode usar tags HTML
         title: Termos de serviço personalizados
       site_title: Nome da instância
       spam_check_enabled:
-        desc_html: Mastodon pode denunciar automaticamente contas que enviem repetidamente toots não solicitados. Pode haver falsos positivos.
+        desc_html: koyu.space pode denunciar automaticamente contas que enviem repetidamente toots não solicitados. Pode haver falsos positivos.
         title: Automação anti-spam
       thumbnail:
         desc_html: Usada para prévias via OpenGraph e API. Recomenda-se 1200x630px
@@ -649,7 +649,7 @@ pt-BR:
     confirmation_dialogs: Diálogos de confirmação
     discovery: Descobrir
     localization:
-      body: Mastodon é traduzido por voluntários.
+      body: koyu.space é traduzido por voluntários.
       guide_link: https://br.crowdin.com/project/mastodon
       guide_link_text: Todos podem contribuir.
     sensitive_content: Conteúdo sensível
@@ -677,9 +677,9 @@ pt-BR:
     delete_account: Excluir conta
     delete_account_html: Se você deseja excluir sua conta, você pode <a href="%{path}">fazer isso aqui</a>. Uma confirmação será solicitada.
     description:
-      prefix_invited_by_user: "@%{name} convidou você para entrar nesta instância Mastodon!"
-      prefix_sign_up: Crie uma conta no Mastodon hoje!
-      suffix: Com uma conta, você poderá seguir pessoas, postar atualizações, trocar mensagens com usuários de qualquer instância Mastodon e muito mais!
+      prefix_invited_by_user: "@%{name} convidou você para entrar nesta instância koyu.space!"
+      prefix_sign_up: Crie uma conta no koyu.space hoje!
+      suffix: Com uma conta, você poderá seguir pessoas, postar atualizações, trocar mensagens com usuários de qualquer instância koyu.space e muito mais!
     didnt_get_confirmation: Não recebeu instruções de confirmação?
     forgot_password: Esqueceu a sua senha?
     invalid_reset_password_token: Código de alteração de senha é inválido ou expirou. Por favor, solicite um novo.
@@ -783,7 +783,7 @@ pt-BR:
       content: Desculpe, algo deu errado por aqui.
       title: Esta página não está certa
     '503': A página não pôde ser carregada devido a uma falha temporária do servidor.
-    noscript_html: Para usar o aplicativo web do Mastodon, por favor ative o JavaScript. Ou, se quiser, experimente um dos <a href="%{apps_path}">aplicativos nativos</a> para o Mastodon em sua plataforma.
+    noscript_html: Para usar o aplicativo web do koyu.space, por favor ative o JavaScript. Ou, se quiser, experimente um dos <a href="%{apps_path}">aplicativos nativos</a> para o koyu.space em sua plataforma.
   existing_username_validator:
     not_found: não foi possível encontrar um usuário local com esse nome de usuário
     not_found_multiple: não foi possível encontrar %{usernames}
@@ -1077,7 +1077,7 @@ pt-BR:
       weibo: Weibo
     current_session: Sessão atual
     description: "%{browser} em %{platform}"
-    explanation: Estes são os navegadores que estão conectados com a sua conta Mastodon.
+    explanation: Estes são os navegadores que estão conectados com a sua conta koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ pt-BR:
     aliases: Alias da conta
     appearance: Aparência
     authorized_apps: Aplicativos autorizados
-    back: Voltar para o Mastodon
+    back: Voltar para o koyu.space
     delete: Exclusão de conta
     development: Desenvolvimento
     edit_profile: Editar perfil
@@ -1178,7 +1178,7 @@ pt-BR:
       <ul>
       <li><em>Dados básicos de conta</em>: Se você criar conta nesta instância, um nome de usuário, um e-mail e uma senha serão exigidos. Você também pode adicionar dados extras como nome de exibição, biografia, imagem de perfil e capa. Com exceção do e-mail e da senha, os dados citados sempre são públicos.</li>
       <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os toots fixados no seu perfil são públicos. Seus toots são enviados aos seus seguidores, em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui toots, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
-      <li><em>Mensagens Diretas e toots privados</em>: Todos os toots são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou toots diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes toots somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais toots</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os toots. <em>Não compartilhe informação confidencial pelo Mastodon.</em></li>
+      <li><em>Mensagens Diretas e toots privados</em>: Todos os toots são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou toots diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes toots somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais toots</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os toots. <em>Não compartilhe informação confidencial pelo koyu.space.</em></li>
       <li><em>IPs e outros metadados</em>: Ao entrar na sua conta, nós armazenamos o seu endereço de IP e o nome do navegador usado. Todas as sessões abertas estão disponíveis para serem analisadas e revogadas nas configurações. O último endereço de IP usado é armazenado por até 12 meses. Nós também podemos reter históricos da instância que incluem o endereço de IP de todas as conexões à nossa instância.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ pt-BR:
       <p>Todo dado que coletamos pode ser usado das seguintes maneiras:</p>
 
       <ul>
-      <li>Para prover a funcionalidade básica do Mastodon. Você só pode interagir com o conteúdo de outras pessoas e postar seu próprio conteúdo usando uma conta. Por exemplo, você pode seguir outras pessoas para ver seus toots na sua própria linha do tempo personalizada.</li>
+      <li>Para prover a funcionalidade básica do koyu.space. Você só pode interagir com o conteúdo de outras pessoas e postar seu próprio conteúdo usando uma conta. Por exemplo, você pode seguir outras pessoas para ver seus toots na sua própria linha do tempo personalizada.</li>
       <li>Para auxiliar na moderação da comunidade, por exemplo ao comparar o seu endereço de IP com outros endereços de IP conhecidos para determinar evasão de banimento e outras violações.</li>
       <li>O endereço de e-mail que você fornecer pode ser usado para te enviar informações, notificações sobre outras pessoas interagindo com o seu conteúdo ou contigo e para responder a questões ou outras solicitações.</li>
       </ul>
@@ -1254,9 +1254,9 @@ pt-BR:
       <p>Adaptado originalmente de <a href="https://github.com/discourse/discourse">Política de Privacidade Discourse</a>.</p>
     title: Termos de Serviço e Política de Privacidade de %{instance}
   themes:
-    contrast: Mastodon  (Alto contraste)
-    default: Mastodon (Noturno)
-    mastodon-light: Mastodon (Diurno)
+    contrast: koyu.space  (Alto contraste)
+    default: koyu.space (Noturno)
+    mastodon-light: koyu.space (Diurno)
   time:
     formats:
       default: "%H:%M em %d de %b de %Y"
@@ -1279,7 +1279,7 @@ pt-BR:
     wrong_code: Código de dois fatores inválido. O horário da instância e o horário do seu celular estão corretos?
   user_mailer:
     backup_ready:
-      explanation: Você pediu um backup completo da sua conta no Mastodon. E agora está pronto para ser baixado!
+      explanation: Você pediu um backup completo da sua conta no koyu.space. E agora está pronto para ser baixado!
       subject: Seu arquivo está pronto para ser baixado
       title: Baixar arquivo
     sign_in_token:
@@ -1316,11 +1316,11 @@ pt-BR:
       full_handle_hint: Isso é o que você compartilha com aos seus amigos para que eles possam te mandar toots ou te seguir a partir de outra instância.
       review_preferences_action: Alterar preferências
       review_preferences_step: Não se esqueça de configurar suas preferências, como quais e-mails você gostaria de receber, que nível de privacidade você gostaria que seus toots tenham por padrão. Se você não sofre de enjoo com movimento, você pode habilitar GIFs animado automaticamente.
-      subject: Boas-vindas ao Mastodon
-      tip_federated_timeline: A linha global é uma visão contínua da rede do Mastodon. Mas ela só inclui pessoas de instâncias que a sua instância conhece, então não é a rede completa.
+      subject: Boas-vindas ao koyu.space
+      tip_federated_timeline: A linha global é uma visão contínua da rede do koyu.space. Mas ela só inclui pessoas de instâncias que a sua instância conhece, então não é a rede completa.
       tip_following: Você vai seguir administrador(es) da sua instância por padrão. Para encontrar mais gente interessante, confira as linhas local e global.
       tip_local_timeline: A linha local é uma visão contínua das pessoas em %{instance}. Estes são seus vizinhos!
-      tip_mobile_webapp: Se o seu navegador móvel oferecer a opção de adicionar Mastodon à tela inicial, você pode receber notificações push. Será como um aplicativo nativo!
+      tip_mobile_webapp: Se o seu navegador móvel oferecer a opção de adicionar koyu.space à tela inicial, você pode receber notificações push. Será como um aplicativo nativo!
       tips: Dicas
       title: Boas vindas, %{name}!
   users:
@@ -1334,5 +1334,5 @@ pt-BR:
     signed_in_as: 'Entrou como:'
     suspicious_sign_in_confirmation: Parece que você não fez login deste dispositivo antes, e você não fez login por um tempo. Portanto, estamos enviando um código de segurança para o seu endereço de e-mail para confirmar que é você.
   verification:
-    explanation_html: 'Você pode <strong>verificar os links nos metadados do seu perfil</strong>. Para isso, o site citado deve conter um link de volta para o seu perfil do Mastodon. O link de volta <strong>deve</strong> conter um atributo <code>rel="me"</code>. O conteúdo ou texto do link não importa. Aqui está um exemplo:'
+    explanation_html: 'Você pode <strong>verificar os links nos metadados do seu perfil</strong>. Para isso, o site citado deve conter um link de volta para o seu perfil do koyu.space. O link de volta <strong>deve</strong> conter um atributo <code>rel="me"</code>. O conteúdo ou texto do link não importa. Aqui está um exemplo:'
     verification: Verificação

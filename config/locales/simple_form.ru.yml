@@ -62,7 +62,7 @@ ru:
       form_challenge:
         current_password: Вы входите в зону безопасности
       imports:
-        data: Файл CSV, экспортированный с другого узла Mastodon.
+        data: Файл CSV, экспортированный с другого узла koyu.space.
       invite_request:
         text: Это поможет нам рассмотреть вашу заявку
       sessions:

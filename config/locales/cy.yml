@@ -2,14 +2,14 @@
 cy:
   about:
     about_hashtag_html: Dyma dŵtiau cyhoeddus wedi eu tagio gyda <strong>#%{hashtag}</strong>. Gallwch ryngweithio gyda nhw os oes gennych gyfrif yn unrhyw le yn y ffeddysawd.
-    about_mastodon_html: Mae Mastodon yn rwydwaith cymdeithasol sy'n seiliedig ar brotocolau gwe a meddalwedd cod agored rhad ac am ddim. Yn debyg i e-bost mae'n ddatganoledig.
+    about_mastodon_html: Mae koyu.space yn rwydwaith cymdeithasol sy'n seiliedig ar brotocolau gwe a meddalwedd cod agored rhad ac am ddim. Yn debyg i e-bost mae'n ddatganoledig.
     about_this: Ynghylch
     active_count_after: yn weithredol
     active_footnote: Defnyddwyr Gweithredol Misol (DGM)
     administered_by: 'Gweinyddir gan:'
     api: API
     apps: Apiau symudol
-    apps_platforms: Defnyddio Mastodon o iOS, Android a phlatfformau eraill
+    apps_platforms: Defnyddio koyu.space o iOS, Android a phlatfformau eraill
     browse_directory: Pori cyfeiriadur proffil a hidlo wrth diddordebau
     browse_local_posts: Pori ffrwd byw o byst cyhoeddus o'r gweinydd hyn
     browse_public_posts: Pori ffrwd byw o byst cyhoeddus ar Fastodon
@@ -18,9 +18,9 @@ cy:
     contact_unavailable: Ddim yn berthnasol
     discover_users: Darganfod defnyddwyr
     documentation: Dogfennaeth
-    federation_hint_html: Gyda cyfrif ar %{instance}, gallwch dilyn pobl ar unrhyw gweinydd Mastodon, a thu hwnt.
+    federation_hint_html: Gyda cyfrif ar %{instance}, gallwch dilyn pobl ar unrhyw gweinydd koyu.space, a thu hwnt.
     get_apps: Rhowch gynnig ar ap dyfeis symudol
-    hosted_on: Mastodon wedi ei weinyddu ar %{domain}
+    hosted_on: koyu.space wedi ei weinyddu ar %{domain}
     instance_actor_flash: |
       Mae'r cyfrif hwn yn actor rhithwir a ddefnyddir i gynrychioli'r gweinydd ei hun ac nid unrhyw ddefnyddiwr unigol.
       Fe'i defnyddir at ddibenion ffederasiwn ac ni ddylid ei rwystro oni bai eich bod am rwystro'r achos cyfan, ac os felly dylech ddefnyddio bloc parth.
@@ -46,7 +46,7 @@ cy:
       rejecting_media: Ni fydd ffeiliau cyfryngau o'r gweinydd hwn yn cael eu prosesu ac ni fydd unrhyw fawd yn cael eu harddangos, sy'n gofyn am glicio â llaw i'r gweinydd arall.
       silenced: Ni fydd swyddi o'r gweinydd hwn yn ymddangos yn unman heblaw eich porthiant cartref os dilynwch yr awdur.
       suspended: Ni fyddwch yn gallu dilyn unrhyw un o'r gweinydd hwn, ac ni fydd unrhyw ddata ohono'n cael ei brosesu na'i storio, ac ni chyfnewidir unrhyw ddata.
-    unavailable_content_html: Yn gyffredinol, mae Mastodon yn caniatáu ichi weld cynnwys gan unrhyw weinyddwr arall yn y ffederasiwn a rhyngweithio â hi. Dyma'r eithriadau a wnaed ar y gweinydd penodol hwn.
+    unavailable_content_html: Yn gyffredinol, mae koyu.space yn caniatáu ichi weld cynnwys gan unrhyw weinyddwr arall yn y ffederasiwn a rhyngweithio â hi. Dyma'r eithriadau a wnaed ar y gweinydd penodol hwn.
     user_count_after:
       few: defnyddwyr
       many: defnyddwyr
@@ -55,7 +55,7 @@ cy:
       two: defnyddwyr
       zero: defnyddwyr
     user_count_before: Cartref i
-    what_is_mastodon: Beth yw Mastodon?
+    what_is_mastodon: Beth yw koyu.space?
   accounts:
     choices_html: 'Dewisiadau %{name}:'
     endorsements_hint: Gallwch gymeradwyo pobl rydych chi'n eu dilyn o'r rhyngwyneb gwe, a byddan nhw'n ymddangos yma.
@@ -583,20 +583,20 @@ cy:
         desc_html: Dangos bathodyn staff ar dudalen defnyddiwr
         title: Dangos bathodyn staff
       site_description:
-        desc_html: Paragraff agoriadol ar y dudalen flaen. Disgrifiwch yr hyn sy'n arbennig am y gweinydd Mastodon hwn ac unrhywbeth arall o bwys. Mae modd defnyddio tagiau HTML <code>&lt;a&gt;</code> a <code>&lt;em&gt;</code>.
+        desc_html: Paragraff agoriadol ar y dudalen flaen. Disgrifiwch yr hyn sy'n arbennig am y gweinydd koyu.space hwn ac unrhywbeth arall o bwys. Mae modd defnyddio tagiau HTML <code>&lt;a&gt;</code> a <code>&lt;em&gt;</code>.
         title: Disgrifiad achos
       site_description_extended:
         desc_html: Lle da ar gyfer eich cod ymddygiad, rheolau, canllawiau a phethau eraill sy'n gwneud eich achos yn whanol. Mae modd i chi ddefnyddio tagiau HTML
         title: Gwybodaeth bellach wedi ei addasu
       site_short_description:
-        desc_html: Yn cael ei ddangos yn bar ar yr ochr a tagiau meto. Digrifiwch beth yw Mastodon a beth sy'n gwneud y gweinydd hwn mewn un paragraff. Os yn wag, wedi ei ragosod i ddangos i disgrifiad yr achos.
+        desc_html: Yn cael ei ddangos yn bar ar yr ochr a tagiau meto. Digrifiwch beth yw koyu.space a beth sy'n gwneud y gweinydd hwn mewn un paragraff. Os yn wag, wedi ei ragosod i ddangos i disgrifiad yr achos.
         title: Disgrifiad byr o'r achos
       site_terms:
         desc_html: Mae modd i chi ysgrifennu polisi preifatrwydd, termau gwasanaeth a cyfreitheg arall eich hun. Mae modd defnyddio tagiau HTML
         title: Termau gwasanaeth wedi eu haddasu
       site_title: Enw'r achos
       spam_check_enabled:
-        desc_html: Gall Mastodon adrodd cyrfifau sy'n anfon negeseuon niferus na chrefwyd yn awtomatig. Efallai fydd yna positifau anwir.
+        desc_html: Gall koyu.space adrodd cyrfifau sy'n anfon negeseuon niferus na chrefwyd yn awtomatig. Efallai fydd yna positifau anwir.
         title: Awtomeiddiad gwrth-sbam
       thumbnail:
         desc_html: Ceith ei ddefnyddio ar gyfer rhagolygon drwy OpenGraph a'r API. Argymhellir 1200x630px
@@ -677,7 +677,7 @@ cy:
     confirmation_dialogs: Deialog cadarnhau
     discovery: Darganfyddiad
     localization:
-      body: Caiff Mastodon ei gyfieithu gan wirfoddolwyr.
+      body: Caiff koyu.space ei gyfieithu gan wirfoddolwyr.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Gall pawb gyfrannu.
     sensitive_content: Cynnwys sensitif
@@ -705,9 +705,9 @@ cy:
     delete_account: Dileu cyfrif
     delete_account_html: Os hoffech chi ddileu eich cyfrif, mae modd <a href="%{path}">parhau yma</a>. Bydd gofyn i chi gadarnhau.
     description:
-      prefix_invited_by_user: Mae @%{name} yn eich wahodd i ymuno â'r gweinidd Mastodon hon!
+      prefix_invited_by_user: Mae @%{name} yn eich wahodd i ymuno â'r gweinidd koyu.space hon!
       prefix_sign_up: Cofrestru ar Fastodon heddiw!
-      suffix: Gyda cyfrif, byddwch yn gallu dilyn pobl, postio dilysiadau a chyfnewid negeseuon gyda defnyddwyr o unrhyw gweinydd Mastodon ac mwy!
+      suffix: Gyda cyfrif, byddwch yn gallu dilyn pobl, postio dilysiadau a chyfnewid negeseuon gyda defnyddwyr o unrhyw gweinydd koyu.space ac mwy!
     didnt_get_confirmation: Heb dderbyn cyfarwyddiadau cadarnhau?
     forgot_password: Wedi anghofio'ch cyfrinair?
     invalid_reset_password_token: Tocyn ailosod cyfrinair yn annilys neu wedi dod i ben. Gwnewch gais am un newydd os gwelwch yn dda.
@@ -811,7 +811,7 @@ cy:
       content: Mae'n ddrwg gennym ni, ond fe aeth rhywbeth o'i le ar ein rhan ni.
       title: Nid yw'r dudalen hon yn gywir
     '503': Ni chaiff y dudalen ei weini oherwydd gwall gweinydd dros dro.
-    noscript_html: I ddefnyddio ap gwe Mastodon, galluogwch JavaScript os gwlwch yn dda. Fel arall, gallwch drio un o'r <a href="%{apps_path}">apiau cynhenid</a> ar gyfer Mastodon ar eich platfform.
+    noscript_html: I ddefnyddio ap gwe koyu.space, galluogwch JavaScript os gwlwch yn dda. Fel arall, gallwch drio un o'r <a href="%{apps_path}">apiau cynhenid</a> ar gyfer koyu.space ar eich platfform.
   existing_username_validator:
     not_found: ni ddarganfwyd defnyddiwr lleol gyda'r enw cyfrif hynny
     not_found_multiple: ni ddarganfwyd %{usernames}
@@ -1142,7 +1142,7 @@ cy:
     aliases: Aliasau cyfrif
     appearance: Arddangosiad
     authorized_apps: Apiau awdurdodedig
-    back: Yn ôl i Mastodon
+    back: Yn ôl i koyu.space
     delete: Dileu cyfrif
     development: Datblygu
     edit_profile: Golygu proffil
@@ -1236,7 +1236,7 @@ cy:
       <ul>
       <li><em>Gwybodaeth cyfrif sylfaenol</em>: Os ydych yn cofrestru ar y gweinydd hwn, mae'n bosib y byddwch yn cael eich gofyn i fewnbynnu enw defnyddiwr, cyfeiriad e-bost a chyfrinair. Mae modd i chi hefyd fewnbynnu gwybodaeth ychwanegol megis enw arddangos a bywgraffiad ac uwchlwytho llun proffil a llun pennawd. Mae'r enw defnyddiwr, enw arddangos, bywgraffiad, llun proffil a'r llun pennawd wedi eu rhestru'n gyhoeddus bob tro.</li>
       <li><em>Postio, dilyn a gwybodaeth gyhoeddus arall</em>: Mae'r rhestr o bobl yr ydych yn dilyn wedi ei restru'n gyhoeddus, mae'r un peth yn wir am eich dilynwyr. Pan yr ydych yn mewnosod neges, mae'r dyddiad a'r amser yn cael ei gofnodi ynghyd a'r rhaglen y wnaethoch anfon y neges ohonni. Gall negeseuon gynnwys atodiadau cyfryngau, megis lluniau neu fideo. Mae negeseuon cyhoeddus a negeseuon heb eu rhestru ar gael yn gyhoeddus. Pan yr ydych yn nodweddu neges ar eich proffil, mae hynny hefyd yn wybodaeth sydd ar gael yn gyhoeddus. Mae eich negeseuon yn cael eu hanfon i'ch dilynwyr, mewn rhai achosion mae hyn yn golygu eu bod yn cael eu hanfon i amryw o weinyddwyr ac fe fydd copiau yn cael eu cadw yno. Pan yr ydych yn dileu negeseuon, mae hyn hefyd yn cael ei hanfon i'ch dilynwyr. Mae'r weithred o rannu neu hoffi neges arall yn gyhoeddus bob tro.</li>
-      <li><em>Negeseuon uniongyrchol a dilynwyr yn unig</em>: Mae pob neges yn cael eu cadw a'u prosesu ar y gweinydd. Mae negeseuon dilynwyr yn unig yn cael eu hanfon i'ch dilynwyr a'r defnyddwyr sy'n cael eu crybwyll ynddynt tra bod negeseuon uniongyrchol yn cael eu hanfon at rheini sy'n cael crybwyll ynddynt yn unig. Mewn rhai achostion golyga hyn eu bod yn cael eu hanfon i weinyddwyr gwahanol a'u cadw yno. yr ydym yn gnweud ymgais ewyllys da i gyfyngu'r mynediad at y negeseuon yna i bobl ac awdurdod yn unig, ond mae'n bosib y bydd gweinyddwyr eraill yn methu a gwneud hyn. Mae'n bwysig felly i chi fod yn wyliadwrus o ba weinyddwyr y mae eich dilynwyr yn perthyn iddynt. Mae modd i chi osod y dewis i ganiatau a gwrthod dilynwyr newydd a llaw yn y gosodiadau. <em>Cofiwch gall gweithredwyr y gweinydd ac unrhyw weinydd derbyn weld unrhyw negeseuon o'r fath</em>, ac fe all y derbynwyr gymryd sgrinlin, copïo neu drwy ddulliau eraill rannu rhain. <em>Peidiwch a rhannu unrhyw wybodaeth beryglus dros Mastodon.</em></li>
+      <li><em>Negeseuon uniongyrchol a dilynwyr yn unig</em>: Mae pob neges yn cael eu cadw a'u prosesu ar y gweinydd. Mae negeseuon dilynwyr yn unig yn cael eu hanfon i'ch dilynwyr a'r defnyddwyr sy'n cael eu crybwyll ynddynt tra bod negeseuon uniongyrchol yn cael eu hanfon at rheini sy'n cael crybwyll ynddynt yn unig. Mewn rhai achostion golyga hyn eu bod yn cael eu hanfon i weinyddwyr gwahanol a'u cadw yno. yr ydym yn gnweud ymgais ewyllys da i gyfyngu'r mynediad at y negeseuon yna i bobl ac awdurdod yn unig, ond mae'n bosib y bydd gweinyddwyr eraill yn methu a gwneud hyn. Mae'n bwysig felly i chi fod yn wyliadwrus o ba weinyddwyr y mae eich dilynwyr yn perthyn iddynt. Mae modd i chi osod y dewis i ganiatau a gwrthod dilynwyr newydd a llaw yn y gosodiadau. <em>Cofiwch gall gweithredwyr y gweinydd ac unrhyw weinydd derbyn weld unrhyw negeseuon o'r fath</em>, ac fe all y derbynwyr gymryd sgrinlin, copïo neu drwy ddulliau eraill rannu rhain. <em>Peidiwch a rhannu unrhyw wybodaeth beryglus dros koyu.space.</em></li>
       <li><em>IPs a mathau eraill o metadata</em>: Pan yr ydych yn mewngofnodi, yr ydym yn cofnodi y cyfeiriad IP yr ydych yn mewngofnodi ohonno, ynghyd a enw eich rhaglen pori. Mae pob un sesiwn mewngofnodi ar gael i chi adolygu a gwrthod yn y gosodiadau. Mae'r cyfeiriad IP diweddaraf yn cael ei storio hyd at 12 mis. Mae'n bosib y byddwn hefyd yn cadw cofnodion gweinydd sy'n cynnwys y cyfeiriad IP am bob cais sy'n cael ei wneud i'n gweinydd.</li>
       </ul>
 
@@ -1247,7 +1247,7 @@ cy:
       <p>Gall unrhyw wybodaeth yr ydym yn ei gasglu oddi wrthych gael ei ddefnyddio yn y ffyrdd canlynol:</p>
 
       <ul>
-      <li>I ddarparu prif weithgaredd Mastodon. Gallwch ond rhyngweithio a chynnwys pobl eraill pan yr ydych wedi'ch mewngofnodi. Er enghraifft, gallwch ddilyn pobl eraill i weld eu negeseuon wedi cyfuno ar ffrwd gartref bersonol.</li>
+      <li>I ddarparu prif weithgaredd koyu.space. Gallwch ond rhyngweithio a chynnwys pobl eraill pan yr ydych wedi'ch mewngofnodi. Er enghraifft, gallwch ddilyn pobl eraill i weld eu negeseuon wedi cyfuno ar ffrwd gartref bersonol.</li>
       <li>I helpu gyda goruwchwylio'r gymuned, er enghraifft drwy gymharu eich cyfeiriad IP gyda rhai eraill hysbys er mwyn sefydlu ymgais i geisio hepgor gwaharddiad neu droseddau eraill.</li>
       <li>Gall y cyfeiriad e-bost yr ydych yn ei ddarparu gael ei ddefnyddio i anfon gwybodaeth atoch, hsybysiadau am bobl eraill yn rhyngweithio a'ch cynnwys neu'n anfon negeseuon atoch a/neu geisiadau neu gwestiynnau eraill.</li>
       </ul>
@@ -1312,9 +1312,9 @@ cy:
       <p>Cafodd ei addasu yn wreiddiol o'r<a href="https://github.com/discourse/discourse">Polisi preifatrwydd disgwrs</a>.</p>
     title: "%{instance} Termau Gwasanaeth a Polisi Preifatrwydd"
   themes:
-    contrast: Mastodon (Cyferbyniad uchel)
-    default: Mastodon (Tywyll)
-    mastodon-light: Mastodon (golau)
+    contrast: koyu.space (Cyferbyniad uchel)
+    default: koyu.space (Tywyll)
+    mastodon-light: koyu.space (golau)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1337,7 +1337,7 @@ cy:
     wrong_code: Roedd y cod y mewnbynnwyd yn annilys! A yw'r amser gweinydd ac amser dyfais yn gywir?
   user_mailer:
     backup_ready:
-      explanation: Fe wnaethoch chi gais am gopi wrth gefn llawn o'ch cyfrif Mastodon. Mae nawr yn barod i'w lawrlwytho!
+      explanation: Fe wnaethoch chi gais am gopi wrth gefn llawn o'ch cyfrif koyu.space. Mae nawr yn barod i'w lawrlwytho!
       subject: Mae eich archif yn barod i'w lawrlwytho
       title: Allfudo archif
     warning:
@@ -1368,11 +1368,11 @@ cy:
       full_handle_hint: Dyma'r hyn y bysech yn dweud wrth eich ffrindiau er mwyn iddyn nhw gael anfon neges atoch o achos arall.
       review_preferences_action: Newid dewisiadau
       review_preferences_step: Gwnewch yn siŵr i chi osod eich dewisiadau, megis pa e-byst hoffech eu derbyn, neu ba lefel preifatrwydd hoffech eich tŵtiau ragosod i. Os nad oes gennych salwch symud, gallwch ddewis i ganiatau chwarae GIFs yn awtomatig.
-      subject: Croeso i Mastodon
-      tip_federated_timeline: Mae'r ffrwd ffederasiwn yn olwg firehose o'r rhwydwaith Mastodon. Ond mae ond yn cynnwys y bobl mae eich cymdogion wedi ymrestru iddynt, felly nid yw'n gyflawn.
+      subject: Croeso i koyu.space
+      tip_federated_timeline: Mae'r ffrwd ffederasiwn yn olwg firehose o'r rhwydwaith koyu.space. Ond mae ond yn cynnwys y bobl mae eich cymdogion wedi ymrestru iddynt, felly nid yw'n gyflawn.
       tip_following: Rydych yn dilyn goruwchwyliwr eich gweinydd yn ddiofyn. I ganfod pobl mwy diddorol, edrychwch ar y ffrydiau lleol a'r rhai wedi ei ffedereiddio.
       tip_local_timeline: Mae'r ffrwd leol yn olwg firehose o bobl ar %{instance}. Dyma eich cymdogion agosaf!
-      tip_mobile_webapp: Os yw eich porwr gwe yn cynnig i chi ychwanegu Mastodon i'ch sgrîn gartref, mae modd i chi dderbyn hysbysiadau gwthiadwy. Mewn sawl modd mae'n gweithio fel ap cynhenid!
+      tip_mobile_webapp: Os yw eich porwr gwe yn cynnig i chi ychwanegu koyu.space i'ch sgrîn gartref, mae modd i chi dderbyn hysbysiadau gwthiadwy. Mewn sawl modd mae'n gweithio fel ap cynhenid!
       tips: Awgrymiadau
       title: Croeso, %{name}!
   users:
@@ -1383,5 +1383,5 @@ cy:
     seamless_external_login: Yr ydych wedi'ch mewngofnodi drwy wasanaeth allanol, felly nid yw gosodiadau cyfrinair ac e-bost ar gael.
     signed_in_as: 'Wedi mewngofnodi fel:'
   verification:
-    explanation_html: 'Mae modd i chi <strong>ddilysu eich hun fel perchenog y dolenni yn metadata eich proffil</strong>. Rhaid i''r wefan a dolen iddi gynnwys dolen yn ôl i''ch proffil Mastodon. <strong>Rhaid</strong> i''r ddolen yn ôl gael nodwedd <code>rel="fi"</code>. Nid oes ots beth yw cynnwys testun y ddolen. Dyma enghraifft:'
+    explanation_html: 'Mae modd i chi <strong>ddilysu eich hun fel perchenog y dolenni yn metadata eich proffil</strong>. Rhaid i''r wefan a dolen iddi gynnwys dolen yn ôl i''ch proffil koyu.space. <strong>Rhaid</strong> i''r ddolen yn ôl gael nodwedd <code>rel="fi"</code>. Nid oes ots beth yw cynnwys testun y ddolen. Dyma enghraifft:'
     verification: Dilysu

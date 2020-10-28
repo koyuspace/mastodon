@@ -2,24 +2,24 @@
 sl:
   about:
     about_hashtag_html: To so javni tuti, označeni z <strong>#%{hashtag}</strong>. Z njimi se lahko povežete, če imate račun kjerkoli v fediverse-u.
-    about_mastodon_html: Mastodon je socialno omrežje, ki temelji na odprtih spletnih protokolih in prosti ter odprtokodni programski opremi. Je decentraliziran, kot e-pošta.
-    about_this: O Mastodonu
+    about_mastodon_html: koyu.space je socialno omrežje, ki temelji na odprtih spletnih protokolih in prosti ter odprtokodni programski opremi. Je decentraliziran, kot e-pošta.
+    about_this: O koyu.spaceu
     active_count_after: dejaven
     active_footnote: Aktivni mesečni uporabniki (AMU)
     administered_by: 'Upravlja:'
     api: API
     apps: Mobilne aplikacije
-    apps_platforms: Uporabljajte Mastodon iz iOS, Android ali iz drugih platform
+    apps_platforms: Uporabljajte koyu.space iz iOS, Android ali iz drugih platform
     browse_directory: Brskajte po imeniku profilov in filtriranje po interesih
-    browse_public_posts: Brskajte javnih objav v živo na Mastodonu
+    browse_public_posts: Brskajte javnih objav v živo na koyu.spaceu
     contact: Kontakt
     contact_missing: Ni nastavljeno
     contact_unavailable: Ni na voljo
     discover_users: Odkrijte uporabnike
     documentation: Dokumentacija
-    federation_hint_html: Z računom na %{instance} boste lahko spremljali ljudi na kateremkoli Mastodon strežniku.
+    federation_hint_html: Z računom na %{instance} boste lahko spremljali ljudi na kateremkoli koyu.space strežniku.
     get_apps: Poskusite mobilno aplikacijo
-    hosted_on: Mastodon gostuje na %{domain}
+    hosted_on: koyu.space gostuje na %{domain}
     instance_actor_flash: |
       Ta račun je navidezni igralec, ki predstavlja strežnik in ne posameznega uporabnika.
       Uporablja se za namene federacije in se ne blokira, če ne želite blokirati celotne instance. V tem primeru blokirajte domeno.
@@ -42,7 +42,7 @@ sl:
       other: uporabnikov
       two: uporabnika
     user_count_before: Dom za
-    what_is_mastodon: Kaj je Mastodon?
+    what_is_mastodon: Kaj je koyu.space?
   accounts:
     choices_html: "%{name} izbire:"
     follow: Sledi
@@ -445,20 +445,20 @@ sl:
         desc_html: Prikaži značko osebja na uporabniški strani
         title: Prikaži značko osebja
       site_description:
-        desc_html: Uvodni odstavek na API-ju. Opišite, zakaj je ta Mastodon strežnik poseben in karkoli pomembnega. Lahko uporabite HTML oznake, zlasti <code>&lt;a&gt;</code> in <code>&lt;em&gt;</code>.
+        desc_html: Uvodni odstavek na API-ju. Opišite, zakaj je ta koyu.space strežnik poseben in karkoli pomembnega. Lahko uporabite HTML oznake, zlasti <code>&lt;a&gt;</code> in <code>&lt;em&gt;</code>.
         title: Opis strežnika
       site_description_extended:
         desc_html: Dober kraj za vaš kodeks ravnanja, pravila, smernice in druge stvari, ki ločujejo vaš strežnik. Lahko uporabite oznake HTML
         title: Razširjene informacije po meri
       site_short_description:
-        desc_html: Prikazano v stranski vrstici in metaoznakah. V enem odstavku opišite, kaj je Mastodon in kaj naredi ta strežnik poseben.
+        desc_html: Prikazano v stranski vrstici in metaoznakah. V enem odstavku opišite, kaj je koyu.space in kaj naredi ta strežnik poseben.
         title: Kratek opis strežnika
       site_terms:
         desc_html: Lahko napišete svojo pravilnik o zasebnosti, pogoje storitve ali druge pravne dokumente. Lahko uporabite oznake HTML
         title: Pogoji storitve po meri
       site_title: Ime strežnika
       spam_check_enabled:
-        desc_html: Mastodon lahko samodejno utiša in samodejno prijavi račune, ki temeljijo na ukrepih, kot je odkrivanje računov, ki pošiljajo ponavljajoča se neželena sporočila. Lahko pride do zmot.
+        desc_html: koyu.space lahko samodejno utiša in samodejno prijavi račune, ki temeljijo na ukrepih, kot je odkrivanje računov, ki pošiljajo ponavljajoča se neželena sporočila. Lahko pride do zmot.
         title: Anti-spam
       thumbnail:
         desc_html: Uporablja se za predogled prek OpenGrapha in API-ja. Priporočamo 1200x630px
@@ -597,7 +597,7 @@ sl:
       content: Žal nam je, toda na našem koncu je prišlo do napake.
       title: Ta stran ni pravilna
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Če želite uporabljati spletno aplikacijo Mastodon, omogočite JavaScript. Druga možnost je, da za svojo platformo poskusite eno od <a href="%{apps_path}">lastnih aplikacij</a> za Mastodon.
+    noscript_html: Če želite uporabljati spletno aplikacijo koyu.space, omogočite JavaScript. Druga možnost je, da za svojo platformo poskusite eno od <a href="%{apps_path}">lastnih aplikacij</a> za koyu.space.
   existing_username_validator:
     not_found: s tem uporabniškim imenom ni bilo mogoče najti lokalnega uporabnika
     not_found_multiple: ni bilo mogoče najti %{usernames}
@@ -845,7 +845,7 @@ sl:
       weibo: Weibo
     current_session: Trenutna seja
     description: "%{browser} na %{platform}"
-    explanation: To so spletni brskalniki, ki so trenutno prijavljeni v vaš Mastodon račun.
+    explanation: To so spletni brskalniki, ki so trenutno prijavljeni v vaš koyu.space račun.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -868,7 +868,7 @@ sl:
     account_settings: Nastavitve računa
     appearance: Videz
     authorized_apps: Pooblaščene aplikacije
-    back: Nazaj na Mastodon
+    back: Nazaj na koyu.space
     delete: Brisanje računa
     development: Razvoj
     edit_profile: Uredi profil
@@ -940,7 +940,7 @@ sl:
       <ul>
       <li><em>Osnovni podatki o računu</em>: Če se registrirate na tem strežniku, boste morda morali vnesti uporabniško ime, e-poštni naslov in geslo. Vnesete lahko tudi dodatne informacije o profilu, na primer prikazno ime in biografijo, ter naložite sliko profila in sliko glave. Uporabniško ime, prikazno ime, biografija, slika profila in slika glave so vedno javno dostopni.</li>
       <li><em>Objave, sledenja in druge javne informacije</em>: Seznam oseb, ki jim sledite, je javno dostopen, enako velja za vaše sledilce. Ko pošljete sporočilo, sta datum in čas shranjena, kot tudi aplikacija, iz katere ste poslali sporočilo. Sporočila lahko vsebujejo medijske priloge, kot so slike in video posnetki. Javne in neprikazane objave so javno dostopne. Ko v profilu vključite objavo, je to tudi javno dostopna informacija. Vaše objave, ki so dostavljene vašim sledilcem, so včasih dostavljeni na različne strežnike, kjer se kopije objav tudi shranijo. Ko izbrišete objave, se to prav tako dostavi vašim sledilcem. Spodbujanje in vzljubitev drugih objav sta veno javni.</li>
-      <li><em>Neposredne objave in objave samo za sledilce</em>: Vse objave so shranjene in obdelane na strežniku. Objave samo za sledilce se dostavijo vašim sledilcem in uporabnikom, ki so v njih omenjeni. Neposredne objave se posredujejo samo uporabnikom, ki so v njih omenjeni. V nekaterih primerih so dostavljeni na različne strežnike, kopije pa se shranijo tam. V dobri veri si prizadevamo omejiti dostop do teh objav samo pooblaščenim osebam, vendar drugi strežniki to morda ne bodo storili. Zato je pomembno, da pregledate strežnike, na katerih so sledilci. V nastavitvah lahko preklapljate med možnostmi za odobritev in zavrnitev novih sledilcev. <em> Ne pozabite, da lahko operaterji strežnika in kateri koli prejemni strežnik takšna sporočila pregledajo </em> in da jih lahko prejemniki posnamejo, kopirajo ali drugače ponovno delijo. <em> Ne pošiljajte nevarnih informacij skozi Mastodon. </em> </li>
+      <li><em>Neposredne objave in objave samo za sledilce</em>: Vse objave so shranjene in obdelane na strežniku. Objave samo za sledilce se dostavijo vašim sledilcem in uporabnikom, ki so v njih omenjeni. Neposredne objave se posredujejo samo uporabnikom, ki so v njih omenjeni. V nekaterih primerih so dostavljeni na različne strežnike, kopije pa se shranijo tam. V dobri veri si prizadevamo omejiti dostop do teh objav samo pooblaščenim osebam, vendar drugi strežniki to morda ne bodo storili. Zato je pomembno, da pregledate strežnike, na katerih so sledilci. V nastavitvah lahko preklapljate med možnostmi za odobritev in zavrnitev novih sledilcev. <em> Ne pozabite, da lahko operaterji strežnika in kateri koli prejemni strežnik takšna sporočila pregledajo </em> in da jih lahko prejemniki posnamejo, kopirajo ali drugače ponovno delijo. <em> Ne pošiljajte nevarnih informacij skozi koyu.space. </em> </li>
       <li><em>IP-ji in drugi metapodatki</em>: Ko se prijavite, zabeležimo naslov IP, s katerega se prijavljate, in ime aplikacije brskalnika. V nastavitvah so za pregled in preklic na voljo vse prijavljene seje. Zadnji uporabljeni IP naslov je shranjen do 12 mesecev. Prav tako lahko obdržimo dnevnike strežnikov, ki vsebujejo IP naslov vsake zahteve na naš strežnik. </li>
       </ul>
 
@@ -951,7 +951,7 @@ sl:
       <p>Vse informacije, ki jih zbiramo od vas, so lahko uporabljene na naslednje načine:</p>
 
       <ul>
-      <li>Za zagotavljanje osrednje funkcionalnosti Mastodona. Komunicirate lahko z vsebino drugih oseb in objavljate lastno vsebino, ko ste prijavljeni. Na primer, lahko spremljate druge osebe in si ogledate njihove kombinirane objave v svoji prilagojeni domači časovnici.</li>
+      <li>Za zagotavljanje osrednje funkcionalnosti koyu.spacea. Komunicirate lahko z vsebino drugih oseb in objavljate lastno vsebino, ko ste prijavljeni. Na primer, lahko spremljate druge osebe in si ogledate njihove kombinirane objave v svoji prilagojeni domači časovnici.</li>
       <li>Za pomoč pri moderiranju skupnosti, na primer primerjavo vašega naslova IP naslova z drugimi znanimi, za izobčitev izmikanja ali drugih kršitev.</li>
       <li>E-poštni naslov, ki ga navedete, se lahko uporabi za pošiljanje informacij, obvestil o drugih osebah, ki komunicirajo z vašo vsebino ali pošiljanju sporočil, ter za odzivanje na poizvedbe in/ali druge zahteve ali vprašanja.</li>
       </ul>
@@ -1016,9 +1016,9 @@ sl:
       <p>Prvotno je bila prilagojena v skladu s <a href="https://github.com/discourse/discourse">pravilnikom o zasebnosti diskurza</a>.</p>
     title: "%{instance} Pogoji storitve in pravilnik o zasebnosti"
   themes:
-    contrast: Mastodon (Visok kontrast)
-    default: Mastodon (Temna)
-    mastodon-light: Mastodon (Svetla)
+    contrast: koyu.space (Visok kontrast)
+    default: koyu.space (Temna)
+    mastodon-light: koyu.space (Svetla)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1041,7 +1041,7 @@ sl:
     wrong_code: Vnesena koda je bila neveljavna! Ali sta čas strežnika in čas naprave pravilna?
   user_mailer:
     backup_ready:
-      explanation: Zahtevali ste popolno varnostno kopijo računa Mastodon. Zdaj je pripravljen za prenos!
+      explanation: Zahtevali ste popolno varnostno kopijo računa koyu.space. Zdaj je pripravljen za prenos!
       subject: Vaš arhiv je pripravljen za prenos
       title: Prevzem arhiva
     warning:
@@ -1070,11 +1070,11 @@ sl:
       full_handle_hint: To bi povedali svojim prijateljem, da vam lahko pošljejo sporočila ali vam sledijo iz drugega strežnika.
       review_preferences_action: Spremenite nastavitve
       review_preferences_step: Poskrbite, da določite svoje nastavitve, na primer, katera e-poštna sporočila želite prejemati ali katere privzete ravni zasebnosti bodo imele vaše objave. Če nimate potovalne slabosti, lahko omogočite samodejno predvajanje GIF-ov.
-      subject: Dobrodošli na Mastodon
-      tip_federated_timeline: Združena časovnica je pogled na mrežo Mastodona. Vključuje pa samo ljudi, na katere so naročeni vaši sosedje, zato ni popolna.
+      subject: Dobrodošli na koyu.space
+      tip_federated_timeline: Združena časovnica je pogled na mrežo koyu.spacea. Vključuje pa samo ljudi, na katere so naročeni vaši sosedje, zato ni popolna.
       tip_following: Privzeto sledite skrbnikom strežnika. Če želite najti več zanimivih ljudi, preverite lokalne in združene časovnice.
       tip_local_timeline: Lokalna časovnica je strežniški pogled ljudi na %{instance}. To so vaši neposredni sosedje!
-      tip_mobile_webapp: Če vam mobilni brskalnik ponuja, da dodate Mastodon na domači zaslon, lahko prejmete potisna obvestila. Deluje kot lastna aplikacija na več načinov!
+      tip_mobile_webapp: Če vam mobilni brskalnik ponuja, da dodate koyu.space na domači zaslon, lahko prejmete potisna obvestila. Deluje kot lastna aplikacija na več načinov!
       tips: Nasveti
       title: Dobrodošli, %{name}!
   users:
@@ -1085,5 +1085,5 @@ sl:
     seamless_external_login: Prijavljeni ste prek zunanje storitve, tako da nastavitve gesla in e-pošte niso na voljo.
     signed_in_as: 'Vpisani kot:'
   verification:
-    explanation_html: '<strong>V metapodatkih svojega profila se lahko potrdite kot lastnik povezav</strong>. Za to mora povezano spletno mesto vsebovati povezavo do vašega Mastodon profila. Povezava <strong>mora</strong> imeti atribut <code>el="me"</code>. Vsebina besedila povezave ni pomembna. Tukaj je primer:'
+    explanation_html: '<strong>V metapodatkih svojega profila se lahko potrdite kot lastnik povezav</strong>. Za to mora povezano spletno mesto vsebovati povezavo do vašega koyu.space profila. Povezava <strong>mora</strong> imeti atribut <code>el="me"</code>. Vsebina besedila povezave ni pomembna. Tukaj je primer:'
     verification: Potrditev

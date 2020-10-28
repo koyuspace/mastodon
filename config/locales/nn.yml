@@ -2,17 +2,17 @@
 nn:
   about:
     about_hashtag_html: Dette er offentlege tut merkt med <strong>#%{hashtag}</strong>. Du kan nytta dei om du har ein konto kvar som helst i fødiverset.
-    about_mastodon_html: 'Framtidas sosiale nettverk: Ingen annonsar, ingen verksemder som overvaker deg, etisk design og desentralisering! Eig idéane dine med Mastodon!'
+    about_mastodon_html: 'Framtidas sosiale nettverk: Ingen annonsar, ingen verksemder som overvaker deg, etisk design og desentralisering! Eig idéane dine med koyu.space!'
     about_this: Om oss
     active_count_after: aktiv
     active_footnote: Månadlege aktive brukarar (MAB)
     administered_by: 'Administrert av:'
     api: API
     apps: Mobilappar
-    apps_platforms: Bruk Mastodon på iOS, Android og andre plattformer
+    apps_platforms: Bruk koyu.space på iOS, Android og andre plattformer
     browse_directory: Bla gjennom en profilmappe og filtrer etter interesser
     browse_local_posts: Bla i en sanntidsstrøm av offentlige innlegg fra denne tjeneren
-    browse_public_posts: Sjå ei direktesending av offentlege innlegg på Mastodon
+    browse_public_posts: Sjå ei direktesending av offentlege innlegg på koyu.space
     contact: Kontakt
     contact_missing: Ikkje sett
     contact_unavailable: I/T
@@ -20,7 +20,7 @@ nn:
     documentation: Dokumentasjon
     federation_hint_html: Med ein konto på %{instance} kan du fylgja folk på kva som helst slags Mastod-tenar og meir.
     get_apps: Prøv ein mobilapp
-    hosted_on: "%{domain} er vert for Mastodon"
+    hosted_on: "%{domain} er vert for koyu.space"
     instance_actor_flash: "Denne brukeren er en virtuell aktør brukt til å representere selve serveren og ingen individuell bruker. Det brukes til foreningsformål og bør ikke blokkeres med mindre du vil blokkere hele instansen, hvor domeneblokkering bør brukes i stedet. \n"
     learn_more: Lær meir
     privacy_policy: Personvernsreglar
@@ -40,12 +40,12 @@ nn:
       rejecting_media: 'Mediafiler fra disse tjenerne vil ikke bli behandlet eller lagret, og ingen miniatyrbilder vil bli vist, noe som vil kreve manuell klikking for å besøke den opprinnelige filen:'
       silenced: 'Innlegg frå desse tenarane vert gøymde frå offentlege tidsliner og samtalar, og det kjem ingen varsel frå samhandlingane til brukarane deira, med mindre du fylgjer dei:'
       suspended: 'Ingen data frå desse tenarane vert handsama, lagra eller sende til andre, som gjer det umogeleg å samhandla eller kommunisera med andre brukarar frå desse tenarane:'
-    unavailable_content_html: Mastodon gjev deg som regel lov til å sjå innhald og samhandla med brukarar frå alle andre tenarar i fødiverset. Dette er unnataka som er valde for akkurat denne tenaren.
+    unavailable_content_html: koyu.space gjev deg som regel lov til å sjå innhald og samhandla med brukarar frå alle andre tenarar i fødiverset. Dette er unnataka som er valde for akkurat denne tenaren.
     user_count_after:
       one: brukar
       other: brukarar
     user_count_before: Her bur
-    what_is_mastodon: Kva er Mastodon?
+    what_is_mastodon: Kva er koyu.space?
   accounts:
     choices_html: "%{name} sine val:"
     endorsements_hint: Du kan fremja folk dy fylgjer frå grensesnittet på nettet, og då visast dei her.
@@ -542,14 +542,14 @@ nn:
         desc_html: Ein god stad å setja reglar for åtferdskode, reglar, rettningsliner og andre ting som skil din tenar frå andre. Du kan nytta HTML-taggar
         title: Utvidet nettstedsinformasjon
       site_short_description:
-        desc_html: Vist i sidelinjen og i metastempler. Beskriv hva Mastodon er og hva som gjør denne tjeneren spesiell i én enkelt paragraf.
+        desc_html: Vist i sidelinjen og i metastempler. Beskriv hva koyu.space er og hva som gjør denne tjeneren spesiell i én enkelt paragraf.
         title: Stutt om tenaren
       site_terms:
         desc_html: Du kan skrive din egen personverns-strategi, bruksviklår og andre regler. Du kan bruke HTML tagger
         title: Eigne brukarvilkår
       site_title: Tenarnamn
       spam_check_enabled:
-        desc_html: Mastodon kan auto-rapportere kontoer som sender gjentatte uforespurte meldinger. Det kan oppstå falske positive treff.
+        desc_html: koyu.space kan auto-rapportere kontoer som sender gjentatte uforespurte meldinger. Det kan oppstå falske positive treff.
         title: Nettsøppelvern
       thumbnail:
         desc_html: Brukes ved forhandsvisning via OpenGraph og API. 1200x630px anbefales
@@ -628,7 +628,7 @@ nn:
     confirmation_dialogs: Bekreftelsesdialoger
     discovery: Oppdaging
     localization:
-      body: Mastodon er oversatt av frivillige.
+      body: koyu.space er oversatt av frivillige.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Alle kan bidra.
     sensitive_content: Sensitivt innhold
@@ -656,9 +656,9 @@ nn:
     delete_account: Slett konto
     delete_account_html: Om du vil sletta kontoen din, kan du <a href="%{path}">gå hit</a>. Du vert spurd etter stadfesting.
     description:
-      prefix_invited_by_user: "@%{name} spør deg om å verta med i ein Mastodon-tenar!"
-      prefix_sign_up: Meld deg på Mastodon i dag!
-      suffix: Med ein konto kan du fylgja folk, skriva innlegg og veksla meldingar med brukarar frå kva som helst annan Mastodon-tenar og meir!
+      prefix_invited_by_user: "@%{name} spør deg om å verta med i ein koyu.space-tenar!"
+      prefix_sign_up: Meld deg på koyu.space i dag!
+      suffix: Med ein konto kan du fylgja folk, skriva innlegg og veksla meldingar med brukarar frå kva som helst annan koyu.space-tenar og meir!
     didnt_get_confirmation: Fekk du ikkje stadfestingsinstruksjonar?
     forgot_password: Har du gløymt passordet ditt?
     invalid_reset_password_token: Tilgangsnykelen er ugyldig eller utgått. Ver venleg å beda om ein ny ein.
@@ -757,7 +757,7 @@ nn:
       content: Orsak. Vi har gjort noko feil.
       title: Denne sida er ikkje rett
     '503': Siden kunne ikke vises på grunn av en midlertidig serverfeil.
-    noscript_html: For å bruke Mastodon webapplikasjon må du aktivere JavaScript. Alternativt kan du forsøke en av de mange <a href="%{apps_path}">integrerte appene</a> for Mastodon til din plattform.
+    noscript_html: For å bruke koyu.space webapplikasjon må du aktivere JavaScript. Alternativt kan du forsøke en av de mange <a href="%{apps_path}">integrerte appene</a> for koyu.space til din plattform.
   existing_username_validator:
     not_found: fann ingen lokalbrukar med det namnet
     not_found_multiple: fann ikkje %{usernames}
@@ -1019,7 +1019,7 @@ nn:
       weibo: Weibo
     current_session: Noverande økt
     description: "%{browser} på %{platform}"
-    explanation: Desse nettlesarane er logga inn på Mastodon-kontoen din.
+    explanation: Desse nettlesarane er logga inn på koyu.space-kontoen din.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1043,7 +1043,7 @@ nn:
     aliases: Kallenamn til kontoen
     appearance: Utsjånad
     authorized_apps: Godkjende appar
-    back: Tilbake til Mastodon
+    back: Tilbake til koyu.space
     delete: Kontosletting
     development: Utvikling
     edit_profile: Endr profil
@@ -1115,7 +1115,7 @@ nn:
       <ul>
       <li><em>Grunnleggende kontoinformasjon</em>: Dersom du registrerer deg på denne tjeneren, vil du kanskje bli spurt om å skrive inn et brukernavn, en E-postadresse, og et passord. Du kan også skrive inn ytterligere profilinformasjon som f.eks. et visningsnavn og selvbiografi, og laste opp et profilbilde og toppfeltbilde. Brukernavnet, visningsnavnet, selvbiografien, profilbildet, og toppfeltbildet blir alltid vist offentlig.</li>
       <li><em>Innlegg, følging, og annen offentlig informasjon</em>: Listen over folk du følger blir vist offentlig, det samme gjelder for følgerne dine. Når du sender inn en melding, blir datoen og tidspunktet lagret såvel som programmet du sendte inn meldingen ifra. Meldinger kan inneholde mediavedlegg, som f.eks. bilder og videoer. Offentlige og uoppførte innlegg er offentlig tilgjengelige. Når du viser frem et innlegg på profilen din, er det også offentlig tilgjengelig informasjon. Dinne innlegg blir levert til dine følgere, og i noen tilfeller betyr det at blir levert til forskjellige tjenere og at kopier blir lagret der. Når du sletter innlegg, blir også det levert til dine følgere. Det å fremheve eller like et annet innlegg er alltid offentlig.</li>
-      <li><em>Direkteinnlegg og innlegg som kun er for følgere</em>: Alle innlegg er lagret og behandlet på tjeneren. Innlegg som kun er for følgere, blir levert til dine følgere, og direkteinnlegg leveres kun til brukere som er nevnt i dem. I noen tilfeller betyr det at de blir levert til forskjellige tjenere og at kopier blir lagret der. Vi gjør et forsøk i god sportsånd for å begrense tilgangen til disse innleggene til kun autoriserte personer, men andre tjenere kan mislykkes med sådan. Derfor er det viktig å gå i gjennom tjenerne som følgerne dine hører til i. I innstillingene kan du veksle på en innstilling for å godkjenne og avslå nye følgere manuelt. <em>Vennligst ha i tankene at operatørene til tjeneren og enhver mottakende tjener kan se slike meldinger</em>, og at mottakere kan ta skjermklipp av, kopiere, eller på annet vis dele dem videre. <em>Ikke del noe farlig informasjon over Mastodon.</em></li>
+      <li><em>Direkteinnlegg og innlegg som kun er for følgere</em>: Alle innlegg er lagret og behandlet på tjeneren. Innlegg som kun er for følgere, blir levert til dine følgere, og direkteinnlegg leveres kun til brukere som er nevnt i dem. I noen tilfeller betyr det at de blir levert til forskjellige tjenere og at kopier blir lagret der. Vi gjør et forsøk i god sportsånd for å begrense tilgangen til disse innleggene til kun autoriserte personer, men andre tjenere kan mislykkes med sådan. Derfor er det viktig å gå i gjennom tjenerne som følgerne dine hører til i. I innstillingene kan du veksle på en innstilling for å godkjenne og avslå nye følgere manuelt. <em>Vennligst ha i tankene at operatørene til tjeneren og enhver mottakende tjener kan se slike meldinger</em>, og at mottakere kan ta skjermklipp av, kopiere, eller på annet vis dele dem videre. <em>Ikke del noe farlig informasjon over koyu.space.</em></li>
       <li><em>IP-er og andre metadata</em>: Når du logger på, lagrer vi IP-adressen som du logget deg på fra, såvel som navnet til nettleserprogrammet ditt. Du kan gå gjennom og tilbakekalle alle påloggede økter i innstillingene. Den seneste IP-adressen du brukte, blir lagret i opptil 12 måneder. Vi vil kanskje også holde på tjenerloggføringer som inkluderer IP-adressen til alle forespørsler til tjeneren vår.</li>
       </ul>
 
@@ -1126,7 +1126,7 @@ nn:
       <p>Hva som helst av informasjonen som vi samler inn fra deg, kan bli brukt på de følgende måtene:</p>
 
       <ul>
-      <li>Til å levere grunnfunksjonaliteten til Mastodon. Du kan bare samhandle med andre folks innhold og legge ut ditt eget innhold når du er logget på. For eksempel kan du følge andre folk for å se deres kombinerte innlegg i din egen personliggjorte hjemmetidslinje.</li>
+      <li>Til å levere grunnfunksjonaliteten til koyu.space. Du kan bare samhandle med andre folks innhold og legge ut ditt eget innhold når du er logget på. For eksempel kan du følge andre folk for å se deres kombinerte innlegg i din egen personliggjorte hjemmetidslinje.</li>
       <li>Til å bistå i moderasjonen av samfunnet, for eksempel å sammenligne IP-adressen din med andre andre kjente adresser for å avgjøre saker om bannlysningsunngåelse eller andre regelbrudd.</li>
       <li>E-postadressen du oppgir kan bli brukt til å sende deg informasjon, varsler om at andre folk samhandler med innholdet ditt eller sender deg meldinger, og å svare på brukerstøttespørsmål, og/eller andre forespørsler eller spørsmål.</li>
       </ul>
@@ -1191,9 +1191,9 @@ nn:
       <p>Opprinnelig modifisert utifra <a href="https://github.com/discourse/discourse">Discourse sine privatlivsretningslinjer</a>.</p>
     title: Tenestevilkår og personvernsvilkår for %{instance}
   themes:
-    contrast: Mastodon (Høg kontrast)
-    default: Mastodon (Mørkt)
-    mastodon-light: Mastodon (Lyst)
+    contrast: koyu.space (Høg kontrast)
+    default: koyu.space (Mørkt)
+    mastodon-light: koyu.space (Lyst)
   time:
     formats:
       default: "%d.%b %Y, %H:%M"
@@ -1216,7 +1216,7 @@ nn:
     wrong_code: Den angitte koden var ugyldig! Stemmer instansens tid overalt med enhetens tid?
   user_mailer:
     backup_ready:
-      explanation: Du ba om en fullstendig sikkerhetskopi av Mastodon-kontoen din. Den er nå klar for nedlasting!
+      explanation: Du ba om en fullstendig sikkerhetskopi av koyu.space-kontoen din. Den er nå klar for nedlasting!
       subject: Arkivet ditt er klart til å lastes ned
     warning:
       explanation:
@@ -1246,8 +1246,8 @@ nn:
       full_handle_hint: Dette er det du fortel venene dine for at dei skal kunna senda deg meldingar eller fylgja deg frå ein annan tenar.
       review_preferences_action: Endr innstillingar
       review_preferences_step: Husk å justere dine innstillinger, som hvilke e-poster du ønsker å motta, eller hvor private du ønsker at dine poster skal være som standard. Hvis du ikke har bevegelsessyke kan du skru på automatisk avspilling av GIF-animasjoner.
-      subject: Velkomen til Mastodon
-      tip_federated_timeline: Den forente tidslinjen blir konstant matet med meldinger fra Mastodon-nettverket. Men den inkluderer bare personer dine naboer abbonerer på, så den er ikke komplett.
+      subject: Velkomen til koyu.space
+      tip_federated_timeline: Den forente tidslinjen blir konstant matet med meldinger fra koyu.space-nettverket. Men den inkluderer bare personer dine naboer abbonerer på, så den er ikke komplett.
       tip_following: Du fylgjer automatisk tenaradministrator(ane). For å finna fleire forvitnelege folk kan du sjekka den lokale og fødererte tidslina.
       tip_local_timeline: Den lokale tidslinjen blir kontant matet med meldinger fra personer på %{instance}. Dette er dine nærmeste naboer!
       tip_mobile_webapp: Hvis din mobile nettleser tilbyr deg å legge Mastadon til din hjemmeskjerm kan du motta push-varslinger. Det er nesten som en integrert app på mange måter!
@@ -1260,5 +1260,5 @@ nn:
     otp_lost_help_html: Hvis du mistet tilgangen til begge deler, kan du komme i kontakt med %{email}
     signed_in_as: 'Logga inn som:'
   verification:
-    explanation_html: 'Du kan <strong>bekrefte at du selv er eieren av lenkene i din profilmetadata</strong>. For å gjøre det, må det tillenkede nettstedet inneholde en lenke som fører tilbake til Mastodon-profilen din. Lenken tilbake <strong>må</strong> ha en <code>rel="me"</code>-attributt. Tekstinnholdet til lenken er irrelevant. Her er et eksempel:'
+    explanation_html: 'Du kan <strong>bekrefte at du selv er eieren av lenkene i din profilmetadata</strong>. For å gjøre det, må det tillenkede nettstedet inneholde en lenke som fører tilbake til koyu.space-profilen din. Lenken tilbake <strong>må</strong> ha en <code>rel="me"</code>-attributt. Tekstinnholdet til lenken er irrelevant. Her er et eksempel:'
     verification: Stadfesting

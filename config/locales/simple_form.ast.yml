@@ -18,7 +18,7 @@ ast:
       form_challenge:
         current_password: Tas entrando nuna área segura
       imports:
-        data: El ficheru CSV esportáu dende otra instancia de Mastodon
+        data: El ficheru CSV esportáu dende otra instancia de koyu.space
       invite_request:
         text: Esto va ayudanos a revisar la to aplicación
       sessions:

@@ -7,16 +7,16 @@ hr:
       send_paranoid_instructions: Ako tvoja email adresa postoji u našoj bazi podataka, primit ćeš email sa uputama kako ju potvrditi za nekoliko minuta.
     mailer:
       confirmation_instructions:
-        subject: 'Mastodon: Upute za potvrđivanje %{instance}'
+        subject: 'koyu.space: Upute za potvrđivanje %{instance}'
       email_changed:
-        subject: 'Mastodon: Email adresa je promijenjena'
+        subject: 'koyu.space: Email adresa je promijenjena'
         title: Nova email adresa
       password_change:
-        subject: 'Mastodon: Lozinka je promijenjena'
+        subject: 'koyu.space: Lozinka je promijenjena'
       reset_password_instructions:
-        subject: 'Mastodon: Upute za resetiranje lozinke'
+        subject: 'koyu.space: Upute za resetiranje lozinke'
       unlock_instructions:
-        subject: 'Mastodon: Upute za otključavanje'
+        subject: 'koyu.space: Upute za otključavanje'
     omniauth_callbacks:
       failure: Ne možemo te autentificirati sa %{kind} zbog "%{reason}".
       success: Uspješno autentificiran sa %{kind} računa.

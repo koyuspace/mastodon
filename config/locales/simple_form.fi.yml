@@ -30,7 +30,7 @@ fi:
         setting_show_application: Tuuttaamiseen käyttämäsi sovellus näkyy tuuttauksiesi yksityiskohtaisessa näkymässä
         setting_use_blurhash: Liukuvärit perustuvat piilotettujen kuvien väreihin, mutta sumentavat yksityiskohdat
       imports:
-        data: Toisesta Mastodon-instanssista tuotu CSV-tiedosto
+        data: Toisesta koyu.space-instanssista tuotu CSV-tiedosto
       sessions:
         otp: Syötä puhelimeen saamasi kaksivaiheisen tunnistautumisen koodi tai käytä palautuskoodia.
     labels:

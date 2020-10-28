@@ -2,25 +2,25 @@
 co:
   about:
     about_hashtag_html: Quessi sò statuti pubblichi taggati cù <strong>#%{hashtag}</strong>. Pudete interagisce cù elli sì voi avete un contu in qualche parte di u fediverse.
-    about_mastodon_html: 'A rete suciale di u futuru: micca pubblicità, micca surveglianza, cuncezzione etica, è dicentralizazione! Firmate in cuntrollu di i vostri dati cù Mastodon!'
+    about_mastodon_html: 'A rete suciale di u futuru: micca pubblicità, micca surveglianza, cuncezzione etica, è dicentralizazione! Firmate in cuntrollu di i vostri dati cù koyu.space!'
     about_this: À prupositu
     active_count_after: attivi
     active_footnote: Utilizatori Attivi Mensili (UAM)
     administered_by: 'Amministratu da:'
     api: API
     apps: Applicazione per u telefuninu
-    apps_platforms: Utilizà Mastodon dapoi à iOS, Android è altre piattaforme
+    apps_platforms: Utilizà koyu.space dapoi à iOS, Android è altre piattaforme
     browse_directory: Navigà un'annuariu di i prufili è filtra per interessi
     browse_local_posts: Navigà un flussu di statuti pubblichi da stu servore
-    browse_public_posts: Navigà un flussu di i statuti pubblichi nant'à Mastodon
+    browse_public_posts: Navigà un flussu di i statuti pubblichi nant'à koyu.space
     contact: Cuntattu
     contact_missing: Mancante
     contact_unavailable: Micca dispunibule
     discover_users: Scopre utilizatori
     documentation: Ducumentazione
-    federation_hint_html: Cù un contu nant'à %{instance} puderete siguità ghjente da tutti i servori Mastodon è ancu più d'altri.
+    federation_hint_html: Cù un contu nant'à %{instance} puderete siguità ghjente da tutti i servori koyu.space è ancu più d'altri.
     get_apps: Pruvà un'applicazione di telefuninu
-    hosted_on: Mastodon allughjatu nant’à %{domain}
+    hosted_on: koyu.space allughjatu nant’à %{domain}
     instance_actor_flash: |
       Stu contu ghjè un'attore virtuale chì ghjove à riprisentà u servore sanu è micca un veru utilizatore.
       Hè utilizatu da a federazione è ùn deve micca esse bluccatu eccettu s'e voi vulete bluccà tuttu u servore, in quellu casu duvereste utilizà un blucchime di duminiu.
@@ -45,12 +45,12 @@ co:
       silenced_title: Servori silenzati
       suspended: Ùn puderete micca siguità qualsiasi nant'à stu servore, i dati versu o da quallà ùn saranu mai accessi, scambiati o arregistrati.
       suspended_title: Servori suspesi
-    unavailable_content_html: Mastodon vi parmette in generale di vede u cuntinutu è interagisce cù l'utilizatori di tutti l'altri servori di u fediversu. Quessi sò l'eccezzione fatte nant'à stu servore in particulare.
+    unavailable_content_html: koyu.space vi parmette in generale di vede u cuntinutu è interagisce cù l'utilizatori di tutti l'altri servori di u fediversu. Quessi sò l'eccezzione fatte nant'à stu servore in particulare.
     user_count_after:
       one: utilizatore
       other: utilizatori
     user_count_before: Ci sò
-    what_is_mastodon: Quale hè Mastodon?
+    what_is_mastodon: Quale hè koyu.space?
   accounts:
     choices_html: "%{name} ricumanda:"
     endorsements_hint: Pudete appughjà i conti chì siguitate dapoi l'interfaccia web, è saranu mustrati quì.
@@ -561,14 +561,14 @@ co:
         desc_html: Una bona piazza per e regule, infurmazione è altre cose chì l’utilizatori duverìanu sapè. Pudete fà usu di marchi HTML
         title: Discrizzione stesa di u situ
       site_short_description:
-        desc_html: Mustratu indè a barra laterala è i tag meta. Spiegate quale hè Mastodon è ciò chì rende u vostru servore speciale in un paragrafu. S'ella hè lasciata viota, a discrizzione di u servore sarà utilizata.
+        desc_html: Mustratu indè a barra laterala è i tag meta. Spiegate quale hè koyu.space è ciò chì rende u vostru servore speciale in un paragrafu. S'ella hè lasciata viota, a discrizzione di u servore sarà utilizata.
         title: Descrizzione corta di u servore
       site_terms:
         desc_html: Quì pudete scrive e vostre regule di cunfidenzialità, cundizione d’usu o altre menzione legale. Pudete fà usu di marchi HTML
         title: Termini persunalizati
       site_title: Nome di u servore
       spam_check_enabled:
-        desc_html: Mastodon pò autosilenzà è autosignalà conti, per esempiu ditettendu quelli chì mandanu missaghji micca sullicitati à ripetizione. Ci ponu esse falzi pusitivi.
+        desc_html: koyu.space pò autosilenzà è autosignalà conti, per esempiu ditettendu quelli chì mandanu missaghji micca sullicitati à ripetizione. Ci ponu esse falzi pusitivi.
         title: Anti-spam
       thumbnail:
         desc_html: Utilizatu per viste cù OpenGraph è l’API. Ricumandemu 1200x630px
@@ -649,7 +649,7 @@ co:
     confirmation_dialogs: Pop-up di cunfirmazione
     discovery: Scuperta
     localization:
-      body: Mastodon hè tradottu da una squadra di vuluntari.
+      body: koyu.space hè tradottu da una squadra di vuluntari.
       guide_link: https://fr.crowdin.com/project/mastodon
       guide_link_text: Tuttu u mondu pò participà.
     sensitive_content: Cuntinutu sensibile
@@ -677,9 +677,9 @@ co:
     delete_account: Sguassà u contu
     delete_account_html: S’è voi vulete toglie u vostru contu <a href="%{path}">ghjè quì</a>. Duverete cunfirmà a vostra scelta.
     description:
-      prefix_invited_by_user: "@%{name} v'invita à raghjunghje stu servore di Mastodon!"
-      prefix_sign_up: Arregistratevi nant'à Mastodon oghji!
-      suffix: Cù un contu, puderete siguità l'altri, pustà statuti è scambià missaghji cù l'utilizatori di tutti i servori Mastodon è ancu di più!
+      prefix_invited_by_user: "@%{name} v'invita à raghjunghje stu servore di koyu.space!"
+      prefix_sign_up: Arregistratevi nant'à koyu.space oghji!
+      suffix: Cù un contu, puderete siguità l'altri, pustà statuti è scambià missaghji cù l'utilizatori di tutti i servori koyu.space è ancu di più!
     didnt_get_confirmation: Ùn avete micca ricevutu l’istruzione di cunfirmazione?
     forgot_password: Chjave scurdata?
     invalid_reset_password_token: U ligame di riinizializazione di a chjave d’accessu hè spiratu o ùn hè micca validu. Pudete dumandà un'altru ligame.
@@ -783,7 +783,7 @@ co:
       content: Scusate, mà c’hè statu un prublemu cù u nostru servore.
       title: Sta pagina ùn hè curretta
     '503': A pagina ùn hè micca stata servita per via di un prublemu timpuraneu di u servore.
-    noscript_html: Mastodon nant’à u web hà bisognu di JavaScript per funziunà. Pudete ancu pruvà <a href="%{apps_path}">l’applicazione native</a> per a vostra piattaforma.
+    noscript_html: koyu.space nant’à u web hà bisognu di JavaScript per funziunà. Pudete ancu pruvà <a href="%{apps_path}">l’applicazione native</a> per a vostra piattaforma.
   existing_username_validator:
     not_found: ùn si pudeva micca truvà un'utilizatore lucale cù stu cugnome
     not_found_multiple: ùn si pudeva micca truvà %{usernames}
@@ -1077,7 +1077,7 @@ co:
       weibo: Weibo
     current_session: Sessione attuale
     description: "%{browser} nant’à %{platform}"
-    explanation: Quessi sò i navigatori cunnettati à u vostru contu Mastodon.
+    explanation: Quessi sò i navigatori cunnettati à u vostru contu koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ co:
     aliases: Pseudonimi di contu
     appearance: Apparenza
     authorized_apps: Applicazione auturizate
-    back: Ritornu nant’à Mastodon
+    back: Ritornu nant’à koyu.space
     delete: Suppressione di u contu
     development: Sviluppu
     edit_profile: Mudificà u prufile
@@ -1178,7 +1178,7 @@ co:
       <ul>
       <li><em>Informations de base sur votre compte</em> : Si vous vous inscrivez sur ce serveur, il vous sera demandé de rentrer un identifiant, une adresse électronique et un mot de passe. Vous pourrez également ajouter des informations additionnelles sur votre profil, telles qu’un nom public et une biographie, ainsi que téléverser une image de profil et une image d’en-tête. Vos identifiant, nom public, biographie, image de profil et image d’en-tête seront toujours affichés publiquement.</li>
       <li><em>Posts, liste d’abonnements et autres informations publiques</em> : La liste de vos abonnements ainsi que la liste de vos abonné·e·s sont publiques. Quand vous postez un message, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistré·e·s. Des médias, tels que des images ou des vidéos, peuvent être joints aux messages. Les posts publics et non listés sont affichés publiquement. Quand vous mettez en avant un post sur votre profil, ce post est également affiché publiquement. Vos messages sont délivrés à vos abonné·e·s, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimer un post, il est probable que vos abonné·e·s en soient informé·e·s. Partager un message ou le marquer comme favori est toujours une action publique.</li>
-      <li><em>Posts directs et abonné·e·s uniquement</em> : Tous les posts sont stockés et traités par le serveur. Les messages abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne fois pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il-vous-plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partager aucune information sensible à l’aide de Mastodon.</em></li>
+      <li><em>Posts directs et abonné·e·s uniquement</em> : Tous les posts sont stockés et traités par le serveur. Les messages abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne fois pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il-vous-plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partager aucune information sensible à l’aide de koyu.space.</em></li>
       <li><em>IP et autres métadonnées</em> : Quand vous vous connectez, nous enregistrons votre adresse IP ainsi que le nom de votre navigateur web. Toutes les sessions enregistrées peuvent être consultées dans les paramètres, afin que vous puissiez les surveiller et éventuellement les révoquer. La dernière adresse IP utilisée est conservée pour une durée de 12 mois. Nous sommes également susceptibles de conserver les journaux du serveur, ce qui inclut l’adresse IP de chaque requête reçue.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ co:
       <p>Toutes les informations que nous collectons sur vous peuvent être utilisées d’une des manières suivantes :</p>
 
       <ul>
-      <li>Pour vous fournir les fonctionnalités de base de Mastodon. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté·e. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs posts dans votre fil d’accueil personnalisé.</li>
+      <li>Pour vous fournir les fonctionnalités de base de koyu.space. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté·e. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs posts dans votre fil d’accueil personnalisé.</li>
       <li>Pour aider à la modération de la communauté, par exemple, comparer votre adresse IP à d’autres afin de déterminer si un bannissement a été contourné ou si une autre violation aux règles a été commise.</li>
       <li>L’adresse électronique que vous nous avez fournie peut être utilisée pour vous envoyez des informations, des notifications lorsque d’autres personnes interagissent avec votre contenu ou vous envoient des messages, pour répondre à des demandes de votre part ainsi que pour tout autres requêtes ou questions.</li>
       </ul>
@@ -1254,9 +1254,9 @@ co:
       <p>Originellement adapté de la <a href="https://github.com/discourse/discourse">politique de confidentialité de Discourse</a>.</p>
     title: Termini d’usu è di cunfidenzialità per %{instance}
   themes:
-    contrast: Mastodon (Cuntrastu altu)
-    default: Mastodon (Scuru)
-    mastodon-light: Mastodon (Chjaru)
+    contrast: koyu.space (Cuntrastu altu)
+    default: koyu.space (Scuru)
+    mastodon-light: koyu.space (Chjaru)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1279,7 +1279,7 @@ co:
     wrong_code: U codice ùn hè micca currettu! Site sicuru·a chì l’ora di l'apparechju è di u servore sò esatte?
   user_mailer:
     backup_ready:
-      explanation: Avete dumandatu un’archiviu cumpletu di u vostru contu Mastodon. Avà hè prontu per scaricà!
+      explanation: Avete dumandatu un’archiviu cumpletu di u vostru contu koyu.space. Avà hè prontu per scaricà!
       subject: U vostru archiviu hè prontu à scaricà
       title: Archiviu prontu
     sign_in_token:
@@ -1315,12 +1315,12 @@ co:
       full_handle: U vostru identificatore cumplettu
       full_handle_hint: Quessu ghjè cio chì direte à i vostri amichi per circavi, abbunassi à u vostru contu da altrò, o mandà missaghji.
       review_preferences_action: Mudificà e priferenze
-      review_preferences_step: Quì pudete adattà u cumpurtamentu di Mastodon à e vostre priferenze, cum’è l’email che vulete riceve, u nivellu di cunfidenzialità predefinitu di i vostri statuti, o u cumpurtamentu di i GIF animati.
-      subject: Benvenutu·a nant’à Mastodon
-      tip_federated_timeline: A linea pubblica glubale mostra i statuti da altre istanze nant’a rete Mastodon, mà ùn hè micca cumpleta perchè ci sò soli i conti à quelli sò abbunati membri di a vostr’istanza.
+      review_preferences_step: Quì pudete adattà u cumpurtamentu di koyu.space à e vostre priferenze, cum’è l’email che vulete riceve, u nivellu di cunfidenzialità predefinitu di i vostri statuti, o u cumpurtamentu di i GIF animati.
+      subject: Benvenutu·a nant’à koyu.space
+      tip_federated_timeline: A linea pubblica glubale mostra i statuti da altre istanze nant’a rete koyu.space, mà ùn hè micca cumpleta perchè ci sò soli i conti à quelli sò abbunati membri di a vostr’istanza.
       tip_following: Site digià abbunatu·a à l’amministratori di u vostru servore. Per truvà d’altre parsone da siguità, pudete pruvà e linee pubbliche.
       tip_local_timeline: A linea pubblica lucale ghjè una vista crunulogica di i statuti di a ghjente nant’à %{instance}. Quessi sò i vostri cunvicini!
-      tip_mobile_webapp: Pudete aghjunghje Mastodon à a pagina d’accolta di u vostru navigatore di telefuninu per riceve nutificazione, cum’un applicazione!
+      tip_mobile_webapp: Pudete aghjunghje koyu.space à a pagina d’accolta di u vostru navigatore di telefuninu per riceve nutificazione, cum’un applicazione!
       tips: Cunsiglii
       title: Benvenutu·a, %{name}!
   users:
@@ -1334,5 +1334,5 @@ co:
     signed_in_as: 'Cunnettatu·a cum’è:'
     suspicious_sign_in_confirmation: Ci pare ch'ùn vi site mai cunnettatu·a da quess'apparechju, è ùn vi site micca cunnettatu·a dapoi una stonda, allora vi mandemu un codice di sicurità à u vostr'indirizzu e-mail per cunfirmà chì site voi.
   verification:
-    explanation_html: 'Pudete <strong>verificavi cum''è u pruprietariu di i ligami in i metadati di u vostru prufile</strong>. Per quessa, u vostru situ deve avè un ligame versu a vostra pagina Mastodon. U ligame <strong>deve</strong> avè un''attributu <code>rel="me"</code>. U cuntenutu di u testu di u ligame ùn hè micca impurtante. Eccu un''esempiu:'
+    explanation_html: 'Pudete <strong>verificavi cum''è u pruprietariu di i ligami in i metadati di u vostru prufile</strong>. Per quessa, u vostru situ deve avè un ligame versu a vostra pagina koyu.space. U ligame <strong>deve</strong> avè un''attributu <code>rel="me"</code>. U cuntenutu di u testu di u ligame ùn hè micca impurtante. Eccu un''esempiu:'
     verification: Verificazione

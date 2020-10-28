@@ -2,25 +2,25 @@
 ro:
   about:
     about_hashtag_html: Acestea sunt postări publice etichetate cu <strong>#%{hashtag}</strong>. Poți interacționa cu ele dacă ai un cont oriunde în rețea.
-    about_mastodon_html: 'Rețeaua socială a viitorului: Fără reclame, fără supraveghere corporativă, design etic și descentralizare! Dețineți-vă datele cu Mastodon!'
+    about_mastodon_html: 'Rețeaua socială a viitorului: Fără reclame, fără supraveghere corporativă, design etic și descentralizare! Dețineți-vă datele cu koyu.space!'
     about_this: Despre
     active_count_after: activi
     active_footnote: Utilizatori activi lunar (UAL)
     administered_by: 'Administrat de:'
     api: API
     apps: Aplicații mobile
-    apps_platforms: Folosește Mastodon de pe iOS, Android și alte platforme
+    apps_platforms: Folosește koyu.space de pe iOS, Android și alte platforme
     browse_directory: Răsfoiți directorul de profil și filtrați după interese
     browse_local_posts: Răsfoiți un flux live al postărilor publice de pe acest server
-    browse_public_posts: Răsfoiește un flux live de postări publice pe Mastodon
+    browse_public_posts: Răsfoiește un flux live de postări publice pe koyu.space
     contact: Contact
     contact_missing: Nesetat
     contact_unavailable: N/A
     discover_users: Descoperă utilizatori
     documentation: Documentație
-    federation_hint_html: Cu un cont pe %{instance} vei putea urmări oameni pe orice server de Mastodon sau mai departe.
+    federation_hint_html: Cu un cont pe %{instance} vei putea urmări oameni pe orice server de koyu.space sau mai departe.
     get_apps: Încercați o aplicație pentru mobil
-    hosted_on: Mastodon găzduit de %{domain}
+    hosted_on: koyu.space găzduit de %{domain}
     instance_actor_flash: |
       Acest cont este un actor virtual folosit pentru a reprezenta serverul în sine și nu un utilizator individual.
       Acesta este folosit în scopuri de federație și nu ar trebui blocat decât dacă doriți să blocați întreaga instanță, în ce caz trebuie să utilizaţi un bloc de domeniu.
@@ -45,13 +45,13 @@ ro:
       silenced: 'Postările de pe aceste servere vor fi ascunse în cronologii și conversații publice, și nici o notificare nu va fi generată de interacțiunile utilizatorilor lor decât dacă le urmărești:'
       suspended: 'Nici o informație de pe aceste servere nu va fi procesată, stocată sau schimbată, ceea ce face imposibilă orice interacțiune sau comunicare cu utilizatorii de pe aceste servere:'
       suspended_title: Servere suspendate
-    unavailable_content_html: Mastodon vă permite în general să vedeți conținutul din orice alt server și să interacționați cu utilizatorii din rețea. Acestea sunt excepţiile care au fost făcute pe acest server.
+    unavailable_content_html: koyu.space vă permite în general să vedeți conținutul din orice alt server și să interacționați cu utilizatorii din rețea. Acestea sunt excepţiile care au fost făcute pe acest server.
     user_count_after:
       few: utilizatori
       one: utilizator
       other: de utilizatori
     user_count_before: Casa a
-    what_is_mastodon: Ce este Mastodon?
+    what_is_mastodon: Ce este koyu.space?
   accounts:
     choices_html: 'Alegerile lui %{name}:'
     endorsements_hint: Poți promova oameni pe care îi urmărești din interfața web, și ei vor apărea aici.
@@ -273,9 +273,9 @@ ro:
     delete_account: Șterge contul
     delete_account_html: Dacă vrei să ștergi acest cont <a href="%{path}">poți începe aici</a>. Va trebui să confirmi această acțiune.
     description:
-      prefix_invited_by_user: "@%{name} vă invită să vă alăturați acestui server de Mastodon!"
-      prefix_sign_up: Înscrie-te pe Mastodon astăzi!
-      suffix: Cu un cont, vei putea să urmărești oameni, să postezi actualizări și să schimbi mesaje cu utilizatorii de pe orice server Mastodon și multe altele!
+      prefix_invited_by_user: "@%{name} vă invită să vă alăturați acestui server de koyu.space!"
+      prefix_sign_up: Înscrie-te pe koyu.space astăzi!
+      suffix: Cu un cont, vei putea să urmărești oameni, să postezi actualizări și să schimbi mesaje cu utilizatorii de pe orice server koyu.space și multe altele!
     didnt_get_confirmation: Nu ai primit instrucțiunile de confirmare?
     forgot_password: Ai uitat parola?
     invalid_reset_password_token: Această cerere este invalidă sau a expirat. Încearcă resetarea parolei din nou.
@@ -367,7 +367,7 @@ ro:
       content: Ne pare rău, dar ceva a funcționat greșit. Încercați din nou!?
       title: Această pagină nu este corectă
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Pentru a utiliza o aplicație web Mastodon, te rog activează JavaScript. Alternativ, încearcă una din <a href="%{apps_path}">aplicațiile native</a> Mastodon pentru platforma ta.
+    noscript_html: Pentru a utiliza o aplicație web koyu.space, te rog activează JavaScript. Alternativ, încearcă una din <a href="%{apps_path}">aplicațiile native</a> koyu.space pentru platforma ta.
   exports:
     archive_takeout:
       date: Data
@@ -532,7 +532,7 @@ ro:
       ie: Internet Explorer
   settings:
     account: Cont
-    back: Înapoi la Mastodon
+    back: Înapoi la koyu.space
     edit_profile: Editați profilul
     import_and_export: Import și export
     profile: Profil
@@ -672,9 +672,9 @@ ro:
       <p> Adaptat inițial din <a href="https://github.com/discourse/discourse"> Politica de confidențialitate Discourse </a>. </p>
     title: "%{instance} Termeni de utilizare și Politica de confidențialitate"
   themes:
-    contrast: Mastodon (contrast mare)
-    default: Mastodon (Întunecat)
-    mastodon-light: Mastodon (Luminat)
+    contrast: koyu.space (contrast mare)
+    default: koyu.space (Întunecat)
+    mastodon-light: koyu.space (Luminat)
   time:
     formats:
       default: "%d %m, %Y, %H:%M"
@@ -729,10 +729,10 @@ ro:
       review_preferences_action: Schimbă preferințele
       review_preferences_step: Asigură-te că setezi preferințele tale, cum ar fi e-mailurile pe care dorești să le primești sau ce nivel de confidențialitate vrei ca mesajele tale să fie implicite. Dacă nu ai rău de mişcare, ai putea alege să activezi imaginile GIF să pornească automat.
       subject: Bine ai venit
-      tip_federated_timeline: Fluxul federat este o vedere de ansamblu a rețelei Mastodon. Dar include doar oameni la care s-au abonat vecinii tăi, așa că nu este completă.
+      tip_federated_timeline: Fluxul federat este o vedere de ansamblu a rețelei koyu.space. Dar include doar oameni la care s-au abonat vecinii tăi, așa că nu este completă.
       tip_following: Urmăriți implicit administratorul(ii) serverului. Pentru a găsi oameni mai interesanți, verificați fluxurile locale și federalizate.
       tip_local_timeline: Fluxul local este o vedere în ansamblu a persoanelor de pe %{instance}. Aceștia sunt vecinii tăi apropiați!
-      tip_mobile_webapp: Dacă navigatorul tău mobil îți oferă să adaugi Mastodon pe ecranul tău de pornire, poți primi notificări push. Se comportă ca o aplicație nativă în multe moduri!
+      tip_mobile_webapp: Dacă navigatorul tău mobil îți oferă să adaugi koyu.space pe ecranul tău de pornire, poți primi notificări push. Se comportă ca o aplicație nativă în multe moduri!
       tips: Sfaturi
       title: Bine ai venit la bord, %{name}!
   users:

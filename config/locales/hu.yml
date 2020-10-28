@@ -2,25 +2,25 @@
 hu:
   about:
     about_hashtag_html: Ezek a <strong>#%{hashtag}</strong> hashtag-gel ellátott publikus tülkök. Reagálhatsz rájuk, ha már van felhasználói fiókod valahol a föderációban.
-    about_mastodon_html: A Mastodon egy szabad webes protokollokat használó, nyílt forráskódú szociális háló. Decentralizált, akár az e-mail.
+    about_mastodon_html: A koyu.space egy szabad webes protokollokat használó, nyílt forráskódú szociális háló. Decentralizált, akár az e-mail.
     about_this: Névjegy
     active_count_after: aktív
     active_footnote: Havonta aktív felhasználók
     administered_by: 'Adminisztrátor:'
     api: API
     apps: Mobil appok
-    apps_platforms: Használd a Mastodont iOS-ről, Androidról vagy más platformról
+    apps_platforms: Használd a koyu.spacet iOS-ről, Androidról vagy más platformról
     browse_directory: Böngészd a profilokat és szűrj érdeklődési körre
     browse_local_posts: Nézz bele a szerver publikus, élő adatfolyamába
-    browse_public_posts: Nézz bele a Mastodon élő adatfolyamába
+    browse_public_posts: Nézz bele a koyu.space élő adatfolyamába
     contact: Kapcsolat
     contact_missing: Nincs megadva
     contact_unavailable: N/A
     discover_users: Találj meg másokat
     documentation: Dokumentáció
-    federation_hint_html: Egy %{instance} fiókkal bármely más Mastodon szerveren vagy a föderációban lévő felhasználót követni tudsz.
+    federation_hint_html: Egy %{instance} fiókkal bármely más koyu.space szerveren vagy a föderációban lévő felhasználót követni tudsz.
     get_apps: Próbálj ki egy mobil appot
-    hosted_on: "%{domain} Mastodon szerver"
+    hosted_on: "%{domain} koyu.space szerver"
     instance_actor_flash: Ez a fiók egy virtuális szereplő, mely magát a szervert reprezentálja, nem egy felhasználót. Ez a föderáció támogatására készült, ezért nem szabad blokkolni, hacsak egy teljes szervert nem akarsz kitiltani, amire persze a domain blokkolása jobb megoldás.
     learn_more: Tudj meg többet
     privacy_policy: Adatvédelmi szabályzat
@@ -43,12 +43,12 @@ hu:
       silenced_title: Elnémított szerverek
       suspended: Nem fogsz tudni követni senkit ebből a szerverből, és nem kerül feldolgozásra vagy tárolásra a tőle származó adat, és nincs adatcsere.
       suspended_title: Felfüggesztett szerverek
-    unavailable_content_html: A Mastodon általában mindenféle tartalomcserét és interakciót lehetővé tesz bármelyik szerverrel a fediverzumban. Ezek azok a kivételek, melyek a mi szerverünkön érvényben vannak.
+    unavailable_content_html: A koyu.space általában mindenféle tartalomcserét és interakciót lehetővé tesz bármelyik szerverrel a fediverzumban. Ezek azok a kivételek, melyek a mi szerverünkön érvényben vannak.
     user_count_after:
       one: felhasználónk
       other: felhasználónk
     user_count_before: Összesen
-    what_is_mastodon: Mi a Mastodon?
+    what_is_mastodon: Mi a koyu.space?
   accounts:
     choices_html: "%{name} választásai:"
     endorsements_hint: A webes felületen jóváhagyhatod a követett embereket, és itt jelennek meg.
@@ -566,7 +566,7 @@ hu:
         title: Egyedi felhasználási feltételek
       site_title: A szerver neve
       spam_check_enabled:
-        desc_html: A Mastodon automatikusan elnémíthatja és bejelentheti azokat a fiókokat, akik rendszeresen kéretlen üzeneteket küldenek. Persze lehetnek tévedések is.
+        desc_html: A koyu.space automatikusan elnémíthatja és bejelentheti azokat a fiókokat, akik rendszeresen kéretlen üzeneteket küldenek. Persze lehetnek tévedések is.
         title: Automatikus anti-spam
       thumbnail:
         desc_html: OpenGraph-os és API-s előnézetekben használjuk. Ajánlott mérete 1200x630 pixel
@@ -647,7 +647,7 @@ hu:
     confirmation_dialogs: Megerősítő párbeszédablakok
     discovery: Felfedezés
     localization:
-      body: A Mastodont önkéntesek fordítják.
+      body: A koyu.spacet önkéntesek fordítják.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Bárki közreműködhet.
     sensitive_content: Szenzitív tartalom
@@ -675,9 +675,9 @@ hu:
     delete_account: Felhasználói fiók törlése
     delete_account_html: Felhasználói fiókod törléséhez <a href="%{path}">kattints ide</a>. A rendszer újbóli megerősítést fog kérni.
     description:
-      prefix_invited_by_user: "@%{name} meghív téged, hogy csatlakozz erre a Mastodon szerverre!"
-      prefix_sign_up: Regisztrláj még ma a Mastodonra!
-      suffix: Egy fiókkal követhetsz másokat, tülkölhetsz, eszmét cserélhetsz más Mastodon szerverek felhasználóival!
+      prefix_invited_by_user: "@%{name} meghív téged, hogy csatlakozz erre a koyu.space szerverre!"
+      prefix_sign_up: Regisztrláj még ma a koyu.spacera!
+      suffix: Egy fiókkal követhetsz másokat, tülkölhetsz, eszmét cserélhetsz más koyu.space szerverek felhasználóival!
     didnt_get_confirmation: Nem kaptad meg a megerősítési lépéseket?
     forgot_password: Elfelejtetted a jelszavad?
     invalid_reset_password_token: A jelszó-visszaállítási kulcs nem megfelelő vagy lejárt. Kérlek generálj egy újat.
@@ -781,7 +781,7 @@ hu:
       content: Sajnáljuk, valami hiba történt a mi oldalunkon.
       title: Az oldal nem megfelelő
     '503': Az oldalt nem tudjuk megmutatni átmeneti szerverprobléma miatt.
-    noscript_html: A Mastodon webalkalmazás használatához engedélyezned kell a JavaScriptet. A másik megoldás, hogy kipróbálsz egy platformodnak megfelelő <a href="%{apps_path}">alkalmazást</a>.
+    noscript_html: A koyu.space webalkalmazás használatához engedélyezned kell a JavaScriptet. A másik megoldás, hogy kipróbálsz egy platformodnak megfelelő <a href="%{apps_path}">alkalmazást</a>.
   existing_username_validator:
     not_found: ezzel a névvel nem találtunk helyi felhasználót
     not_found_multiple: nem találtuk %{usernames} felhasználó(ka)t
@@ -1099,7 +1099,7 @@ hu:
     aliases: Fiók aliasok
     appearance: Megjelenés
     authorized_apps: Jóváhagyott alkalmazások
-    back: Vissza a Mastodonhoz
+    back: Vissza a koyu.spacehoz
     delete: Fiók törlése
     development: Fejlesztőknek
     edit_profile: Profil szerkesztése
@@ -1176,7 +1176,7 @@ hu:
       <ul>
       <li><em>Alapvető fiókadatok</em>: Ha regisztrálsz ezen a szerveren, kérhetünk tőled felhasználói nevet, e-mail címet és jelszót is. Megadhatsz magadról egyéb profil információt, megjelenítendő nevet, bemutatkozást, feltölthetsz profilképet, háttérképet. A felhasználói neved, megjelenítendő neved, bemutatkozásod, profil képed és háttér képed mindig nyilvánosak mindenki számára.</li>
       <li><em>Tülkök (posztok), követések, más nyilvános adatok</em>: Az általad követett emberek listája nyilvános. Ugyanez igaz a te követőidre is. Ha küldesz egy üzenetet, ennek az idejét eltároljuk azzal az alkalmazással együtt, melyből az üzenetet küldted. Az üzenetek tartalmazhatnak média csatolmányt, képeket, videókat. A nyilvános tülkök (posztok) bárki számára elérhetőek. Ha egy tülköt kiemelsz a profilodon, az is nyilvánossá válik. Amikor a tülkjeidet a követőidnek továbbítjuk, a poszt más szerverekre is átkerülhet, melyeken így másolatok képződhetnek. Ha törölsz tülköket, ez is továbbítódik a követőid felé. A megtolás (reblog) és kedvencnek jelölés művelete is mindig nyilvános.</li>
-      <li><em>Közvetlen üzenetek és csak követőknek szánt tülkök</em>: Minden tülk a szerveren tárolódik. A csak követőknek szánt tülköket a követőidnek és az ezekben megemlítetteknek továbbítjuk, míg a közvetlen üzeneteket kizárólag az ebben megemlítettek kapják. Néhány esetben ez azt jelenti, hogy ezek más szerverekre is továbbítódnak, így ott másolatok keletkezhetnek. Jóhiszeműen feltételezzük, hogy más szerverek is hasonlóan járnak el, mikor ezeket az üzeneteket csak az arra jogosultaknak mutatják meg. Ugyanakkor ez nem feltétlenül igaz. Érdemes ezért megvizsgálni azokat a szervereket, melyeken követőid vannak. Be tudod állítani, hogy minden követési kérelmet jóvá kelljen hagynod. <em>Tartsd észben, hogy a szerver üzemeltetői láthatják az üzeneteket</em>, illetve a fogadók képernyőképet, másolatot készíthetnek belőlük, vagy újraoszthatják őket. <em>Ne ossz meg veszélyes információt a Mastodon hálózaton!</em></li>
+      <li><em>Közvetlen üzenetek és csak követőknek szánt tülkök</em>: Minden tülk a szerveren tárolódik. A csak követőknek szánt tülköket a követőidnek és az ezekben megemlítetteknek továbbítjuk, míg a közvetlen üzeneteket kizárólag az ebben megemlítettek kapják. Néhány esetben ez azt jelenti, hogy ezek más szerverekre is továbbítódnak, így ott másolatok keletkezhetnek. Jóhiszeműen feltételezzük, hogy más szerverek is hasonlóan járnak el, mikor ezeket az üzeneteket csak az arra jogosultaknak mutatják meg. Ugyanakkor ez nem feltétlenül igaz. Érdemes ezért megvizsgálni azokat a szervereket, melyeken követőid vannak. Be tudod állítani, hogy minden követési kérelmet jóvá kelljen hagynod. <em>Tartsd észben, hogy a szerver üzemeltetői láthatják az üzeneteket</em>, illetve a fogadók képernyőképet, másolatot készíthetnek belőlük, vagy újraoszthatják őket. <em>Ne ossz meg veszélyes információt a koyu.space hálózaton!</em></li>
       <li><em>IP címek és egyéb metaadatok</em>: Bejelentkezéskor letároljuk a használt böngésződet és IP címedet. Minden rögzített munkamenet elérhető és visszavonható a beállítások között. Az utoljára rögzített IP címet maximum 12 hónapig tároljuk. Egyéb szerver logokat is megtarthatunk, melyek HTTP kérésenként is tárolhatják az IP címedet.</li>
       </ul>
 
@@ -1187,7 +1187,7 @@ hu:
       <p>Bármely tőled begyűjtött adatot a következő célokra használhatjuk fel:</p>
 
       <ul>
-      <li>Mastodon alapfunkcióinak biztosítása: Csak akkor léphetsz kapcsolatba másokkal, ha be vagy jelentkezve. Pl. követhetsz másokat a saját, személyre szabott idővonaladon.</li>
+      <li>koyu.space alapfunkcióinak biztosítása: Csak akkor léphetsz kapcsolatba másokkal, ha be vagy jelentkezve. Pl. követhetsz másokat a saját, személyre szabott idővonaladon.</li>
       <li>Közösségi moderáció elősegítése: Pl. IP címek összehasonlítása másokéval, hogy kiszűrjük a kitiltások megkerülését.</li>
       <li>Kapcsolattartás veled: Az általad megadott e-mail címen infókat, értesítéseket küldünk mások interakcióiról, kérésekről, kérdésekről.</li>
       </ul>
@@ -1252,9 +1252,9 @@ hu:
       <p>Eredetileg innen adaptálva <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: "%{instance} Felhasználási feltételek és Adatkezelési nyilatkozat"
   themes:
-    contrast: Mastodon (Nagy kontrasztú)
-    default: Mastodon (Sötét)
-    mastodon-light: Mastodon (Világos)
+    contrast: koyu.space (Nagy kontrasztú)
+    default: koyu.space (Sötét)
+    mastodon-light: koyu.space (Világos)
   time:
     formats:
       default: "%Y. %b %d., %H:%M"
@@ -1277,7 +1277,7 @@ hu:
     wrong_code: A beírt kód nem érvényes! A szerver órája és az eszközöd órája szinkronban jár?
   user_mailer:
     backup_ready:
-      explanation: A Mastodon fiókod teljes mentését kérted. A mentés kész ás letölthető!
+      explanation: A koyu.space fiókod teljes mentését kérted. A mentés kész ás letölthető!
       subject: Az adataidról készült archív letöltésre kész
       title: Archiválás
     sign_in_token:
@@ -1314,11 +1314,11 @@ hu:
       full_handle_hint: Ez az, amit megadhatsz másoknak, hogy üzenhessenek neked vagy követhessenek téged más szerverekről.
       review_preferences_action: Beállítások módosítása
       review_preferences_step: Tekintsd át beállításaidat, például hogy milyen értesítéseket kérsz e-mailben vagy hogy alapértelmezettként mi legyen a tülkjeid láthatósága. Ha nem vagy szédülős alkat, azt is engedélyezheted, hogy automatikusan lejátsszuk a GIF-eket.
-      subject: Üdvözöl a Mastodon
-      tip_federated_timeline: A nyilvános idővonal a Mastodon ütőere, ahol minden tülkölés összefolyik. Nem teljes ugyan, mert csak azokat az embereket fogod látni, akiket a szervered többi felhasználója közül valaki követ.
+      subject: Üdvözöl a koyu.space
+      tip_federated_timeline: A nyilvános idővonal a koyu.space ütőere, ahol minden tülkölés összefolyik. Nem teljes ugyan, mert csak azokat az embereket fogod látni, akiket a szervered többi felhasználója közül valaki követ.
       tip_following: Alapértelmezettként szervered adminisztrátorait követed. Látogasd meg a helyi és a nyilvános idővonalat, hogy más érdekes emberekre is rátalálj.
       tip_local_timeline: A helyi idővonal a saját szervered (%{instance}) ütőere. Ezek a kedves emberek itt mind a szomszédaid!
-      tip_mobile_webapp: Ha a böngésződ lehetővé teszi, hogy a kezdőképernyődhöz add a Mastodont, még értesítéseket is fogsz kapni, akárcsak egy igazi alkalmazás esetében!
+      tip_mobile_webapp: Ha a böngésződ lehetővé teszi, hogy a kezdőképernyődhöz add a koyu.spacet, még értesítéseket is fogsz kapni, akárcsak egy igazi alkalmazás esetében!
       tips: Tippek
       title: Üdv a fedélzeten, %{name}!
   users:
@@ -1332,5 +1332,5 @@ hu:
     signed_in_as: Bejelentkezve mint
     suspicious_sign_in_confirmation: Úgy tűnik, erről az eszközről még sosem léptél be és egy ideje már nem láttunk, ezért egy biztonsági kódot küldünk az email címedre, hogy megerősítsd, tényleg te vagy az.
   verification:
-    explanation_html: 'A profilodon <strong>hitelesítheted magad, mint az itt található linkek tulajdonosa</strong>. Ehhez a linkelt weboldalnak tartalmaznia kell egy linket vissza a Mastodon profilodra. Ennek <strong>tartalmaznia kell</strong> a <code>rel="me"</code> attribútumot. A link szövege bármi lehet. Itt egy példa:'
+    explanation_html: 'A profilodon <strong>hitelesítheted magad, mint az itt található linkek tulajdonosa</strong>. Ehhez a linkelt weboldalnak tartalmaznia kell egy linket vissza a koyu.space profilodra. Ennek <strong>tartalmaznia kell</strong> a <code>rel="me"</code> attribútumot. A link szövege bármi lehet. Itt egy példa:'
     verification: Hitelesítés

@@ -42,7 +42,7 @@ sl:
       featured_tag:
         name: 'Morda boste želeli uporabiti eno od teh:'
       imports:
-        data: Izvožena CSV datoteka iz drugega Mastodon vozlišča
+        data: Izvožena CSV datoteka iz drugega koyu.space vozlišča
       invite_request:
         text: To nam bo pomagalo pregledati vašo prijavo
       sessions:

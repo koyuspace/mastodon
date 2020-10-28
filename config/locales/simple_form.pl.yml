@@ -62,7 +62,7 @@ pl:
       form_challenge:
         current_password: Wchodzisz w strefę bezpieczną
       imports:
-        data: Plik CSV wyeksportowany z innego serwera Mastodona
+        data: Plik CSV wyeksportowany z innego serwera koyu.spacea
       invite_request:
         text: To pomoże nam w recenzji Twojej aplikacji
       sessions:

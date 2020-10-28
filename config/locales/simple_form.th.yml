@@ -61,7 +61,7 @@ th:
       form_challenge:
         current_password: คุณกำลังเข้าสู่พื้นที่ปลอดภัย
       imports:
-        data: ไฟล์ CSV ที่ส่งออกจากเซิร์ฟเวอร์ Mastodon อื่น
+        data: ไฟล์ CSV ที่ส่งออกจากเซิร์ฟเวอร์ koyu.space อื่น
       invite_request:
         text: นี่จะช่วยให้เราตรวจทานใบสมัครของคุณ
       sessions:

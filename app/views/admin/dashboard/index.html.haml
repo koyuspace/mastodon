@@ -1,5 +1,5 @@
 - content_for :page_title do
-  = t('admin.dashboard.title')
+  = 'koyu.space Admin'
 
 .dashboard__counters
   %div
@@ -79,7 +79,7 @@
       %h4= t 'admin.dashboard.software'
       %ul
         %li
-          Mastodon
+          %span= t 'admin.dashboard.software'
           %span.pull-right= @version
         %li
           Ruby

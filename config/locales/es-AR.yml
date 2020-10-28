@@ -2,25 +2,25 @@
 es-AR:
   about:
     about_hashtag_html: Estos son toots públicos etiquetados con <strong>#%{hashtag}</strong>. Si tenés una cuenta en cualquier parte del fediverso, podés interactuar con ellos.
-    about_mastodon_html: Mastodon es una red social basada en protocolos abiertos de la web y es software libre y de código abierto. Es descentralizada, como el correo electrónico.
-    about_this: Acerca de Mastodon
+    about_mastodon_html: koyu.space es una red social basada en protocolos abiertos de la web y es software libre y de código abierto. Es descentralizada, como el correo electrónico.
+    about_this: Acerca de koyu.space
     active_count_after: activo
     active_footnote: Usuarios activos mensualmente (MAU)
     administered_by: 'Administrado por:'
     api: API
     apps: Aplicaciones móviles
-    apps_platforms: Usá Mastodon desde iOS, Android y otras plataformas
+    apps_platforms: Usá koyu.space desde iOS, Android y otras plataformas
     browse_directory: Explorá el directorio de perfiles y filtrá por intereses
     browse_local_posts: Explorá un flujo en tiempo real de toots públicos en este servidor
-    browse_public_posts: Explorá un flujo en tiempo real de toots públicos en Mastodon
+    browse_public_posts: Explorá un flujo en tiempo real de toots públicos en koyu.space
     contact: Contacto
     contact_missing: No establecido
     contact_unavailable: No disponible
     discover_users: Descubrir usuarios
     documentation: Documentación
-    federation_hint_html: Con una cuenta en %{instance} vas a poder seguir a gente de cualquier servidor de Mastodon y más allá.
+    federation_hint_html: Con una cuenta en %{instance} vas a poder seguir a gente de cualquier servidor de koyu.space y más allá.
     get_apps: Probá una aplicación móvil
-    hosted_on: Mastodon alojado en %{domain}
+    hosted_on: koyu.space alojado en %{domain}
     instance_actor_flash: |
       Esta cuenta es un actor virtual usado para representar al propio servidor y no a ningún usuario individual.
       Se usa para fines federativos y no debe ser bloqueado a menos que quieras bloquear toda la instancia, en cuyo caso deberías usar un bloqueo de dominio.
@@ -45,12 +45,12 @@ es-AR:
       silenced_title: Servidores silenciados
       suspended: 'No se procesarán, almacenarán o intercambiarán datos de estos servidores, haciendo imposible cualquier interacción o comunicación con los usuarios de estos servidores:'
       suspended_title: Servidores suspendidos
-    unavailable_content_html: Mastodon generalmente te permite ver contenido e interactuar con usuarios de cualquier otro servidor en el fediverso. Estas son las excepciones que se hicieron en este servidor en particular.
+    unavailable_content_html: koyu.space generalmente te permite ver contenido e interactuar con usuarios de cualquier otro servidor en el fediverso. Estas son las excepciones que se hicieron en este servidor en particular.
     user_count_after:
       one: usuario
       other: usuarios
     user_count_before: Hogar de
-    what_is_mastodon: "¿Qué es Mastodon?"
+    what_is_mastodon: "¿Qué es koyu.space?"
   accounts:
     choices_html: 'Recomendados de %{name}:'
     endorsements_hint: Podés recomendar a gente que seguís desde la interface web, y va aparecer acá.
@@ -555,20 +555,20 @@ es-AR:
         desc_html: Mostrar una insignia de equipo en la página de un usuario
         title: Mostrar insignia de equipo
       site_description:
-        desc_html: Párrafo introductorio en la API. Describe qué hace especial a este servidor de Mastodon y todo lo demás que sea importante. Podés usar etiquetas HTML, en particular <code>&lt;a&gt;</code> y <code>&lt;em&gt;</code>.
+        desc_html: Párrafo introductorio en la API. Describe qué hace especial a este servidor de koyu.space y todo lo demás que sea importante. Podés usar etiquetas HTML, en particular <code>&lt;a&gt;</code> y <code>&lt;em&gt;</code>.
         title: Descripción del servidor
       site_description_extended:
         desc_html: Un buen lugar para tu código de conducta, reglas, guías y otras cosas que definen tu servidor. Podés usar etiquets HTML.
         title: Información extendida personalizada
       site_short_description:
-        desc_html: Mostrado en la barra lateral y las etiquetas de metadatos. Describe lo que es Mastodon y qué hace especial a este servidor en un solo párrafo.
+        desc_html: Mostrado en la barra lateral y las etiquetas de metadatos. Describe lo que es koyu.space y qué hace especial a este servidor en un solo párrafo.
         title: Descripción corta del servidor
       site_terms:
         desc_html: Podés escribir tus propias políticas de privacidad, términos de servicio u otras legalidades. Podés usar etiquetas HTML.
         title: Términos de servicio personalizados
       site_title: Nombre del servidor
       spam_check_enabled:
-        desc_html: Mastodon puede denunciar automáticamente cuentas que envían mensajes no solicitados de forma repetida. Podrían haber falsos positivos.
+        desc_html: koyu.space puede denunciar automáticamente cuentas que envían mensajes no solicitados de forma repetida. Podrían haber falsos positivos.
         title: Automatización antispam
       thumbnail:
         desc_html: Usado para previsualizaciones vía OpenGraph y APIs. Se recomienda 1200x630 píxeles.
@@ -649,7 +649,7 @@ es-AR:
     confirmation_dialogs: Diálogos de confirmación
     discovery: Descubrimiento
     localization:
-      body: Mastodon es localizado por voluntarios.
+      body: koyu.space es localizado por voluntarios.
       guide_link: https://es.crowdin.com/project/mastodon
       guide_link_text: Todos pueden contribuir.
     sensitive_content: Contenido sensible
@@ -677,9 +677,9 @@ es-AR:
     delete_account: Eliminar cuenta
     delete_account_html: Si querés eliminar tu cuenta, podés <a href="%{path}">seguí por acá</a>. Se te va a pedir una confirmación.
     description:
-      prefix_invited_by_user: "¡@%{name} te invita para que te unás a este servidor de Mastodon!"
-      prefix_sign_up: "¡Unite a Mastodon hoy!"
-      suffix: Con una cuenta vas a poder seguir gente, escribir estados e intercambiar mensajes ¡con usuarios de cualquier servidor de Mastodon y más!
+      prefix_invited_by_user: "¡@%{name} te invita para que te unás a este servidor de koyu.space!"
+      prefix_sign_up: "¡Unite a koyu.space hoy!"
+      suffix: Con una cuenta vas a poder seguir gente, escribir estados e intercambiar mensajes ¡con usuarios de cualquier servidor de koyu.space y más!
     didnt_get_confirmation: "¿No recibiste el correo electrónico de confirmación?"
     forgot_password: "¿Te olvidaste la contraseña?"
     invalid_reset_password_token: La clave para cambiar la contraseña no es válida o venció. Por favor, solicitá una nueva.
@@ -783,7 +783,7 @@ es-AR:
       content: Lo sentimos, pero algo salió mal en nuestro lado.
       title: Esta página no es correcta
     '503': La página no se pudo cargar debido a un fallo temporal del servidor.
-    noscript_html: Para usar la aplicación web de Mastodon, por favor, activá Javascript. Alternativamente, probá alguna de las <a href="%{apps_path}">aplicaciones nativas</a> de Mastodon para tu plataforma.
+    noscript_html: Para usar la aplicación web de koyu.space, por favor, activá Javascript. Alternativamente, probá alguna de las <a href="%{apps_path}">aplicaciones nativas</a> de koyu.space para tu plataforma.
   existing_username_validator:
     not_found: no pudo encontrar un usuario local con ese nombre de usuario
     not_found_multiple: no se pudo encontrar a %{usernames}
@@ -1077,7 +1077,7 @@ es-AR:
       weibo: Weibo
     current_session: Sesión actual
     description: "%{browser} en %{platform}"
-    explanation: Estos son los navegadores web en los que actualmente iniciaste sesión en tu cuenta de Mastodon.
+    explanation: Estos son los navegadores web en los que actualmente iniciaste sesión en tu cuenta de koyu.space.
     ip: Dirección IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ es-AR:
     aliases: Alias de la cuenta
     appearance: Apariencia
     authorized_apps: Aplicaciones autorizadas
-    back: Volver a Mastodon
+    back: Volver a koyu.space
     delete: Eliminación de la cuenta
     development: Desarrollo
     edit_profile: Editar perfil
@@ -1178,7 +1178,7 @@ es-AR:
       <ul>
       <li><em>Información básica de la cuenta</em>: Si te registrás en este servidor, se te va a pedir un nombre de usuario, una dirección de correo electrónico y una contraseña. También podés ingresar información adicional de perfil como un nombre para mostrar y una biografía, y subir un avatar y una imagen de cabecera. El nombre de usuario, nombre para mostrar, biografía, avatar e imagen de cabecera siempre son visibles públicamente.</li>
       <li><em>Hops, seguimiento y otra información pública</em>: La lista de gente a la que seguís es mostrada públicamente, al igual que la de tus seguidores. Cuando enviás un mensaje, se almacenan la fecha y hora, así como la aplicación desde la cual enviaste el mensaje. Los mensajes pueden contener archivos adjuntos de medios, como imágenes y videos. Los toots públicos y no listados están técnicamente disponibles para todos. Cuando destacás un toot en tu perfil, eso también se considera información disponible públicamente. Tus toots son entregados a tus seguidores, en algunos casos significa que son entregados a diferentes servidores y las copias son almacenadas allí. Cuando eliminás toots, esto también afecta a tus seguidores. La acción de retootear o marcar como favorito otro toot es siempre pública.</li>
-      <li><em>Hops directos y sólo para seguidores</em>: Todos los toots se almacenan y procesan en el servidor. Los toots sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos toots sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en Mastodon.</em></li>
+      <li><em>Hops directos y sólo para seguidores</em>: Todos los toots se almacenan y procesan en el servidor. Los toots sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos toots sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en koyu.space.</em></li>
       <li><em>Direcciones IP y otros metadatos</em>: Cuando iniciás sesión, registramos la dirección IP desde dónde lo estás haciendo, así como el nombre de tu navegador web. Todos los inicios de sesiones están disponibles para tu revisión y revocación en la configuración. La última dirección IP usada se almacena hasta por 12 meses. También podemos conservar los registros del servidor que incluyen la dirección IP de cada solicitud a nuestro servidor.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ es-AR:
       <p>Toda la información que recolectamos de vos puede ser usada de las siguientes maneras:</p>
 
       <ul>
-      <li>Para proporcionar la funcionalidad principal de Mastodon. Sólo puedes interactuar con el contenido de otras personas y publicar tu propio contenido cuando hayás iniciado sesión. Por ejemplo, podés seguir a otras personas para ver sus mensajes combinados en tu propia línea temporal personalizada.</li>
+      <li>Para proporcionar la funcionalidad principal de koyu.space. Sólo puedes interactuar con el contenido de otras personas y publicar tu propio contenido cuando hayás iniciado sesión. Por ejemplo, podés seguir a otras personas para ver sus mensajes combinados en tu propia línea temporal personalizada.</li>
       <li>Para ayudar a la moderación de la comunidad, por ejemplo, comparando tu dirección IP con otras conocidas para determinar la evasión de prohibiciones u otras violaciones.</li>
       <li>La dirección de correo electrónico que nos proporcionés podría usarse para enviarte información, notificaciones sobre otras personas que interactúen con tu contenido o para enviarte mensajes, así como para responder a consultas y/u otras solicitudes o preguntas.</li>
       </ul>
@@ -1279,7 +1279,7 @@ es-AR:
     wrong_code: "¡El código ingresado no es válido! ¿La hora en el dispositivo y en el servidor es correcta?"
   user_mailer:
     backup_ready:
-      explanation: Solicitado un resguardo completo de tu cuenta de Mastodon. ¡Ya está listo para descargar!
+      explanation: Solicitado un resguardo completo de tu cuenta de koyu.space. ¡Ya está listo para descargar!
       subject: Tu archivo historial está listo para descargar
       title: Descargar archivo historial
     sign_in_token:
@@ -1316,11 +1316,11 @@ es-AR:
       full_handle_hint: Esto es lo que le dirás a tus contactos para que ellos puedan enviarte mensajes o seguirte desde otro servidor.
       review_preferences_action: Cambiar configuración
       review_preferences_step: Asegurate de establecer tu configuración, como qué tipo de correos electrónicos te gustaría recibir, o qué nivel de privacidad te gustaría que sea el predeterminado para tus toots. Si no tenés mareos, podrías elegir habilitar la reproducción automática de GIFs.
-      subject: Bienvenido a Mastodon
-      tip_federated_timeline: La línea temporal federada es una línea contínua global de la red de Mastodon. Pero sólo incluye gente que tus vecinos están siguiendo, así que no es completa.
+      subject: Bienvenido a koyu.space
+      tip_federated_timeline: La línea temporal federada es una línea contínua global de la red de koyu.space. Pero sólo incluye gente que tus vecinos están siguiendo, así que no es completa.
       tip_following: Predeterminadamente seguís al / a los administrador/es de tu servidor. Para encontrar más gente interesante, revisá las lineas temporales local y federada.
       tip_local_timeline: La línea temporal local es una línea contínua global de cuentas en %{instance}. ¡Estos son tus vecinos inmediatos!
-      tip_mobile_webapp: Si tu navegador web móvil te ofrece agregar Mastodon a tu página de inicio, podés recibir notificaciones PuSH. ¡Actúa como una aplicación nativa de muchas maneras!
+      tip_mobile_webapp: Si tu navegador web móvil te ofrece agregar koyu.space a tu página de inicio, podés recibir notificaciones PuSH. ¡Actúa como una aplicación nativa de muchas maneras!
       tips: Consejos
       title: "¡Bienvenido a bordo, %{name}!"
   users:
@@ -1334,5 +1334,5 @@ es-AR:
     signed_in_as: 'Iniciaste sesión como:'
     suspicious_sign_in_confirmation: Parece que no iniciaste sesión desde este dispositivo antes, y no iniciaste sesión durante un tiempo, así que te estamos enviando un código de seguridad a tu dirección de correo electrónico para confirmar que sos vos.
   verification:
-    explanation_html: 'Podés <strong>verificarte a vos mismo como el propietario de los enlaces en los metadatos de tu perfil</strong>. Para eso, el sitio web del enlace debe contener un enlace de vuelta a tu perfil de Mastodon. El enlace en tu sitio <strong>debe</strong> tener un atributo <code>rel="me"</code>. El contenido del texto del enlace no importa. Acá tenés un ejemplo:'
+    explanation_html: 'Podés <strong>verificarte a vos mismo como el propietario de los enlaces en los metadatos de tu perfil</strong>. Para eso, el sitio web del enlace debe contener un enlace de vuelta a tu perfil de koyu.space. El enlace en tu sitio <strong>debe</strong> tener un atributo <code>rel="me"</code>. El contenido del texto del enlace no importa. Acá tenés un ejemplo:'
     verification: Verificación

@@ -62,7 +62,7 @@ nl:
       form_challenge:
         current_password: Je betreedt een veilige omgeving
       imports:
-        data: CSV-bestand dat op een andere Mastodonserver werd geëxporteerd
+        data: CSV-bestand dat op een andere koyu.spaceserver werd geëxporteerd
       invite_request:
         text: Dit helpt ons om jouw aanvraag te beoordelen
       sessions:
@@ -77,9 +77,9 @@ nl:
           name: Label
           value: Inhoud
       account_alias:
-        acct: Mastodonadres van het oude account
+        acct: koyu.spaceadres van het oude account
       account_migration:
-        acct: Mastodonadres van het nieuwe account
+        acct: koyu.spaceadres van het nieuwe account
       account_warning_preset:
         text: Tekst van voorinstelling
         title: Titel

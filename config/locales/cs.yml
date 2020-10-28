@@ -2,25 +2,25 @@
 cs:
   about:
     about_hashtag_html: Tohle jsou veřejné tooty označené hashtagem <strong>#%{hashtag}</strong>. Pokud máte účet kdekoliv ve fedivesmíru, můžete s nimi interagovat.
-    about_mastodon_html: 'Sociální síť budoucnosti: žádné reklamy, žádné korporátní sledování, etický design a decentralizace! S Mastodonem vlastníte svoje data!'
+    about_mastodon_html: 'Sociální síť budoucnosti: žádné reklamy, žádné korporátní sledování, etický design a decentralizace! S koyu.spaceem vlastníte svoje data!'
     about_this: O tomto serveru
     active_count_after: aktivních
     active_footnote: Měsíční aktivní uživatelé (MAU)
     administered_by: 'Server spravuje:'
     api: API
     apps: Mobilní aplikace
-    apps_platforms: Používejte Mastodon na iOS, Androidu a dalších platformách
+    apps_platforms: Používejte koyu.space na iOS, Androidu a dalších platformách
     browse_directory: Prozkoumejte adresář profilů a filtrujte dle zájmů
     browse_local_posts: Prozkoumejte živý proud veřejných příspěvků z tohoto serveru
-    browse_public_posts: Prozkoumejte živý proud veřejných příspěvků na Mastodonu
+    browse_public_posts: Prozkoumejte živý proud veřejných příspěvků na koyu.spaceu
     contact: Kontakt
     contact_missing: Nenastaveno
     contact_unavailable: Neuvedeno
     discover_users: Objevujte uživatele
     documentation: Dokumentace
-    federation_hint_html: S účtem na serveru %{instance} můžete sledovat lidi na jakémkoliv ze serverů Mastodon a dalších službách.
+    federation_hint_html: S účtem na serveru %{instance} můžete sledovat lidi na jakémkoliv ze serverů koyu.space a dalších službách.
     get_apps: Vyzkoušejte mobilní aplikaci
-    hosted_on: Mastodon na doméně %{domain}
+    hosted_on: koyu.space na doméně %{domain}
     instance_actor_flash: |
       Tento účet je virtuální aktér, který představuje server samotný, nikoliv účet jednotlivého uživatele.
       Používá se pro účely federace a nesmí být blokován, pokud nechcete blokovat celý server. V takovém případě použijte blokaci domény.
@@ -47,14 +47,14 @@ cs:
       silenced_title: Ztišené servery
       suspended: 'Žádná data z těchto serverů nebudou zpracována, ukládána ani vyměňována, čímž bude znemožněna jakákoliv interakce či komunikace s uživateli z těchto serverů:'
       suspended_title: Pozastavené servery
-    unavailable_content_html: Mastodon vám obvykle dovoluje prohlížet si obsah a komunikovat s uživateli z jakéhokoliv dalšího serveru ve fedivesmíru. Tohle jsou výjimky, které byly zavedeny na tomto konkrétním serveru.
+    unavailable_content_html: koyu.space vám obvykle dovoluje prohlížet si obsah a komunikovat s uživateli z jakéhokoliv dalšího serveru ve fedivesmíru. Tohle jsou výjimky, které byly zavedeny na tomto konkrétním serveru.
     user_count_after:
       few: uživatelé
       many: uživatelů
       one: uživatel
       other: uživatelů
     user_count_before: Domov
-    what_is_mastodon: Co je Mastodon?
+    what_is_mastodon: Co je koyu.space?
   accounts:
     choices_html: 'Volby uživatele %{name}:'
     endorsements_hint: Z webového rozhraní můžete podpořit lidi, které sledujete. Ti se poté zobrazí zde.
@@ -570,20 +570,20 @@ cs:
         desc_html: Zobrazit na stránce uživatele odznak člena personálu
         title: Zobrazit odznak personálu
       site_description:
-        desc_html: Úvodní odstavec v API. Popište, čím se tento server Mastodon odlišuje od ostatních, a cokoliv jiného, co je důležité. Můžete zde používat HTML značky, hlavně <code>&lt;a&gt;</code> a <code>&lt;em&gt;</code>.
+        desc_html: Úvodní odstavec v API. Popište, čím se tento server koyu.space odlišuje od ostatních, a cokoliv jiného, co je důležité. Můžete zde používat HTML značky, hlavně <code>&lt;a&gt;</code> a <code>&lt;em&gt;</code>.
         title: Popis serveru
       site_description_extended:
         desc_html: Dobré místo pro vaše pravidla, pokyny a jiné věci, které váš server odlišují od ostatních. Lze použít HTML značky
         title: Vlastní rozšířené informace
       site_short_description:
-        desc_html: Zobrazeno v postranním panelu a meta značkách. V jednom odstavci popište, co je Mastodon a čím se tento server odlišuje od ostatních.
+        desc_html: Zobrazeno v postranním panelu a meta značkách. V jednom odstavci popište, co je koyu.space a čím se tento server odlišuje od ostatních.
         title: Krátký popis serveru
       site_terms:
         desc_html: Můžete si napsat vlastní zásady ochrany osobních údajů, podmínky používání či jiné právní dokumenty. Můžete použít HTML značky
         title: Vlastní podmínky používání
       site_title: Název serveru
       spam_check_enabled:
-        desc_html: Mastodon může automaticky nahlašovat účty, které opakovaně odesílají nevyžádané zprávy. Mohou se najít špatné shody.
+        desc_html: koyu.space může automaticky nahlašovat účty, které opakovaně odesílají nevyžádané zprávy. Mohou se najít špatné shody.
         title: Antispamová automatizace
       thumbnail:
         desc_html: Používáno pro náhledy přes OpenGraph a API. Doporučujeme rozlišení 1200x630px
@@ -663,7 +663,7 @@ cs:
     confirmation_dialogs: Potvrzovací dialogy
     discovery: Objevování
     localization:
-      body: Mastodon je přeložen do češtiny díky dobrovolníkům.
+      body: koyu.space je přeložen do češtiny díky dobrovolníkům.
       guide_link: https://cs.crowdin.com/project/mastodon
       guide_link_text: Každý může pomoci.
     sensitive_content: Citlivý obsah
@@ -691,9 +691,9 @@ cs:
     delete_account: Odstranit účet
     delete_account_html: Chcete-li odstranit svůj účet, <a href="%{path}">pokračujte zde</a>. Budete požádáni o potvrzení.
     description:
-      prefix_invited_by_user: "@%{name} vás zve na tento server Mastodon!"
-      prefix_sign_up: Registrujte se na Mastodonu již dnes!
-      suffix: S účtem budete moci sledovat lidi, psát příspěvky a vyměňovat si zprávy s uživateli z kteréhokoliv serveru Mastodon a dalších služeb!
+      prefix_invited_by_user: "@%{name} vás zve na tento server koyu.space!"
+      prefix_sign_up: Registrujte se na koyu.spaceu již dnes!
+      suffix: S účtem budete moci sledovat lidi, psát příspěvky a vyměňovat si zprávy s uživateli z kteréhokoliv serveru koyu.space a dalších služeb!
     didnt_get_confirmation: Neobdrželi jste pokyny pro potvrzení?
     forgot_password: Zapomněli jste heslo?
     invalid_reset_password_token: Token pro obnovení hesla je buď neplatný, nebo vypršel. Vyžádejte si prosím nový.
@@ -797,7 +797,7 @@ cs:
       content: Omlouváme se, ale něco se u nás pokazilo.
       title: Tato stránka není správná
     '503': Stránku nelze načíst kvůli dočasnému selhání serveru.
-    noscript_html: Pro použití webové aplikace Mastodon prosím povolte JavaScript. Nebo zkuste jednu z <a href="%{apps_path}">nativních aplikací</a> pro Mastodon pro vaši platformu.
+    noscript_html: Pro použití webové aplikace koyu.space prosím povolte JavaScript. Nebo zkuste jednu z <a href="%{apps_path}">nativních aplikací</a> pro koyu.space pro vaši platformu.
   existing_username_validator:
     not_found: nelze najít místního uživatele s tímto uživatelským jménem
     not_found_multiple: nelze najít %{usernames}
@@ -1093,7 +1093,7 @@ cs:
       weibo: Weibo
     current_session: Aktuální relace
     description: "%{browser} na systému %{platform}"
-    explanation: Tohle jsou webové prohlížeče aktuálně přihlášené na váš účet Mastodon.
+    explanation: Tohle jsou webové prohlížeče aktuálně přihlášené na váš účet koyu.space.
     ip: IP adresa
     platforms:
       adobe_air: Adobe Air
@@ -1117,7 +1117,7 @@ cs:
     aliases: Aliasy účtů
     appearance: Vzhled
     authorized_apps: Autorizované aplikace
-    back: Zpět na Mastodon
+    back: Zpět na koyu.space
     delete: Smazání účtu
     development: Vývoj
     edit_profile: Upravit profil
@@ -1201,7 +1201,7 @@ cs:
       <ul>
       <li><em>Základní informace o účtu</em>: Pokud se na tomto serveru zaregistrujete, můžeme vás požádat o zadání uživatelského jména, e-mailové adresy a hesla. Můžete také zadat dodatečné profilové informace, jako například zobrazované jméno, krátký životopis, nebo si nahrát profilovou fotografii a obrázek záhlaví. Uživatelské i zobrazované jméno, životopis, profilová fotografie a obrázek záhlaví jsou vždy veřejně dostupné.</li>
       <li><em>Příspěvky, sledující a další veřejné informace</em>: Seznam lidí, které sledujete, je uveden veřejně, totéž platí i pro uživatele sledující vás. Pro každou vámi napsanou zprávu, bude uloženo datum a čas a informace o aplikaci, ze které jste zprávu odeslali. Zprávy mohou obsahovat mediální přílohy, jako jsou obrázky a videa. Veřejné a neuvedené příspěvky jsou dostupné veřejně. Pokud na vašem profilu uvedete příspěvek, bude také dostupný veřejně. Vaše příspěvky jsou doručeny uživatelům, kteří vás sledují, což v některých případech znamená, že budou příspěvky doručeny na různé servery, na kterých budou ukládány jejich kopie. Pokud příspěvky smažete, bude tato akce taktéž doručeno vašim sledujícím. Akce opětovného sdílení nebo oblíbení jiného příspěvku je vždy veřejná.</li>
-      <li><em>Příspěvky přímé a pouze pro sledující</em>: Všechny příspěvky jsou na serveru uloženy a zpracovány. Příspěvky pouze pro sledující jsou doručeny uživatelům, kteří vás sledují, a uživatelům v příspěvcích zmíněným. Přímé příspěvky jsou doručeny pouze uživatelům v nich zmíněným. V některých případech to znamená, že budou příspěvky doručeny na různé servery, na kterých budou ukládány jejich kopie. Upřímně se snažíme omezit přístup k těmto příspěvkům pouze na autorizované uživatele, ovšem ostatní servery tak činit nemusí. Proto je důležité posoudit servery, ke kterým uživatelé, kteří vás sledují patří. V nastavení si můžete zapnout volbu pro manuální schvalování či odmítnutí nových sledujících. <em>Mějte prosím na paměti, že správci tohoto serveru a kteréhokoliv přijímacího serveru mohou tyto zprávy vidět</em> a příjemci mohou vytvořit jejich snímek, zkopírovat je, nebo je jinak sdílet. <em>Nesdílejte přes Mastodon žádné nebezpečné informace.</em></li>
+      <li><em>Příspěvky přímé a pouze pro sledující</em>: Všechny příspěvky jsou na serveru uloženy a zpracovány. Příspěvky pouze pro sledující jsou doručeny uživatelům, kteří vás sledují, a uživatelům v příspěvcích zmíněným. Přímé příspěvky jsou doručeny pouze uživatelům v nich zmíněným. V některých případech to znamená, že budou příspěvky doručeny na různé servery, na kterých budou ukládány jejich kopie. Upřímně se snažíme omezit přístup k těmto příspěvkům pouze na autorizované uživatele, ovšem ostatní servery tak činit nemusí. Proto je důležité posoudit servery, ke kterým uživatelé, kteří vás sledují patří. V nastavení si můžete zapnout volbu pro manuální schvalování či odmítnutí nových sledujících. <em>Mějte prosím na paměti, že správci tohoto serveru a kteréhokoliv přijímacího serveru mohou tyto zprávy vidět</em> a příjemci mohou vytvořit jejich snímek, zkopírovat je, nebo je jinak sdílet. <em>Nesdílejte přes koyu.space žádné nebezpečné informace.</em></li>
       <li><em>IP adresy a další metadata</em>: Při vašem přihlášení zaznamenáváme IP adresu, ze které se přihlašujete, a název vašeho webového prohlížeče. Všechny vaše webové relace jsou v nastavení přístupné k vašemu posouzení a odvolání. Poslední použitá IP adresa je uložena maximálně po dobu 12 měsíců. Můžeme také uchovávat serverové záznamy, které obsahují IP adresy každého požadavku odeslaného na náš server.</li>
       </ul>
 
@@ -1212,7 +1212,7 @@ cs:
       <p>Všechna data, která sbíráme, mohou být použita následujícími způsoby:</p>
 
       <ul>
-      <li>K poskytnutí základních funkcí Mastodonu. K interakci s obsahem od jiných lidí a přispívat svým vlastním obsahem můžete pouze, pokud jste přihlášeni. Můžete například sledovat jiné lidi a zobrazit si jejich kombinované příspěvky ve vaší vlastní personalizované časové ose.</li>
+      <li>K poskytnutí základních funkcí koyu.spaceu. K interakci s obsahem od jiných lidí a přispívat svým vlastním obsahem můžete pouze, pokud jste přihlášeni. Můžete například sledovat jiné lidi a zobrazit si jejich kombinované příspěvky ve vaší vlastní personalizované časové ose.</li>
       <li>Pro pomoc moderování komunity, například porovnáním vaší IP adresy s dalšími známými adresami pro detekci obcházení zákazů či jiných přestupků.</li>
       <li>E-mailová adresa, kterou nám poskytnete, může být použita pro zasílání informací, oznámení o interakcích jiných uživatelů s vaším obsahem nebo přijatých zprávách, a k odpovědím na dotazy a/nebo další požadavky či otázky.</li>
       </ul>
@@ -1277,9 +1277,9 @@ cs:
       <p>Původně adaptováno ze <a href="https://github.com/discourse/discourse">zásad ochrna osobních údajů projektem Discourse</a>.</p>
     title: Podmínky používání a zásady ochrany osobních údajů na serveru %{instance}
   themes:
-    contrast: Mastodon (vysoký kontrast)
-    default: Mastodon (tmavý)
-    mastodon-light: Mastodon (světlý)
+    contrast: koyu.space (vysoký kontrast)
+    default: koyu.space (tmavý)
+    mastodon-light: koyu.space (světlý)
   time:
     formats:
       default: "%d. %b %Y, %H:%M"
@@ -1302,7 +1302,7 @@ cs:
     wrong_code: Zadaný kód byl neplatný! Je čas na serveru a na zařízení správný?
   user_mailer:
     backup_ready:
-      explanation: Vyžádali jste si úplnou zálohu svého účtu Mastodon. Nyní je připravena ke stažení!
+      explanation: Vyžádali jste si úplnou zálohu svého účtu koyu.space. Nyní je připravena ke stažení!
       subject: Váš archiv je připraven ke stažení
       title: Stažení archivu
     sign_in_token:
@@ -1339,11 +1339,11 @@ cs:
       full_handle_hint: Tohle je, co byste řekli svým přátelům, aby vám mohli posílat zprávy nebo vás sledovat z jiného serveru.
       review_preferences_action: Změnit předvolby
       review_preferences_step: Nezapomeňte si nastavit například jaké e-maily chcete přijímat či jak soukromé mají ve výchozím stavu být vaše příspěvky. Nemáte-li epilepsii, můžete si nastavit automatické přehrávání obrázků GIF.
-      subject: Vítejte na Mastodonu
-      tip_federated_timeline: Federovaná časová osa je náhled celé sítě Mastodon. Zahrnuje ovšem pouze lidi, které sledují vaši sousedé, takže není úplná.
+      subject: Vítejte na koyu.spaceu
+      tip_federated_timeline: Federovaná časová osa je náhled celé sítě koyu.space. Zahrnuje ovšem pouze lidi, které sledují vaši sousedé, takže není úplná.
       tip_following: Administrátory serveru sledujete automaticky. Chcete-li najít další zajímavé lidi, podívejte se do místní a federované časové osy.
       tip_local_timeline: Místní časová osa je náhled lidí na serveru %{instance}. Jsou to vaši nejbližší sousedé!
-      tip_mobile_webapp: Pokud vám váš mobilní prohlížeč nabídne přidat si Mastodon na vaši domovskou obrazovku, můžete dostávat oznámení. V mnoha ohledech to funguje jako nativní aplikace!
+      tip_mobile_webapp: Pokud vám váš mobilní prohlížeč nabídne přidat si koyu.space na vaši domovskou obrazovku, můžete dostávat oznámení. V mnoha ohledech to funguje jako nativní aplikace!
       tips: Tipy
       title: Vítejte na palubě, %{name}!
   users:
@@ -1357,5 +1357,5 @@ cs:
     signed_in_as: 'Přihlášeni jako:'
     suspicious_sign_in_confirmation: Zdá se, že se z tohoto zařízení přihlašujete poprvé a po dlouhé době. Pro ověření tohoto přihlášení jsme vám e-mailem zaslali bezpečnostní kód.
   verification:
-    explanation_html: 'Můžete se <strong>ověřit jako vlastník odkazů v metadatech profilu</strong>. Pro tento účel musí stránka v odkazu obsahovat odkaz zpět na váš profil na Mastodonu. Odkaz zpět <strong>musí</strong> mít atribut <code>rel="me"</code>. Na textu odkazu nezáleží. Zde je příklad:'
+    explanation_html: 'Můžete se <strong>ověřit jako vlastník odkazů v metadatech profilu</strong>. Pro tento účel musí stránka v odkazu obsahovat odkaz zpět na váš profil na koyu.spaceu. Odkaz zpět <strong>musí</strong> mít atribut <code>rel="me"</code>. Na textu odkazu nezáleží. Zde je příklad:'
     verification: Ověření

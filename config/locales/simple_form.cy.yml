@@ -62,7 +62,7 @@ cy:
       form_challenge:
         current_password: Rydych chi'n mynd i mewn i ardal sicr
       imports:
-        data: Allforiwyd dogfen CSV o achos Mastodon arall
+        data: Allforiwyd dogfen CSV o achos koyu.space arall
       invite_request:
         text: Bydd hyn yn helpu ni adolygu eich cais
       sessions:

@@ -62,7 +62,7 @@ et:
       form_challenge:
         current_password: Te sisenete turvalisele alale
       imports:
-        data: CSV fail eksporditi teisest Mastodoni serverist
+        data: CSV fail eksporditi teisest koyu.spacei serverist
       invite_request:
         text: See aitab meil üle vaadata Teie taotlust
       sessions:

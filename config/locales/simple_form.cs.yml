@@ -62,7 +62,7 @@ cs:
       form_challenge:
         current_password: Vstupujete do zabezpečeného prostoru
       imports:
-        data: Soubor CSV exportovaný z jiného serveru Mastodon
+        data: Soubor CSV exportovaný z jiného serveru koyu.space
       invite_request:
         text: To nám pomůže posoudit vaši žádost
       sessions:

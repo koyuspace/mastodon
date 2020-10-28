@@ -2,16 +2,16 @@
 sr-Latn:
   about:
     about_hashtag_html: Ovo su javni statusi tagovani sa <strong>#%{hashtag}</strong>. Možete odgovarati na njih ako imate nalog bilo gde u fediversu.
-    about_mastodon_html: Mastodont je društvena mreža bazirana na otvorenim protokolima i slobodnom softveru otvorenog koda. Decentralizovana je kao što je decentralizovana e-pošta.
+    about_mastodon_html: koyu.spacet je društvena mreža bazirana na otvorenim protokolima i slobodnom softveru otvorenog koda. Decentralizovana je kao što je decentralizovana e-pošta.
     about_this: O instanci
     contact: Kontakt
     contact_missing: Nije postavljeno
-    hosted_on: Mastodont hostovan na %{domain}
+    hosted_on: koyu.spacet hostovan na %{domain}
     learn_more: Saznajte više
     source_code: Izvorni kod
     status_count_before: Koji su napisali
     user_count_before: Dom za
-    what_is_mastodon: Šta je Mastodont?
+    what_is_mastodon: Šta je koyu.spacet?
   accounts:
     media: Multimedija
     moved_html: "%{name} je pomeren na %{new_profile_link}:"
@@ -320,7 +320,7 @@ sr-Latn:
       content: Izvinjavamo se, nešto je pošlo po zlu sa ove strane.
       title: Strana nije ispravna
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Da biste koristili Mastodont veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za Mastodont za Vašu platformu.
+    noscript_html: Da biste koristili koyu.spacet veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za koyu.spacet za Vašu platformu.
   exports:
     blocks: Blokirali ste
     mutes: Ućutkali ste
@@ -419,7 +419,7 @@ sr-Latn:
       generic: Nepoznati veb čitač
     current_session: Trenutna sesija
     description: "%{browser} sa %{platform}"
-    explanation: Ovo su trenutno prijavljeni veb čitači na Vaš Mastodont nalog.
+    explanation: Ovo su trenutno prijavljeni veb čitači na Vaš koyu.spacet nalog.
     platforms:
       adobe_air: Adobe Air-a
       android: Androida
@@ -437,7 +437,7 @@ sr-Latn:
     title: Sesije
   settings:
     authorized_apps: Autorizovane aplikacije
-    back: Nazad na Mastodonta
+    back: Nazad na koyu.spaceta
     delete: Brisanje naloga
     development: Razvoj
     edit_profile: Izmena profila
@@ -470,7 +470,7 @@ sr-Latn:
   terms:
     title: Uslovi korišćenja i politika privatnosti instance %{instance}
   themes:
-    default: Mastodont
+    default: koyu.spacet
   two_factor_authentication:
     code_hint: Unesite kod sa Vaše aplikacije za proveru identiteta da potvrdite
     description_html: Ako uključite <strong>dvofaktorsku identifikaciju</strong>, moraćete da imate telefon sa sobom da biste mogli da se prijavite. Telefon će onda generisati tokene za Vašu prijavu.

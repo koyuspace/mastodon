@@ -62,7 +62,7 @@ nn:
       form_challenge:
         current_password: Du går inn i et sikkert område
       imports:
-        data: CSV-fil eksportert frå ein annan Mastodon-tenar
+        data: CSV-fil eksportert frå ein annan koyu.space-tenar
       invite_request:
         text: Dette kjem til å hjelpa oss med å gå gjennom søknaden din
       sessions:

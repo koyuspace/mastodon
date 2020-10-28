@@ -62,7 +62,7 @@ ca:
       form_challenge:
         current_password: Estàs entrant en una àrea segura
       imports:
-        data: Fitxer CSV exportat des d'un altre servidor de Mastodon
+        data: Fitxer CSV exportat des d'un altre servidor de koyu.space
       invite_request:
         text: Això ens ajudarà a revisar la teva petició
       sessions:

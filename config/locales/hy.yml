@@ -277,8 +277,8 @@ hy:
   stream_entries:
     sensitive_content: Կասկածելի բովանդակութիւն
   themes:
-    default: Mastodon (Մուգ)
-    mastodon-light: Mastodon (Լուսավոր)
+    default: koyu.space (Մուգ)
+    mastodon-light: koyu.space (Լուսավոր)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

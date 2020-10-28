@@ -59,7 +59,7 @@ tr:
       form_challenge:
         current_password: Güvenli bir bölgeye giriyorsunuz
       imports:
-        data: Diğer Mastodon sunucusundan dışarı aktardığınız CSV dosyası
+        data: Diğer koyu.space sunucusundan dışarı aktardığınız CSV dosyası
       invite_request:
         text: Bu, başvurunuzu gözden geçirmemize yardımcı olacaktır
       sessions:

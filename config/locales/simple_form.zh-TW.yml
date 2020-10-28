@@ -49,7 +49,7 @@ zh-TW:
       form_challenge:
         current_password: 您正要進入安全區域
       imports:
-        data: 從其他 Mastodon 伺服器匯出的 CSV 檔案
+        data: 從其他 koyu.space 伺服器匯出的 CSV 檔案
       invite_request:
         text: 這會協助我們審核您的應用程式
       sessions:

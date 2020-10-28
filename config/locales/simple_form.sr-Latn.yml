@@ -9,7 +9,7 @@ sr-Latn:
         locked: Zahteva da pojedinačno odobrite pratioce
         setting_noindex: Utiče na Vaš javni profil i statusne strane
       imports:
-        data: CSV fajl izvezen sa druge Mastodont instance
+        data: CSV fajl izvezen sa druge koyu.spacet instance
       sessions:
         otp: 'Unesite dvofaktorski kod sa Vašeg telefona ili koristite jedan od kodova za oporavak:'
     labels:

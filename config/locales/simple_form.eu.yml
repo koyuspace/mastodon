@@ -62,7 +62,7 @@ eu:
       form_challenge:
         current_password: Zonalde seguruan sartzen ari zara
       imports:
-        data: Beste Mastodon zerbitzari batetik esportatutako CSV fitxategia
+        data: Beste koyu.space zerbitzari batetik esportatutako CSV fitxategia
       invite_request:
         text: Honek zure eskaera berrikustean lagunduko digu
       sessions:

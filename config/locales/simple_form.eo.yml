@@ -44,7 +44,7 @@ eo:
       form_challenge:
         current_password: Vi eniras sekuran areon
       imports:
-        data: CSV-dosiero el alia Mastodon-servilo
+        data: CSV-dosiero el alia koyu.space-servilo
       invite_request:
         text: Ĉi tio helpos nin revizii vian kandidatiĝon
       sessions:

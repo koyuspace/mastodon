@@ -2,25 +2,25 @@
 is:
   about:
     about_hashtag_html: Þetta eru opinber tíst sem merkt eru með <strong>#%{hashtag}</strong>. Þú getur unnið með þau ef þú ert með skráðan aðgang einhversstaðar í skýjasambandinu.
-    about_mastodon_html: 'Samfélagsnet framtíðarinnar: Engar auglýsingar, ekkert eftirlit stórfyrirtækja, siðleg hönnun og engin miðstýring! Þú átt þín eigin gögn í Mastodon!'
+    about_mastodon_html: 'Samfélagsnet framtíðarinnar: Engar auglýsingar, ekkert eftirlit stórfyrirtækja, siðleg hönnun og engin miðstýring! Þú átt þín eigin gögn í koyu.space!'
     about_this: Um hugbúnaðinn
     active_count_after: virkt
     active_footnote: Mánaðarlega virkir notendur (MAU)
     administered_by: 'Stýrt af:'
     api: API-kerfisviðmót
     apps: Farsímaforrit
-    apps_platforms: Notaðu Mastodon frá iOS, Android og öðrum stýrikerfum
+    apps_platforms: Notaðu koyu.space frá iOS, Android og öðrum stýrikerfum
     browse_directory: Skoða notandasniðamöppu og sía eftir áhugamálum
     browse_local_posts: Skoðaðu kvikt streymi af opinberum færslum á þessum vefþjóni
-    browse_public_posts: Skoðaðu kvikt streymi af opinberum færslum á Mastodon
+    browse_public_posts: Skoðaðu kvikt streymi af opinberum færslum á koyu.space
     contact: Hafa samband
     contact_missing: Ekki skilgreint
     contact_unavailable: Ekki til staðar
     discover_users: Uppgötva notendur
     documentation: Hjálparskjöl
-    federation_hint_html: Með notandaaðgangi á %{instance} geturðu fylgst með fólki á hvaða Mastodon-þjóni sem er og reyndar víðar.
+    federation_hint_html: Með notandaaðgangi á %{instance} geturðu fylgst með fólki á hvaða koyu.space-þjóni sem er og reyndar víðar.
     get_apps: Prófaðu farsímaforrit
-    hosted_on: Mastodon hýst á %{domain}
+    hosted_on: koyu.space hýst á %{domain}
     instance_actor_flash: |
       Þessi aðgangur er sýndarnotandi sem er notaður til að tákna sjálfan vefþjóninn en ekki neinn einstakan notanda.
       Tilgangur hans tengist virkni vefþjónasambandsins og ætti alls ekki að loka á hann nema að þú viljir útiloka allan viðkomandi vefþjón, en þá ætti frekar að útiloka sjálft lénið.
@@ -45,12 +45,12 @@ is:
       silenced_title: Þaggaðir netþjónar
       suspended: 'Engin gögn frá þessum vefþjónum verða unnin, geymd eða skipst á, sem gerir samskipti við notendur frá þessum vefþjónum ómöguleg:'
       suspended_title: Netþjónar í frysti
-    unavailable_content_html: Mastodon leyfir þér almennt að skoða og eiga við efni frá notendum frá hvaða vefþjóni sem er í vefþjónasambandinu. Þetta eru þær undantekningar sem hafa verið gerðar á þessum tiltekna vefþjóni.
+    unavailable_content_html: koyu.space leyfir þér almennt að skoða og eiga við efni frá notendum frá hvaða vefþjóni sem er í vefþjónasambandinu. Þetta eru þær undantekningar sem hafa verið gerðar á þessum tiltekna vefþjóni.
     user_count_after:
       one: notanda
       other: notendur
     user_count_before: Hýsir
-    what_is_mastodon: Hvað er Mastodon?
+    what_is_mastodon: Hvað er koyu.space?
   accounts:
     choices_html: "%{name} hefur valið:"
     endorsements_hint: Þú getur auglýst efni frá fólki sem þú fylgir í vefviðmótinu og mun það birtast hér.
@@ -555,20 +555,20 @@ is:
         desc_html: Sýna starfsmannamerki á síðu notandans
         title: Sýna starfsmannamerki
       site_description:
-        desc_html: Kynningarmálsgrein í API. Lýstu því hvað það er sem geri þennan Mastodon-þjón sérstakan, auk annarra mikilvægra upplýsinga. Þú getur notað HTML-einindi, sér í lagi <code>&lt;a&gt;</code> og <code>&lt;em&gt;</code>.
+        desc_html: Kynningarmálsgrein í API. Lýstu því hvað það er sem geri þennan koyu.space-þjón sérstakan, auk annarra mikilvægra upplýsinga. Þú getur notað HTML-einindi, sér í lagi <code>&lt;a&gt;</code> og <code>&lt;em&gt;</code>.
         title: Lýsing á vefþjóni
       site_description_extended:
         desc_html: Góður staður fyrir siðareglur, almennt regluverk, leiðbeiningar og annað sem gerir netþjóninni þinn sérstakann. Þú getur notað HTML-einindi
         title: Sérsniðnar ítarlegar upplýsingar
       site_short_description:
-        desc_html: Birt á hliðarspjaldi og í lýsigögnum. Lýstu því hvað Mastodon gerir og hvað það er sem geri þennan vefþjón sérstakan, í einni málsgrein.
+        desc_html: Birt á hliðarspjaldi og í lýsigögnum. Lýstu því hvað koyu.space gerir og hvað það er sem geri þennan vefþjón sérstakan, í einni málsgrein.
         title: Stutt lýsing á netþjóninum
       site_terms:
         desc_html: Þú getur skrifað þína eigin persónuverndarstefnu, þjónustuskilmála eða annað lagatæknilegt. Þú getur notað HTML-einindi
         title: Sérsniðnir þjónustuskilmálar
       site_title: Heiti vefþjóns
       spam_check_enabled:
-        desc_html: Mastodon getur tilkynnt sjálfvirkt um aðganga sem senda ítrekað óumbeðin skilaboð. Mögulega geta verið rangar slíkar tilkynningar.
+        desc_html: koyu.space getur tilkynnt sjálfvirkt um aðganga sem senda ítrekað óumbeðin skilaboð. Mögulega geta verið rangar slíkar tilkynningar.
         title: Sjálfvirkar ruslpóstvarnir
       thumbnail:
         desc_html: Notað við forskoðun í gegnum OpenGraph og API-kerfisviðmót. Mælt með 1200×630 mynddílum
@@ -649,7 +649,7 @@ is:
     confirmation_dialogs: Staðfestingargluggar
     discovery: Uppgötvun
     localization:
-      body: Mastodon er þýtt af sjálfboðaliðum.
+      body: koyu.space er þýtt af sjálfboðaliðum.
       guide_link: https://crowdin.com/project/mastodon/is
       guide_link_text: Allir geta tekið þátt.
     sensitive_content: Viðkvæmt efni
@@ -677,9 +677,9 @@ is:
     delete_account: Eyða notandaaðgangi
     delete_account_html: Ef þú vilt eyða notandaaðgangnum þínum, þá geturðu <a href="%{path}">farið í það hér</a>. Þú verður beðin/n um staðfestingu.
     description:
-      prefix_invited_by_user: "@%{name} býður þér að taka þátt á þessum Mastodon-vefþjóni!"
-      prefix_sign_up: Skráðu þig á Mastodon strax í dag!
-      suffix: Með notandaaðgangi geturðu fylgst með fólki, sent inn stöðufærslur og skipst á skilaboðum við notendur á hvaða Mastodon-vefþjóni sem er, auk margs fleira!
+      prefix_invited_by_user: "@%{name} býður þér að taka þátt á þessum koyu.space-vefþjóni!"
+      prefix_sign_up: Skráðu þig á koyu.space strax í dag!
+      suffix: Með notandaaðgangi geturðu fylgst með fólki, sent inn stöðufærslur og skipst á skilaboðum við notendur á hvaða koyu.space-vefþjóni sem er, auk margs fleira!
     didnt_get_confirmation: Fékkstu ekki leiðbeiningar um hvernig eigi að staðfesta aðganginn?
     forgot_password: Gleymdirðu lykilorðinu?
     invalid_reset_password_token: Teikn fyrir endurstillingu lykilorðs er ógilt eða útrunnið. Biddu um nýtt teikn.
@@ -783,7 +783,7 @@ is:
       content: Því miður, en eitthvað fór úrskeiðis á okkar enda.
       title: Þessi síða er ekki rétt
     '503': Ekki var hægt að afgreiða síðuna vegna tímabundinnar bilunar á vefþjóni.
-    noscript_html: Til að nota vefútgáfu Mastodon þarftu að virkja JavaScript. Þú getur líka prófað eitt af Mastodon <a href="%{apps_path}">forritunum</a> fyrir stýrikerfið þitt.
+    noscript_html: Til að nota vefútgáfu koyu.space þarftu að virkja JavaScript. Þú getur líka prófað eitt af koyu.space <a href="%{apps_path}">forritunum</a> fyrir stýrikerfið þitt.
   existing_username_validator:
     not_found: Fann ekki staðværan notanda með þetta notandanafn
     not_found_multiple: tókst ekki að finna %{usernames}
@@ -1077,7 +1077,7 @@ is:
       weibo: Weibo
     current_session: Núverandi seta
     description: "%{browser} á %{platform}"
-    explanation: Þetta eru vafrarnir sem núna eru skráðir inn á Mastodon-aðganginn þinn.
+    explanation: Þetta eru vafrarnir sem núna eru skráðir inn á koyu.space-aðganginn þinn.
     ip: IP-vistfang
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ is:
     aliases: Samnefni notandaaðgangs
     appearance: Útlit
     authorized_apps: Leyfð forrit
-    back: Til baka í Mastodon
+    back: Til baka í koyu.space
     delete: Eyðing notandaaðgangs
     development: Þróun
     edit_profile: Breyta notandasniði
@@ -1178,7 +1178,7 @@ is:
       <ul>
       <li><em>Grunnupplýsingar um notandaaðgang</em>: Ef þú skráir þig á þessum netþjóni gætirðu verið beðinn um að slá inn notandanafn, tölvupóstfang og lykilorð. Þú getur einnig sett inn viðbótarupplýsingar eins og birtingarnafn og æviágrip auk þess að hlaða inn auðkennismynd eða mynd til að birta á síðuhaus. Notandanafn, birtingarnafn, æviágrip, auðkennismynd og hausmynd eru alltaf skráð opinberlega. </li>
       <li><em>Skilaboð, fylgnigögn og aðrar opinberar upplýsingar</em>: Listinn yfir þá sem þú fylgist með er skráður opinberlega, það sama er að segja um þá sem fylgjast með þér. Þegar þú sendir skilaboð er dagsetning og tími vistaður sem og hvaða forrit þú sendir skilaboðin frá. Skilaboð geta innihaldið viðhengi, svo sem myndir og myndskeið. Opinberar og óskráðar færslur er aðgengilegar opinberlega. Þegar þú birtir færslu á notandasniðinu þínu (forsíðu) eru það einnig opinberar upplýsingar. Færslurnar þínar eru sendar þeim sem fylgjast með þér, í sumum tilvikum þýðir það að þær eru afhentar á aðra netþjóna og afrit geymd þar. Þegar þú eyðir færslum er það sömuleiðis birt fylgjendum þínum. Aðgerðir eins og að endurbirta eða setja færslu í eftirlæti eru ávallt opinberar.</li>
-      <li><em>Beinar færslur og eingöngu til fylgjenda</em>: Öll innlegg eru geymd og unnin á netþjóninum. Færslur sem eingöngu eru til fylgjenda berast til fylgjenda þinna og þeirra notenda sem minnst er á í þeim, beinar færslur berast aðeins til notenda sem getið er um í viðkomandi færslu. Í sumum tilvikum þýðir það að færslurnar eru afhentar á aðra netþjóna og afrit geymd þar. Við leggjum mikla áherslu á að takmarka aðgang að þessum færslum einungis við aðila sem til þess hafa heimild, en aðrir utanaðkomandi netþjónar gætu mögulega ekki gert það. Þess vegna er mikilvægt að skoða vel þá netþjóna sem fylgjendur þínir tilheyra. Þú getur valið að þurfa að samþykkja og hafna nýjum fylgjendum handvirkt í stillingunum.<em>Hafðu í huga að rekstraraðilar netþjónsins og allir viðtakendamiðlarar geta skoðað slík skilaboð</em> og að viðtakendur geta tekið skjámyndir, afritað eða á annan hátt deilt þessum gögnum. <em>Ekki deila hættulegum upplýsingum í gegnum Mastodon.</em></li>
+      <li><em>Beinar færslur og eingöngu til fylgjenda</em>: Öll innlegg eru geymd og unnin á netþjóninum. Færslur sem eingöngu eru til fylgjenda berast til fylgjenda þinna og þeirra notenda sem minnst er á í þeim, beinar færslur berast aðeins til notenda sem getið er um í viðkomandi færslu. Í sumum tilvikum þýðir það að færslurnar eru afhentar á aðra netþjóna og afrit geymd þar. Við leggjum mikla áherslu á að takmarka aðgang að þessum færslum einungis við aðila sem til þess hafa heimild, en aðrir utanaðkomandi netþjónar gætu mögulega ekki gert það. Þess vegna er mikilvægt að skoða vel þá netþjóna sem fylgjendur þínir tilheyra. Þú getur valið að þurfa að samþykkja og hafna nýjum fylgjendum handvirkt í stillingunum.<em>Hafðu í huga að rekstraraðilar netþjónsins og allir viðtakendamiðlarar geta skoðað slík skilaboð</em> og að viðtakendur geta tekið skjámyndir, afritað eða á annan hátt deilt þessum gögnum. <em>Ekki deila hættulegum upplýsingum í gegnum koyu.space.</em></li>
       <li><em>IP-vistföng og önnur lýsigögn</em>: Þegar þú skráir þig inn skráum við IP-töluna sem þú skráir þig inn af, sem og heiti vafraforritsins þíns. Allar innskráðar setur verða tiltækar til skoðunar og afturköllunar í stillingunum. Síðast notaða IP-talan er geymd í allt að 12 mánuði. Við gætum líka haldið eftir atvikaskrám netþjónsins sem gæti innihaldið IP-tölur allra beiðna til netþjónsins.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ is:
       <p>Hvað sem er af þeim upplýsingum sem við söfnum frá þér má nota á eftirfarandi vegu:</p>
 
       <ul>
-      <li>Til að veita grunnvirkni Mastodon. Þú getur aðeins haft samskipti við efni annarra eða sent inn þitt eigið efni þegar þú ert skráð/ur inn. Til dæmis gætirðu fylgst með öðru fólki og skoðað safn færslna þeirra á þinni eigin persónulega sérsniðnu tímalínu.</li>
+      <li>Til að veita grunnvirkni koyu.space. Þú getur aðeins haft samskipti við efni annarra eða sent inn þitt eigið efni þegar þú ert skráð/ur inn. Til dæmis gætirðu fylgst með öðru fólki og skoðað safn færslna þeirra á þinni eigin persónulega sérsniðnu tímalínu.</li>
       <li>Til að hjálpa til við umsjón og viðhald samfélags/hóps, til dæmis að bera saman IP-tölu þína við aðrar þekktar til að greina frávik frá bönnum eða öðrum brotum.</li>
       <li>Tölvupóstfangið sem þú gefur upp má nota til að senda þér upplýsingar, tilkynningar um annað fólk sem átt hefur við efnið þitt eða til að senda þér skilaboð eða svara fyrirspurnum og/eða öðrum beiðnum eða spurningum.</li>
       </ul>
@@ -1254,9 +1254,9 @@ is:
       <p> Upprunalega aðlagað úr <a href="https://github.com/discourse/discourse">persónuverndarstefnu Discourse</a>.</p>
     title: "%{instance} - Þjónustuskilmálar og persónuverndarstefna"
   themes:
-    contrast: Mastodon (mikil birtuskil)
-    default: Mastodon (dökkt)
-    mastodon-light: Mastodon (ljóst)
+    contrast: koyu.space (mikil birtuskil)
+    default: koyu.space (dökkt)
+    mastodon-light: koyu.space (ljóst)
   time:
     formats:
       default: "%d. %b, %Y, %H:%M"
@@ -1279,7 +1279,7 @@ is:
     wrong_code: Kóðinn sem þú settir inn er ógildur! Eru klukkur netþjónsins og tækisins réttar?
   user_mailer:
     backup_ready:
-      explanation: Þú baðst um fullt öryggisafrit af Mastodon notandaaðgangnum þínum. Það er núna tilbúið til niðurhals!
+      explanation: Þú baðst um fullt öryggisafrit af koyu.space notandaaðgangnum þínum. Það er núna tilbúið til niðurhals!
       subject: Safnskráin þín er tilbúin til niðurhals
       title: Taka út í safnskrá
     sign_in_token:
@@ -1316,11 +1316,11 @@ is:
       full_handle_hint: Þetta er það sem þú myndir gefa upp við vini þína svo þeir geti sent þér skilaboð eða fylgst með þér af öðrum netþjóni.
       review_preferences_action: Breyta kjörstillingum
       review_preferences_step: Gakktu úr skugga um að kjörstillingarnar séu eins og þú vilt hafa þær, eins og t.d. hvaða tölvupóst þú vilt fá, eða hvaða stig friðhelgi þú vilt að færslurnar þínar hafi sjálfgefið. Ef þú hefur ekkert á móti sjónrænu áreiti geturðu virkjað sjálvirka spilun GIF-hreyfimynda.
-      subject: Velkomin í Mastodon
-      tip_federated_timeline: Sameiginlega tímalínan er færibandasýn á Mastodon netkerfið. En hún inniheldur bara fólk sem nágrannar þínir eru áskrifendur að, þannig að hún er ekki tæmandi.
+      subject: Velkomin í koyu.space
+      tip_federated_timeline: Sameiginlega tímalínan er færibandasýn á koyu.space netkerfið. En hún inniheldur bara fólk sem nágrannar þínir eru áskrifendur að, þannig að hún er ekki tæmandi.
       tip_following: Sjálfgefið er að þú fylgist með stjórnanda eða stjórnendum vefþjónsins. Til að finna fleira áhugavert fólk ættirðu að kíkja á staðværu og sameiginlegu tímalínurnar.
       tip_local_timeline: Staðværa tímalínan er færibandasýn á allt fólkið á %{instance}. Þetta eru þínir næstu nágrannar!
-      tip_mobile_webapp: Ef farsímavafrinn býður þér að bæta Mastodon á heimaskjáinn þinn, muntu geta tekið á móti ýti-tilkynningum. Það virkar á ýmsa vegu eins og um uppsett forrit sé að ræða!
+      tip_mobile_webapp: Ef farsímavafrinn býður þér að bæta koyu.space á heimaskjáinn þinn, muntu geta tekið á móti ýti-tilkynningum. Það virkar á ýmsa vegu eins og um uppsett forrit sé að ræða!
       tips: Ábendingar
       title: Velkomin/n um borð, %{name}!
   users:
@@ -1334,5 +1334,5 @@ is:
     signed_in_as: 'Skráð inn sem:'
     suspicious_sign_in_confirmation: Það virðist sem þú hafir ekki skráð þig inn af þessu tæki áður og að nokkur tími sé liðinn frá því þú hefur skráð þig inn, þannig að við erum að senda þér öryggiskóða á tölvupóstfangið þitt til að staðfesta að þetta sért þú.
   verification:
-    explanation_html: 'Þú getur <strong>vottað að þú sért eigandi og ábyrgur fyrir tenglunum í lýsigögnum notandasniðsins þíns</strong>. Til að það virki, þurfa vefsvæðin sem vísað er í að innihalda tengil til baka í Mastodon-notandasniðið. Tengillinn sem vísar til baka <strong>verður</strong> að vera með <code>rel="me"</code> eigindi. Textinn í tenglinum skiptir ekki máli. Hérna er dæmi:'
+    explanation_html: 'Þú getur <strong>vottað að þú sért eigandi og ábyrgur fyrir tenglunum í lýsigögnum notandasniðsins þíns</strong>. Til að það virki, þurfa vefsvæðin sem vísað er í að innihalda tengil til baka í koyu.space-notandasniðið. Tengillinn sem vísar til baka <strong>verður</strong> að vera með <code>rel="me"</code> eigindi. Textinn í tenglinum skiptir ekki máli. Hérna er dæmi:'
     verification: Sannprófun

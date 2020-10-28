@@ -62,7 +62,7 @@ vi:
       form_challenge:
         current_password: Biểu mẫu này an toàn
       imports:
-        data: Tệp CSV được xuất từ máy chủ Mastodon khác
+        data: Tệp CSV được xuất từ máy chủ koyu.space khác
       invite_request:
         text: Điều này sẽ giúp chúng tôi phê duyệt đăng ký của bạn
       sessions:

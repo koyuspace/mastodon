@@ -1,16 +1,16 @@
 en:
   flavours:
     vanilla:
-      description: The theme used by vanilla Mastodon instances. This theme might not support all of the features of GlitchSoc.
-      name: Vanilla Mastodon
+      description: The theme used by vanilla koyu.space instances. This theme might not support all of the features of GlitchSoc.
+      name: Vanilla koyu.space
   skins:
     vanilla:
       default: Default
 pl:
   flavours:
     vanilla:
-      description: Motyw używany przez instancje czystego Mastodona. Może nie obsługiwać wszystkich funkcji GlitchSoc.
-      name: Mastodon Vanilla
+      description: Motyw używany przez instancje czystego koyu.spacea. Może nie obsługiwać wszystkich funkcji GlitchSoc.
+      name: koyu.space Vanilla
   skins:
     vanilla:
       default: Domyślny
@@ -18,16 +18,16 @@ pl:
 de:
   flavours:
     vanilla:
-      description: Das Theme von Mastodon. Dieses Theme unterstützt möglicherweise nicht alle Features von GlitchSoc.
-      name: Vanilla Mastodon
+      description: Das Theme von koyu.space. Dieses Theme unterstützt möglicherweise nicht alle Features von GlitchSoc.
+      name: Vanilla koyu.space
   skins:
     vanilla:
       default: Standard
 es:
   flavours:
     vanilla:
-      description: El diseño predeterminado en las instancias de Mastodon. Puede que no soporte todas las características de GlitchSoc.
-      name: Mastodon Original
+      description: El diseño predeterminado en las instancias de koyu.space. Puede que no soporte todas las características de GlitchSoc.
+      name: koyu.space Original
   skins:
     vanilla:
       default: Predeterminado

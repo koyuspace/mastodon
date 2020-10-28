@@ -2,25 +2,25 @@
 id:
   about:
     about_hashtag_html: Ini adalah toot public yang ditandai dengan <strong>#%{hashtag}</strong>. Anda bisa berinteraksi dengan mereka jika anda memiliki akun dimanapun di fediverse.
-    about_mastodon_html: Mastodon adalah sebuah jejaring sosial <em>terbuka, open-source</em. Sebuah alternatif <em>desentralisasi</em> dari platform komersial, menjauhkan anda resiko dari sebuah perusahaan yang memonopoli komunikasi anda. Pilih server yang anda percayai &mdash; apapun yang anda pilih, anda tetap dapat berinteraksi dengan semua orang. Semua orang dapat menjalankan server Mastodon sendiri dan berpartisipasi dalam <em>jejaring sosial</em> dengan mudah.
+    about_mastodon_html: koyu.space adalah sebuah jejaring sosial <em>terbuka, open-source</em. Sebuah alternatif <em>desentralisasi</em> dari platform komersial, menjauhkan anda resiko dari sebuah perusahaan yang memonopoli komunikasi anda. Pilih server yang anda percayai &mdash; apapun yang anda pilih, anda tetap dapat berinteraksi dengan semua orang. Semua orang dapat menjalankan server koyu.space sendiri dan berpartisipasi dalam <em>jejaring sosial</em> dengan mudah.
     about_this: Tentang server ini
     active_count_after: aktif
     active_footnote: Pengguna Aktif Bulanan (PAB)
     administered_by: 'Dikelola oleh:'
     api: API
     apps: Aplikasi hp
-    apps_platforms: Gunakan Mastodon dari iOS, Android, dan platform lain
+    apps_platforms: Gunakan koyu.space dari iOS, Android, dan platform lain
     browse_directory: Jelajahi direktori profil dan saring sesuai minat
     browse_local_posts: Jelajahi siaran langsung dari pos publik server ini
-    browse_public_posts: Jelajahi siaran langsung pos publik di Mastodon
+    browse_public_posts: Jelajahi siaran langsung pos publik di koyu.space
     contact: Kontak
     contact_missing: Belum diset
     contact_unavailable: Tidak Tersedia
     discover_users: Temukan pengguna
     documentation: Dokumentasi
-    federation_hint_html: Dengan akun di %{instance} Anda dapat mengikuti orang di server Mastodon mana pun dan di luarnya.
+    federation_hint_html: Dengan akun di %{instance} Anda dapat mengikuti orang di server koyu.space mana pun dan di luarnya.
     get_apps: Coba aplikasi mobile
-    hosted_on: Mastodon dihosting di %{domain}
+    hosted_on: koyu.space dihosting di %{domain}
     instance_actor_flash: Akun ini adalah aktor virtual yang dipakai untuk merepresentasikan server, bukan pengguna individu. Ini dipakai untuk tujuan federasi dan jangan diblokir kecuali Anda ingin memblokir seluruh instansi, yang seharusnya Anda pakai blokir domain.
     learn_more: Pelajari selengkapnya
     privacy_policy: Kebijakan Privasi
@@ -39,11 +39,11 @@ id:
       rejecting_media: 'Berkas media dari server ini tak akan diproses dan disimpan, dan tak akan ada gambar kecil yang ditampilkan, perlu klik manual utk menuju berkas asli:'
       silenced: 'Pos dari server ini akan disembunyikan dari linimasa publik dan percakapan, dan takkan ada notifikasi yang dibuat dari interaksi pengguna mereka, kecuali Anda mengikuti mereka:'
       suspended: 'Takkan ada data yang diproses, disimpan, dan ditukarkan dari server ini, sehingga interaksi atau komunikasi dengan pengguna dari server ini tak mungkin dilakukan:'
-    unavailable_content_html: Mastodon umumnya mengizinkan Anda untuk melihat konten dan berinteraksi dengan pengguna dari server lain di fediverse. Ini adalah pengecualian yang dibuat untuk beberapa server.
+    unavailable_content_html: koyu.space umumnya mengizinkan Anda untuk melihat konten dan berinteraksi dengan pengguna dari server lain di fediverse. Ini adalah pengecualian yang dibuat untuk beberapa server.
     user_count_after:
       other: pengguna
     user_count_before: Tempat bernaung bagi
-    what_is_mastodon: Apa itu Mastodon?
+    what_is_mastodon: Apa itu koyu.space?
   accounts:
     choices_html: 'Pilihan %{name}:'
     endorsements_hint: Anda dapat mempromosikan orang yang Anda ikuti lewat antar muka web, dan mereka akan muncul di sini.
@@ -543,14 +543,14 @@ id:
         desc_html: Ditampilkan pada halaman informasi tambahan<br>Anda bisa menggunakan tag HTML
         title: Deskripsi situs tambahan
       site_short_description:
-        desc_html: Ditampilkan pada bilah samping dan tag meta. Jelaskan apa itu Mastodon dan yang membuat server ini spesial dalam satu paragraf.
+        desc_html: Ditampilkan pada bilah samping dan tag meta. Jelaskan apa itu koyu.space dan yang membuat server ini spesial dalam satu paragraf.
         title: Deskripsi server pendek
       site_terms:
         desc_html: Anda dapat menulis kebijakan privasi, ketentuan layanan, atau hal legal lainnya sendiri. Anda dapat menggunakan tag HTML
         title: Ketentuan layanan kustom
       site_title: Judul Situs
       spam_check_enabled:
-        desc_html: Mastodon dapat melaporkan secara otomatis akun yang mengirimkan pesan berulang tanpa diminta. Ini mungkin ada kesalahan.
+        desc_html: koyu.space dapat melaporkan secara otomatis akun yang mengirimkan pesan berulang tanpa diminta. Ini mungkin ada kesalahan.
         title: Automasi anti-spam
       thumbnail:
         desc_html: Dipakai sebagai pratinjau via OpenGraph dan API. Direkomendasikan 1200x630px
@@ -630,7 +630,7 @@ id:
     confirmation_dialogs: Dialog konfirmasi
     discovery: Jelajah
     localization:
-      body: Mastodon diterjemahkan oleh sukarelawan.
+      body: koyu.space diterjemahkan oleh sukarelawan.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Siapa saja bisa berkontribusi.
     sensitive_content: Konten sensitif
@@ -658,9 +658,9 @@ id:
     delete_account: Hapus akun
     delete_account_html: Jika Anda ingin menghapus akun Anda, Anda dapat <a href="%{path}">memproses ini</a>. Anda akan dikonfirmasi.
     description:
-      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server Mastodon ini!"
-      prefix_sign_up: Daftar ke Mastodon hari ini!
-      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server Mastodon mana pun dan lainnya!
+      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server koyu.space ini!"
+      prefix_sign_up: Daftar ke koyu.space hari ini!
+      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server koyu.space mana pun dan lainnya!
     didnt_get_confirmation: Tidak menerima petunjuk konfirmasi?
     forgot_password: Lupa kata sandi?
     invalid_reset_password_token: Token reset kata sandi tidak valid atau kedaluwarsa. Silakan minta yang baru.
@@ -760,7 +760,7 @@ id:
       content: Maaf, ada sesuatu yang salah pada sistem kami.
       title: Halaman ini tidak benar
     '503': Halaman ini tidak dapat ditampilkan karena kegagalan server sementara.
-    noscript_html: Untuk menggunakan aplikasi web Mastodon, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> Mastodon untuk platform Anda.
+    noscript_html: Untuk menggunakan aplikasi web koyu.space, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> koyu.space untuk platform Anda.
   existing_username_validator:
     not_found: tidak dapat menemukan pengguna lokal dengan nama pengguna tersebut
     not_found_multiple: tidak dapat menemukan %{usernames}
@@ -1043,7 +1043,7 @@ id:
       weibo: Weibo
     current_session: Sesi sekarang
     description: "%{browser} di %{platform}"
-    explanation: Ini peramban yang sedang dalam posisi masuk akun Mastodon Anda.
+    explanation: Ini peramban yang sedang dalam posisi masuk akun koyu.space Anda.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1067,7 +1067,7 @@ id:
     aliases: Alias akun
     appearance: Tampilan
     authorized_apps: Apl yang diizinkan
-    back: Kembali ke Mastodon
+    back: Kembali ke koyu.space
     delete: Penghapusan akun
     development: Pengembangan
     edit_profile: Ubah profil
@@ -1131,9 +1131,9 @@ id:
   terms:
     title: "%{instance} Ketentuan Layanan dan Kebijakan Privasi"
   themes:
-    contrast: Mastodon (Kontras tinggi)
-    default: Mastodon (Gelap)
-    mastodon-light: Mastodon (Terang)
+    contrast: koyu.space (Kontras tinggi)
+    default: koyu.space (Gelap)
+    mastodon-light: koyu.space (Terang)
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1156,7 +1156,7 @@ id:
     wrong_code: Kode yang dimasukkan tidak cocok! Apa waktu server dan waktu di handphone sudah cocok?
   user_mailer:
     backup_ready:
-      explanation: Cadangan penuh akun Mastodon Anda sudah dapat diunduh!
+      explanation: Cadangan penuh akun koyu.space Anda sudah dapat diunduh!
       subject: Arsip Anda sudah siap diunduh
       title: Ambil arsip
     warning:
@@ -1187,11 +1187,11 @@ id:
       full_handle_hint: Ini yang dapat Anda sampaikan kepada teman agar mereka dapat mengirim pesan atau mengikuti Anda dari server lain.
       review_preferences_action: Ubah preferensi
       review_preferences_step: Pastikan Anda telah mengatur preferensi Anda, seperti surel untuk menerima pesan, atau tingkat privasi bawaan untuk kiriman Anda. Jika Anda tidak alergi dengan gerakan gambar, Anda dapat mengaktifkan opsi mainkan otomatis GIF.
-      subject: Selamat datang di Mastodon
-      tip_federated_timeline: Linimasa gabungan adalah ruang yang menampilkan jaringan Mastodon. Tapi ini hanya berisi tetangga orang-orang yang Anda ikuti, jadi tidak sepenuhnya komplet.
+      subject: Selamat datang di koyu.space
+      tip_federated_timeline: Linimasa gabungan adalah ruang yang menampilkan jaringan koyu.space. Tapi ini hanya berisi tetangga orang-orang yang Anda ikuti, jadi tidak sepenuhnya komplet.
       tip_following: Anda secara otomatis mengikuti admin server. Untuk mencari akun-akun yang menarik, silakan periksa linimasa lokal dan gabungan.
       tip_local_timeline: Linimasa lokal adalah ruang yang menampilkan orang-orang di %{instance}. Mereka adalah tetangga dekat!
-      tip_mobile_webapp: Jika peramban mobile Anda ingin menambahkan Mastodon ke layar utama, Anda dapat menerima notifikasi dorong. Ia akan berjalan seperti aplikasi asli!
+      tip_mobile_webapp: Jika peramban mobile Anda ingin menambahkan koyu.space ke layar utama, Anda dapat menerima notifikasi dorong. Ia akan berjalan seperti aplikasi asli!
       tips: Tips
       title: Selamat datang, %{name}!
   users:
@@ -1202,5 +1202,5 @@ id:
     seamless_external_login: Anda masuk via layanan eksternal, sehingga setelan kata sandi dan surel tidak tersedia.
     signed_in_as: 'Masuk sebagai:'
   verification:
-    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil Mastodon Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
+    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil koyu.space Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
     verification: Verifikasi

@@ -62,7 +62,7 @@ oc:
       form_challenge:
         current_password: Dintratz dins una zòna segura
       imports:
-        data: Fichièr CSV exportat d’un autre servidor Mastodon
+        data: Fichièr CSV exportat d’un autre servidor koyu.space
       invite_request:
         text: Aquò nos ajudarà per validar vòstra demanda
       sessions:

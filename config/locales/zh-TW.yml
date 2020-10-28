@@ -1,26 +1,26 @@
 ---
 zh-TW:
   about:
-    about_hashtag_html: 這些是包含「<strong>#%{hashtag}</strong>」標籤的公開文章。只要你有任何 Mastodon 站點、或者其他站點的使用者，便可以與他們互動。
-    about_mastodon_html: Mastodon （長毛象）是一個<em>自由、開放原始碼</em>的社群網站。它是一個分散式的服務，避免您的通訊被單一商業機構壟斷操控。請您選擇一家您信任的 Mastodon 站點，在上面建立帳戶，然後您就可以和任一 Mastodon 站點上的使用者互通，享受無縫的<em>社群網路</em>交流。
+    about_hashtag_html: 這些是包含「<strong>#%{hashtag}</strong>」標籤的公開文章。只要你有任何 koyu.space 站點、或者其他站點的使用者，便可以與他們互動。
+    about_mastodon_html: koyu.space （長毛象）是一個<em>自由、開放原始碼</em>的社群網站。它是一個分散式的服務，避免您的通訊被單一商業機構壟斷操控。請您選擇一家您信任的 koyu.space 站點，在上面建立帳戶，然後您就可以和任一 koyu.space 站點上的使用者互通，享受無縫的<em>社群網路</em>交流。
     about_this: 關於本站
     active_count_after: 活躍
     active_footnote: 每月活躍使用者 (MAU)
     administered_by: 管理者：
     api: API
     apps: 行動應用程式
-    apps_platforms: 在 iOS、Android 和其他平台使用 Mastodon
+    apps_platforms: 在 iOS、Android 和其他平台使用 koyu.space
     browse_directory: 依興趣瀏覽個人資料目錄和過濾器
     browse_local_posts: 瀏覽這台伺服器中公開嘟文的直播串流
-    browse_public_posts: 在 Mastodon 瀏覽公開嘟文的即時串流
+    browse_public_posts: 在 koyu.space 瀏覽公開嘟文的即時串流
     contact: 聯絡我們
     contact_missing: 未設定
     contact_unavailable: 未公開
     discover_users: 探索使用者
     documentation: 文件
-    federation_hint_html: 你只需要擁有 %{instance} 的帳戶，就可以追蹤隨便一台 Mastodon 伺服器上的人等等。
+    federation_hint_html: 你只需要擁有 %{instance} 的帳戶，就可以追蹤隨便一台 koyu.space 伺服器上的人等等。
     get_apps: 嘗試行動應用程式
-    hosted_on: 在 %{domain} 運作的 Mastodon 站點
+    hosted_on: 在 %{domain} 運作的 koyu.space 站點
     learn_more: 了解詳細
     privacy_policy: 隱私權政策
     see_whats_happening: 看看發生什麼事
@@ -42,7 +42,7 @@ zh-TW:
     user_count_after:
       other: 位使用者
     user_count_before: 註冊使用者數
-    what_is_mastodon: 什麼是 Mastodon?
+    what_is_mastodon: 什麼是 koyu.space?
   accounts:
     choices_html: "%{name} 的選擇："
     follow: 關注
@@ -449,7 +449,7 @@ zh-TW:
         desc_html: 在個人資料頁面上顯示管理人員標誌
         title: 顯示管理人員標誌
       site_description:
-        desc_html: 首頁上的介紹文字，描述此 Mastodon 伺服器的特別之處和其他重要資訊。可使用 HTML 標籤，包括 <code>&lt;a&gt;</code> 和 <code>&lt;em&gt;</code>。
+        desc_html: 首頁上的介紹文字，描述此 koyu.space 伺服器的特別之處和其他重要資訊。可使用 HTML 標籤，包括 <code>&lt;a&gt;</code> 和 <code>&lt;em&gt;</code>。
         title: 伺服器描述
       site_description_extended:
         desc_html: 可放置行為準則、規定以及其他此伺服器特有的內容。可使用 HTML 標籤
@@ -514,7 +514,7 @@ zh-TW:
       subject: 來自 %{instance} 的使用者檢舉（#%{id}）
   appearance:
     localization:
-      body: Mastodon 是由志願者翻譯的。
+      body: koyu.space 是由志願者翻譯的。
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: 每個人都能貢獻。
   application_mailer:
@@ -595,7 +595,7 @@ zh-TW:
       content: 抱歉，我們的後台出現問題了。
       title: 這個頁面有問題
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: 使用 Mastodon 網頁版應用需要啟用 JavaScript。你也可以選擇適用於你的平台的 <a href="%{apps_path}">Mastodon 應用</a>。
+    noscript_html: 使用 koyu.space 網頁版應用需要啟用 JavaScript。你也可以選擇適用於你的平台的 <a href="%{apps_path}">koyu.space 應用</a>。
   exports:
     archive_takeout:
       date: 日期
@@ -729,7 +729,7 @@ zh-TW:
       weibo: 新浪微博
     current_session: 目前的 session
     description: "%{platform} 上的 %{browser}"
-    explanation: 這些是現在正登入於你的 Mastodon 帳戶的瀏覽器。
+    explanation: 這些是現在正登入於你的 koyu.space 帳戶的瀏覽器。
     ip: IP 位址
     platforms:
       ios: iOS
@@ -739,7 +739,7 @@ zh-TW:
     title: 作業階段
   settings:
     authorized_apps: 已授權應用程式
-    back: 回到 Mastodon
+    back: 回到 koyu.space
     delete: 刪除帳戶
     development: 開發
     edit_profile: 編輯使用者資訊
@@ -781,8 +781,8 @@ zh-TW:
   terms:
     title: "%{instance} 使用條款和隱私權政策"
   themes:
-    contrast: Mastodon（高對比）
-    mastodon-light: Mastodon（亮色主題）
+    contrast: koyu.space（高對比）
+    mastodon-light: koyu.space（亮色主題）
   time:
     formats:
       default: "%Y年%-m月%d日 %H:%M"
@@ -804,7 +804,7 @@ zh-TW:
     wrong_code: 您輸入的認證碼無效! 請確認伺服器時間與設備時間是否正確?
   user_mailer:
     backup_ready:
-      explanation: 你要求的 Mastodon 帳戶完整備份檔案現已就緒，可供下載!
+      explanation: 你要求的 koyu.space 帳戶完整備份檔案現已就緒，可供下載!
       subject: 你的備份檔已可供下載
       title: 檔案匯出
     welcome:
@@ -817,11 +817,11 @@ zh-TW:
       full_handle_hint: 你需要把這告訴你的朋友們，這樣他們就能從另一個伺服器向你發送訊息或著關注你。
       review_preferences_action: 變更偏好設定
       review_preferences_step: 記得調整你的偏好設定，比如你想接收什麼類型的電子郵件，或著你想把你的嘟文可見範圍預設設定什麼級別。如果你沒有暈車的話，考慮一下啟用「自動播放 GIF 動畫」這個選項吧。
-      subject: 歡迎來到 Mastodon
-      tip_federated_timeline: 跨站公共時間軸可以讓你一窺更廣闊的 Mastodon 網路。不過，由於它們只顯示你的鄰居們所訂閱的內容，所以並不是全部。
+      subject: 歡迎來到 koyu.space
+      tip_federated_timeline: 跨站公共時間軸可以讓你一窺更廣闊的 koyu.space 網路。不過，由於它們只顯示你的鄰居們所訂閱的內容，所以並不是全部。
       tip_following: 預設情況下，你會自動關注你所在站點的管理員。想結交更多有趣的人的話，記得多逛逛本站時間軸與跨站公共時間軸哦。
       tip_local_timeline: 本站時間軸可以讓你一窺 %{instance} 上的使用者。他們就是離你最近的鄰居！
-      tip_mobile_webapp: 如果你的行動裝置瀏覽器允許你將 Mastodon 新增到主螢幕，你就能夠接收推送訊息。它就像手機APP一樣好用!
+      tip_mobile_webapp: 如果你的行動裝置瀏覽器允許你將 koyu.space 新增到主螢幕，你就能夠接收推送訊息。它就像手機APP一樣好用!
       tips: 小幫手
       title: "%{name} 歡迎你的加入！"
   users:

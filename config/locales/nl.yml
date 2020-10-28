@@ -1,26 +1,26 @@
 ---
 nl:
   about:
-    about_hashtag_html: Dit zijn openbare toots die getagged zijn met <strong>#%{hashtag}</strong>. Je kunt er op reageren of iets anders mee doen als je op Mastodon (of ergens anders in de fediverse) een account hebt.
-    about_mastodon_html: Mastodon is een sociaal netwerk dat gebruikt maakt van open webprotocollen en vrije software. Het is net zoals e-mail gedecentraliseerd.
+    about_hashtag_html: Dit zijn openbare toots die getagged zijn met <strong>#%{hashtag}</strong>. Je kunt er op reageren of iets anders mee doen als je op koyu.space (of ergens anders in de fediverse) een account hebt.
+    about_mastodon_html: koyu.space is een sociaal netwerk dat gebruikt maakt van open webprotocollen en vrije software. Het is net zoals e-mail gedecentraliseerd.
     about_this: Over deze server
     active_count_after: actief
     active_footnote: Actieve gebruikers per maand (MAU)
     administered_by: 'Beheerd door:'
     api: API
     apps: Mobiele apps
-    apps_platforms: Gebruik Mastodon op iOS, Android en op andere platformen
+    apps_platforms: Gebruik koyu.space op iOS, Android en op andere platformen
     browse_directory: Gebruikersgids doorbladeren en op interesses filteren
     browse_local_posts: Livestream van openbare berichten op deze server bekijken
-    browse_public_posts: Livestream van openbare Mastodonberichten bekijken
+    browse_public_posts: Livestream van openbare koyu.spaceberichten bekijken
     contact: Contact
     contact_missing: Niet ingesteld
     contact_unavailable: n.v.t
     discover_users: Gebruikers ontdekken
     documentation: Documentatie
-    federation_hint_html: Met een account op %{instance} ben je in staat om mensen die zich op andere Mastodonservers (en op andere plekken) bevinden te volgen.
+    federation_hint_html: Met een account op %{instance} ben je in staat om mensen die zich op andere koyu.spaceservers (en op andere plekken) bevinden te volgen.
     get_apps: Mobiele apps
-    hosted_on: Mastodon op %{domain}
+    hosted_on: koyu.space op %{domain}
     instance_actor_flash: Dit account is een virtuel actor dat wordt gebruikt om de server zelf te vertegenwoordigen en is geen individuele gebruiker. Het wordt voor federatiedoeleinden gebruikt en moet niet worden geblokkeerd, tenzij je de hele server wilt blokkeren. In zo'n geval dien je echter een domeinblokkade te gebruiken.
     learn_more: Meer leren
     privacy_policy: Privacybeleid
@@ -43,12 +43,12 @@ nl:
       silenced_title: Genegeerde servers
       suspended: Je bent niet in staat om iemand van deze server te volgen, en er worden geen gegevens van deze server verwerkt of opgeslagen, en met deze server uitgewisseld.
       suspended_title: Opgeschorte servers
-    unavailable_content_html: Met Mastodon kun je in het algemeen berichten bekijken van en communiceren met gebruikers van elke andere server in de fediverse. Dit zijn de uitzonderingen die door deze server zijn gemaakt en expliciet alleen hier gelden.
+    unavailable_content_html: Met koyu.space kun je in het algemeen berichten bekijken van en communiceren met gebruikers van elke andere server in de fediverse. Dit zijn de uitzonderingen die door deze server zijn gemaakt en expliciet alleen hier gelden.
     user_count_after:
       one: gebruiker
       other: gebruikers
     user_count_before: Thuisbasis van
-    what_is_mastodon: Wat is Mastodon?
+    what_is_mastodon: Wat is koyu.space?
   accounts:
     choices_html: 'Aanbevelingen van %{name}:'
     endorsements_hint: Je kunt mensen die je volgt in de webomgeving aanbevelen, waarna ze dan hier zullen verschijnen.
@@ -516,7 +516,7 @@ nl:
       enable_bootstrap_timeline_accounts:
         title: Standaard te volgen accounts voor nieuwe gebruikers inschakelen
       hero:
-        desc_html: Wordt op de voorpagina getoond. Tenminste 600x100px aanbevolen. Wanneer dit niet is ingesteld wordt de thumbnail van de Mastodonserver getoond
+        desc_html: Wordt op de voorpagina getoond. Tenminste 600x100px aanbevolen. Wanneer dit niet is ingesteld wordt de thumbnail van de koyu.spaceserver getoond
         title: Hero-afbeelding
       mascot:
         desc_html: Wordt op meerdere pagina's weergegeven. Tenminste 293×205px aanbevolen. Wanneer dit niet is ingesteld wordt de standaardmascotte getoond
@@ -554,23 +554,23 @@ nl:
         title: Medewerkersbadge tonen
       site_description:
         desc_html: Introductie-alinea voor de API. Beschrijf wat er speciaal is aan deze server en andere zaken die van belang zijn. Je kan HTML gebruiken, zoals <code>&lt;a&gt;</code> en <code>&lt;em&gt;</code>.
-        title: Omschrijving Mastodonserver (API)
+        title: Omschrijving koyu.spaceserver (API)
       site_description_extended:
         desc_html: Een goede plek voor je gedragscode, regels, richtlijnen en andere zaken die jouw server uniek maken. Je kan ook hier HTML gebruiken
-        title: Uitgebreide omschrijving Mastodonserver
+        title: Uitgebreide omschrijving koyu.spaceserver
       site_short_description:
-        desc_html: Dit wordt gebruikt op de voorpagina, in de zijbalk op profielpagina's en als metatag in de paginabron. Beschrijf in één alinea wat Mastodon is en wat deze server speciaal maakt.
-        title: Omschrijving Mastodonserver (website)
+        desc_html: Dit wordt gebruikt op de voorpagina, in de zijbalk op profielpagina's en als metatag in de paginabron. Beschrijf in één alinea wat koyu.space is en wat deze server speciaal maakt.
+        title: Omschrijving koyu.spaceserver (website)
       site_terms:
         desc_html: Je kan hier jouw eigen privacybeleid, gebruiksvoorwaarden en ander juridisch jargon kwijt. Je kan HTML gebruiken
         title: Aangepaste gebruiksvoorwaarden
-      site_title: Naam Mastodonserver
+      site_title: Naam koyu.spaceserver
       spam_check_enabled:
-        desc_html: Mastodon kan accounts die herhaaldelijk ongevraagde berichten versturen automatisch negeren of rapporteren. Het is mogelijk dat er foutpositieven tussen zitten.
+        desc_html: koyu.space kan accounts die herhaaldelijk ongevraagde berichten versturen automatisch negeren of rapporteren. Het is mogelijk dat er foutpositieven tussen zitten.
         title: Automatische spambestrijding
       thumbnail:
         desc_html: Gebruikt als voorvertoning voor OpenGraph en de API. 1200x630px aanbevolen
-        title: Thumbnail Mastodonserver
+        title: Thumbnail koyu.spaceserver
       timeline_preview:
         desc_html: Toon een link naar de openbare tijdlijnpagina op de voorpagina en geef de API zonder in te loggen toegang tot de openbare tijdlijn
         title: Toegang tot de openbare tijdlijn zonder in te loggen toestaan
@@ -647,7 +647,7 @@ nl:
     confirmation_dialogs: Bevestigingen
     discovery: Ontdekken
     localization:
-      body: Mastodon wordt door vrijwilligers vertaald.
+      body: koyu.space wordt door vrijwilligers vertaald.
       guide_link: https://crowdin.com/project/mastodon/nl
       guide_link_text: Iedereen kan bijdragen.
     sensitive_content: Gevoelige inhoud
@@ -675,9 +675,9 @@ nl:
     delete_account: Account verwijderen
     delete_account_html: Wanneer je jouw account graag wilt verwijderen, kun je dat <a href="%{path}">hier doen</a>. We vragen jou daar om een bevestiging.
     description:
-      prefix_invited_by_user: "@%{name} nodigt je hierbij uit om een account aan te maken op deze Mastodonserver!"
-      prefix_sign_up: Registreer je vandaag nog op Mastodon!
-      suffix: Met een account ben je in staat om mensen te volgen, berichten te plaatsen en uit te wisselen met mensen die zich op andere Mastodonservers bevinden en meer!
+      prefix_invited_by_user: "@%{name} nodigt je hierbij uit om een account aan te maken op deze koyu.spaceserver!"
+      prefix_sign_up: Registreer je vandaag nog op koyu.space!
+      suffix: Met een account ben je in staat om mensen te volgen, berichten te plaatsen en uit te wisselen met mensen die zich op andere koyu.spaceservers bevinden en meer!
     didnt_get_confirmation: Geen bevestigingsinstructies ontvangen?
     forgot_password: Wachtwoord vergeten?
     invalid_reset_password_token: De code om jouw wachtwoord opnieuw in te stellen is verlopen. Vraag een nieuwe aan.
@@ -781,7 +781,7 @@ nl:
       content: Het spijt ons, er is aan onze kant iets fout gegaan.
       title: Er is iets mis
     '503': De pagina kon door een tijdelijke serverstoring niet worden geladen.
-    noscript_html: Schakel JavaScript in om de webapp van Mastodon te kunnen gebruiken. Als alternatief kan je een <a href="%{apps_path}">Mastodon-app</a> zoeken voor jouw platform.
+    noscript_html: Schakel JavaScript in om de webapp van koyu.space te kunnen gebruiken. Als alternatief kan je een <a href="%{apps_path}">koyu.space-app</a> zoeken voor jouw platform.
   existing_username_validator:
     not_found: Kon geen lokale gebruiker met die gebruikersnaam vinden
     not_found_multiple: Kon %{usernames} niet vinden
@@ -892,7 +892,7 @@ nl:
       one: 1 keer
       other: "%{count} keer"
     max_uses_prompt: Onbeperkt
-    prompt: Genereer en deel speciale links om mensen toegang tot deze Mastodonserver te geven
+    prompt: Genereer en deel speciale links om mensen toegang tot deze koyu.spaceserver te geven
     table:
       expires_at: Verloopt op
       uses: Aantal keer te gebruiken
@@ -1075,7 +1075,7 @@ nl:
       weibo: Weibo
     current_session: Huidige sessie
     description: "%{browser} op %{platform}"
-    explanation: Dit zijn de webbrowsers die momenteel met jouw Mastodonaccount zijn ingelogd.
+    explanation: Dit zijn de webbrowsers die momenteel met jouw koyu.spaceaccount zijn ingelogd.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1099,7 +1099,7 @@ nl:
     aliases: Accountaliassen
     appearance: Uiterlijk
     authorized_apps: Geautoriseerde apps
-    back: Terug naar Mastodon
+    back: Terug naar koyu.space
     delete: Account verwijderen
     development: Ontwikkelaars
     edit_profile: Profiel bewerken
@@ -1176,7 +1176,7 @@ nl:
       <ul>
       <li><em>Basic account information</em>: If you register on this server, you may be asked to enter a username, an e-mail address and a password. You may also enter additional profile information such as a display name and biography, and upload a profile picture and header image. The username, display name, biography, profile picture and header image are always listed publicly.</li>
       <li><em>Posts, following and other public information</em>: The list of people you follow is listed publicly, the same is true for your followers. When you submit a message, the date and time is stored as well as the application you submitted the message from. Messages may contain media attachments, such as pictures and videos. Public and unlisted posts are available publicly. When you feature a post on your profile, that is also publicly available information. Your posts are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete posts, this is likewise delivered to your followers. The action of reblogging or favouriting another post is always public.</li>
-      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over Mastodon.</em></li>
+      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over koyu.space.</em></li>
       <li><em>IPs and other metadata</em>: When you log in, we record the IP address you log in from, as well as the name of your browser application. All the logged in sessions are available for your review and revocation in the settings. The latest IP address used is stored for up to 12 months. We also may retain server logs which include the IP address of every request to our server.</li>
       </ul>
 
@@ -1187,7 +1187,7 @@ nl:
       <p>Any of the information we collect from you may be used in the following ways:</p>
 
       <ul>
-      <li>To provide the core functionality of Mastodon. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
+      <li>To provide the core functionality of koyu.space. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
       <li>To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.</li>
       <li>The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, and to respond to inquiries, and/or other requests or questions.</li>
       </ul>
@@ -1252,9 +1252,9 @@ nl:
       <p>Originally adapted from the <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: Gebruiksvoorwaarden en privacybeleid van %{instance}
   themes:
-    contrast: Mastodon (hoog contrast)
-    default: Mastodon (donker)
-    mastodon-light: Mastodon (licht)
+    contrast: koyu.space (hoog contrast)
+    default: koyu.space (donker)
+    mastodon-light: koyu.space (licht)
   time:
     formats:
       default: "%d %B %Y om %H:%M"
@@ -1277,7 +1277,7 @@ nl:
     wrong_code: De ingevoerde code is ongeldig! Klopt de systeemtijd van de server en die van jouw apparaat?
   user_mailer:
     backup_ready:
-      explanation: Je hebt een volledige back-up van jouw Mastodon-account opgevraagd. Het staat nu klaar om te worden gedownload!
+      explanation: Je hebt een volledige back-up van jouw koyu.space-account opgevraagd. Het staat nu klaar om te worden gedownload!
       subject: Jouw archief staat klaar om te worden gedownload
       title: Archief ophalen
     sign_in_token:
@@ -1310,15 +1310,15 @@ nl:
       explanation: Hier zijn enkele tips om je op weg te helpen
       final_action: Begin berichten te plaatsen
       final_step: 'Begin berichten te plaatsen! Zelfs zonder volgers kunnen jouw openbare berichten door anderen gezien worden, bijvoorbeeld op de lokale tijdlijn en via hashtags. Je wilt jezelf misschien introduceren met de hashtag #introductions.'
-      full_handle: Jouw volledige Mastodonadres
-      full_handle_hint: Dit geef je aan jouw vrienden, zodat ze jouw berichten kunnen sturen of (vanaf een andere Mastodonserver) kunnen volgen.
+      full_handle: Jouw volledige koyu.spaceadres
+      full_handle_hint: Dit geef je aan jouw vrienden, zodat ze jouw berichten kunnen sturen of (vanaf een andere koyu.spaceserver) kunnen volgen.
       review_preferences_action: Instellingen veranderen
       review_preferences_step: Zorg dat je jouw instellingen naloopt, zoals welke e-mails je wilt ontvangen of voor wie jouw berichten standaard zichtbaar moeten zijn. Wanneer je geen last hebt van bewegende beelden, kun je het afspelen van geanimeerde GIF's inschakelen.
-      subject: Welkom op Mastodon
-      tip_federated_timeline: De globale tijdlijn toont berichten in het Mastodonnetwerk. Het bevat echter alleen berichten van mensen waar jouw buren mee zijn verbonden, dus het is niet compleet.
-      tip_following: Je volgt standaard de beheerder(s) van jouw Mastodonserver. Bekijk de lokale en de globale tijdlijnen om meer interessante mensen te vinden.
+      subject: Welkom op koyu.space
+      tip_federated_timeline: De globale tijdlijn toont berichten in het koyu.spacenetwerk. Het bevat echter alleen berichten van mensen waar jouw buren mee zijn verbonden, dus het is niet compleet.
+      tip_following: Je volgt standaard de beheerder(s) van jouw koyu.spaceserver. Bekijk de lokale en de globale tijdlijnen om meer interessante mensen te vinden.
       tip_local_timeline: De lokale tijdlijn toont berichten van mensen op %{instance}. Dit zijn jouw naaste buren!
-      tip_mobile_webapp: Wanneer jouw mobiele webbrowser Mastodon aan jouw startscherm wilt toevoegen, kun je pushmeldingen ontvangen. Het gedraagt zich op meerdere manieren als een native app!
+      tip_mobile_webapp: Wanneer jouw mobiele webbrowser koyu.space aan jouw startscherm wilt toevoegen, kun je pushmeldingen ontvangen. Het gedraagt zich op meerdere manieren als een native app!
       tips: Tips
       title: Welkom aan boord %{name}!
   users:
@@ -1332,5 +1332,5 @@ nl:
     signed_in_as: 'Ingelogd als:'
     suspicious_sign_in_confirmation: Het lijkt er op dat je nog niet eerder op dit apparaat bent ingelogd, en je bent een tijdje niet ingelogd, dus sturen we een beveiligingscode naar je e-mailadres om te bevestigen dat jij het bent.
   verification:
-    explanation_html: 'Je kunt <strong>jezelf verifiëren als de eigenaar van de links in de metadata van jouw profiel</strong>. Hiervoor moet op de gelinkte website een link terug naar jouw Mastodonprofiel staan. Deze link <strong>moet</strong> het <code>rel="me"</code>-attribuut bevatten. De omschrijving van de link maakt niet uit. Hier is een voorbeeld:'
+    explanation_html: 'Je kunt <strong>jezelf verifiëren als de eigenaar van de links in de metadata van jouw profiel</strong>. Hiervoor moet op de gelinkte website een link terug naar jouw koyu.spaceprofiel staan. Deze link <strong>moet</strong> het <code>rel="me"</code>-attribuut bevatten. De omschrijving van de link maakt niet uit. Hier is een voorbeeld:'
     verification: Verificatie

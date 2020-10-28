@@ -2,25 +2,25 @@
 sv:
   about:
     about_hashtag_html: Dessa är offentliga toots märkta med <strong>#%{hashtag}</strong>. Du kan interagera med dem om du har ett konto någonstans i federationen.
-    about_mastodon_html: Mastodon är ett socialt nätverk baserat på öppna webbprotokoll och gratis, öppen källkodsprogramvara. Det är decentraliserat som e-post.
+    about_mastodon_html: koyu.space är ett socialt nätverk baserat på öppna webbprotokoll och gratis, öppen källkodsprogramvara. Det är decentraliserat som e-post.
     about_this: Om
     active_count_after: aktiv
     active_footnote: Månatligen Aktiva användare (MAU)
     administered_by: 'Administreras av:'
     api: API
     apps: Mobilappar
-    apps_platforms: Använd Mastodon från iOS, Android och andra plattformar
+    apps_platforms: Använd koyu.space från iOS, Android och andra plattformar
     browse_directory: Titta på en profilkatalog och filtrera enligt intressen
     browse_local_posts: Titta på strömmande publika inlägg från denna server
-    browse_public_posts: Titta på strömmande publika inlägg på Mastodon
+    browse_public_posts: Titta på strömmande publika inlägg på koyu.space
     contact: Kontakt
     contact_missing: Inte inställd
     contact_unavailable: Ej tillämplig
     discover_users: Upptäck användare
     documentation: Dokumentation
-    federation_hint_html: Med ett konto på %{instance} kommer du att kunna följa personer på alla Mastodon-servers och mer än så.
+    federation_hint_html: Med ett konto på %{instance} kommer du att kunna följa personer på alla koyu.space-servers och mer än så.
     get_apps: Prova en mobilapp
-    hosted_on: Mastodon-värd på %{domain}
+    hosted_on: koyu.space-värd på %{domain}
     instance_actor_flash: Detta konto är en virtuell agent som används för att representera servern själv och inte någon individuell användare. Det används av sammanslutningsskäl och ska inte blockeras såvitt du inte vill blockera hela instansen, och för detta fall ska domänblockering användas.
     learn_more: Lär dig mer
     privacy_policy: Integritetspolicy
@@ -40,9 +40,9 @@ sv:
       silenced_title: Ljuddämpade värddatorer
       suspended: 'Ingen data från dessa serverdatorer kommer bearbetas, lagras eller bytas ut vilket omöjliggör kommunikation med användare från dessa serverdatorer:'
       suspended_title: Avstängda värddatorer
-    unavailable_content_html: Mastodon låter dig se material från, och interagera med, andra användare i servernätverket. Det är undantag som gjorts på denna serverdator.
+    unavailable_content_html: koyu.space låter dig se material från, och interagera med, andra användare i servernätverket. Det är undantag som gjorts på denna serverdator.
     user_count_before: Hem till
-    what_is_mastodon: Vad är Mastodon?
+    what_is_mastodon: Vad är koyu.space?
   accounts:
     choices_html: "%{name}s val:"
     endorsements_hint: Från webbgränssnittet kan du rekommendera följare, som sedan visas här.
@@ -467,7 +467,7 @@ sv:
     animations_and_accessibility: Animationer och tillgänglighet
     discovery: Upptäck
     localization:
-      body: Mastodon översätts av volontärer.
+      body: koyu.space översätts av volontärer.
       guide_link_text: Alla kan bidra.
     sensitive_content: Känsligt innehåll
   application_mailer:
@@ -561,7 +561,7 @@ sv:
       content: Vi är ledsna, men något gick fel från vårat håll.
       title: Den här sidan är inte korrekt
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: För att använda Mastodon webbapplikationen, vänligen aktivera JavaScript. Alternativt kan du prova en av <a href="%{apps_path}">inhemska appar</a> för Mastodon för din plattform.
+    noscript_html: För att använda koyu.space webbapplikationen, vänligen aktivera JavaScript. Alternativt kan du prova en av <a href="%{apps_path}">inhemska appar</a> för koyu.space för din plattform.
   exports:
     archive_takeout:
       date: Datum
@@ -715,7 +715,7 @@ sv:
       safari: Safari
     current_session: Nuvarande session
     description: "%{browser} på %{platform}"
-    explanation: Detta är inloggade webbläsare på Mastodon just nu.
+    explanation: Detta är inloggade webbläsare på koyu.space just nu.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -737,7 +737,7 @@ sv:
     aliases: Kontoalias
     appearance: Utseende
     authorized_apps: Godkända appar
-    back: Tillbaka till Mastodon
+    back: Tillbaka till koyu.space
     delete: Konto radering
     development: Utveckling
     edit_profile: Redigera profil
@@ -793,7 +793,7 @@ sv:
       <ul>
       <li><em>Grundläggande kontoinformation</em>: Det användarnamn du väljer, visningsnamn, biografi, avatar/profilbild och bakgrundsbild kommer alltid vara tillgängliga för alla som kan nå webbsidan. </li>
       <li><em>Inlägg, vem du följer och annan tillgänglig information</em>: Dina följare och de konton du följer är alltid tillgängliga. När du skapar ett nytt inlägg sparas datum och tid för meddelandet, samt vilket program du använde för att skapa inlägget. Detta gäller även bilder och media som inlägg kan innehålla.Både "Publika" och "Olistade" inlägg kan vara tillgängliga för alla som har åtkomst till webbsidan. When you feature a post on your profile, that is also publicly available information. Your posts are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete posts, this is likewise delivered to your followers. The action of reblogging or favouriting another post is always public.</li>
-      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over Mastodon.</em></li>
+      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over koyu.space.</em></li>
       <li><em>IPs and other metadata</em>: When you log in, we record the IP address you log in from, as well as the name of your browser application. All the logged in sessions are available for your review and revocation in the settings. The latest IP address used is stored for up to 12 months. We also may retain server logs which include the IP address of every request to our server.</li>
       </ul>
 
@@ -804,7 +804,7 @@ sv:
       <p>Any of the information we collect from you may be used in the following ways:</p>
 
       <ul>
-      <li>To provide the core functionality of Mastodon. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
+      <li>To provide the core functionality of koyu.space. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
       <li>To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.</li>
       <li>The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, and to respond to inquiries, and/or other requests or questions.</li>
       </ul>
@@ -870,8 +870,8 @@ sv:
     title: "%{instance} Användarvillkor och Sekretesspolicy"
   themes:
     contrast: Hög kontrast
-    default: Mastodon
-    mastodon-light: Mastodon (ljust)
+    default: koyu.space
+    mastodon-light: koyu.space (ljust)
   two_factor_authentication:
     code_hint: Ange koden som genererats av din autentiseringsapp för att bekräfta
     description_html: Om du aktiverar <strong>tvåfaktorsautentisering</strong> kommer inloggningen kräva att du har din telefon tillgänglig, vilket kommer att generera tokens för dig att ange.
@@ -890,7 +890,7 @@ sv:
     wrong_code: Den angivna koden var ogiltig! Är servertid och enhetstid korrekt?
   user_mailer:
     backup_ready:
-      explanation: Du begärde en fullständig säkerhetskopiering av ditt Mastodon-konto. Det är nu klart för nedladdning!
+      explanation: Du begärde en fullständig säkerhetskopiering av ditt koyu.space-konto. Det är nu klart för nedladdning!
       subject: Ditt arkiv är klart för nedladdning
       title: Arkivuttagning
     welcome:
@@ -903,11 +903,11 @@ sv:
       full_handle_hint: Det här är vad du skulle berätta för dina vänner så att de kan meddela eller följa dig från en annan instans.
       review_preferences_action: Ändra inställningar
       review_preferences_step: Se till att du ställer in dina inställningar, t.ex. vilka e-postmeddelanden du vill ta emot eller vilken integritetsnivå du vill att dina inlägg ska vara. Om du inte har åksjuka, kan du välja att aktivera automatisk uppspelning av GIF-bilder.
-      subject: Välkommen till Mastodon
-      tip_federated_timeline: Den förenade tidslinjen är en störtflodsvy av Mastodon-nätverket. Men det inkluderar bara människor som dina grannar följer, så det är inte komplett.
+      subject: Välkommen till koyu.space
+      tip_federated_timeline: Den förenade tidslinjen är en störtflodsvy av koyu.space-nätverket. Men det inkluderar bara människor som dina grannar följer, så det är inte komplett.
       tip_following: Du följer din servers administratör(er) som standard. För att hitta fler intressanta personer, kolla de lokala och förenade tidslinjerna.
       tip_local_timeline: Den lokala tidslinjen är en störtflodsvy av personer på %{instance}. Det här är dina närmaste grannar!
-      tip_mobile_webapp: Om din mobila webbläsare erbjuder dig att lägga till Mastodon på din hemskärm kan du få push-aviseringar. Det fungerar som en inbyggd app på många sätt!
+      tip_mobile_webapp: Om din mobila webbläsare erbjuder dig att lägga till koyu.space på din hemskärm kan du få push-aviseringar. Det fungerar som en inbyggd app på många sätt!
       title: Välkommen ombord, %{name}!
   users:
     invalid_email: E-postadressen är ogiltig

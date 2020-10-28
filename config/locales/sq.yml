@@ -2,25 +2,25 @@
 sq:
   about:
     about_hashtag_html: Këto janë mesazhe publike të etiketuar me <strong>#%{hashtag}</strong>. Mundeni të ndërveproni me ta, nëse keni një llogari kudo qoftë në fedivers.
-    about_mastodon_html: 'Rrjeti shoqëror i së ardhmes: Pa reklama, pa survejim nga korporata, konceptim etik dhe decentralizim! Jini zot i të dhënave tuaja, me Mastodon-in!'
+    about_mastodon_html: 'Rrjeti shoqëror i së ardhmes: Pa reklama, pa survejim nga korporata, konceptim etik dhe decentralizim! Jini zot i të dhënave tuaja, me koyu.space-in!'
     about_this: Mbi
     active_count_after: aktive
     active_footnote: Përdorues Aktivë Mujor (PAM)
     administered_by: 'Administruar nga:'
     api: API
     apps: Aplikacione për celular
-    apps_platforms: Përdoreni Mastodon-in prej iOS-i, Android-i dhe platformash të tjera
+    apps_platforms: Përdoreni koyu.space-in prej iOS-i, Android-i dhe platformash të tjera
     browse_directory: Shfletoni një drejtori profilesh dhe filtrojeni sipas interesash
     browse_local_posts: Shfletoni një rrjedhë të drejtpërdrejtë postimesh publike nga ky shërbyes
-    browse_public_posts: Shfletoni një rrjedhë të drejtpërdrejtë postimesh publike në Mastodon
+    browse_public_posts: Shfletoni një rrjedhë të drejtpërdrejtë postimesh publike në koyu.space
     contact: Kontakt
     contact_missing: I parregulluar
     contact_unavailable: N/A
     discover_users: Zbuloni përdorues
     documentation: Dokumentim
-    federation_hint_html: Me një llogari në %{instance}, do të jeni në gjendje të ndiqni persona në çfarëdo shërbyesi Mastodon dhe më tej.
+    federation_hint_html: Me një llogari në %{instance}, do të jeni në gjendje të ndiqni persona në çfarëdo shërbyesi koyu.space dhe më tej.
     get_apps: Provoni një aplikacion për celular
-    hosted_on: Mastodon i strehuar në %{domain}
+    hosted_on: koyu.space i strehuar në %{domain}
     instance_actor_flash: |
       Kjo llogari është një aktor virtual i përdorur për të përfaqësuar vetë shërbyesin dhe jo ndonjë përdorues individual.
       Përdoret për qëllime federimi dhe s’duhet bllokuar, veç në daçi të bllokoni krejt instancën, me ç’rast do të duhej të përdornit bllokim përkatësie.
@@ -45,12 +45,12 @@ sq:
       silenced_title: Shërbyes të heshtuar
       suspended: 'S’do të përpunohen, depozitohen apo shkëmbehen të dhëna prej këtyre shërbyesve, duke e bërë të pamundur çfarëdo ndërveprimi apo komunikimi me përdorues prej këtyre shërbyesve:'
       suspended_title: Shërbyes të pezulluar
-    unavailable_content_html: Mastodon-i përgjithësisht ju lejon të shihni lëndë nga përdorues dhe të ndërveproni me të tillë prej cilitdo shërbyes në fedivers. Këto janë përjashtimet që janë bërë në këtë shërbyes.
+    unavailable_content_html: koyu.space-i përgjithësisht ju lejon të shihni lëndë nga përdorues dhe të ndërveproni me të tillë prej cilitdo shërbyes në fedivers. Këto janë përjashtimet që janë bërë në këtë shërbyes.
     user_count_after:
       one: përdorues
       other: përdorues
     user_count_before: Shtëpi e
-    what_is_mastodon: Ç’është Mastodon-i?
+    what_is_mastodon: Ç’është koyu.space-i?
   accounts:
     choices_html: 'Zgjedhje të %{name}:'
     endorsements_hint: Mund t’i mbështesni personat që nga ndërfaqja web, dhe do të shfaqen këtu.
@@ -555,20 +555,20 @@ sq:
         desc_html: Shfaq një stemë stafi në faqen e një përdoruesi
         title: Shfaq stemë stafi
       site_description:
-        desc_html: Paragraf hyrës te faqja ballore. Përshkruani ç’e bën special këtë shërbyes Mastodon dhe çfarëdo gjëje tjetër të rëndësishme. Mund të përdorni etiketa HTML, veçanërisht <code>&lt;a&gt;</code> dhe <code>&lt;em&gt;</code>.
+        desc_html: Paragraf hyrës te faqja ballore. Përshkruani ç’e bën special këtë shërbyes koyu.space dhe çfarëdo gjëje tjetër të rëndësishme. Mund të përdorni etiketa HTML, veçanërisht <code>&lt;a&gt;</code> dhe <code>&lt;em&gt;</code>.
         title: Përshkrim shërbyesi
       site_description_extended:
         desc_html: Një vend i mirë për kodin e sjelljes në shërbyesin tuaj, rregulla, udhëzime dhe gjëra të tjera që e bëjnë të veçantë këtë shërbyes. Mund të përdorni etiketa HTML
         title: Informacion i zgjeruar vetjak
       site_short_description:
-        desc_html: E shfaqur në anështyllë dhe etiketa meta. Përshkruani në një paragraf të vetëm ç’është Mastodon-i dhe ç’e bën special këtë shërbyes. Në u lëntë i zbrazët, për shërbyesin do të përdoret përshkrimi parazgjedhje.
+        desc_html: E shfaqur në anështyllë dhe etiketa meta. Përshkruani në një paragraf të vetëm ç’është koyu.space-i dhe ç’e bën special këtë shërbyes. Në u lëntë i zbrazët, për shërbyesin do të përdoret përshkrimi parazgjedhje.
         title: Përshkrim i shkurtër shërbyesi
       site_terms:
         desc_html: Mund të shkruani rregullat tuaja të privatësisë, kushtet e shërbimit ose gjëra të tjera ligjore. Mund të përdorni etiketa HTML
         title: Kushte vetjake shërbimi
       site_title: Emër shërbyesi
       spam_check_enabled:
-        desc_html: Mastodon-i mund të bëjë raportime automatike për llogari që dërgojnë në mënyrë të përsëritur mesazhe të padëshiruar. Në to mund të ketë edhe alarme të rremë.
+        desc_html: koyu.space-i mund të bëjë raportime automatike për llogari që dërgojnë në mënyrë të përsëritur mesazhe të padëshiruar. Në to mund të ketë edhe alarme të rremë.
         title: Automatizim anti-spami
       thumbnail:
         desc_html: I përdorur për paraparje përmes OpenGraph-it dhe API-t. Këshillohet 1200x630px
@@ -649,7 +649,7 @@ sq:
     confirmation_dialogs: Dialogë ripohimesh
     discovery: Zbulim
     localization:
-      body: Mastodon-i përkthehet nga vullnetarë.
+      body: koyu.space-i përkthehet nga vullnetarë.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Çdokush mund të kontribuojë.
     sensitive_content: Lëndë rezervat
@@ -677,9 +677,9 @@ sq:
     delete_account: Fshije llogarinë
     delete_account_html: Nëse dëshironi të fshihni llogarinë tuaj, mund <a href="%{path}">ta bëni që këtu</a>. Do t’ju kërkohet ta ripohoni.
     description:
-      prefix_invited_by_user: "@%{name} ju fton të bëheni pjesë e këtij shërbyesi Mastodon!"
-      prefix_sign_up: Regjistrohuni në Mastodon që sot!
-      suffix: Me një llogari, do të jeni në gjendje të ndiqni persona, përditësime postimesh dhe të shkëmbeni mesazhe me përdorues nga cilido shërbyes Mastodon, etj!
+      prefix_invited_by_user: "@%{name} ju fton të bëheni pjesë e këtij shërbyesi koyu.space!"
+      prefix_sign_up: Regjistrohuni në koyu.space që sot!
+      suffix: Me një llogari, do të jeni në gjendje të ndiqni persona, përditësime postimesh dhe të shkëmbeni mesazhe me përdorues nga cilido shërbyes koyu.space, etj!
     didnt_get_confirmation: S’morët udhëzime ripohimi?
     forgot_password: Harruat fjalëkalimin tuaj?
     invalid_reset_password_token: Token-i i ricaktimit të fjalëkalimit është i pavlefshëm ose ka skaduar. Ju lutemi, kërkoni një të ri.
@@ -783,7 +783,7 @@ sq:
       content: Na ndjeni, diçka shkoi ters në anën tonë.
       title: Kjo faqe s’është e saktë
     '503': Kjo faqe s’u shërbye dot për shkak të një dështimi të përkohshëm të shërbyesit.
-    noscript_html: Që të përdorni aplikacionin web Mastodon, ju lutemi, aktivizoni JavaScript-in. Ndryshe, provoni për Mastodon-in një nga <a href="%{apps_path}">aplikacionet e brendshëm</a> të platformës tuaj.
+    noscript_html: Që të përdorni aplikacionin web koyu.space, ju lutemi, aktivizoni JavaScript-in. Ndryshe, provoni për koyu.space-in një nga <a href="%{apps_path}">aplikacionet e brendshëm</a> të platformës tuaj.
   existing_username_validator:
     not_found: s’u gjet dot përdorues vendor me atë emër përdoruesi
     not_found_multiple: s’u gjet dot %{usernames}
@@ -1077,7 +1077,7 @@ sq:
       weibo: Weibo
     current_session: Sesioni i tanishëm
     description: "%{browser} në %{platform}"
-    explanation: Këta janë shfletuesit e futur në këtë çast te llogaria juaj Mastodon.
+    explanation: Këta janë shfletuesit e futur në këtë çast te llogaria juaj koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ sq:
     aliases: Aliase llogarish
     appearance: Dukje
     authorized_apps: Aplikacione të autorizuara
-    back: Mbrapsht te Mastodon
+    back: Mbrapsht te koyu.space
     delete: Fshirje llogarie
     development: Zhvillim
     edit_profile: Përpunoni profilin
@@ -1178,7 +1178,7 @@ sq:
       <ul>
       <li><em>Të dhëna bazë llogarie</em>: Nëse regjistroheni në këtë shërbyes, mund t’ju kërkohet të jepni një emër përdoruesi, një adresë email dhe një fjalëkalim. Mundet të jepni edhe të dhëna shtesë profili, të tilla si emër në ekran dhe jetëshkrim, dhe të ngarkoni një foto profili dhe figurë kryesh. Emri i përdoruesit, emri për në ekran, jetëshkrimi, fotoja e profilit dhe figura për kryet shfaqen përherë publikisht.</li>
       <li><em>Postime, ndjekje dhe të tjera të dhëna publike</em>: Lista e personave që ndiqni, shfaqet publikisht, po njësoj edhe ajo e ndjekësve tuaj. Kur parashtroni një mesazh, depozitohet data dhe koha, si dhe aplikacioni prej nga u parashtrua mesazhi. Mesazhet mund të përmbajnë bashkëngjitje media, bie fjala, foto dhe video. Postimet publike dhe ato të pashfaqura janë të passhme publikisht. Kur një postim e vini të zgjedhur në profilin tuaj, edhe ky është informacion i passhëm publikisht. Postimet tuaja u dërgohen ndjekësve tuaj, në disa raste kjo do të thotë se dërgohen në shërbyes të ndryshëm dhe në ta depozitohen kopje të tyre. Kur fshini postime, edhe kjo u dërgohet ndjekësve tuaj. Veprimi i riblogimit apo i parapëlqimit të një postimi tjetër është përherë publik.</li>
-      <li><em>Postime të drejtpërdrejta dhe ato vetëm për ndjekësit</em>: Krejt postimet depozitohen dhe trajtohen te shërbyesi. Postimet vetëm për ndjekës u dërgohen ndjekësve tuaj të cilët përmenden në to, dhe postimet e drejtpërdrejta u dërgohen vetëm përdoruesve të përmendur në to. Në disa raste kjo do të thotë se dërgohen në shërbyes të ndryshëm dhe në ta depozitohen kopje të tyre. Përpiqemi pa hile të kufizojmë hyrjen në këto postime vetëm të personave të autorizuar, por shërbyesit e tjerë mund të mos bëjnë të njëjtën gjë. Ndaj është e rëndësishme të shqyrtoni shërbyesit pjesë e të cilëve janë ndjekësit tuaj. Te rregullimet mund të përdorni një mundësi për të miratuar ose hedhur poshtë dorazi ndjekës të rinj. <em>Ju lutemi, mbani parasysh se operatorët e shërbyesit dhe cilido shërbyes marrës mund t’i shohin mesazhe të tillë</em>, dhe që marrësit mund të bëjnë për ta foto ekrani, t’i kopjojnë ose t’i rindajnë ato me të tjerët. <em>Mos u jepni të tjerëve të dhëna të rrezikshme përmes Mastodon-it.</em></li>
+      <li><em>Postime të drejtpërdrejta dhe ato vetëm për ndjekësit</em>: Krejt postimet depozitohen dhe trajtohen te shërbyesi. Postimet vetëm për ndjekës u dërgohen ndjekësve tuaj të cilët përmenden në to, dhe postimet e drejtpërdrejta u dërgohen vetëm përdoruesve të përmendur në to. Në disa raste kjo do të thotë se dërgohen në shërbyes të ndryshëm dhe në ta depozitohen kopje të tyre. Përpiqemi pa hile të kufizojmë hyrjen në këto postime vetëm të personave të autorizuar, por shërbyesit e tjerë mund të mos bëjnë të njëjtën gjë. Ndaj është e rëndësishme të shqyrtoni shërbyesit pjesë e të cilëve janë ndjekësit tuaj. Te rregullimet mund të përdorni një mundësi për të miratuar ose hedhur poshtë dorazi ndjekës të rinj. <em>Ju lutemi, mbani parasysh se operatorët e shërbyesit dhe cilido shërbyes marrës mund t’i shohin mesazhe të tillë</em>, dhe që marrësit mund të bëjnë për ta foto ekrani, t’i kopjojnë ose t’i rindajnë ato me të tjerët. <em>Mos u jepni të tjerëve të dhëna të rrezikshme përmes koyu.space-it.</em></li>
       <li><em>IP dhe të tjera tejtëdhëna</em>: Kur bëni hyrjen, regjistrojmë adresën IP prej nga hytë, si dhe emrin e shfletuesit tuaj. Te rregullimet mund të shqyrtoni dhe shfuqizoni krejt sesionet ku keni qenë të futur. Adresa e fundit IP e përdorur depozitohet për 12 muaj. Mund të mbajmë edhe regjistra shërbyesi të cilët përfshijnë adresën IP të çdo kërkese ndaj shërbyesit tonë.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ sq:
       <p>Cilado prej të dhënave që grumbullojmë prej jush mund të përdoret në rrugët vijuese:</p>
 
       <ul>
-      <li>Për të mundësuar funksionimin bazë të Mastodon-it. Mundeni të ndërveproni me lëndën e personave të tjerë dhe të postoni lëndë tuajën vetëm kur jeni i futur në llogarinë tuaj. Për shembull, mund të ndiqni njerëz të tjerë për të parë postimet e tyre të ndërthurura te rrjedha juaj kohore e përshtatur.</li>
+      <li>Për të mundësuar funksionimin bazë të koyu.space-it. Mundeni të ndërveproni me lëndën e personave të tjerë dhe të postoni lëndë tuajën vetëm kur jeni i futur në llogarinë tuaj. Për shembull, mund të ndiqni njerëz të tjerë për të parë postimet e tyre të ndërthurura te rrjedha juaj kohore e përshtatur.</li>
       <li>Për të ndihmuar moderimin e bashkësisë, për shembull, duke krahasuar adresën tuaj IP me të tjera të njohura, për të përcaktuar shmangie nga dëbime ose cenime të tjera.</li>
       <li>Adresa email që jepni mund të përdoret për t’ju dërguar informacion, njoftime mbi persona të tjerë që ndërveprojnë me lëndën tuaj ose që ju dërgojnë mesazhe, dhe për t’iu përgjigju pyetjeve dhe/ose kërkesave të tjera.</li>
       </ul>
@@ -1254,9 +1254,9 @@ sq:
       <p>Përshtatur fillimisht nga <a href="https://github.com/discourse/discourse">rregullat e privatësisë në Discourse</a>.</p>
     title: Kushte Shërbimi dhe Rregulla Privatësie te %{instance}
   themes:
-    contrast: Mastodon (Me shumë kontrast)
-    default: Mastodon (I errët)
-    mastodon-light: Mastodon (I çelët)
+    contrast: koyu.space (Me shumë kontrast)
+    default: koyu.space (I errët)
+    mastodon-light: koyu.space (I çelët)
   time:
     formats:
       default: "%d %b, %Y, %H:%M"
@@ -1279,7 +1279,7 @@ sq:
     wrong_code: Kodi i dhënë është i pavlefshëm! A janë të sakta koha e shërbyesit dhe koha e pajisjes?
   user_mailer:
     backup_ready:
-      explanation: Kërkuat një kopjeruajtje të plotë të llogarisë tuaj Mastodon. E keni gati për shkarkim!
+      explanation: Kërkuat një kopjeruajtje të plotë të llogarisë tuaj koyu.space. E keni gati për shkarkim!
       subject: Arkivi juaj është gati për shkarkim
       title: Marrje arkivi me vete
     sign_in_token:
@@ -1316,11 +1316,11 @@ sq:
       full_handle_hint: Kjo është ajo çka do të duhej t’u tregonit shokëve tuaj, që të mund t’ju dërgojnë mesazhe ose t’ju ndjekin nga një shërbyes tjetër.
       review_preferences_action: Ndryshoni parapëlqime
       review_preferences_step: Mos harroni të caktoni parapëlqimet tuaja, fjala vjen, ç’email-e dëshironi të merrni, ose çfarë shkalle privatësie do të donit të kishin, si parazgjedhje, postimet tuaja. Nëse nuk ju merren mendtë nga rrotullimi, mund të zgjidhni të aktivizoni vetëluajtje GIF-esh.
-      subject: Mirë se vini te Mastodon-i
-      tip_federated_timeline: Rrjedha kohore e të federuarve është një pamje e fluksit të rrjetit Mastodon. Por përfshin vetëm persona te të cilët janë pajtuar fqinjët tuaj, pra s’është e plotë.
+      subject: Mirë se vini te koyu.space-i
+      tip_federated_timeline: Rrjedha kohore e të federuarve është një pamje e fluksit të rrjetit koyu.space. Por përfshin vetëm persona te të cilët janë pajtuar fqinjët tuaj, pra s’është e plotë.
       tip_following: Përgjegjësin e shërbyesit tuaj e ndiqni, si parazgjedhje. Për të gjetur më shumë persona interesantë, shihni te rrjedha kohore vendore dhe ajo e të federuarve.
       tip_local_timeline: Rrjedha kohore vendore është një pamje e fluksit të njerëzve në %{instance}. Këta janë fqinjët tuaj më të afërt!
-      tip_mobile_webapp: Nëse shfletuesi juaj celular ju ofron të shtohet Mastodon-i te skena juaj e kreut, mund të merrni njoftime <em>push</em>. Nga shumë pikëpamje vepron si një aplikacion i brendshëm i platformës së celularit!
+      tip_mobile_webapp: Nëse shfletuesi juaj celular ju ofron të shtohet koyu.space-i te skena juaj e kreut, mund të merrni njoftime <em>push</em>. Nga shumë pikëpamje vepron si një aplikacion i brendshëm i platformës së celularit!
       tips: Ndihmëza
       title: Mirë se vini, %{name}!
   users:
@@ -1334,5 +1334,5 @@ sq:
     signed_in_as: 'I futur si:'
     suspicious_sign_in_confirmation: Duket se s’keni hyrë më parë nga kjo pajisje, dhe se keni kohë pa bërë hyrje, ndaj po ju dërgojmë një kod sigurie te adresa juaj email, që të ripohoni se jeni ju.
   verification:
-    explanation_html: 'Mundeni <strong>të verifikoni veten si i zoti i lidhjeve te tejtëdhënat e profilit tuaj</strong>. Për këtë, sajti i lidhur duhet të përmbajë një lidhje për te profili juaj Mastodon. Lidhje për te ajo <strong>duhet</strong> të ketë një atribut <code>rel="me"</code>. Lënda tekst e lidhjes nuk ngre peshë. Ja një shembull:'
+    explanation_html: 'Mundeni <strong>të verifikoni veten si i zoti i lidhjeve te tejtëdhënat e profilit tuaj</strong>. Për këtë, sajti i lidhur duhet të përmbajë një lidhje për te profili juaj koyu.space. Lidhje për te ajo <strong>duhet</strong> të ketë një atribut <code>rel="me"</code>. Lënda tekst e lidhjes nuk ngre peshë. Ja një shembull:'
     verification: Verifikim

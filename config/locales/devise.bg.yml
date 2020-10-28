@@ -17,9 +17,9 @@ bg:
       unconfirmed: Преди да продължиш, трябва да потвърдиш регистрацията си.
     mailer:
       confirmation_instructions:
-        subject: 'Mastodon: Инструкции за потвърждаване %{instance}'
+        subject: 'koyu.space: Инструкции за потвърждаване %{instance}'
       password_change:
-        subject: 'Mastodon: Паролата е променена'
+        subject: 'koyu.space: Паролата е променена'
       reset_password_instructions:
         subject: Инструкции за смяна на паролата
       unlock_instructions:

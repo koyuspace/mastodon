@@ -62,7 +62,7 @@ pt-PT:
       form_challenge:
         current_password: Está a entrar numa área restrita
       imports:
-        data: Arquivo CSV exportado de outra instância do Mastodon
+        data: Arquivo CSV exportado de outra instância do koyu.space
       invite_request:
         text: Isto vai ajudar-nos a rever o seu pedido
       sessions:

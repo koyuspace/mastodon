@@ -62,7 +62,7 @@ es-AR:
       form_challenge:
         current_password: Estás ingresando en un área segura
       imports:
-        data: Archivo CSV exportado desde otro servidor de Mastodon
+        data: Archivo CSV exportado desde otro servidor de koyu.space
       invite_request:
         text: Esto nos ayudará a revisar tu aplicación
       sessions:

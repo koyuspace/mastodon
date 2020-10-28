@@ -61,7 +61,7 @@ uk:
       form_challenge:
         current_password: Ви входите до безпечної зони
       imports:
-        data: Файл CSV, експортований з іншого сервера Mastodon
+        data: Файл CSV, експортований з іншого сервера koyu.space
       invite_request:
         text: Це допоможе нам розглянути вашу заяву
       sessions:

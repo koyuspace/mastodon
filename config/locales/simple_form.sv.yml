@@ -36,7 +36,7 @@ sv:
       featured_tag:
         name: 'Du kan vilja använda en av dessa:'
       imports:
-        data: CSV-fil som exporteras från en annan Mastodon-instans
+        data: CSV-fil som exporteras från en annan koyu.space-instans
       sessions:
         otp: 'Ange tvåfaktorkoden genererad från din telefonapp eller använd någon av dina återställningskoder:'
       user:

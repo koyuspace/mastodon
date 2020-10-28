@@ -62,7 +62,7 @@ is:
       form_challenge:
         current_password: Þú ert að fara inn á öryggissvæði
       imports:
-        data: CSV-skrá sem flutt hefur verið út af öðrum Mastodon-þjóni
+        data: CSV-skrá sem flutt hefur verið út af öðrum koyu.space-þjóni
       invite_request:
         text: Þetta mun hjálpa okkur við að yfirfara umsóknina þína
       sessions:

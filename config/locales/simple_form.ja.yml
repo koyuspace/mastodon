@@ -62,7 +62,7 @@ ja:
       form_challenge:
         current_password: セキュリティ上重要なエリアにアクセスしています
       imports:
-        data: 他の Mastodon サーバーからエクスポートしたCSVファイルを選択して下さい
+        data: 他の koyu.space サーバーからエクスポートしたCSVファイルを選択して下さい
       invite_request:
         text: このサーバーは現在承認制です。申請を承認する際に役立つメッセージを添えてください
       sessions:

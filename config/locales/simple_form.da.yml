@@ -29,7 +29,7 @@ da:
       featured_tag:
         name: 'Du kunne måske tænke dig at bruge en af følgende:'
       imports:
-        data: CSV fil eksporteret fra en anden Mastodon server
+        data: CSV fil eksporteret fra en anden koyu.space server
       sessions:
         otp: 'Indtast to-faktor koden der generes af appen af appen på din telefon eller brug en af din genoprettelses koder:'
       user:

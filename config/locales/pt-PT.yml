@@ -1,26 +1,26 @@
 ---
 pt-PT:
   about:
-    about_hashtag_html: Estes são toots públicos marcados com <strong>#%{hashtag}</strong>. Podes interagir com eles se tiveres uma conta Mastodon.
-    about_mastodon_html: Mastodon é uma rede social baseada em protocolos abertos da web e software livre e gratuito. É descentralizado como e-mail.
+    about_hashtag_html: Estes são toots públicos marcados com <strong>#%{hashtag}</strong>. Podes interagir com eles se tiveres uma conta koyu.space.
+    about_mastodon_html: koyu.space é uma rede social baseada em protocolos abertos da web e software livre e gratuito. É descentralizado como e-mail.
     about_this: Sobre esta instância
     active_count_after: activo
     active_footnote: Utilizadores activos mensais (UAM)
     administered_by: 'Administrado por:'
     api: API
     apps: Aplicações móveis
-    apps_platforms: Usar o Mastodon a partir do iOS, Android e outras plataformas
+    apps_platforms: Usar o koyu.space a partir do iOS, Android e outras plataformas
     browse_directory: Navegue pelo directório de perfis e filtre por interesses
     browse_local_posts: Visualize as publicações públicas desta instância em tempo real
-    browse_public_posts: Visualize as publicações públicas do Mastodon em tempo real
+    browse_public_posts: Visualize as publicações públicas do koyu.space em tempo real
     contact: Contacto
     contact_missing: Não configurado
     contact_unavailable: n.d.
     discover_users: Descobrir utilizadores
     documentation: Documentação
-    federation_hint_html: Ter uma conta em %{instance} permitirá seguir pessoas em qualquer instância Mastodon.
+    federation_hint_html: Ter uma conta em %{instance} permitirá seguir pessoas em qualquer instância koyu.space.
     get_apps: Experimente uma aplicação
-    hosted_on: Mastodon em %{domain}
+    hosted_on: koyu.space em %{domain}
     instance_actor_flash: |
       Esta conta é um actor virtual usado para representar a própria instância e não um utilizador individual.
       É usada para motivos de federação e não deve ser bloqueada a não ser que que queira bloquear a instância por completo. Se for esse o caso, deverá usar o bloqueio de domínio.
@@ -45,12 +45,12 @@ pt-PT:
       silenced_title: Servidores silenciados
       suspended: 'Nenhum dado dessas instâncias será processado, armazenado ou trocado, tornando qualquer interação ou comunicação com os utilizadores dessas instâncias impossível:'
       suspended_title: Servidores suspensos
-    unavailable_content_html: Mastodon geralmente permite que você veja o conteúdo e interaja com utilizadores de qualquer outra instância no fediverso. Estas são as exceções desta instância em específico.
+    unavailable_content_html: koyu.space geralmente permite que você veja o conteúdo e interaja com utilizadores de qualquer outra instância no fediverso. Estas são as exceções desta instância em específico.
     user_count_after:
       one: utilizador
       other: utilizadores
     user_count_before: Casa para
-    what_is_mastodon: O que é o Mastodon?
+    what_is_mastodon: O que é o koyu.space?
   accounts:
     choices_html: 'escolhas de %{name}:'
     endorsements_hint: Você pode, através da interface web, escolher endossar pessoas que segue, e elas aparecerão aqui.
@@ -561,14 +561,14 @@ pt-PT:
         desc_html: Mostrar na página de mais informações<br/>Podes usar tags HTML
         title: Página de mais informações
       site_short_description:
-        desc_html: Mostrada na barra lateral e em etiquetas de metadados. Descreve o que o Mastodon é e o que torna esta instância especial num único parágrafo. Se deixada em branco, remete para a descrição da instância.
+        desc_html: Mostrada na barra lateral e em etiquetas de metadados. Descreve o que o koyu.space é e o que torna esta instância especial num único parágrafo. Se deixada em branco, remete para a descrição da instância.
         title: Breve descrição da instância
       site_terms:
         desc_html: Podes escrever a sua própria política de privacidade, termos de serviço, entre outras coisas. Pode utilizar etiquetas HTML
         title: Termos de serviço personalizados
       site_title: Título do site
       spam_check_enabled:
-        desc_html: O Mastodon pode reportar automaticamente contas que enviem repetidamente mensagens não solicitadas. Poderão ocorrer alguns falso-positivos.
+        desc_html: O koyu.space pode reportar automaticamente contas que enviem repetidamente mensagens não solicitadas. Poderão ocorrer alguns falso-positivos.
         title: Automação anti-spam
       thumbnail:
         desc_html: Usada para visualizações via OpenGraph e API. Recomenda-se 1200x630px
@@ -649,7 +649,7 @@ pt-PT:
     confirmation_dialogs: Caixas de confirmação
     discovery: Descobrir
     localization:
-      body: Mastodon é traduzido por voluntários.
+      body: koyu.space é traduzido por voluntários.
       guide_link: https://crowdin.com/project/mastodon/pt-PT
       guide_link_text: Todos podem contribuir.
     sensitive_content: Conteúdo sensível
@@ -677,9 +677,9 @@ pt-PT:
     delete_account: Eliminar conta
     delete_account_html: Se desejas eliminar a conta, podes <a href="%{path}">continua aqui</a>. Uma confirmação será pedida.
     description:
-      prefix_invited_by_user: "@%{name} convidou-o a juntar-se a esta instância do Mastodon!"
-      prefix_sign_up: Inscreva-se hoje no Mastodon!
-      suffix: Com uma conta, poderá seguir pessoas, publicar atualizações e trocar mensagens com utilizadores de qualquer instância Mastodon e muito mais!
+      prefix_invited_by_user: "@%{name} convidou-o a juntar-se a esta instância do koyu.space!"
+      prefix_sign_up: Inscreva-se hoje no koyu.space!
+      suffix: Com uma conta, poderá seguir pessoas, publicar atualizações e trocar mensagens com utilizadores de qualquer instância koyu.space e muito mais!
     didnt_get_confirmation: Não recebeu o email de confirmação?
     forgot_password: Esqueceste a palavra-passe?
     invalid_reset_password_token: Token de modificação da palavra-passe é inválido ou expirou. Por favor, solicita um novo.
@@ -783,7 +783,7 @@ pt-PT:
       content: Desculpe, mas algo correu mal.
       title: Esta página não está correta
     '503': A página não pôde ser apresentada devido a uma falha temporária do servidor.
-    noscript_html: Para usar o aplicativo web do Mastodon, por favor ativa o JavaScript. Alternativamente, experimenta um dos <a href="%{apps_path}">apps nativos</a> para o Mastodon na sua plataforma.
+    noscript_html: Para usar o aplicativo web do koyu.space, por favor ativa o JavaScript. Alternativamente, experimenta um dos <a href="%{apps_path}">apps nativos</a> para o koyu.space na sua plataforma.
   existing_username_validator:
     not_found: não foi possível encontrar um utilizador local com esse nome
     not_found_multiple: não foi possível encontrar %{usernames}
@@ -1077,7 +1077,7 @@ pt-PT:
       weibo: Weibo
     current_session: Sessão atual
     description: "%{browser} em %{platform}"
-    explanation: Estes são os navegadores que estão conectados com a tua conta do Mastodon.
+    explanation: Estes são os navegadores que estão conectados com a tua conta do koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ pt-PT:
     aliases: Pseudónimos da conta
     appearance: Aspecto
     authorized_apps: Aplicativos autorizados
-    back: Voltar ao Mastodon
+    back: Voltar ao koyu.space
     delete: Eliminação da conta
     development: Desenvolvimento
     edit_profile: Editar perfil
@@ -1178,7 +1178,7 @@ pt-PT:
       <ul>
       <li><em>Informação básica da conta</em>: Se te registares neste servidor, pode-te ser pedido que indiques um nome de utilizador, um endereço de email e uma palavra-passe. Também podes introduzir informação adicional de perfil, tal como um nome a mostrar e dados biográficos, que carregues uma fotografia para o teu perfil e para o cabeçalho. O nome de utilizador, o nome a mostrar, a biografia, a imagem de perfil e a imagem de cabeçalho são sempre listados publicamente.</li>
       <li><em>Publicações, seguimento e outra informação pública</em>: A lista de pessoas que tu segues é pública, o mesmo é verdade para os teus seguidores. Quando tu publicas uma mensagem, a data e a hora são guardados, tal como a aplicação a partir da qual a mensagem foi enviada. As mensagens podem conter anexos média, tais como fotografias ou vídeos. Publicações públicas e não listadas são acessíveis publicamente. Quando expões uma publicação no teu perfil, isso é também informação disponível publicamente. As tuas publicações são enviadas aos teus seguidores. Em alguns casos isso significa que elas são enviadas para servidores diferentes onde são guardadas cópias. Quando tu apagas publicações, isso também é enviado para os teus seguidores. A ação de republicar ou favoritar outra publicação é sempre pública.</li>
-      <li><em>Publicações diretas e exclusivas para seguidores</em>: Todas as publicações são guardadas e processadas no servidor. Publicações exclusivas para seguidores são enviadas para os teus seguidores e para utilizadores que são nelas mencionados. As publicações diretas são enviadas apenas para os utilizadores nelas mencionados. Em alguns casos isso significa que elas são enviadas para diferentes servidores onde são guardadas cópias das mesmas. Nós fazemos um grande esforço para limitar o acesso a estas publicações aos utilizadores autorizados, mas outros servidores podem falhar neste objetivo. Por isso, tu deves rever os servidores a que os teus seguidores pertencem. Tu podes ativar uma opção para aprovar e rejeitar manualmente novos seguidores nas configurações. <em>Por favor, tem em mente que os gestores do servidor e qualquer servidor que receba a publicação pode lê-la</em> e que os destinatários podem fazer uma captura de tela, copiar ou partilhar a publicação. <em>Não partilhes qualquer informação perigosa no Mastodon.</em></li>
+      <li><em>Publicações diretas e exclusivas para seguidores</em>: Todas as publicações são guardadas e processadas no servidor. Publicações exclusivas para seguidores são enviadas para os teus seguidores e para utilizadores que são nelas mencionados. As publicações diretas são enviadas apenas para os utilizadores nelas mencionados. Em alguns casos isso significa que elas são enviadas para diferentes servidores onde são guardadas cópias das mesmas. Nós fazemos um grande esforço para limitar o acesso a estas publicações aos utilizadores autorizados, mas outros servidores podem falhar neste objetivo. Por isso, tu deves rever os servidores a que os teus seguidores pertencem. Tu podes ativar uma opção para aprovar e rejeitar manualmente novos seguidores nas configurações. <em>Por favor, tem em mente que os gestores do servidor e qualquer servidor que receba a publicação pode lê-la</em> e que os destinatários podem fazer uma captura de tela, copiar ou partilhar a publicação. <em>Não partilhes qualquer informação perigosa no koyu.space.</em></li>
       <li><em>IPs e outros metadados</em>: Quando inicias sessão, nós guardamos o endereço de IP a partir do qual iniciaste a sessão, tal como o nome do teu navegador. Todas as sessões estão disponíveis para verificação e revogação nas configurações. O último endereço de IP usado é guardado até 12 meses. Nós também podemos guardar registos de servidor, os quais incluem o endereço de IP de cada pedido dirigido ao nosso servidor.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ pt-PT:
       <p>Qualquer informação que recolhemos sobre ti pode ser usada dos seguintes modos:</p>
 
       <ul>
-      <li>Para providenciar a funcionalidade central do Mastodon. Tu só podes interagir com o conteúdo de outras pessoas e publicar o teu próprio conteúdo depois de teres iniciado sessão. Por exemplo, tu podes seguir outras pessoas para veres as suas publicações na tua cronologia inicial personalizada. </li>
+      <li>Para providenciar a funcionalidade central do koyu.space. Tu só podes interagir com o conteúdo de outras pessoas e publicar o teu próprio conteúdo depois de teres iniciado sessão. Por exemplo, tu podes seguir outras pessoas para veres as suas publicações na tua cronologia inicial personalizada. </li>
       <li>Para ajudar na moderação da comunidade para, por exemplo, comparar o teu endereço IP com outros conhecidos, para determinar a fuga ao banimento ou outras violações.</li>
       <li>O endereço de e-mail que tu forneces pode ser usado para te enviar informações e/ou notificações sobre outras pessoas que estão a interagir com o teu conteúdo ou a enviar-te mensagens, para responderes a inquéritos e/ou outros pedidos ou questões.</li>
       </ul>
@@ -1254,9 +1254,9 @@ pt-PT:
       <p>Originalmente adaptado de <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: "%{instance} Termos de Serviço e Política de Privacidade"
   themes:
-    contrast: Mastodon (Elevado contraste)
-    default: Mastodon
-    mastodon-light: Mastodon (Leve)
+    contrast: koyu.space (Elevado contraste)
+    default: koyu.space
+    mastodon-light: koyu.space (Leve)
   time:
     formats:
       default: "%H:%M em %d de %b de %Y"
@@ -1279,7 +1279,7 @@ pt-PT:
     wrong_code: O código inserido é invalido! O horário do servidor e o horário do seu aparelho estão corretos?
   user_mailer:
     backup_ready:
-      explanation: Pediste uma cópia completa da tua conta Mastodon. Ela já está pronta para descarregares!
+      explanation: Pediste uma cópia completa da tua conta koyu.space. Ela já está pronta para descarregares!
       subject: O teu arquivo está pronto para descarregar
       title: Arquivo de ficheiros
     sign_in_token:
@@ -1316,11 +1316,11 @@ pt-PT:
       full_handle_hint: Isto é o que você diria aos seus amigos para que eles lhe possam enviar mensagens ou seguir a partir de outra instância.
       review_preferences_action: Alterar preferências
       review_preferences_step: Certifica-te de configurar as tuas preferências, tais como os e-mails que gostarias de receber ou o nível de privacidade que desejas que as tuas publicações tenham por defeito. Se não sofres de enjoo, podes ativar a opção de auto-iniciar GIFs.
-      subject: Bem-vindo ao Mastodon
-      tip_federated_timeline: A cronologia federativa é uma visão global da rede Mastodon. Mas só inclui pessoas que os teus vizinhos subscrevem, por isso não é uma visão completa.
+      subject: Bem-vindo ao koyu.space
+      tip_federated_timeline: A cronologia federativa é uma visão global da rede koyu.space. Mas só inclui pessoas que os teus vizinhos subscrevem, por isso não é uma visão completa.
       tip_following: Você segue o(s) administrador(es) da sua instância por defeito. Para encontrar mais pessoas interessantes, procure nas cronologias local e federada.
       tip_local_timeline: A cronologia local é uma visão global das pessoas em %{instance}. Estes são os seus vizinhos mais próximos!
-      tip_mobile_webapp: Se o teu navegador móvel te oferecer a possibilidade de adicionar o Mastodon ao teu homescreen, tu podes receber notificações push. Ele age como uma aplicação nativa de vários modos!
+      tip_mobile_webapp: Se o teu navegador móvel te oferecer a possibilidade de adicionar o koyu.space ao teu homescreen, tu podes receber notificações push. Ele age como uma aplicação nativa de vários modos!
       tips: Dicas
       title: Bem-vindo a bordo, %{name}!
   users:
@@ -1334,5 +1334,5 @@ pt-PT:
     signed_in_as: 'Registado como:'
     suspicious_sign_in_confirmation: Parece que não iniciou sessão através deste dispositivo antes, e não acede à sua conta há algum tempo. Portanto, enviámos um código de segurança para o seu endereço de e-mail para confirmar que é você.
   verification:
-    explanation_html: 'Tu podes <strong>comprovar que és o dono dos links nos metadados do teu perfil</strong>. Para isso, o website para o qual o link aponta tem de conter um link para o teu perfil do Mastodon. Este link <strong>tem</strong> de ter um <code>rel="me"</code> atributo. O conteúdo do texto não é relevante. Aqui está um exemplo:'
+    explanation_html: 'Tu podes <strong>comprovar que és o dono dos links nos metadados do teu perfil</strong>. Para isso, o website para o qual o link aponta tem de conter um link para o teu perfil do koyu.space. Este link <strong>tem</strong> de ter um <code>rel="me"</code> atributo. O conteúdo do texto não é relevante. Aqui está um exemplo:'
     verification: Verificação

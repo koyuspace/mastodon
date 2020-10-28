@@ -2,25 +2,25 @@
 ca:
   about:
     about_hashtag_html: Aquests són tuts públics etiquetats amb <strong>#%{hashtag}</strong>. Pots interactuar amb elles si tens un compte a qualsevol lloc del fedivers.
-    about_mastodon_html: 'La xarxa social del futur: sense anuncis, sense vigilància corporativa, disseny ètic i descentralització. Posseeix les teves dades amb Mastodon!'
+    about_mastodon_html: 'La xarxa social del futur: sense anuncis, sense vigilància corporativa, disseny ètic i descentralització. Posseeix les teves dades amb koyu.space!'
     about_this: Quant a
     active_count_after: actiu
     active_footnote: Usuaris actius mensuals (UAM)
     administered_by: 'Administrat per:'
     api: API
     apps: Apps mòbils
-    apps_platforms: Utilitza Mastodon des de iOS, Android i altres plataformes
+    apps_platforms: Utilitza koyu.space des de iOS, Android i altres plataformes
     browse_directory: Navega per el directori de perfils i filtra segons interessos
     browse_local_posts: Navega un flux en directe de publicacions públiques d’aquest servidor
-    browse_public_posts: Navega per una transmissió en directe de publicacions públiques a Mastodon
+    browse_public_posts: Navega per una transmissió en directe de publicacions públiques a koyu.space
     contact: Contacte
     contact_missing: No configurat
     contact_unavailable: N/D
     discover_users: Descobreix usuaris
     documentation: Documentació
-    federation_hint_html: Amb un compte de %{instance} podràs seguir persones de qualsevol servidor Mastodon i altres.
+    federation_hint_html: Amb un compte de %{instance} podràs seguir persones de qualsevol servidor koyu.space i altres.
     get_apps: Prova una aplicació mòbil
-    hosted_on: Mastodon allotjat a %{domain}
+    hosted_on: koyu.space allotjat a %{domain}
     instance_actor_flash: |
       Aquest compte és un actor virtual utilitzat per a representar al propi servidor i no cap usuari individual.
       S'utilitza per a propòsits de federació i no ha de ser bloquejat si no voleu bloquejar tota la instància, en aquest cas hauríeu d'utilitzar un bloqueig de domini.
@@ -45,12 +45,12 @@ ca:
       silenced_title: Servidors silenciats
       suspended: 'Cap dada d''aquests servidors serà processada, emmagatzemada o intercanviada, fent impossible qualsevol interacció o comunicació amb els usuaris d''aquests servidors:'
       suspended_title: Servidors suspesos
-    unavailable_content_html: Mastodon generalment et permet veure el contingut i interaccionar amb els usuaris de qualsevol altre servidor en el fedivers. Aquestes són les excepcions que s'han fet en aquest servidor particular.
+    unavailable_content_html: koyu.space generalment et permet veure el contingut i interaccionar amb els usuaris de qualsevol altre servidor en el fedivers. Aquestes són les excepcions que s'han fet en aquest servidor particular.
     user_count_after:
       one: usuari
       other: usuaris
     user_count_before: Tenim
-    what_is_mastodon: Què és Mastodon?
+    what_is_mastodon: Què és koyu.space?
   accounts:
     choices_html: 'Eleccions de %{name}:'
     endorsements_hint: Pots recomanar persones que segueixes a l'interfície de web, que apareixeran aquí.
@@ -561,14 +561,14 @@ ca:
         desc_html: Un bon lloc per al codi de conducta, regles, directrius i altres coses que distingeixen el teu servidor. Pots utilitzar etiquetes HTML
         title: Descripció ampliada del lloc
       site_short_description:
-        desc_html: Es mostra a la barra lateral i a metaetiquetes. Descriu en un únic paràgraf què és Mastodon i què fa que aquest servidor sigui especial.
+        desc_html: Es mostra a la barra lateral i a metaetiquetes. Descriu en un únic paràgraf què és koyu.space i què fa que aquest servidor sigui especial.
         title: Descripció curta del servidor
       site_terms:
         desc_html: Pots escriure la teva pròpia política de privadesa, els termes del servei o d'altres normes legals. Pots utilitzar etiquetes HTML
         title: Termes del servei personalitzats
       site_title: Nom del servidor
       spam_check_enabled:
-        desc_html: Mastodon pot informar automàticament de comptes que envien repetits missatges no sol·licitats. Pot haver-hi falsos positius.
+        desc_html: koyu.space pot informar automàticament de comptes que envien repetits missatges no sol·licitats. Pot haver-hi falsos positius.
         title: Anti-spam
       thumbnail:
         desc_html: S'utilitza per obtenir visualitzacions prèvies a través d'OpenGraph i API. Es recomana 1200x630px
@@ -649,7 +649,7 @@ ca:
     confirmation_dialogs: Diàlegs de confirmació
     discovery: Descobriment
     localization:
-      body: Mastodon és traduït per voluntaris.
+      body: koyu.space és traduït per voluntaris.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Tothom hi pot contribuir.
     sensitive_content: Contingut sensible
@@ -677,9 +677,9 @@ ca:
     delete_account: Suprimeix el compte
     delete_account_html: Si vols suprimir el compte pots <a href="%{path}">fer-ho aquí</a>. Se't demanarà confirmació.
     description:
-      prefix_invited_by_user: "@%{name} t'ha invitat a unir-te a aquest servidor de Mastodon!"
-      prefix_sign_up: Registra't avui a Mastodon!
-      suffix: Amb un compte seràs capaç de seguir persones, publicar i intercanviar missatges amb usuaris de qualsevol servidor de Mastodon i més!
+      prefix_invited_by_user: "@%{name} t'ha invitat a unir-te a aquest servidor de koyu.space!"
+      prefix_sign_up: Registra't avui a koyu.space!
+      suffix: Amb un compte seràs capaç de seguir persones, publicar i intercanviar missatges amb usuaris de qualsevol servidor de koyu.space i més!
     didnt_get_confirmation: No has rebut el correu de confirmació?
     forgot_password: Has oblidat la contrasenya?
     invalid_reset_password_token: L'enllaç de restabliment de la contrasenya no és vàlid o ha caducat. Torna-ho a provar.
@@ -783,7 +783,7 @@ ca:
       content: Ho sentim, però alguna cosa ha fallat a la nostra banda.
       title: Aquesta pàgina no es correcta
     '503': La pàgina no podria ser servida a causa d'un error temporal del servidor.
-    noscript_html: Per a utilitzar Mastodon, activa el JavaScript. També pots provar una de les <a href="%{apps_path}"> aplicacions natives</a> de Mastodon per a la teva plataforma.
+    noscript_html: Per a utilitzar koyu.space, activa el JavaScript. També pots provar una de les <a href="%{apps_path}"> aplicacions natives</a> de koyu.space per a la teva plataforma.
   existing_username_validator:
     not_found: no s'ha pogut trobar cap usuari local amb aquest nom d'usuari
     not_found_multiple: no s'ha pogut trobar %{usernames}
@@ -1077,7 +1077,7 @@ ca:
       weibo: Weibo
     current_session: Sessió actual
     description: "%{browser} de %{platform}"
-    explanation: Aquests són els navegadors web que actualment han iniciat la sessió amb el teu compte de Mastodon.
+    explanation: Aquests són els navegadors web que actualment han iniciat la sessió amb el teu compte de koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1101,7 +1101,7 @@ ca:
     aliases: Àlies de compte
     appearance: Aparença
     authorized_apps: Aplicacions autoritzades
-    back: Torna a Mastodon
+    back: Torna a koyu.space
     delete: Eliminació del compte
     development: Desenvolupament
     edit_profile: Edita el perfil
@@ -1178,7 +1178,7 @@ ca:
       <ul>
       <li><em>Informació bàsica del compte</em>: Si et registres en aquest servidor, se´t pot demanar que introdueixis un nom d'usuari, una adreça de correu electrònic i una contrasenya. També pots introduir informació de perfil addicional, com ara un nom de visualització i una biografia, i carregar una imatge de perfil i de capçalera. El nom d'usuari, el nom de visualització, la biografia, la imatge de perfil i la imatge de capçalera sempre apareixen públicament.</li>
       <li><em>Publicacions, seguiment i altra informació pública</em>: La llista de persones que segueixes s'enumeren públicament i el mateix passa amb els teus seguidors. Quan envies un missatge, la data i l'hora s'emmagatzemen, així com l'aplicació que va enviar el missatge. Els missatges poden contenir multimèdia, com ara imatges i vídeos. Els toots públics i no llistats estan disponibles públicament. En quan tinguis un toot en el teu perfil, aquest també és informació pública. Les teves entrades es lliuren als teus seguidors que en alguns casos significa que es lliuren a diferents servidors en els quals s'hi emmagatzemen còpies. Quan suprimeixes publicacions, també es lliuraran als teus seguidors. L'acció d'impulsar o marcar com a favorit una publicació sempre és pública.</li>
-      <li><em>Hops directes i per a només seguidors</em>: Totes les publicacions s'emmagatzemen i processen al servidor. Els toots per a només seguidors només es lliuren als teus seguidors i als usuaris que s'esmenten en ells i els toots directes només es lliuren als usuaris esmentats. En alguns casos, significa que es lliuren a diferents servidors i s'hi emmagatzemen còpies. Fem un esforç de bona fe per limitar l'accés a aquestes publicacions només a les persones autoritzades, però és possible que altres servidors no ho facin. Per tant, és important revisar els servidors als quals pertanyen els teus seguidors. Pots canviar la opció de aprovar o rebutjar els nous seguidors manualment a la configuració. <em>Tingues en compte que els operadors del servidor i qualsevol servidor receptor poden visualitzar aquests missatges</em> i els destinataris poden fer una captura de pantalla, copiar-los o tornar-los a compartir. <em>No comparteixis cap informació perillosa a Mastodon.</em></li>
+      <li><em>Hops directes i per a només seguidors</em>: Totes les publicacions s'emmagatzemen i processen al servidor. Els toots per a només seguidors només es lliuren als teus seguidors i als usuaris que s'esmenten en ells i els toots directes només es lliuren als usuaris esmentats. En alguns casos, significa que es lliuren a diferents servidors i s'hi emmagatzemen còpies. Fem un esforç de bona fe per limitar l'accés a aquestes publicacions només a les persones autoritzades, però és possible que altres servidors no ho facin. Per tant, és important revisar els servidors als quals pertanyen els teus seguidors. Pots canviar la opció de aprovar o rebutjar els nous seguidors manualment a la configuració. <em>Tingues en compte que els operadors del servidor i qualsevol servidor receptor poden visualitzar aquests missatges</em> i els destinataris poden fer una captura de pantalla, copiar-los o tornar-los a compartir. <em>No comparteixis cap informació perillosa a koyu.space.</em></li>
       <li><em>IPs i altres metadades</em>: Quan inicies sessió registrem l'adreça IP en que l'has iniciat, així com el nom de l'aplicació o navegador. Totes les sessions registrades estan disponibles per a la teva revisió i revocació a la configuració. L'última adreça IP utilitzada s'emmagatzema durant un màxim de 12 mesos. També podrem conservar els registres que inclouen l'adreça IP de cada sol·licitud al nostre servidor.</li>
       </ul>
 
@@ -1189,7 +1189,7 @@ ca:
       <p>Qualsevol de la informació que recopilem de tu es pot utilitzar de la manera següent:</p>
 
       <ul>
-      <li>Per proporcionar la funcionalitat bàsica de Mastodon. Només pots interactuar amb el contingut d'altres persones i publicar el teu propi contingut quan hàgis iniciat la sessió. Per exemple, pots seguir altres persones per veure les publicacions combinades a la teva pròpia línia de temps personalitzada.</li>
+      <li>Per proporcionar la funcionalitat bàsica de koyu.space. Només pots interactuar amb el contingut d'altres persones i publicar el teu propi contingut quan hàgis iniciat la sessió. Per exemple, pots seguir altres persones per veure les publicacions combinades a la teva pròpia línia de temps personalitzada.</li>
       <li>Per ajudar a la moderació de la comunitat, per exemple comparar la teva adreça IP amb altres conegudes per determinar l'evasió de prohibicions o altres infraccions.</li>
       <li>L'adreça electrònica que ens proporciones pot utilitzar-se per enviar-te informació, notificacions sobre altres persones que interactuen amb el teu contingut o t'envien missatges, i per respondre a les consultes i / o altres sol·licituds o preguntes.</li>
       </ul>
@@ -1254,9 +1254,9 @@ ca:
       <p>Originalment adaptat des del <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: "%{instance} Condicions del servei i política de privadesa"
   themes:
-    contrast: Mastodon (alt contrast)
-    default: Mastodon (fosc)
-    mastodon-light: Mastodon (clar)
+    contrast: koyu.space (alt contrast)
+    default: koyu.space (fosc)
+    mastodon-light: koyu.space (clar)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1279,7 +1279,7 @@ ca:
     wrong_code: El codi introduït no és vàlid! És correcta l'hora del servidor i del dispositiu?
   user_mailer:
     backup_ready:
-      explanation: Has sol·licitat una copia completa del teu compte Mastodon. Ara ja està a punt per a descàrrega!
+      explanation: Has sol·licitat una copia completa del teu compte koyu.space. Ara ja està a punt per a descàrrega!
       subject: El teu arxiu està preparat per a descàrrega
       title: Recollida del arxiu
     sign_in_token:
@@ -1316,11 +1316,11 @@ ca:
       full_handle_hint: Això és el que has de dir als teus amics perquè puguin enviar-te missatges o seguir-te des d'un altre servidor.
       review_preferences_action: Canviar preferències
       review_preferences_step: Assegura't d'establir les teves preferències, com ara els correus electrònics que vols rebre o el nivell de privadesa per defecte que t'agradaria que tinguin les teves entrades. Si no tens malaltia de moviment, pots optar per habilitar la reproducció automàtica de GIF.
-      subject: Et donem la benvinguda a Mastodon
-      tip_federated_timeline: La línia de temps federada és el cabal principal de la xarxa Mastodon. Però només inclou les persones a les quals els teus veïns estan subscrits, de manera que no està completa.
+      subject: Et donem la benvinguda a koyu.space
+      tip_federated_timeline: La línia de temps federada és el cabal principal de la xarxa koyu.space. Però només inclou les persones a les quals els teus veïns estan subscrits, de manera que no està completa.
       tip_following: Per defecte segueixes als administradors del servidor. Per trobar més persones interessants, consulta les línies de temps local i federada.
       tip_local_timeline: La línia de temps local és la vista del flux de publicacions dels usuaris de %{instance}. Aquests usuaris són els teus veïns més propers!
-      tip_mobile_webapp: Si el teu navegador del mòbil t'ofereix afegir Mastodon a la teva pantalla d'inici, podràs rebre notificacions "push". Es comporta com una aplicació nativa en molts aspectes!
+      tip_mobile_webapp: Si el teu navegador del mòbil t'ofereix afegir koyu.space a la teva pantalla d'inici, podràs rebre notificacions "push". Es comporta com una aplicació nativa en molts aspectes!
       tips: Consells
       title: Benvingut a bord, %{name}!
   users:
@@ -1334,5 +1334,5 @@ ca:
     signed_in_as: 'Sessió iniciada com a:'
     suspicious_sign_in_confirmation: Aparentment no has iniciat sessió des d’aquest dispositiu abans i no ho has fet des de fa cert temps per tant t’enviarem un codi de seguretat al teu correu electrònic per a confirmar que ets tu.
   verification:
-    explanation_html: 'Pots <strong>verificar-te com a propietari dels enllaços a les metadades del teu perfil</strong>. Per això, el lloc web enllaçat ha de contenir un enllaç al teu perfil de Mastodon. El vincle <strong>ha de</strong> tenir l''atribut <code>rel="me"</code>. El contingut del text de l''enllaç no importa. Aquí tens un exemple:'
+    explanation_html: 'Pots <strong>verificar-te com a propietari dels enllaços a les metadades del teu perfil</strong>. Per això, el lloc web enllaçat ha de contenir un enllaç al teu perfil de koyu.space. El vincle <strong>ha de</strong> tenir l''atribut <code>rel="me"</code>. El contingut del text de l''enllaç no importa. Aquí tens un exemple:'
     verification: Verificació

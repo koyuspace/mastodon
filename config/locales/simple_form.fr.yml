@@ -62,7 +62,7 @@ fr:
       form_challenge:
         current_password: Vous entrez une zone sécurisée
       imports:
-        data: Un fichier CSV généré par un autre serveur de Mastodon
+        data: Un fichier CSV généré par un autre serveur de koyu.space
       invite_request:
         text: Cela nous aidera à considérer votre demande
       sessions:
