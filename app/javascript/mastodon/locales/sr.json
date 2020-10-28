@@ -363,7 +363,7 @@
   "search_results.accounts": "Људи",
   "search_results.hashtags": "Тарабе",
   "search_results.statuses": "Трубе",
-  "search_results.statuses_fts_disabled": "Searching toots by their content is not enabled on this Mastodon server.",
+  "search_results.statuses_fts_disabled": "Searching toots by their content is not enabled on this koyu.space server.",
   "search_results.total": "{count, number} {count, plural, one {резултат} few {резултата} other {резултата}}",
   "status.admin_account": "Отвори модераторски интерфејс за @{name}",
   "status.admin_status": "Отвори овај статус у модераторском интерфејсу",

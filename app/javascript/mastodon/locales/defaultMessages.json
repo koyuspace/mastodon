@@ -176,11 +176,11 @@
         "id": "error.unexpected_crash.explanation"
       },
       {
-        "defaultMessage": "Try disabling them and refreshing the page. If that does not help, you may still be able to use Mastodon through a different browser or native app.",
+        "defaultMessage": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
         "id": "error.unexpected_crash.next_steps_addons"
       },
       {
-        "defaultMessage": "Try refreshing the page. If that does not help, you may still be able to use Mastodon through a different browser or native app.",
+        "defaultMessage": "Try refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
         "id": "error.unexpected_crash.next_steps"
       },
       {
@@ -1245,7 +1245,7 @@
         "id": "search_results.statuses"
       },
       {
-        "defaultMessage": "Searching hops by their content is not enabled on this Mastodon server.",
+        "defaultMessage": "Searching hops by their content is not enabled on this koyu.space server.",
         "id": "search_results.statuses_fts_disabled"
       },
       {
@@ -2393,7 +2393,7 @@
         "id": "notifications_permission_banner.title"
       },
       {
-        "defaultMessage": "To receive notifications when Mastodon isn't open, enable desktop notifications. You can control precisely which types of interactions generate desktop notifications through the {icon} button above once they're enabled.",
+        "defaultMessage": "To receive notifications when koyu.space isn't open, enable desktop notifications. You can control precisely which types of interactions generate desktop notifications through the {icon} button above once they're enabled.",
         "id": "notifications_permission_banner.how_to_control"
       },
       {
@@ -3017,7 +3017,7 @@
         "id": "navigation_bar.logout"
       },
       {
-        "defaultMessage": "Mastodon is open source software. You can contribute or report issues on GitHub at {github}.",
+        "defaultMessage": "koyu.space is open source software. You can contribute or report issues on GitHub at {github}.",
         "id": "getting_started.open_source_notice"
       }
     ],
@@ -3217,7 +3217,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Your draft will be lost if you leave Mastodon.",
+        "defaultMessage": "Your draft will be lost if you leave koyu.space.",
         "id": "ui.beforeunload"
       }
     ],
