@@ -43,7 +43,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
 
     <hr />
 
-    <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Discord server is at 6MsakA3 and we host a big chat session every Saturday at 18:00 UTC.'></FormattedMessage></p>
+    <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Discord server is at 8gbd7YR and we host a big chat session at chat.koyu.space every Saturday at 18:00 UTC.'></FormattedMessage></p>
 
     {showTrends && <div className='flex-spacer' />}
     {showTrends && <TrendsContainer />}
