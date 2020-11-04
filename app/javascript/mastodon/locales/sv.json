@@ -168,13 +168,9 @@
   "empty_column.notifications": "Du har inga meddelanden än. Interagera med andra för att starta konversationen.",
   "empty_column.public": "Det finns inget här! Skriv något offentligt, eller följ manuellt användarna från andra instanser för att fylla på det",
   "error.unexpected_crash.explanation": "På grund av en bugg i vår kod eller kompatiblitetsproblem i webbläsaren kan den här sidan inte visas korrekt.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Prova att ladda om sidan. Om det inte hjälper kan du försöka använda koyu.space med en annan webbläsare eller app.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Prova att ladda om sidan. Om det inte hjälper kan du försöka använda koyu.space med en annan webbläsare eller app.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Kopiera stacktrace till urklipp",
   "errors.unexpected_crash.report_issue": "Rapportera problem",
   "follow_request.authorize": "Godkänn",

@@ -168,17 +168,9 @@
   "empty_column.notifications": "మీకు ఇంకా ఏ నోటిఫికేషన్లు లేవు. సంభాషణను ప్రారంభించడానికి ఇతరులతో ప్రతిస్పందించండి.",
   "empty_column.public": "ఇక్కడ ఏమీ లేదు! దీన్ని నింపడానికి బహిరంగంగా ఏదైనా వ్రాయండి, లేదా ఇతర సేవికల నుండి వినియోగదారులను అనుసరించండి",
   "error.unexpected_crash.explanation": "Due to a bug in our code or a browser compatibility issue, this page could not be displayed correctly.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Try refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
-=======
-  "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
-  "error.unexpected_crash.next_steps": "Try refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
-  "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Copy stacktrace to clipboard",
   "errors.unexpected_crash.report_issue": "Report issue",
   "follow_request.authorize": "అనుమతించు",
-  "follow_request.reject": "తిరస్కరించు",
   "follow_requests.unlocked_explanation": "Even though your account is not locked, the {domain} staff thought you might want to review follow requests from these accounts manually.",
   "generic.saved": "Saved",
   "getting_started.developers": "డెవలపర్లు",

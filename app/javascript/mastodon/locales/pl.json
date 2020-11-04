@@ -172,13 +172,9 @@
   "empty_column.notifications": "Nie masz żadnych powiadomień. Rozpocznij interakcje z innymi użytkownikami.",
   "empty_column.public": "Tu nic nie ma! Napisz coś publicznie, lub dodaj ludzi z innych serwerów, aby to wyświetlić",
   "error.unexpected_crash.explanation": "W związku z błędem w naszym kodzie lub braku kompatybilności przeglądarki, ta strona nie może być poprawnie wyświetlona.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Spróbuj odświeżyć stronę. Jeśli to nie pomoże, wciąż jesteś w stanie używać koyu.spacea przez inną przeglądarkę lub natywną aplikację.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Spróbuj odświeżyć stronę. Jeśli to nie pomoże, wciąż jesteś w stanie używać koyu.spacea przez inną przeglądarkę lub natywną aplikację.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Skopiuj ślad stosu do schowka",
   "errors.unexpected_crash.report_issue": "Zgłoś problem",
   "follow_request.authorize": "Autoryzuj",

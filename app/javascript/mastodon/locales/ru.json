@@ -168,13 +168,9 @@
   "empty_column.notifications": "У вас пока нет уведомлений. Взаимодействуйте с другими, чтобы завести разговор.",
   "empty_column.public": "Здесь ничего нет! Опубликуйте что-нибудь или подпишитесь на пользователей с других узлов, чтобы заполнить ленту",
   "error.unexpected_crash.explanation": "Из-за несовместимого браузера или ошибки в нашем коде, эта страница не может быть корректно отображена.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Попробуйте обновить страницу. Если проблема не исчезает, используйте koyu.space из-под другого браузера или приложения.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Попробуйте обновить страницу. Если проблема не исчезает, используйте koyu.space из-под другого браузера или приложения.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Скопировать диагностическую информацию",
   "errors.unexpected_crash.report_issue": "Сообщить о проблеме",
   "follow_request.authorize": "Авторизовать",

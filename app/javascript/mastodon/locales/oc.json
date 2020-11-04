@@ -168,13 +168,9 @@
   "empty_column.notifications": "Avètz pas encara de notificacions. Respondètz a qualqu’un per començar una conversacion.",
   "empty_column.public": "I a pas res aquí ! Escrivètz quicòm de public, o seguètz de personas d’autres servidors per garnir lo flux public",
   "error.unexpected_crash.explanation": "A causa d’una avaria dins nòstre còdi o d’un problèma de compatibilitat de navegador, aquesta pagina se pòt pas afichar corrèctament.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Ensajatz d’actualizar la pagina. S’aquò càmbia pas res, podètz provar d’utilizar koyu.space via un navegador diferent o d’una aplicacion nativa estant.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Ensajatz d’actualizar la pagina. S’aquò càmbia pas res, podètz provar d’utilizar koyu.space via un navegador diferent o d’una aplicacion nativa estant.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Copiar las traças al quichapapièrs",
   "errors.unexpected_crash.report_issue": "Senhalar un problèma",
   "follow_request.authorize": "Acceptar",

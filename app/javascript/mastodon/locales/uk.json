@@ -168,17 +168,9 @@
   "empty_column.notifications": "У вас ще немає сповіщень. Переписуйтесь з іншими користувачами, щоб почати розмову.",
   "empty_column.public": "Тут поки нічого немає! Опублікуйте щось, або вручну підпишіться на користувачів інших інстанцій, щоб заповнити стрічку",
   "error.unexpected_crash.explanation": "Ця сторінка не може бути коректно відображена через баґ у нашому коді або через проблему сумісності браузера.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Спробуйте перезавантажити сторінку. Якщо це не допоможе, ви все ще зможете використовувати koyu.space через інший браузер або рідний додаток.",
-=======
-  "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
-  "error.unexpected_crash.next_steps": "Спробуйте перезавантажити сторінку. Якщо це не допоможе, ви все ще зможете використовувати koyu.space через інший браузер або рідний додаток.",
-  "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Скопіювати трасування стека у буфер обміну",
   "errors.unexpected_crash.report_issue": "Повідомити про проблему",
   "follow_request.authorize": "Авторизувати",
-  "follow_request.reject": "Відмовити",
   "follow_requests.unlocked_explanation": "Хоча ваш обліковий запис не заблоковано, працівники {domain} припускають, що, можливо, ви хотіли б переглянути ці запити на підписку.",
   "generic.saved": "Saved",
   "getting_started.developers": "Розробникам",

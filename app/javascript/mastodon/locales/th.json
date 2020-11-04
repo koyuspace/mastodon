@@ -168,17 +168,9 @@
   "empty_column.notifications": "คุณยังไม่มีการแจ้งเตือนใด ๆ โต้ตอบกับผู้อื่นเพื่อเริ่มการสนทนา",
   "empty_column.public": "ไม่มีสิ่งใดที่นี่! เขียนบางอย่างเป็นสาธารณะ หรือติดตามผู้ใช้จากเซิร์ฟเวอร์อื่น ๆ ด้วยตนเองเพื่อเติมให้เต็ม",
   "error.unexpected_crash.explanation": "เนื่องจากข้อบกพร่องในโค้ดของเราหรือปัญหาความเข้ากันได้ของเบราว์เซอร์ จึงไม่สามารถแสดงหน้านี้ได้อย่างถูกต้อง",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "ลองรีเฟรชหน้า หากนั่นไม่ช่วย คุณอาจยังสามารถใช้ koyu.space ผ่านเบราว์เซอร์อื่นหรือแอป",
-=======
-  "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
-  "error.unexpected_crash.next_steps": "ลองรีเฟรชหน้า หากนั่นไม่ช่วย คุณอาจยังสามารถใช้ koyu.space ผ่านเบราว์เซอร์อื่นหรือแอป",
-  "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "คัดลอกการติดตามสแตกไปยังคลิปบอร์ด",
   "errors.unexpected_crash.report_issue": "รายงานปัญหา",
   "follow_request.authorize": "อนุญาต",
-  "follow_request.reject": "ปฏิเสธ",
   "follow_requests.unlocked_explanation": "แม้ว่าไม่มีการล็อคบัญชีของคุณ พนักงานของ {domain} คิดว่าคุณอาจต้องการตรวจทานคำขอติดตามจากบัญชีเหล่านี้ด้วยตนเอง",
   "generic.saved": "บันทึกแล้ว",
   "getting_started.developers": "นักพัฒนา",

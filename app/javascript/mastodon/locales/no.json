@@ -168,13 +168,9 @@
   "empty_column.notifications": "Du har ingen varsler ennå. Kommuniser med andre for å begynne samtalen.",
   "empty_column.public": "Det er ingenting her! Skriv noe offentlig, eller følg brukere manuelt fra andre instanser for å fylle den opp",
   "error.unexpected_crash.explanation": "På grunn av en bug i koden vår eller et nettleserkompatibilitetsproblem, kunne denne siden ikke vises riktig.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Prøv å oppfriske siden. Dersom det ikke hjelper, vil du kanskje fortsatt kunne bruke koyu.space gjennom en annen nettleser eller app.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Prøv å oppfriske siden. Dersom det ikke hjelper, vil du kanskje fortsatt kunne bruke koyu.space gjennom en annen nettleser eller app.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Kopier stacktrace-en til utklippstavlen",
   "errors.unexpected_crash.report_issue": "Rapporter en feil",
   "follow_request.authorize": "Autorisér",

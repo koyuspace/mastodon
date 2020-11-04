@@ -167,15 +167,10 @@
   "empty_column.mutes": "Bạn chưa ẩn người dùng nào.",
   "empty_column.notifications": "Bạn chưa có thông báo nào. Hãy thử theo dõi hoặc nhắn tin cho một ai đó.",
   "empty_column.public": "Trống trơn! Bạn hãy viết gì đó hoặc bắt đầu theo dõi người dùng khác",
-<<<<<<< HEAD
-  "error.unexpected_crash.explanation": "Trang này có thể không hiển thị chính xác do lỗi lập trình koyu.space hoặc vấn đề tương thích trình duyệt.",
-  "error.unexpected_crash.next_steps": "Hãy thử làm mới trang. Nếu vẫn không được, bạn hãy vào koyu.space bằng một ứng dụng di động hoặc trình duyệt khác.",
-=======
   "error.unexpected_crash.explanation": "Trang này có thể không hiển thị chính xác do lỗi lập trình koyu.space hoặc vấn đề tương thích trình duyệt.",
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Hãy thử làm mới trang. Nếu vẫn không được, bạn hãy vào koyu.space bằng một ứng dụng di động hoặc trình duyệt khác.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Sao chép stacktrace vào clipboard",
   "errors.unexpected_crash.report_issue": "Báo cáo lỗi",
   "follow_request.authorize": "Cho phép",

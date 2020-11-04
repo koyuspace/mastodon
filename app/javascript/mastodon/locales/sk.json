@@ -168,13 +168,9 @@
   "empty_column.notifications": "Ešte nemáš žiadne oznámenia. Začni komunikovať s ostatnými, aby diskusia mohla začať.",
   "empty_column.public": "Ešte tu nič nie je. Napíš niečo verejne, alebo začni sledovať užívateľov z iných serverov, aby tu niečo pribudlo",
   "error.unexpected_crash.explanation": "Kvôli chybe v našom kóde, alebo problému s kompatibilitou prehliadača, túto stránku nebolo možné zobraziť správne.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Skús obnoviť stránku. Ak to nepomôže, pravdepodobne budeš stále môcť používať koyu.space cez iný prehliadač, alebo natívnu aplikáciu.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Skús obnoviť stránku. Ak to nepomôže, pravdepodobne budeš stále môcť používať koyu.space cez iný prehliadač, alebo natívnu aplikáciu.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Skopíruj stacktrace do schránky",
   "errors.unexpected_crash.report_issue": "Nahlás problém",
   "follow_request.authorize": "Povoľ prístup",

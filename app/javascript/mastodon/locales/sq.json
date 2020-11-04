@@ -168,13 +168,9 @@
   "empty_column.notifications": "Ende s’keni ndonjë njoftim. Ndërveproni me të tjerët që të nisë biseda.",
   "empty_column.public": "S’ka gjë këtu! Shkruani diçka publikisht, ose ndiqni dorazi përdorues prej instancash të tjera, që ta mbushni këtë zonë",
   "error.unexpected_crash.explanation": "Për shkak të një të mete në kodin tonë ose të një problemi përputhshmërie të shfletuesit, kjo faqe s’mund të shfaqet saktë.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Provoni të freskoni faqen. Nëse kjo s’bën punë, mundeni ende të jeni në gjendje të përdorni koyu.space-in që nga një shfletues tjetër ose nga ndonjë aplikacion origjinal prej projektit.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Provoni të freskoni faqen. Nëse kjo s’bën punë, mundeni ende të jeni në gjendje të përdorni koyu.space-in që nga një shfletues tjetër ose nga ndonjë aplikacion origjinal prej projektit.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Kopjo stacktrace-in në të papastër",
   "errors.unexpected_crash.report_issue": "Raportoni problemin",
   "follow_request.authorize": "Autorizoje",

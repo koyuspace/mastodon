@@ -168,13 +168,9 @@
   "empty_column.notifications": "Non tenes ancora peruna notìfica. Chistiona cun una persone pro cumintzare un'arresonada.",
   "empty_column.public": "Nudda inoghe. Iscrie calicuna cosa pùblica, o sighi àteras persones de àteros serbidores pro prenare custu ispàtziu",
   "error.unexpected_crash.explanation": "A càusa de una faddina in su còdighe nostru o unu problema de cumpatibilidade de su navigadore, custa pàgina diat pòdere no èssere ammustrada in manera curreta.",
-<<<<<<< HEAD
-  "error.unexpected_crash.next_steps": "Proa de atualizare sa pàgina. Si custu non acontza su problema, podes chircare de impreare koyu.space in unu navigadore diferente o in un'aplicatzione nativa.",
-=======
   "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
   "error.unexpected_crash.next_steps": "Proa de atualizare sa pàgina. Si custu non acontza su problema, podes chircare de impreare koyu.space in unu navigadore diferente o in un'aplicatzione nativa.",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> 5a9fc749c3eab8d3c93dd282fa89c20a5cb0e994
   "errors.unexpected_crash.copy_stacktrace": "Còpia stacktrace in punta de billete",
   "errors.unexpected_crash.report_issue": "Signala unu problema",
   "follow_request.authorize": "Autoriza",
