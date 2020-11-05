@@ -40,7 +40,7 @@ $(document).ready(function() {
         $("#explore-text").html("Profilverzeichnis");
         $("#gp-badge").attr("src", "/img/gp_de.png");
         $("#whatis h2").html("Was ist koyu.space?");
-        $("#whatis p").html("koyu.space ist ein quelloffenes soziales Netzwerk. Wie auch bei Twitter und Tumblr, können Benutzer Profile erstellen, Nachrichten, Bilder, Videos schicken und natürlich anderen Benutzern folgen. Nachrichten sind auf 800 Zeichen beschränkt und werden in chronologischer Reihenfolge angezeigt. koyu.space ist – anders als bei anderen Platformen – dezentralisiert. Es gibt mehrere Server und keine einzelne Person oder Firma besitzt koyu.space. Während andere soziale Netzwerke einer einzelnen Firma gehören, die die komplette Macht über alles hat, kann stattdessen jede Person einen eigenen koyu.space-Server starten.");
+        $("#whatis p").html("koyu.space ist ein quelloffenes soziales Netzwerk. Wie auch bei Twitter und Tumblr können Benutzer Profile erstellen, Nachrichten, Bilder und Videos schicken und natürlich anderen Benutzern folgen. Nachrichten sind auf 800 Zeichen beschränkt und werden in chronologischer Reihenfolge angezeigt. koyu.space ist – anders als bei anderen Platformen – dezentralisiert. Es gibt mehrere Server und keine einzelne Person oder Firma, die koyu.space besitzt. Während andere soziale Netzwerke einer einzelnen Firma gehören, die die komplette Macht über alles hat, kann stattdessen jede Person einen eigenen koyu.space-Server starten.");
         $("#youready h2").html("Bist du bereit?")
         $("#youready a").html("Jetzt loslegen");
     }
