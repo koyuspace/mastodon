@@ -10,10 +10,10 @@ $(document).ready(function() {
     //Translations
     if (navigator.language.includes("de")) {
         $("#tagline").html("Wir stellen Internetdienste für dich und deine Freunde bereit");
-        $("#card1").html("koyu.space<br><small>(Mastodon-Instanz)</small>");
+        $("#card1").html("koyu.space<br><small>(Fediverse-Server)</small>");
         $("#card4").html("Minecraft-Server<br><small>(mc.koyu.space)</small>");
         $("#card5").html("Nordcast<br><small>(Podcast-App)</small>");
-        $("#card7").html("koyu.space auf VHS<br><small>(PeerTube-Instanz)</small>");
+        $("#card7").html("koyu.space VHS<br><small>(Video-Server)</small>");
         $("#more").html("Impressum & Nutzungsbedingungen");
         $("#privacy").html("Datenschutzerklärung");
         $("#donate-text").html("Spenden");
@@ -39,6 +39,10 @@ $(document).ready(function() {
         $("#public-text").html("Öffentliche Zeitleiste");
         $("#explore-text").html("Profilverzeichnis");
         $("#gp-badge").attr("src", "/img/gp_de.png");
+        $("#whatis h2").html("Was ist koyu.space?");
+        $("#whatis p").html("koyu.space ist ein quelloffenes soziales Netzwerk. Wie auch bei Twitter und Tumblr, können Benutzer Profile erstellen, Nachrichten, Bilder, Videos schicken, und natürlich andere Benutzer folgen. Nachrichten sind auf 800 Zeichen beschränkt, und werden in chronologischer Reihenfolge angezeigt. koyu.space ist – anders als bei anderen Platformen – dezentralisiert. Es gibt mehrere Server, und keine einzelne Person oder Firma besitzt koyu.space. Während andere soziale Netzwerke einer einzelnen Firma gehören, die komplette Macht über alles hat, kann stattdessen jede Person einen eigenen koyu.space-Server starten.");
+        $("#youready h2").html("Bist du bereit?")
+        $("#youready a").html("Jetzt loslegen");
     }
 
     // Sponsor table
@@ -46,7 +50,7 @@ $(document).ready(function() {
         $.each($("#avatars a"), function(index, element) {
             var upper = this;
             $.get("https://koyu.space/api/v1/accounts/"+$(element).attr("acctid"), function(data) {
-                upper.innerHTML = "<img class=\""+upper.children[0].className+"\" src=\""+data.avatar+"\" alt=\"@"+data.acct+"\">";
+                upper.innerHTML = "<img class=\""+upper.children[0].className+"\" src=\""+data.avatar_static+"\" alt=\"@"+data.acct+"\">";
             });
         });
     });

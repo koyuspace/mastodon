@@ -16,11 +16,10 @@ body {
     color: #fff;
     font-family: 'Didact Gothic', sans-serif !important;
     text-align: center;
-    background-image: url(/img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #223;
+    background-color: #112;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
@@ -53,6 +52,7 @@ body {
 
 .logofont {
     font-family: 'Titan One', cursive !important;
+    margin-right: 20px;
 }
 
 #logo img {
@@ -66,7 +66,6 @@ body {
 }
 
 #sponsors {
-    background: #223;
     max-width: 30%;
     margin: 0 auto;
     border-radius: 10px;
@@ -87,6 +86,10 @@ body {
 
 #avatars a {
     outline: 0;
+}
+
+#avatars img {
+    border: 3px solid #fff;
 }
 
 .admin {
@@ -196,6 +199,23 @@ body {
 
 #cards {
     position: relative;
+    margin-top: 80px !important;
+}
+
+#youready {
+    background: url(/img/sparkles.svg) #112;
+    background-position: top center;
+    background-position-y: 48px;
+    background-repeat: no-repeat;
+    min-height: 220px;
+    padding-top: 120px;
+}
+
+#whatis {
+    background: #223;
+    padding: 60px;
+    padding-bottom: 90px;
+    margin-top: 60px;
 }
 
 .card-content {
@@ -203,8 +223,6 @@ body {
     bottom: 0;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     font-weight: bold;
     font-size: 24pt;
     color: #fff;
@@ -212,7 +230,6 @@ body {
     width: 100%;
     font-weight: bold;
     font-family: sans-serif;
-    line-height: 0.75;
 }
 
 .card-content small {
@@ -236,7 +253,7 @@ body {
     min-width: 300px;
     min-height: 300px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 30px;
     float: left;
     padding: 0;
     margin-left: 30px;
@@ -253,15 +270,9 @@ body {
 }
 
 .content2 {
-    width: 75%;
-    display: block;
-    margin: 0 auto;
     background: #223;
     color: #fff;
-    margin-top: 80px !important;
-    min-height: 80vh;
-    border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     text-align: left;
 }
 
@@ -286,9 +297,7 @@ body {
 
 .footer {
     margin-top: -50px;
-    width: 100%;
     text-align: left;
-    padding: 10px;
     padding-left: 18px;
     background: #223;
     margin: -8px;
@@ -306,6 +315,10 @@ body {
 @media screen and (max-width: 1024px) {
     #sponsors {
         max-width: 80%;
+    }
+
+    .footer {
+        word-break: break-word;
     }
 
     .footer {
@@ -359,10 +372,13 @@ body {
     .content2 iframe {
         width: 100% !important;
     }
+
+    body {
+        background: #223 !important;
+    }
 }
 
 #nav {
-    background-color: #223;
     margin-top: 0;
 }
 
@@ -373,17 +389,26 @@ body {
 @media(min-width: 1024px) {
     #cards {
         width: 80%;
-        padding-left: 10%;
+    }
+
+    #whatis p {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer {
+        width: 100%;
     }
 
     #nav {
         margin: 0;
         padding: 0;
-        position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
         overflow: hidden;
+        margin-left: -25px;
     }
 
     #links > li {
@@ -570,15 +595,10 @@ video {
     }
 
     #nav a.icon {
-        background: #112;
         display: block;
         position: absolute;
         right: 0;
         top: 0;
-    }
-
-    #nav a.logofont:hover {
-        background-color: #223;
     }
 
     #nav li {
@@ -588,4 +608,40 @@ video {
     .desktop {
         display: none !important;
     }
+
+    .footer {
+        width: 90%;
+    }
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    border: 3px solid #fff;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    display: block;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#intro {
+    background: #223;
+    min-height: 100vh;
 }
