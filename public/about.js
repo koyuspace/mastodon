@@ -10,10 +10,10 @@ $(document).ready(function() {
     //Translations
     if (navigator.language.includes("de")) {
         $("#tagline").html("Wir stellen Internetdienste für dich und deine Freunde bereit");
-        $("#card1").html("koyu.space<br><small>(Fediverse-Server)</small>");
-        $("#card4").html("Minecraft<br><small>(mc.koyu.space)</small>");
-        $("#card5").html("Nordcast<br><small>(Podcast-App)</small>");
-        $("#card7").html("koyu.space VHS<br><small>(Video-Server)</small>");
+        $("#card1").html("koyu.space");
+        $("#card4").html("Minecraft");
+        $("#card5").html("Nordcast");
+        $("#card7").html("koyu.space VHS");
         $("#more").html("Impressum & Nutzungsbedingungen");
         $("#privacy").html("Datenschutzerklärung");
         $("#donate-text").html("Spenden");
@@ -50,7 +50,11 @@ $(document).ready(function() {
         $.each($("#avatars a"), function(index, element) {
             var upper = this;
             $.get("https://koyu.space/api/v1/accounts/"+$(element).attr("acctid"), function(data) {
-                upper.innerHTML = "<img class=\""+upper.children[0].className+"\" src=\""+data.avatar_static+"\" alt=\"@"+data.acct+"\">";
+                if (!data.avatar_static.includes("/avatars/original/missing.png")) {
+                    upper.innerHTML = "<img class=\""+upper.children[0].className+"\" src=\""+data.avatar_static+"\" alt=\"@"+data.acct+"\">";
+                } else {
+                    upper.style = "display:none;";
+                }
             });
         });
     });

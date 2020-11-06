@@ -82,14 +82,12 @@ body {
     height: 64px;
     margin: 3px;
     border-radius: 50%;
+    background: #fff;
+    padding: 4px;
 }
 
 #avatars a {
     outline: 0;
-}
-
-#avatars img {
-    border: 3px solid #fff;
 }
 
 .admin {
@@ -199,7 +197,7 @@ body {
 
 #cards {
     position: relative;
-    margin-top: 80px !important;
+    margin-top: 70px !important;
 }
 
 #youready {
@@ -226,7 +224,6 @@ body {
     font-weight: bold;
     font-size: 24pt;
     color: #fff;
-    background: #223;
     width: 100%;
     font-weight: bold;
     font-family: sans-serif;
@@ -236,11 +233,6 @@ body {
     font-size: 10pt;
     padding-top: -30px;
     font-weight: 300;
-}
-
-#cards {
-    display: block;
-    margin: 0 auto;
 }
 
 #cards:after {
@@ -258,6 +250,7 @@ body {
     padding: 0;
     margin-left: 30px;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .content {
@@ -299,6 +292,7 @@ body {
     margin-top: -50px;
     text-align: left;
     padding-left: 18px;
+    padding-right: 18px;
     background: #223;
     margin: -8px;
     position: absolute;
@@ -338,6 +332,7 @@ body {
 
     #cards {
         text-align: center;
+        margin-left: 8px;
     }
 
     #tagline {
@@ -380,6 +375,7 @@ body {
 
 #nav {
     margin-top: 0;
+    background: #223;
 }
 
 #nav li:hover {
@@ -388,7 +384,8 @@ body {
 
 @media(min-width: 1024px) {
     #cards {
-        width: 80%;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     #whatis p {
@@ -405,7 +402,6 @@ body {
         margin: 0;
         padding: 0;
         top: 0;
-        width: 100%;
         z-index: 1;
         overflow: hidden;
         margin-left: -25px;
@@ -611,6 +607,13 @@ video {
 
     .footer {
         width: 90%;
+    }
+
+    #whatis {
+        padding: 20px !important;
+    }
+    #youready {
+        background-position-x: 30px;
     }
 }
 
