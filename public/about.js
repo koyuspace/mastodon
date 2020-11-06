@@ -11,7 +11,7 @@ $(document).ready(function() {
     if (navigator.language.includes("de")) {
         $("#tagline").html("Wir stellen Internetdienste für dich und deine Freunde bereit");
         $("#card1").html("koyu.space<br><small>(Fediverse-Server)</small>");
-        $("#card4").html("Minecraft-Server<br><small>(mc.koyu.space)</small>");
+        $("#card4").html("Minecraft<br><small>(mc.koyu.space)</small>");
         $("#card5").html("Nordcast<br><small>(Podcast-App)</small>");
         $("#card7").html("koyu.space VHS<br><small>(Video-Server)</small>");
         $("#more").html("Impressum & Nutzungsbedingungen");
