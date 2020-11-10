@@ -60,6 +60,23 @@ is:
         title: Endurheimtukóðar tveggja-þátta auðkenningar breyttust
       unlock_instructions:
         subject: 'koyu.space: Leiðbeiningar til að aflæsa'
+      webauthn_credential:
+        added:
+          explanation: Eftirfarandi öryggislykli hefur verið bætt við notandaaðganginn þinn
+          subject: 'koyu.space: Nýr öryggislykill'
+          title: Nýjum öryggislykli hefur verið bætt við
+        deleted:
+          explanation: Eftirfarandi öryggislykli hefur verið eytt úr notandaaðgangnum þínum
+          subject: 'koyu.space: Öryggislykli eytt'
+          title: Einum af öryggilyklunum þínum hefur verið eytt
+      webauthn_disabled:
+        explanation: Auðkenning með öryggislyklum hefur verið gerð óvirk fyrir aðganginn þinn. Innskráning er núna einungis möguleg með teikni útbúnu af paraða TOTP-forritinu.
+        subject: 'koyu.space: Auðkenning með öryggislyklum er óvirk'
+        title: Öryggislyklar eru óvirkir
+      webauthn_enabled:
+        explanation: Auðkenning með öryggislykli hefur verið gerð virk fyrir aðganginn þinn. Nú er hægt að nota öryggislykilinn þinn til að skrá inn.
+        subject: 'koyu.space: Auðkenning með öryggislykli er virk'
+        title: Öryggislyklar eru virkir
     omniauth_callbacks:
       failure: Gat ekki auðkennt þig frá %{kind} vegna "%{reason}".
       success: Tókst að auðkenna frá %{kind} notandaaðgangnum.
