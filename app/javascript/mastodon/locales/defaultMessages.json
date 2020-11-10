@@ -2032,7 +2032,7 @@
       },
       {
         "defaultMessage": "to start a brand new hop",
-        "id": "keyboard_shortcuts.toot"
+        "id": "keyboard_shortcuts.hops"
       },
       {
         "defaultMessage": "to show/hide CW field",
