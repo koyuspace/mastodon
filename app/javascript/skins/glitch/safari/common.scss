@@ -568,7 +568,8 @@ a.status-card.compact:hover {
 	color: var(--darkgrey);
 	cursor: default;
 }
-.fa-bell::before {
+.fa-bell::before,
+.fa-bell-o::before {
 	content: "\f075";
 }
 .fa-home::before {

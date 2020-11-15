@@ -591,7 +591,8 @@ dl {
   background: $background-color !important;
 }
 
-.fa-bell:before {
+.fa-bell:before,
+.fa-bell-o:before {
   content: "\f0e7" !important;
 }
 
