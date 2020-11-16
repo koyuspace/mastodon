@@ -1,11 +1,3 @@
+@import 'variables';
+@import 'overrides';
 @import 'flavours/glitch/styles/index';
-
-$accent-color: #FE53E0;
-$background-color: #223;
-$loading: "https://koyu.space/img/loading.svg";
-$logo: "https://koyu.space/img/pb-icon.svg";
-$input-color: #29293d;
-$scroll-primary: #223;
-$scroll-secondary: #171727;
-
-@import 'flavours/glitch/styles/flat';

@@ -33,18 +33,6 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <a className='column-link column-link--transparent' href='https://discuss.koyu.space' target='_blank'><Icon className='column-link__icon' id='book' fixedWidth /><FormattedMessage id='navigation_bar.discuss' defaultMessage='koyu.space Discuss' /></a>
     <a className='column-link column-link--transparent' href='/about' target='_blank'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
 
-    <hr />
-
-    <p><audio src="https://radio.tildeverse.org/radio/8000/radio.ogg" style={{width: "200px"}} controls></audio></p>
-    <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://tilderadio.org' target='_blank'>TildeRadio</a></p>
-
-    <hr />
-    <p>IRC: irc.koyu.space/6667 (Channel: #koyu)</p>
-
-    <hr />
-
-    <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Discord server is at 8gbd7YR and we host a big chat session at chat.koyu.space every Saturday at 18:00 UTC.'></FormattedMessage></p>
-
     {showTrends && <div className='flex-spacer' />}
     {showTrends && <TrendsContainer />}
   </div>

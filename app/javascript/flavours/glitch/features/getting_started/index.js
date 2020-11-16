@@ -183,12 +183,6 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             <a className='column-link' href='/about' target='_blank'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
             <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
             <a className='column-link' href='https://discuss.koyu.space' target='_blank'><Icon className='column-link__icon' id='book' fixedWidth /><FormattedMessage id='navigation_bar.discuss' defaultMessage='koyu.space Discuss' /></a>
-            <p><audio src="https://radio.tildeverse.org/radio/8000/radio.ogg" style={{width: "200px"}} controls></audio></p>
-            <p><FormattedMessage id='navigation_bar.radiostation' defaultMessage='Current radio station' />: <a id="current-radio" className='column-link--transparent' href='https://tilderadio.org' target='_blank'>TildeRadio</a></p>
-            <br />
-            <p>IRC: irc.koyu.space/6667 (Channel: #koyu)</p>
-            <br />
-            <p><FormattedMessage id='navigation_bar.weekly' defaultMessage='Our Discord server is at 8gbd7YR and we host a big chat session at chat.koyu.space every Saturday at 18:00 UTC.'></FormattedMessage></p>
           </div>
 
           <LinkFooter />
