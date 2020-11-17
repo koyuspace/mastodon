@@ -1,6 +1,6 @@
 .public-account-header{:class => ("inactive" if account.moved?)}
   .public-account-header__image
-    = image_tag (current_account&.user&.setting_auto_play_gif ? account.header_original_url : account.header_static_url), class: 'parallax'
+    = image_tag (current_account&.user&.setting_auto_play_gif ? account.header_original_url : account.header_static_url)
   .public-account-header__bar
     %div.bunny{ style: 'margin-left: 24px; margin-top: -70px;' }
     = link_to short_account_url(account), class: 'avatar', style: 'z-index: 1' do

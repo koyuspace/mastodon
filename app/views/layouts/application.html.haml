@@ -31,6 +31,9 @@
       = csrf_meta_tags
       %meta{ name: 'style-nonce', content: request.content_security_policy_nonce }
 
+      -# Yes, this is tracking, but it's self-hosted so it isn't that horrible
+      <script async defer data-domain="koyu.space" src="https://stats.koyu.space/js/plausible.js"></script>
+
       = stylesheet_link_tag '/inert.css', skip_pipeline: true, media: 'all', id: 'inert-style'
 
       = yield :header_tags

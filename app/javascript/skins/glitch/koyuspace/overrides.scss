@@ -42,7 +42,24 @@
     border: none !important;
 }
 
-.endorsements-widget {
-    background: #223;
+.endorsements-widget,
+.placeholder-widget,
+.public-account-bio {
+    background: #223 !important;
     border-radius: 4px;
+    word-break: break-all;
+}
+
+.public-layout .public-account-header__bar {
+    background: #223;
+    border-radius: 0 0 4px 4px;
+    padding-top: 15px;
+}
+
+.public-layout .footer {
+    background: #223;
+    padding-left: 20px;
+    padding-bottom: 30px !important;
+    margin-top: 30px;
+    border-radius: 20px 20px 0 0;
 }
