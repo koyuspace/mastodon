@@ -45,6 +45,13 @@ $(document).ready(function() {
         $("#youready a").html("Jetzt loslegen");
     }
 
+    //Character limit display
+    window.setTimeout(function() {
+        $.get("https://koyu.space/api/v1/instance", function(data) {
+            $("#char_limit").html(data["max_toot_chars"]);
+        });
+    });
+
     // Sponsor table
     window.setTimeout(function() {
         $.each($("#avatars a"), function(index, element) {
