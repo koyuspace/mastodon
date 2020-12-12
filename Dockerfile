@@ -3,6 +3,8 @@ FROM ubuntu:20.04 as build-dep
 # Use bash for the shell
 SHELL ["bash", "-c"]
 
+RUN echo test
+
 # Install Node v12 (LTS)
 ENV NODE_VER="12.20.0"
 RUN ARCH= && \
