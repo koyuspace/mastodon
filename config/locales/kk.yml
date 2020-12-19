@@ -384,11 +384,11 @@ kk:
     relays:
       add_new: Жаңа арна қосу
       delete: Өшіру
-      description_html: A <strong>fedеration relay</strong> is an intermediary server that exchanges large volumes of public toots between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      description_html: A <strong>fedеration relay</strong> is an intermediary server that exchanges large volumes of public hops between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
       disable: Сөндіру
       disabled: Сөндірілді
       enable: Қосу
-      enable_hint: Once enabled, your server will subscribe to all public toots from this rеlay, and will begin sending this server's public toots to it.
+      enable_hint: Once enabled, your server will subscribe to all public hops from this rеlay, and will begin sending this server's public hops to it.
       enabled: Қосылды
       inbox_url: Арна URL
       pending: Жаңа арна құпталуын күту
@@ -485,7 +485,7 @@ kk:
           open: Бәрі тіркеле алады
         title: Тіркелулер
       show_known_fediverse_at_about_page:
-        desc_html: When toggled, it will show toots from all the known fediverse on preview. Otherwise it will only show жергілікті toots.
+        desc_html: When toggled, it will show hops from all the known fediverse on preview. Otherwise it will only show жергілікті hops.
         title: Show known fediverse on timeline превью
       show_staff_badge:
         desc_html: Show a staff badge on a user бет
@@ -1185,7 +1185,7 @@ kk:
     warning:
       explanation:
         disable: Аккаунтыңыз қатып қалса, сіздің деректеріңіз өзгеріссіз қалады, бірақ ол құлыптан босатылғанша ешқандай әрекетті орындай алмайсыз.
-        silence: While your account is limited, only people who are already following you will see your toots on this server, and you may be excluded from various public listings. However, others may still manually follоw you.
+        silence: While your account is limited, only people who are already following you will see your hops on this server, and you may be excluded from various public listings. However, others may still manually follоw you.
         suspend: Сіздің аккаунтыңыз уақытша тоқтатылды және сіздің барлық файлдарыңыз бен жүктеп салынған медиа файлдарыңыз осы серверлерден және оқырманы болған серверлерден қайтарылмайды.
       get_in_touch: Сіз бұл электронды поштаға %{instance} қызметкерлерімен байланысу үшін жауап бере аласыз.
       review_server_policies: Сервер саясатын қарап шығыңыз

@@ -10,7 +10,7 @@ sv:
         text: Du kan använda inläggssyntax som webbadresser, hashtaggar och omnämnanden
         title: Valfri. Inte synlig för mottagaren
       admin_account_action:
-        include_statuses: Användaren ser de toots som orsakat moderering eller varning
+        include_statuses: Användaren ser de hops som orsakat moderering eller varning
         send_email_notification: Användaren kommer att få en förklaring av vad som hände med sitt konto
         text_html: Extra. Du kan använda toot syntax. Du kan <a href="%{path}">lägga till förvalda varningar</a> för att spara tid
         type_html: Välj vad du vill göra med <strong>%{acct}</strong>
@@ -73,6 +73,7 @@ sv:
         expires_in: Förfaller efter
         fields: Profil-metadata
         header: Bakgrundsbild
+        honeypot: "%{label} (fyll inte i)"
         locale: Språk
         locked: Lås konto
         max_uses: Högst antal  användningar

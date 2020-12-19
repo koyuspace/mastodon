@@ -10,7 +10,7 @@ pt-PT:
         text: Tu podes usar sintaxe de escrita, como URLs, hashtags e referências
         title: Opcional. Não visível para o destinatário
       admin_account_action:
-        include_statuses: O utilizador verá quais toots causaram a ação de moderação ou aviso
+        include_statuses: O utilizador verá quais hops causaram a ação de moderação ou aviso
         send_email_notification: O utilizador receberá uma explicação sobre o que aconteceu com a sua conta
         text_html: Opcional. Tu podes usar sintaxe de escrita. Tu podes <a href="%{path}"> adicionar predefinições de aviso</a> para poupar tempo
         type_html: Escolhe o que fazer com <strong>%{acct}</strong>
@@ -93,7 +93,7 @@ pt-PT:
         text: Texto pré-definido
         title: Título
       admin_account_action:
-        include_statuses: Incluir no e-mail os toots reportados
+        include_statuses: Incluir no e-mail os hops reportados
         send_email_notification: Notificar o utilizador por e-mail
         text: Aviso personalizado
         type: Acção
@@ -126,6 +126,7 @@ pt-PT:
         expires_in: Expira em
         fields: Meta-dados de perfil
         header: Cabeçalho
+        honeypot: "%{label} (não preencher)"
         inbox_url: URL da caixa de entrada do repetidor
         irreversible: Expandir em vez de esconder
         locale: Idioma
@@ -140,7 +141,7 @@ pt-PT:
         setting_aggregate_reblogs: Agrupar partilhas em cronologias
         setting_auto_play_gif: Reproduzir GIFs automaticamente
         setting_boost_modal: Solicitar confirmação antes de partilhar uma publicação
-        setting_crop_images: Cortar imagens em toots não expandidos para o formato 16x9
+        setting_crop_images: Cortar imagens em hops não expandidos para o formato 16x9
         setting_default_language: Língua de publicação
         setting_default_privacy: Privacidade da publicação
         setting_default_sensitive: Sempre marcar media como sensível
@@ -200,7 +201,7 @@ pt-PT:
         listable: Permitir que esta hashtag apareça em pesquisas e no diretório de perfis
         name: Hashtag
         trendable: Permitir que esta hashtag apareça em destaque
-        usable: Permitir que toots utilizem esta hashtag
+        usable: Permitir que hops utilizem esta hashtag
     'no': Não
     recommended: Recomendado
     required:

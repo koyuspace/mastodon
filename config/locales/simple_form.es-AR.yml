@@ -7,12 +7,12 @@ es-AR:
       account_migration:
         acct: Especificá el nombredeusuario@dominio de la cuenta a la que querés mudarte
       account_warning_preset:
-        text: Podés usar sintaxis de toots, como direcciones web, etiquetas y menciones
+        text: Podés usar sintaxis de hops, como direcciones web, etiquetas y menciones
         title: Opcional. No visible para el destinatario
       admin_account_action:
-        include_statuses: El usuario verá qué toots causaron la acción de moderación o advertencia
+        include_statuses: El usuario verá qué hops causaron la acción de moderación o advertencia
         send_email_notification: El usuario recibirá una explicación de lo que sucedió con su cuenta
-        text_html: Opcional. Podés usar sintaxis de toots. Podés <a href="%{path}">agregar preajustes de advertencia</a> para ahorrar tiempo
+        text_html: Opcional. Podés usar sintaxis de hops. Podés <a href="%{path}">agregar preajustes de advertencia</a> para ahorrar tiempo
         type_html: Elegí qué hacer con <strong>%{acct}</strong>
         warning_preset_id: Opcional. Todavía podés agregar texto personalizado al final del preajuste
       announcement:
@@ -20,7 +20,7 @@ es-AR:
         ends_at: Opcional. El anuncio desaparecerá automáticamente en este momento
         scheduled_at: Dejar en blanco para publicar el anuncio inmediatamente
         starts_at: Opcional. En caso de que tu anuncio esté vinculado a un rango de tiempo específico
-        text: Podés usar sintaxis de toots. Por favor, tené en cuenta el espacio que ocupará el anuncio en la pantalla del usuario
+        text: Podés usar sintaxis de hops. Por favor, tené en cuenta el espacio que ocupará el anuncio en la pantalla del usuario
       defaults:
         autofollow: Los usuarios que se registren mediante la invitación te seguirán automáticamente
         avatar: 'PNG, GIF o JPG. Máximo: %{size}. Será subescalado a %{dimensions} píxeles'
@@ -34,20 +34,20 @@ es-AR:
         fields: Podés tener hasta 4 elementos mostrados en una tabla en tu perfil
         header: 'PNG, GIF o JPG. Máximo: %{size}. Será subescalado a %{dimensions} píxeles'
         inbox_url: Copiá la dirección web desde la página principal del relé que querés usar
-        irreversible: Los toots filtrados desaparecerán irreversiblemente, incluso si este filtro es eliminado después
+        irreversible: Los hops filtrados desaparecerán irreversiblemente, incluso si este filtro es eliminado después
         locale: El idioma de la interface de usuario, correos electrónicos y notificaciones push
         locked: Requiere que manualmente aprobés seguidores
         password: Usá al menos 8 caracteres
         phrase: Se aplicará sin importar las mayúsculas o las advertencias de contenido de un toot
         scopes: Qué APIs de la aplicación tendrán acceso. Si seleccionás el alcance de nivel más alto, no necesitás seleccionar las individuales.
-        setting_aggregate_reblogs: No mostrar nuevos retoots de los toots que fueron recientemente retooteados (sólo afecta a los retoots recibidos recientemente)
+        setting_aggregate_reblogs: No mostrar nuevos retoots de los hops que fueron recientemente retooteados (sólo afecta a los retoots recibidos recientemente)
         setting_default_sensitive: El contenido de medios sensibles está oculto predeterminadamente y puede ser mostrado con un clic
         setting_display_media_default: Ocultar medios marcados como sensibles
         setting_display_media_hide_all: Siempre ocultar todos los medios
         setting_display_media_show_all: Siempre mostrar todos los medios
         setting_hide_network: A quiénes seguís y tus seguidores no serán mostrados en tu perfil
         setting_noindex: Afecta a tu perfil público y páginas de estado
-        setting_show_application: La aplicación que usás para tootear se mostrará en la vista detallada de tus toots
+        setting_show_application: La aplicación que usás para tootear se mostrará en la vista detallada de tus hops
         setting_use_blurhash: Los gradientes se basan en los colores de las imágenes ocultas pero haciendo borrosos los detalles
         setting_use_pending_items: Ocultar actualizaciones de la línea temporal detrás de un clic en lugar de desplazar automáticamente el flujo
         username: Tu nombre de usuario será único en %{domain}
@@ -79,7 +79,7 @@ es-AR:
       tag:
         name: Sólo podés cambiar la capitalización de las letras, por ejemplo, para que sea más legible
       user:
-        chosen_languages: Cuando esté marcado, sólo se mostrarán los toots en los idiomas seleccionados en las líneas temporales públicas
+        chosen_languages: Cuando esté marcado, sólo se mostrarán los hops en los idiomas seleccionados en las líneas temporales públicas
     labels:
       account:
         fields:
@@ -93,7 +93,7 @@ es-AR:
         text: Texto predefinido
         title: Título
       admin_account_action:
-        include_statuses: Incluir en el correo electrónico a los toots denunciados
+        include_statuses: Incluir en el correo electrónico a los hops denunciados
         send_email_notification: Notificar al usuario por correo electrónico
         text: Advertencia personalizada
         type: Acción
@@ -126,6 +126,7 @@ es-AR:
         expires_in: Vence después de
         fields: Metadatos de perfil
         header: Cabecera
+        honeypot: "%{label} (no rellenar)"
         inbox_url: Dirección web de la bandeja de entrada del relé
         irreversible: Dejar en lugar de ocultar
         locale: Idioma de la interface
@@ -140,9 +141,9 @@ es-AR:
         setting_aggregate_reblogs: Agrupar retoots en las líneas temporales
         setting_auto_play_gif: Reproducir automáticamente los GIFs animados
         setting_boost_modal: Mostrar diálogo de confirmación antes de retootear
-        setting_crop_images: Recortar imágenes en toots no expandidos a 16x9
-        setting_default_language: Idioma de tus toots
-        setting_default_privacy: Privacidad de toots
+        setting_crop_images: Recortar imágenes en hops no expandidos a 16x9
+        setting_default_language: Idioma de tus hops
+        setting_default_privacy: Privacidad de hops
         setting_default_sensitive: Siempre marcar medios como sensibles
         setting_delete_modal: Mostrar diálogo de confirmación antes de eliminar un toot
         setting_disable_swiping: Deshabilitar movimientos de deslizamiento
@@ -150,7 +151,7 @@ es-AR:
         setting_display_media_default: Predeterminada
         setting_display_media_hide_all: Ocultar todo
         setting_display_media_show_all: Mostrar todo
-        setting_expand_spoilers: Siempre expandir los toots marcados con advertencias de contenido
+        setting_expand_spoilers: Siempre expandir los hops marcados con advertencias de contenido
         setting_hide_network: Ocultar tu red
         setting_noindex: Excluirse del indexado de motores de búsqueda
         setting_reduce_motion: Reducir el movimiento de las animaciones
@@ -200,7 +201,7 @@ es-AR:
         listable: Permitir que esta etiqueta aparezca en las búsquedas y en el directorio de perfiles
         name: Etiqueta
         trendable: Permitir que esta etiqueta aparezca bajo tendencias
-        usable: Permitir a los toots usar esta etiqueta
+        usable: Permitir a los hops usar esta etiqueta
     'no': 'No'
     recommended: Opción recomendada
     required:

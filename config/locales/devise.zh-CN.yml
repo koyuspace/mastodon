@@ -59,7 +59,7 @@ zh-CN:
         subject: koyu.space：重新生成双重认证的恢复码
         title: 双重验证的恢复码已更改
       unlock_instructions:
-        subject: Mastodon：帐户解锁信息
+        subject: koyu.space：帐户解锁信息
       webauthn_credential:
         added:
           explanation: 以下安全密钥已添加到您的帐户

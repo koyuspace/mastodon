@@ -775,13 +775,13 @@ en_GB:
   remote_interaction:
     favourite:
       proceed: Proceed to favourite
-      prompt: 'You want to favourite this toot:'
+      prompt: 'You want to favourite this hop:'
     reblog:
       proceed: Proceed to boost
-      prompt: 'You want to boost this toot:'
+      prompt: 'You want to boost this hop:'
     reply:
       proceed: Proceed to reply
-      prompt: 'You want to reply to this toot:'
+      prompt: 'You want to reply to this hop:'
   remote_unfollow:
     error: Error
     title: Title
@@ -865,8 +865,8 @@ en_GB:
     over_character_limit: character limit of %{max} exceeded
     pin_errors:
       limit: You have already pinned the maximum number of hops
-      ownership: Someone else's toot cannot be pinned
-      private: Non-public toot cannot be pinned
+      ownership: Someone else's hop cannot be pinned
+      private: Non-public hop cannot be pinned
       reblog: A boost cannot be pinned
     poll:
       total_votes:
@@ -884,7 +884,7 @@ en_GB:
       unlisted: Unlisted
       unlisted_long: Everyone can see, but not listed on public timelines
   stream_entries:
-    pinned: Pinned toot
+    pinned: Pinned hop
     reblogged: boosted
     sensitive_content: Sensitive content
   terms:

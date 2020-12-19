@@ -1,7 +1,7 @@
 ---
 es-AR:
   about:
-    about_hashtag_html: Estos son toots públicos etiquetados con <strong>#%{hashtag}</strong>. Si tenés una cuenta en cualquier parte del fediverso, podés interactuar con ellos.
+    about_hashtag_html: Estos son hops públicos etiquetados con <strong>#%{hashtag}</strong>. Si tenés una cuenta en cualquier parte del fediverso, podés interactuar con ellos.
     about_mastodon_html: 'La red social del futuro: ¡sin publicidad, sin vigilancia corporativa, con diseño ético y descentralización! ¡Con koyu.space vos sos el dueño de tus datos!'
     about_this: Acerca de koyu.space
     active_count_after: activo
@@ -11,8 +11,8 @@ es-AR:
     apps: Aplicaciones móviles
     apps_platforms: Usá koyu.space desde iOS, Android y otras plataformas
     browse_directory: Explorá el directorio de perfiles y filtrá por intereses
-    browse_local_posts: Explorá un flujo en tiempo real de toots públicos en este servidor
-    browse_public_posts: Explorá un flujo en tiempo real de toots públicos en koyu.space
+    browse_local_posts: Explorá un flujo en tiempo real de hops públicos en este servidor
+    browse_public_posts: Explorá un flujo en tiempo real de hops públicos en koyu.space
     contact: Contacto
     contact_missing: No establecido
     contact_unavailable: No disponible
@@ -30,8 +30,8 @@ es-AR:
     server_stats: 'Estadísticas del servidor:'
     source_code: Código fuente
     status_count_after:
-      one: toot
-      other: toots
+      one: hop
+      other: hops
     status_count_before: Que enviaron
     tagline: Seguí a tus amigos y descubrí nueva gente
     terms: Términos del servicio
@@ -41,7 +41,7 @@ es-AR:
       reason: Razón
       rejecting_media: 'Los archivos de medios de este servidor no van a ser procesados y no se mostrarán miniaturas, lo que requiere un clic manual hacia el archivo original:'
       rejecting_media_title: Medios filtrados
-      silenced: 'Los toots de estos servidores se ocultarán en las líneas temporales y conversaciones públicas, y no se generarán notificaciones de las interacciones de sus usuarios, a menos que los estés siguiendo:'
+      silenced: 'Los hops de estos servidores se ocultarán en las líneas temporales y conversaciones públicas, y no se generarán notificaciones de las interacciones de sus usuarios, a menos que los estés siguiendo:'
       silenced_title: Servidores silenciados
       suspended: 'No se procesarán, almacenarán o intercambiarán datos de estos servidores, haciendo imposible cualquier interacción o comunicación con los usuarios de estos servidores:'
       suspended_title: Servidores suspendidos
@@ -60,6 +60,7 @@ es-AR:
       one: Seguidor
       other: Seguidores
     following: Siguiendo
+    instance_actor_flash: Esta cuenta es un actor virtual usado para representar al servidor en sí mismo y no a ningún usuario individual. Se usa para propósitos de la federación y no debe ser suspendido.
     joined: En este servidor desde %{date}
     last_active: última actividad
     link_verified_on: La propiedad de este enlace fue verificada el %{date}
@@ -131,6 +132,7 @@ es-AR:
       follows: Seguidores
       header: Cabecera
       inbox_url: Dirección web de la bandeja de entrada
+      invite_request_text: Motivos para unirte
       invited_by: Invitado por
       ip: Dirección IP
       joined: Se unió en
@@ -234,7 +236,7 @@ es-AR:
         destroy_domain_block: Eliminar bloqueo de dominio
         destroy_email_domain_block: Eliminar bloqueo de dominio de correo electrónico
         destroy_ip_block: Eliminar regla de dirección IP
-        destroy_status: Eliminar toot
+        destroy_status: Eliminar hop
         disable_2fa_user: Deshabilitar 2FA
         disable_custom_emoji: Deshabilitar emoji personalizado
         disable_user: Deshabilitar usuario
@@ -255,7 +257,8 @@ es-AR:
         unsuspend_account: Dejar de suspender cuenta
         update_announcement: Actualizar anuncio
         update_custom_emoji: Actualizar emoji personalizado
-        update_status: Actualizar toot
+        update_domain_block: Actualizar bloque de dominio
+        update_status: Actualizar hop
       actions:
         assigned_to_self_report: "%{name} se asignó la denuncia %{target} a sí"
         change_email_user: "%{name} cambió la dirección de correo electrónico del usuario %{target}"
@@ -274,7 +277,7 @@ es-AR:
         destroy_domain_block: "%{name} desbloqueó el dominio %{target}"
         destroy_email_domain_block: "%{name} desbloqueó el dominio de correo electrónico %{target}"
         destroy_ip_block: "%{name} eliminó la regla para la dirección IP %{target}"
-        destroy_status: "%{name} eliminó el toot de %{target}"
+        destroy_status: "%{name} eliminó el hop de %{target}"
         disable_2fa_user: "%{name} deshabilitó el requerimiento de dos factores para el usuario %{target}"
         disable_custom_emoji: "%{name} deshabilitó el emoji %{target}"
         disable_user: "%{name} deshabilitó el inicio de sesión para el usuario %{target}"
@@ -295,8 +298,9 @@ es-AR:
         unsuspend_account: "%{name} quitó la suspensión de la cuenta de %{target}"
         update_announcement: "%{name} actualizó el anuncio %{target}"
         update_custom_emoji: "%{name} actualizó el emoji %{target}"
-        update_status: "%{name} actualizó el toot de %{target}"
-      deleted_status: "[toot eliminado]"
+        update_domain_block: "%{name} actualizó el bloqueo de dominio para %{target}"
+        update_status: "%{name} actualizó el hop de %{target}"
+      deleted_status: "[hop eliminado]"
       empty: No se encontraron registros.
       filter_by_action: Filtrar por acción
       filter_by_user: Filtrar por usuario
@@ -391,13 +395,15 @@ es-AR:
       existing_domain_block_html: Ya le aplicaste límites más estrictos a %{name}, por lo que primero necesitás <a href="%{unblock_url}">desbloquearlo</a>.
       new:
         create: Crear bloqueo
-        hint: El bloqueo de dominio no va a prevenir la creación de toots de cuenta en la base de datos, pero se aplicarán métodos específicos de moderación en esas cuentas, retroactiva y automáticamente.
+        hint: El bloqueo de dominio no va a prevenir la creación de hops de cuenta en la base de datos, pero se aplicarán métodos específicos de moderación en esas cuentas, retroactiva y automáticamente.
         severity:
-          desc_html: "<strong>Silenciar</strong> hará que los toots de la cuenta sean invisibles a quienes no estén siguiendo esa cuenta. <strong>Suspender</strong> quitará todo el contenido, archivos de medio y datos de perfil de la cuenta. Usá <strong>Ninguno</strong> si simplemente querés rechazar archivos de medios."
+          desc_html: "<strong>Silenciar</strong> hará que los hops de la cuenta sean invisibles a quienes no estén siguiendo esa cuenta. <strong>Suspender</strong> quitará todo el contenido, archivos de medio y datos de perfil de la cuenta. Usá <strong>Ninguno</strong> si simplemente querés rechazar archivos de medios."
           noop: Ninguno
           silence: Silenciar
           suspend: Suspender
         title: Nuevo bloqueo de dominio
+      obfuscate: Obfuscar nombre de dominio
+      obfuscate_hint: Obfusca parcialmente el nombre de dominio en la lista si el anuncio de la lista de limitaciones de dominio está habilitado
       private_comment: Comentario privado
       private_comment_hint: Comentario sobre la limitación de este dominio, para uso interno de los moderadores.
       public_comment: Comentario público
@@ -437,6 +443,7 @@ es-AR:
     instances:
       by_domain: Dominio
       delivery_available: La entrega está disponible
+      empty: No se encontraron dominios.
       known_accounts:
         one: "%{count} cuenta conocida"
         other: "%{count} cuentas conocidas"
@@ -482,11 +489,11 @@ es-AR:
     relays:
       add_new: Agregar nuevo relé
       delete: Eliminar
-      description_html: Un <strong>relé de federación</strong> es un servidor intermedio que intercambia grandes volúmenes de toots públicos entre servidores que se suscriben y publican en él. <strong>Puede ayudar a servidores chicos y medianos a descubrir contenido del fediverso</strong>, que de otra manera requeriría que los usuarios locales siguiesen manualmente a cuentas de servidores remotos.
+      description_html: Un <strong>relé de federación</strong> es un servidor intermedio que intercambia grandes volúmenes de hops públicos entre servidores que se suscriben y publican en él. <strong>Puede ayudar a servidores chicos y medianos a descubrir contenido del fediverso</strong>, que de otra manera requeriría que los usuarios locales siguiesen manualmente a cuentas de servidores remotos.
       disable: Deshabilitar
       disabled: Deshabilitado
       enable: Habilitar
-      enable_hint: Una vez habilitado, tu servidor se suscribirá a todos los toots públicos desde este relé, y comenzará a enviar los toots públicos de este servidor al relé.
+      enable_hint: Una vez habilitado, tu servidor se suscribirá a todos los hops públicos desde este relé, y comenzará a enviar los hops públicos de este servidor al relé.
       enabled: Habilitado
       inbox_url: Dirección web del relé
       pending: Esperando aprobación del relé
@@ -514,6 +521,8 @@ es-AR:
       comment:
         none: Ninguno
       created_at: Denunciado
+      forwarded: Reenviado
+      forwarded_to: Reenviado a %{domain}
       mark_as_resolved: Marcar como resuelta
       mark_as_unresolved: Marcar como no resuelta
       notes:
@@ -535,7 +544,7 @@ es-AR:
       updated_at: Actualizada
     settings:
       activity_api_enabled:
-        desc_html: Conteos de toots publicados localmente, usuarios activos y nuevos registros en tandas semanales
+        desc_html: Conteos de hops publicados localmente, usuarios activos y nuevos registros en tandas semanales
         title: Publicar estadísticas agregadas sobre la actividad del usuario
       bootstrap_timeline_accounts:
         desc_html: Separar múltiples nombres de usuario con coma. Sólo funcionarán las cuentas locales y desbloqueadas. Predeterminadamente, cuando está vacío todos los administradores locales.
@@ -583,6 +592,9 @@ es-AR:
         min_invite_role:
           disabled: Nadie
           title: Permitir invitaciones de
+        require_invite_text:
+          desc_html: Cuando los registros requieran aprobación manual, hacé que la solicitud de invitación "¿Por qué querés unirte?" sea obligatoria, en vez de opcional
+          title: Requerir que los nuevos usuarios llenen un texto de solicitud de invitación
       registrations_mode:
         modes:
           approved: Se requiere aprobación para registrarse
@@ -638,7 +650,7 @@ es-AR:
       media:
         title: Medios
       no_media: Sin medios
-      no_status_selected: No se cambió ningún toot ya que ninguno fue seleccionado
+      no_status_selected: No se cambió ningún hop ya que ninguno fue seleccionado
       title: Hops de la cuenta
       with_media: Con medios
     tags:
@@ -656,7 +668,7 @@ es-AR:
       reviewed: Revisado
       title: Etiquetas
       trending_right_now: En tendencia ahora mismo
-      unique_uses_today: "%{count} toots hoy"
+      unique_uses_today: "%{count} hops hoy"
       unreviewed: No revisado
       updated_msg: La configuración de letiqueta se actualizó exitosamente
     title: Administración
@@ -694,7 +706,7 @@ es-AR:
       guide_link: https://es.crowdin.com/project/mastodon
       guide_link_text: Todos pueden contribuir.
     sensitive_content: Contenido sensible
-    toot_layout: Diseño del toot
+    toot_layout: Diseño del hop
   application_mailer:
     notification_preferences: Cambiar configuración de correo electrónico
     salutation: "%{name}:"
@@ -720,7 +732,7 @@ es-AR:
     description:
       prefix_invited_by_user: "¡@%{name} te invita para que te unás a este servidor de koyu.space!"
       prefix_sign_up: "¡Unite a koyu.space hoy!"
-      suffix: Con una cuenta vas a poder seguir gente, escribir toots e intercambiar mensajes ¡con usuarios de cualquier servidor de koyu.space y más!
+      suffix: Con una cuenta vas a poder seguir gente, escribir hops e intercambiar mensajes ¡con usuarios de cualquier servidor de koyu.space y más!
     didnt_get_confirmation: "¿No recibiste el correo electrónico de confirmación?"
     dont_have_your_security_key: "¿No tenés tu llave de seguridad?"
     forgot_password: "¿Te olvidaste la contraseña?"
@@ -751,6 +763,7 @@ es-AR:
       functional: Tu cuenta está totalmente operativa.
       pending: Tu solicitud está pendiente de revisión por nuestra administración. Eso puede tardar algún tiempo. Si se aprueba tu solicitud, vas a recibir un correo electrónico.
       redirecting_to: Tu cuenta se encuentra inactiva porque está siendo redirigida a %{acct}.
+    too_fast: Formulario enviado demasiado rápido, probá de nuevo.
     trouble_logging_in: "¿Tenés problemas para iniciar sesión?"
     use_security_key: Usar la llave de seguridad
   authorize_follow:
@@ -801,7 +814,7 @@ es-AR:
     warning:
       before: 'Antes de proceder, por favor, leé estas notas cuidadosamente:'
       caches: El contenido que fue almacenado en caché por otros servidores puede persistir
-      data_removal: Tus toots y el resto de los datos se eliminarán definitivamente
+      data_removal: Tus hops y el resto de los datos se eliminarán definitivamente
       email_change_html: Podés <a href="%{path}">cambiar tu dirección de correo electrónico</a> sin eliminar tu cuenta
       email_contact_html: Si todavía no llegó, podés escribir a <a href="mailto:%{email}">%{email}</a> para pedir ayuda
       email_reconfirmation_html: Si no te llegó el correo de confirmación, podés <a href="%{path}">solicitarlo de nuevo</a>
@@ -837,7 +850,7 @@ es-AR:
     archive_takeout:
       date: Fecha
       download: Descargá tu archivo historial
-      hint_html: Podés solicitar un archivo historial de tus <strong>toots y medios subidos</strong>. Los datos exportados estarán en formato "ActivityPub", legibles por cualquier software compatible. Podés solicitar un archivo historial cada 7 días.
+      hint_html: Podés solicitar un archivo historial de tus <strong>hops y medios subidos</strong>. Los datos exportados estarán en formato "ActivityPub", legibles por cualquier software compatible. Podés solicitar un archivo historial cada 7 días.
       in_progress: Compilando tu archivo historial...
       request: Solicitá tu archivo historial
       size: Tamaño
@@ -852,7 +865,7 @@ es-AR:
     add_new: Agregar nueva
     errors:
       limit: Alcanzaste el máximo de etiquetas destacadas
-    hint_html: "<strong>¿Qué son las etiquetas destacadas?</strong> Se muestran de forma prominente en tu perfil público y permiten a los usuarios navegar por tus toots públicos específicamente bajo esas etiquetas. Son una gran herramienta para hacer un seguimiento de trabajos creativos o proyectos a largo plazo."
+    hint_html: "<strong>¿Qué son las etiquetas destacadas?</strong> Se muestran de forma prominente en tu perfil público y permiten a los usuarios navegar por tus hops públicos específicamente bajo esas etiquetas. Son una gran herramienta para hacer un seguimiento de trabajos creativos o proyectos a largo plazo."
   filters:
     contexts:
       account: Perfiles
@@ -910,6 +923,8 @@ es-AR:
     status: Estado de verificación
     view_proof: Ver prueba
   imports:
+    errors:
+      over_rows_processing_limit: contiene más de %{count} filas
     modes:
       merge: Combinar
       merge_long: Mantener registros existentes y agregar nuevos
@@ -952,7 +967,7 @@ es-AR:
       limit: Alcanzaste el máximo de listas
   media_attachments:
     validations:
-      images_and_video: No se puede adjuntar un video a un toot que ya contenga imágenes
+      images_and_video: No se puede adjuntar un video a un hop que ya contenga imágenes
       not_ready: No se pueden adjuntar archivos que no se han terminado de procesar. ¡Intentá de nuevo en un rato!
       too_many: No se pueden adjuntar más de 4 archivos
   migrations:
@@ -1005,8 +1020,8 @@ es-AR:
         other: "%{count} nuevas notificaciones desde tu última visita \U0001F418"
       title: En tu ausencia...
     favourite:
-      body: 'Tu toot fue marcado como favorito por %{name}:'
-      subject: "%{name} marcó tu toot como favorito"
+      body: 'Tu hop fue marcado como favorito por %{name}:'
+      subject: "%{name} marcó tu hop como favorito"
       title: Nuevo favorito
     follow:
       body: "¡%{name} te está siguiendo!"
@@ -1023,8 +1038,8 @@ es-AR:
       subject: Fuiste mencionado por %{name}
       title: Nueva mención
     reblog:
-      body: "%{name} retooteó tu toot:"
-      subject: "%{name} retooteó tu toot"
+      body: "%{name} retooteó tu hop:"
+      subject: "%{name} retooteó tu hop"
       title: Nuevo retoot
   notifications:
     email_events: Eventos para notificaciones por correo electrónico
@@ -1100,16 +1115,16 @@ es-AR:
   remote_interaction:
     favourite:
       proceed: Proceder para marcar como favorito
-      prompt: 'Vas a marcar este toot como favorito:'
+      prompt: 'Vas a marcar este hop como favorito:'
     reblog:
       proceed: Proceder para retootear
-      prompt: 'Vas a retootear este toot:'
+      prompt: 'Vas a retootear este hop:'
     reply:
       proceed: Proceder para responder
-      prompt: 'Vas a responder a este toot:'
+      prompt: 'Vas a responder a este hop:'
   scheduled_statuses:
-    over_daily_limit: Superaste el límite de %{limit} toots programados para ese día
-    over_total_limit: Superaste el límite de %{limit} toots programados
+    over_daily_limit: Superaste el límite de %{limit} hops programados para ese día
+    over_total_limit: Superaste el límite de %{limit} hops programados
     too_soon: La fecha programada debe estar en el futuro
   sessions:
     activity: Última actividad
@@ -1199,9 +1214,9 @@ es-AR:
     open_in_web: Abrir en web
     over_character_limit: se excedió el límite de %{max} caracteres
     pin_errors:
-      limit: Ya fijaste el número máximo de toots
+      limit: Ya fijaste el número máximo de hops
       ownership: No se puede fijar el toot de otra persona
-      private: Los toots no públicos no se pueden fijar
+      private: Los hops no públicos no se pueden fijar
       reblog: No se puede fijar un retoot
     poll:
       total_people:
@@ -1237,8 +1252,8 @@ es-AR:
 
       <ul>
       <li><em>Información básica de la cuenta</em>: Si te registrás en este servidor, se te va a pedir un nombre de usuario, una dirección de correo electrónico y una contraseña. También podés ingresar información adicional de perfil como un nombre para mostrar y una biografía, y subir un avatar y una imagen de cabecera. El nombre de usuario, nombre para mostrar, biografía, avatar e imagen de cabecera siempre son visibles públicamente.</li>
-      <li><em>Hops, seguimiento y otra información pública</em>: La lista de gente a la que seguís es mostrada públicamente, al igual que la de tus seguidores. Cuando enviás un mensaje, se almacenan la fecha y hora, así como la aplicación desde la cual enviaste el mensaje. Los mensajes pueden contener archivos adjuntos de medios, como imágenes y videos. Los toots públicos y no listados están técnicamente disponibles para todos. Cuando destacás un toot en tu perfil, eso también se considera información disponible públicamente. Tus toots son entregados a tus seguidores; en algunos casos significa que son entregados a diferentes servidores y las copias son almacenadas allí. Cuando eliminás toots, esto también afecta a tus seguidores. La acción de retootear o marcar como favorito otro toot es siempre pública.</li>
-      <li><em>Hops directos y sólo para seguidores</em>: Todos los toots se almacenan y procesan en el servidor. Los toots sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos toots sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en koyu.space.</em></li>
+      <li><em>Hops, seguimiento y otra información pública</em>: La lista de gente a la que seguís es mostrada públicamente, al igual que la de tus seguidores. Cuando enviás un mensaje, se almacenan la fecha y hora, así como la aplicación desde la cual enviaste el mensaje. Los mensajes pueden contener archivos adjuntos de medios, como imágenes y videos. Los hops públicos y no listados están técnicamente disponibles para todos. Cuando destacás un toot en tu perfil, eso también se considera información disponible públicamente. Tus hops son entregados a tus seguidores; en algunos casos significa que son entregados a diferentes servidores y las copias son almacenadas allí. Cuando eliminás hops, esto también afecta a tus seguidores. La acción de retootear o marcar como favorito otro toot es siempre pública.</li>
+      <li><em>Hops directos y sólo para seguidores</em>: Todos los hops se almacenan y procesan en el servidor. Los hops sólo para seguidores se entregan a los seguidores y usuarios que se mencionan en ellos, y los mensajes directos se entregan sólo a los usuarios que se mencionan en ellos. En algunos casos significa que se entregan a diferentes servidores y que las copias se almacenan allí. Hacemos un esfuerzo de buena fe para limitar el acceso a esos hops sólo a las personas autorizadas, pero otros servidores pueden no hacerlo. Por lo tanto, es importante revisar los servidores a los que pertenecen tus seguidores. Podés cambiar una opción para aprobar y rechazar nuevos seguidores manualmente en la configuración. <em>Por favor, tené en cuenta que los operadores del servidor y de cualquier servidor receptor pueden ver dichos mensajes</em>, y que los destinatarios pueden tomar capturas de pantalla, copiarlos o volver a compartirlos de alguna otra manera. <em>No compartas ninguna información peligrosa en koyu.space.</em></li>
       <li><em>Direcciones IP y otros metadatos</em>: Cuando iniciás sesión, registramos la dirección IP desde dónde lo estás haciendo, así como el nombre de tu navegador web. Todos los inicios de sesiones están disponibles para tu revisión y revocación en la configuración. La última dirección IP usada se almacena hasta por 12 meses. También podemos conservar los registros del servidor que incluyen la dirección IP de cada solicitud a nuestro servidor.</li>
       </ul>
 
@@ -1271,7 +1286,7 @@ es-AR:
       <li>Conservar las direcciones IP asociadas a los usuarios registrados, por no más de 12 meses.</li>
       </ul>
 
-      <p>Podés solicitar y descargar un archivo historial de tu contenido, incluyendo tus toots, archivos adjuntos de medios, avatar e imagen de cabecera.</p>
+      <p>Podés solicitar y descargar un archivo historial de tu contenido, incluyendo tus hops, archivos adjuntos de medios, avatar e imagen de cabecera.</p>
 
       <p>Podés eliminar tu cuenta de forma irreversible en cualquier momento.</p>
 
@@ -1351,7 +1366,7 @@ es-AR:
       explanation:
         disable: Ya no podés iniciar sesión en tu cuenta o usarla de alguna manera, pero tu perfil y otros datos permanecen intactos.
         sensitive: Tus archivos de medios subidos y enlaces de medios serán tratados como sensibles.
-        silence: Todavía podés usar tu cuenta, pero sólo las personas que ya te estén siguiendo verán tus toots en este servidor, y puede que se te excluya de varios listados públicos. Sin embargo, otras personas pueden seguirte manualmente.
+        silence: Todavía podés usar tu cuenta, pero sólo las personas que ya te estén siguiendo verán tus hops en este servidor, y puede que se te excluya de varios listados públicos. Sin embargo, otras personas pueden seguirte manualmente.
         suspend: Ya no podés usar tu cuenta; tu perfil y otros datos ya no son accesibles. Todavía podés iniciar sesión para solicitar un resguardo de tus datos hasta que los mismos sean totalmente quitados, pero retendremos ciertos datos para prevenirte de evadir la suspensión.
       get_in_touch: Podés responder a esta dirección de correo electrónico para ponerte en contacto con la administración de %{instance}.
       review_server_policies: Revisar las políticas del servidor
@@ -1359,7 +1374,7 @@ es-AR:
       subject:
         disable: Tu cuenta %{acct} fue congelada
         none: Advertencia para %{acct}
-        sensitive: Los toots con medios de tu cuenta %{acct} fueron marcados como sensibles
+        sensitive: Los hops con medios de tu cuenta %{acct} fueron marcados como sensibles
         silence: Tu cuenta %{acct} fue limitada
         suspend: Tu cuenta %{acct} fue suspendida
       title:
@@ -1377,7 +1392,7 @@ es-AR:
       full_handle: Tu nombre de usuario completo
       full_handle_hint: Esto es lo que le dirás a tus contactos para que ellos puedan enviarte mensajes o seguirte desde otro servidor.
       review_preferences_action: Cambiar configuración
-      review_preferences_step: Asegurate de establecer tu configuración, como qué tipo de correos electrónicos te gustaría recibir, o qué nivel de privacidad te gustaría que sea el predeterminado para tus toots. Si no tenés mareos, podrías elegir habilitar la reproducción automática de GIFs.
+      review_preferences_step: Asegurate de establecer tu configuración, como qué tipo de correos electrónicos te gustaría recibir, o qué nivel de privacidad te gustaría que sea el predeterminado para tus hops. Si no tenés mareos, podrías elegir habilitar la reproducción automática de GIFs.
       subject: Bienvenido a koyu.space
       tip_federated_timeline: La línea temporal federada es una línea contínua global de la red de koyu.space. Pero sólo incluye gente que tus vecinos están siguiendo, así que no es completa.
       tip_following: Predeterminadamente seguís al / a los administrador/es de tu servidor. Para encontrar más gente interesante, revisá las lineas temporales local y federada.

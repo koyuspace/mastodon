@@ -1,7 +1,7 @@
 ---
 pt-BR:
   about:
-    about_hashtag_html: Estes são toots públicos com a hashtag <strong>#%{hashtag}</strong>. Você pode interagir com eles se tiver uma conta em qualquer lugar no fediverso.
+    about_hashtag_html: Estes são hops públicos com a hashtag <strong>#%{hashtag}</strong>. Você pode interagir com eles se tiver uma conta em qualquer lugar no fediverso.
     about_mastodon_html: 'A rede social do futuro: Sem anúncios, sem vigilância corporativa, com design ético e muita descentralização! Possua seus próprios dados com o koyu.space!'
     about_this: Sobre
     active_count_after: ativo
@@ -11,8 +11,8 @@ pt-BR:
     apps: Aplicativos
     apps_platforms: Use o koyu.space a partir do iOS, Android e outras plataformas
     browse_directory: Navegue pelo diretório de perfis e filtre por interesses
-    browse_local_posts: Navegue pelos toots públicos locais em tempo real
-    browse_public_posts: Navegue pelos toots públicos globais em tempo real
+    browse_local_posts: Navegue pelos hops públicos locais em tempo real
+    browse_public_posts: Navegue pelos hops públicos globais em tempo real
     contact: Contato
     contact_missing: Não definido
     contact_unavailable: Não disponível
@@ -31,7 +31,7 @@ pt-BR:
     source_code: Código-fonte
     status_count_after:
       one: toot
-      other: toots
+      other: hops
     status_count_before: Autores de
     tagline: Siga seus amigos e faça novas amizades
     terms: Termos de serviço
@@ -60,6 +60,7 @@ pt-BR:
       one: Seguidor
       other: Seguidores
     following: Seguindo
+    instance_actor_flash: Esta conta é um ator virtual usado para representar o próprio servidor e não um usuário individual. É utilizada para fins de federação e não deve ser suspensa.
     joined: Entrou em %{date}
     last_active: última atividade
     link_verified_on: O link foi verificado em %{date}
@@ -131,6 +132,7 @@ pt-BR:
       follows: Seguindo
       header: Capa
       inbox_url: URL da caixa de entrada
+      invite_request_text: Motivos para entrar
       invited_by: Convidado por
       ip: IP
       joined: Entrou
@@ -255,6 +257,7 @@ pt-BR:
         unsuspend_account: Remover suspensão de conta
         update_announcement: Editar anúncio
         update_custom_emoji: Editar Emoji Personalizado
+        update_domain_block: Atualizar bloqueio de domínio
         update_status: Editar Status
       actions:
         assigned_to_self_report: "%{name} pegou a denúncia %{target}"
@@ -295,6 +298,7 @@ pt-BR:
         unsuspend_account: "%{name} removeu a suspensão da conta de %{target}"
         update_announcement: "%{name} atualizou o anúncio %{target}"
         update_custom_emoji: "%{name} atualizou o emoji %{target}"
+        update_domain_block: "%{name} atualizou o bloqueio de domínio para %{target}"
         update_status: "%{name} atualizou o status de %{target}"
       deleted_status: "(status excluído)"
       empty: Nenhum registro encontrado.
@@ -437,6 +441,7 @@ pt-BR:
     instances:
       by_domain: Domínio
       delivery_available: Envio disponível
+      empty: Nenhum domínio encontrado.
       known_accounts:
         one: "%{count} conta conhecida"
         other: "%{count} contas conhecidas"
@@ -482,11 +487,11 @@ pt-BR:
     relays:
       add_new: Adicionar novo repetidor
       delete: Excluir
-      description_html: Um <strong>repetidor de federação</strong> é um servidor intermediário que troca um grande volume de toots públicos entre instâncias que se inscrevem e publicam nele. <strong>O repetidor pode ser usado para ajudar instâncias pequenas e médias a descobrir conteúdo pelo fediverso</strong>, que normalmente precisariam que usuários locais manualmente seguissem outras pessoas em instâncias remotas.
+      description_html: Um <strong>repetidor de federação</strong> é um servidor intermediário que troca um grande volume de hops públicos entre instâncias que se inscrevem e publicam nele. <strong>O repetidor pode ser usado para ajudar instâncias pequenas e médias a descobrir conteúdo pelo fediverso</strong>, que normalmente precisariam que usuários locais manualmente seguissem outras pessoas em instâncias remotas.
       disable: Desativar
       disabled: Desativado
       enable: Ativar
-      enable_hint: Uma vez ativado, sua instância se inscreverá para receber todos os toots públicos desse repetidor; E vai começar a enviar todos os toots públicos desta instância para o repetidor.
+      enable_hint: Uma vez ativado, sua instância se inscreverá para receber todos os hops públicos desse repetidor; E vai começar a enviar todos os hops públicos desta instância para o repetidor.
       enabled: Ativado
       inbox_url: Link do repetidor
       pending: Esperando pela aprovação do repetidor
@@ -514,6 +519,8 @@ pt-BR:
       comment:
         none: Nenhum
       created_at: Denunciado
+      forwarded: Encaminhados
+      forwarded_to: Encaminhado para %{domain}
       mark_as_resolved: Marcar como resolvido
       mark_as_unresolved: Marcar como não resolvido
       notes:
@@ -535,7 +542,7 @@ pt-BR:
       updated_at: Atualizado
     settings:
       activity_api_enabled:
-        desc_html: Contagem de toots locais, usuários ativos e novos usuários semanalmente
+        desc_html: Contagem de hops locais, usuários ativos e novos usuários semanalmente
         title: Publicar estatísticas agregadas sobre atividade de usuários
       bootstrap_timeline_accounts:
         desc_html: Separe nomes de usuário através de vírgulas. Funciona apenas com contas locais e destrancadas. O padrão quando vazio são todos os administradores locais.
@@ -583,6 +590,9 @@ pt-BR:
         min_invite_role:
           disabled: Ninguém
           title: Permitir convites de
+        require_invite_text:
+          desc_html: Quando o cadastro de novas contas exigir aprovação manual, tornar obrigatório, ao invés de opcional, o texto de solicitação de convite em "Por que você deseja criar uma conta aqui?"
+          title: Exigir que novos usuários preencham um texto de solicitação de convite
       registrations_mode:
         modes:
           approved: Aprovação necessária para criar conta
@@ -590,8 +600,8 @@ pt-BR:
           open: Qualquer um pode criar conta
         title: Modo de novos usuários
       show_known_fediverse_at_about_page:
-        desc_html: Quando ativado, mostra toots globais na prévia da linha, se não, mostra somente toots locais
-        title: Mostrar toots globais na prévia da linha
+        desc_html: Quando ativado, mostra hops globais na prévia da linha, se não, mostra somente hops locais
+        title: Mostrar hops globais na prévia da linha
       show_staff_badge:
         desc_html: Mostrar uma insígnia de Equipe na página de usuário
         title: Mostrar insígnia de equipe
@@ -609,7 +619,7 @@ pt-BR:
         title: Termos de serviço personalizados
       site_title: Nome da instância
       spam_check_enabled:
-        desc_html: koyu.space pode denunciar automaticamente contas que enviem repetidamente toots não solicitados. Pode haver falsos positivos.
+        desc_html: koyu.space pode denunciar automaticamente contas que enviem repetidamente hops não solicitados. Pode haver falsos positivos.
         title: Automação anti-spam
       thumbnail:
         desc_html: Usada para prévias via OpenGraph e API. Recomenda-se 1200x630px
@@ -751,6 +761,7 @@ pt-BR:
       functional: Sua conta está totalmente operacional.
       pending: Sua solicitação está com revisão pendente por parte de nossa equipe. Você receberá um e-mail se ela for aprovada.
       redirecting_to: Sua conta está inativa porque atualmente está redirecionando para %{acct}.
+    too_fast: O formulário foi enviado muito rapidamente, tente novamente.
     trouble_logging_in: Problemas para entrar?
     use_security_key: Usar chave de segurança
   authorize_follow:
@@ -801,7 +812,7 @@ pt-BR:
     warning:
       before: 'Antes de prosseguir, por favor leia com cuidado:'
       caches: Conteúdo que foi armazenado em cache por outras instâncias pode continuar a existir
-      data_removal: Seus toots e outros dados serão removidos permanentemente
+      data_removal: Seus hops e outros dados serão removidos permanentemente
       email_change_html: Você pode <a href="%{path}">alterar seu endereço de e-mail</a> sem excluir sua conta
       email_contact_html: Se você ainda não recebeu, você pode enviar um e-mail pedindo ajuda para <a href="mailto:%{email}">%{email}</a>
       email_reconfirmation_html: Se você não está recebendo o e-mail de confirmação, você pode <a href="%{path}">solicitá-lo novamente</a>
@@ -837,11 +848,12 @@ pt-BR:
     archive_takeout:
       date: Data
       download: Baixe o seu arquivo
-      hint_html: Você pode pedir um arquivo dos seus <strong>toots e mídias enviadas</strong>. Os dados exportados estarão no formato ActivityPub, que podem ser lidos por qualquer software compatível. Você pode pedir um arquivo a cada 7 dias.
+      hint_html: Você pode pedir um arquivo dos seus <strong>hops e mídias enviadas</strong>. Os dados exportados estarão no formato ActivityPub, que podem ser lidos por qualquer software compatível. Você pode pedir um arquivo a cada 7 dias.
       in_progress: Preparando o seu arquivo...
       request: Solicitar o seu arquivo
       size: Tamanho
     blocks: Você bloqueou
+    bookmarks: Marcadores
     csv: CSV
     domain_blocks: Bloqueios de domínio
     lists: Listas
@@ -851,7 +863,7 @@ pt-BR:
     add_new: Adicionar hashtag
     errors:
       limit: Você atingiu o limite de hashtags em destaque
-    hint_html: "<strong>O que são hashtags em destaque?</strong> Elas são mostradas no seu perfil público e permitem que as pessoas acessem seus toots públicos que contenham especificamente essas hashtags. São uma excelente ferramenta para acompanhar os trabalhos criativos ou os projetos de longo prazo."
+    hint_html: "<strong>O que são hashtags em destaque?</strong> Elas são mostradas no seu perfil público e permitem que as pessoas acessem seus hops públicos que contenham especificamente essas hashtags. São uma excelente ferramenta para acompanhar os trabalhos criativos ou os projetos de longo prazo."
   filters:
     contexts:
       account: Perfis
@@ -918,6 +930,7 @@ pt-BR:
     success: Os seus dados foram enviados com sucesso e serão processados em instantes
     types:
       blocking: Lista de bloqueio
+      bookmarks: Marcadores
       domain_blocking: Lista de domínios bloqueados
       following: Pessoas que você segue
       muting: Lista de silenciados
@@ -1106,8 +1119,8 @@ pt-BR:
       proceed: Continue para responder
       prompt: 'Você responderá este toot:'
   scheduled_statuses:
-    over_daily_limit: Você excedeu o limite de %{limit} toots agendados para esse dia
-    over_total_limit: Você excedeu o limite de %{limit} toots agendados
+    over_daily_limit: Você excedeu o limite de %{limit} hops agendados para esse dia
+    over_total_limit: Você excedeu o limite de %{limit} hops agendados
     too_soon: A data agendada precisa ser no futuro
   sessions:
     activity: Última atividade
@@ -1197,7 +1210,7 @@ pt-BR:
     open_in_web: Abrir no navegador
     over_character_limit: limite de caracteres de %{max} excedido
     pin_errors:
-      limit: Quantidade máxima de toots excedida
+      limit: Quantidade máxima de hops excedida
       ownership: Hops dos outros não podem ser fixados
       private: Hops não-públicos não podem ser fixados
       reblog: Boosts não podem ser fixados
@@ -1235,8 +1248,8 @@ pt-BR:
 
       <ul>
       <li><em>Dados básicos de conta</em>: Se você criar conta nesta instância, um nome de usuário, um e-mail e uma senha serão exigidos. Você também pode adicionar dados extras como nome de exibição, biografia, imagem de perfil e capa. Com exceção do e-mail e da senha, os dados citados sempre são públicos.</li>
-      <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os toots fixados no seu perfil são públicos. Seus toots são enviados aos seus seguidores, em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui toots, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
-      <li><em>Mensagens Diretas e toots privados</em>: Todos os toots são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou toots diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os toots são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes toots somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais toots</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os toots. <em>Não compartilhe informação confidencial pelo koyu.space.</em></li>
+      <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os hops fixados no seu perfil são públicos. Seus hops são enviados aos seus seguidores, em alguns casos isso significa que os hops são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui hops, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
+      <li><em>Mensagens Diretas e hops privados</em>: Todos os hops são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou hops diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os hops são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes hops somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais hops</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os hops. <em>Não compartilhe informação confidencial pelo koyu.space.</em></li>
       <li><em>IPs e outros metadados</em>: Ao entrar na sua conta, nós armazenamos o seu endereço de IP e o nome do navegador usado. Todas as sessões abertas estão disponíveis para serem analisadas e revogadas nas configurações. O último endereço de IP usado é armazenado por até 12 meses. Nós também podemos reter históricos da instância que incluem o endereço de IP de todas as conexões à nossa instância.</li>
       </ul>
 
@@ -1247,7 +1260,7 @@ pt-BR:
       <p>Todo dado que coletamos pode ser usado das seguintes maneiras:</p>
 
       <ul>
-      <li>Para prover a funcionalidade básica do koyu.space. Você só pode interagir com o conteúdo de outras pessoas e postar seu próprio conteúdo usando uma conta. Por exemplo, você pode seguir outras pessoas para ver seus toots na sua própria linha do tempo personalizada.</li>
+      <li>Para prover a funcionalidade básica do koyu.space. Você só pode interagir com o conteúdo de outras pessoas e postar seu próprio conteúdo usando uma conta. Por exemplo, você pode seguir outras pessoas para ver seus hops na sua própria linha do tempo personalizada.</li>
       <li>Para auxiliar na moderação da comunidade, por exemplo ao comparar o seu endereço de IP com outros endereços de IP conhecidos para determinar evasão de banimento e outras violações.</li>
       <li>O endereço de e-mail que você fornecer pode ser usado para te enviar informações, notificações sobre outras pessoas interagindo com o seu conteúdo ou contigo e para responder a questões ou outras solicitações.</li>
       </ul>
@@ -1269,7 +1282,7 @@ pt-BR:
       <li>Reter os endereços de IP associados à usuários da instância por não mais que 12 meses.</li>
       </ul>
 
-      <p>Você pode solicitar e baixar um arquivo de todo o conteúdo da sua conta, incluindo seus toots, suas mídias, imagem de perfil e capa.</p>
+      <p>Você pode solicitar e baixar um arquivo de todo o conteúdo da sua conta, incluindo seus hops, suas mídias, imagem de perfil e capa.</p>
 
       <p>YVocê pode excluir a sua conta irreversivelmente a qualquer momento.</p>
 
@@ -1287,9 +1300,9 @@ pt-BR:
 
       <p>Nós não vendemos, trocamos ou compartilhamos de qualquer maneira dados que possam te identificar à terceiros. Isso não inclui terceiros confiáveis que nos auxiliam a operar o nosso site, realizar nosso serviço ou prestar assistência, contanto que esses terceiros se comprometam a manter essa informação confidencial. Nós podemos também divulgar informação quando acreditamos que é apropriado para obedecer a lei, para fazer cumprir nossas políticas ou proteger os nossos direitos, propriedade ou segurança, ou de outrém.</p>
 
-      <p>Seu conteúdo público pode ser acessado por outras instâncias na rede. Seus toots públicos e privados são enviados às instâncias dos seus seguidores e seus toots diretos são enviados às instâncias dos usuários mencionados neles, contanto que esses seguidores ou usuários estejam em uma instância diferente desta.</p>
+      <p>Seu conteúdo público pode ser acessado por outras instâncias na rede. Seus hops públicos e privados são enviados às instâncias dos seus seguidores e seus hops diretos são enviados às instâncias dos usuários mencionados neles, contanto que esses seguidores ou usuários estejam em uma instância diferente desta.</p>
 
-      <p>Quando você autoriza um aplicativo a usar sua conta, dependendo do nível de autorização das permissões que você aprovar, o aplicativo pode acessar seus dados públicos, a lista de usuários que você segue, seus seguidores, suas listas, suas Mensagens Diretas e seus toots favoritos. Aplicativos nunca podem acessar o seu endereço de e-mail ou senha.</p>
+      <p>Quando você autoriza um aplicativo a usar sua conta, dependendo do nível de autorização das permissões que você aprovar, o aplicativo pode acessar seus dados públicos, a lista de usuários que você segue, seus seguidores, suas listas, suas Mensagens Diretas e seus hops favoritos. Aplicativos nunca podem acessar o seu endereço de e-mail ou senha.</p>
 
       <hr class="spacer" />
 
@@ -1349,8 +1362,8 @@ pt-BR:
       explanation:
         disable: Enquanto sua conta está congelada, seus dados de conta permanecem intactos, mas você não pode realizar nenhuma ação até que esteja destrancada.
         sensitive: Seus arquivos de mídia carregados e mídias vinculadas serão tratados como sensíveis.
-        silence: Enquanto sua conta está silenciada, somente pessoas que já estão seguindo você poderão ver seus toots nessa instância, e você pode ser excluído de várias listas públicas. No entanto, outros ainda podem te seguir manualmente.
-        suspend: Sua conta foi banida e todos os seus toots e mídias foram irreversivelmente excluídos desta instância e das instâncias dos seus seguidores.
+        silence: Enquanto sua conta está silenciada, somente pessoas que já estão seguindo você poderão ver seus hops nessa instância, e você pode ser excluído de várias listas públicas. No entanto, outros ainda podem te seguir manualmente.
+        suspend: Sua conta foi banida e todos os seus hops e mídias foram irreversivelmente excluídos desta instância e das instâncias dos seus seguidores.
       get_in_touch: Você pode responder a este e-mail para entrar em contato com a equipe de %{instance}.
       review_server_policies: Revisar as políticas da instância
       statuses: 'Especificamente, para:'
@@ -1373,9 +1386,9 @@ pt-BR:
       final_action: Comece a tootar
       final_step: 'Comece a tootar! Mesmo sem seguidores, suas mensagens públicas podem ser vistas pelos outros, por exemplo, na linha local e nas hashtags. Você pode querer fazer uma introdução usando a hashtag #introdução, ou em inglês usando a hashtag #introductions.'
       full_handle: Seu nome de usuário completo
-      full_handle_hint: Isso é o que você compartilha com aos seus amigos para que eles possam te mandar toots ou te seguir a partir de outra instância.
+      full_handle_hint: Isso é o que você compartilha com aos seus amigos para que eles possam te mandar hops ou te seguir a partir de outra instância.
       review_preferences_action: Alterar preferências
-      review_preferences_step: Não se esqueça de configurar suas preferências, como quais e-mails você gostaria de receber, que nível de privacidade você gostaria que seus toots tenham por padrão. Se você não sofre de enjoo com movimento, você pode habilitar GIFs animado automaticamente.
+      review_preferences_step: Não se esqueça de configurar suas preferências, como quais e-mails você gostaria de receber, que nível de privacidade você gostaria que seus hops tenham por padrão. Se você não sofre de enjoo com movimento, você pode habilitar GIFs animado automaticamente.
       subject: Boas-vindas ao koyu.space
       tip_federated_timeline: A linha global é uma visão contínua da rede do koyu.space. Mas ela só inclui pessoas de instâncias que a sua instância conhece, então não é a rede completa.
       tip_following: Você vai seguir administrador(es) da sua instância por padrão. Para encontrar mais gente interessante, confira as linhas local e global.
