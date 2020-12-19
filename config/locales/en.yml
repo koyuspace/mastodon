@@ -60,6 +60,7 @@ en:
       one: Follower
       other: Followers
     following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
     joined: Joined %{date}
     last_active: last active
     link_verified_on: Ownership of this link was checked on %{date}
@@ -401,6 +402,8 @@ en:
           silence: Silence
           suspend: Suspend
         title: New domain block
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
       private_comment: Private comment
       private_comment_hint: Comment about this domain limitation for internal use by the moderators.
       public_comment: Public comment
@@ -563,6 +566,7 @@ en:
       domain_blocks_rationale:
         title: Show rationale
       enable_bootstrap_timeline_accounts:
+        desc_html: Make new users automatically follow configured accounts so their home feed doesn't start out empty
         title: Enable default follows for new users
       hero:
         desc_html: Displayed on the frontpage. At least 600x100px recommended. When not set, falls back to server thumbnail
@@ -590,8 +594,8 @@ en:
           disabled: No one
           title: Allow invitations by
         require_invite_text:
-          desc_html: When registrations require manual approval, make the “Why do you want to join?” invite request text mandatory rather than optional
-          title: Require new users to fill an invite request text
+          desc_html: When registrations require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+          title: Require new users to enter a reason to join
       registrations_mode:
         modes:
           approved: Approval required for sign up
@@ -913,13 +917,15 @@ en:
     i_am_html: I am %{username} on %{service}.
     identity: Identity
     inactive: Inactive
-    publicize_checkbox: 'And toot this:'
+    publicize_checkbox: 'And hop this:'
     publicize_toot: 'It is proven! I am %{username} on %{service}: %{url}'
     remove: Remove proof from account
     removed: Successfully removed proof from account
     status: Verification status
     view_proof: View proof
   imports:
+    errors:
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
       merge: Merge
       merge_long: Keep existing records and add new ones
@@ -1111,13 +1117,13 @@ en:
   remote_interaction:
     favourite:
       proceed: Proceed to favourite
-      prompt: 'You want to favourite this toot:'
+      prompt: 'You want to favourite this hop:'
     reblog:
       proceed: Proceed to boost
-      prompt: 'You want to boost this toot:'
+      prompt: 'You want to boost this hop:'
     reply:
       proceed: Proceed to reply
-      prompt: 'You want to reply to this toot:'
+      prompt: 'You want to reply to this hop:'
   scheduled_statuses:
     over_daily_limit: You have exceeded the limit of %{limit} scheduled hops for that day
     over_total_limit: You have exceeded the limit of %{limit} scheduled hops
@@ -1211,8 +1217,8 @@ en:
     over_character_limit: character limit of %{max} exceeded
     pin_errors:
       limit: You have already pinned the maximum number of hops
-      ownership: Someone else's toot cannot be pinned
-      private: Non-public toot cannot be pinned
+      ownership: Someone else's hop cannot be pinned
+      private: Non-public hop cannot be pinned
       reblog: A boost cannot be pinned
     poll:
       total_people:
@@ -1236,7 +1242,7 @@ en:
       unlisted: Unlisted
       unlisted_long: Everyone can see, but not listed on public timelines
   stream_entries:
-    pinned: Pinned toot
+    pinned: Pinned hop
     reblogged: boosted
     sensitive_content: Sensitive content
   tags:
@@ -1362,7 +1368,7 @@ en:
       explanation:
         disable: You can no longer login to your account or use it in any other way, but your profile and other data remains intact.
         sensitive: Your uploaded media files and linked media will be treated as sensitive.
-        silence: You can still use your account but only people who are already following you will see your toots on this server, and you may be excluded from various public listings. However, others may still manually follow you.
+        silence: You can still use your account but only people who are already following you will see your hops on this server, and you may be excluded from various public listings. However, others may still manually follow you.
         suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed, but we will retain some data to prevent you from evading the suspension.
       get_in_touch: You can reply to this e-mail to get in touch with the staff of %{instance}.
       review_server_policies: Review server policies

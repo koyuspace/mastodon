@@ -93,7 +93,7 @@ it:
         text: Testo preimpostato
         title: Titolo
       admin_account_action:
-        include_statuses: Includi i toots segnalati nell'email
+        include_statuses: Includi i hops segnalati nell'email
         send_email_notification: Informa l'utente via email
         text: Avviso personalizzato
         type: Azione
@@ -126,6 +126,7 @@ it:
         expires_in: Scade dopo
         fields: Metadati del profilo
         header: Intestazione
+        honeypot: "%{label} (non compilare)"
         inbox_url: URL della inbox del ripetitore
         irreversible: Elimina invece di nascondere
         locale: Lingua dell'interfaccia

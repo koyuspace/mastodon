@@ -60,6 +60,7 @@ ca:
       one: Seguidor
       other: Seguidors
     following: Seguint
+    instance_actor_flash: Aquest compte és un actor virtual usat per a representar el mateix servidor i no cap usuari individual. Es fa servir per a federar i no s'hauria d'esborrar.
     joined: Unit des de %{date}
     last_active: darrer actiu
     link_verified_on: La propietat d'aquest enllaç s'ha verificat el %{date}
@@ -131,6 +132,7 @@ ca:
       follows: Segueix
       header: Capçalera
       inbox_url: URL de la safata d'entrada
+      invite_request_text: Motiu del registre
       invited_by: Convidat per
       ip: IP
       joined: Unit
@@ -255,6 +257,7 @@ ca:
         unsuspend_account: Desfés la suspensió del compte
         update_announcement: Actualitza l'anunci
         update_custom_emoji: Actualitza l'emoji personalitzat
+        update_domain_block: Actualitza el Bloqueig de Domini
         update_status: Actualitza l'estat
       actions:
         assigned_to_self_report: "%{name} han assignat l'informe %{target} a ells mateixos"
@@ -295,6 +298,7 @@ ca:
         unsuspend_account: "%{name} ha llevat la suspensió del compte de %{target}"
         update_announcement: "%{name} ha actualitzat l'anunci %{target}"
         update_custom_emoji: "%{name} ha actualitzat l'emoji %{target}"
+        update_domain_block: "%{name} ha actualitzat el bloqueig de domini per %{target}"
         update_status: "%{name} estat actualitzat per %{target}"
       deleted_status: "(tut esborrat)"
       empty: No s’han trobat registres.
@@ -398,6 +402,8 @@ ca:
           silence: Silenci
           suspend: Suspensió
         title: Bloqueig de domini nou
+      obfuscate: Oculta el nom del domini
+      obfuscate_hint: Oculta parcialment el nom del domini si està activat mostrar la llista de dominis limitats
       private_comment: Comentari privat
       private_comment_hint: Comentari sobre aquesta limitació del domini per a ús intern dels moderadors.
       public_comment: Comentari públic
@@ -437,6 +443,7 @@ ca:
     instances:
       by_domain: Domini
       delivery_available: El lliurament està disponible
+      empty: No s'han trobat dominis.
       known_accounts:
         one: "%{count} compte conegut"
         other: "%{count} comptes coneguts"
@@ -514,6 +521,8 @@ ca:
       comment:
         none: Cap
       created_at: Reportat
+      forwarded: Reenviat
+      forwarded_to: Reenviat a %{domain}
       mark_as_resolved: Marca com a resolt
       mark_as_unresolved: Marcar com a sense resoldre
       notes:
@@ -583,6 +592,9 @@ ca:
         min_invite_role:
           disabled: Ningú
           title: Permet les invitacions de
+        require_invite_text:
+          desc_html: Quan el registre requereix aprovació manual, fer que sigui obligatori enlloc d'opcions l escriure el text de la solicitud d'invitació "Perquè vols unirte?"
+          title: Requerir als nous usuaris omplir el text de la solicitud d'invitació
       registrations_mode:
         modes:
           approved: Es requereix l’aprovació per registrar-se
@@ -751,6 +763,7 @@ ca:
       functional: El teu compte és plenament operatiu.
       pending: La vostra sol·licitud està pendent de revisió pel nostre personal. Això pot trigar una mica. Rebreu un correu electrònic quan sigui aprovada.
       redirecting_to: El teu compte és inactiu perquè actualment està redirigint a %{acct}.
+    too_fast: Formulari enviat massa ràpid, torna a provar-ho.
     trouble_logging_in: Problemes per iniciar la sessió?
     use_security_key: Usa clau de seguretat
   authorize_follow:
@@ -910,6 +923,8 @@ ca:
     status: Estat de verificació
     view_proof: Veure la prova
   imports:
+    errors:
+      over_rows_processing_limit: conté més de %{count} files
     modes:
       merge: Fusionar
       merge_long: Mantenir els registres existents i afegir-ne de nous
@@ -1237,8 +1252,8 @@ ca:
 
       <ul>
       <li><em>Informació bàsica del compte</em>: Si et registres en aquest servidor, se´t pot demanar que introdueixis un nom d'usuari, una adreça de correu electrònic i una contrasenya. També pots introduir informació de perfil addicional, com ara un nom de visualització i una biografia, i carregar una imatge de perfil i de capçalera. El nom d'usuari, el nom de visualització, la biografia, la imatge de perfil i la imatge de capçalera sempre apareixen públicament.</li>
-      <li><em>Publicacions, seguiment i altra informació pública</em>: La llista de persones que segueixes s'enumeren públicament i el mateix passa amb els teus seguidors. Quan envies un missatge, la data i l'hora s'emmagatzemen, així com l'aplicació que va enviar el missatge. Els missatges poden contenir multimèdia, com ara imatges i vídeos. Els toots públics i no llistats estan disponibles públicament. En quan tinguis un toot en el teu perfil, aquest també és informació pública. Les teves entrades es lliuren als teus seguidors que en alguns casos significa que es lliuren a diferents servidors en els quals s'hi emmagatzemen còpies. Quan suprimeixes publicacions, també es lliuraran als teus seguidors. L'acció d'impulsar o marcar com a favorit una publicació sempre és pública.</li>
-      <li><em>Hops directes i per a només seguidors</em>: Totes les publicacions s'emmagatzemen i processen al servidor. Els toots per a només seguidors només es lliuren als teus seguidors i als usuaris que s'esmenten en ells i els toots directes només es lliuren als usuaris esmentats. En alguns casos, significa que es lliuren a diferents servidors i s'hi emmagatzemen còpies. Fem un esforç de bona fe per limitar l'accés a aquestes publicacions només a les persones autoritzades, però és possible que altres servidors no ho facin. Per tant, és important revisar els servidors als quals pertanyen els teus seguidors. Pots canviar la opció de aprovar o rebutjar els nous seguidors manualment a la configuració. <em>Tingues en compte que els operadors del servidor i qualsevol servidor receptor poden visualitzar aquests missatges</em> i els destinataris poden fer una captura de pantalla, copiar-los o tornar-los a compartir. <em>No comparteixis cap informació perillosa a koyu.space.</em></li>
+      <li><em>Publicacions, seguiment i altra informació pública</em>: La llista de persones que segueixes s'enumeren públicament i el mateix passa amb els teus seguidors. Quan envies un missatge, la data i l'hora s'emmagatzemen, així com l'aplicació que va enviar el missatge. Els missatges poden contenir multimèdia, com ara imatges i vídeos. Els hops públics i no llistats estan disponibles públicament. En quan tinguis un hop en el teu perfil, aquest també és informació pública. Les teves entrades es lliuren als teus seguidors que en alguns casos significa que es lliuren a diferents servidors en els quals s'hi emmagatzemen còpies. Quan suprimeixes publicacions, també es lliuraran als teus seguidors. L'acció d'impulsar o marcar com a favorit una publicació sempre és pública.</li>
+      <li><em>Hops directes i per a només seguidors</em>: Totes les publicacions s'emmagatzemen i processen al servidor. Els hops per a només seguidors només es lliuren als teus seguidors i als usuaris que s'esmenten en ells i els hops directes només es lliuren als usuaris esmentats. En alguns casos, significa que es lliuren a diferents servidors i s'hi emmagatzemen còpies. Fem un esforç de bona fe per limitar l'accés a aquestes publicacions només a les persones autoritzades, però és possible que altres servidors no ho facin. Per tant, és important revisar els servidors als quals pertanyen els teus seguidors. Pots canviar la opció de aprovar o rebutjar els nous seguidors manualment a la configuració. <em>Tingues en compte que els operadors del servidor i qualsevol servidor receptor poden visualitzar aquests missatges</em> i els destinataris poden fer una captura de pantalla, copiar-los o tornar-los a compartir. <em>No comparteixis cap informació perillosa a koyu.space.</em></li>
       <li><em>IPs i altres metadades</em>: Quan inicies sessió registrem l'adreça IP en que l'has iniciat, així com el nom de l'aplicació o navegador. Totes les sessions registrades estan disponibles per a la teva revisió i revocació a la configuració. L'última adreça IP utilitzada s'emmagatzema durant un màxim de 12 mesos. També podrem conservar els registres que inclouen l'adreça IP de cada sol·licitud al nostre servidor.</li>
       </ul>
 
@@ -1289,7 +1304,7 @@ ca:
 
       <p>No venem, comercialitzem ni transmetem a tercers la teva informació d'identificació personal. Això no inclou tercers de confiança que ens ajuden a operar el nostre lloc, a dur a terme el nostre servei o a servir-te, sempre que aquestes parts acceptin mantenir confidencial aquesta informació. També podem publicar la teva informació quan creiem que l'alliberament és apropiat per complir amb la llei, fer complir les polítiques del nostre lloc o protegir els nostres drets o altres drets, propietat o seguretat.</p>
 
-      <p>Els altres servidors de la teva xarxa poden descarregar contingut públic. Els teus toots públics i per a només seguidors es lliuren als servidors on resideixen els teus seguidors i els missatges directes s'envien als servidors dels destinataris, sempre que aquests seguidors o destinataris resideixin en un servidor diferent d'aquest.</p>
+      <p>Els altres servidors de la teva xarxa poden descarregar contingut públic. Els teus hops públics i per a només seguidors es lliuren als servidors on resideixen els teus seguidors i els missatges directes s'envien als servidors dels destinataris, sempre que aquests seguidors o destinataris resideixin en un servidor diferent d'aquest.</p>
 
       <p>Quan autoritzes una aplicació a utilitzar el teu compte, segons l'abast dels permisos que aprovis, pot accedir a la teva informació de perfil pública, a la teva llista de seguits, als teus seguidors, a les teves llistes, a totes les teves publicacions i als teus favorits. Les aplicacions mai no poden accedir a la teva adreça de correu electrònic o contrasenya.</p>
 

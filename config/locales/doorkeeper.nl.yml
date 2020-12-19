@@ -133,14 +133,14 @@ nl:
       read:lists: jouw lijsten bekijken
       read:mutes: jouw genegeerde gebruikers bekijken
       read:notifications: jouw meldingen bekijken
-      read:reports: jouw gerapporteerde toots bekijken
+      read:reports: jouw gerapporteerde hops bekijken
       read:search: namens jou zoeken
-      read:statuses: alle toots bekijken
+      read:statuses: alle hops bekijken
       write: alle gegevens van jouw account bewerken
       write:accounts: jouw profiel bewerken
       write:blocks: accounts en domeinen blokkeren
-      write:bookmarks: toots aan bladwijzers toevoegen
-      write:favourites: toots als favoriet markeren
+      write:bookmarks: hops aan bladwijzers toevoegen
+      write:favourites: hops als favoriet markeren
       write:filters: filters aanmaken
       write:follows: mensen volgen
       write:lists: lijsten aanmaken
@@ -148,4 +148,4 @@ nl:
       write:mutes: mensen en gesprekken negeren
       write:notifications: meldingen verwijderen
       write:reports: andere mensen rapporteren
-      write:statuses: toots publiceren
+      write:statuses: hops publiceren

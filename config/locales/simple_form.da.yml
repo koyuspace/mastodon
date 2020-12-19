@@ -154,7 +154,7 @@ da:
         listable: Tillad at dette hashtag vises i søgninger og i bruger oversigten
         name: Hashtag
         trendable: Tillad at dette hashtag vises under trends
-        usable: Tillad toots at benytte dette hashtag
+        usable: Tillad hops at benytte dette hashtag
     'no': Nej
     recommended: Anbefalet
     required:

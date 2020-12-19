@@ -10,7 +10,7 @@ pt-BR:
         text: Você pode usar a sintaxe do toot, como links, hashtags e menções
         title: Opcional. Não visível para o destinatário
       admin_account_action:
-        include_statuses: O usuário verá quais toots causaram o aviso ou ação da moderação
+        include_statuses: O usuário verá quais hops causaram o aviso ou ação da moderação
         send_email_notification: O usuário receberá uma explicação do que aconteceu com a própria conta
         text_html: Opcional. Você pode usar a sintaxe do toot e também pode <a href="%{path}">adicionar avisos pré-definidos</a> para poupar tempo
         type_html: Decida o que fazer com <strong>%{acct}</strong>
@@ -40,14 +40,14 @@ pt-BR:
         password: Use pelo menos 8 caracteres
         phrase: Corresponderá independente de maiúsculas ou minúsculas, no texto ou no aviso de conteúdo de um toot
         scopes: Quais APIs o aplicativo vai ter permissão de acessar. Se você selecionar uma autorização de alto nível, você não precisa selecionar individualmente os outros.
-        setting_aggregate_reblogs: Não mostra novos boosts para toots que receberam boost recentemente (afeta somente os boosts mais recentes)
+        setting_aggregate_reblogs: Não mostra novos boosts para hops que receberam boost recentemente (afeta somente os boosts mais recentes)
         setting_default_sensitive: Mídia sensível está oculta por padrão e pode ser revelada com um clique
         setting_display_media_default: Sempre ocultar mídia sensível
         setting_display_media_hide_all: Sempre ocultar todas as mídias
         setting_display_media_show_all: Sempre mostrar mídia sensível
         setting_hide_network: Quem você segue e seus seguidores não serão mostrados no seu perfil
-        setting_noindex: Afeta seu perfil público e as páginas dos seus toots
-        setting_show_application: O aplicativo que você usar para tootar será mostrado na visão detalhada dos seus toots
+        setting_noindex: Afeta seu perfil público e as páginas dos seus hops
+        setting_show_application: O aplicativo que você usar para tootar será mostrado na visão detalhada dos seus hops
         setting_use_blurhash: O blur é baseado nas cores da imagem oculta, ofusca a maioria dos detalhes
         setting_use_pending_items: Ocultar atualizações da linha do tempo atrás de um clique ao invés de rolar automaticamente
         username: Seu nome de usuário será único em %{domain}
@@ -67,7 +67,7 @@ pt-BR:
         text: Isso vai nos ajudar a revisar sua aplicação
       ip_block:
         comment: Opcional. Lembrar de por que você adicionou esta regra.
-        expires_in: Endereços IP são um recurso limitado, algumas vezes são compartilhados e muitas vezes mudam de mãos. Por essa razão, blocos de IP indefinidos não são recomendados.
+        expires_in: Endereços IP são um recurso limitado, algumas vezes são compartilhados e muitas vezes mudam de mãos. Por esse motivo, blocos de IP indefinidos não são recomendados.
         ip: Digite um endereço IPv4 ou IPv6. Você pode bloquear intervalos inteiros usando a sintaxe CIDR. Tenha cuidado para não bloquear a si mesmo!
         severities:
           no_access: Bloquear o acesso a todos os recursos
@@ -79,7 +79,7 @@ pt-BR:
       tag:
         name: Você pode mudar a capitalização das letras, por exemplo, para torná-la mais legível
       user:
-        chosen_languages: Apenas toots dos idiomas selecionados serão mostrados nas linhas públicas
+        chosen_languages: Apenas hops dos idiomas selecionados serão mostrados nas linhas públicas
     labels:
       account:
         fields:
@@ -93,7 +93,7 @@ pt-BR:
         text: Aviso pré-definido
         title: Título
       admin_account_action:
-        include_statuses: Incluir toots denunciados no e-mail
+        include_statuses: Incluir hops denunciados no e-mail
         send_email_notification: Notificar o usuário por e-mail
         text: Aviso personalizado
         type: Ação
@@ -126,6 +126,7 @@ pt-BR:
         expires_in: Expira em
         fields: Metadados do perfil
         header: Cabeçalho
+        honeypot: "%{label} (não preencher)"
         inbox_url: Link da caixa de entrada do repetidor
         irreversible: Ignorar ao invés de ocultar
         locale: Idioma da interface
@@ -140,9 +141,9 @@ pt-BR:
         setting_aggregate_reblogs: Agrupar boosts nas linhas
         setting_auto_play_gif: Reproduzir GIFs automaticamente
         setting_boost_modal: Solicitar confirmação antes de dar boost
-        setting_crop_images: Cortar imagens no formato 16x9 em toots não expandidos
-        setting_default_language: Idioma dos toots
-        setting_default_privacy: Privacidade dos toots
+        setting_crop_images: Cortar imagens no formato 16x9 em hops não expandidos
+        setting_default_language: Idioma dos hops
+        setting_default_privacy: Privacidade dos hops
         setting_default_sensitive: Sempre marcar mídia como sensível
         setting_delete_modal: Solicitar confirmação antes de excluir toot
         setting_disable_swiping: Desabilitar movimentos deslizantes
@@ -150,11 +151,11 @@ pt-BR:
         setting_display_media_default: Padrão
         setting_display_media_hide_all: Ocultar tudo
         setting_display_media_show_all: Mostrar tudo
-        setting_expand_spoilers: Sempre expandir toots com Aviso de Conteúdo
+        setting_expand_spoilers: Sempre expandir hops com Aviso de Conteúdo
         setting_hide_network: Ocultar suas relações
         setting_noindex: Não quero ser indexado por mecanismos de pesquisa
         setting_reduce_motion: Reduzir animações
-        setting_show_application: Mostrar o aplicativo usado para enviar os toots
+        setting_show_application: Mostrar o aplicativo usado para enviar os hops
         setting_system_font_ui: Usar fonte padrão do sistema
         setting_theme: Tema do site
         setting_trends: Mostrar em alta hoje
@@ -188,19 +189,19 @@ pt-BR:
         severity: Regra
       notification_emails:
         digest: Enviar e-mails de resumo
-        favourite: Enviar e-mail quando alguém favoritar seus toots
+        favourite: Enviar e-mail quando alguém favoritar seus hops
         follow: Enviar e-mail quando alguém te seguir
         follow_request: Enviar e-mail quando alguém solicitar ser seu seguidor
         mention: Enviar e-mail quando alguém te mencionar
         pending_account: Enviar e-mail quando uma nova conta precisar ser revisada
-        reblog: Enviar e-mail quando alguém der boost nos seus toots
+        reblog: Enviar e-mail quando alguém der boost nos seus hops
         report: Enviar e-mail quando uma nova denúncia for enviada
         trending_tag: Uma hashtag não-revisada está em alta
       tag:
         listable: Permitir que esta hashtag apareça em pesquisas e no diretório de perfis
         name: Hashtag
         trendable: Permitir que esta hashtag fique em alta
-        usable: Permitir que toots usem esta hashtag
+        usable: Permitir que hops usem esta hashtag
     'no': Não
     recommended: Recomendado
     required:

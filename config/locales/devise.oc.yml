@@ -59,7 +59,7 @@ oc:
         subject: 'koyu.space : còdis de recuperacion dos factors regenerats'
         title: Còdis 2FA de recuperacion cambiats
       unlock_instructions:
-        subject: Mastodon : consignas de desblocatge
+        subject: koyu.space : consignas de desblocatge
       webauthn_credential:
         added:
           explanation: La clau de seguretat seguenta foguèt ajustada a vòstre compte

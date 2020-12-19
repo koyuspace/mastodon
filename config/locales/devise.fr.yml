@@ -59,7 +59,7 @@ fr:
         subject: 'koyu.space : codes de récupération à deux facteurs ré-générés'
         title: Codes de récupération 2FA modifiés
       unlock_instructions:
-        subject: 'Mastodon : Instructions pour déverrouiller votre compte'
+        subject: 'koyu.space : Instructions pour déverrouiller votre compte'
       webauthn_credential:
         added:
           explanation: La clé de sécurité suivante a été ajoutée à votre compte
