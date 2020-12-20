@@ -1,55 +1,49 @@
 !!! 5
-- if controller_name != "about" || action_name == "more" || action_name == "terms"
-  %html{ lang: I18n.locale }
-    %head
-      %meta{ charset: 'utf-8' }/
-      %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1' }/
+%html{ lang: I18n.locale }
+  %head
+    %meta{ charset: 'utf-8' }/
+    %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1' }/
 
-      - if cdn_host?
-        %link{ rel: 'dns-prefetch', href: cdn_host }/
-        %meta{ name: 'cdn-host', content: cdn_host }/
+    - if cdn_host?
+      %link{ rel: 'dns-prefetch', href: cdn_host }/
+      %meta{ name: 'cdn-host', content: cdn_host }/
 
-      - if storage_host?
-        %link{ rel: 'dns-prefetch', href: storage_host }/
+    - if storage_host?
+      %link{ rel: 'dns-prefetch', href: storage_host }/
 
-      %link{ rel: 'icon', href: favicon_path, type: 'image/x-icon' }/
-      %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }/
-      %link{ rel: 'mask-icon', href: '/mask-icon.svg', color: '#2B90D9' }/
-      %link{ rel: 'manifest', href: '/manifest.json' }/
-      %meta{ name: 'msapplication-config', content: '/browserconfig.xml' }/
-      %meta{ name: 'theme-color', content: '#282c37' }/
-      %meta{ name: 'apple-mobile-web-app-capable', content: 'yes' }/
+    %link{ rel: 'icon', href: favicon_path, type: 'image/x-icon' }/
+    %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }/
+    %link{ rel: 'mask-icon', href: '/mask-icon.svg', color: '#2B90D9' }/
+    %link{ rel: 'manifest', href: '/manifest.json' }/
+    %meta{ name: 'msapplication-config', content: '/browserconfig.xml' }/
+    %meta{ name: 'theme-color', content: '#282c37' }/
+    %meta{ name: 'apple-mobile-web-app-capable', content: 'yes' }/
 
-      %title= content_for?(:page_title) ? safe_join([yield(:page_title).chomp.html_safe, title], ' - ') : title
+    %title= content_for?(:page_title) ? safe_join([yield(:page_title).chomp.html_safe, title], ' - ') : title
 
-      = javascript_pack_tag "locales", crossorigin: 'anonymous'
-      - if @theme
-        - if @theme[:supported_locales].include? I18n.locale.to_s
-          = javascript_pack_tag "locales/#{@theme[:flavour]}/#{I18n.locale}", crossorigin: 'anonymous'
-        - elsif @theme[:supported_locales].include? 'en'
-          = javascript_pack_tag "locales/#{@theme[:flavour]}/en", crossorigin: 'anonymous'
-      = csrf_meta_tags
-      %meta{ name: 'style-nonce', content: request.content_security_policy_nonce }
+    = javascript_pack_tag "locales", crossorigin: 'anonymous'
+    - if @theme
+      - if @theme[:supported_locales].include? I18n.locale.to_s
+        = javascript_pack_tag "locales/#{@theme[:flavour]}/#{I18n.locale}", crossorigin: 'anonymous'
+      - elsif @theme[:supported_locales].include? 'en'
+        = javascript_pack_tag "locales/#{@theme[:flavour]}/en", crossorigin: 'anonymous'
+    = csrf_meta_tags
+    %meta{ name: 'style-nonce', content: request.content_security_policy_nonce }
 
-      -# Yes, this is tracking, but it's self-hosted so it isn't that horrible
-      <script async defer data-domain="koyu.space" src="https://stats.koyu.space/js/plausible.js"></script>
+    = stylesheet_link_tag '/inert.css', skip_pipeline: true, media: 'all', id: 'inert-style'
 
-      = stylesheet_link_tag '/inert.css', skip_pipeline: true, media: 'all', id: 'inert-style'
+    = yield :header_tags
 
-      = yield :header_tags
+    -#  These must come after :header_tags to ensure our initial state has been defined.
+    = render partial: 'layouts/theme', object: @core
+    = render partial: 'layouts/theme', object: @theme
 
-      -#  These must come after :header_tags to ensure our initial state has been defined.
-      = render partial: 'layouts/theme', object: @core
-      = render partial: 'layouts/theme', object: @theme
+    - if Setting.custom_css.present?
+      = stylesheet_link_tag custom_css_path, media: 'all'
 
-      - if Setting.custom_css.present?
-        = stylesheet_link_tag custom_css_path, media: 'all'
+  %body{ class: body_classes }
+    = content_for?(:content) ? yield(:content) : yield
 
-    %body{ class: body_classes }
-      = content_for?(:content) ? yield(:content) : yield
-
-      .logo-resources
-        = render file: Rails.root.join('app', 'javascript', 'images', 'logo_transparent.svg')
-        = render file: Rails.root.join('app', 'javascript', 'images', 'logo_full.svg')
-- else
-  = content_for?(:content) ? yield(:content) : yield
+    .logo-resources
+      = render file: Rails.root.join('app', 'javascript', 'images', 'logo_transparent.svg')
+      = render file: Rails.root.join('app', 'javascript', 'images', 'logo_full.svg')
