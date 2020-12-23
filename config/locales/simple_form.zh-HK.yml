@@ -7,12 +7,12 @@ zh-HK:
       account_migration:
         acct: 指定欲移動至之帳戶的「使用者名稱@域名」
       account_warning_preset:
-        text: 你可使用 toot 格式，例如網址、「#」標籤和提及功能
+        text: 你可使用 hop 格式，例如網址、「#」標籤和提及功能
         title: 可選，接收者不會見到
       admin_account_action:
         include_statuses: 使用者將會看到哪些文章導致檢舉或警告
         send_email_notification: 使用者將收到帳戶發生之事情的解釋
-        text_html: 選用。你能使用 toot 語法。你可 <a href="%{path}">新增警告預設</a> 來節省時間
+        text_html: 選用。你能使用 hop 語法。你可 <a href="%{path}">新增警告預設</a> 來節省時間
         type_html: 設定要使用 <strong>%{acct}</strong> 做的事
         warning_preset_id: 選用。你仍可在預設訊息的結尾加入自訂文字
       announcement:

@@ -30,7 +30,7 @@ pt-BR:
     server_stats: 'Estatísticas da instância:'
     source_code: Código-fonte
     status_count_after:
-      one: toot
+      one: hop
       other: hops
     status_count_before: Autores de
     tagline: Siga seus amigos e faça novas amizades
@@ -277,7 +277,7 @@ pt-BR:
         destroy_domain_block: "%{name} desbloqueou %{target}"
         destroy_email_domain_block: "%{name} adicionou domínio de e-mail %{target} à lista branca"
         destroy_ip_block: "%{name} excluiu regra para o IP %{target}"
-        destroy_status: "%{name} excluiu toot de %{target}"
+        destroy_status: "%{name} excluiu hop de %{target}"
         disable_2fa_user: "%{name} desativou a exigência de autenticação de dois fatores para o usuário %{target}"
         disable_custom_emoji: "%{name} desativou o emoji %{target}"
         disable_user: "%{name} desativou o acesso para o usuário %{target}"
@@ -711,7 +711,7 @@ pt-BR:
     settings: 'Alterar e-mail de preferência: %{link}'
     view: 'Ver:'
     view_profile: Ver perfil
-    view_status: Ver toot
+    view_status: Ver hop
   applications:
     created: Aplicativo criado com sucesso
     destroyed: Aplicativo excluído com sucesso
@@ -963,7 +963,7 @@ pt-BR:
       limit: Você atingiu o máximo de listas
   media_attachments:
     validations:
-      images_and_video: Não foi possível anexar um vídeo a um toot que já contém imagens
+      images_and_video: Não foi possível anexar um vídeo a um hop que já contém imagens
       not_ready: Não é possível anexar arquivos que não terminaram de ser processados. Tente novamente daqui a pouco!
       too_many: Não foi possível anexar mais de 4 imagens
   migrations:
@@ -1016,8 +1016,8 @@ pt-BR:
         other: "%{count} novas notificações desde o seu último acesso \U0001F418"
       title: Enquanto você estava ausente...
     favourite:
-      body: "%{name} favoritou seu toot:"
-      subject: "%{name} favoritou seu toot"
+      body: "%{name} favoritou seu hop:"
+      subject: "%{name} favoritou seu hop"
       title: Novo favorito
     follow:
       body: "%{name} te seguiu!"
@@ -1034,8 +1034,8 @@ pt-BR:
       subject: "%{name} te mencionou"
       title: Nova menção
     reblog:
-      body: "%{name} deu boost no seu toot:"
-      subject: "%{name} deu boost no seu toot"
+      body: "%{name} deu boost no seu hop:"
+      subject: "%{name} deu boost no seu hop"
       title: Novo boost
   notifications:
     email_events: Eventos para notificações por e-mail
@@ -1111,13 +1111,13 @@ pt-BR:
   remote_interaction:
     favourite:
       proceed: Continue para favoritar
-      prompt: 'Você favoritará este toot:'
+      prompt: 'Você favoritará este hop:'
     reblog:
       proceed: Continue para dar boost
-      prompt: 'Você dará boost neste toot:'
+      prompt: 'Você dará boost neste hop:'
     reply:
       proceed: Continue para responder
-      prompt: 'Você responderá este toot:'
+      prompt: 'Você responderá este hop:'
   scheduled_statuses:
     over_daily_limit: Você excedeu o limite de %{limit} hops agendados para esse dia
     over_total_limit: Você excedeu o limite de %{limit} hops agendados
@@ -1205,7 +1205,7 @@ pt-BR:
       one: 'continha hashtag não permitida: %{tags}'
       other: 'continha hashtags não permitidas: %{tags}'
     errors:
-      in_reply_not_found: O toot que você quer responder parece não existir.
+      in_reply_not_found: O hop que você quer responder parece não existir.
     language_detection: Detectar idioma automaticamente
     open_in_web: Abrir no navegador
     over_character_limit: limite de caracteres de %{max} excedido
@@ -1248,7 +1248,7 @@ pt-BR:
 
       <ul>
       <li><em>Dados básicos de conta</em>: Se você criar conta nesta instância, um nome de usuário, um e-mail e uma senha serão exigidos. Você também pode adicionar dados extras como nome de exibição, biografia, imagem de perfil e capa. Com exceção do e-mail e da senha, os dados citados sempre são públicos.</li>
-      <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um toot, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os hops fixados no seu perfil são públicos. Seus hops são enviados aos seus seguidores, em alguns casos isso significa que os hops são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui hops, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro toot é sempre público.</li></li>
+      <li><em>Hops, seguindo e outros dados públicos</em>: A lista de pessoas que você segue e a sua lista de seguidores são públicas. Ao enviar um hop, a data, a hora e o aplicativo usado são armazenados. Hops podem conter mídias anexadas, como áudios, imagens e vídeos. Hops públicos e não-listados são visíveis publicamente. Os hops fixados no seu perfil são públicos. Seus hops são enviados aos seus seguidores, em alguns casos isso significa que os hops são enviados para instâncias diferentes e cópias são armazenadas lá. Quando você exclui hops, essa informação também é enviada aos seus seguidores. O ato de dar boost ou favoritar outro hop é sempre público.</li></li>
       <li><em>Mensagens Diretas e hops privados</em>: Todos os hops são armazenados e processados na instância. Hops privados são enviados aos seus seguidores e aos usuários mencionados neles; Mensagens Diretas (ou hops diretos) são enviadas somente aos usuários mencionados nelas. Em alguns casos isso significa que os hops são enviados para instâncias diferentes e cópias são armazenadas lá. Nós trabalhamos constantemente para limitar o acesso a estes hops somente às pessoas autorizadas, porém outras instâncias podem não fazer o mesmo. Portanto, é importante analisar as instâncias dos seus seguidores. Você pode trancar a conta para aprovar ou vetar novos seguidores manualmente nas configurações. <em>Por favor, tenha em mente que os operadores da instância em que se está e das instâncias receptoras podem ver tais hops</em>, e que os destinatários podem fazer capturas de tela, copiar ou usar outra maneira para compartilhar os hops. <em>Não compartilhe informação confidencial pelo koyu.space.</em></li>
       <li><em>IPs e outros metadados</em>: Ao entrar na sua conta, nós armazenamos o seu endereço de IP e o nome do navegador usado. Todas as sessões abertas estão disponíveis para serem analisadas e revogadas nas configurações. O último endereço de IP usado é armazenado por até 12 meses. Nós também podemos reter históricos da instância que incluem o endereço de IP de todas as conexões à nossa instância.</li>
       </ul>

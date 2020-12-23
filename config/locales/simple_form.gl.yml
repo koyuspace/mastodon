@@ -7,12 +7,12 @@ gl:
       account_migration:
         acct: Indica o usuaria@servidor da conta a cal queres migrar
       account_warning_preset:
-        text: Pódeslle dar formato ao toot, como URLs, cancelos e mencións
+        text: Pódeslle dar formato ao hop, como URLs, cancelos e mencións
         title: Optativo. Non visible para a correspondente
       admin_account_action:
         include_statuses: A usuaria verá que hops causaron a acción da moderación ou aviso
         send_email_notification: A usuaria recibirá unha explicación sobre o que lle aconteceu a súa conta
-        text_html: Optativo. Podes utilizar formato no toot. Podes <a href="%{path}">engadir avisos preestablecidos</a> para aforrar tempo
+        text_html: Optativo. Podes utilizar formato no hop. Podes <a href="%{path}">engadir avisos preestablecidos</a> para aforrar tempo
         type_html: Escolle que facer con <strong>%{acct}</strong>
         warning_preset_id: Optativo. Poderás engadir texto personalizado ao final do preestablecido
       announcement:
@@ -20,7 +20,7 @@ gl:
         ends_at: Opcional. O anuncio non se publicará de xeito automático neste intre
         scheduled_at: Déixao baleiro para publicar o anuncio de xeito inmediato
         starts_at: Opcional. No caso de que o teu anuncio estea vinculado a un intre de tempo específico
-        text: Podes empregar a sintaxe do toot. Ten en conta o espazo que ocupará o anuncio na pantalla do usuario
+        text: Podes empregar a sintaxe do hop. Ten en conta o espazo que ocupará o anuncio na pantalla do usuario
       defaults:
         autofollow: As persoas que se conectaron a través dun convite seguirante automáticamente
         avatar: PNG, GIF ou JPG.  Máximo %{size}. Será reducida a %{dimensions}px
@@ -38,7 +38,7 @@ gl:
         locale: O idioma da interface de usuaria, correos e notificacións
         locked: Require que ti aceptes as seguidoras de xeito manual
         password: Utiliza 8 caracteres ao menos
-        phrase: Concordará independentemente das maiúsculas ou avisos de contido no toot
+        phrase: Concordará independentemente das maiúsculas ou avisos de contido no hop
         scopes: A que APIs terá acceso a aplicación. Se escolles un ámbito de alto nivel, non precisas seleccionar elementos individuais.
         setting_aggregate_reblogs: Non mostrar novas promocións de hops que foron promocionados recentemente (só afecta a promocións recén recibidas)
         setting_default_sensitive: Medios sensibles marcados como ocultos por defecto e móstranse cun click
@@ -47,7 +47,7 @@ gl:
         setting_display_media_show_all: Mostrar sempre os medios marcados como sensibles
         setting_hide_network: Non se mostrará no teu perfil quen te segue e a quen estás a seguir
         setting_noindex: Afecta ao teu perfil público e páxinas de estado
-        setting_show_application: A aplicación que estás a utilizar para enviar hops mostrarase na vista detallada do toot
+        setting_show_application: A aplicación que estás a utilizar para enviar hops mostrarase na vista detallada do hop
         setting_use_blurhash: Os gradientes toman as cores da imaxe oculta pero esborranchando todos os detalles
         setting_use_pending_items: Ocultar as actualizacións da liña temporal tras un click no lugar de desprazar automáticamente os comentarios
         username: O teu nome de usuaria será único en %{domain}

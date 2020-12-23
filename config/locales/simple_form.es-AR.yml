@@ -38,7 +38,7 @@ es-AR:
         locale: El idioma de la interface de usuario, correos electrónicos y notificaciones push
         locked: Requiere que manualmente aprobés seguidores
         password: Usá al menos 8 caracteres
-        phrase: Se aplicará sin importar las mayúsculas o las advertencias de contenido de un toot
+        phrase: Se aplicará sin importar las mayúsculas o las advertencias de contenido de un hop
         scopes: Qué APIs de la aplicación tendrán acceso. Si seleccionás el alcance de nivel más alto, no necesitás seleccionar las individuales.
         setting_aggregate_reblogs: No mostrar nuevos retoots de los hops que fueron recientemente retooteados (sólo afecta a los retoots recibidos recientemente)
         setting_default_sensitive: El contenido de medios sensibles está oculto predeterminadamente y puede ser mostrado con un clic
@@ -145,7 +145,7 @@ es-AR:
         setting_default_language: Idioma de tus hops
         setting_default_privacy: Privacidad de hops
         setting_default_sensitive: Siempre marcar medios como sensibles
-        setting_delete_modal: Mostrar diálogo de confirmación antes de eliminar un toot
+        setting_delete_modal: Mostrar diálogo de confirmación antes de eliminar un hop
         setting_disable_swiping: Deshabilitar movimientos de deslizamiento
         setting_display_media: Visualización de medios
         setting_display_media_default: Predeterminada
@@ -189,12 +189,12 @@ es-AR:
         severity: Regla
       notification_emails:
         digest: Enviar correos electrónicos compilatorios
-        favourite: Una cuenta marca tu toot como favorito
+        favourite: Una cuenta marca tu hop como favorito
         follow: Una cuenta te sigue
         follow_request: Una cuenta solicita seguirte
         mention: Una cuenta te menciona
         pending_account: Una nueva cuenta necesita revisión
-        reblog: Una cuenta retootea tu toot
+        reblog: Una cuenta retootea tu hop
         report: Se envía una nueva denuncia
         trending_tag: Una etiqueta no revisada está en tendencia
       tag:

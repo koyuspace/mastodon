@@ -1,7 +1,7 @@
 ---
 id:
   about:
-    about_hashtag_html: Ini adalah toot publik yang ditandai dengan <strong>#%{hashtag}</strong>. Anda bisa berinteraksi dengan mereka jika anda memiliki akun dimanapun di fediverse.
+    about_hashtag_html: Ini adalah hop publik yang ditandai dengan <strong>#%{hashtag}</strong>. Anda bisa berinteraksi dengan mereka jika anda memiliki akun dimanapun di fediverse.
     about_mastodon_html: koyu.space adalah sebuah jejaring sosial <em>terbuka, open-source</em. Sebuah alternatif <em>desentralisasi</em> dari platform komersial, menjauhkan anda resiko dari sebuah perusahaan yang memonopoli komunikasi anda. Pilih server yang anda percayai &mdash; apapun yang anda pilih, anda tetap dapat berinteraksi dengan semua orang. Semua orang dapat menjalankan server koyu.space sendiri dan berpartisipasi dalam <em>jejaring sosial</em> dengan mudah.
     about_this: Tentang server ini
     active_count_after: aktif
@@ -481,11 +481,11 @@ id:
     relays:
       add_new: Tambah relai baru
       delete: Hapus
-      description_html: "<strong>Relai gabungan</strong> adalah server perantara yang menukarkan toot publik dalam jumlah besar antara server yang berlangganan dengan yang menerbitkannya. <strong>Ini akan membantu server kecil hingga medium menemukan konten dari fediverse</strong>, yang tentu saja mengharuskan pengguna lokal untuk mengikuti orang lain dari server remot."
+      description_html: "<strong>Relai gabungan</strong> adalah server perantara yang menukarkan hop publik dalam jumlah besar antara server yang berlangganan dengan yang menerbitkannya. <strong>Ini akan membantu server kecil hingga medium menemukan konten dari fediverse</strong>, yang tentu saja mengharuskan pengguna lokal untuk mengikuti orang lain dari server remot."
       disable: Matikan
       disabled: Dimatikan
       enable: Aktifkan
-      enable_hint: Saat diaktifkan, server Anda akan melanggan semua toot publik dari relai ini, dan akan mengirim toot publik server ini ke sana.
+      enable_hint: Saat diaktifkan, server Anda akan melanggan semua hop publik dari relai ini, dan akan mengirim hop publik server ini ke sana.
       enabled: Diaktifkan
       inbox_url: URL Relai
       pending: Menunggu persetujuan relai
@@ -556,6 +556,7 @@ id:
       domain_blocks_rationale:
         title: Tampilkan alasan
       enable_bootstrap_timeline_accounts:
+        desc_html: Buat pengguna baru mengikuti akun yang sudah dipilih agar beranda mereka tidak kosong
         title: Aktifkan opsi ikuti otomatis untuk pengguna baru
       hero:
         desc_html: Ditampilkan di halaman depan. Direkomendasikan minimal 600x100px. Jika tidak diatur, kembali ke server gambar kecil
@@ -696,7 +697,7 @@ id:
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Siapa saja bisa berkontribusi.
     sensitive_content: Konten sensitif
-    toot_layout: Tata letak toot
+    toot_layout: Tata letak hop
   application_mailer:
     notification_preferences: Ubah pilihan email
     salutation: "%{name},"
@@ -840,7 +841,7 @@ id:
     archive_takeout:
       date: Tanggal
       download: Unduh arsip Anda
-      hint_html: Anda dapat meminta arsip <strong>toot dan media yang Anda unggah</strong>. Data yang terekspor akan berformat ActivityPub, dapat dibaca dengan perangkat lunak yang mendukungnya. Anda dapat meminta arsip akun setiap 7 hari.
+      hint_html: Anda dapat meminta arsip <strong>hop dan media yang Anda unggah</strong>. Data yang terekspor akan berformat ActivityPub, dapat dibaca dengan perangkat lunak yang mendukungnya. Anda dapat meminta arsip akun setiap 7 hari.
       in_progress: Mengompilasi arsip Anda...
       request: Meminta arsip Anda
       size: Ukuran
@@ -905,7 +906,7 @@ id:
     i_am_html: Saya adalah %{username} di %{service}.
     identity: Identitas
     inactive: Tidak aktif
-    publicize_checkbox: 'Dan toot ini:'
+    publicize_checkbox: 'Dan hop ini:'
     publicize_toot: 'Terbukti! Saya adalah %{username} di %{service}: %{url}'
     remove: Hapus bukti dari akun
     removed: Berhasil menghapus bukti dari akun
@@ -1101,16 +1102,16 @@ id:
   remote_interaction:
     favourite:
       proceed: Lanjutkan ke favorit
-      prompt: 'Anda ingin memfavoritkan toot ini:'
+      prompt: 'Anda ingin memfavoritkan hop ini:'
     reblog:
       proceed: Lanjutkan ke boost
-      prompt: 'Anda ingin mem-boost toot ini:'
+      prompt: 'Anda ingin mem-boost hop ini:'
     reply:
       proceed: Lanjutkan ke balasan
-      prompt: 'Anda ingin membalas toot ini:'
+      prompt: 'Anda ingin membalas hop ini:'
   scheduled_statuses:
-    over_daily_limit: Anda telah melampaui batas %{limit} toot terjadwal untuk sehari
-    over_total_limit: Anda telah melampaui batas %{limit} toot terjadwal
+    over_daily_limit: Anda telah melampaui batas %{limit} hop terjadwal untuk sehari
+    over_total_limit: Anda telah melampaui batas %{limit} hop terjadwal
     too_soon: Tanggal terjadwal haruslah pada hari yang akan datang
   sessions:
     activity: Aktivitas terakhir
@@ -1196,7 +1197,7 @@ id:
     open_in_web: Buka di web
     over_character_limit: melebihi %{max} karakter
     pin_errors:
-      limit: Anda sudah mencapai jumlah maksimum toot yang dapat disematkan
+      limit: Anda sudah mencapai jumlah maksimum hop yang dapat disematkan
       ownership: Hop orang lain tidak bisa disematkan
       private: Hop privat tidak bisa disematkan
       reblog: Boost tidak bisa disematkan
@@ -1346,8 +1347,8 @@ id:
       explanation:
         disable: Saat akun Anda beku, data Anda tetap utuh. Anda tidak akan dapat melakukan apa-apa sampai akun Anda tidak lagi dikunci.
         sensitive: Berkas media dan media tertaut yang Anda unggah akan dianggap sebagai sensitif.
-        silence: Saat akun Anda dibatasi, hanya akun yang Anda ikuti yang dapat melihat toot Anda di server ini. Akun Anda mungkin akan dikecualikan dari daftar publik. Akun lain dapat mengikuti akun Anda secara manual.
-        suspend: Akun Anda telah ditangguhkan. Semua toot dan media yang Anda unggah dihapus secara permanen dari server ini, dan server tempat Anda memiliki pengikut.
+        silence: Saat akun Anda dibatasi, hanya akun yang Anda ikuti yang dapat melihat hop Anda di server ini. Akun Anda mungkin akan dikecualikan dari daftar publik. Akun lain dapat mengikuti akun Anda secara manual.
+        suspend: Akun Anda telah ditangguhkan. Semua hop dan media yang Anda unggah dihapus secara permanen dari server ini, dan server tempat Anda memiliki pengikut.
       get_in_touch: Anda dapat membalas email ini untuk menghubungi pengurus %{instance}.
       review_server_policies: Tinjau kebijakan server
       statuses: 'Khususnya untuk:'

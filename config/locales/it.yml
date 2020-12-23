@@ -1,7 +1,7 @@
 ---
 it:
   about:
-    about_hashtag_html: Questi sono i toot pubblici etichettati con <strong>#%{hashtag}</strong>. Puoi interagire con loro se hai un account nel fediverse.
+    about_hashtag_html: Questi sono i hop pubblici etichettati con <strong>#%{hashtag}</strong>. Puoi interagire con loro se hai un account nel fediverse.
     about_mastodon_html: 'Il social network del futuro: niente pubblicità, niente controllo da parte di qualche azienda privata, design etico e decentralizzazione! Con koyu.space il proprietario dei tuoi dati sei tu!'
     about_this: A proposito di questo server
     active_count_after: attivo
@@ -489,11 +489,11 @@ it:
     relays:
       add_new: Aggiungi ripetitore
       delete: Cancella
-      description_html: Un <strong>ripetitore di federazione</strong> è un server che fa da intermediario e scambia grandi quantità di toot pubblici tra server che si collegano e pubblicano su di esso. <strong>Può aiutare server piccoli e medi a ottenere contenuti dal fediverse</strong>, che altrimenti riceverebbero solo se i loro utenti locali seguissero altre persone su server remoti.
+      description_html: Un <strong>ripetitore di federazione</strong> è un server che fa da intermediario e scambia grandi quantità di hop pubblici tra server che si collegano e pubblicano su di esso. <strong>Può aiutare server piccoli e medi a ottenere contenuti dal fediverse</strong>, che altrimenti riceverebbero solo se i loro utenti locali seguissero altre persone su server remoti.
       disable: Disabilita
       disabled: Disabilitato
       enable: Abilita
-      enable_hint: Dopo l'attivazione, il vostro server riceverà tutti i toot pubblici da questo ripetitore, e inizierà a inviargli i suoi toot pubblici.
+      enable_hint: Dopo l'attivazione, il vostro server riceverà tutti i hop pubblici da questo ripetitore, e inizierà a inviargli i suoi hop pubblici.
       enabled: Abilitato
       inbox_url: Url Relay
       pending: In attesa dell'approvazione del ripetitore
@@ -566,6 +566,7 @@ it:
       domain_blocks_rationale:
         title: Mostra motivazione
       enable_bootstrap_timeline_accounts:
+        desc_html: I nuovi utenti seguiranno automaticamente gli account configurati, in modo che il loro home feed all'inizio non sia vuoto
         title: Abilita seguiti predefiniti per i nuovi utenti
       hero:
         desc_html: Mostrata nella pagina iniziale. Almeno 600x100 px consigliati. Se non impostata, sarà usato il thumbnail del server
@@ -602,7 +603,7 @@ it:
           open: Chiunque può iscriversi
         title: Modalità di registrazione
       show_known_fediverse_at_about_page:
-        desc_html: Quando attivato, mostra nell'anteprima i toot da tutte le istanze conosciute. Altrimenti mostra solo i toot locali.
+        desc_html: Quando attivato, mostra nell'anteprima i hop da tutte le istanze conosciute. Altrimenti mostra solo i hop locali.
         title: Mostra la fediverse conosciuta nell'anteprima della timeline
       show_staff_badge:
         desc_html: Mostra un distintivo dello staff sulla pagina dell'utente
@@ -708,7 +709,7 @@ it:
       guide_link: https://it.crowdin.com/project/mastodon
       guide_link_text: Tutti possono contribuire.
     sensitive_content: Contenuto sensibile
-    toot_layout: Layout dei toot
+    toot_layout: Layout dei hop
   application_mailer:
     notification_preferences: Cambia preferenze email
     salutation: "%{name},"
@@ -852,7 +853,7 @@ it:
     archive_takeout:
       date: Data
       download: Scarica il tuo archivio
-      hint_html: Puoi richiedere un archivio dei tuoi <strong>toot e media caricati</strong>. I dati esportati sono in formato ActivityPub, leggibili da qualunque software che segue questo standard. Puoi richiedere un archivio ogni 7 giorni.
+      hint_html: Puoi richiedere un archivio dei tuoi <strong>hop e media caricati</strong>. I dati esportati sono in formato ActivityPub, leggibili da qualunque software che segue questo standard. Puoi richiedere un archivio ogni 7 giorni.
       in_progress: Creazione archivio...
       request: Chiedi il tuo archivio
       size: Dimensioni
@@ -1117,16 +1118,16 @@ it:
   remote_interaction:
     favourite:
       proceed: Continua per segnare come apprezzato
-      prompt: 'Vuoi segnare questo toot come apprezzato:'
+      prompt: 'Vuoi segnare questo hop come apprezzato:'
     reblog:
       proceed: Continua per condividere
-      prompt: 'Vuoi condividere questo toot:'
+      prompt: 'Vuoi condividere questo hop:'
     reply:
       proceed: Continua per rispondere
-      prompt: 'Vuoi rispondere a questo toot:'
+      prompt: 'Vuoi rispondere a questo hop:'
   scheduled_statuses:
-    over_daily_limit: Hai superato il limite di %{limit} toot programmati per questo giorno
-    over_total_limit: Hai superato il limite di %{limit} toot programmati
+    over_daily_limit: Hai superato il limite di %{limit} hop programmati per questo giorno
+    over_total_limit: Hai superato il limite di %{limit} hop programmati
     too_soon: La data di pubblicazione deve essere nel futuro
   sessions:
     activity: Ultima attività
@@ -1216,10 +1217,10 @@ it:
     open_in_web: Apri sul Web
     over_character_limit: Limite caratteri superato di %{max}
     pin_errors:
-      limit: Hai già fissato in cima il massimo numero di toot
-      ownership: Non puoi fissare in cima un toot di qualcun altro
-      private: Un toot non pubblico non può essere fissato in cima
-      reblog: Un toot condiviso non può essere fissato in cima
+      limit: Hai già fissato in cima il massimo numero di hop
+      ownership: Non puoi fissare in cima un hop di qualcun altro
+      private: Un hop non pubblico non può essere fissato in cima
+      reblog: Un hop condiviso non può essere fissato in cima
     poll:
       total_people:
         one: "%{count} persona"
@@ -1371,8 +1372,8 @@ it:
       explanation:
         disable: Mentre il tuo account è congelato, i tuoi dati dell'account rimangono intatti, ma non potrai eseguire nessuna azione fintanto che non viene sbloccato.
         sensitive: I tuoi file multimediali caricati e multimedia collegati saranno trattati come sensibili.
-        silence: Mentre il tuo account è limitato, solo le persone che già ti seguono possono vedere i tuoi toot su questo server, e potresti essere escluso da vari elenchi pubblici. Comunque, altri possono manualmente seguirti.
-        suspend: Il tuo account è stato sospeso, e tutti i tuoi toot ed i tuoi file media caricati sono stati irreversibilmente rimossi da questo server, e dai server dove avevi dei seguaci.
+        silence: Mentre il tuo account è limitato, solo le persone che già ti seguono possono vedere i tuoi hop su questo server, e potresti essere escluso da vari elenchi pubblici. Comunque, altri possono manualmente seguirti.
+        suspend: Il tuo account è stato sospeso, e tutti i tuoi hop ed i tuoi file media caricati sono stati irreversibilmente rimossi da questo server, e dai server dove avevi dei seguaci.
       get_in_touch: Puoi rispondere a questa email per entrare in contatto con lo staff di %{instance}.
       review_server_policies: Rivedi regole del server
       statuses: 'Nello specifico, per:'

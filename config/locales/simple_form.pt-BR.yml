@@ -7,12 +7,12 @@ pt-BR:
       account_migration:
         acct: Especifique o usuário@domínio da conta para a qual você deseja se mudar
       account_warning_preset:
-        text: Você pode usar a sintaxe do toot, como links, hashtags e menções
+        text: Você pode usar a sintaxe do hop, como links, hashtags e menções
         title: Opcional. Não visível para o destinatário
       admin_account_action:
         include_statuses: O usuário verá quais hops causaram o aviso ou ação da moderação
         send_email_notification: O usuário receberá uma explicação do que aconteceu com a própria conta
-        text_html: Opcional. Você pode usar a sintaxe do toot e também pode <a href="%{path}">adicionar avisos pré-definidos</a> para poupar tempo
+        text_html: Opcional. Você pode usar a sintaxe do hop e também pode <a href="%{path}">adicionar avisos pré-definidos</a> para poupar tempo
         type_html: Decida o que fazer com <strong>%{acct}</strong>
         warning_preset_id: Opcional. Você ainda pode adicionar texto personalizado no final do aviso pré-definido
       announcement:
@@ -20,7 +20,7 @@ pt-BR:
         ends_at: Opcional. O anúncio será automaticamente não publicado no momento
         scheduled_at: Deixe em branco para publicar o anúncio imediatamente
         starts_at: Opcional. Caso seu anúncio esteja vinculado a um período específico
-        text: Você pode usar a sintaxe toot. Esteja ciente do espaço que o anúncio ocupará na tela do usuário
+        text: Você pode usar a sintaxe hop. Esteja ciente do espaço que o anúncio ocupará na tela do usuário
       defaults:
         autofollow: Pessoas que criarem conta através de seu convite te seguirão automaticamente
         avatar: PNG, GIF or JPG. Arquivos de até %{size}. Serão redimensionados para %{dimensions}px
@@ -38,7 +38,7 @@ pt-BR:
         locale: O idioma da interface do usuário, e-mails e notificações
         locked: Requer aprovação manual de seguidores
         password: Use pelo menos 8 caracteres
-        phrase: Corresponderá independente de maiúsculas ou minúsculas, no texto ou no aviso de conteúdo de um toot
+        phrase: Corresponderá independente de maiúsculas ou minúsculas, no texto ou no aviso de conteúdo de um hop
         scopes: Quais APIs o aplicativo vai ter permissão de acessar. Se você selecionar uma autorização de alto nível, você não precisa selecionar individualmente os outros.
         setting_aggregate_reblogs: Não mostra novos boosts para hops que receberam boost recentemente (afeta somente os boosts mais recentes)
         setting_default_sensitive: Mídia sensível está oculta por padrão e pode ser revelada com um clique
@@ -145,7 +145,7 @@ pt-BR:
         setting_default_language: Idioma dos hops
         setting_default_privacy: Privacidade dos hops
         setting_default_sensitive: Sempre marcar mídia como sensível
-        setting_delete_modal: Solicitar confirmação antes de excluir toot
+        setting_delete_modal: Solicitar confirmação antes de excluir hop
         setting_disable_swiping: Desabilitar movimentos deslizantes
         setting_display_media: Exibição das mídias
         setting_display_media_default: Padrão

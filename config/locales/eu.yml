@@ -1,7 +1,7 @@
 ---
 eu:
   about:
-    about_hashtag_html: Hauek  <strong>#%{hashtag}</strong> traola duten toot publikoak dira. Fedibertsoko edozein kontu baduzu harremanetan jarri zaitezke.
+    about_hashtag_html: Hauek  <strong>#%{hashtag}</strong> traola duten hop publikoak dira. Fedibertsoko edozein kontu baduzu harremanetan jarri zaitezke.
     about_mastodon_html: koyu.space web protokolo ireki eta libreak darabiltzan gizarte sare bat da. E-mail sarea bezala deszentralizatua da.
     about_this: Honi buruz
     active_count_after: aktibo
@@ -423,11 +423,11 @@ eu:
     relays:
       add_new: Gehitu hari errelea
       delete: Ezabatu
-      description_html: "<strong>Federazio errele</strong> bat zerbitzari tartekari bat da, bertara harpidetutako eta bertan argitaratzen duten zerbitzarien artean toot publiko kopuru handiak banatzen ditu. <strong>Zerbitzari txiki eta ertainei Fedibertsoko edukia aurkitzen laguntzen die</strong>, bestela erabiltzaile lokalek eskuz jarraitu beharko lituzkete urruneko zerbitzarietako erabiltzaileak."
+      description_html: "<strong>Federazio errele</strong> bat zerbitzari tartekari bat da, bertara harpidetutako eta bertan argitaratzen duten zerbitzarien artean hop publiko kopuru handiak banatzen ditu. <strong>Zerbitzari txiki eta ertainei Fedibertsoko edukia aurkitzen laguntzen die</strong>, bestela erabiltzaile lokalek eskuz jarraitu beharko lituzkete urruneko zerbitzarietako erabiltzaileak."
       disable: Desgaitu
       disabled: Desgaituta
       enable: Gaitu
-      enable_hint: Behin gaituta, zure zerbitzaria errele honetako toot publiko guztietara harpidetuko da, eta zerbitzari honetako toot publikoak errelera bidaltzen hasiko da.
+      enable_hint: Behin gaituta, zure zerbitzaria errele honetako hop publiko guztietara harpidetuko da, eta zerbitzari honetako hop publikoak errelera bidaltzen hasiko da.
       enabled: Gaituta
       inbox_url: Errelearen URLa
       pending: Erreleak onartzearen zain
@@ -531,7 +531,7 @@ eu:
           open: Edonork eman dezake izena
         title: Erregistratzeko modua
       show_known_fediverse_at_about_page:
-        desc_html: Txandakatzean, fedibertso ezagun osoko tootak bistaratuko ditu aurrebistan. Bestela, toot lokalak besterik ez ditu erakutsiko
+        desc_html: Txandakatzean, fedibertso ezagun osoko tootak bistaratuko ditu aurrebistan. Bestela, hop lokalak besterik ez ditu erakutsiko
         title: Erakutsi fedibertsu ezagun osoko denbora-lerroa aurrebistan
       show_staff_badge:
         desc_html: Erakutsi langile banda erabiltzailearen orrian
@@ -769,7 +769,7 @@ eu:
     archive_takeout:
       date: Data
       download: Deskargatu zure artxiboa
-      hint_html: Zure <strong>toot eta igotako multimedia</strong>ren artxibo bat eskatu dezakezu. Esportatutako datuak ActivityPub formatua izango dute, bateragarria den edozein programarekin irakurtzeko. Artxiboa 7 egunetan behin eska dezakezu.
+      hint_html: Zure <strong>hop eta igotako multimedia</strong>ren artxibo bat eskatu dezakezu. Esportatutako datuak ActivityPub formatua izango dute, bateragarria den edozein programarekin irakurtzeko. Artxiboa 7 egunetan behin eska dezakezu.
       in_progress: Zure artxiboa biltzen...
       request: Eskatu zure artxiboa
       size: Tamaina
@@ -834,7 +834,7 @@ eu:
     i_am_html: "%{username} erabiltzailea naiz %{service} zerbitzuan."
     identity: Identitatea
     inactive: Ez aktiboa
-    publicize_checkbox: 'Eta bidali toot hau:'
+    publicize_checkbox: 'Eta bidali hop hau:'
     publicize_toot: 'Frogatua dago! %{username} erabiltzailea naiz %{service} zerbitzuan: %{url}'
     remove: Kendu froga kontutik
     removed: Ongi kendu da froga kontutik
@@ -1024,8 +1024,8 @@ eu:
       proceed: Ekin erantzuteari
       prompt: 'Hop honi erantzun nahi diozu:'
   scheduled_statuses:
-    over_daily_limit: Egun horretarako programatutako toot kopuruaren muga gainditu duzu (%{limit})
-    over_total_limit: Programatutako toot kopuruaren muga gainditu duzu (%{limit})
+    over_daily_limit: Egun horretarako programatutako hop kopuruaren muga gainditu duzu (%{limit})
+    over_total_limit: Programatutako hop kopuruaren muga gainditu duzu (%{limit})
     too_soon: Programatutako data etorkizunean egon behar du
   sessions:
     activity: Azken jarduera
@@ -1111,8 +1111,8 @@ eu:
     open_in_web: Ireki web-ean
     over_character_limit: "%{max}eko karaktere muga gaindituta"
     pin_errors:
-      limit: Gehienez finkatu daitekeen toot kopurua finkatu duzu jada
-      ownership: Ezin duzu beste norbaiten toot bat finkatu
+      limit: Gehienez finkatu daitekeen hop kopurua finkatu duzu jada
+      ownership: Ezin duzu beste norbaiten hop bat finkatu
       private: Ezin dira publikoak ez diren tootak finkatu
       reblog: Bultzada bat ezin da finkatu
     poll:
@@ -1249,7 +1249,7 @@ eu:
       explanation:
         disable: Zure kontua izoztuta dagoen bitartean, zure kontua bere horretan dirau, baina ezin duzu ekintzarik burutu desblokeatzen den arte.
         silence: Zure kontua murriztua dagoen bitartean, jada zu jarraitzen zaituztenak besterik ez dituzte zure tootak ikusiko zerbitzari honetan, eta agian zerrenda publikoetatik kenduko zaizu. Hala ere besteek oraindik zu jarraitu zaitzakete.
-        suspend: Zure kontua kanporatua izan da, zure toot guztiak eta multimedia fitxategiak behin betiko ezabatu dira zerbitzari honetatik, eta zure jarraitzaileen zerbitzarietatik.
+        suspend: Zure kontua kanporatua izan da, zure hop guztiak eta multimedia fitxategiak behin betiko ezabatu dira zerbitzari honetatik, eta zure jarraitzaileen zerbitzarietatik.
       get_in_touch: "%{instance} instantziako jendearekin harremanetan jartzeko e-mail honi erantzun ahal diozu."
       review_server_policies: Berrikusi zerbitzariko politikak
       statuses: 'Zehazki, honentzat:'

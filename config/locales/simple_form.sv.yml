@@ -12,7 +12,7 @@ sv:
       admin_account_action:
         include_statuses: Användaren ser de hops som orsakat moderering eller varning
         send_email_notification: Användaren kommer att få en förklaring av vad som hände med sitt konto
-        text_html: Extra. Du kan använda toot syntax. Du kan <a href="%{path}">lägga till förvalda varningar</a> för att spara tid
+        text_html: Extra. Du kan använda hop syntax. Du kan <a href="%{path}">lägga till förvalda varningar</a> för att spara tid
         type_html: Välj vad du vill göra med <strong>%{acct}</strong>
         warning_preset_id: Extra. Du kan lägga till valfri text i slutet av förinställningen
       announcement:
@@ -88,7 +88,7 @@ sv:
         setting_default_language: Språk
         setting_default_privacy: Postintegritet
         setting_default_sensitive: Markera alltid media som känsligt
-        setting_delete_modal: Visa bekräftelsedialog innan du raderar en toot
+        setting_delete_modal: Visa bekräftelsedialog innan du raderar en hop
         setting_disable_swiping: Inaktivera svepande rörelser
         setting_display_media: Mediavisning
         setting_display_media_default: Standard

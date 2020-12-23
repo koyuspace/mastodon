@@ -1,7 +1,7 @@
 ---
 ms:
   about:
-    about_hashtag_html: Terdapat toot awam yang ditanda dengan <strong>#%{hashtag}</strong>. Anda boleh berinteraksi dengan mereka jika anda mempunyai akaun di mana-mana dunia persekutuan koyu.space.
+    about_hashtag_html: Terdapat hop awam yang ditanda dengan <strong>#%{hashtag}</strong>. Anda boleh berinteraksi dengan mereka jika anda mempunyai akaun di mana-mana dunia persekutuan koyu.space.
     about_mastodon_html: koyu.space ialah rangkaian sosial berasaskan protokol web terbuka dan perisian percuma bersumber terbuka. Ianya tak terpusat seperti emel.
     about_this: Mengenai Kami
     administered_by: 'Ditadbir oleh:'
@@ -256,11 +256,11 @@ ms:
     relays:
       add_new: Tambah geganti baru
       delete: Padam
-      description_html: "<strong>Geganti persekutuan</strong> ialah pelayan perantara yang saling menukar toot awam dalam jumlah yang banyak di antara pelayan yang melanggan ia dan menerbitkan kepada ia. <strong>Ia boleh bantu pelayan kecil dan sederhana untuk menemui kandungan daripada dunia persekutuan koyu.space</strong>, yang mana jika tidak digunakan akan memerlukan pengguna tempatan mengikut orang lain di pelayan jarak jauh secara manual."
+      description_html: "<strong>Geganti persekutuan</strong> ialah pelayan perantara yang saling menukar hop awam dalam jumlah yang banyak di antara pelayan yang melanggan ia dan menerbitkan kepada ia. <strong>Ia boleh bantu pelayan kecil dan sederhana untuk menemui kandungan daripada dunia persekutuan koyu.space</strong>, yang mana jika tidak digunakan akan memerlukan pengguna tempatan mengikut orang lain di pelayan jarak jauh secara manual."
       disable: Lumpuhkan
       disabled: Dilumpuhkan
       enable: Bolehkan
-      enable_hint: Apabila dibolehkan, pelayan anda akan melanggan kesemua toot awam daripada geganti ini, dan akan mula menghantar toot awam pelayan ini kepada ia.
+      enable_hint: Apabila dibolehkan, pelayan anda akan melanggan kesemua hop awam daripada geganti ini, dan akan mula menghantar hop awam pelayan ini kepada ia.
       enabled: Dibolehkan
       inbox_url: URL geganti
       pending: Menunggu persetujuan geganti

@@ -20,7 +20,7 @@ pt-PT:
         ends_at: Opcional. O anúncio será automaticamente retirado de exibição neste momento
         scheduled_at: Deixe em branco para publicar o anúncio imediatamente
         starts_at: Opcional. Caso o seu anúncio seja vinculado a um intervalo de tempo específico
-        text: Pode utilizar a sintaxe dos toot. Por favor, tenha em consideração o espaço que o anúncio ocupará no ecrã do utilizador
+        text: Pode utilizar a sintaxe dos hop. Por favor, tenha em consideração o espaço que o anúncio ocupará no ecrã do utilizador
       defaults:
         autofollow: As pessoas que aderem através do convite seguir-te-ão automaticamente
         avatar: PNG, GIF or JPG. Arquivos até %{size}. Vão ser reduzidos para %{dimensions}px
