@@ -861,9 +861,9 @@ sv:
     open_in_web: Öppna på webben
     over_character_limit: teckengräns på %{max} har överskridits
     pin_errors:
-      limit: Du har redan fäst det maximala antalet toots
-      ownership: Någon annans toot kan inte fästas
-      private: Icke-offentliga toot kan inte fästas
+      limit: Du har redan fäst det maximala antalet hops
+      ownership: Någon annans hop kan inte fästas
+      private: Icke-offentliga hop kan inte fästas
       reblog: Knuffar kan inte fästas
     show_more: Visa mer
     show_thread: Visa tråd
@@ -875,7 +875,7 @@ sv:
       unlisted: Olistade
       unlisted_long: Alla kan se, men listas inte på offentliga tidslinjer
   stream_entries:
-    pinned: Fäst toot
+    pinned: Fäst hop
     reblogged: boostad
     sensitive_content: Känsligt innehåll
   terms:

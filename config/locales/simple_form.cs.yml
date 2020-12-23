@@ -170,12 +170,12 @@ cs:
         text: Proč se chcete připojit?
       notification_emails:
         digest: Posílat e-maily s přehledem
-        favourite: Poslat e-mail, když si někdo oblíbí váš toot
+        favourite: Poslat e-mail, když si někdo oblíbí váš hop
         follow: Poslat e-mail, když vás někdo začne sledovat
         follow_request: Poslat e-mail, když vás někdo požádá o sledování
         mention: Poslat e-mail, když vás někdo zmíní
         pending_account: Poslat e-mail, když je třeba posoudit nový účet
-        reblog: Poslat e-mail, když někdo boostne váš toot
+        reblog: Poslat e-mail, když někdo boostne váš hop
         report: Poslat e-mail, je-li nahlášeno něco nového
         trending_tag: Poslat e-mail, když se neschválený hashtag stane populárním
       tag:

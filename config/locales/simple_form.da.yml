@@ -55,7 +55,7 @@ da:
       account_warning_preset:
         title: Titel
       admin_account_action:
-        include_statuses: Inkluder rapporteret toot i email
+        include_statuses: Inkluder rapporteret hop i email
         send_email_notification: Underret brugeren per email
         text: Tilpasset advarsel
         type: Handling

@@ -47,7 +47,7 @@ nl:
         setting_display_media_show_all: Media altijd tonen
         setting_hide_network: Wie jij volgt en wie jou volgen wordt niet op jouw profiel getoond
         setting_noindex: Heeft invloed op jouw openbare profiel en hops
-        setting_show_application: De toepassing de je gebruikt om te tooten wordt in de gedetailleerde weergave van de toot getoond
+        setting_show_application: De toepassing de je gebruikt om te tooten wordt in de gedetailleerde weergave van de hop getoond
         setting_use_blurhash: Wazige kleurovergangen zijn gebaseerd op de kleuren van de verborgen media, waarmee elk detail verdwijnt
         setting_use_pending_items: De tijdlijn wordt bijgewerkt door op het aantal nieuwe items te klikken, in plaats van dat deze automatisch wordt bijgewerkt
         username: Jouw gebruikersnaam is uniek op %{domain}
@@ -121,6 +121,7 @@ nl:
         expires_in: Vervalt na
         fields: Metadata profiel
         header: Omslagfoto
+        honeypot: "%{label} (niet invullen)"
         inbox_url: Inbox-URL van de relayserver
         irreversible: Verwijderen in plaats van verbergen
         locale: Taal van de gebruikersomgeving
@@ -134,12 +135,12 @@ nl:
         setting_advanced_layout: Geavanceerde webomgeving inschakelen
         setting_aggregate_reblogs: Boosts in tijdlijnen groeperen
         setting_auto_play_gif: Speel geanimeerde GIF's automatisch af
-        setting_boost_modal: Vraag voor het boosten van een toot een bevestiging
+        setting_boost_modal: Vraag voor het boosten van een hop een bevestiging
         setting_crop_images: Afbeeldingen tot 16x9 besnijden in niet uitgebreide hops
         setting_default_language: Taal van jouw hops
         setting_default_privacy: Standaardzichtbaarheid van jouw hops
         setting_default_sensitive: Media altijd als gevoelig markeren
-        setting_delete_modal: Vraag voor het verwijderen van een toot een bevestiging
+        setting_delete_modal: Vraag voor het verwijderen van een hop een bevestiging
         setting_disable_swiping: Swipebewegingen uitschakelen
         setting_display_media: Mediaweergave
         setting_display_media_default: Standaard
@@ -173,7 +174,7 @@ nl:
       invite:
         comment: Opmerking
       invite_request:
-        text: Waarom wil jij je aanmelden?
+        text: Waarom wil je je hier registreren?
       ip_block:
         comment: Opmerking
         ip: IP
@@ -183,12 +184,12 @@ nl:
         severity: Regel
       notification_emails:
         digest: Periodiek e-mails met een samenvatting versturen
-        favourite: Wanneer iemand jouw toot aan hun favorieten heeft toegevoegd
+        favourite: Wanneer iemand jouw hop aan hun favorieten heeft toegevoegd
         follow: Wanneer iemand jou is gaan volgen
         follow_request: Wanneer iemand jou wil volgen
         mention: Wanneer iemand jou heeft vermeld
         pending_account: Wanneer een nieuw account moet worden beoordeeld
-        reblog: Wanneer iemand jouw toot heeft geboost
+        reblog: Wanneer iemand jouw hop heeft geboost
         report: Bij het indienen van een nieuwe rapportage
         trending_tag: Wanneer een nog niet beoordeelde hashtag trending is
       tag:
