@@ -44,6 +44,20 @@
               = t('about.get_apps')
               %small= t('about.apps_platforms')
 
+        .directory__tag
+          = link_to 'https://t.me/koyuspace', rel: 'noopener noreferrer' do
+            %h4
+              = fa_icon 'paper-plane fw'
+              = t('about.telegram')
+              %small= t('about.telegram_description')
+
+        .directory__tag
+          = link_to 'https://shop.koyu.space/product/sponsorship/', rel: 'noopener noreferrer' do
+            %h4
+              = fa_icon 'usd fw'
+              = t('about.donate')
+              %small= t('about.donate_description')
+
     .landing__grid__column.landing__grid__column-login
       .box-widget
         = render 'login'
