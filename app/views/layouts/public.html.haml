@@ -13,6 +13,7 @@
             - unless whitelist_mode?
               = link_to t('directories.directory'), explore_path, class: 'nav-link optional' if Setting.profile_directory
               = link_to t('about.about_this'), about_more_path, class: 'nav-link optional'
+              = link_to t('about.apps'), '/apps', class: 'nav-link optional'
 
           .nav-center
 

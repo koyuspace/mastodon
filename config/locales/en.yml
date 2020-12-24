@@ -27,10 +27,10 @@ en:
     learn_more: Learn more
     privacy_policy: Privacy policy
     see_whats_happening: See what's happening
-    telegram: "Join our Telegram channel and/or group"
-    telegram_description: "This way you'll get up-to-date news about downtimes right to your Telegram client and chat beyond koyu.space."
+    telegram: "Join our Telegram"
+    telegram_description: "Chat beyond koyu.space on Telegram"
     donate: "Go Pro!"
-    donate_description: "Get a colorfoul display-name and much more perks while supporting koyu.space"
+    donate_description: "Get a colourful display name and more!"
     server_stats: 'Server stats:'
     source_code: Source code
     status_count_after:
