@@ -35,6 +35,11 @@
     -# Add Plausible
     <script async defer data-domain="koyu.space" src="https://stats.koyu.space/js/plausible.js"></script>
 
+    -# If it's winter then show snow
+    - if(Date.today.month == 12 || Date.today.month == 1)
+      <script src="/snow.js"></script>
+
+
     = yield :header_tags
 
     -#  These must come after :header_tags to ensure our initial state has been defined.
