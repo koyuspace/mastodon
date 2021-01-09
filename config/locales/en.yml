@@ -27,8 +27,8 @@ en:
     learn_more: Learn more
     privacy_policy: Privacy policy
     see_whats_happening: See what's happening
-    telegram: "Join our Telegram"
-    telegram_description: "Chat beyond koyu.space on Telegram"
+    signal: "Join our Signal group"
+    signal_description: "Chat beyond koyu.space on Signal"
     donate: "Go Pro!"
     donate_description: "Get a colourful display name and more!"
     server_stats: 'Server stats:'
