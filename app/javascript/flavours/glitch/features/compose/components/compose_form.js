@@ -360,6 +360,8 @@ class ComposeForm extends ImmutablePureComponent {
           privacy={privacy}
           sideArm={sideArm}
         />
+
+        <div id="motd"></div>
       </div>
     );
   }
