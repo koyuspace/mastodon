@@ -182,7 +182,6 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             <ColumnSubheading text={intl.formatMessage(messages.misc)} />
             <a className='column-link' href='/about' target='_blank'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
             <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
-            <a className='column-link' href='https://discuss.koyu.space' target='_blank'><Icon className='column-link__icon' id='book' fixedWidth /><FormattedMessage id='navigation_bar.discuss' defaultMessage='koyu.space Discuss' /></a>
           </div>
 
           <LinkFooter />
