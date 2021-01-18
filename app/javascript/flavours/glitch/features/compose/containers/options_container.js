@@ -52,7 +52,11 @@ const mapDispatchToProps = (dispatch) => ({
 
   onEmbedJitsi() {
     var x = Math.floor((Math.random() * 10000000000000000) + 1);
-    dispatch(changeCompose("https://jitsi.koyu.space//"+x));
+    dispatch(changeCompose("https://meet.jit.si//"+x));
+  },
+
+  onEmbedGiphy() {
+    dispatch(openModal('GIPHY', { noEsc: true }));
   },
 
   onModalClose() {

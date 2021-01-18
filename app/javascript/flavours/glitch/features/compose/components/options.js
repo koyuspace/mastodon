@@ -49,6 +49,10 @@ const messages = defineMessages({
     defaultMessage: 'Start call',
     id: 'compose.attach.jitsi',
   },
+  gif: {
+    defaultMessage: 'Embed GIF',
+    id: 'compose.attach.gif',
+  },
   html: {
     defaultMessage: 'HTML',
     id: 'compose.content-type.html',
@@ -137,6 +141,7 @@ class ComposerOptions extends ImmutablePureComponent {
     onTogglePoll: PropTypes.func,
     onDoodleOpen: PropTypes.func,
     onEmbedJitsi: PropTypes.func,
+    onEmbedGiphy: PropTypes.func,
     onModalClose: PropTypes.func,
     onModalOpen: PropTypes.func,
     onToggleSpoiler: PropTypes.func,
@@ -159,7 +164,7 @@ class ComposerOptions extends ImmutablePureComponent {
   //  Handles attachment clicks.
   handleClickAttach = (name) => {
     const { fileElement } = this;
-    const { onDoodleOpen, onEmbedJitsi } = this.props;
+    const { onDoodleOpen, onEmbedJitsi, onEmbedGiphy } = this.props;
 
     //  We switch over the name of the option.
     switch (name) {
@@ -176,6 +181,11 @@ class ComposerOptions extends ImmutablePureComponent {
     case 'jitsi':
       if (onEmbedJitsi) {
         onEmbedJitsi();
+      }
+      return;
+    case 'gif':
+      if (onEmbedGiphy) {
+        onEmbedGiphy();
       }
       return;
     }
@@ -290,6 +300,11 @@ class ComposerOptions extends ImmutablePureComponent {
               name: 'jitsi',
               text: <FormattedMessage {...messages.jitsi} />,
             },
+            {
+              icon: 'file-image-o',
+              name: 'gif',
+              text: <FormattedMessage {...messages.gif} />,
+            }
           ]}
           onChange={this.handleClickAttach}
           onModalClose={onModalClose}

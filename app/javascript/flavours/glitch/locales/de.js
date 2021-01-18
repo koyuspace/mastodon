@@ -57,6 +57,7 @@ const messages = {
   'compose.attach.upload': 'Datei hochladen',
   'compose.attach.doodle': 'Etwas malen',
   'compose.attach.jitsi': 'Anruf starten',
+  'compose.attach.gif': 'GIF anhängen',
   'compose.attach': 'Hochladen...',
 
   'advanced_options.local-only.short': 'Nur lokal',
