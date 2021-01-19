@@ -19,6 +19,7 @@ const messages = defineMessages({
   close: { id: 'video.close', defaultMessage: 'Close video' },
   fullscreen: { id: 'video.fullscreen', defaultMessage: 'Full screen' },
   exit_fullscreen: { id: 'video.exit_fullscreen', defaultMessage: 'Exit full screen' },
+  download: { id: 'video.download', defaultMessage: 'Download file' },
 });
 
 export const formatTime = secondsNum => {
@@ -674,6 +675,7 @@ class Video extends React.PureComponent {
               {(!onCloseVideo && !editable && !fullscreen && !this.props.alwaysVisible) && <button type='button' title={intl.formatMessage(messages.hide)} aria-label={intl.formatMessage(messages.hide)} className='player-button' onClick={this.toggleReveal}><Icon id='eye-slash' fixedWidth /></button>}
               {(!fullscreen && onOpenVideo) && <button type='button' title={intl.formatMessage(messages.expand)} aria-label={intl.formatMessage(messages.expand)} className='player-button' onClick={this.handleOpenVideo}><Icon id='expand' fixedWidth /></button>}
               {onCloseVideo && <button type='button' title={intl.formatMessage(messages.close)} aria-label={intl.formatMessage(messages.close)} className='player-button' onClick={this.handleCloseVideo}><Icon id='compress' fixedWidth /></button>}
+              <button type='button' title={intl.formatMessage(messages.download)} aria-label={intl.formatMessage(messages.download)} className='player-button'><a className='video-player__download__icon' href={this.props.src} download><Icon id={'download'} fixedWidth /></a></button>
               <button type='button' title={intl.formatMessage(fullscreen ? messages.exit_fullscreen : messages.fullscreen)} aria-label={intl.formatMessage(fullscreen ? messages.exit_fullscreen : messages.fullscreen)} className='player-button' onClick={this.toggleFullscreen}><Icon id={fullscreen ? 'compress' : 'arrows-alt'} fixedWidth /></button>
             </div>
           </div>
