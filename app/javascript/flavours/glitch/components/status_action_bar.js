@@ -194,7 +194,7 @@ class StatusActionBar extends ImmutablePureComponent {
   handleTranslateClick = () => {
     var userLang = navigator.language || navigator.userLanguage;
     userLang = userLang.split("-")[0];
-    var html = this.props.status.get('content');
+    var html = this.props.status.get('content').replaceAll("</p><p>", "%0A").replaceAll("<p>", "");
     var temp = document.createElement("div");
     temp.innerHTML = html;
     var plain = temp.textContent || temp.innerText || "";
