@@ -144,7 +144,7 @@ class ActionBar extends React.PureComponent {
   }
 
   handleTranslateClick = () => {
-    var userLang = navigator.language || navigator.userLanguage; 
+    var userLang = navigator.language || navigator.userLanguage;
     userLang = userLang.split("-")[0];
     var html = this.props.status.get('content');
     var temp = document.createElement("div");

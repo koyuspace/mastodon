@@ -3,7 +3,6 @@ import Options from '../components/options';
 import {
   changeComposeAdvancedOption,
   changeComposeContentType,
-  changeCompose,
   addPoll,
   removePoll,
 } from 'flavours/glitch/actions/compose';
