@@ -174,6 +174,7 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             {!multiColumn && <NavigationBar account={myAccount} />}
             {multiColumn && <ColumnSubheading text={intl.formatMessage(messages.navigation_subheading)} />}
             {navItems}
+            <div id="motd"></div>
             <ColumnSubheading text={intl.formatMessage(messages.lists_subheading)} />
             {listItems}
             <ColumnSubheading text={intl.formatMessage(messages.settings_subheading)} />

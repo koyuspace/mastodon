@@ -23,6 +23,8 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <NavLink className='column-link column-link--transparent' to='/lists'><Icon className='column-link__icon' id='list-ul' fixedWidth /><FormattedMessage id='navigation_bar.lists' defaultMessage='Lists' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/getting-started-misc'><Icon className='column-link__icon' id='ellipsis-h' fixedWidth /><FormattedMessage id='navigation_bar.misc' defaultMessage='Misc' /></NavLink>
 
+    <div id="motd"></div>
+
     <ListPanel />
 
     <hr />
