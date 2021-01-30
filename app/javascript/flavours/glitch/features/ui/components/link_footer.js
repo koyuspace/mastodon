@@ -44,7 +44,6 @@ class LinkFooter extends React.PureComponent {
   render () {
     return (
       <div className='getting-started__footer'>
-        {/*
         <ul>
           {invitesEnabled && <li><a href='/invites' target='_blank'><FormattedMessage id='getting_started.invite' defaultMessage='Invite people' /></a> · </li>}
           {!!securityLink && <li><a href='/auth/edit'><FormattedMessage id='getting_started.security' defaultMessage='Security' /></a> · </li>}
@@ -55,7 +54,6 @@ class LinkFooter extends React.PureComponent {
           <li><a href='https://docs.joinmastodon.org' target='_blank'><FormattedMessage id='getting_started.documentation' defaultMessage='Documentation' /></a> · </li>
           <li><a href={signOutLink} onClick={this.handleLogoutClick}><FormattedMessage id='navigation_bar.logout' defaultMessage='Logout' /></a></li>
         </ul>
-        */}
 
         <p>
           <FormattedMessage
