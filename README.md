@@ -31,3 +31,36 @@ And probably many more things that are getting documented soon
 ## Building a Docker image
 
 Just hit `docker build .` and wait. Prebuilt images are at `koyuawsmbrtn/mastodon` and already referenced in the `docker-compose.yml` file. Using Docker is the preferred less painful method to get a server up and running quickly.
+
+
+## Differences between glitch-soc, Mastodon and koyu.space
+
+### Added glitch-soc features
+
+-   [Media improvements](https://glitch-soc.github.io/docs/features/media/)
+    -   Images inside the CW spoiler
+    -   fullwidth images
+    -   scaling options
+-   [Formatted toots](https://glitch-soc.github.io/docs/features/rich-text)
+-   [Reply selection in lists](https://glitch-soc.github.io/docs/features/lists-show-replies-to/)
+-   [Filter improvements](https://glitch-soc.github.io/docs/features/filter-improvements/)
+-   [Highlighting of misleading links](https://glitch-soc.github.io/docs/features/misleading-link-highlighting/)
+-   [Hiding follower count](https://glitch-soc.github.io/docs/features/hide-follower-count/)
+-   [An app settings modal](https://glitch-soc.github.io/docs/features/app-settings/)
+-   [Collapsible toots](https://glitch-soc.github.io/docs/features/collapsible-toots/)
+-   [Toot visibility icons](https://glitch-soc.github.io/docs/features/visibility-icons/)
+-   [Local-only toots](https://glitch-soc.github.io/docs/features/local-only-toots/)
+-   [Threaded mode](https://glitch-soc.github.io/docs/features/threaded-mode/)
+-   [`data-*` attributes on statuses](https://glitch-soc.github.io/docs/features/status-data-attributes/) for custom CSS targeting
+-   [Advanced theming via flavours+skins](https://glitch-soc.github.io/docs/features/themes/)
+-   [Doodle](https://glitch-soc.github.io/docs/features/doodle/)
+
+### Added koyu.space features
+
+- [GIFs by Giphy](https://giphy.com)
+- [Google Translate](https://translate.google.com)
+- Stickers
+- Custom logo and themes
+- MOTD/pinned message
+- [Jitsi](https://meet.jit.si) integration
+- [InstanceTicker](https://miy.pw)
