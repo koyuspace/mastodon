@@ -205,9 +205,10 @@ class StatusActionBar extends ImmutablePureComponent {
   render () {
     const { status, intl, withDismiss, showReplyCount, directMessage, scrollKey } = this.props;
 
-    const mutingConversation = status.get('muted');
     const anonymousAccess    = !me;
+    const mutingConversation = status.get('muted');
     const publicStatus       = ['public', 'unlisted'].includes(status.get('visibility'));
+    const writtenByMe        = status.getIn(['account', 'id']) === me;
 
     let menu = [];
     let reblogIcon = 'retweet';
@@ -223,16 +224,17 @@ class StatusActionBar extends ImmutablePureComponent {
 
     menu.push(null);
 
-    if (status.getIn(['account', 'id']) === me || withDismiss) {
+    if (writtenByMe && publicStatus) {
+      menu.push({ text: intl.formatMessage(status.get('pinned') ? messages.unpin : messages.pin), action: this.handlePinClick });
+      menu.push(null);
+    }
+
+    if (writtenByMe || withDismiss) {
       menu.push({ text: intl.formatMessage(mutingConversation ? messages.unmuteConversation : messages.muteConversation), action: this.handleConversationMuteClick });
       menu.push(null);
     }
 
-    if (status.getIn(['account', 'id']) === me) {
-      if (publicStatus) {
-        menu.push({ text: intl.formatMessage(status.get('pinned') ? messages.unpin : messages.pin), action: this.handlePinClick });
-      }
-
+    if (writtenByMe) {
       menu.push({ text: intl.formatMessage(messages.delete), action: this.handleDeleteClick });
       menu.push({ text: intl.formatMessage(messages.redraft), action: this.handleRedraftClick });
     } else {
