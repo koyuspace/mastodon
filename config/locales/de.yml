@@ -27,10 +27,10 @@ de:
     learn_more: Mehr erfahren
     privacy_policy: Datenschutzerklärung
     see_whats_happening: Finde heraus, was gerade in der Welt los ist
-    signal: "Komm' in die Gruppe"
-    signal_description: "Über koyu.space hinaus auf Signal chatten"
     donate: "Werde Pro!"
     donate_description: "Coole Perks wie einen farbigen Anzeigenamen"
+    services: "koyu.space Services"
+    services_description: "Wir hosten auch mehr als Mastodon"
     server_stats: 'Serverstatistiken:'
     source_code: Quellcode
     status_count_after:

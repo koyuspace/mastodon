@@ -51,6 +51,13 @@
               = t('about.donate')
               %small= t('about.donate_description')
 
+        .directory__tag
+          = link_to '/about/more#services', rel: 'noopener noreferrer', target: '_blank' do
+            %h4
+              = fa_icon 'cogs fw'
+              = t('about.services')
+              %small= t('about.services_description')
+
     .landing__grid__column.landing__grid__column-login
       .box-widget
         = render 'login'
