@@ -28,7 +28,7 @@ zh-TW:
       email_changed:
         explanation: 您帳戶的電子信箱位址將變更為：
         extra: 若您未變更電子信箱，那麼很有可能是某人取得了您帳戶的存取權限。請立刻變更密碼，或當帳戶被鎖定時，請聯絡伺服器的管理員。
-        subject: Mastodon：已變更電子信箱
+        subject: koyu.space：已變更電子信箱
         title: 新電子信箱位址
       password_change:
         explanation: 您帳戶的密碼已變更。
