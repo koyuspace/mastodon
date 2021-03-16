@@ -6,7 +6,7 @@ SHELL ["/usr/bin/bash", "-c"]
 RUN echo test
 
 # Install Node v12 (LTS)
-ENV NODE_VER="12.20.1"
+ENV NODE_VER="12.21.0"
 RUN ARCH= && \
     dpkgArch="$(dpkg --print-architecture)" && \
   case "${dpkgArch##*-}" in \
