@@ -2,9 +2,9 @@ $(document).ready(function() {
 	$.get("https://web.koyu.space/motd.html", function(data) {
 		$("#motd").html(data);
 	});
-	window.setInterval(function() {
+/*	window.setInterval(function() {
 		$.get("https://web.koyu.space/motd.html", function(data) {
 			$("#motd").html(data);
 		});
-	}, 3000);
+	}, 3000);*/
 });
