@@ -32,7 +32,7 @@
   "account.mute_notifications": "Mute notifications from @{name}",
   "account.muted": "Muted",
   "account.never_active": "Never",
-  "account.toots:" "Hops",
+  "account.toots": "Hops",
   "account.posts_with_replies": "Hops and replies",
   "account.report": "Report @{name}",
   "account.requested": "Awaiting approval. Click to cancel follow request",
