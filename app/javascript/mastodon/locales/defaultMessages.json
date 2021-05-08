@@ -446,7 +446,7 @@
         "id": "status.cancel_reblog_private"
       },
       {
-        "defaultMessage": "This post cannot be boosted",
+        "defaultMessage": "This hop cannot be boosted",
         "id": "status.cannot_reblog"
       },
       {
@@ -628,7 +628,7 @@
         "id": "confirmations.redraft.confirm"
       },
       {
-        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original post will be orphaned.",
+        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original hop will be orphaned.",
         "id": "confirmations.redraft.message"
       },
       {
@@ -831,11 +831,11 @@
         "id": "account.show_reblogs"
       },
       {
-        "defaultMessage": "Notify me when @{name} posts",
+        "defaultMessage": "Notify me when @{name} hops",
         "id": "account.enable_notifications"
       },
       {
-        "defaultMessage": "Stop notifying me when @{name} posts",
+        "defaultMessage": "Stop notifying me when @{name} hops",
         "id": "account.disable_notifications"
       },
       {
@@ -909,6 +909,10 @@
       {
         "defaultMessage": "Group",
         "id": "account.badges.group"
+      },
+      {
+        "defaultMessage": "Joined {date}",
+        "id": "account.joined"
       }
     ],
     "path": "app/javascript/mastodon/features/account/components/header.json"
@@ -1377,7 +1381,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Your account is not {locked}. Anyone can follow you to view your follower-only posts.",
+        "defaultMessage": "Your account is not {locked}. Anyone can follow you to view your follower-only hops.",
         "id": "compose_form.lock_disclaimer"
       },
       {
@@ -1623,6 +1627,36 @@
       }
     ],
     "path": "app/javascript/mastodon/features/favourites/index.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Follow",
+        "id": "account.follow"
+      },
+      {
+        "defaultMessage": "Unfollow",
+        "id": "account.unfollow"
+      }
+    ],
+    "path": "app/javascript/mastodon/features/follow_recommendations/components/account.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "Follow people you'd like to see hops from! Here are some suggestions.",
+        "id": "follow_recommendations.heading"
+      },
+      {
+        "defaultMessage": "Hops from people you follow will show up in chronological order on your home feed. Don't be afraid to make mistakes, you can unfollow people just as easily any time!",
+        "id": "follow_recommendations.lead"
+      },
+      {
+        "defaultMessage": "Done",
+        "id": "follow_recommendations.done"
+      }
+    ],
+    "path": "app/javascript/mastodon/features/follow_recommendations/index.json"
   },
   {
     "descriptors": [
@@ -1889,88 +1923,15 @@
         "id": "home.hide_announcements"
       },
       {
-        "defaultMessage": "Your home timeline is empty! Visit {public} or use search to get started and meet other users.",
+        "defaultMessage": "Your home timeline is empty! Follow more people to fill it up. {suggestions}",
         "id": "empty_column.home"
       },
       {
-        "defaultMessage": "the public timeline",
-        "id": "empty_column.home.public_timeline"
+        "defaultMessage": "See some suggestions",
+        "id": "empty_column.home.suggestions"
       }
     ],
     "path": "app/javascript/mastodon/features/home_timeline/index.json"
-  },
-  {
-    "descriptors": [
-      {
-        "defaultMessage": "First steps",
-        "id": "introduction.welcome.headline"
-      },
-      {
-        "defaultMessage": "Welcome to the fediverse! In a few moments, you'll be able to broadcast messages and talk to your friends across a wide variety of servers. But this server, {domain}, is special—it hosts your profile, so remember its name.",
-        "id": "introduction.welcome.text"
-      },
-      {
-        "defaultMessage": "Let's go!",
-        "id": "introduction.welcome.action"
-      },
-      {
-        "defaultMessage": "Home",
-        "id": "introduction.federation.home.headline"
-      },
-      {
-        "defaultMessage": "Posts from people you follow will appear in your home feed. You can follow anyone on any server!",
-        "id": "introduction.federation.home.text"
-      },
-      {
-        "defaultMessage": "Local",
-        "id": "introduction.federation.local.headline"
-      },
-      {
-        "defaultMessage": "Public posts from people on the same server as you will appear in the local timeline.",
-        "id": "introduction.federation.local.text"
-      },
-      {
-        "defaultMessage": "Federated",
-        "id": "introduction.federation.federated.headline"
-      },
-      {
-        "defaultMessage": "Public posts from other servers of the fediverse will appear in the federated timeline.",
-        "id": "introduction.federation.federated.text"
-      },
-      {
-        "defaultMessage": "Next",
-        "id": "introduction.federation.action"
-      },
-      {
-        "defaultMessage": "Reply",
-        "id": "introduction.interactions.reply.headline"
-      },
-      {
-        "defaultMessage": "You can reply to other people's and your own hops, which will chain them together in a conversation.",
-        "id": "introduction.interactions.reply.text"
-      },
-      {
-        "defaultMessage": "Boost",
-        "id": "introduction.interactions.reblog.headline"
-      },
-      {
-        "defaultMessage": "You can share other people's hops with your followers by boosting them.",
-        "id": "introduction.interactions.reblog.text"
-      },
-      {
-        "defaultMessage": "Favourite",
-        "id": "introduction.interactions.favourite.headline"
-      },
-      {
-        "defaultMessage": "You can save a hop for later, and let the author know that you liked it, by favouriting it.",
-        "id": "introduction.interactions.favourite.text"
-      },
-      {
-        "defaultMessage": "Finish hop-orial!",
-        "id": "introduction.interactions.action"
-      }
-    ],
-    "path": "app/javascript/mastodon/features/introduction/index.json"
   },
   {
     "descriptors": [
@@ -2192,7 +2153,7 @@
         "id": "lists.replies_policy.title"
       },
       {
-        "defaultMessage": "There is nothing in this list yet. When members of this list post new statuses, they will appear here.",
+        "defaultMessage": "There is nothing in this list yet. When members of this list hop new statuses, they will appear here.",
         "id": "empty_column.list"
       }
     ],
@@ -2283,6 +2244,10 @@
       {
         "defaultMessage": "Desktop notifications are unavailable because the required permission has not been granted.",
         "id": "notifications.permission_required"
+      },
+      {
+        "defaultMessage": "Unread notification markers",
+        "id": "notifications.column_settings.unread_markers.category"
       },
       {
         "defaultMessage": "Quick filter bar",
@@ -2456,7 +2421,7 @@
         "id": "notifications.mark_as_read"
       },
       {
-        "defaultMessage": "You don't have any notifications yet. Interact with others to start the conversation.",
+        "defaultMessage": "You don't have any notifications yet. When other people interact with you, you will see it here.",
         "id": "empty_column.notifications"
       }
     ],
@@ -2485,7 +2450,7 @@
         "id": "status.cancel_reblog_private"
       },
       {
-        "defaultMessage": "This post cannot be boosted",
+        "defaultMessage": "This hop cannot be boosted",
         "id": "status.cannot_reblog"
       },
       {
@@ -2600,7 +2565,7 @@
         "id": "status.cancel_reblog_private"
       },
       {
-        "defaultMessage": "This post cannot be boosted",
+        "defaultMessage": "This hop cannot be boosted",
         "id": "status.cannot_reblog"
       },
       {
@@ -2727,7 +2692,7 @@
         "id": "confirmations.redraft.confirm"
       },
       {
-        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original post will be orphaned.",
+        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original hop will be orphaned.",
         "id": "confirmations.redraft.message"
       },
       {
@@ -2756,7 +2721,7 @@
         "id": "confirmations.redraft.confirm"
       },
       {
-        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original post will be orphaned.",
+        "defaultMessage": "Are you sure you want to delete this status and re-draft it? Favourites and boosts will be lost, and replies to the original hop will be orphaned.",
         "id": "confirmations.redraft.message"
       },
       {
@@ -3093,7 +3058,7 @@
         "id": "confirmations.mute.message"
       },
       {
-        "defaultMessage": "This will hide posts from them and posts mentioning them, but it will still allow them to see your posts and follow you.",
+        "defaultMessage": "This will hide hops from them and hops mentioning them, but it will still allow them to see your hops and follow you.",
         "id": "confirmations.mute.explanation"
       },
       {

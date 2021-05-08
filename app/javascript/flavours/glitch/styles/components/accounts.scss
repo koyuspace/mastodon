@@ -11,6 +11,19 @@
     overflow: hidden;
     text-decoration: none;
     font-size: 14px;
+
+    &--with-note {
+      strong {
+        display: inline;
+      }
+    }
+  }
+
+  &__note {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $ui-secondary-color;
   }
 
   &.small {
@@ -22,6 +35,16 @@
     & > .display-name {
       height: 24px;
       line-height: 24px;
+    }
+  }
+}
+
+.follow-recommendations-account {
+  .icon-button {
+    color: $ui-primary-color;
+
+    &.active {
+      color: $valid-value-color;
     }
   }
 }
@@ -553,6 +576,17 @@
       padding: 20px 15px;
       padding-bottom: 5px;
       color: $primary-text-color;
+    }
+
+    .account__header__joined {
+      font-size: 14px;
+      padding: 5px 15px;
+      color: $darker-text-color;
+
+      .columns-area--mobile & {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     }
 
     .account__header__fields {

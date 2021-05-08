@@ -42,12 +42,11 @@ te:
     people_who_follow: "%{name}ను అనుసరించే వ్యక్తులు"
     pin_errors:
       following: మీరు ధృవీకరించాలనుకుంటున్న వ్యక్తిని మీరిప్పటికే అనుసరిస్తూ వుండాలి
-    posts:
+    hops:
       one: టూటు
       other: టూట్లు
     posts_tab_heading: టూట్లు
     posts_with_replies: టూట్లు మరియు ప్రత్యుత్తరాలు
-    reserved_username: ఈ username రిజర్వ్ చేయబడింది
     roles:
       admin: నిర్వాహకులు
       bot: బోట్

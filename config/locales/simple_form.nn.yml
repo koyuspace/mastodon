@@ -30,7 +30,7 @@ nn:
         current_username: Skriv inn brukarnamnet til den noverande kontoen for å stadfesta
         digest: Kun sendt etter en lang periode med inaktivitet og bare dersom du har mottatt noen personlige meldinger mens du var borte
         discoverable: Profilmappen er en annen måte for kontoen din å nå et bredere publikum på
-        email: Du får snart ein stadfestings-e-post
+        email: Du får snart ein stadfestings-e-hop
         fields: Du kan ha opptil 4 gjenstander vist som en tabell på profilsiden din
         header: PNG, GIF eller JPG. Maksimalt %{size}. Minkast til %{dimensions}px
         inbox_url: Kopier URLen fra forsiden til overgangen du vil bruke
@@ -88,7 +88,7 @@ nn:
         title: Tittel
       admin_account_action:
         include_statuses: Ha med rapporterte tut i e-posten
-        send_email_notification: Varsl brukaren med e-post
+        send_email_notification: Varsl brukaren med e-hop
         text: Eigen åtvaring
         type: Handling
         types:
@@ -112,10 +112,9 @@ nn:
         confirm_password: Stadfest passord
         context: Filtrer kontekstar
         current_password: Noverande passord
-        data: Data
         discoverable: Før denne kontoen opp i mappa
         display_name: Synleg namn
-        email: E-post-adresse
+        email: E-hop-adresse
         expires_in: Vert ugyldig etter
         fields: Profilmetadata
         header: Overskrift
@@ -158,7 +157,7 @@ nn:
         sign_in_token_attempt: Trygdenykel
         type: Importtype
         username: Brukarnamn
-        username_or_email: Brukarnamn eller E-post
+        username_or_email: Brukarnamn eller E-hop
         whole_word: Heilt ord
       email_domain_block:
         with_dns_records: Ha med MX-recordar og IP-ar til domenet
@@ -174,20 +173,19 @@ nn:
         text: Kvifor vil du verta med?
       ip_block:
         comment: Kommentere
-        ip: IP
         severities:
           no_access: Blokker tilgang
           sign_up_requires_approval: Begrens påmeldinger
         severity: Oppføring
       notification_emails:
-        digest: Send samandrag på e-post
-        favourite: Send e-post når nokon merkjer statusen din som favoritt
-        follow: Send e-post når nokon fylgjer deg
-        follow_request: Send e-post når nokon spør om å fylgja deg
-        mention: Send e-post når nokon nemner deg
-        pending_account: Send e-post når ein ny konto treng gjennomgang
-        reblog: Send e-post når nokon framhevar statusen din
-        report: Send e-post når nokon rapporterer noko
+        digest: Send samandrag på e-hop
+        favourite: Send e-hop når nokon merkjer statusen din som favoritt
+        follow: Send e-hop når nokon fylgjer deg
+        follow_request: Send e-hop når nokon spør om å fylgja deg
+        mention: Send e-hop når nokon nemner deg
+        pending_account: Send e-hop når ein ny konto treng gjennomgang
+        reblog: Send e-hop når nokon framhevar statusen din
+        report: Send e-hop når nokon rapporterer noko
         trending_tag: Ein emneknagg som ikkje er sett igjennom er på veg opp
       tag:
         listable: Tillat denne emneknaggen å synast i søk og i profilmappa
@@ -197,7 +195,6 @@ nn:
     'no': Nei
     recommended: Tilrådt
     required:
-      mark: "*"
       text: obligatorisk
     title:
       sessions:

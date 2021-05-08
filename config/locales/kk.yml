@@ -7,7 +7,6 @@ kk:
     active_count_after: актив
     active_footnote: Соңғы айдағы актив қолданушылар (MAU)
     administered_by: 'Админ:'
-    api: API
     apps: Мобиль қосымшалар
     apps_platforms: iOS, Android және басқа платформалардағы koyu.space қолданыңыз
     browse_directory: Профильдер каталогын қажет фильтрлер арқылы қараңыз
@@ -69,12 +68,11 @@ kk:
     people_who_follow: "%{name} атты қолданушының оқырмандары"
     pin_errors:
       following: Оқығыңыз келген адамға жазылуыңыз керек
-    posts:
+    hops:
       one: Жазба
       other: Жазба
     posts_tab_heading: Жазба
     posts_with_replies: Жазбалар және жауаптар
-    reserved_username: Мұндай логин тіркелген
     roles:
       admin: Админ
       bot: Бот
@@ -193,39 +191,6 @@ kk:
       web: Веб
       whitelisted: Рұқсат тізімі
     action_logs:
-      actions:
-        assigned_to_self_report: "%{name} шағым тастады %{target} өздері үшін"
-        change_email_user: "%{name} e-mail адресін өзгертті - %{target}"
-        confirm_user: "%{name} e-mail адресін құптады - %{target}"
-        create_account_warning: "%{name} ескерту жіберді - %{target}"
-        create_custom_emoji: "%{name} жаңа эмодзи қосты %{target}"
-        create_domain_allow: "%{name} ақ тізімдегі домен %{target}"
-        create_domain_block: "%{name} домен бұғаттады - %{target}"
-        create_email_domain_block: "%{name} e-mail доменін қара тізімге қосты - %{target}"
-        demote_user: "%{name} төмендетілген қолданушы - %{target}"
-        destroy_custom_emoji: "%{name} эмодзи жойды %{target}"
-        destroy_domain_allow: "%{name} домені %{target} ақ тізімнен шығарылды"
-        destroy_domain_block: "%{name} бұғатталмаған домен %{target}"
-        destroy_email_domain_block: "%{name} e-mail доменін ақ тізімге кіргізді %{target}"
-        destroy_status: "%{name} жазбасын өшірді %{target}"
-        disable_2fa_user: "%{name} қолданушы үшін екі фактор ажыратылған %{target}"
-        disable_custom_emoji: "%{name} эмодзи алып тастады %{target}"
-        disable_user: "%{name} қосылмаған логин %{target}"
-        enable_custom_emoji: "%{name} қосылған эмодзи %{target}"
-        enable_user: "%{name} қосылған логин %{target}"
-        memorialize_account: "%{name} %{target} аккаунтын естеліктеріне қосты"
-        promote_user: "%{name} жарнамалады %{target}"
-        remove_avatar_user: "%{name} %{target} аватарын өшірді"
-        reopen_report: "%{name} %{target} шағымын қайта қарады"
-        reset_password_user: "%{name} %{target} құпиясөзін қалпына келтірді"
-        resolve_report: "%{name} %{target} шағымын қарастырды"
-        silence_account: "%{name} %{target} аккаунтын үнсіз қылды"
-        suspend_account: "%{name} %{target} аккаунтын тоқтатты"
-        unassigned_report: "%{name} бекітілмеген есеп %{target}"
-        unsilence_account: "%{name} %{target} аккаунтын қайта қосты"
-        unsuspend_account: "%{name} %{target} аккаунтын қайта қосты"
-        update_custom_emoji: "%{name} эмодзи жаңартты %{target}"
-        update_status: "%{name} жазбасын жаңартты %{target}"
       deleted_status: "(өшірілген жазба)"
       title: Аудит логы
     announcements:
@@ -276,7 +241,6 @@ kk:
       feature_profile_directory: Профиль каталогы
       feature_registrations: Тіркелулер
       feature_relay: Федерация релесі
-      feature_spam_check: Анти-спам
       feature_timeline_preview: Таймлайн превьюі
       features: Мүмкіндіктер
       hidden_service: Жасырын қызметтер федерациясы
@@ -311,7 +275,7 @@ kk:
         create: Блок құру
         hint: Домендік блок дерекқорда тіркелгі жазбаларын құруға кедергі жасамайды, бірақ сол есептік жазбаларда ретроактивті және автоматты түрде нақты модерация әдістерін қолданады.
         severity:
-          desc_html: "<strong>Silence</strong> will make the account's posts invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all of the account's content, media, and profile data. Use <strong>None</strong> if you just want to reject media filеs."
+          desc_html: "<strong>Silence</strong> will make the account's hops invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all of the account's content, media, and profile data. Use <strong>None</strong> if you just want to reject media filеs."
           noop: Ештеңе
           silence: Үнсіз
           suspend: Тоқтатылған
@@ -503,9 +467,6 @@ kk:
         desc_html: You can write your own privacy policy, terms of service or other legalese. You can use HTML тег
         title: Қолдану шарттары мен ережелер
       site_title: Сервер аты
-      spam_check_enabled:
-        desc_html: Мастодон бірнеше рет қажетсіз хабарламаларды жіберетін есептік жазбаларды автоматты түрде жасай алады. Жалған позитивтер болуы мүмкін.
-        title: Спамға қарсы автоматика
       thumbnail:
         desc_html: Used for previews via OpenGraph and API. 1200x630px рекоменделеді
         title: Сервер суреті
@@ -575,7 +536,6 @@ kk:
     add_new: Алиас қосу
     created_msg: Жаңа алиас сәтті жасалды. Енді сіз ескі аккаунттан көшіруді бастай аласыз.
     deleted_msg: Алиасты сәтті алып тастаңыз. Осы есептік жазбадан екіншіге ауысу мүмкін болмайды.
-    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
     remove: Алиас сілтемесін алып тастау
   appearance:
     advanced_web_interface: Кеңейтілген веб-интерфейс
@@ -587,7 +547,6 @@ kk:
     toot_layout: Жазба формасы
   application_mailer:
     notification_preferences: Change e-mail prеferences
-    salutation: "%{name},"
     settings: 'Change e-mail preferеnces: %{link}'
     view: 'Viеw:'
     view_profile: Viеw Profile
@@ -835,26 +794,9 @@ kk:
       missing_also_known_as: бұл тіркелгіге сілтеме жасамайды
       move_to_self: ағымдағы шот болуы мүмкін емес
       not_found: табылмады
-      on_cooldown: You are on cooldown
     followers_count: Көшу кезіндегі оқырмандар
-    incoming_migrations: Moving from a different account
-    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
-    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
-    not_redirecting: Your account is not redirecting to any other account currently.
-    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
-    past_migrations: Past migrations
-    proceed_with_move: Move followers
-    redirecting_to: Your account is redirecting to %{acct}.
-    set_redirect: Set redirect
     warning:
-      backreference_required: The new account must first be configured to back-reference this one
       before: 'Жұмысты бастамас бұрын, осы жазбаларды мұқият оқып шығыңыз:'
-      cooldown: After moving there is a cooldown period during which you will not be able to move again
-      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
-      followers: This action will move all followers from the current account to the new account
-      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
-      other_data: No other data will be moved automatically
-      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
     title: Модерация
   notification_mailer:
@@ -898,11 +840,9 @@ kk:
   number:
     human:
       decimal_units:
-        format: "%n%u"
         units:
           billion: В
           million: М
-          quadrillion: Q
           thousand: К
           trillion: Т
   pagination:
@@ -910,7 +850,6 @@ kk:
     next: Келесі
     older: Ерте
     prev: Алдыңғы
-    truncate: "&hellip;"
   polls:
     errors:
       already_voted: Бұл сауалнамаға қатысқансыз
@@ -1028,8 +967,6 @@ kk:
     profile: Профиль
     relationships: Жазылымдар және оқырмандар
     two_factor_authentication: Екі-факторлы авторизация
-  spam_check:
-    spam_detected: Бұл автоматтандырылған есеп. Спам анықталды.
   statuses:
     attached:
       description: 'Жүктелді: %{attached}'
@@ -1063,7 +1000,6 @@ kk:
     show_more: Тағы әкел
     show_thread: Тақырыпты көрсет
     sign_in_to_participate: Сұхбатқа қатысу үшін кіріңіз
-    title: '%{name}: "%{quote}"'
     visibilities:
       private: Тек оқырмандарға
       private_long: Тек оқырмандарға ғана көрінеді
@@ -1084,8 +1020,8 @@ kk:
 
       <ul>
       <li><em>Basic account information</em>: If you register on this server, you may be asked to enter a username, an e-mail address and a password. You may also enter additional profile information such as a display name and biography, and upload a profile picture and header image. The username, display name, biography, profile picture and header image are always listed publicly.</li>
-      <li><em>Posts, following and other public information</em>: The list of people you follow is listed publicly, the same is true for your followers. When you submit a message, the date and time is stored as well as the application you submitted the message from. Messages may contain media attachments, such as pictures and videos. Public and unlisted posts are available publicly. When you feature a post on your profile, that is also publicly available information. Your posts are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete posts, this is likewise delivered to your followers. The action of reblogging or favouriting another post is always public.</li>
-      <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over koyu.space.</em></li>
+      <li><em>Hops, following and other public information</em>: The list of people you follow is listed publicly, the same is true for your followers. When you submit a message, the date and time is stored as well as the application you submitted the message from. Messages may contain media attachments, such as pictures and videos. Public and unlisted hops are available publicly. When you feature a hop on your profile, that is also publicly available information. Your hops are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete hops, this is likewise delivered to your followers. The action of reblogging or favouriting another hop is always public.</li>
+      <li><em>Direct and followers-only hops</em>: All hops are stored and processed on the server. Followers-only hops are delivered to your followers and users who are mentioned in them, and direct hops are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those hops only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over koyu.space.</em></li>
       <li><em>IPs and other metadata</em>: When you log in, we record the IP address you log in from, as well as the name of your browser application. All the logged in sessions are available for your review and revocation in the settings. The latest IP address used is stored for up to 12 months. We also may retain server logs which include the IP address of every request to our server.</li>
       </ul>
 
@@ -1096,7 +1032,7 @@ kk:
       <p>Any of the information we collect from you may be used in the following ways:</p>
 
       <ul>
-      <li>To provide the core functionality of koyu.space. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
+      <li>To provide the core functionality of koyu.space. You can only interact with other people's content and hop your own content when you are logged in. For example, you may follow other people to view their combined hops in your own personalized home timeline.</li>
       <li>To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.</li>
       <li>The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, and to respond to inquiries, and/or other requests or questions.</li>
       </ul>
@@ -1118,7 +1054,7 @@ kk:
       <li>Retain the IP addresses associated with registered users no more than 12 months.</li>
       </ul>
 
-      <p>You can request and download an archive of your content, including your posts, media attachments, profile picture, and header image.</p>
+      <p>You can request and download an archive of your content, including your hops, media attachments, profile picture, and header image.</p>
 
       <p>You may irreversibly delete your account at any time.</p>
 
@@ -1136,9 +1072,9 @@ kk:
 
       <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our site, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety.</p>
 
-      <p>Your public content may be downloaded by other servers in the network. Your public and followers-only posts are delivered to the servers where your followers reside, and direct messages are delivered to the servers of the recipients, in so far as those followers or recipients reside on a different server than this.</p>
+      <p>Your public content may be downloaded by other servers in the network. Your public and followers-only hops are delivered to the servers where your followers reside, and direct messages are delivered to the servers of the recipients, in so far as those followers or recipients reside on a different server than this.</p>
 
-      <p>When you authorize an application to use your account, depending on the scope of permissions you approve, it may access your public profile information, your following list, your followers, your lists, all your posts, and your favourites. Applications can never access your e-mail address or password.</p>
+      <p>When you authorize an application to use your account, depending on the scope of permissions you approve, it may access your public profile information, your following list, your followers, your lists, all your hops, and your favourites. Applications can never access your e-mail address or password.</p>
 
       <hr class="spacer" />
 
@@ -1154,7 +1090,7 @@ kk:
 
       <h3 id="changes">Changes to our Privacy Policy</h3>
 
-      <p>If we decide to change our privacy policy, we will post those changes on this page.</p>
+      <p>If we decide to change our privacy policy, we will hop those changes on this page.</p>
 
       <p>This document is CC-BY-SA. It was last updated March 7, 2018.</p>
 
@@ -1164,10 +1100,6 @@ kk:
     contrast: koyu.space (Жоғары контраст)
     default: koyu.space (Қою)
     mastodon-light: koyu.space (Ашық)
-  time:
-    formats:
-      default: "%b %d, %Y, %H:%M"
-      month: "%b %Y"
   two_factor_authentication:
     disable: Ажырату
     enabled: Екі-факторлы авторизация қосылған
@@ -1219,7 +1151,6 @@ kk:
       title: Ортаға қош келдің, %{name}!
   users:
     follow_limit_reached: Сіз %{limit} лимитінен көп адамға жазыла алмайсыз
-    invalid_email: Бұл e-mail адрес қате
     invalid_otp_token: Қате екі-факторлы код
     otp_lost_help_html: Егер кіру жолдарын жоғалтып алсаңыз, сізге %{email} арқылы жіберіледі
     seamless_external_login: Сыртқы сервис арқылы кіріпсіз, сондықтан құпиясөз және электрондық пошта параметрлері қол жетімді емес.

@@ -42,4 +42,4 @@ io:
     scopes:
       follow: follow, block, unblock and unfollow accounts
       read: read your account's data
-      write: post on your behalf
+      write: hop on your behalf

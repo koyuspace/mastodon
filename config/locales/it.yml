@@ -11,8 +11,8 @@ it:
     apps: Applicazioni per dispositivi mobili
     apps_platforms: Usa koyu.space da iOS, Android e altre piattaforme
     browse_directory: Sfoglia la directory dei profili e filtra per interessi
-    browse_local_posts: Sfoglia il flusso in tempo reale di post pubblici su questo server
-    browse_public_posts: Sfoglia il flusso in tempo reale di post pubblici su koyu.space
+    browse_local_posts: Sfoglia il flusso in tempo reale di hop pubblici su questo server
+    browse_public_posts: Sfoglia il flusso in tempo reale di hop pubblici su koyu.space
     contact: Contatti
     contact_missing: Non impostato
     contact_unavailable: N/D
@@ -26,6 +26,8 @@ it:
       È utilizzato per scopi di federazione e non dovrebbe essere bloccato a meno che non si voglia bloccare l'intera istanza: in questo caso si dovrebbe utilizzare un blocco di dominio.
     learn_more: Scopri altro
     privacy_policy: Politica della privacy
+    rules: Regole del server
+    rules_html: 'Di seguito è riportato un riassunto delle regole che devi seguire se vuoi avere un account su questo server di koyu.space:'
     see_whats_happening: Guarda cosa succede
     server_stats: 'Statistiche del server:'
     source_code: Codice sorgente
@@ -35,7 +37,7 @@ it:
     status_count_before: Che hanno pubblicato
     tagline: Segui amici e trovane di nuovi
     terms: Termini di Servizio
-    unavailable_content: Contenuto non disponibile
+    unavailable_content: Server moderati
     unavailable_content_description:
       domain: Server
       reason: 'Motivo:'
@@ -73,12 +75,11 @@ it:
     people_who_follow: Persone che seguono %{name}
     pin_errors:
       following: Devi gia seguire la persona che vuoi promuovere
-    posts:
-      one: Hop
-      other: Hop
-    posts_tab_heading: Hop
-    posts_with_replies: Hop e risposte
-    reserved_username: Questo nome utente è già stato preso
+    hops:
+      one: Toot
+      other: Toot
+    posts_tab_heading: Toot
+    posts_with_replies: Toot e risposte
     roles:
       admin: Amministratore
       bot: Bot
@@ -260,46 +261,46 @@ it:
         update_domain_block: Aggiorna blocco di dominio
         update_status: Aggiorna stato
       actions:
-        assigned_to_self_report: "%{name} ha assegnato il rapporto %{target} a se stesso"
-        change_email_user: "%{name} ha cambiato l'indirizzo email per l'utente %{target}"
-        confirm_user: "%{name} ha confermato l'indirizzo email per l'utente %{target}"
-        create_account_warning: "%{name} ha mandato un avvertimento a %{target}"
-        create_announcement: "%{name} ha creato un nuovo annuncio %{target}"
-        create_custom_emoji: "%{name} ha caricato un nuovo emoji %{target}"
-        create_domain_allow: "%{name} ha messo il dominio %{target} nella whitelist"
-        create_domain_block: "%{name} ha bloccato il dominio %{target}"
-        create_email_domain_block: "%{name} ha messo il dominio email %{target} nella blacklist"
-        create_ip_block: "%{name} ha creato la regola per l'IP %{target}"
-        demote_user: "%{name} ha degradato l'utente %{target}"
-        destroy_announcement: "%{name} ha eliminato l'annuncio %{target}"
-        destroy_custom_emoji: "%{name} ha distrutto l'emoji %{target}"
-        destroy_domain_allow: "%{name} ha tolto il dominio %{target} dalla whitelist"
-        destroy_domain_block: "%{name} ha sbloccato il dominio %{target}"
-        destroy_email_domain_block: "%{name}ha messo il dominio email %{target} nella whitelist"
-        destroy_ip_block: "%{name} ha eliminato la regola per l'IP %{target}"
-        destroy_status: "%{name} ha eliminato lo status di %{target}"
-        disable_2fa_user: "%{name} ha disabilitato l'obbligo dei due fattori per l'utente %{target}"
-        disable_custom_emoji: "%{name} ha disabilitato l'emoji %{target}"
-        disable_user: "%{name} ha disabilitato il login per l'utente %{target}"
-        enable_custom_emoji: "%{name} ha abilitato l'emoji %{target}"
-        enable_user: "%{name} ha abilitato il login per l'utente %{target}"
-        memorialize_account: "%{name} ha trasformato l'account di %{target} in una pagina in memoriam"
-        promote_user: "%{name} ha promosso l'utente %{target}"
-        remove_avatar_user: "%{name} ha eliminato l'avatar di %{target}"
-        reopen_report: "%{name} ha riaperto il rapporto %{target}"
-        reset_password_user: "%{name} ha reimpostato la password dell'utente %{target}"
-        resolve_report: "%{name} ha risolto il rapporto %{target}"
-        sensitive_account: "%{name} ha contrassegnato il media di %{target} come sensibile"
-        silence_account: "%{name} ha silenziato l'account di %{target}"
-        suspend_account: "%{name} ha sospeso l'account di %{target}"
-        unassigned_report: "%{name} report non assegnato %{target}"
-        unsensitive_account: "%{name} ha deselezionato il media di %{target} come sensibile"
-        unsilence_account: "%{name} ha de-silenziato l'account di %{target}"
-        unsuspend_account: "%{name} ha annullato la sospensione dell'account di %{target}"
-        update_announcement: "%{name} ha aggiornato l'annuncio %{target}"
-        update_custom_emoji: "%{name} ha aggiornato l'emoji %{target}"
-        update_domain_block: "%{name} ha aggiornato il blocco di dominio per %{target}"
-        update_status: "%{name} stato aggiornato da %{target}"
+        assigned_to_self_report_html: "%{name} ha assegnato il rapporto %{target} a se stesso"
+        change_email_user_html: "%{name} ha cambiato l'indirizzo e-mail dell'utente %{target}"
+        confirm_user_html: "%{name} ha confermato l'indirizzo e-mail dell'utente %{target}"
+        create_account_warning_html: "%{name} ha inviato un avviso a %{target}"
+        create_announcement_html: "%{name} ha creato un nuovo annuncio %{target}"
+        create_custom_emoji_html: "%{name} ha caricato una nuova emoji %{target}"
+        create_domain_allow_html: "%{name} ha consentito alla federazione col dominio %{target}"
+        create_domain_block_html: "%{name} ha bloccato dominio %{target}"
+        create_email_domain_block_html: "%{name} ha bloccato dominio e-mail %{target}"
+        create_ip_block_html: "%{name} ha creato una regola per l'IP %{target}"
+        demote_user_html: "%{name} ha retrocesso l'utente %{target}"
+        destroy_announcement_html: "%{name} ha eliminato l'annuncio %{target}"
+        destroy_custom_emoji_html: "%{name} ha eliminato emoji %{target}"
+        destroy_domain_allow_html: "%{name} ha negato la federazione al dominio %{target}"
+        destroy_domain_block_html: "%{name} ha sbloccato dominio %{target}"
+        destroy_email_domain_block_html: "%{name} ha sbloccato il dominio e-mail %{target}"
+        destroy_ip_block_html: "%{name} ha eliminato la regola per l'IP %{target}"
+        destroy_status_html: "%{name} ha eliminato lo status di %{target}"
+        disable_2fa_user_html: "%{name} ha disabilitato l'autenticazione a due fattori per l'utente %{target}"
+        disable_custom_emoji_html: "%{name} ha disabilitato emoji %{target}"
+        disable_user_html: "%{name} ha disabilitato il login per l'utente %{target}"
+        enable_custom_emoji_html: "%{name} ha abilitato emoji %{target}"
+        enable_user_html: "%{name} ha abilitato il login per l'utente %{target}"
+        memorialize_account_html: "%{name} ha trasformato l'account di %{target} in una pagina in memoriam"
+        promote_user_html: "%{name} ha promosso l'utente %{target}"
+        remove_avatar_user_html: "%{name} ha rimosso l'immagine profilo di %{target}"
+        reopen_report_html: "%{name} ha riaperto il rapporto %{target}"
+        reset_password_user_html: "%{name} ha reimpostato la password dell'utente %{target}"
+        resolve_report_html: "%{name} ha risolto il rapporto %{target}"
+        sensitive_account_html: "%{name} ha segnato il media di %{target} come sensibile"
+        silence_account_html: "%{name} ha silenziato l'account di %{target}"
+        suspend_account_html: "%{name} ha sospeso l'account di %{target}"
+        unassigned_report_html: "%{name} ha disassegnato il rapporto %{target}"
+        unsensitive_account_html: "%{name} ha annullato il segnare il media di %{target} come sensibile"
+        unsilence_account_html: "%{name} ha riattivato l'account di %{target}"
+        unsuspend_account_html: "%{name} ha annullato la sospensione dell'account di %{target}"
+        update_announcement_html: "%{name} ha aggiornato l'annuncio %{target}"
+        update_custom_emoji_html: "%{name} ha aggiornato emoji %{target}"
+        update_domain_block_html: "%{name} ha aggiornato il blocco dominio per %{target}"
+        update_status_html: "%{name} ha aggiornato lo status di %{target}"
       deleted_status: "(stato cancellato)"
       empty: Nessun log trovato.
       filter_by_action: Filtra per azione
@@ -314,10 +315,12 @@ it:
       new:
         create: Crea annuncio
         title: Nuovo annuncio
+      publish: Pubblica
       published_msg: Annuncio pubblicato!
       scheduled_for: Programmato per %{time}
       scheduled_msg: Annuncio programmato per la pubblicazione!
       title: Annunci
+      unpublish: Annulla la pubblicazione
       unpublished_msg: Annuncio ritirato!
       updated_msg: Annuncio aggiornato!
     custom_emojis:
@@ -362,7 +365,6 @@ it:
       feature_profile_directory: Directory dei profili
       feature_registrations: Registrazioni
       feature_relay: Ripetitore di federazione
-      feature_spam_check: Anti-spam
       feature_timeline_preview: Anteprima timeline
       features: Funzionalità
       hidden_service: Federazione con servizi nascosti
@@ -397,7 +399,7 @@ it:
         create: Crea blocco
         hint: Il blocco dominio non previene la creazione di utenti nel database, ma applicherà automaticamente e retroattivamente metodi di moderazione specifici su quegli account.
         severity:
-          desc_html: "<strong>Silenzia</strong> rende i post di questo account invisibili a chiunque non lo stia seguendo. <strong>Sospendi</strong> elimina tutti i contenuti, media e dati del profilo dell'account. Usa <strong>Nessuno</strong> se vuoi solo bloccare i file media."
+          desc_html: "<strong>Silenzia</strong> rende i hop di questo account invisibili a chiunque non lo stia seguendo. <strong>Sospendi</strong> elimina tutti i contenuti, media e dati del profilo dell'account. Usa <strong>Nessuno</strong> se vuoi solo bloccare i file media."
           noop: Nessuno
           silence: Silenzia
           suspend: Sospendi
@@ -440,6 +442,14 @@ it:
         create: Aggiungi dominio
         title: Nuova voce della lista nera delle email
       title: Lista nera email
+    follow_recommendations:
+      description_html: "<strong>I consigli su chi seguire aiutano i nuovi utenti a trovare rapidamente dei contenuti interessanti</strong>. Quando un utente non ha interagito abbastanza con altri per avere dei consigli personalizzati, vengono consigliati questi account. Sono ricalcolati ogni giorno da un misto di account con le più alte interazioni recenti e con il maggior numero di seguaci locali per una data lingua."
+      language: Per lingua
+      status: Stato
+      suppress: Nascondi consigli su chi seguire
+      suppressed: Nascosti
+      title: Consigli su chi seguire
+      unsuppress: Ripristina consigli su chi seguire
     instances:
       by_domain: Dominio
       delivery_available: Distribuzione disponibile
@@ -542,6 +552,13 @@ it:
       unassign: Non assegnare
       unresolved: Non risolto
       updated_at: Aggiornato
+    rules:
+      add_new: Aggiungi regola
+      delete: Cancella
+      description_html: Mentre la maggior parte degli utenti sostiene di aver letto e accettato i termini di servizio, di solito non li leggono fino a quando sorge un problema. <strong>Rendi più facile vedere le regole del server, fornendole in un semplice elenco</strong>. Cerca di mantenere le singole regole brevi e semplici, ma cerca anche di non dividerle in molti elementi separati.
+      edit: Modifica regola
+      empty: Non sono ancora state definite regole del server.
+      title: Regole del server
     settings:
       activity_api_enabled:
         desc_html: Conteggi degli status pubblicati localmente, degli utenti attivi e delle nuove registrazioni in gruppi settimanali
@@ -621,9 +638,6 @@ it:
         desc_html: Potete scrivere la vostra politica sulla privacy, condizioni del servizio o altre informazioni legali. Potete usare tag HTML
         title: Termini di servizio personalizzati
       site_title: Nome del server
-      spam_check_enabled:
-        desc_html: koyu.space può silenziare e segnalare automaticamente account che inviano ripetutamente messaggi non richiesti. Potrebbero esserci falsi positivi.
-        title: Automazione anti-spam
       thumbnail:
         desc_html: Usato per anteprime tramite OpenGraph e API. 1200x630px consigliati
         title: Thumbnail del server
@@ -654,6 +668,14 @@ it:
       no_status_selected: Nessun status è stato modificato perché nessuno era stato selezionato
       title: Gli status dell'account
       with_media: con media
+    system_checks:
+      database_schema_check:
+        message_html: Ci sono migrazioni del database in attesa. Sei pregato di eseguirle per assicurarti che l'applicazione si comporti come previsto
+      rules_check:
+        action: Gestisci regole del server
+        message_html: Non hai definito alcuna regola del server.
+      sidekiq_process_check:
+        message_html: Nessun processo di Sidekiq in esecuzione per le code di %{value}. Sei pregato di revisionare la tua configurazione di Sidekiq
     tags:
       accounts_today: Usi unici oggi
       accounts_week: Usi unici questa settimana
@@ -669,7 +691,7 @@ it:
       reviewed: Controllato
       title: Hashtag
       trending_right_now: Di tendenza ora
-      unique_uses_today: "%{count} post oggi"
+      unique_uses_today: "%{count} hop oggi"
       unreviewed: Non controllato
       updated_msg: Impostazioni degli hashtag aggiornate
     title: Amministrazione
@@ -677,6 +699,7 @@ it:
       add_new: Aggiungi nuovo
       delete: Cancella
       edit_preset: Modifica avviso predefinito
+      empty: Non hai ancora definito alcun avviso preimpostato.
       title: Gestisci avvisi predefiniti
   admin_mailer:
     new_pending_account:
@@ -817,7 +840,7 @@ it:
     warning:
       before: 'Prima di procedere, per favore leggi attentamente queste note:'
       caches: Il contenuto che è stato memorizzato in cache da altri server può continuare ad esistere
-      data_removal: I tuoi post e altri dati saranno eliminati definitivamente
+      data_removal: I tuoi hop e altri dati saranno eliminati definitivamente
       email_change_html: Puoi <a href="%{path}">cambiare il tuo indirizzo e-mail</a> senza cancellare il tuo account
       email_contact_html: Se ancora non arriva, puoi mandare una mail a <a href="mailto:%{email}">%{email}</a> per chiedere aiuto
       email_reconfirmation_html: Se non ricevi l'email di conferma, puoi <a href="%{path}">richiederla nuovamente</a>
@@ -868,7 +891,7 @@ it:
     add_new: Aggiungi nuovo
     errors:
       limit: Hai già messo in evidenza il numero massimo di hashtag
-    hint_html: "<strong>Cosa sono gli hashtag in evidenza?</strong> Sono visualizzati in evidenza sul tuo profilo pubblico e permettono alle persone di visualizzare i tuoi post pubblici marcati con questi hashtag. Sono un grande strumento per tenere traccia di opere creative o progetti a lungo termine."
+    hint_html: "<strong>Cosa sono gli hashtag in evidenza?</strong> Sono visualizzati in evidenza sul tuo profilo pubblico e permettono alle persone di visualizzare i tuoi hop pubblici marcati con questi hashtag. Sono un grande strumento per tenere traccia di opere creative o progetti a lungo termine."
   filters:
     contexts:
       account: Profili
@@ -970,7 +993,7 @@ it:
       limit: Hai raggiunto il numero massimo di liste
   media_attachments:
     validations:
-      images_and_video: Impossibile allegare video a un post che contiene già immagini
+      images_and_video: Impossibile allegare video a un hop che contiene già immagini
       not_ready: Impossibile allegare file per cui l'elaborazione non è finita. Riprova tra poco!
       too_many: Impossibile allegare più di 4 file
   migrations:
@@ -1040,10 +1063,14 @@ it:
       body: 'Sei stato menzionato da %{name} su:'
       subject: Sei stato menzionato da %{name}
       title: Nuova menzione
+    poll:
+      subject: Un sondaggio da %{name} è terminato
     reblog:
       body: 'Il tuo status è stato condiviso da %{name}:'
       subject: "%{name} ha condiviso il tuo status"
       title: Nuova condivisione
+    status:
+      subject: "%{name} ha appena pubblicato un hop"
   notifications:
     email_events: Eventi per notifiche via email
     email_events_hint: 'Seleziona gli eventi per i quali vuoi ricevere le notifiche:'
@@ -1192,8 +1219,6 @@ it:
     relationships: Follows e followers
     two_factor_authentication: Autenticazione a due fattori
     webauthn_authentication: Chiavi di sicurezza
-  spam_check:
-    spam_detected: Questo è un rapporto automatico. È stato rilevato dello spam.
   statuses:
     attached:
       audio:
@@ -1255,9 +1280,9 @@ it:
 
       <ul>
       <li><em>Informazioni di base del profilo</em>: Se ti registri su questo server, ti potrebbe venir chiesto di inserire un nome utente, un indirizzo e-mail ed una password. Potresti anche inserire informazioni aggiuntive del profilo come un nome a schermo ed una biografia e caricare una foto profilo ed un'immagine di intestazione. Il nome utente, il nome a schermo, la biografia, la foto profilo e l'immagine di intestazione, sono sempre elencati pubblicamente.</li>
-      <li><em>I post, i seguiti ed altre informazioni pubbliche</em>: L'elenco di persone che segui viene elencata pubblicamente, la stessa cosa è vera per i tuoi seguaci. Quando invii un messaggio, la data e l'orario sono memorizzati così come l'applicazione da cui hai inviato il messaggio.
-      I messaggi potrebbero contenere allegati media, come immagini e video. I post pubblici e non elencati sono disponibili pubblicamente. Quando mostri un post sul tuo profilo, anche questo diventa disponibile pubblicamente. I tuoi post sono consegnati ai tuoi seguaci, in alcuni casi significa che sono consegnati a server differenti e che lì sono memorizzate delle copie. Quando elimini i post, anche questo viene notificato ai tuoi seguaci. L'azione di ripubblicare o preferire un altro post è sempre pubblica.</li>
-      <li><em>Post diretti e solo per i seguaci</em>: Tutti i post sono archiviati ed elaborati sul server. I post solo per seguaci sono consegnati ai tuoi seguaci ed agli utenti che vi hai menzionato, ed i post diretti sono consegnati solo agli utenti in essi menzionati. In alcuni casi significa che sono consegnati a server differenti e che lì sono memorizzate delle copie. Compiamo uno sforzo in buona fede per limitare l'accesso a questi post solo a persone autorizzate, ma gli altri server potrebbero non riuscire a fare ciò. Dunque, è importante rivedere i server a cui appartengono i tuoi seguaci. Potresti attivare/disattivare un'opzione per approvare e rifiutare i nuovi seguaci manualmente nelle impostazioni.
+      <li><em>I hop, i seguiti ed altre informazioni pubbliche</em>: L'elenco di persone che segui viene elencata pubblicamente, la stessa cosa è vera per i tuoi seguaci. Quando invii un messaggio, la data e l'orario sono memorizzati così come l'applicazione da cui hai inviato il messaggio.
+      I messaggi potrebbero contenere allegati media, come immagini e video. I hop pubblici e non elencati sono disponibili pubblicamente. Quando mostri un hop sul tuo profilo, anche questo diventa disponibile pubblicamente. I tuoi hop sono consegnati ai tuoi seguaci, in alcuni casi significa che sono consegnati a server differenti e che lì sono memorizzate delle copie. Quando elimini i hop, anche questo viene notificato ai tuoi seguaci. L'azione di ripubblicare o preferire un altro hop è sempre pubblica.</li>
+      <li><em>Hop diretti e solo per i seguaci</em>: Tutti i hop sono archiviati ed elaborati sul server. I hop solo per seguaci sono consegnati ai tuoi seguaci ed agli utenti che vi hai menzionato, ed i hop diretti sono consegnati solo agli utenti in essi menzionati. In alcuni casi significa che sono consegnati a server differenti e che lì sono memorizzate delle copie. Compiamo uno sforzo in buona fede per limitare l'accesso a questi hop solo a persone autorizzate, ma gli altri server potrebbero non riuscire a fare ciò. Dunque, è importante rivedere i server a cui appartengono i tuoi seguaci. Potresti attivare/disattivare un'opzione per approvare e rifiutare i nuovi seguaci manualmente nelle impostazioni.
       <em>Sei pregato di tenere a mente che gli operatori del server e di ogni server ricevente potrebbero visualizzare tali messaggi</em> e che i riceventi potrebbero fotografarli, copiarlo o altrimenti ricondividerli. <em>Non condividere alcuna informazione pericolosa su koyu.space.</em></li>
       <li><em>IP ed altri metadati</em>: Quando accedi, registriamo l'indirizzo IP da cui accedi, così come il nome della tua applicazione browser. Tutte le sessioni accedute sono disponibili per la tua revisione e revoca nelle impostazioni. L'ultimo indirizzo IP usato è memorizzato anche fino a 12 mesi. Potremmo anche trattenere i registri del server che includono l'indirizzo IP di ogni richiesta al nostro server.</li>
       </ul>
@@ -1269,7 +1294,7 @@ it:
       <p>Ogni informazioni che raccogliamo da te potrebbe essere usata nei modi seguenti:</p>
 
       <ul>
-      <li>Per fornire la funzionalità principale di koyu.space. Puoi interagire solo con il contenuto di altre persone ed postare i tuoi contenuti quando sei acceduto. Per esempio, potresti seguire altre persone per vedere i loro post combinati nella timeline principale personalizzata e tua.</li>
+      <li>Per fornire la funzionalità principale di koyu.space. Puoi interagire solo con il contenuto di altre persone ed postare i tuoi contenuti quando sei acceduto. Per esempio, potresti seguire altre persone per vedere i loro hop combinati nella timeline principale personalizzata e tua.</li>
       <li>Per aiutare a moderare la comunità, per esempio comparando il tuo indirizzo IP con altri noti per determinare evasioni dei ban o altre violazioni.</li>
       <li>L'indirizzo email che fornisci potrebbe essere usato per inviarti informazioni, notifiche sull'interazione di altre persone con i tuoi contenuti o inviarti messaggi e per rispondere a interrogativi e/o altre richieste o domande.</li>
       </ul>
@@ -1291,7 +1316,7 @@ it:
       <li>Tratteniamo gli indirizzi IP associati con utenti registrati da non oltre 12 mesi.</li>
       </ul>
 
-      <p>Puoi richiedere e scaricare un archivio del tuo contenuto, inclusi i tuoi post, allegati media, foto profilo ed immagine di intestazione.</p>
+      <p>Puoi richiedere e scaricare un archivio del tuo contenuto, inclusi i tuoi hop, allegati media, foto profilo ed immagine di intestazione.</p>
 
       <p>Puoi eliminare irreversibilmente il tuo profilo in ogni momento.</p>
 
@@ -1309,9 +1334,9 @@ it:
 
       <p>Non vendiamo, non scambiamo o trasferiamo altrimenti a terze parti le tue informazioni personalmente identificabili. Questo non include terze parti fidate che ci assistono nell'operare il nostro sito, nel condurre il nostro business o nel servirti, finché queste parti acconsentono a mantenere queste informazioni confidenziali. potremmo anche rilasciare le tue informazioni quando crediamo che il rilascio sia appropriato e soddisfi la legge, si applichi alle nostre politiche del sito o protegga noi o i diritti, la proprietà o la sicurezza di altri.</p>
 
-      <p>Il tuo contenuto pubblico potrebbe essere scaricato da altri server nella rete. I tuoi post pubblici e per soli seguaci sono consegnati ai server dove risiedono i seguaci ed i messaggi diretti sono consegnati ai server dei destinatari, finché questi seguaci o destinatari risiedono su un server differente da questo.</p>
+      <p>Il tuo contenuto pubblico potrebbe essere scaricato da altri server nella rete. I tuoi hop pubblici e per soli seguaci sono consegnati ai server dove risiedono i seguaci ed i messaggi diretti sono consegnati ai server dei destinatari, finché questi seguaci o destinatari risiedono su un server differente da questo.</p>
 
-      <p>Quando autorizzi un'applicazione ad usare il tuo profilo, in base allo scopo dei permessi che approvi, potrebbe accedere alle tue informazioni del profilo pubbliche, l'elenco di chi segui, i tuoi seguaci, i tuoi elenchi, tutti i tuoi post ed i tuoi preferiti. Le applicazioni non possono mai accedere al tuo indirizzo e-mail o alla tua password.</p>
+      <p>Quando autorizzi un'applicazione ad usare il tuo profilo, in base allo scopo dei permessi che approvi, potrebbe accedere alle tue informazioni del profilo pubbliche, l'elenco di chi segui, i tuoi seguaci, i tuoi elenchi, tutti i tuoi hop ed i tuoi preferiti. Le applicazioni non possono mai accedere al tuo indirizzo e-mail o alla tua password.</p>
 
       <hr class="spacer" />
 
@@ -1340,7 +1365,7 @@ it:
     mastodon-light: koyu.space (chiaro)
   time:
     formats:
-      default: "%b %d, %Y, %H:%M"
+      default: "%d %b %Y, %H:%M"
       month: "%b %Y"
   two_factor_authentication:
     add: Aggiungi
@@ -1398,7 +1423,7 @@ it:
       full_handle: Il tuo nome utente completo
       full_handle_hint: Questo è ciò che diresti ai tuoi amici in modo che possano seguirti o contattarti da un altro server.
       review_preferences_action: Cambia preferenze
-      review_preferences_step: Dovresti impostare le tue preferenze, ad esempio quali email vuoi ricevere oppure il livello predefinito di privacy per i tuoi post. Se le immagini in movimento non ti danno fastidio, puoi abilitare l'animazione automatica delle GIF.
+      review_preferences_step: Dovresti impostare le tue preferenze, ad esempio quali email vuoi ricevere oppure il livello predefinito di privacy per i tuoi hop. Se le immagini in movimento non ti danno fastidio, puoi abilitare l'animazione automatica delle GIF.
       subject: Benvenuto/a su koyu.space
       tip_federated_timeline: La timeline federata visualizza uno dopo l'altro i messaggi pubblicati su koyu.space. Ma comprende solo gli utenti seguiti dai tuoi vicini, quindi non è completa.
       tip_following: Per impostazione predefinita, segui l'amministratore/i del tuo server. Per trovare utenti più interessanti, dà un'occhiata alle timeline locale e federata.
@@ -1407,11 +1432,8 @@ it:
       tips: Suggerimenti
       title: Benvenuto a bordo, %{name}!
   users:
-    blocked_email_provider: Questo provider di posta non è consentito
     follow_limit_reached: Non puoi seguire più di %{limit} persone
     generic_access_help_html: Problemi nell'accesso al tuo account? Puoi contattare %{email} per assistenza
-    invalid_email: L'indirizzo email inserito non è valido
-    invalid_email_mx: L'indirizzo e-mail non sembra esistere
     invalid_otp_token: Codice d'accesso non valido
     invalid_sign_in_token: Codice di sicurezza non valido
     otp_lost_help_html: Se perdessi l'accesso ad entrambi, puoi entrare in contatto con %{email}

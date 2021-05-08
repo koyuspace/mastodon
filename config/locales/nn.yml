@@ -7,7 +7,6 @@ nn:
     active_count_after: aktiv
     active_footnote: Månadlege aktive brukarar (MAB)
     administered_by: 'Administrert av:'
-    api: API
     apps: Mobilappar
     apps_platforms: Bruk koyu.space på iOS, Android og andre plattformer
     browse_directory: Bla gjennom en profilmappe og filtrer etter interesser
@@ -27,9 +26,6 @@ nn:
     see_whats_happening: Sjå kva som skjer
     server_stats: 'Tenarstatistikk:'
     source_code: Kjeldekode
-    status_count_after:
-      one: status
-      other: statusar
     status_count_before: Som skreiv
     tagline: Fylg vener og oppdag nye
     terms: Brukarvilkår
@@ -61,7 +57,6 @@ nn:
     joined: Vart med %{date}
     last_active: sist aktiv
     link_verified_on: Eigarskap for denne lenkja vart sist sjekka %{date}
-    media: Media
     moved_html: "%{name} har flytta til %{new_profile_link}:"
     network_hidden: Denne informasjonen er ikkje tilgjengeleg
     never_active: Aldri
@@ -70,12 +65,11 @@ nn:
     people_who_follow: Folk som fylgjer %{name}
     pin_errors:
       following: Du må allereie fylgja personen du vil fremja
-    posts:
+    hops:
       one: Tut
       other: Tut
     posts_tab_heading: Tut
     posts_with_replies: Tut og svar
-    reserved_username: Dette brukarnamnet er oppteke
     roles:
       admin: Administrator
       bot: Robot
@@ -101,11 +95,11 @@ nn:
       by_domain: Domene
       change_email:
         changed_msg: Konto-e-posten er endra!
-        current_email: Noverande e-post
-        label: Byt e-post
-        new_email: Ny e-post
-        submit: Byt e-post
-        title: Byt e-post for %{username}
+        current_email: Noverande e-hop
+        label: Byt e-hop
+        new_email: Ny e-hop
+        submit: Byt e-hop
+        title: Byt e-hop for %{username}
       confirm: Stadfest
       confirmed: Stadfesta
       confirming: Stadfestar
@@ -118,7 +112,7 @@ nn:
       display_name: Synleg namn
       domain: Domene
       edit: Rediger
-      email: E-post
+      email: E-hop
       email_status: E-poststatus
       enable: Slå på
       enabled: Aktivert
@@ -127,7 +121,7 @@ nn:
       header: Overskrift
       inbox_url: Innbokslenkje
       invited_by: Innboden av
-      ip: IP
+      ip: IP-adresse
       joined: Vart med
       location:
         all: Alle
@@ -164,14 +158,12 @@ nn:
       resend_confirmation:
         already_confirmed: Denne brukaren er allereie stadfesta
         send: Send stadfestings-e-posten på nytt
-        success: Stadfestings-e-post send!
+        success: Stadfestings-e-hop send!
       reset: Attstill
       reset_password: Attstill passord
       resubscribe: Ting på nytt
       role: Løyve
       roles:
-        admin: Administrator
-        moderator: Moderator
         staff: Personell
         user: Brukar
       search: Søk
@@ -188,7 +180,7 @@ nn:
       suspended: Utvist
       time_in_queue: Ventar i kø %{time}
       title: Kontoar
-      unconfirmed_email: E-post utan stadfesting
+      unconfirmed_email: E-hop utan stadfesting
       undo_silenced: Angr målbinding
       undo_suspension: Angr utvising
       unsilenced_msg: Opphevde vellykket begrensningen av %{username} sin konto
@@ -202,14 +194,14 @@ nn:
     action_logs:
       action_types:
         assigned_to_self_report: Tilordne rapport
-        change_email_user: Byt e-post for brukar
+        change_email_user: Byt e-hop for brukar
         confirm_user: Stadfest brukar
         create_account_warning: Opprett åtvaring
         create_announcement: Opprett lysing
         create_custom_emoji: Opprett tilpassa emoji
         create_domain_allow: Opprett domene tillatt
         create_domain_block: Opprett domene-blokk
-        create_email_domain_block: Opprett e-post domeneblokk
+        create_email_domain_block: Opprett e-hop domeneblokk
         create_ip_block: Opprett IP-regel
         demote_user: Degrader brukar
         destroy_announcement: Slett lysinga
@@ -235,44 +227,6 @@ nn:
         update_announcement: Oppdater kunngjøringen
         update_custom_emoji: Oppdater tilpassa emoji
         update_status: Oppdater tut
-      actions:
-        assigned_to_self_report: "%{name} tilegnet rapport %{target} til seg selv"
-        change_email_user: "%{name} endra e-postadressa til brukaren %{target}"
-        confirm_user: "%{name} stadfesta e-postadressa til brukaren %{target}"
-        create_account_warning: "%{name} sende ei åtvaring til %{target}"
-        create_announcement: "%{name} laget en ny kunngjøring %{target}"
-        create_custom_emoji: "%{name} lasta opp eit nytt kjensleteikn %{target}"
-        create_domain_allow: "%{name} kvitlista domenet %{target}"
-        create_domain_block: "%{name} blokkerte domenet %{target}"
-        create_email_domain_block: "%{name} svartelista e-postdomenet %{target}"
-        create_ip_block: "%{name} opprettet en regel for IP-en %{target}"
-        demote_user: "%{name} degraderte brukaren %{target}"
-        destroy_announcement: "%{name} slettet kunngjøring %{target}"
-        destroy_custom_emoji: "%{name} utsletta kjensleteiknet %{target}"
-        destroy_domain_allow: "%{name} fjerna domenet %{target} frå kvitliste"
-        destroy_domain_block: "%{name} slutta å blokkera domenet %{target}"
-        destroy_email_domain_block: "%{name} kvitlista e-postdomenet %{target}"
-        destroy_ip_block: "%{name} slettet en regel for IP-en %{target}"
-        destroy_status: "%{name} sletta status av %{target}"
-        disable_2fa_user: "%{name} tok vekk krav om tofaktorautentisering for brukaren %{target}"
-        disable_custom_emoji: "%{name} deaktiverte emojien %{target}"
-        disable_user: "%{name} slo av innlogging for brukaren %{target}"
-        enable_custom_emoji: "%{name} aktiverte emojien %{target}"
-        enable_user: "%{name} aktiverte innlogging for brukaren %{target}"
-        memorialize_account: "%{name} endret %{target}s konto til en minneside"
-        promote_user: "%{name} fremja brukaren %{target}"
-        remove_avatar_user: "%{name} fjerna %{target} sitt profilbilete"
-        reopen_report: "%{name} opna rapporten %{target} på nytt"
-        reset_password_user: "%{name} nullstilte passordet til brukaren %{target}"
-        resolve_report: "%{name} løyste ein rapport %{target}"
-        silence_account: "%{name} målbatt %{target} sin konto"
-        suspend_account: "%{name} utviste %{target} sin konto"
-        unassigned_report: "%{name} avtilegnet rapport %{target}"
-        unsilence_account: "%{name} fjernet forstummingen av %{target}s konto"
-        unsuspend_account: "%{name} utviste %{target} sin konto"
-        update_announcement: "%{name} oppdaterte kunngjøring %{target}"
-        update_custom_emoji: "%{name} oppdaterte kjensleteiknet %{target}"
-        update_status: "%{name} oppdaterte status for %{target}"
       deleted_status: "(sletta status)"
       empty: Ingen loggar funne.
       filter_by_action: Sorter etter handling
@@ -306,7 +260,6 @@ nn:
       disable: Slå av
       disabled: Slege av
       disabled_msg: Deaktiverte emoji
-      emoji: Emoji
       enable: Slå på
       enabled: Slege på
       enabled_msg: Aktiverte kjensleteikn
@@ -335,7 +288,6 @@ nn:
       feature_profile_directory: Profilmappe
       feature_registrations: Registreringar
       feature_relay: Føderasjonsoverganger
-      feature_spam_check: Søppelvern
       feature_timeline_preview: Førehandsvisning av tidsline
       features: Eigenskapar
       hidden_service: Føderering med skjulte tjenester
@@ -435,7 +387,7 @@ nn:
         all: Alle
         available: Tilgjengeleg
         expired: Utgått
-        title: Filter
+        title: Filtrer
       title: Innbydingar
     ip_blocks:
       add_new: Opprett regel
@@ -469,7 +421,6 @@ nn:
       save_and_enable: Lagr og slå på
       setup: Sett opp en overgangsforbindelse
       signatures_not_enabled: Overganger vil ikke fungere riktig mens sikkermodus eller hvitelistingsmodus er skrudd på
-      status: Status
       title: Vidaresendingar
     report_notes:
       created_msg: Rapportmerknad laga!
@@ -504,7 +455,6 @@ nn:
       reported_by: Rapportert av
       resolved: Oppløyst
       resolved_msg: Rapporten er løyst!
-      status: Status
       title: Rapportar
       unassign: Avset
       unresolved: Uløyst
@@ -578,9 +528,6 @@ nn:
         desc_html: Du kan skrive din egen personverns-strategi, bruksviklår og andre regler. Du kan bruke HTML tagger
         title: Eigne brukarvilkår
       site_title: Tenarnamn
-      spam_check_enabled:
-        desc_html: koyu.space kan auto-rapportere kontoer som sender gjentatte uforespurte meldinger. Det kan oppstå falske positive treff.
-        title: Nettsøppelvern
       thumbnail:
         desc_html: Brukes ved forhandsvisning via OpenGraph og API. 1200x630px anbefales
         title: Småbilete for tenaren
@@ -604,8 +551,6 @@ nn:
         nsfw_on: NSFW PÅ
       deleted: Sletta
       failed_to_execute: Lét seg ikkje gjera
-      media:
-        title: Media
       no_media: Ingen media
       no_status_selected: Ingen statusar vart endra sidan ingen vart valde
       title: Kontostatusar
@@ -660,14 +605,12 @@ nn:
     discovery: Oppdaging
     localization:
       body: koyu.space er oversatt av frivillige.
-      guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Alle kan bidra.
     sensitive_content: Sensitivt innhold
     toot_layout: Tutoppsett
   application_mailer:
-    notification_preferences: Endr e-post-innstillingane
-    salutation: "%{name},"
-    settings: 'Endr e-post-innstillingar: %{link}'
+    notification_preferences: Endr e-hop-innstillingane
+    settings: 'Endr e-hop-innstillingar: %{link}'
     view: 'Sjå:'
     view_profile: Sjå profil
     view_status: Sjå status
@@ -701,9 +644,6 @@ nn:
     migrate_account: Flytt til ein annan konto
     migrate_account_html: Hvis du ønsker å henvise denne kontoen til en annen, kan du <a href="%{path}">konfigurere det her</a>.
     or_log_in_with: Eller logg inn med
-    providers:
-      cas: CAS
-      saml: SAML
     register: Registrer deg
     registration_closed: "%{instance} tek ikkje imot nye medlemmar"
     resend_confirmation: Send stadfestingsinstruksjonar på nytt
@@ -711,14 +651,14 @@ nn:
     security: Tryggleik
     set_new_password: Lag nytt passord
     setup:
-      email_below_hint_html: Om e-posten nedfor ikkje er rett, kan du endra han her og få ein ny stadfestings-e-post.
+      email_below_hint_html: Om e-posten nedfor ikkje er rett, kan du endra han her og få ein ny stadfestings-e-hop.
       email_settings_hint_html: Stadfestings-e-posten vart send til %{email}. Om den e-postadressa ikkje er rett, kan du byta adresse i kontoinnstillingane.
       title: Oppsett
     status:
       account_status: Kontostatus
-      confirming: Ventar på stadfesting av e-post.
+      confirming: Ventar på stadfesting av e-hop.
       functional: Kontoen din er oppe og går.
-      pending: Søknaden din ventar på gjennomgang frå personalet vårt. Dette kan taka litt tid. Du får ein e-post om søknaden din vert godkjend.
+      pending: Søknaden din ventar på gjennomgang frå personalet vårt. Dette kan taka litt tid. Du får ein e-hop om søknaden din vert godkjend.
       redirecting_to: Kontoen din er inaktiv fordi den for øyeblikket omdirigerer til %{acct}.
     trouble_logging_in: Får du ikkje logga inn?
     use_security_key: Bruk sikkerhetsnøkkel
@@ -743,9 +683,6 @@ nn:
     errors:
       invalid_key: er ikkje ein gild Ed25519 eller Curve25519 nykel
       invalid_signature: er ikkje ein gild Ed25519-signatur
-  date:
-    formats:
-      default: "%b %d, %Y"
   datetime:
     distance_in_words:
       about_x_hours: "%{count}t"
@@ -756,10 +693,10 @@ nn:
       less_than_x_minutes: "%{count}min"
       less_than_x_seconds: No nettopp
       over_x_years: "%{count} år"
-      x_days: "%{count}d"
+      x_days: "%{count} dager"
       x_minutes: "%{count}min"
       x_months: "%{count}md"
-      x_seconds: "%{count}s"
+      x_seconds: "%{count} sek"
   deletes:
     challenge_not_passed: Det du skreiv var ikkje rett
     confirm_password: Skriv det noverande passordet ditt for å stadfesta identiteten din
@@ -771,7 +708,7 @@ nn:
       caches: Innhold som har blitt mellomlagret av andre tjenere kan kanskje fortsette å eksistere
       data_removal: Innlegga dine og andre data vert fjerna for alltid
       email_change_html: Du kan <a href="%{path}">byta e-postadressa di</a> utan å sletta kontoen din
-      email_contact_html: Dersom det fortsatt ikke kommer, kan du sende en E-post til <a href="mailto:%{email}">%{email}</a> og be om hjelp
+      email_contact_html: Dersom det fortsatt ikke kommer, kan du sende en E-hop til <a href="mailto:%{email}">%{email}</a> og be om hjelp
       email_reconfirmation_html: Dersom du ikke mottar bekreftelses-E-posten, kan du <a href="%{path}">be om den igjen</a>
       irreversible: Du kjem ikkje til å kunna gjenoppretta eller aktivera kontoen din på nytt
       more_details_html: For fleire detaljar, sjå <a href="%{terms_path}">personvernsvilkåra</a>.
@@ -810,7 +747,6 @@ nn:
       request: Bed om arkivet ditt
       size: Storleik
     blocks: Du blokkerer
-    csv: CSV
     domain_blocks: Domeneblokkeringer
     lists: Lister
     mutes: Du dempar
@@ -995,12 +931,12 @@ nn:
   number:
     human:
       decimal_units:
-        format: "%n%u"
+        format: "%n %u"
         units:
           billion: Mrd
           million: Mil
           quadrillion: Bil
-          thousand: K
+          thousand: T
           trillion: Bil
   otp_authentication:
     code_hint: Skriv inn koden generert av autentiseringsappen din for å bekrefte
@@ -1015,7 +951,6 @@ nn:
     next: Neste
     older: Eldre
     prev: Førre
-    truncate: "&hellip;"
   polls:
     errors:
       already_voted: Du har allereie røysta i denne rundspørjinga
@@ -1076,40 +1011,23 @@ nn:
     activity: Siste aktivitet
     browser: Nettlesar
     browsers:
-      alipay: Alipay
-      blackberry: Blackberry
-      chrome: Chrome
-      edge: Microsoft Edge
-      electron: Electron
-      firefox: Firefox
+      alipay: AliPay
+      blackberry: BlackBerry
       generic: Ukjend lesar
-      ie: Internet Explorer
       micro_messenger: Micromessenger
       nokia: Nokia S40 Ovi-lesar
-      opera: Opera
-      otter: Otter
-      phantom_js: PhantomJS
       qq: QQ-lesar
-      safari: Safari
       uc_browser: UC-lesar
-      weibo: Weibo
     current_session: Noverande økt
     description: "%{browser} på %{platform}"
     explanation: Desse nettlesarane er logga inn på koyu.space-kontoen din.
-    ip: IP
+    ip: IP-adresse
     platforms:
-      adobe_air: Adobe Air
-      android: Android
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome_os: Chrome OS
-      firefox_os: Firefox OS
       ios: IOS
-      linux: Linux
       mac: Mac
       other: ukjend plattform
-      windows: Windows
-      windows_mobile: Windows Mobile
-      windows_phone: Windows Phone
     revoke: Tilbakekall
     revoke_success: Økt tilbakekalt
     title: Økter
@@ -1135,8 +1053,6 @@ nn:
     relationships: Fylgjar og fylgjarar
     two_factor_authentication: Tostegsautorisering
     webauthn_authentication: Sikkerhetsnøkler
-  spam_check:
-    spam_detected: Dette er en automatisert rapport. Spam har blitt oppdaget.
   statuses:
     attached:
       audio:
@@ -1146,9 +1062,6 @@ nn:
       image:
         one: "%{count} bilete"
         other: "%{count} bilete"
-      video:
-        one: "%{count} video"
-        other: "%{count} videoar"
     boosted_from_html: Framheva av %{acct_link}
     content_warning: 'Innhaldsåtvaring: %{warning}'
     disallowed_hashtags:
@@ -1165,9 +1078,6 @@ nn:
       private: Du kan ikkje festa uoffentlege tut
       reblog: Ei framheving kan ikkje festast
     poll:
-      total_people:
-        one: "%{count} person"
-        other: "%{count} folk"
       total_votes:
         one: "%{count} røyst"
         other: "%{count} røyster"
@@ -1279,7 +1189,6 @@ nn:
   time:
     formats:
       default: "%d.%b %Y, %H:%M"
-      month: "%b %Y"
   two_factor_authentication:
     add: Legg til
     disable: Slå av
@@ -1337,19 +1246,16 @@ nn:
       tip_following: Du fylgjer automatisk tenaradministrator(ane). For å finna fleire forvitnelege folk kan du sjekka den lokale og fødererte tidslina.
       tip_local_timeline: Den lokale tidslinjen blir kontant matet med meldinger fra personer på %{instance}. Dette er dine nærmeste naboer!
       tip_mobile_webapp: Hvis din mobile nettleser tilbyr deg å legge Mastadon til din hjemmeskjerm kan du motta push-varslinger. Det er nesten som en integrert app på mange måter!
-      tips: Tips
       title: Velkomen om bord, %{name}!
   users:
-    blocked_email_provider: Denne E-postleverandøren er ikke tillatt
     follow_limit_reached: Du kan ikkje fylgja fleire enn %{limit} folk
     generic_access_help_html: Har du vanskar med tilgjenge til kontoen din? Tak gjerne kontakt med %{email}
-    invalid_email: E-mailadressa er ugyldig
     invalid_otp_token: Ugyldig tostegskode
     invalid_sign_in_token: Ugild trygdenykel
     otp_lost_help_html: Hvis du mistet tilgangen til begge deler, kan du komme i kontakt med %{email}
     seamless_external_login: Du er logga inn gjennom eit eksternt reiskap, so passord og e-postinstillingar er ikkje tilgjengelege.
     signed_in_as: 'Logga inn som:'
-    suspicious_sign_in_confirmation: Det verkar ikkje som du har logga inn frå dette reiskapet før, og du har ikkje logga inn på ei stund, difor sender me deg ein trygdekode til e-post-addressa di for å stadfesta at det er deg.
+    suspicious_sign_in_confirmation: Det verkar ikkje som du har logga inn frå dette reiskapet før, og du har ikkje logga inn på ei stund, difor sender me deg ein trygdekode til e-hop-addressa di for å stadfesta at det er deg.
   verification:
     explanation_html: 'Du kan <strong>bekrefte at du selv er eieren av lenkene i din profilmetadata</strong>. For å gjøre det, må det tillenkede nettstedet inneholde en lenke som fører tilbake til koyu.space-profilen din. Lenken tilbake <strong>må</strong> ha en <code>rel="me"</code>-attributt. Tekstinnholdet til lenken er irrelevant. Her er et eksempel:'
     verification: Stadfesting

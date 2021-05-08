@@ -11,7 +11,7 @@ es:
     apps: Aplicaciones móviles
     apps_platforms: Utiliza koyu.space desde iOS, Android y otras plataformas
     browse_directory: Navega por el directorio de perfiles y filtra por intereses
-    browse_local_posts: Explora en vivo los posts públicos de este servidor
+    browse_local_posts: Explora en vivo los hops públicos de este servidor
     browse_public_posts: Navega por un transmisión en vivo de publicaciones públicas en koyu.space
     contact: Contacto
     contact_missing: No especificado
@@ -73,7 +73,7 @@ es:
     people_who_follow: Usuarios que siguen a %{name}
     pin_errors:
       following: Debes estar siguiendo a la persona a la que quieres aprobar
-    posts:
+    hops:
       one: Hop
       other: Hops
     posts_tab_heading: Hops
@@ -397,7 +397,7 @@ es:
         create: Crear bloque
         hint: El bloque de dominio no prevendrá la creación de entradas de cuenta en la base de datos, pero aplicará retroactiva y automáticamente métodos de moderación específica en dichas cuentas.
         severity:
-          desc_html: "<strong>Silenciar</strong> hará los posts de la cuenta invisibles a cualquiera que no lo esté siguiendo. <strong>Suspender</strong> eliminará todo el contenido, media, y datos del perfil. Usa <strong>Ninguno</strong> si solo quieres rechazar archivos multimedia."
+          desc_html: "<strong>Silenciar</strong> hará los hops de la cuenta invisibles a cualquiera que no lo esté siguiendo. <strong>Suspender</strong> eliminará todo el contenido, media, y datos del perfil. Usa <strong>Ninguno</strong> si solo quieres rechazar archivos multimedia."
           noop: Ninguno
           silence: Silenciar
           suspend: Suspender

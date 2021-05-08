@@ -57,6 +57,10 @@ export default class ModalRoot extends React.PureComponent {
     onClose: PropTypes.func.isRequired,
   };
 
+  state = {
+    backgroundColor: null,
+  };
+
   getSnapshotBeforeUpdate () {
     return { visible: !!this.props.type };
   }
@@ -71,6 +75,10 @@ export default class ModalRoot extends React.PureComponent {
     }
   }
 
+  setBackgroundColor = color => {
+    this.setState({ backgroundColor: color });
+  }
+
   renderLoading = modalId => () => {
     return ['MEDIA', 'VIDEO', 'BOOST', 'FAVOURITE', 'DOODLE', 'GIPHY', 'CONFIRM', 'ACTIONS'].indexOf(modalId) === -1 ? <ModalLoading /> : null;
   }
@@ -83,13 +91,14 @@ export default class ModalRoot extends React.PureComponent {
 
   render () {
     const { type, props, onClose } = this.props;
+    const { backgroundColor } = this.state;
     const visible = !!type;
 
     return (
-      <Base onClose={onClose} noEsc={props ? props.noEsc : false}>
+      <Base backgroundColor={backgroundColor} onClose={onClose} noEsc={props ? props.noEsc : false}>
         {visible && (
           <BundleContainer fetchComponent={MODAL_COMPONENTS[type]} loading={this.renderLoading(type)} error={this.renderError} renderDelay={200}>
-            {(SpecificComponent) => <SpecificComponent {...props} onClose={onClose} />}
+            {(SpecificComponent) => <SpecificComponent {...props} onChangeBackgroundColor={this.setBackgroundColor} onClose={onClose} />}
           </BundleContainer>
         )}
       </Base>

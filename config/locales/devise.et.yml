@@ -28,7 +28,7 @@ et:
       email_changed:
         explanation: 'Teie konto e-postiaadress muudetakse:'
         extra: Kui Te ei muutnud oma e-posti, on tõenäoline, et kellelgi on ligipääs Teie kontole. Palun muutke oma salasõna koheselt või võtke ühendust oma serveri administraatoriga, kui olete oma kontost välja lukustatud.
-        subject: 'koyu.space: E-post muudetud'
+        subject: 'koyu.space: E-hop muudetud'
         title: Uus e-postiaadress
       password_change:
         explanation: Teie konto parool on muudetud.
@@ -38,7 +38,7 @@ et:
       reconfirmation_instructions:
         explanation: Kinnita oma uus aadress, et muuta oma e-posti.
         extra: Kui see muudatus pole Teie poolt alustatud, palun eirake seda kirja. E-postiaadress sellele koyu.spacei kontole ei muutu, kuni Te vajutate üleval asuvale lingile.
-        subject: 'koyu.space: Kinnitake e-post - %{instance}'
+        subject: 'koyu.space: Kinnitake e-hop - %{instance}'
         title: Kinnita e-postiaadress
       reset_password_instructions:
         action: Muuda salasõna

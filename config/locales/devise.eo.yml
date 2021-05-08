@@ -60,6 +60,23 @@ eo:
         title: Reakiraj kodoj de 2FA estas ŝanĝitaj
       unlock_instructions:
         subject: 'koyu.space: Instrukcioj por malŝlosi'
+      webauthn_credential:
+        added:
+          explanation: La sekva sekureca ŝlosilo estis aldonita al via konto
+          subject: 'koyu.space: Nova sekureca ŝlosilo'
+          title: Nova sekureca ŝlosilo estis aldonita
+        deleted:
+          explanation: La sekva sekureca ŝlosilo estis forigita de via konto
+          subject: 'koyu.space: sekureca ŝlosilo forigita'
+          title: Unu el viaj sekurecaj ŝlosiloj estis forigita
+      webauthn_disabled:
+        explanation: Aŭtentikigo per sekurecaj ŝlosiloj estis malebligita por via konto. Ensaluto nun eblas per nur la signo generita de la parigita TOTP-programo.
+        subject: 'koyu.space: sekureca-ŝlosila aŭtentigo malebligita'
+        title: Sekurecaj ŝlosiloj malaktivigitaj
+      webauthn_enabled:
+        explanation: Sekureca ŝlosila aŭtentokontrolo estis ebligita por via konto. Via sekureca ŝlosilo nun uzeblas por ensaluti.
+        subject: 'koyu.space: sekureca-ŝlosila aŭtentigo ebligita'
+        title: Sekurecaj ŝlosiloj aktivigitaj
     omniauth_callbacks:
       failure: 'Ni ne povis aŭtentigi vin per %{kind}: ''%{reason}''.'
       success: Aŭtentigita sukcese per %{kind}.
@@ -74,7 +91,7 @@ eo:
       signed_up: Bonvenon! Vi sukcese registriĝis.
       signed_up_but_inactive: Vi sukcese registriĝis. Tamen, ni ne povis ensalutigi vin, ĉar via konto ankoraŭ ne estas konfirmita.
       signed_up_but_locked: Vi sukcese registriĝis. Tamen, ni ne povis ensalutigi vin, ĉar via konto estas ŝlosita.
-      signed_up_but_pending: Mesaĝo kun konfirma ligilo estis sendita al via retpoŝta adreso. Post kiam vi alklakis la ligilon, ni revizios vian kandidatiĝon. Vi estos sciigita se ĝi estas aprobita.
+      signed_up_but_pending: Mesaĝo kun konfirma ligilo estis sendita al via retpoŝta adreso. Hop kiam vi alklakis la ligilon, ni revizios vian kandidatiĝon. Vi estos sciigita se ĝi estas aprobita.
       signed_up_but_unconfirmed: Retmesaĝo kun konfirma ligilo estis sendita al via retadreso. Bonvolu sekvi la ligilon por aktivigi vian konton. Bonvolu kontroli vian spamujon, se vi ne ricevis ĉi tiun retmesaĝon.
       update_needs_confirmation: Vi sukcese ĝisdatigis vian konton, sed ni bezonas kontroli vian novan retadreson. Bonvolu kontroli viajn retmesaĝojn kaj sekvi la konfirman ligilon por konfirmi vian novan retadreson. Bonvolu kontroli vian spamujon, se vi ne ricevis ĉi tiun retmesaĝon.
       updated: Via konto estis sukcese ĝisdatigita.

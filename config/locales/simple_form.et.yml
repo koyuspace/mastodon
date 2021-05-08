@@ -153,7 +153,7 @@ et:
         severity: Tõsidus
         type: Impordi tüüp
         username: Kasutajanimi
-        username_or_email: Kasutajanimi või e-post
+        username_or_email: Kasutajanimi või e-hop
         whole_word: Terve sõna
       email_domain_block:
         with_dns_records: Kaasa domeeni MX kirjed ning IP aadressid
@@ -185,6 +185,5 @@ et:
     'no': Ei
     recommended: Soovituslik
     required:
-      mark: "*"
       text: kohustuslik
     'yes': Jah

@@ -27,8 +27,8 @@ sv:
         title: Verifiera e-postadress
       email_changed:
         explanation: 'E-postadressen för ditt konto ändras till:'
-        extra: Om du inte ändrade din e-post är det troligt att någon har fått tillgång till ditt konto. Vänligen ändra ditt lösenord omedelbart eller kontakta instansadministratören om du är låst ur ditt konto.
-        subject: 'koyu.space: E-post ändrad'
+        extra: Om du inte ändrade din e-hop är det troligt att någon har fått tillgång till ditt konto. Vänligen ändra ditt lösenord omedelbart eller kontakta instansadministratören om du är låst ur ditt konto.
+        subject: 'koyu.space: E-hop ändrad'
         title: Ny e-postadress
       password_change:
         explanation: Lösenordet för ditt konto har ändrats.
@@ -38,7 +38,7 @@ sv:
       reconfirmation_instructions:
         explanation: Bekräfta den nya adressen för att ändra din e-postadress.
         extra: Om den här ändringen inte initierades av dig kan du ignorerar det här e-postmeddelandet. E-postadressen för koyu.space-kontot ändras inte förrän du kommer åt länken ovan.
-        subject: 'koyu.space: Bekräfta e-post för %{instance}'
+        subject: 'koyu.space: Bekräfta e-hop för %{instance}'
         title: Verifiera e-postadress
       reset_password_instructions:
         action: Ändra lösenord
@@ -62,6 +62,7 @@ sv:
         subject: 'koyu.space: Lås upp instruktioner'
       webauthn_credential:
         added:
+          explanation: Följande säkerhetsnyckel har lagts till i ditt konto
           subject: 'koyu.space: Ny säkerhetsnyckel'
           title: En ny säkerhetsnyckel har lagts till
         deleted:
@@ -69,8 +70,12 @@ sv:
           subject: 'koyu.space: Säkerhetsnyckeln borttagen'
           title: En av dina säkerhetsnycklar har tagits bort
       webauthn_disabled:
+        explanation: Autentisering med säkerhetsnycklar till ditt konto har inaktiverats. Inloggning är nu endast möjligt med den token som genereras av den sammankopplade TOTP-appen.
+        subject: 'koyu.space: Autentisering med säkerhetsnycklar är inaktiverat'
         title: Säkerhetsnycklar inaktiverade
       webauthn_enabled:
+        explanation: Autentisering med säkerhetsnyckel till ditt konto har aktiverats. Din säkerhetsnyckel kan nu användas för inloggning.
+        subject: 'koyu.space: Autentisering med säkerhetsnyckel är aktiverat'
         title: Säkerhetsnycklar aktiverade
     omniauth_callbacks:
       failure: Det gick inte att autentisera dig från %{kind} för "%{reason}".

@@ -60,6 +60,23 @@ eu:
         title: 2FA berreskuratze kodeak aldatuta
       unlock_instructions:
         subject: 'koyu.space: Desblokeatzeko argibideak'
+      webauthn_credential:
+        added:
+          explanation: Segurtasun gako hau zure kontuan gehitu da
+          subject: 'koyu.space: Segurtasun gako berria'
+          title: Segurtasun gako berri bat gehitu da
+        deleted:
+          explanation: Segurtasun gako hau zure kontutik ezabatu da
+          subject: 'koyu.space: Segurtasun gakoa ezabatu da'
+          title: Zure segurtasun gakoetako bat ezabatu da
+      webauthn_disabled:
+        explanation: Segurtasun gako bidezko autentifikazioa desgaitu da zure kontuan. Saioa hasteko modu bakarra parekatutako TOTP aplikazioak sortutako tokena erabiltzea da orain.
+        subject: 'koyu.space: Segurtasun gakoekin autentifikatzea desgaituta'
+        title: Segurtasun gakoak desgaituta
+      webauthn_enabled:
+        explanation: Segurtasun gako bidezko autentifikazioa gaitu da zure kontuan. Orain zure segurtasun gakoa erabil dezakezu saioa hasteko.
+        subject: 'koyu.space: Segurtasun gako bidezko autentifikazioa gaituta'
+        title: Segurtasun gakoak gaituta
     omniauth_callbacks:
       failure: Ezin izan zaizu %{kind} motatik autentifikatu arrazoia "%{reason}" dela.
       success: Ongi egin da autentifikazioa %{kind}  kontuarekin.

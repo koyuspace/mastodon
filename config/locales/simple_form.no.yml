@@ -30,7 +30,7 @@
         current_username: For å bekrefte, vennligst skriv inn brukernavnet til den nåværende kontoen
         digest: Kun sendt etter en lang periode med inaktivitet og bare dersom du har mottatt noen personlige meldinger mens du var borte
         discoverable: Profilmappen er en annen måte for kontoen din å nå et bredere publikum på
-        email: Du vil bli tilsendt en bekreftelses-E-post
+        email: Du vil bli tilsendt en bekreftelses-E-hop
         fields: Du kan ha opptil 4 gjenstander vist som en tabell på profilsiden din
         header: PNG, GIF eller JPG. Maksimalt %{size}. Vil bli nedskalert til %{dimensions}px
         inbox_url: Kopier URLen fra forsiden til overgangen du vil bruke
@@ -88,7 +88,7 @@
         title: Tittel
       admin_account_action:
         include_statuses: Inkluder rapporterte tuter i e-mailen
-        send_email_notification: Si ifra til brukeren over E-post
+        send_email_notification: Si ifra til brukeren over E-hop
         text: Tilpasset advarsel
         type: Handling
         types:
@@ -112,7 +112,6 @@
         confirm_password: Bekreft passord
         context: Filtersammenhenger
         current_password: Nåværende passord
-        data: Data
         discoverable: Før opp denne kontoen i mappen
         display_name: Visningsnavn
         email: E-postadresse
@@ -158,7 +157,7 @@
         sign_in_token_attempt: Sikkerhetskode
         type: Importeringstype
         username: Brukernavn
-        username_or_email: Brukernavn eller E-post
+        username_or_email: Brukernavn eller E-hop
         whole_word: Hele ord
       email_domain_block:
         with_dns_records: Inkluder MX-poster og IP-adresser for domenet
@@ -174,19 +173,18 @@
         text: Hvorfor vil du bli med?
       ip_block:
         comment: Kommentere
-        ip: IP
         severities:
           no_access: Blokker tilgang
           sign_up_requires_approval: Begrens påmeldinger
         severity: Oppføring
       notification_emails:
-        digest: Send sammendrag på e-post
-        favourite: Send e-post når noen setter din status som favoritt
-        follow: Send e-post når noen følger deg
-        follow_request: Send e-post når noen ber om å få følge deg
-        mention: Send e-post når noen nevner deg
+        digest: Send sammendrag på e-hop
+        favourite: Send e-hop når noen setter din status som favoritt
+        follow: Send e-hop når noen følger deg
+        follow_request: Send e-hop når noen ber om å få følge deg
+        mention: Send e-hop når noen nevner deg
         pending_account: Ny bruker avventer gjennomgang
-        reblog: Send e-post når noen fremhever din status
+        reblog: Send e-hop når noen fremhever din status
         report: Ny rapport er sendt inn
         trending_tag: En ugjennomgått emneknagg trender
       tag:
@@ -197,7 +195,6 @@
     'no': Nei
     recommended: Anbefalt
     required:
-      mark: "*"
       text: obligatorisk
     title:
       sessions:
