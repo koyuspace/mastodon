@@ -32,7 +32,7 @@ de:
     donate: "Werde Pro!"
     donate_description: "Coole Perks wie einen farbigen Anzeigenamen"
     services: "koyu.space Services"
-    services_description: "Wir hosten auch mehr als koyu.space"
+    services_description: "Wir hosten auch mehr als Mastodon"
     server_stats: 'Serverstatistiken:'
     source_code: Quellcode
     status_count_after:
