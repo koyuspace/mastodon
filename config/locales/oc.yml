@@ -67,7 +67,7 @@ oc:
     people_who_follow: Lo monde que sègon %{name}
     pin_errors:
       following: Vos cal d’en primièr sègre las personas que volètz promòure
-    hops:
+    posts:
       one: Tut
       other: Tuts
     posts_tab_heading: Tuts

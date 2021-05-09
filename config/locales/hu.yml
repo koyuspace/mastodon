@@ -77,7 +77,7 @@ hu:
     people_who_follow: "%{name} követői"
     pin_errors:
       following: Ehhez szükséges, hogy kövesd már a felhasználót
-    hops:
+    posts:
       one: Tülk
       other: Tülk
     posts_tab_heading: Tülkölés

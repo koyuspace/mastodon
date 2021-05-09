@@ -75,7 +75,7 @@ sq:
     people_who_follow: Persona që ndjekin %{name}
     pin_errors:
       following: Personin që doni të pasqyroni, duhet ta keni ndjekur tashmë
-    hops:
+    posts:
       one: Mesazh
       other: Mesazhe
     posts_tab_heading: Mesazhe

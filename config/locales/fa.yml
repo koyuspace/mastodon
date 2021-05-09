@@ -76,7 +76,7 @@ fa:
     people_who_follow: کسانی که %{name} را پی می‌گیرند
     pin_errors:
       following: باید کاربری که می‌خواهید پیشنهاد دهید را دنبال کرده باشید
-    hops:
+    posts:
       one: بوق
       other: بوق
     posts_tab_heading: بوق‌ها

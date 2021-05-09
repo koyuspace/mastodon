@@ -72,7 +72,7 @@ sv:
     people_who_follow: Personer som följer %{name}
     pin_errors:
       following: Du måste vara följare av den person du vill godkänna
-    hops:
+    posts:
       one: Tuta
       other: Tutor
     posts_tab_heading: Tutor

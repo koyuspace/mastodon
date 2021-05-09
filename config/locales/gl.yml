@@ -75,7 +75,7 @@ gl:
     people_who_follow: Persoas que seguen a %{name}
     pin_errors:
       following: Tes que seguir á persoa que queres engadir
-    hops:
+    posts:
       one: Toot
       other: Toots
     posts_tab_heading: Toots

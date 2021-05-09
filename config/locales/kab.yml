@@ -57,7 +57,7 @@ kab:
     nothing_here: Ulac kra da!
     people_followed_by: Imdanen i yeṭṭafaṛ %{name}
     people_who_follow: Imdanen yeṭṭafaṛen %{name}
-    hops:
+    posts:
       one: Tajewwiqt
       other: Tijewwiqin
     posts_tab_heading: Tijewwiqin

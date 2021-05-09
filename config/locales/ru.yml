@@ -81,7 +81,7 @@ ru:
     people_who_follow: Подписчики %{name}
     pin_errors:
       following: Чтобы порекомендовать кого-то, надо сначала на них подписаться
-    hops:
+    posts:
       few: поста
       many: статусов
       one: Пост

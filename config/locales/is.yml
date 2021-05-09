@@ -75,7 +75,7 @@ is:
     people_who_follow: Fólk sem fylgist með %{name}
     pin_errors:
       following: Þú þarft að vera þegar að fylgjast með þeim sem þú ætlar að mæla með
-    hops:
+    posts:
       one: Tíst
       other: Tíst
     posts_tab_heading: Tíst

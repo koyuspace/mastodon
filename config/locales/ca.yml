@@ -74,7 +74,7 @@ ca:
     people_who_follow: Usuaris que segueixen %{name}
     pin_errors:
       following: Has d'estar seguint la persona que vulguis avalar
-    hops:
+    posts:
       one: Tut
       other: Tuts
     posts_tab_heading: Tuts

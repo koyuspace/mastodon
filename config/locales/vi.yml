@@ -70,7 +70,7 @@ vi:
     people_who_follow: Những người theo dõi %{name}
     pin_errors:
       following: Để vinh danh người nào đó, bạn phải theo dõi họ trước
-    hops:
+    posts:
       other: Tút
     posts_tab_heading: Tút
     posts_with_replies: Trả lời

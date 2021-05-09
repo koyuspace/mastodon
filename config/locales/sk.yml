@@ -74,7 +74,7 @@ sk:
     people_who_follow: Ľudia sledujúci %{name}
     pin_errors:
       following: Musíš už následovať toho človeka, ktorého si praješ zviditeľniť
-    hops:
+    posts:
       few: Príspevkov
       many: Príspevky
       one: Príspevok

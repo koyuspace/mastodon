@@ -73,7 +73,7 @@ eu:
     people_who_follow: "%{name} jarraitzen dutenak"
     pin_errors:
       following: Onetsi nahi duzun pertsona aurretik jarraitu behar duzu
-    hops:
+    posts:
       one: Toot
       other: Toot
     posts_tab_heading: Tootak

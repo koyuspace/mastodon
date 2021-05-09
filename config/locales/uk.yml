@@ -79,7 +79,7 @@ uk:
     people_who_follow: Підписники %{name}
     pin_errors:
       following: Ви повинні бути підписаним на людину, яку бажаєте схвалити
-    hops:
+    posts:
       few: Дмуха
       many: Дмухів
       one: Дмух

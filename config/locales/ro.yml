@@ -69,7 +69,7 @@ ro:
     people_who_follow: Persoane care urmăresc pe %{name}
     pin_errors:
       following: Trebuie să urmăriți deja persoana pe care doriți să o aprobați
-    hops:
+    posts:
       few: Postări
       one: Postare
       other: De Postări

@@ -65,7 +65,7 @@
     people_who_follow: Folk som følger %{name}
     pin_errors:
       following: Du må allerede følge personen du vil fremheve
-    hops:
+    posts:
       one: Tut
       other: Tuter
     posts_tab_heading: Tuter

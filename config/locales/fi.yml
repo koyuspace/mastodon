@@ -58,7 +58,7 @@ fi:
     people_who_follow: Käyttäjän %{name} seuraajat
     pin_errors:
       following: Sinun täytyy seurata henkilöä jota haluat tukea
-    hops:
+    posts:
       one: Tuuttaus
       other: Tuuttaukset
     posts_tab_heading: Tuuttaukset

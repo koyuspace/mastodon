@@ -68,7 +68,7 @@ kk:
     people_who_follow: "%{name} атты қолданушының оқырмандары"
     pin_errors:
       following: Оқығыңыз келген адамға жазылуыңыз керек
-    hops:
+    posts:
       one: Жазба
       other: Жазба
     posts_tab_heading: Жазба

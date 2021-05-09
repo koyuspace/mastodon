@@ -70,7 +70,7 @@ bn:
     people_who_follow: যারা %{name} কে অনুসরণ করে
     pin_errors:
       following: সমর্থন করতে অনুসরণ থাকা লাগবে
-    hops:
+    posts:
       one: লেখা
       other: লেখাগুলো
     posts_tab_heading: লেখাগুলো

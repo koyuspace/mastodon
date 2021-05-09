@@ -58,7 +58,7 @@ en_GB:
     people_who_follow: People who follow %{name}
     pin_errors:
       following: You must be already following the person you want to endorse
-    hops:
+    posts:
       one: Hop
       other: Hops
     posts_tab_heading: Hops

@@ -75,7 +75,7 @@ pt-PT:
     people_who_follow: Pessoas que seguem %{name}
     pin_errors:
       following: Tu tens de estar a seguir a pessoa que pretendes apoiar
-    hops:
+    posts:
       one: Publicação
       other: Publicações
     posts_tab_heading: Publicações

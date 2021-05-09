@@ -75,7 +75,7 @@ es-AR:
     people_who_follow: Estas personas siguen a %{name}
     pin_errors:
       following: Ya tenés que estar siguiendo a la cuenta que querés recomendar
-    hops:
+    posts:
       one: Toot
       other: Toots
     posts_tab_heading: Toots

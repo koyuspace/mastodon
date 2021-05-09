@@ -73,7 +73,7 @@ hy:
     people_who_follow: Մարդիկ, որոնք հետեւում են %{name}ին
     pin_errors:
       following: Դու պէտք է հետեւես մարդուն, որին ցանկանում ես խրախուսել
-    hops:
+    posts:
       one: Թութ
       other: Թութերից
     posts_tab_heading: Թթեր

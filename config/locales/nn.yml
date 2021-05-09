@@ -65,7 +65,7 @@ nn:
     people_who_follow: Folk som fylgjer %{name}
     pin_errors:
       following: Du må allereie fylgja personen du vil fremja
-    hops:
+    posts:
       one: Tut
       other: Tut
     posts_tab_heading: Tut

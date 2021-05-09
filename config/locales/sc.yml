@@ -74,7 +74,7 @@ sc:
     people_who_follow: Gente chi sighit a %{name}
     pin_errors:
       following: Depes sighire sa persone chi boles promòvere
-    hops:
+    posts:
       one: Tut
       other: Tuts
     posts_tab_heading: Tuts

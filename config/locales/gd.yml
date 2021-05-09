@@ -81,7 +81,7 @@ gd:
     people_who_follow: Daoine a tha a’ leantainn air %{name}
     pin_errors:
       following: Feumaidh tu leantainn air neach mus urrainn dhut a bhrosnachadh
-    hops:
+    posts:
       few: Dùdan
       one: Dùd
       other: Dùd

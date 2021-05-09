@@ -75,7 +75,7 @@ co:
     people_who_follow: Seguitanu %{name}
     pin_errors:
       following: Duvete digià siguità a persona che vulete ricumandà
-    hops:
+    posts:
       one: Statutu
       other: Statuti
     posts_tab_heading: Statuti

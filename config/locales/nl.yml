@@ -73,7 +73,7 @@ nl:
     people_who_follow: Mensen die %{name} volgen
     pin_errors:
       following: Je moet dit account wel al volgen, alvorens je het kan aanbevelen
-    hops:
+    posts:
       one: Toot
       other: Toots
     posts_tab_heading: Toots

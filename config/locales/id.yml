@@ -70,7 +70,7 @@ id:
     people_who_follow: Orang-orang yang mengikuti %{name}
     pin_errors:
       following: Anda harus mengikuti orang yang ingin anda endorse
-    hops:
+    posts:
       other: Toot
     posts_tab_heading: Toot
     posts_with_replies: Toot dan balasan

@@ -42,7 +42,7 @@ te:
     people_who_follow: "%{name}ను అనుసరించే వ్యక్తులు"
     pin_errors:
       following: మీరు ధృవీకరించాలనుకుంటున్న వ్యక్తిని మీరిప్పటికే అనుసరిస్తూ వుండాలి
-    hops:
+    posts:
       one: టూటు
       other: టూట్లు
     posts_tab_heading: టూట్లు

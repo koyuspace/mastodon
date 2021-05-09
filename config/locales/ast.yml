@@ -45,7 +45,7 @@ ast:
     nothing_here: "¡Equí nun hai nada!"
     people_followed_by: Persones a les que sigue %{name}
     people_who_follow: Persones que siguen a %{name}
-    hops:
+    posts:
       one: Barritu
       other: Barritos
     posts_tab_heading: Barritos

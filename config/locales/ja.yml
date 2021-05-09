@@ -70,7 +70,7 @@ ja:
     people_who_follow: "%{name} さんをフォロー中のアカウント"
     pin_errors:
       following: おすすめしたい人はあなたが既にフォローしている必要があります
-    hops:
+    posts:
       other: トゥート
     posts_tab_heading: トゥート
     posts_with_replies: トゥートと返信

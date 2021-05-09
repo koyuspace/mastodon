@@ -72,7 +72,7 @@ ko:
     people_who_follow: "%{name} 님을 팔로우 중인 계정"
     pin_errors:
       following: 추천하려는 사람을 팔로우 하고 있어야 합니다
-    hops:
+    posts:
       other: 툿
     posts_tab_heading: 툿
     posts_with_replies: 툿과 답장

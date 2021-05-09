@@ -67,7 +67,7 @@ et:
     people_who_follow: Inimesed, kes jälgivad kasutajat %{name}
     pin_errors:
       following: Te peate juba olema selle kasutaja jälgija, keda te heaks kiidate
-    hops:
+    posts:
       one: Tuututus
       other: Tuututused
     posts_tab_heading: Tuututused

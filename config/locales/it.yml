@@ -75,7 +75,7 @@ it:
     people_who_follow: Persone che seguono %{name}
     pin_errors:
       following: Devi gia seguire la persona che vuoi promuovere
-    hops:
+    posts:
       one: Toot
       other: Toot
     posts_tab_heading: Toot

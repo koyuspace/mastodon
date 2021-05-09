@@ -81,7 +81,7 @@ pl:
     people_who_follow: Osoby, które śledzą konto %{name}
     pin_errors:
       following: Musisz śledzić osobę, którą chcesz polecać
-    hops:
+    posts:
       few: wpisy
       many: wpisów
       one: wpis

@@ -79,7 +79,7 @@ de:
     people_who_follow: Profile, die %{name} folgen
     pin_errors:
       following: Du musst dieser Person bereits folgen, um sie empfehlen zu können
-    hops:
+    posts:
       one: Beitrag
       other: Beiträge
     posts_tab_heading: Beiträge
@@ -452,7 +452,7 @@ de:
       status: Status
       suppress: Folgeempfehlungen unterdrücken
       suppressed: Unterdrückt
-      title: Titel
+      title: Folgeempfehlungen
       unsuppress: Nicht mehr unterdrücken
     instances:
       by_domain: Domain

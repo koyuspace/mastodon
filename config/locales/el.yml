@@ -74,7 +74,7 @@ el:
     people_who_follow: Χρήστες που ακολουθούν τον/την %{name}
     pin_errors:
       following: Πρέπει ήδη να ακολουθείς το άτομο που θέλεις να επιδοκιμάσεις
-    hops:
+    posts:
       one: Τουτ
       other: Τουτ
     posts_tab_heading: Τουτ

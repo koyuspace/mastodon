@@ -75,7 +75,7 @@ da:
     people_who_follow: Personer, som følger %{name}
     pin_errors:
       following: Du skal allerede følge den person, du ønsker at støtte
-    hops:
+    posts:
       one: Trut
       other: Trut
     posts_tab_heading: Trut

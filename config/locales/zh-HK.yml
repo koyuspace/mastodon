@@ -72,7 +72,7 @@ zh-HK:
     people_who_follow: 關注 %{name} 的人
     pin_errors:
       following: 你只能推薦你正在關注的使用者。
-    hops:
+    posts:
       other: 文章
     posts_tab_heading: 文章
     posts_with_replies: 包含回覆的文章

@@ -73,7 +73,7 @@ es:
     people_who_follow: Usuarios que siguen a %{name}
     pin_errors:
       following: Debes estar siguiendo a la persona a la que quieres aprobar
-    hops:
+    posts:
       one: Hop
       other: Hops
     posts_tab_heading: Hops

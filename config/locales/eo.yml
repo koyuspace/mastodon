@@ -67,7 +67,7 @@ eo:
     people_who_follow: Sekvantoj de %{name}
     pin_errors:
       following: Vi devas sekvi la homon, kiun vi volas proponi
-    hops:
+    posts:
       one: Mesaĝo
       other: Mesaĝoj
     posts_tab_heading: Mesaĝoj

@@ -81,7 +81,7 @@ cs:
     people_who_follow: Lidé, kteří sledují uživatele %{name}
     pin_errors:
       following: Osobu, kterou chcete podpořit, už musíte sledovat
-    hops:
+    posts:
       few: Tooty
       many: Tootů
       one: Toot

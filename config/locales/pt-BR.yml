@@ -75,7 +75,7 @@ pt-BR:
     people_who_follow: Pessoas que seguem %{name}
     pin_errors:
       following: Você deve estar seguindo a pessoa que você deseja sugerir
-    hops:
+    posts:
       one: Toot
       other: Toots
     posts_tab_heading: Toots

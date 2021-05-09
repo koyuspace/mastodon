@@ -37,7 +37,7 @@ ms:
     people_who_follow: Orang yang mengikut %{name}
     pin_errors:
       following: Anda mestilah sudah mengikuti orang yang anda ingin syorkan
-    hops:
+    posts:
       other: Toot
     posts_tab_heading: Toot
     posts_with_replies: Toot dan maklum balas

@@ -67,7 +67,7 @@ bg:
     people_who_follow: Хора, които следват %{name}
     pin_errors:
       following: Трябва вече да следвате човека, когото искате да подкрепите
-    hops:
+    posts:
       one: Публикация
       other: Публикации
     posts_tab_heading: Публикации

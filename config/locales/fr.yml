@@ -75,7 +75,7 @@ fr:
     people_who_follow: Personnes qui suivent %{name}
     pin_errors:
       following: Vous devez être déjà abonné·e à la personne que vous désirez recommander
-    hops:
+    posts:
       one: Pouet
       other: Pouets
     posts_tab_heading: Pouets

@@ -44,7 +44,7 @@ sr:
     people_who_follow: Људи који прате %{name}
     pin_errors:
       following: Морате пратити ову особу ако хоћете да потврдите
-    hops:
+    posts:
       few: Трубе
       one: Труба
       other: Трубе

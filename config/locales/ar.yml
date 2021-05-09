@@ -87,7 +87,7 @@ ar:
     people_who_follow: الأشخاص الذين يتبعون %{name}
     pin_errors:
       following: يجب أن تكون مِن متابعي حساب الشخص الذي تريد إبرازه
-    hops:
+    posts:
       few: تبويقات
       many: تبويقات
       one: تبويق

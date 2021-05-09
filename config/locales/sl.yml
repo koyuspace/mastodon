@@ -63,7 +63,7 @@ sl:
     people_who_follow: Ljudje, ki sledijo %{name}
     pin_errors:
       following: Verjetno že sledite osebi, ki jo želite potrditi
-    hops:
+    posts:
       few: Tuti
       one: Tut
       other: Tutov

@@ -83,7 +83,7 @@ cy:
     people_who_follow: Pobl sy'n dilyn %{name}
     pin_errors:
       following: Rhaid i ti fod yn dilyn y person yr ydych am ei gymeradwyo yn barod
-    hops:
+    posts:
       few: Tŵtiau
       many: Tŵtiau
       one: Tŵt
