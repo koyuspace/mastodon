@@ -76,10 +76,10 @@ pt-BR:
     pin_errors:
       following: Você deve estar seguindo a pessoa que você deseja sugerir
     posts:
-      one: Toot
-      other: Toots
-    posts_tab_heading: Toots
-    posts_with_replies: Toots e respostas
+      one: Hop
+      other: Hops
+    posts_tab_heading: Hops
+    posts_with_replies: Hops e respostas
     roles:
       admin: Admin
       bot: Robô
@@ -520,8 +520,6 @@ pt-BR:
         users: Para usuários locais logados
       domain_blocks_rationale:
         title: Mostrar motivo
-      enable_bootstrap_timeline_accounts:
-        title: Ativar seguidos por padrão por novas contas
       hero:
         desc_html: Aparece na página inicial. Recomendado ao menos 600x100px. Se não estiver definido, a miniatura da instância é usada no lugar
         title: Imagem de capa
@@ -609,9 +607,6 @@ pt-BR:
       accounts_today: Usos únicos de hoje
       accounts_week: Usos únicos desta semana
       breakdown: Descrição do consumo atual por fonte
-      context: Contexto
-      directory: No diretório
-      in_directory: "%{count} no diretório"
       last_active: Última atividade
       most_popular: Mais populares
       most_recent: Mais recentes

@@ -12,7 +12,7 @@ tr:
       admin_account_action:
         include_statuses: Kullanıcı hangi tootların denetleme eylemi ya da uyarısına neden olduğunu görecektir
         send_email_notification: Kullanıcı, hesabına ne olduğuna dair bir açıklama alacak
-        text_html: İsteğe bağlı. Toot sözdizimleri kullanabilirsiniz. Zamandan kazanmak için <a href="%{path}">uyarı ön-ayarları ekleyebilirsiniz</a>
+        text_html: İsteğe bağlı. Hop sözdizimleri kullanabilirsiniz. Zamandan kazanmak için <a href="%{path}">uyarı ön-ayarları ekleyebilirsiniz</a>
         type_html: "<strong>%{acct}</strong> ile ne yapılacağını seçin"
         types:
           disable: Kullanıcının hesabını kullanmasını engelle ama içeriklerini silme veya gizleme.
