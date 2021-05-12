@@ -38,6 +38,7 @@ const messages = defineMessages({
   lists: { id: 'navigation_bar.lists', defaultMessage: 'Lists' },
   lists_subheading: { id: 'column_subheading.lists', defaultMessage: 'Lists' },
   misc: { id: 'navigation_bar.misc', defaultMessage: 'Misc' },
+  misc: { id: 'navigation_bar.recommendations', defaultMessage: 'Recommendations' },
   menu: { id: 'getting_started.heading', defaultMessage: 'Getting started' },
   profile_directory: { id: 'getting_started.directory', defaultMessage: 'Profile directory' },
 });
@@ -156,7 +157,8 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
       navItems.push(<ColumnLink key='7' icon='address-book' text={intl.formatMessage(messages.profile_directory)} to='/directory' />);
     }
 
-    navItems.push(<ColumnLink key='8' icon='ellipsis-h' text={intl.formatMessage(messages.misc)} to='/getting-started-misc' />);
+    navItems.push(<ColumnLink key='8' icon='plus-circle' text={intl.formatMessage(messages.recommendations)} to='/start' />);
+    navItems.push(<ColumnLink key='9' icon='ellipsis-h' text={intl.formatMessage(messages.misc)} to='/getting-started-misc' />);
 
     listItems = listItems.concat([
       <div key='9'>

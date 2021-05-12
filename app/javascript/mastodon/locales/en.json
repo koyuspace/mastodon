@@ -295,6 +295,7 @@
   "navigation_bar.pins": "Pinned hops",
   "navigation_bar.preferences": "Preferences",
   "navigation_bar.public_timeline": "Federated timeline",
+  "navigation_bar.recommendations": "Recommendations",
   "navigation_bar.security": "Security",
   "notification.favourite": "{name} favourited your hop",
   "notification.follow": "{name} followed you",
