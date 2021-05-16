@@ -38,7 +38,7 @@ const messages = defineMessages({
   lists: { id: 'navigation_bar.lists', defaultMessage: 'Lists' },
   lists_subheading: { id: 'column_subheading.lists', defaultMessage: 'Lists' },
   misc: { id: 'navigation_bar.misc', defaultMessage: 'Misc' },
-  misc: { id: 'navigation_bar.recommendations', defaultMessage: 'Recommendations' },
+  recommendations: { id: 'navigation_bar.recommendations', defaultMessage: 'Recommendations' },
   menu: { id: 'getting_started.heading', defaultMessage: 'Getting started' },
   profile_directory: { id: 'getting_started.directory', defaultMessage: 'Profile directory' },
 });
