@@ -67,8 +67,13 @@ sv:
           title: En ny säkerhetsnyckel har lagts till
         deleted:
           explanation: Följande säkerhetsnyckel har tagits bort från ditt konto
+<<<<<<< HEAD
           subject: 'koyu.space: Säkerhetsnyckeln borttagen'
           title: En av dina säkerhetsnycklar har tagits bort
+=======
+          subject: 'Mastodon: Säkerhetsnyckeln borttagen'
+          title: En av dina säkerhetsnycklar har raderats
+>>>>>>> db5baf3d1a93cbf6961f721205cff0beaf71bffd
       webauthn_disabled:
         explanation: Autentisering med säkerhetsnycklar till ditt konto har inaktiverats. Inloggning är nu endast möjligt med den token som genereras av den sammankopplade TOTP-appen.
         subject: 'koyu.space: Autentisering med säkerhetsnycklar är inaktiverat'
