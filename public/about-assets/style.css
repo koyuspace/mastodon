@@ -1,0 +1,88 @@
+body {
+    background: url(https://koyu.space/img/bg.jpg) #223 no-repeat center center fixed !important; 
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    color: #fff !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.bg-dark {
+    background-color: #112 !important;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#tagline {
+    font-size: 36pt;
+    color: #fe53e0;
+    font-family: "Titan One";
+    font-weight: 300;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#bottom-text {
+    padding: 20px;
+}
+
+@font-face {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Titan One"), local("TitanOne"), url(https://koyu.space/fonts/titan-one.woff2) format("woff2");
+}
+
+#services img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    vertical-align: text-bottom;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#services {
+    display: inline-flex;
+}
+
+.service,
+.service:hover {
+    margin: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.service span {
+    display: block;
+}
+
+.nonclickable {
+    cursor: pointer;
+}
+
+@media(max-width:800px) {
+    #services {
+        display: block;
+    }
+    .service {
+        display: inline-block;
+    }
+}
