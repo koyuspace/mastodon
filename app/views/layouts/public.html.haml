@@ -46,11 +46,13 @@
             .column-3
               %h4= site_hostname
               %ul
-                %li= link_to t('about.about_this'), about_more_path
+                - unless whitelist_mode?
+                  %li= link_to t('about.about_this'), about_more_path
                 %li= "v#{Mastodon::Version.to_s}"
             .column-4
               %h4= t 'footer.more'
               %ul
                 %li= link_to t('about.source_code'), Mastodon::Version.source_url
+                %li= link_to t('about.apps'), '/apps/index.html'
 
 = render template: 'layouts/application'
