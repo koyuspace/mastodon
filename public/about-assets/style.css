@@ -19,6 +19,7 @@ nav {
 
 #content {
   background: #223;
+  padding: 20px;
 }
 
 #logo {
@@ -117,6 +118,9 @@ footer a:hover {
     .service {
         display: inline-block;
     }
+    #right-footer {
+      display: none;
+    }
 }
 
 @media(min-width:800px) {
@@ -125,6 +129,5 @@ footer a:hover {
     margin: 0 auto;
     width: 50%;
     border-radius: 10px;
-    padding: 20px;
   }
 }
