@@ -28,6 +28,10 @@ About page (you may have to add a few lines of CSS code to make it work properly
 
 And probably many more things that are getting documented soon
 
+## Adding pictures to the front-page
+
+Fork this repository and add your picture in the `public/about-assets/pictures/` folder and change the file `public/about-assets/pictures.json` to include your picture along with metadata about yourself for attribution. If you did that submit a pull request to add your new picture.
+
 ## Building a Docker image
 
 Just hit `docker build .` and wait. Prebuilt images are at `koyuawsmbrtn/mastodon` and already referenced in the `docker-compose.yml` file. Using Docker is the preferred less painful method to get a server up and running quickly.
