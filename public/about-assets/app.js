@@ -48,7 +48,7 @@ $(document).ready(function() {
   //Background randomizer
   $.getJSON("/about-assets/pictures.json", function(data) {
     var background = data[getRandomInt(data.length)];
-    $("body").attr("style", "background-image: url(/about-assets/pictures/"+background["url"]+") !important;");
+    $("body").attr("style", "background-image: url("+background["url"]+") !important;");
     $("#author").attr("href", background["author_url"]);
     $("#author").html(background["author"]);
   });
