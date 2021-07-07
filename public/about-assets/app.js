@@ -60,5 +60,7 @@ $(document).ready(function() {
       $("#author").attr("href", background["author_url"]);
       $("#author").html(background["author"]);
     });
+  } else {
+    $("#author").hide();
   }
 });
