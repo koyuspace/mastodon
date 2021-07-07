@@ -55,6 +55,15 @@ $(document).ready(function() {
   }
   if (!isMobile) {
     $.getJSON("/about-assets/pictures.json", function(data) {
+      //Preload all images
+      $.fn.preload = function() {
+        this.each(function(){
+            $('<img/>')[0].src = this;
+        });
+      }
+      data.forEach(function(el) {
+        $([el["url"]]).preload();
+      });
       var background = data[getRandomInt(data.length)];
       $("body").attr("style", "background-image: url("+background["url"]+") !important;");
       $("#author").attr("href", background["author_url"]);
