@@ -61,6 +61,6 @@ $(document).ready(function() {
       $("#author").html(background["author"]);
     });
   } else {
-    $("#author").hide();
+    $("#credits").hide();
   }
 });
