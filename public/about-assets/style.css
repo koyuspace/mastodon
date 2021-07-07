@@ -1,5 +1,5 @@
 body {
-    background: url(https://koyu.space/img/bg.jpg) #223 no-repeat center center fixed !important; 
+    background: url(/about-assets/background.jpg) #223 no-repeat center center fixed !important; 
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
@@ -15,6 +15,10 @@ nav {
 
 .bg-dark {
     background-color: #112 !important;
+}
+
+#content {
+  background: #223;
 }
 
 #logo {
@@ -93,6 +97,19 @@ footer a:hover {
   color: #aaa;
 }
 
+#credits {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+}
+
+#credits,
+#credits a,
+#credits a:hover {
+  font-size: 10pt;
+  color: rgba(255,255,255,0.8);
+}
+
 @media(max-width:800px) {
     #services {
         display: block;
@@ -100,4 +117,14 @@ footer a:hover {
     .service {
         display: inline-block;
     }
+}
+
+@media(min-width:800px) {
+  #content {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+  }
 }
