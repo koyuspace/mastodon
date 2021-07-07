@@ -1,5 +1,5 @@
 body {
-    background: url(/about-assets/background.jpg) #223 no-repeat center center fixed !important; 
+    background: #223 no-repeat center center fixed !important; 
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
