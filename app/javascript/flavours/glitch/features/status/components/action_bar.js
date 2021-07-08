@@ -146,7 +146,7 @@ class ActionBar extends React.PureComponent {
   handleTranslateClick = () => {
     var userLang = navigator.language || navigator.userLanguage;
     userLang = userLang.split("-")[0];
-    var html = this.props.status.get('content').replaceAll("%", "%25").replaceAll("</p><p>", "%0A").replaceAll("<p>", "").replaceAll("<br>", "%0A").replaceAll("%20", " ");
+    var html = this.props.status.get('content').replaceAll("%", "%25").replaceAll("</p><p>", "%0A").replaceAll("<p>", "").replaceAll("<br>", "%0A").replaceAll("%20", " ").replaceAll("#", "%23");
     var temp = document.createElement("div");
     temp.innerHTML = html;
     var plain = temp.textContent || temp.innerText || "";
@@ -226,7 +226,7 @@ class ActionBar extends React.PureComponent {
         <div className='detailed-status__button'><IconButton className={classNames({ reblogPrivate })} disabled={!publicStatus && !reblogPrivate} active={status.get('reblogged')} title={reblogTitle} icon='retweet' onClick={this.handleReblogClick} /></div>
         <div className='detailed-status__button'><IconButton className='star-icon' animate active={status.get('favourited')} title={intl.formatMessage(messages.favourite)} icon='star' onClick={this.handleFavouriteClick} /></div>
         {shareButton}
-        <div className='detailed-status__button'><IconButton key='translate-button' className='status__action-bar-button fa fa-language' title={intl.formatMessage(messages.translate)} onClick={this.handleTranslateClick} /></div>
+        <div className='detailed-status__button'><IconButton key='translate-button' className='status__action-bar-button language-icon' icon='language' title={intl.formatMessage(messages.translate)} onClick={this.handleTranslateClick} /></div>
         <div className='detailed-status__button'><IconButton className='bookmark-icon' active={status.get('bookmarked')} title={intl.formatMessage(messages.bookmark)} icon='bookmark' onClick={this.handleBookmarkClick} /></div>
 
         <div className='detailed-status__action-bar-dropdown'>
