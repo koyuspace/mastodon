@@ -174,12 +174,14 @@ footer a:hover {
   padding-left: 20px; 
 }
 
-#legend {
-  margin-top: 60px;
+#legend li {
+  display: inline;
+  padding: 0;
+  padding-right: 6px;
 }
 
-#legend li {
-  list-style: square;
+#legend {
+  margin-top: 16px;
 }
 
 .admin2 {
