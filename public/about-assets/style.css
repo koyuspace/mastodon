@@ -40,8 +40,8 @@ nav {
     -ms-user-select: none;
 }
 
-#bottom-text {
-    padding: 20px;
+#appstore {
+    padding-bottom: 20px;
 }
 
 @font-face {
@@ -65,7 +65,12 @@ nav {
 }
 
 #services {
-    display: inline-flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
 .service,
@@ -111,6 +116,92 @@ footer a:hover {
   color: rgba(255,255,255,0.8);
 }
 
+#people {
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+
+#avatars {
+  display: inline;
+}
+
+#avatars img {
+  height: 64px;
+  margin: 3px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 4px;
+}
+
+#avatars a {
+  outline: 0;
+}
+
+.admin {
+  border: 3px solid lime;
+}
+
+.mod {
+  border: 3px solid yellow;
+}
+
+.donator {
+  border: 3px solid magenta;
+}
+
+#admin {
+  color: lime;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#mod {
+  color: yellow;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#donator {
+  color: magenta;
+  text-align: left;
+  padding-left: 20px; 
+}
+
+#infrastructure {
+  color: blue;
+  text-align: left;
+  padding-left: 20px; 
+}
+
+#legend {
+  margin-top: 60px;
+}
+
+#legend li {
+  list-style: square;
+}
+
+.admin2 {
+  background: lime !important;
+  padding: 4px !important;
+}
+
+.mod2 {
+  background: yellow !important;
+  padding: 4px !important;
+}
+
+.infrastructure2 {
+  background: blue !important;
+  padding: 4px !important;
+}
+
+.donator2 {
+  background: magenta !important;
+  padding: 4px !important;
+}
+
 @media(max-width:800px) {
     #services {
         display: block;
@@ -129,5 +220,11 @@ footer a:hover {
     margin: 0 auto;
     width: 50%;
     border-radius: 10px;
+  }
+}
+
+@media(max-width:1300px) {
+  #credits {
+    display: none;
   }
 }

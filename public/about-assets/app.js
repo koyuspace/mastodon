@@ -19,7 +19,9 @@ $(document).ready(function() {
       $("#privacy").html("Datenschutz");
       $("#more").html("Communityrichtlinien");
       $("#attribution").html("Foto von");
+      $("#gp-badge").attr("src", "/img/gp_de.png");
       $("#submission").html("Du kannst dein eigenes Foto <a href=\"mailto:support@koyu.space?subject=Frontpage%20photo%20submission&body=Hi%2C%0A%0AI%20want%20to%20submit%20the%20photo%20I%20made%20for%20the%20front%20page.%20You%20can%20find%20it%20in%20the%20attachments.%20For%20attribution%20my%20website%20is%20here%3A%20%5Byour%20website%20here%5D.%0A%0AThanks!\">hier</a> einreichen.");
+      $("#made-possible").html("koyu.space wird durch diese netten Leute ermöglicht:")
   }
 
   //Easter egg
@@ -43,6 +45,20 @@ $(document).ready(function() {
         ctrlPressed = false;
       }
     }
+  });
+
+  // Sponsor table
+  window.setTimeout(function() {
+    $.each($("#avatars a"), function(index, element) {
+      var upper = this;
+      $.get("https://koyu.space/api/v1/accounts/"+$(element).attr("acctid"), function(data) {
+        if (!data.avatar_static.includes("/avatars/original/missing.png")) {
+          upper.innerHTML = "<img class=\""+upper.children[0].className+"\" src=\""+data.avatar_static+"\" alt=\"@"+data.acct+"\">";
+        } else {
+          upper.style = "display:none;";
+        }
+      });
+    });
   });
 
   //Background randomizer
