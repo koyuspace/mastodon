@@ -43,6 +43,9 @@ import {
   COMPOSE_POLL_OPTION_CHANGE,
   COMPOSE_POLL_OPTION_REMOVE,
   COMPOSE_POLL_SETTINGS_CHANGE,
+  INIT_MEDIA_EDIT_MODAL,
+  COMPOSE_CHANGE_MEDIA_DESCRIPTION,
+  COMPOSE_CHANGE_MEDIA_FOCUS,
 } from 'flavours/glitch/actions/compose';
 import { TIMELINE_DELETE } from 'flavours/glitch/actions/timelines';
 import { STORE_HYDRATE } from 'flavours/glitch/actions/store';
@@ -99,6 +102,13 @@ const initialState = ImmutableMap({
   idempotencyKey: null,
   tagHistory: ImmutableList(),
   giphy: null,
+  media_modal: ImmutableMap({
+    id: null,
+    description: '',
+    focusX: 0,
+    focusY: 0,
+    dirty: false,
+  }),
   doodle: ImmutableMap({
     fg: 'rgb(  0,    0,    0)',
     bg: 'rgb(255,  255,  255)',
@@ -457,6 +467,19 @@ export default function compose(state = initialState, action) {
 
         return item;
       }));
+  case INIT_MEDIA_EDIT_MODAL:
+    const media =  state.get('media_attachments').find(item => item.get('id') === action.id);
+    return state.set('media_modal', ImmutableMap({
+      id: action.id,
+      description: media.get('description') || '',
+      focusX: media.getIn(['meta', 'focus', 'x'], 0),
+      focusY: media.getIn(['meta', 'focus', 'y'], 0),
+      dirty: false,
+    }));
+  case COMPOSE_CHANGE_MEDIA_DESCRIPTION:
+    return state.setIn(['media_modal', 'description'], action.description).setIn(['media_modal', 'dirty'], true);
+  case COMPOSE_CHANGE_MEDIA_FOCUS:
+    return state.setIn(['media_modal', 'focusX'], action.focusX).setIn(['media_modal', 'focusY'], action.focusY).setIn(['media_modal', 'dirty'], true);
   case COMPOSE_MENTION:
     return state.withMutations(map => {
       map.update('text', text => [text.trim(), `@${action.account.get('acct')} `].filter((str) => str.length !== 0).join(' '));
@@ -493,6 +516,7 @@ export default function compose(state = initialState, action) {
   case COMPOSE_UPLOAD_CHANGE_SUCCESS:
     return state
       .set('is_changing_upload', false)
+      .setIn(['media_modal', 'dirty'], false)
       .update('media_attachments', list => list.map(item => {
         if (item.get('id') === action.media.id) {
           return fromJS(action.media);
