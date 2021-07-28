@@ -1,45 +1,15 @@
-import { connect } from 'react-redux';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
-import { Link } from 'react-router-dom';
-import { invitesEnabled, version, limitedFederationMode, repository, source_url } from 'flavours/glitch/util/initial_state';
-import { signOutLink, securityLink } from 'flavours/glitch/util/backend_links';
-import { logOut } from 'flavours/glitch/util/log_out';
-import { openModal } from 'flavours/glitch/actions/modal';
-
-const messages = defineMessages({
-  logoutMessage: { id: 'confirmations.logout.message', defaultMessage: 'Are you sure you want to log out?' },
-  logoutConfirm: { id: 'confirmations.logout.confirm', defaultMessage: 'Log out' },
-});
-
-const mapDispatchToProps = (dispatch, { intl }) => ({
-  onLogout () {
-    dispatch(openModal('CONFIRM', {
-      message: intl.formatMessage(messages.logoutMessage),
-      confirm: intl.formatMessage(messages.logoutConfirm),
-      onConfirm: () => logOut(),
-    }));
-  },
-});
+import { FormattedMessage, injectIntl } from 'react-intl';
+import { invitesEnabled, version, limitedFederationMode } from 'flavours/glitch/util/initial_state';
+import { securityLink } from 'flavours/glitch/util/backend_links';
 
 export default @injectIntl
-@connect(null, mapDispatchToProps)
 class LinkFooter extends React.PureComponent {
 
   static propTypes = {
-    onLogout: PropTypes.func.isRequired,
     intl: PropTypes.object.isRequired,
   };
-
-  handleLogoutClick = e => {
-    e.preventDefault();
-    e.stopPropagation();
-
-    this.props.onLogout();
- 
-    return false;
-  }
 
   render () {
     return (
@@ -51,8 +21,7 @@ class LinkFooter extends React.PureComponent {
           <li><a href='/apps/index.html' target='_blank'><FormattedMessage id='navigation_bar.apps' defaultMessage='Mobile apps' /></a> · </li>
           <li><a href='/terms' target='_blank'><FormattedMessage id='getting_started.terms' defaultMessage='Terms of service' /></a> · </li>
           <li><a href='/settings/applications' target='_blank'><FormattedMessage id='getting_started.developers' defaultMessage='Developers' /></a> · </li>
-          <li><a href='https://docs.joinmastodon.org' target='_blank'><FormattedMessage id='getting_started.documentation' defaultMessage='Documentation' /></a> · </li>
-          <li><a href={signOutLink} onClick={this.handleLogoutClick}><FormattedMessage id='navigation_bar.logout' defaultMessage='Logout' /></a></li>
+          <li><a href='https://docs.joinmastodon.org' target='_blank'><FormattedMessage id='getting_started.documentation' defaultMessage='Documentation' /></a></li>
         </ul>
 
         <p>
