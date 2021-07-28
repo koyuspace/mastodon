@@ -4,7 +4,6 @@ import ImmutablePropTypes from 'react-immutable-proptypes';
 import Avatar from 'flavours/glitch/components/avatar';
 import Permalink from 'flavours/glitch/components/permalink';
 import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
-import ImmutablePureComponent from 'react-immutable-pure-component';
 import { profileLink, signOutLink } from 'flavours/glitch/util/backend_links';
 import { logOut } from 'mastodon/utils/log_out';
 import { openModal } from 'mastodon/actions/modal';
