@@ -1,3 +1,11 @@
 .status__content .status__content__text, .reply-indicator__content .status__content__text {
     display: block;
 }
+
+.status__avatar {
+    position: unset;
+}
+.status__info .status__display-name {
+    display: unset;
+    padding-right: 0px;
+}
