@@ -5,7 +5,7 @@ body {
     -o-background-size: cover !important;
     background-size: cover !important;
     color: #fff !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
