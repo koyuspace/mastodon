@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage, injectIntl } from 'react-intl';
-import { invitesEnabled, version, limitedFederationMode } from 'flavours/glitch/util/initial_state';
+import { invitesEnabled, limitedFederationMode, version, repository, source_url } from 'flavours/glitch/util/initial_state';
 import { securityLink } from 'flavours/glitch/util/backend_links';
 
 export default @injectIntl
@@ -29,7 +29,7 @@ class LinkFooter extends React.PureComponent {
             id='getting_started.open_source_notice'
             defaultMessage='Glitchsoc is open source software, a friendly fork of {Mastodon}. You can contribute or report issues on GitHub at {github}.'
             values={{
-              github: <span><a href='https://github.com/glitch-soc/mastodon' rel='noopener noreferrer' target='_blank'>glitch-soc/mastodon</a> (v{version})</span>,
+              github: <span><a href={source_url} rel='noopener noreferrer' target='_blank'>{repository}</a> (v{version})</span>,
               Mastodon: <a href='https://github.com/tootsuite/mastodon' rel='noopener noreferrer' target='_blank'>Mastodon</a> }}
           />
         </p>
