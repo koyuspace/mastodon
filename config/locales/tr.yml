@@ -76,13 +76,8 @@ tr:
     pin_errors:
       following: Onaylamak istediğiniz kişiyi zaten takip ediyor olmalısınız
     posts:
-<<<<<<< HEAD
-      one: Hop
-      other: Hop
-=======
       one: Gönderi
       other: Hop
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     posts_tab_heading: Hoplar
     posts_with_replies: Hoplar ve yanıtlar
     roles:

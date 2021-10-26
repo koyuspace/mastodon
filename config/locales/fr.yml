@@ -776,15 +776,9 @@ fr:
     delete_account: Supprimer le compte
     delete_account_html: Si vous désirez supprimer votre compte, vous pouvez <a href="%{path}">cliquer ici</a>. Il vous sera demandé de confirmer cette action.
     description:
-<<<<<<< HEAD
-      prefix_invited_by_user: "@%{name} vous invite à rejoindre ce serveur koyu.space !"
-      prefix_sign_up: Inscrivez-vous aujourd’hui sur koyu.space !
-      suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des messages avec les utilisateur·rice·s de n'importe quel serveur koyu.space et bien plus !
-=======
       prefix_invited_by_user: "@%{name} vous invite à rejoindre ce serveur koyu.space !"
       prefix_sign_up: Inscrivez-vous aujourd’hui sur koyu.space !
       suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des messages avec les utilisateurs de n'importe quel serveur koyu.space et bien plus !
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     didnt_get_confirmation: Vous n’avez pas reçu les consignes de confirmation ?
     dont_have_your_security_key: Vous n'avez pas votre clé de sécurité?
     forgot_password: Mot de passe oublié ?
@@ -1354,13 +1348,8 @@ fr:
 
       <ul>
       <li><em>Informations de base sur votre compte</em> : si vous vous inscrivez sur ce serveur, il vous sera demandé de rentrer un identifiant, une adresse électronique et un mot de passe. Vous pourrez également ajouter des informations additionnelles sur votre profil, telles qu’un nom public et une biographie, ainsi que téléverser une image de profil et une image d’en-tête. Vos identifiant, nom public, biographie, image de profil et image d’en-tête seront toujours affichés publiquement.</li>
-<<<<<<< HEAD
-      <li><em>Hops, liste d’abonnements et autres informations publiques</em> : la liste de vos abonnements ainsi que la liste de vos abonné·e·s sont publiques. Quand vous postez un message, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistré·e·s. Des médias, tels que des images ou des vidéos, peuvent être joints aux messages. Les hops publics et non listés sont affichés publiquement. Quand vous mettez en avant un hop sur votre profil, ce hop est également affiché publiquement. Vos messages sont délivrés à vos abonné·e·s, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimez un hop, il est probable que l'action soit aussi délivrée à vos abonné·e·s. Partager un message ou le marquer comme favori est toujours une action publique.</li>
-      <li><em>Hops directs et abonné·e·s uniquement</em> : tous les hops sont stockés et traités par le serveur. Les messages abonné·e·s uniquement ne sont transmis qu’à vos abonné·e·s et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne foi pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonné·e·s. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux·lles abonné·e·s. <em>Gardez s’il vous plaît en mémoire que les opérateur·rice·s du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partagez aucune information sensible à l’aide de koyu.space !</em></li>
-=======
       <li><em>Posts, liste d’abonnements et autres informations publiques</em> : la liste de vos abonnements ainsi que la liste de vos abonnés sont publiques. Quand vous postez un message, la date et l’heure d’envoi ainsi que le nom de l’application utilisée pour sa transmission sont enregistrés. Des médias, tels que des images ou des vidéos, peuvent être joints aux messages. Les posts publics et non listés sont affichés publiquement. Quand vous mettez en avant un post sur votre profil, ce post est également affiché publiquement. Vos messages sont délivrés à vos abonnés, ce qui, dans certains cas, signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Quand vous supprimez un post, il est probable que l'action soit aussi délivrée à vos abonnés. Partager un message ou le marquer comme favori est toujours une action publique.</li>
       <li><em>Posts directs et abonnés uniquement</em> : tous les posts sont stockés et traités par le serveur. Les messages abonnés uniquement ne sont transmis qu’à vos abonnés et aux personnes mentionnées dans le corps du message, tandis que les messages directs ne sont transmis qu’aux personnes mentionnées. Dans certains cas, cela signifie qu’ils sont délivrés à des serveurs tiers et que ces derniers en stockent une copie. Nous faisons un effort de bonne foi pour en limiter l’accès uniquement aux personnes autorisées, mais ce n’est pas nécessairement le cas des autres serveurs. Il est donc très important que vous vérifiiez les serveurs auxquels appartiennent vos abonnés. Il vous est possible d’activer une option dans les paramètres afin d’approuver et de rejeter manuellement les nouveaux abonnés. <em>Gardez s’il vous plaît en mémoire que les opérateurs du serveur ainsi que celles et ceux de n’importe quel serveur récepteur peuvent voir ces messages</em> et qu’il est possible pour les destinataires de faire des captures d’écran, de copier et plus généralement de repartager ces messages. <em>Ne partagez aucune information sensible à l’aide de koyu.space !</em></li>
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       <li><em>IP et autres métadonnées</em> : quand vous vous connectez, nous enregistrons votre adresse IP ainsi que le nom de votre navigateur web. Toutes les sessions enregistrées peuvent être consultées dans les paramètres, afin que vous puissiez les surveiller et éventuellement les révoquer. La dernière adresse IP utilisée est conservée pour une durée de 12 mois. Nous sommes également susceptibles de conserver les journaux du serveur, ce qui inclut l’adresse IP de chaque requête reçue.</li>
       </ul>
 
@@ -1371,11 +1360,7 @@ fr:
       <p>Toutes les informations que nous collectons sur vous peuvent être utilisées des manières suivantes :</p>
 
       <ul>
-<<<<<<< HEAD
-      <li>pour vous fournir les fonctionnalités de base de koyu.space. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté·e. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs hops dans votre fil d’accueil personnalisé.</li>
-=======
       <li>pour vous fournir les fonctionnalités de base de koyu.space. Vous ne pouvez interagir avec le contenu des autres et poster votre propre contenu que lorsque vous êtes connecté. Par exemple, vous pouvez vous abonner à plusieurs autres comptes pour voir l’ensemble de leurs posts dans votre fil d’accueil personnalisé.</li>
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       <li>pour aider à la modération de la communauté : par exemple, comparer votre adresse IP avec d’autres afin de déterminer si un bannissement a été contourné ou si une autre violation aux règles a été commise.</li>
       <li>l’adresse électronique que vous nous avez fournie peut être utilisée pour vous envoyer des informations, des notifications lorsque d’autres personnes interagissent avec votre contenu ou vous envoient des messages, pour répondre à des demandes de votre part ainsi que pour toutes autres requêtes ou questions.</li>
       </ul>
@@ -1415,15 +1400,9 @@ fr:
 
       <p>Nous ne vendons, n’échangeons ou ne transférons d’une quelconque manière que ce soit des informations permettant de vous identifier personnellement. Cela n’inclut pas les tiers de confiance qui nous aident à faire fonctionner ce site, à conduire nos activités commerciales ou à vous servir, du moment qu’ils acceptent de garder ces informations confidentielles. Nous sommes également susceptibles de partager vos informations quand nous pensons que cela est nécessaire pour nous conformer à la loi, pour faire respecter les règles de notre site, ainsi que pour défendre nos droits, notre propriété, notre sécurité, ou ceux d’autres personnes.</p>
 
-<<<<<<< HEAD
-      <p>Votre contenu public peut être téléchargé par d’autres serveurs du réseau. Dans le cas où vos abonné·e·s et vos destinataires résideraient sur des serveurs différents du vôtre, vos hops publics et abonné·e·s uniquement peuvent être délivrés vers les serveurs de vos abonné·e·s tandis que vos messages directs sont délivrés aux serveurs de vos destinataires.</p>
-
-      <p>Quand vous autorisez une application à utiliser votre compte, en fonction de l’étendue des permissions que vous approuvez, il est possible qu’elle puisse accéder aux informations publiques de votre profil, à votre liste d’abonnements, votre liste d’abonné·e·s, vos listes, tous vos hops et vos favoris. Les applications ne peuvent en aucun cas accéder à votre adresse électronique et à votre mot de passe.</p>
-=======
       <p>Votre contenu public peut être téléchargé par d’autres serveurs du réseau. Dans le cas où vos abonnés et vos destinataires résideraient sur des serveurs différents du vôtre, vos posts publics et abonnés uniquement peuvent être délivrés vers les serveurs de vos abonnés tandis que vos messages directs sont délivrés aux serveurs de vos destinataires.</p>
 
       <p>Quand vous autorisez une application à utiliser votre compte, en fonction de l’étendue des permissions que vous approuvez, il est possible qu’elle puisse accéder aux informations publiques de votre profil, à votre liste d’abonnements, votre liste d’abonnés, vos listes, tous vos posts et vos favoris. Les applications ne peuvent en aucun cas accéder à votre adresse électronique et à votre mot de passe.</p>
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
 
       <hr class="spacer" />
 
@@ -1510,13 +1489,8 @@ fr:
       full_handle_hint: C’est ce que vous diriez à vos amis pour leur permettre de vous envoyer un message ou vous suivre à partir d’un autre serveur.
       review_preferences_action: Modifier les préférences
       review_preferences_step: Assurez-vous de définir vos préférences, telles que les courriels que vous aimeriez recevoir ou le niveau de confidentialité auquel vous publier vos messages par défaut. Si vous n’avez pas le mal des transports, vous pouvez choisir d’activer la lecture automatique des GIF.
-<<<<<<< HEAD
-      subject: Bienvenue sur koyu.space
-      tip_federated_timeline: La fil public global est une vue en direct du réseau koyu.space. Mais elle n’inclut que les personnes auxquelles vos voisin·es sont abonné·e·s, donc elle n’est pas complète.
-=======
       subject: Bienvenue sur koyu.space
       tip_federated_timeline: La fil public global est une vue en direct du réseau koyu.space. Mais elle n’inclut que les personnes auxquelles vos voisins sont abonnés, donc elle n’est pas complète.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       tip_following: Vous suivez les administrateur·rice·s de votre serveur par défaut. Pour trouver d’autres personnes intéressantes, consultez les fils publics local et global.
       tip_local_timeline: Le fil public local est une vue des personnes sur %{instance}. Ce sont vos voisines et voisins immédiats !
       tip_mobile_webapp: Si votre navigateur mobile vous propose d’ajouter koyu.space à votre écran d’accueil, vous pouvez recevoir des notifications. Il agit comme une application native de bien des façons !

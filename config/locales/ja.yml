@@ -25,11 +25,7 @@ ja:
     learn_more: もっと詳しく
     privacy_policy: プライバシーポリシー
     rules: サーバーのルール
-<<<<<<< HEAD
-    rules_html: 'このkoyu.spaceサーバーにアカウントをお持ちの場合は、以下のルールの概要を確認してください:'
-=======
     rules_html: 'このkoyu.spaceサーバーには、アカウントの所持にあたって従うべきルールが設定されています。概要は以下の通りです:'
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     see_whats_happening: やりとりを見てみる
     server_stats: 'サーバー統計:'
     source_code: ソースコード

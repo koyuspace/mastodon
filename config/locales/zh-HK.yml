@@ -2,13 +2,8 @@
 zh-HK:
   about:
     about_hashtag_html: 這些是包含「<strong>#%{hashtag}</strong>」標籤的公開文章。只要你是任何聯盟網站的用戶，便可以與他們互動。
-<<<<<<< HEAD
-    about_mastodon_html: koyu.space（萬象）是屬於未來的社交網絡︰無廣告煩擾、無企業監控、設計講道義、分散無大台！立即重奪個人資料的控制權，使用 koyu.space 吧！
-    about_this: 關於本服務站
-=======
     about_mastodon_html: koyu.space（萬象）是屬於未來的社交網路︰無廣告煩擾、無企業監控、設計講道義、分散無大台！立即重奪個人資料的控制權，使用 koyu.space 吧！
     about_this: 關於本伺服器
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     active_count_after: 活躍
     active_footnote: 每月活躍使用者 (MAU)
     administered_by: 管理者：

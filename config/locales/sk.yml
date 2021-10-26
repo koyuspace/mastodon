@@ -44,13 +44,9 @@ sk:
       rejecting_media_title: Triedené médiá
       silenced: 'Príspevky z týchto serverov budú skryté z verejných osí a z konverzácií, a nebudú vytvorené žiadné oboznámena ohľadom aktivity ich užívateľov, pokiaľ ich nenásleduješ:'
       silenced_title: Utíšené servery
-<<<<<<< HEAD
-    unavailable_content_html: Vo všeobecnosti, koyu.space ti dovoľuje vidieť obsah, a komunikovať s užívateľmi akéhokoľvek iného serveru v rámci fediversa. Toto sú výnimky, ktoré boli vytvorené na tomto konkrétnom serveri.
-=======
       suspended: 'Z týchto serverov nebudú spracovávané, ukladané, alebo vymieňané žiadne dáta, čo urobí nemožnou akúkoľvek interakciu, alebo komunikáciu s užívateľmi z týchto serverov:'
       suspended_title: Vylúčené servery
     unavailable_content_html: Vo všeobecnosti, koyu.space ti dovoľuje vidieť obsah, a komunikovať s užívateľmi akéhokoľvek iného serveru v rámci fediversa. Toto sú výnimky, ktoré boli vytvorené na tomto konkrétnom serveri.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     user_count_after:
       few: užívateľov
       many: užívatelia
@@ -1154,11 +1150,7 @@ sk:
 
       <p>Hociktorá z informácií, ktoré sú o tebe zozbierané, môže byť použité následujúcimi spôsobmi:</p>
       <ul>
-<<<<<<< HEAD
-      <li>Pre zabezpečenie základného fungovania koyu.spaceu. Narábať s užívateľským obsahom iných, ako aj prispievať svoj vlastný obsah, možeš len keď si prihlásený/á. Môžeš napríklad následovať iných ľudí, aby si potom videl/a ich príspevky v rámci svojej osobne prispôsobenej domácej osi.</li>
-=======
       <li>Pre zabezpečenie základného fungovania koyu.spaceu. Narábať s užívateľským obsahom iných, ako aj prispievať svoj vlastný obsah, možeš len keď si prihlásený/á. Môžeš napríklad nasledovať iných ľudí, aby si potom videl/a ich príspevky v rámci svojej osobne prispôsobenej domácej osi.</li>
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       <li>Pre lepšie moderovanie komunity sa napríklad môže tvoja IP adresa porovnať s ostatnými už známimi adresami, aby bolo možné zistiť, či nedochádza napríklad k obchádzaniu pravidiel vylúčenia, aleb k iným porušeniam zásad.</li>
       <li>Emailová adresa, ktorú poskytneš, môže byť použitá na zasielanie informácií, oboznámení keď ostatní užívatelia interaktujú s tvojím obsahom, alebo na posielanie správ, odpovedí na otázky a iné požiadavky.</li>
       </ul>

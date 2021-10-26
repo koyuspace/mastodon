@@ -9,13 +9,8 @@ gl:
     administered_by: 'Administrada por:'
     api: API
     apps: Aplicacións móbiles
-<<<<<<< HEAD
-    apps_platforms: Emprega koyu.space dende iOS, Android e outras plataformas
-    browse_directory: Navega polo directorio de perfís e filtra por intereses
-=======
     apps_platforms: Emprega koyu.space dende iOS, Android e outras plataformas
     browse_directory: Mira o directorio e filtra por intereses
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     browse_local_posts: Navega polas publicacións públicas deste servidor en tempo real
     browse_public_posts: Navega polas publicacións públicas de koyu.space en tempo real
     contact: Contacto
@@ -25,15 +20,8 @@ gl:
     documentation: Documentación
     federation_hint_html: Cunha conta en %{instance} poderás seguir ás persoas en calquera servidor do koyu.space e alén.
     get_apps: Probar unha aplicación móbil
-<<<<<<< HEAD
-    hosted_on: koyu.space aloxado en %{domain}
-    instance_actor_flash: 'Esta conta é un actor virtual utilizado para representar ao servidor e non a unha usuaria individual. Utilízase para propósitos de federación e non debería estar bloqueada a menos que queiras bloquear a toda a instancia, en tal caso deberías utilizar o bloqueo do dominio.
-
-      '
-=======
     hosted_on: koyu.space aloxado en %{domain}
     instance_actor_flash: Esta conta é un actor virtual utilizado para representar ao servidor e non a unha usuaria individual. Utilízase para propósitos de federación e non debería estar bloqueada a menos que queiras bloquear a toda a instancia, en tal caso deberías utilizar o bloqueo do dominio.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     learn_more: Saber máis
     privacy_policy: Política de privacidade
     rules: Regras do servidor

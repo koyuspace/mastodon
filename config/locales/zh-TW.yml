@@ -1401,14 +1401,9 @@ zh-TW:
       <p>最初改編自 <a href="https://github.com/discourse/discourse">Discourse 隱私權政策</a>。</p>
     title: "%{instance} 使用條款和隱私權政策"
   themes:
-<<<<<<< HEAD
-    contrast: koyu.space（高對比）
-    mastodon-light: koyu.space（亮色主題）
-=======
     contrast: koyu.space（高對比）
     default: koyu.space（深色）
     mastodon-light: koyu.space（亮色主題）
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
   time:
     formats:
       default: "%Y年%-m月%d日 %H:%M"

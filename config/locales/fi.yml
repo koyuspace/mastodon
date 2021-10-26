@@ -20,14 +20,10 @@ fi:
     documentation: Dokumentaatio
     federation_hint_html: Tilillä %{instance}:ssa voit seurata ihmisiä millä tahansa koyu.space-palvelimella ja sen ulkopuolella.
     get_apps: Kokeile mobiilisovellusta
-<<<<<<< HEAD
-    hosted_on: koyu.space palvelimella %{domain}
-=======
     hosted_on: koyu.space palvelimella %{domain}
     instance_actor_flash: |
       Tämä on virtuaalitili, joka edustaa itse palvelinta eikä yksittäistä käyttäjää.
       Sitä käytetään yhdistämistarkoituksiin, eikä sitä saa estää, ellet halua estää koko palvelinta, jolloin sinun on käytettävä verkkotunnuksen estoa.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     learn_more: Lisätietoja
     privacy_policy: Tietosuojaseloste
     rules: Palvelimen säännöt
@@ -720,12 +716,8 @@ fi:
     confirmation_dialogs: Vahvistusvalinnat
     discovery: Löytö
     localization:
-<<<<<<< HEAD
-      body: koyu.spacein ovat kääntäneet vapaaehtoiset.
-=======
       body: koyu.spacein ovat kääntäneet vapaaehtoiset.
       guide_link: https://crowdin.com/project/mastodon
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       guide_link_text: Kaikki voivat osallistua.
     sensitive_content: Arkaluontoista sisältöä
     toot_layout: Viestin asettelu
@@ -752,12 +744,8 @@ fi:
     delete_account: Poista tili
     delete_account_html: Jos haluat poistaa tilisi, <a href="%{path}">paina tästä</a>. Poisto on vahvistettava.
     description:
-<<<<<<< HEAD
-      prefix_sign_up: Liity koyu.spaceiin tänään!
-=======
       prefix_invited_by_user: "@%{name} kutsuu sinut liittymään tälle koyu.spacein palvelimelle!"
       prefix_sign_up: Liity koyu.spaceiin tänään!
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       suffix: Tilillä voit seurata ihmisiä, julkaista päivityksiä ja lähetellä viestejä muille käyttäjille miltä palvelimelta tahansa ja paljon muuta!
     didnt_get_confirmation: Etkö saanut vahvistusohjeita?
     dont_have_your_security_key: Eikö sinulla ole suojausavainta?
@@ -867,16 +855,11 @@ fi:
     '500':
       content: Valitettavasti jokin meni pieleen meidän päässämme.
       title: Sivu ei ole oikein
-<<<<<<< HEAD
-    '503': The page could not be served due to a temporary server failure.
-    noscript_html: koyu.space-selainsovelluksen käyttöön vaaditaan JavaScript. Voit vaihtoehtoisesti kokeilla jotakin omalle käyttöjärjestelmällesi tehtyä koyu.space<a href="%{apps_path}">sovellusta</a>.
-=======
     '503': Sivua ei voitu näyttää palvelimen väliaikaisen vian vuoksi.
     noscript_html: koyu.space-selainsovelluksen käyttöön vaaditaan JavaScript. Voit vaihtoehtoisesti kokeilla jotakin omalle käyttöjärjestelmällesi tehtyä koyu.space<a href="%{apps_path}">sovellusta</a>.
   existing_username_validator:
     not_found: paikallista käyttäjää ei löydy kyseisellä käyttäjänimellä
     not_found_multiple: "%{usernames} ei löytynyt"
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
   exports:
     archive_takeout:
       date: Päiväys

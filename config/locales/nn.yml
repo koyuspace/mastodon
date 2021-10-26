@@ -670,14 +670,9 @@ nn:
     sensitive_content: Sensitivt innhold
     toot_layout: Tutoppsett
   application_mailer:
-<<<<<<< HEAD
-    notification_preferences: Endr e-hop-innstillingane
-    settings: 'Endr e-hop-innstillingar: %{link}'
-=======
     notification_preferences: Endr e-post-innstillingane
     salutation: "%{name},"
     settings: 'Endr e-post-innstillingar: %{link}'
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     view: 'Sjå:'
     view_profile: Sjå profil
     view_status: Sjå status

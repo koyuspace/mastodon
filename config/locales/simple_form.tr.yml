@@ -160,13 +160,8 @@ tr:
         setting_display_media_default: Varsayılan
         setting_display_media_hide_all: Tümünü gizle
         setting_display_media_show_all: Tümünü göster
-<<<<<<< HEAD
-        setting_expand_spoilers: İçerik uyarılarıyla işaretli hopları her zaman genişlet
-        setting_hide_network: Ağınızı gizleyin
-=======
         setting_expand_spoilers: İçerik uyarılarıyla işaretli hopları her zaman genişlet
         setting_hide_network: Sosyal grafiğini gizle
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
         setting_noindex: Arama motoru dizinine eklemeyi iptal et
         setting_reduce_motion: Animasyonlarda hareketi azalt
         setting_show_application: Hopları göndermek için kullanılan uygulamayı belirt

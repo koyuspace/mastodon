@@ -32,13 +32,8 @@ zh-CN:
         title: 新电子邮件地址
       password_change:
         explanation: 你的帐户密码已更改。
-<<<<<<< HEAD
-        extra: 如果你并没有请求更改你的密码，则他人很有可能已经入侵你的帐户。请立即更改你的密码；如果你已经无法访问你的帐户，请联系服务器的管理员请求协助。
-        subject: koyu.space：密码已被更改
-=======
         extra: 如果你并没有申请更改密码，那似乎有人已经入侵你的帐户。请立即更改你的密码；如果你已经无法访问你的帐户，请联系服务器的管理员获取帮助。
         subject: koyu.space：密码已被更改
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
         title: 密码已被重置
       reconfirmation_instructions:
         explanation: 点击下面的链接来确认你的新电子邮件地址。
@@ -60,15 +55,9 @@ zh-CN:
         subject: koyu.space：双重验证已开启
         title: 已启用双重认证
       two_factor_recovery_codes_changed:
-<<<<<<< HEAD
-        explanation: 之前的恢复码已失效，现已生成了新的恢复码。
-        subject: koyu.space：重新生成双重认证的恢复码
-        title: 双重验证的恢复码已更改
-=======
         explanation: 新恢复码已生成，同时旧恢复码已失效。
         subject: koyu.space：重新生成双重认证的恢复码
         title: 双重认证的恢复码已更改
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       unlock_instructions:
         subject: koyu.space：帐户解锁信息
       webauthn_credential:

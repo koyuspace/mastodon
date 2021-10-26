@@ -24,15 +24,9 @@ hy:
     instance_actor_flash: "Այս հաշիւ վիրտուալ դերասան է, օգտագործուում է սպասարկիչը, այլ ոչ անհատ օգտատիրոջը ներկայացնելու, համար։ Օգտագործուում է ֆեդերացիայի նպատակով, ու չպէտք է արգելափակուի, եթէ չէք ցանկանում արգելափակել ողջ հանգոյցը, որի դէպքում պէտք է օգտագործէք տիրոյթի արգելափակումը։ \n"
     learn_more: Իմանալ ավելին
     privacy_policy: Գաղտնիության քաղաքականություն
-<<<<<<< HEAD
-    rules: Սերվերի կանոնները
-    rules_html: Ներքևում կանոնների ամփոփագիր է, որին պետք է հետևեք, եթե ցանկանում եք այս սերվերում ունենան koyu.space-ի հաշիվ
-    see_whats_happening: Տես ինչ ա կատարվում
-=======
     rules: Սերուերի կանոնները
     rules_html: Այս սերուերում հաշիւ ունենալու համար անհրաժեշտ է պահպանել ստորեւ նշուած կանոնները։
     see_whats_happening: Տես ինչ կը կատարուի
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     server_stats: Սերվերի վիճակը․
     source_code: Ելատեքստ
     status_count_after:
@@ -1056,11 +1050,6 @@ hy:
 
       <p><strong>Ոչ պաշտօնական, ոչ իրաւական թարգմանութիւն</strong></p>
   themes:
-<<<<<<< HEAD
-    contrast: koyu.space (բարձր կոնտրաստով)
-    default: koyu.space (Մուգ)
-    mastodon-light: koyu.space (Լուսավոր)
-=======
     contrast: koyu.space (բարձր կոնտրաստով)
     default: koyu.space (Մուգ)
     mastodon-light: koyu.space (Լուսավոր)
@@ -1068,7 +1057,6 @@ hy:
     formats:
       default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
   two_factor_authentication:
     add: Ավելացնել
     disable: Անջատել

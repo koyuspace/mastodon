@@ -748,13 +748,8 @@ pt-PT:
     confirmation_dialogs: Caixas de confirmação
     discovery: Descobrir
     localization:
-<<<<<<< HEAD
-      body: koyu.space é traduzido por voluntários.
-      guide_link: https://crowdin.com/project/mastodon/pt-PT
-=======
       body: koyu.space é traduzido por voluntários.
       guide_link: https://pt.crowdin.com/project/mastodon/
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       guide_link_text: Todos podem contribuir.
     sensitive_content: Conteúdo sensível
     toot_layout: Disposição do Hop
@@ -781,17 +776,10 @@ pt-PT:
     delete_account: Eliminar conta
     delete_account_html: Se deseja eliminar a sua conta, pode <a href="%{path}">continuar aqui</a>. Uma confirmação será solicitada.
     description:
-<<<<<<< HEAD
-      prefix_invited_by_user: "@%{name} convidou-o a juntar-se a esta instância do koyu.space!"
-      prefix_sign_up: Inscreva-se hoje no koyu.space!
-      suffix: Com uma conta, poderá seguir pessoas, publicar atualizações e trocar mensagens com utilizadores de qualquer instância koyu.space e muito mais!
-    didnt_get_confirmation: Não recebeu o email de confirmação?
-=======
       prefix_invited_by_user: "@%{name} convidou-o a juntar-se a esta instância do koyu.space!"
       prefix_sign_up: Inscreva-se hoje no koyu.space!
       suffix: Com uma conta, poderá seguir pessoas, publicar atualizações e trocar mensagens com utilizadores de qualquer instância koyu.space e muito mais!
     didnt_get_confirmation: Não recebeu o e-mail de confirmação?
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     dont_have_your_security_key: Não tem a sua chave de segurança?
     forgot_password: Esqueceste a palavra-passe?
     invalid_reset_password_token: Token de modificação da palavra-passe é inválido ou expirou. Por favor, solicita um novo.
@@ -1500,15 +1488,9 @@ pt-PT:
       full_handle: O teu nome completo
       full_handle_hint: Isto é o que você diria aos seus amigos para que eles lhe possam enviar mensagens ou seguir a partir de outra instância.
       review_preferences_action: Alterar preferências
-<<<<<<< HEAD
-      review_preferences_step: Certifica-te de configurar as tuas preferências, tais como os e-mails que gostarias de receber ou o nível de privacidade que desejas que as tuas publicações tenham por defeito. Se não sofres de enjoo, podes ativar a opção de auto-iniciar GIFs.
-      subject: Bem-vindo ao koyu.space
-      tip_federated_timeline: A cronologia federativa é uma visão global da rede koyu.space. Mas só inclui pessoas que os teus vizinhos subscrevem, por isso não é uma visão completa.
-=======
       review_preferences_step: Certifique-se de configurar as suas preferências, tais como os e-mails que gostaria de receber ou o nível de privacidade que deseja que as suas publicações tenham por defeito. Se não sofres de enjoo, podes ativar a opção de auto-iniciar GIFs.
       subject: Bem-vindo ao koyu.space
       tip_federated_timeline: A cronologia federativa é uma visão global da rede koyu.space. Mas só inclui pessoas que os teus vizinhos subscrevem, por isso não é uma visão completa.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       tip_following: Segues o(s) administrador(es) do teu servidor por defeito. Para encontrar mais pessoas interessantes, procura nas cronologias local e federada.
       tip_local_timeline: A cronologia local é uma visão global das pessoas em %{instance}. Estes são os seus vizinhos mais próximos!
       tip_mobile_webapp: Se o teu navegador móvel te oferecer a possibilidade de adicionar o koyu.space ao teu homescreen, tu podes receber notificações push. Ele age como uma aplicação nativa de vários modos!
@@ -1524,11 +1506,7 @@ pt-PT:
     signed_in_as: 'Registado como:'
     suspicious_sign_in_confirmation: Parece que não iniciou sessão através deste dispositivo antes, e não acede à sua conta há algum tempo. Portanto, enviámos um código de segurança para o seu endereço de e-mail para confirmar que é você.
   verification:
-<<<<<<< HEAD
-    explanation_html: 'Pode <strong>comprovar que é o dono dos links nos metadados do seu perfil</strong>. Para isso, o website para o qual o link aponta tem de conter um link para o seu perfil do koyu.space. Este link <strong>tem</strong> de ter um atributo <code>rel="me"</code>. O conteúdo do texto não é relevante. Aqui está um exemplo:'
-=======
     explanation_html: 'Pode <strong>comprovar que é o dono dos links nos metadados do seu perfil</strong>. Para isso, o website para o qual o link aponta tem de conter um link para o seu perfil do koyu.space. Esse link <strong>tem</strong> de ter um atributo <code>rel="me"</code>. O conteúdo do texto não é relevante. Aqui está um exemplo:'
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     verification: Verificação
   webauthn_credentials:
     add: Adicionar nova chave de segurança

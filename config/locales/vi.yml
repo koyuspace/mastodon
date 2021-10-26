@@ -20,13 +20,8 @@ vi:
     documentation: Tài liệu
     federation_hint_html: Đăng ký tài khoản %{instance} là bạn có thể giao tiếp với bất cứ ai trên bất kỳ máy chủ koyu.space nào và còn hơn thế nữa.
     get_apps: Ứng dụng di động
-<<<<<<< HEAD
-    hosted_on: "%{domain} vận hành nhờ koyu.space"
-    instance_actor_flash: "Đây là một tài khoản ảo được sử dụng để đại diện cho máy chủ chứ không phải bất kỳ người dùng cá nhân nào. Nó được sử dụng cho mục đích liên kết và không nên chặn trừ khi bạn muốn chặn toàn bộ máy chủ. \n"
-=======
     hosted_on: "%{domain} vận hành nhờ koyu.space"
     instance_actor_flash: Đây là một tài khoản ảo được sử dụng để đại diện cho máy chủ chứ không phải bất kỳ người dùng cá nhân nào. Nó được sử dụng cho mục đích liên kết và không nên chặn trừ khi bạn muốn chặn toàn bộ máy chủ.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     learn_more: Tìm hiểu
     privacy_policy: Chính sách bảo mật
     rules: Quy tắc máy chủ
@@ -723,13 +718,8 @@ vi:
     confirmation_dialogs: Hộp thoại xác nhận
     discovery: Khám phá
     localization:
-<<<<<<< HEAD
-      body: koyu.space Tiếng Việt được dịch bởi Hồ Nhất Duy.
-      guide_link: https://mas.to/@duy
-=======
       body: koyu.space Tiếng Việt được dịch bởi Hồ Nhất Duy.
       guide_link: https://crowdin.com/project/mastodon
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       guide_link_text: Đây là trang cá nhân của anh ấy.
     sensitive_content: Nội dung nhạy cảm
     toot_layout: Tút

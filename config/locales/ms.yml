@@ -1,17 +1,11 @@
 ---
 ms:
   about:
-<<<<<<< HEAD
-    about_hashtag_html: Terdapat hop awam yang ditanda dengan <strong>#%{hashtag}</strong>. Anda boleh berinteraksi dengan mereka jika anda mempunyai akaun di mana-mana dunia persekutuan koyu.space.
-    about_mastodon_html: koyu.space ialah rangkaian sosial berasaskan protokol web terbuka dan perisian percuma bersumber terbuka. Ianya tak terpusat seperti emel.
-    about_this: Mengenai Kami
-=======
     about_hashtag_html: Ini semua hantaran awam yang ditandakan dengan <strong>#%{hashtag}</strong>. Anda boleh berinteraksi dengan mereka jika anda mempunyai akaun di mana-mana dunia persekutuan.
     about_mastodon_html: 'Rangkaian sosial masa hadapan: Tiada iklan, tiada pengawasan korporat, reka bentuk beretika, dan desentralisasi! Miliki data anda dengan koyu.space!'
     about_this: Perihal
     active_count_after: aktif
     active_footnote: Pengguna Aktif Bulanan (MAU)
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     administered_by: 'Ditadbir oleh:'
     api: API
     apps: Aplikasi mudah alih
@@ -24,16 +18,12 @@ ms:
     contact_unavailable: Tidak tersedia
     discover_users: Terokai pengguna
     documentation: Pendokumenan
-<<<<<<< HEAD
-    hosted_on: koyu.space dihoskan di %{domain}
-=======
     federation_hint_html: Dengan akaun di %{instance} anda akan mampu mengikuti orang di mana-mana pelayan koyu.space dan lebih lagi.
     get_apps: Cuba aplikasi mudah alih
     hosted_on: koyu.space dihoskan di %{domain}
     instance_actor_flash: |
       Akaun ini ialah pelaku maya yang digunakan untuk mewakili pelayan itu sendiri dan bukannya mana-mana pengguna individu.
       Ia digunakan untuk tujuan persekutuan dan tidak patut disekat melainkan anda ingin menyekat keseluruhan tika, yang mana anda sepatutnya gunakan sekatan domain.
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     learn_more: Ketahui lebih lanjut
     privacy_policy: Polisi privasi
     rules: Peraturan pelayan
@@ -59,13 +49,8 @@ ms:
     unavailable_content_html: koyu.space secara amnya membenarkan anda melihat kandungan daripada dan berinteraksi dengan pengguna daripada mana-mana pelayan dalam dunia persekutuan. Ini pengecualian yang telah dilakukan di pelayan ini secara khususnya.
     user_count_after:
       other: pengguna
-<<<<<<< HEAD
-    user_count_before: Rumah kepada
-    what_is_mastodon: Apakah itu koyu.space?
-=======
     user_count_before: Rumah bagi
     what_is_mastodon: Apakah itu koyu.space?
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
   accounts:
     choices_html: 'Pilihan %{name}:'
     endorsements_hint: Anda boleh syorkan orang yang anda ikuti menggunakan antara muka sesawang, dan mereka akan ditunjukkan di sini.
@@ -88,15 +73,9 @@ ms:
     pin_errors:
       following: Anda mestilah sudah mengikuti orang yang anda ingin syorkan
     posts:
-<<<<<<< HEAD
-      other: Hop
-    posts_tab_heading: Hop
-    posts_with_replies: Hop dan maklum balas
-=======
       other: Hantaran
     posts_tab_heading: Hantaran
     posts_with_replies: Hantaran dan balasan
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
     roles:
       admin: Pentadbir
       bot: Bot
@@ -511,21 +490,12 @@ ms:
     relays:
       add_new: Tambah geganti baharu
       delete: Padam
-<<<<<<< HEAD
-      description_html: "<strong>Geganti persekutuan</strong> ialah pelayan perantara yang saling menukar hop awam dalam jumlah yang banyak di antara pelayan yang melanggan ia dan menerbitkan kepada ia. <strong>Ia boleh bantu pelayan kecil dan sederhana untuk menemui kandungan daripada dunia persekutuan koyu.space</strong>, yang mana jika tidak digunakan akan memerlukan pengguna tempatan mengikut orang lain di pelayan jarak jauh secara manual."
-      disable: Lumpuhkan
-      disabled: Dilumpuhkan
-      enable: Bolehkan
-      enable_hint: Apabila dibolehkan, pelayan anda akan melanggan kesemua hop awam daripada geganti ini, dan akan mula menghantar hop awam pelayan ini kepada ia.
-      enabled: Dibolehkan
-=======
       description_html: "<strong>Geganti persekutuan</strong> ialah pelayan perantara yang saling menukar hantaran awam dalam jumlah yang banyak di antara pelayan yang melanggan ia dan menerbitkan kepadanya. <strong>Ia boleh bantu pelayan kecil dan sederhana untuk menemui kandungan daripada dunia persekutuan</strong>, yang mana jika tidak digunakan akan memerlukan pengguna tempatan mengikut orang lain di pelayan jarak jauh secara manual."
       disable: Nyahdayakan
       disabled: Dinyahdayakan
       enable: Dayakan
       enable_hint: Apabila didayakan, pelayan anda akan melanggan kesemua hantaran awam daripada geganti ini, dan akan mula menghantar hantaran awam pelayan ini kepadanya.
       enabled: Didayakan
->>>>>>> e0f39626973fd9f5cce2d4cd3b166fb47e9c9059
       inbox_url: URL geganti
       pending: Menunggu kelulusan geganti
       save_and_enable: Simpan dan dayakan
