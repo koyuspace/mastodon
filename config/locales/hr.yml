@@ -2,7 +2,7 @@
 hr:
   about:
     about_hashtag_html: Ovo su javni tootovi označeni s <strong>#%{hashtag}</strong>. Možete biti u interakciji s njima, ako imate račun bilo gdje u fediverzumu.
-    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću Mastodona!'
+    about_mastodon_html: 'Društvena mreža budućnosti: bez oglasa, bez korporativnog nadzora, etički dizajn i decentralizacija! Budite u vlasništvu svojih podataka pomoću koyu.spacea!'
     about_this: Dodatne informacije
     active_count_after: aktivnih
     active_footnote: Mjesečno aktivnih korisnika (MAU)
@@ -29,8 +29,8 @@ hr:
     nothing_here: Ovdje nema ničeg!
     people_followed_by: Ljudi koje %{name} prati
     people_who_follow: Ljudi koji prate %{name}
-    posts_tab_heading: Tootovi
-    posts_with_replies: Tootovi i odgovori
+    posts_tab_heading: Hopovi
+    posts_with_replies: Hopovi i odgovori
     roles:
       group: Grupa
     unavailable: Profil nije dostupan

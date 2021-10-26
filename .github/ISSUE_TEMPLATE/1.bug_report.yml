@@ -35,7 +35,7 @@ body:
     attributes:
       label: Specifications
       description: |
-        What version or commit hash of Mastodon did you find this bug in?
+        What version or commit hash of koyu.space did you find this bug in?
 
         If a front-end issue, what browser and operating systems were you using?
     validations:

@@ -32,7 +32,7 @@ en:
     donate: "Go Pro!"
     donate_description: "Get a colourful display name and more!"
     services: "koyu.space Services"
-    services_description: "We also host more than Mastodon"
+    services_description: "We also host more than koyu.space"
     server_stats: 'Server stats:'
     source_code: Source code
     status_count_after:
