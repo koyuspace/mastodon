@@ -46,7 +46,7 @@ es-MX:
         password: Utilice al menos 8 caracteres
         phrase: Se aplicará sin importar las mayúsculas o los avisos de contenido de un hop
         scopes: Qué APIs de la aplicación tendrán acceso. Si seleccionas el alcance de nivel mas alto, no necesitas seleccionar las individuales.
-        setting_aggregate_reblogs: No mostrar nuevos retoots para los hops que han sido recientemente retooteados (sólo afecta a los retoots recibidos recientemente)
+        setting_aggregate_reblogs: No mostrar nuevos rehops para los hops que han sido recientemente rehopeados (sólo afecta a los rehops recibidos recientemente)
         setting_default_sensitive: El contenido multimedia sensible está oculto por defecto y puede ser mostrado con un click
         setting_display_media_default: Ocultar contenido multimedia marcado como sensible
         setting_display_media_hide_all: Siempre ocultar todo el contenido multimedia
@@ -120,7 +120,7 @@ es-MX:
         text: Anuncio
       defaults:
         autofollow: Invitar a seguir tu cuenta
-        avatar: Avatar
+        avatar: Foto de perfil
         bot: Esta es una cuenta bot
         chosen_languages: Filtrar idiomas
         confirm_new_password: Confirmar nueva contraseña
@@ -146,9 +146,9 @@ es-MX:
         password: Contraseña
         phrase: Palabra clave o frase
         setting_advanced_layout: Habilitar interfaz web avanzada
-        setting_aggregate_reblogs: Agrupar retoots en las líneas de tiempo
+        setting_aggregate_reblogs: Agrupar rehops en las líneas de tiempo
         setting_auto_play_gif: Reproducir automáticamente los GIFs animados
-        setting_boost_modal: Mostrar ventana de confirmación antes de un Retoot
+        setting_boost_modal: Mostrar ventana de confirmación antes de un Rehop
         setting_crop_images: Recortar a 16x9 las imágenes de los hops no expandidos
         setting_default_language: Idioma de publicación
         setting_default_privacy: Privacidad de publicaciones

@@ -5,9 +5,9 @@ ja:
       defaults:
         setting_default_content_type_html: トゥートを作成するとき特に指定がない限り生のHTMLで書かれているとします
         setting_default_content_type_markdown: トゥートを作成するとき特に指定がない限りリッチテキスト形式のマークダウンで書かれているとします
-        setting_default_content_type_plain: トゥートを作成するとき特に指定がない限りプレーンテキストで書かれているとします（Mastodon既定の動作）
+        setting_default_content_type_plain: トゥートを作成するとき特に指定がない限りプレーンテキストで書かれているとします（koyu.space既定の動作）
         setting_default_language: あなたのトゥートの言語を自動検出しますが必ずしも正確ではありません
-        setting_skin: 選択したMastodonフレーバーに変更します
+        setting_skin: 選択したkoyu.spaceフレーバーに変更します
     labels:
       defaults:
         setting_default_content_type: 既定のトゥート形式

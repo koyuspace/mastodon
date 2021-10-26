@@ -119,6 +119,7 @@ da:
       demote: Degradér
       destroyed_msg: "%{username}s data er nu i kø til straks at blive slettet"
       disable: Frys
+      disable_sign_in_token_auth: Deaktivér e-mailtokengodkendelse
       disable_two_factor_authentication: Deaktivér 2FA
       disabled: Frosset
       display_name: Visningsnavn
@@ -127,6 +128,7 @@ da:
       email: E-mail
       email_status: E-mailstatus
       enable: Optø
+      enable_sign_in_token_auth: Aktivér e-mailtokengodkendelse
       enabled: Aktiveret
       enabled_msg: "%{username}s konto er optøet"
       followers: Følgere
@@ -191,6 +193,10 @@ da:
       search: Søg
       search_same_email_domain: Andre brugere med det samme e-maildomæne
       search_same_ip: Andre brugere med den samme IP
+      security_measures:
+        only_password: Kun adgangskode
+        password_and_2fa: Adgangskode og 2FA
+        password_and_sign_in_token: Adgangskode og e-mailtoken
       sensitive: Sensitivt
       sensitized: markeret som sensitivt
       shared_inbox_url: Delt indbakke-URL
@@ -242,8 +248,10 @@ da:
         destroy_unavailable_domain: Slet Utilgængeligt Domæne
         disable_2fa_user: Deaktivér 2FA
         disable_custom_emoji: Deaktivér tilpasset emoji
+        disable_sign_in_token_auth_user: Deaktivér e-mailtokengodkendelse for bruger
         disable_user: Deaktivér bruger
         enable_custom_emoji: Aktivér tilpasset emoji
+        enable_sign_in_token_auth_user: Aktivér e-mailtokengodkendelse for bruger
         enable_user: Aktivér brugeren
         memorialize_account: Gør til mindekonto
         promote_user: Promovér bruger
@@ -285,8 +293,10 @@ da:
         destroy_unavailable_domain_html: "%{name} genoptog levering til domænet %{target}"
         disable_2fa_user_html: "%{name} deaktiverede tofaktorkravet for brugeren %{target}"
         disable_custom_emoji_html: "%{name} deaktiverede humørikonet %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} deaktiverede e-mailtokengodkendelse for %{target}"
         disable_user_html: "%{name} deaktiverede indlogning for brugeren %{target}"
         enable_custom_emoji_html: "%{name} aktiverede humørikonet %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} aktiverede e-mailtokengodkendelse for %{target}"
         enable_user_html: "%{name} aktiverede indlogning for brugeren %{target}"
         memorialize_account_html: "%{name} gjorde %{target}s konto til en mindeside"
         promote_user_html: "%{name} forfremmede brugeren %{target}"
@@ -361,32 +371,27 @@ da:
       updated_msg: Emoji blev opdateret!
       upload: Upload
     dashboard:
-      authorized_fetch_mode: Sikker tilstand
-      backlog: ophobede jobs
-      config: Opsætning
-      feature_deletions: Kontosletninger
-      feature_invites: Invitationslinks
-      feature_profile_directory: Profilliste
-      feature_registrations: Registreringer
-      feature_relay: Federationsredistributør
-      feature_timeline_preview: Tidslinjeforhåndsvisning
-      features: Funktioner
-      hidden_service: Federering med skjulte tjenester
-      open_reports: åbne anmeldelser
-      pending_tags: hastags afventende revidering
-      pending_users: brugere afventende revidering
-      recent_users: Seneste brugere
-      search: Fuldtekstsøgning
-      single_user_mode: Enkeltbrugertilstand
+      active_users: aktive brugere
+      interactions: interaktioner
+      media_storage: Medielagerplads
+      new_users: nye brugere
+      pending_reports_html:
+        one: "<strong>1</strong> afventende rapport"
+        other: "<strong>%{count}</strong> afventende rapporter"
+      pending_tags_html:
+        one: "<strong>1</strong> afventende hashtag"
+        other: "<strong>%{count}</strong> afventende hashtags"
+      pending_users_html:
+        one: "<strong>1</strong> afventende bruger"
+        other: "<strong>%{count}</strong> afventende brugere"
+      resolved_reports: anmeldelser løst
       software: Software
+      sources: Tilmeldingskilder
       space: Lagerpladsforbrug
       title: Betjeningspanel
-      total_users: brugere i alt
-      trends: Tendenser
-      week_interactions: interaktioner denne uge
-      week_users_active: aktive denne uge
-      week_users_new: brugere denne uge
-      whitelist_mode: Begrænset federeringstilstand
+      top_languages: Mest aktive sprog
+      top_servers: Mest aktive servere
+      website: Websted
     domain_allows:
       add_new: Tillade federering med domæne
       created_msg: Domæne er blevet tilladt federering
@@ -569,6 +574,7 @@ da:
       resolved: Løst
       resolved_msg: Anmeldelse er nu løst!
       status: Status
+      target_origin: Anmeldte kontos oprindelse
       title: Anmeldelser
       unassign: Utildel
       unresolved: Ikke-løst
@@ -644,7 +650,7 @@ da:
         desc_html: Vis et personaleemblem på en brugerside
         title: Vis personaleemblem
       site_description:
-        desc_html: Introduktionsafsnit på API'en. Beskriv, hvad der gør denne Mastodonserver speciel samt alt andet vigtigt. HTML tags kan bruges, især <code>&lt;a&gt;</code> og <code>&lt;em&gt;</code>.
+        desc_html: Introduktionsafsnit på API'en. Beskriv, hvad der gør denne koyu.spaceserver speciel samt alt andet vigtigt. HTML tags kan bruges, især <code>&lt;a&gt;</code> og <code>&lt;em&gt;</code>.
         title: Serverbeskrivelse
       site_description_extended:
         desc_html: Et god placering til dit adfærdskodes, regler, retningslinjer mv., som gør din server unik. HTML-tags kan bruges
@@ -1004,6 +1010,17 @@ da:
   lists:
     errors:
       limit: Maks. listeantal nået
+  login_activities:
+    authentication_methods:
+      otp: tofaktorgodkendelses-app
+      password: adgangskode
+      sign_in_token: e-mailsikkerhedskode
+      webauthn: sikkerhedsnøgler
+    description_html: Bliver der observeret ukendt aktivitet, så overvej at skifte adgangskode samt aktivere tofaktorgodkendelse.
+    empty: Ingen tilgængelig godkendelseshistorik
+    failed_sign_in_html: Mislykket indlogning med %{method} fra %{ip} (%{browser})
+    successful_sign_in_html: Gennemført indlogning med %{method} fra %{ip} (%{browser})
+    title: Godkendelseshistorik
   media_attachments:
     validations:
       images_and_video: En video kan ikke vedhæftes et indlæg med billedindhold
@@ -1210,6 +1227,7 @@ da:
     revoke: Tilbagekald
     revoke_success: Session tilbagekaldt
     title: Sessioner
+    view_authentication_history: Vis godkendelseshistorik for din konto
   settings:
     account: Konto
     account_settings: Kontoindstillinger
@@ -1230,6 +1248,7 @@ da:
     preferences: Præferencer
     profile: Profil
     relationships: Følger og følgere
+    statuses_cleanup: Automatiseret indlægssletning
     two_factor_authentication: Tofaktorgodkendelse
     webauthn_authentication: Sikkerhedsnøgler
   statuses:
@@ -1281,6 +1300,40 @@ da:
       public_long: Alle kan se
       unlisted: Ulistet
       unlisted_long: Alle kan se, men er ikke listet på offentlige tidslinjer
+  statuses_cleanup:
+    enabled: Slet automatisk gamle indlæg
+    enabled_hint: Sletter automatisk dine indlæg, når disse når en bestemt alder, medmindre de matcher en af undtagelserne nedenfor
+    exceptions: Undtagelser
+    explanation: Sletning af indlæg er en ressourcekrævende operation, hvorfor dette sker gradvist over tid, når serveren ellers ikke er optaget. Dine indlæg kan derfor blive slettet nogen tid efter, at de har passeret aldersgrænsen.
+    ignore_favs: Ignorér favoritter
+    ignore_reblogs: Ignorér boosts
+    interaction_exceptions: Undtagelser baseret på interaktioner
+    interaction_exceptions_explanation: Bemærk, at der ikke er nogen garanti for at indlæg slettes, hvis de går under favorit- eller boost-tærsklerne efter at have været gået over dem.
+    keep_direct: Behold direkte besked
+    keep_direct_hint: Slet ingen af dine direkte beskeder
+    keep_media: Behold indlæg med medievedhæftninger
+    keep_media_hint: Sletter ingen af dine indlæg med medievedhæftninger
+    keep_pinned: Behold fastgjorte indlæg
+    keep_pinned_hint: Sletter ingen af dine fastgjorte indlæg
+    keep_polls: Behold afstemninger
+    keep_polls_hint: Sletter ingen af dine afstemninger
+    keep_self_bookmark: Behold dine bogmærker
+    keep_self_bookmark_hint: Sletter ikke egne indlæg, såfremt de er bogmærket
+    keep_self_fav: Behold indlæg du har foretrukket
+    keep_self_fav_hint: Sletter ikke egne indlæg, såfremt de er foretrukket
+    min_age:
+      '1209600': 2 uger
+      '15778476': 6 måneder
+      '2629746': 1 måned
+      '31556952': 1 år
+      '5259492': 2 måneder
+      '63113904': 2 år
+      '7889238': 3 måneder
+    min_age_label: Alderstærskel
+    min_favs: Behold indlæg foretrukket mere end
+    min_favs_hint: Sletter ingen af dine indlæg, som har modtaget flere end dette antal favoriseringer. Lad stå tomt for at slette indlæg uanset favoriseringsantal
+    min_reblogs: Behold indlæg boostet flere end
+    min_reblogs_hint: Sletter ingen af dine indlæg, som er blevet boostet flere end dette antal gange. Lad stå tomt for at slette indlæg uanset deres boosts-antal
   stream_entries:
     pinned: Fastgjort indlæg
     reblogged: boostet
@@ -1288,11 +1341,11 @@ da:
   tags:
     does_not_match_previous_name: matcher ikke det foregående navn
   terms:
-    body_html: "<p><h2>Fortrolighedspolitik</h2> \n<h3 id=\"collect\">Hvilke oplysninger indsamler vi?</h3> \n\n<ul>\n  <li><em>Grundlæggende kontooplysninger</em>: Opretter du dig på denne server, kan du blive bedt om at angive brugernavn, e-mailadresse og adgangskode. Du kan også angive yderligere profiloplysninger, såsom visningsnavn og biografi, og uploade et profil- og overskriftsbillede. Brugernavn, visningsnavn, biografi, profil- og overskriftsbilleder vises altid offentligt.</li> \n  <li> <em>Indlæg, følgning og andre offentlige oplysninger</em>: Listen over personer, du følger, er offentligt tilgængelig, det samme gælder dine følgere. Når du sender en besked, gemmes dato og klokkeslæt såvel som det program, du sendte beskeden fra. Beskeder kan indeholde medievedhæftninger, såsom billeder og videoer. Offentlige og ulistede indlæg er offentligt tilgængelige. Når du fremhæver et indlæg på din profil, er det også offentligt tilgængelig information. Dine indlæg leveres til dine tilhængere, i nogle tilfælde betyder det, at de leveres til forskellige servere, hvor kopier gemmes. Når du sletter indlæg, leveres det også til dine følgere. Genbloggingshandlinger eller favorisering af et andet indlæg sker altid offentligt.</li>\n  <li><em>Direkte og kun følgere-indlæg</em>: Alle indlæg gemmes og behandles på serveren. Kun følgere-indlæg leveres til dine følgere og brugere, som er nævnt i disse, og direkte indlæg leveres kun til brugere nævnt heri. I visse tilfælde betyder dette, at de leveres til forskellige servere, hvor der gemmes kopier. Vi gør en bedste-evne indsats for at begrænse adgangen til disse indlæg til kun godkendte personer, men andre servere kan undlade dette tiltag. Det er derfor vigtigt at gennemgå de servere, dine følgere tilhører. Du kan skifte en valgmulighed for at godkende og afvise nye følgere manuelt i indstillingerne.<em>Husk dog på, at operatørerne af serveren og enhver modtagende server vil kunne se sådanne meddelelser</em>, og at modtagere vil kunne tage skærmfotos, kopiere eller på anden vis deler disse igen.<em> Del ingen sensitive mv. oplysninger over koyu.space.</em> </li>\n  <li> <em>IP'er og andre metadata</em>: Når du logger ind, registrerer vi den IP-adresse, du logger ind fra, samt navnet på din browser-applikation. Du vil have alle indloggede sessioner tilgængelige for gennemgang og tilbagekaldelse via indstillingerne. Den senest anvendte IP-adresse gemmes i op til 12 måneder. Vi kan også beholde serverlogfiler indeholdende IP-adressen for hver forespørgsel til vores server.</li>\n</ul>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"use\">Hvad bruger vi dine oplysninger til?</h3>\n\n<p>Enhver oplysning, vi indsamler fra dig, kan blive brugt på flg. måder: </p>\n\n<ul>\n  <li>Til at levere Mastodons kernfunktionalitet. Du kan kun interagere med andres indhold og indsende dit eget, når du er logget ind. Du kan f.eks. følge andre personer for at se deres kombinerede indlæg på din egen personlige tidslinje.</li>\n  <li>Som hjælp til moderering af fællesskabet, f.eks. sammenligning af din IP-adresse med andre kendte, for at bestemme udelukkelsesomgåelse eller andre overtrædelser.</li>\n  <li>Den af dig angivne e-mailadresse kan bruges til at sende dig oplysninger, notifikationer om andre personer, som interagerer med dit indhold eller sender dig beskeder samt til at svare på henvendelser og/eller andre forespørgsler eller spørgsmål. </li>\n</ul>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"protect\">Hvordan beskytter vi dine oplysninger?</h3>\n\n<p>Vi implementerer en række sikkerhedsforanstaltninger for at sikre dine personlige oplysninger, når du angiver, indsender eller tilgår dine personlige oplysninger. Bl.a. sikres din browsersession samt trafikken mellem dine applikationer og API'en med SSL, og din adgangskode er hashed vha. en stærk envejsalgoritme. Du kan aktivere tofaktorgodkendelse for yderligere at adgangssikre din konto.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"data-retention\">Hvad er vores datalagringspolitik?</h3>\n\n<p>Vi vil efter bedste oprigtige evne gøre en indsats for at: </p>\n\n<ul>\n  <li>Beholde/lagre serverlogfiler indeholdende IP-adressen på alle forespørgsler til denne server, for så vidt at sådanne logfiler ikke opbevares/lagres længere end 90 dage.</li>\n  <li>Beholde/lagre IP-adresser forbundet med registrerede brugere i maksimalt 12 måneder.</li>\n</ul>\n\n<p>Du kan anmode om og downloade et arkiv af dit indhold, herunder dine indlæg, medievedhæftninger samt profil- og headerbilleder </p>\n\n<p>Du kan til enhver tid slette din konto permanent.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"cookies\">Bruger vi cookies?</h3>\n\n<p>Ja. Cookies er små filer, som et websted eller dets tjenesteudbyder overfører til din computers lagerplads via din webbrowser (hvis du tillader det). Disse cookies gør det muligt for webstedet at genkende din browser og, hvis du har en registreret konto, associerer den med din registrerede konto.</p>\n\n<p>Vi bruger cookies til at forstå og gemme dine præferencer for fremtidige besøg.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"disclose\">Afslører vi nogle oplysninger til eksterne parter?</h3>\n\n<p>Vi hverken sælger, handler/bytter eller på anden måde overfører dine personlige identificerbare oplysninger til eksterne parter. Herfra undtaget er dog betroede tredjeparter, som hjælper os med at drive vores websted, drive vores forretning eller servicere dig, så længe parterne accepterer at holde disse oplysninger fortrolige. Vi kan også vælge at frigive dine oplysninger, såfremt vi mener, at frigivelsen er hensigtsmæssig ift. at overholde loven, håndhæve vores webstedspolitikker eller beskytte vores/andres rettigheder, ejendom eller sikkerhed.</p>\n\n<p>Dit offentlige indhold kan blive downloades af andre servere i netværket. Dine offentlige og kun-følgere indlæg leveres til de servere, hvor dine tilhængere er hjemhørende, og direkte beskeder leveres til modtagerens servere, for så vidt som disse følgere/modtagere ikke er hjemhørende på denne server.</p>\n\n<p>Når du godkender en applikation til at bruge din konto, afhængt af tilladelsesomfanget, godkender du, at det kan tilgå dine offentlige profiloplysninger, din liste over dem, du følger, dine følgere, dine lister, alle dine indlæg og dine favoritter. Applikationer kan aldrig tilgå din e-mailadresse eller adgangskode.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"children\">Børns brug af webstedet</h3>\n\n<p>Hvis denne server er i EU eller EØS: Vores websted, produkter og tjenester er alle er alle beregnet på personer, som er fyldt 16 år. Er du ike fyldt 16 år, så benyt ikke dette websted jf. kravene i GDPR, (<a href=\"https://en.wikipedia.org/wiki/General_Data_Protection_Regulation\">Generel Databeskyttelsesforordning</a>).</p>\n\n<p>Hvis denne server er i USA: Vores websted, produkter og tjenester er alle rettet mod personer, som er fyldt 13 år. Er du ikke fyldt 13 år, så benyt ikke dette websted jf. kravene i COPPA, (<a href=\"https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act\">Børns online fortrolighedsbeskyttelsesslov</a>).</p>\n\n<p>Lovkrav kan afvige, hvis denne server befinder sig i et andet retsområde.</p>\n\n<hr class = \"spacer\" />\n\n<h3 id=\"changes\">Ændringer i vores fortrolighedspolitik</h3>\n\n<p>Beslutter vi os for at ændre vores fortrolighedspolitik, vil disse ændringer fremgå på denne side.</p>\n\n<p>Dette dokument er CC-BY-SA, og det blev senest opdateret 7. marts 2018.</p>\n\n<p> Oprindelig tilpasset fra <a href=\"https://github.com/discourse/discourse\"> Discourse' Fortrolighedspolitik</a>.</p>\n"
+    body_html: "<p><h2>Fortrolighedspolitik</h2> \n<h3 id=\"collect\">Hvilke oplysninger indsamler vi?</h3> \n\n<ul>\n  <li><em>Grundlæggende kontooplysninger</em>: Opretter du dig på denne server, kan du blive bedt om at angive brugernavn, e-mailadresse og adgangskode. Du kan også angive yderligere profiloplysninger, såsom visningsnavn og biografi, og uploade et profil- og overskriftsbillede. Brugernavn, visningsnavn, biografi, profil- og overskriftsbilleder vises altid offentligt.</li> \n  <li> <em>Indlæg, følgning og andre offentlige oplysninger</em>: Listen over personer, du følger, er offentligt tilgængelig, det samme gælder dine følgere. Når du sender en besked, gemmes dato og klokkeslæt såvel som det program, du sendte beskeden fra. Beskeder kan indeholde medievedhæftninger, såsom billeder og videoer. Offentlige og ulistede indlæg er offentligt tilgængelige. Når du fremhæver et indlæg på din profil, er det også offentligt tilgængelig information. Dine indlæg leveres til dine tilhængere, i nogle tilfælde betyder det, at de leveres til forskellige servere, hvor kopier gemmes. Når du sletter indlæg, leveres det også til dine følgere. Genbloggingshandlinger eller favorisering af et andet indlæg sker altid offentligt.</li>\n  <li><em>Direkte og kun følgere-indlæg</em>: Alle indlæg gemmes og behandles på serveren. Kun følgere-indlæg leveres til dine følgere og brugere, som er nævnt i disse, og direkte indlæg leveres kun til brugere nævnt heri. I visse tilfælde betyder dette, at de leveres til forskellige servere, hvor der gemmes kopier. Vi gør en bedste-evne indsats for at begrænse adgangen til disse indlæg til kun godkendte personer, men andre servere kan undlade dette tiltag. Det er derfor vigtigt at gennemgå de servere, dine følgere tilhører. Du kan skifte en valgmulighed for at godkende og afvise nye følgere manuelt i indstillingerne.<em>Husk dog på, at operatørerne af serveren og enhver modtagende server vil kunne se sådanne meddelelser</em>, og at modtagere vil kunne tage skærmfotos, kopiere eller på anden vis deler disse igen.<em> Del ingen sensitive mv. oplysninger over koyu.space.</em> </li>\n  <li> <em>IP'er og andre metadata</em>: Når du logger ind, registrerer vi den IP-adresse, du logger ind fra, samt navnet på din browser-applikation. Du vil have alle indloggede sessioner tilgængelige for gennemgang og tilbagekaldelse via indstillingerne. Den senest anvendte IP-adresse gemmes i op til 12 måneder. Vi kan også beholde serverlogfiler indeholdende IP-adressen for hver forespørgsel til vores server.</li>\n</ul>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"use\">Hvad bruger vi dine oplysninger til?</h3>\n\n<p>Enhver oplysning, vi indsamler fra dig, kan blive brugt på flg. måder: </p>\n\n<ul>\n  <li>Til at levere koyu.spaces kernfunktionalitet. Du kan kun interagere med andres indhold og indsende dit eget, når du er logget ind. Du kan f.eks. følge andre personer for at se deres kombinerede indlæg på din egen personlige tidslinje.</li>\n  <li>Som hjælp til moderering af fællesskabet, f.eks. sammenligning af din IP-adresse med andre kendte, for at bestemme udelukkelsesomgåelse eller andre overtrædelser.</li>\n  <li>Den af dig angivne e-mailadresse kan bruges til at sende dig oplysninger, notifikationer om andre personer, som interagerer med dit indhold eller sender dig beskeder samt til at svare på henvendelser og/eller andre forespørgsler eller spørgsmål. </li>\n</ul>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"protect\">Hvordan beskytter vi dine oplysninger?</h3>\n\n<p>Vi implementerer en række sikkerhedsforanstaltninger for at sikre dine personlige oplysninger, når du angiver, indsender eller tilgår dine personlige oplysninger. Bl.a. sikres din browsersession samt trafikken mellem dine applikationer og API'en med SSL, og din adgangskode er hashed vha. en stærk envejsalgoritme. Du kan aktivere tofaktorgodkendelse for yderligere at adgangssikre din konto.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"data-retention\">Hvad er vores datalagringspolitik?</h3>\n\n<p>Vi vil efter bedste oprigtige evne gøre en indsats for at: </p>\n\n<ul>\n  <li>Beholde/lagre serverlogfiler indeholdende IP-adressen på alle forespørgsler til denne server, for så vidt at sådanne logfiler ikke opbevares/lagres længere end 90 dage.</li>\n  <li>Beholde/lagre IP-adresser forbundet med registrerede brugere i maksimalt 12 måneder.</li>\n</ul>\n\n<p>Du kan anmode om og downloade et arkiv af dit indhold, herunder dine indlæg, medievedhæftninger samt profil- og headerbilleder </p>\n\n<p>Du kan til enhver tid slette din konto permanent.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"cookies\">Bruger vi cookies?</h3>\n\n<p>Ja. Cookies er små filer, som et websted eller dets tjenesteudbyder overfører til din computers lagerplads via din webbrowser (hvis du tillader det). Disse cookies gør det muligt for webstedet at genkende din browser og, hvis du har en registreret konto, associerer den med din registrerede konto.</p>\n\n<p>Vi bruger cookies til at forstå og gemme dine præferencer for fremtidige besøg.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"disclose\">Afslører vi nogle oplysninger til eksterne parter?</h3>\n\n<p>Vi hverken sælger, handler/bytter eller på anden måde overfører dine personlige identificerbare oplysninger til eksterne parter. Herfra undtaget er dog betroede tredjeparter, som hjælper os med at drive vores websted, drive vores forretning eller servicere dig, så længe parterne accepterer at holde disse oplysninger fortrolige. Vi kan også vælge at frigive dine oplysninger, såfremt vi mener, at frigivelsen er hensigtsmæssig ift. at overholde loven, håndhæve vores webstedspolitikker eller beskytte vores/andres rettigheder, ejendom eller sikkerhed.</p>\n\n<p>Dit offentlige indhold kan blive downloades af andre servere i netværket. Dine offentlige og kun-følgere indlæg leveres til de servere, hvor dine tilhængere er hjemhørende, og direkte beskeder leveres til modtagerens servere, for så vidt som disse følgere/modtagere ikke er hjemhørende på denne server.</p>\n\n<p>Når du godkender en applikation til at bruge din konto, afhængt af tilladelsesomfanget, godkender du, at det kan tilgå dine offentlige profiloplysninger, din liste over dem, du følger, dine følgere, dine lister, alle dine indlæg og dine favoritter. Applikationer kan aldrig tilgå din e-mailadresse eller adgangskode.</p>\n\n<hr class=\"spacer\" />\n\n<h3 id=\"children\">Børns brug af webstedet</h3>\n\n<p>Hvis denne server er i EU eller EØS: Vores websted, produkter og tjenester er alle er alle beregnet på personer, som er fyldt 16 år. Er du ike fyldt 16 år, så benyt ikke dette websted jf. kravene i GDPR, (<a href=\"https://en.wikipedia.org/wiki/General_Data_Protection_Regulation\">Generel Databeskyttelsesforordning</a>).</p>\n\n<p>Hvis denne server er i USA: Vores websted, produkter og tjenester er alle rettet mod personer, som er fyldt 13 år. Er du ikke fyldt 13 år, så benyt ikke dette websted jf. kravene i COPPA, (<a href=\"https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act\">Børns online fortrolighedsbeskyttelsesslov</a>).</p>\n\n<p>Lovkrav kan afvige, hvis denne server befinder sig i et andet retsområde.</p>\n\n<hr class = \"spacer\" />\n\n<h3 id=\"changes\">Ændringer i vores fortrolighedspolitik</h3>\n\n<p>Beslutter vi os for at ændre vores fortrolighedspolitik, vil disse ændringer fremgå på denne side.</p>\n\n<p>Dette dokument er CC-BY-SA, og det blev senest opdateret 7. marts 2018.</p>\n\n<p> Oprindelig tilpasset fra <a href=\"https://github.com/discourse/discourse\"> Discourse' Fortrolighedspolitik</a>.</p>\n"
     title: Tjenestevilkår og Fortrolighedspolitik for %{instance}
   themes:
     contrast: koyu.space (høj kontrast)
-    default: Mastodont (mørkt)
+    default: koyu.spacet (mørkt)
     mastodon-light: koyu.space (lyst)
   time:
     formats:

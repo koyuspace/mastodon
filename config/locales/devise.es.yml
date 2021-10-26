@@ -67,15 +67,15 @@ es:
           title: Se ha añadido una nueva clave de seguridad
         deleted:
           explanation: La siguiente clave de seguridad ha sido eliminada de tu cuenta
-          subject: 'Mastodon: Clave de seguridad eliminada'
+          subject: 'koyu.space: Clave de seguridad eliminada'
           title: Una de tus claves de seguridad ha sido eliminada
       webauthn_disabled:
         explanation: La autenticación con claves de seguridad ha sido deshabilitada para tu cuenta. Ahora el inicio de sesión solo es posible utilizando el token generado por la aplicación TOTP emparejada.
-        subject: 'Mastodon: Autenticación con claves de seguridad deshabilitada'
+        subject: 'koyu.space: Autenticación con claves de seguridad deshabilitada'
         title: Claves de seguridad deshabilitadas
       webauthn_enabled:
         explanation: La autenticación con clave de seguridad ha sido habilitada para tu cuenta. Ahora tu clave de seguridad puede ser utilizada para iniciar sesión.
-        subject: 'Mastodon: Autenticación de clave de seguridad habilitada'
+        subject: 'koyu.space: Autenticación de clave de seguridad habilitada'
         title: Claves de seguridad habilitadas
     omniauth_callbacks:
       failure: No se te pudo autenticar desde %{kind} porque “%{reason}”.
