@@ -328,7 +328,6 @@
   }
 }
 
-
 .bg-profile {
   display: block;
   filter: blur(12px);
@@ -345,5 +344,21 @@
     height: calc(100% + 30px);
     margin: -15px;
     width: calc(100% + 30px);
+  }
+}
+
+.batch-table__row--muted .pending-account__header {
+  &,
+  a,
+  strong {
+    color: lighten($ui-base-color, 26%);
+  }
+}
+
+.batch-table__row--attention .pending-account__header {
+  &,
+  a,
+  strong {
+    color: $gold-star;
   }
 }
