@@ -346,3 +346,19 @@
     width: calc(100% + 30px);
   }
 }
+
+.batch-table__row--muted .pending-account__header {
+  &,
+  a,
+  strong {
+    color: lighten($ui-base-color, 26%);
+  }
+}
+
+.batch-table__row--attention .pending-account__header {
+  &,
+  a,
+  strong {
+    color: $gold-star;
+  }
+}
