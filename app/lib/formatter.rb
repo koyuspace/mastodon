@@ -60,7 +60,7 @@ class Formatter
     html = "RT @#{prepend_reblog} #{html}" if prepend_reblog
     html = format_markdown(html) if status.content_type == 'text/markdown'
     html = encode_and_link_urls(html, linkable_accounts, keep_html: %w(text/markdown text/html).include?(status.content_type))
-    html = reformat(html, true) if %w(text/markdown text/html).include?(status.content_type)
+    html = reformat(html, true) if !%w(text/markdown text/html).include?(status.content_type)
     html = encode_custom_emojis(html, status.emojis, options[:autoplay]) if options[:custom_emojify]
 
     unless %w(text/markdown text/html).include?(status.content_type)
@@ -149,13 +149,12 @@ class Formatter
       superscript: true,
       underline: true,
       highlight: true,
-      footnotes: false,
+      footnotes: true,
     }
 
     renderer = HTMLRenderer.new({
       filter_html: false,
       escape_html: false,
-      no_images: true,
       no_styles: true,
       safe_links_only: true,
       hard_wrap: true,
