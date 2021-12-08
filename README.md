@@ -67,3 +67,4 @@ Just hit `docker build .` and wait. Prebuilt images are at `koyuawsmbrtn/mastodo
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
 - [InstanceTicker](https://miy.pw)
+- [Trending links UI](https://koyu.space/@koyuchan/107412079437632249)
