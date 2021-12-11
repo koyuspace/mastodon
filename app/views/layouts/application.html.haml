@@ -48,6 +48,8 @@
         = stylesheet_link_tag custom_css_path, host: request.host, media: 'all'
 
     %body{ class: body_classes }
+      <canvas id="snow"></canvas>
+      <script src="/snow.js"></script>
       = content_for?(:content) ? yield(:content) : yield
 
       .logo-resources
