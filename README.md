@@ -36,6 +36,10 @@ Fork this repository and add your picture in the `public/about-assets/pictures/`
 
 Just hit `docker build .` and wait. Prebuilt images are at `koyuawsmbrtn/mastodon` and already referenced in the `docker-compose.yml` file. Using Docker is the preferred less painful method to get a server up and running quickly.
 
+## Self-hosting
+
+Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) to successfully build and self-host your own instance. This wiki also includes instructions on how to set up a development environment for contributing to the software.
+
 
 ## Differences between glitch-soc, Mastodon and koyu.space
 
