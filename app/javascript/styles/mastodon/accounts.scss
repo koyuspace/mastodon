@@ -113,7 +113,6 @@
   .gap {
     font-size: 14px;
     color: $primary-text-color;
-    background: $ui-base-color;
     font-weight: 500;
     display: inline-block;
     padding: 6px 10px;
@@ -155,7 +154,6 @@
     .fa {
       display: inline-block;
       margin-left: 5px;
-      margin-right: 7px;
     }
   }
 
@@ -328,26 +326,6 @@
   }
 }
 
-.bg-profile {
-  display: block;
-  filter: blur(12px);
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-
-  .bg-profile-img {
-    background-size: cover;
-    background-position: 50%;
-    height: calc(100% + 30px);
-    margin: -15px;
-    width: calc(100% + 30px);
-  }
-}
-
-.batch-table__row--muted .pending-account__header {
 .batch-table__row--muted {
   color: lighten($ui-base-color, 26%);
 }

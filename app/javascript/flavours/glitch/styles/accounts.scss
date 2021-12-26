@@ -328,26 +328,6 @@
   }
 }
 
-.bg-profile {
-  display: block;
-  filter: blur(12px);
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-
-  .bg-profile-img {
-    background-size: cover;
-    background-position: 50%;
-    height: calc(100% + 30px);
-    margin: -15px;
-    width: calc(100% + 30px);
-  }
-}
-
-.batch-table__row--muted .pending-account__header {
 .batch-table__row--muted {
   color: lighten($ui-base-color, 26%);
 }
