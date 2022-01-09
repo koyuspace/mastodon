@@ -9,7 +9,7 @@
    inkscape:export-filename="/home/koyu/MEGA/private/koyuspace-logo_big.png"
    inkscape:export-xdpi="1926.5626"
    inkscape:export-ydpi="1926.5626"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -40,13 +40,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="971"
+     inkscape:window-width="1680"
+     inkscape:window-height="989"
      id="namedview98"
      showgrid="false"
-     inkscape:zoom="1.5575858"
-     inkscape:cx="260.98081"
-     inkscape:cy="76.721295"
+     inkscape:zoom="2.7667238"
+     inkscape:cx="273.06665"
+     inkscape:cy="68.311842"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -104,4 +104,15 @@
          id="path37984" />
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="111.33869"
+     y="118.2364"
+     id="text3271"><tspan
+       sodipodi:role="line"
+       id="tspan3269"
+       x="111.33869"
+       y="118.2364"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff">Season 2</tspan></text>
 </svg>
