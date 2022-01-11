@@ -4,7 +4,7 @@
 
 # koyu.space
 
-So here's the deal: we all work on this code, and then it runs on koyu.space. Can you dig it?
+So here's the deal: we all work on this code, and anyone who uses that does so absolutely at their own risk. can you dig it?
 
 **koyu.space is a fork of glitch-soc**
 
@@ -71,4 +71,3 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
 - [InstanceTicker](https://miy.pw)
-- [Trending links UI](https://koyu.space/@koyuchan/107412079437632249)
