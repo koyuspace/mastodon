@@ -4,7 +4,7 @@
 
 # koyu.space
 
-So here's the deal: we all work on this code, and anyone who uses that does so absolutely at their own risk. can you dig it?
+So here's the deal: we all work on this code, and anyone who uses that does so absolutely at their own risk. Can you dig it?
 
 **koyu.space is a fork of glitch-soc**
 
