@@ -11,31 +11,10 @@
         <link rel="me" href="https://koyu.space/@koyuchan">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="/about-assets/app.js"></script>
+        <script src="/about-assets/navbar.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="/img/pb-icon.svg" height="36" style="vertical-align: middle;" alt="Logo" id="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <a class="nav-link active" id="home" aria-current="page" href="/">Home</a>
-                        <a class="nav-link" id="blog" href="https://blog.koyu.space" target="_blank">Blog</a>
-                        <a class="nav-link" id="apps" href="/apps/index.html">Apps</a>
-                        <a class="nav-link" id="services" href="/about/more#services">Services</a>
-                        <a class="nav-link" id="donate" href="https://creapaid.com/koyuspace" target="_blank">Donate</a>
-                        <a class="nav-link" id="github" href="https://shop.koyu.space" target="_blank">Merch</a>
-                        <a class="nav-link" id="github" href="https://github.com/koyuspace" target="_blank">GitHub</a>
-                        <a class="nav-link" id="github" href="https://up.koyu.space" target="_blank">Uptime</a>
-                    </div>
-                    <div class="navbar-nav d-flex">
-                        <a class="nav-link" id="login" href="/auth/sign_in/">Login</a>
-                        <a class="nav-link" id="register" href="/auth/sign_up/">Register</a>
-                        <a class="nav-link" id="webmail" href="https://mail.koyu.space" target="_blank">Webmail</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <div id="navbar"></div>
         <div id="content">
           <h1 id="tagline">We are koyu.space!</h1>
           <p id="bottom-text">...and create free internet services for you and your friends.</p>
@@ -44,7 +23,7 @@
                   <img src="/about-assets/pixel-icons/weapon01crystalsword.png" height="64">
                   <span>Mastodon</span>
               </a>
-              <a href="mumble://mumble.koyu.space?title=koyu.space%20Mumble&version=1.2.0" class="service">
+              <a href="https://mumble.koyu.space" class="service">
                   <img src="/about-assets/pixel-icons/loot02crystal.png" height="64">
                   <span>Mumble</span>
               </a>
@@ -60,17 +39,9 @@
                   <img src="/about-assets/pixel-icons/magic07scroll.png" height="64">
                   <span>Wiki</span>
               </a>
-              <a href="https://stream.koyu.space" target="_blank" class="service">
-                <img src="/about-assets/pixel-icons/magic06necklace.png" height="64">
-                <span>Owncast</span>
-              </a>
               <a href="https://forum.koyu.space/" target="_blank" class="service">
                   <img src="/about-assets/pixel-icons/magic04ring.png" height="64">
                   <span>Forum</span>
-              </a>
-              <a href="https://misskey.koyu.space/" target="_blank" class="service">
-                <img src="/about-assets/pixel-icons/loot05key.png" height="64">
-                <span>Misskey</span>
               </a>
               <a href="https://etherpad.koyu.space/" target="_blank" class="service">
                 <img src="/about-assets/pixel-icons/magic01crystalwand.png" height="64">
@@ -106,7 +77,7 @@
             <span id="attribution">Photo by</span> <a id="author" href="" target="_blank" rel="nofollow">{{author}}</a>. <span id="submission">You can submit your own photo <a href="mailto:support@koyu.space?subject=Frontpage%20photo%20submission&body=Hi%2C%0A%0AI%20want%20to%20submit%20the%20photo%20I%20made%20for%20the%20front%20page.%20You%20can%20find%20it%20in%20the%20attachments.%20For%20attribution%20my%20website%20is%20here%3A%20%5Byour%20website%20here%5D.%0A%0AThanks!">here</a>.</span>
         </div>
         <footer class="fixed-bottom navbar-dark bg-dark">
-            &copy; 2021 koyu.space | <a href="/terms" id="privacy">Privacy</a> | <a href="/about/more" id="more">Community Guidelines</a> <span style="float: right;" id="right-footer">Tor: koyue6kifbepuk4mz25eygc2qfsnubpobovrbc6ctcniygv2vw4gi7yd.onion | <a href="mailto:support@koyu.space">Support</a></span>
+            &copy; 2021 koyu.space | <a href="/terms" id="privacy">Privacy</a> | <a href="/about/more" id="more">Community Guidelines</a> | <a href="mailto:support@koyu.space">Support</a> <span style="float: right;" id="right-footer"></span>
         </footer>
     </body>
 </html>
