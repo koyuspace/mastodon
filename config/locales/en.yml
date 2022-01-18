@@ -1304,9 +1304,9 @@ en:
     open_in_web: Open in web
     over_character_limit: character limit of %{max} exceeded
     pin_errors:
+      direct: Hops that are only visible to mentioned users cannot be pinned
       limit: You have already pinned the maximum number of hops
       ownership: Someone else's hop cannot be pinned
-      private: Non-public hops cannot be pinned
       reblog: A boost cannot be pinned
     poll:
       total_people:
