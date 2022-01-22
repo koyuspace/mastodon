@@ -560,7 +560,7 @@ Rails.application.routes.draw do
 
   get '/web/(*any)', to: 'home#index', as: :web
 
-  get '/about',        to: 'about#show'
+  get '/about',        to: 'public_timelines#show'
   get '/about/more',   to: 'about#more'
   get '/terms',        to: 'about#terms'
 

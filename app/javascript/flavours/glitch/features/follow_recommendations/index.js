@@ -96,7 +96,6 @@ class FollowRecommendations extends ImmutablePureComponent {
               </div>
 
               <div className='column-actions'>
-                <img src={imageGreeting} alt='' className='column-actions__background' />
                 <Button onClick={this.handleDone}><FormattedMessage id='follow_recommendations.done' defaultMessage='Done' /></Button>
               </div>
             </React.Fragment>

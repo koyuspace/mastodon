@@ -150,7 +150,7 @@ class ActionBar extends React.PureComponent {
     var temp = document.createElement("div");
     temp.innerHTML = html;
     var plain = temp.textContent || temp.innerText || "";
-    var url = "https://translate.google.com/?sl=auto&tl="+userLang+"&text="+plain+"&op=translate";
+    var url = "https://simplytranslate.org/?engine=google&sl=auto&tl="+userLang+"&text="+plain+"&op=translate";
     window.open(url, '_blank');
   }
 

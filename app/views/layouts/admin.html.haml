@@ -7,12 +7,12 @@
       .sidebar-wrapper__inner
         .sidebar
           = link_to root_path do
-            = image_pack_tag 'logo.svg', class: 'logo', alt: 'Mastodon'
+            = image_tag '/img/pb-icon.svg', height: 64, alt: 'Logo', style: 'margin-top:40px;margin-bottom:40px;'
 
           .sidebar__toggle
             .sidebar__toggle__logo
               = link_to root_path do
-                = svg_logo_full
+                = image_tag '/img/pb-icon.svg', height: 32, alt: 'Logo', style: 'margin-top: -16px;margin-left: -24px;'
 
             = link_to '#', class: 'sidebar__toggle__icon' do
               = fa_icon 'bars'

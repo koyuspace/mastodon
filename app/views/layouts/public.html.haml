@@ -9,12 +9,13 @@
           %nav.header
             .nav-left
               = link_to root_url, class: 'brand' do
-                = svg_logo_full
+                = image_tag '/img/pb-icon.svg', height: 24, alt: 'Logo'
 
               - unless whitelist_mode?
                 = link_to t('directories.directory'), explore_path, class: 'nav-link optional' if Setting.profile_directory
                 = link_to t('about.about_this'), about_more_path, class: 'nav-link optional'
-                = link_to t('about.apps'), '/apps/index.html', class: 'nav-link optional'
+                = link_to t('about.apps'), '/apps/index.html', class: 'nav-link optional', target: '_blank'
+                = link_to t('about.wiki'), 'https://wiki.koyu.space', class: 'nav-link optional', target: '_blank'
 
             .nav-center
 
@@ -26,33 +27,5 @@
                 = link_to t('auth.register'), available_sign_up_path, class: 'webapp-btn nav-link nav-button'
 
       .container= yield
-
-      .container
-        .footer
-          .grid
-            .column-0
-              %h4= t 'footer.resources'
-              %ul
-                %li= link_to t('about.terms'), terms_path
-                %li= link_to t('about.privacy_policy'), terms_path
-            .column-1
-              %h4= t 'footer.developers'
-              %ul
-                %li= link_to t('about.documentation'), 'https://docs.joinmastodon.org/'
-                %li= link_to t('about.api'), 'https://docs.joinmastodon.org/client/intro/'
-            .column-2
-              %h4= link_to t('about.what_is_mastodon'), '/about'
-              = link_to svg_logo, root_url, class: 'brand'
-            .column-3
-              %h4= site_hostname
-              %ul
-                - unless whitelist_mode?
-                  %li= link_to t('about.about_this'), about_more_path
-                %li= "v#{Mastodon::Version.to_s}"
-            .column-4
-              %h4= t 'footer.more'
-              %ul
-                %li= link_to t('about.source_code'), Mastodon::Version.source_url
-                %li= link_to t('about.apps'), '/apps/index.html'
 
 = render template: 'layouts/application'
