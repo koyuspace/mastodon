@@ -68,7 +68,7 @@ class ManifestSerializer < ActiveModel::Serializer
   def shortcuts
     [
       {
-        name: 'New toot',
+        name: 'New hop',
         url: '/web/statuses/new',
         icons: [
           {
