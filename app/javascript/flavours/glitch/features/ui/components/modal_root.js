@@ -25,6 +25,7 @@ import {
   ListEditor,
   ListAdder,
   PinnedAccountsEditor,
+  CompareHistoryModal,
 } from 'flavours/glitch/util/async-components';
 
 const MODAL_COMPONENTS = {
@@ -44,9 +45,10 @@ const MODAL_COMPONENTS = {
   'ACTIONS': () => Promise.resolve({ default: ActionsModal }),
   'EMBED': EmbedModal,
   'LIST_EDITOR': ListEditor,
-  'LIST_ADDER':ListAdder,
   'FOCAL_POINT': () => Promise.resolve({ default: FocalPointModal }),
+  'LIST_ADDER': ListAdder,
   'PINNED_ACCOUNTS_EDITOR': PinnedAccountsEditor,
+  'COMPARE_HISTORY': CompareHistoryModal,
 };
 
 export default class ModalRoot extends React.PureComponent {
