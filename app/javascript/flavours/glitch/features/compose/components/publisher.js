@@ -45,7 +45,7 @@ class Publisher extends ImmutablePureComponent {
   };
 
   render () {
-    const { countText, disabled, intl, onSecondarySubmit, privacy, sideArm } = this.props;
+    const { countText, disabled, intl, onSecondarySubmit, privacy, sideArm, isEditing } = this.props;
 
     const diff = maxChars - length(countText || '');
     const computedClass = classNames('composer--publisher', {
@@ -56,7 +56,7 @@ class Publisher extends ImmutablePureComponent {
     const privacyIcons = { direct: 'envelope', private: 'lock', public: 'globe', unlisted: 'unlock' };
 
     let publishText;
-    if (this.props.isEditing) {
+    if (isEditing) {
       publishText = intl.formatMessage(messages.saveChanges);
     } else if (privacy === 'private' || privacy === 'direct') {
       const iconId = privacyIcons[privacy];
@@ -71,7 +71,7 @@ class Publisher extends ImmutablePureComponent {
 
     return (
       <div className={computedClass}>
-        {sideArm && sideArm !== 'none' ? (
+        {sideArm && !isEditing && sideArm !== 'none' ? (
           <Button
             className='side_arm'
             disabled={disabled}
