@@ -273,12 +273,12 @@ class ComposerOptions extends ImmutablePureComponent {
             {
               icon: 'video-camera',
               name: 'jitsi',
-              text: <FormattedMessage {...messages.jitsi} />,
+              text: formatMessage(messages.jitsi),
             },
             {
               icon: 'file-image-o',
               name: 'gif',
-              text: <FormattedMessage {...messages.gif} />,
+              text: formatMessage(messages.gif),
             }
           ]}
           onChange={this.handleClickAttach}
