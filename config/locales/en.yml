@@ -1229,6 +1229,9 @@ en:
     reply:
       proceed: Proceed to reply
       prompt: 'You want to reply to this hop:'
+  reports:
+    errors:
+      invalid_rules: does not reference valid rules
   scheduled_statuses:
     over_daily_limit: You have exceeded the limit of %{limit} scheduled hops for today
     over_total_limit: You have exceeded the limit of %{limit} scheduled hops
