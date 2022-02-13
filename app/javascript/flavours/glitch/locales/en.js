@@ -1,16 +1,16 @@
 import inherited from 'mastodon/locales/en.json';
 
 const messages = {
-  'getting_started.open_source_notice': 'Glitchsoc is free open source software forked from {Mastodon}. You can contribute or report issues on GitHub at {github}.',
+  'getting_started.open_source_notice': 'Glitchsoc is free open source software forked from {koyu.space}. You can contribute or report issues on GitHub at {github}.',
   'layout.auto': 'Auto',
   'layout.current_is': 'Your current layout is:',
   'layout.desktop': 'Desktop',
   'layout.mobile': 'Mobile',
   'navigation_bar.app_settings': 'App settings',
   'getting_started.onboarding': 'Show me around',
-  'onboarding.page_one.federation': '{domain} is an \'instance\' of Mastodon. Mastodon is a network of independent servers joining up to make one larger social network. We call these servers instances.',
+  'onboarding.page_one.federation': '{domain} is an \'instance\' of koyu.space. koyu.space is a network of independent servers joining up to make one larger social network. We call these servers instances.',
   'onboarding.page_one.welcome': 'Welcome to {domain}!',
-  'onboarding.page_six.github': '{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of {Mastodon}, and is compatible with any Mastodon instance or app. Glitchsoc is entirely free and open-source. You can report bugs, request features, or contribute to the code on {github}.',
+  'onboarding.page_six.github': '{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of {koyu.space}, and is compatible with any koyu.space instance or app. Glitchsoc is entirely free and open-source. You can report bugs, request features, or contribute to the code on {github}.',
   'settings.auto_collapse': 'Automatic collapsing',
   'settings.auto_collapse_all': 'Everything',
   'settings.auto_collapse_lengthy': 'Lengthy toots',

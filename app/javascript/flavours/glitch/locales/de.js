@@ -1,7 +1,7 @@
 import inherited from 'mastodon/locales/de.json';
 
 const messages = {
-  'getting_started.open_source_notice': 'Glitchsoc is free open source software forked from {Mastodon}. You can contribute or report issues on GitHub at {github}.',
+  'getting_started.open_source_notice': 'Glitchsoc is free open source software forked from {koyu.space}. You can contribute or report issues on GitHub at {github}.',
   'layout.auto': 'Auto',
   'layout.current_is': 'Dein aktuelles Layout ist:',
   'layout.desktop': 'Desktop',
@@ -11,9 +11,9 @@ const messages = {
   'navigation_bar.weekly': 'Unser Discord-Server ist verfügbar unter 8gbd7YR und wir veranstalten eine große Stammtischrunde auf chat.koyu.space jeden Samstag um 18:00 Uhr in UTC-Zeit.',
   'navigation_bar.radiostation': 'Aktuelle Radiostation',
   'getting_started.onboarding': 'Führe mich rum',
-  'onboarding.page_one.federation': '{domain} ist eine \'Instanz\' von Mastodon. Mastodon ist ein Netzwerk unabhängiger Server, die sich zu einem größeren sozialen Netzwerk zusammenschließen. Wir nennen diese Serverinstanzen.',
+  'onboarding.page_one.federation': '{domain} ist eine \'Instanz\' von koyu.space. koyu.space ist ein Netzwerk unabhängiger Server, die sich zu einem größeren sozialen Netzwerk zusammenschließen. Wir nennen diese Serverinstanzen.',
   'onboarding.page_one.welcome': 'Willkommen auf {domain}!',
-  'onboarding.page_six.github': '{domain} läuft auf Glitchsoc. Glitchsoc ist ein freundlicher {fork} von Mastodon und mit jeder Mastodon-Instanz oder App kompatibel. Glitchsoc ist völlig kostenlos und Open Source. Du kannst Fehler melden, Funktionen anfordern oder zum Code auf {github} beitragen.',
+  'onboarding.page_six.github': '{domain} läuft auf Glitchsoc. Glitchsoc ist ein freundlicher {fork} von koyu.space und mit jeder koyu.space-Instanz oder App kompatibel. Glitchsoc ist völlig kostenlos und Open Source. Du kannst Fehler melden, Funktionen anfordern oder zum Code auf {github} beitragen.',
   'settings.auto_collapse': 'Automatisches Zusammenklappen',
   'settings.auto_collapse_all': 'Alles',
   'settings.auto_collapse_lengthy': 'Lange Beiträge',

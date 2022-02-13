@@ -148,6 +148,7 @@ class ComposerOptions extends ImmutablePureComponent {
     resetFileKey: PropTypes.number,
     spoiler: PropTypes.bool,
     showContentTypeChoice: PropTypes.bool,
+    isEditing: PropTypes.bool,
   };
 
   //  Handles file selection.
@@ -222,6 +223,7 @@ class ComposerOptions extends ImmutablePureComponent {
       resetFileKey,
       spoiler,
       showContentTypeChoice,
+      isEditing,
       intl: { formatMessage },
     } = this.props;
 
@@ -303,7 +305,7 @@ class ComposerOptions extends ImmutablePureComponent {
         )}
         <hr />
         <PrivacyDropdown
-          disabled={disabled}
+          disabled={disabled || isEditing}
           onChange={onChangeVisibility}
           onModalClose={onModalClose}
           onModalOpen={onModalOpen}
@@ -336,7 +338,7 @@ class ComposerOptions extends ImmutablePureComponent {
         )}
         <Dropdown
           active={advancedOptions && advancedOptions.some(value => !!value)}
-          disabled={disabled}
+          disabled={disabled || isEditing}
           icon='ellipsis-h'
           items={advancedOptions ? [
             {
