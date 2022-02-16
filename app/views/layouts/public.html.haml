@@ -12,18 +12,16 @@
                 = image_tag '/img/pb-icon.svg', height: 24, alt: 'Logo', style: 'margin-left: -10px;'
 
               - unless whitelist_mode?
-                = link_to t('directories.directory'), explore_path, class: 'nav-link optional' if Setting.profile_directory
-                = link_to t('about.about_this'), about_more_path, class: 'nav-link optional'
-                = link_to t('about.apps'), '/apps/index.html', class: 'nav-link optional', target: '_blank'
-                = link_to t('about.wiki'), 'https://wiki.koyu.space', class: 'nav-link optional', target: '_blank'
-
-            .nav-right
-              - if user_signed_in?
-                = link_to t('settings.back'), root_url, class: 'nav-link nav-button webapp-btn'
-              - else
-                = link_to_login t('auth.login'), class: 'webapp-btn nav-link nav-button'
-                = link_to t('auth.register'), available_sign_up_path, class: 'webapp-btn nav-link nav-button'
-
-      .container= yield
+                %li= link_to t('about.about_this'), about_more_path
+              %li= "v#{Mastodon::Version.to_s}"
+          .column-4
+            %h4= t 'footer.more'
+            %ul
+              %li= link_to t('about.source_code'), Mastodon::Version.source_url
+              %li= link_to t('about.apps'), '/apps/index.html'
+        .legal-xs
+          = link_to "v#{Mastodon::Version.to_s}", Mastodon::Version.source_url
+          ·
+          = link_to t('about.privacy_policy'), terms_path
 
 = render template: 'layouts/application'

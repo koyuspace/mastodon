@@ -167,6 +167,12 @@ Rails.application.routes.draw do
     resources :login_activities, only: [:index]
   end
 
+  namespace :disputes do
+    resources :strikes, only: [:show] do
+      resource :appeal, only: [:create]
+    end
+  end
+
   resources :media, only: [:show] do
     get :player
   end
@@ -324,6 +330,15 @@ Rails.application.routes.draw do
           collection do
             post :batch
           end
+        end
+      end
+    end
+
+    namespace :disputes do
+      resources :appeals, only: [:index] do
+        member do
+          post :approve
+          post :reject
         end
       end
     end
@@ -566,7 +581,7 @@ Rails.application.routes.draw do
 
   get '/web/(*any)', to: 'home#index', as: :web
 
-  get '/about',        to: 'public_timelines#show'
+  get '/about',        to: 'about#show'
   get '/about/more',   to: 'about#more'
   get '/terms',        to: 'about#terms'
 
