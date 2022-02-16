@@ -1,5 +1,6 @@
-#- content_for :header_tags do
+- content_for :header_tags do
   = render_initial_state
+  = javascript_pack_tag 'public', crossorigin: 'anonymous'
 
 - content_for :content do
   .public-layout
@@ -54,5 +55,9 @@
             %ul
               %li= link_to t('about.source_code'), Mastodon::Version.source_url
               %li= link_to t('about.apps'), '/apps/index.html'
+        .legal-xs
+          = link_to "v#{Mastodon::Version.to_s}", Mastodon::Version.source_url
+          ·
+          = link_to t('about.privacy_policy'), terms_path
 
 = render template: 'layouts/application'
