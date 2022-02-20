@@ -201,9 +201,7 @@
         follow_request: Send e-hop når noen ber om å få følge deg
         mention: Send e-hop når noen nevner deg
         pending_account: Ny bruker avventer gjennomgang
-        reblog: Send e-hop når noen fremhever din status
-        report: Ny rapport er sendt inn
-        trending_tag: En ugjennomgått emneknagg trender
+        reblog: Send e-post når noen fremhever din status
       rule:
         text: Regler
       tag:

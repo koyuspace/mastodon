@@ -195,15 +195,13 @@ nn:
           sign_up_requires_approval: Begrens påmeldinger
         severity: Oppføring
       notification_emails:
-        digest: Send samandrag på e-hop
-        favourite: Send e-hop når nokon merkjer statusen din som favoritt
-        follow: Send e-hop når nokon fylgjer deg
-        follow_request: Send e-hop når nokon spør om å fylgja deg
-        mention: Send e-hop når nokon nemner deg
-        pending_account: Send e-hop når ein ny konto treng gjennomgang
-        reblog: Send e-hop når nokon framhevar statusen din
-        report: Send e-hop når nokon rapporterer noko
-        trending_tag: Ein emneknagg som ikkje er sett igjennom er på veg opp
+        digest: Send samandrag på e-post
+        favourite: Send e-post når nokon merkjer statusen din som favoritt
+        follow: Send e-post når nokon fylgjer deg
+        follow_request: Send e-post når nokon spør om å fylgja deg
+        mention: Send e-post når nokon nemner deg
+        pending_account: Send e-post når ein ny konto treng gjennomgang
+        reblog: Send e-post når nokon framhevar statusen din
       rule:
         text: Regler
       tag:
