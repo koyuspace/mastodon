@@ -82,13 +82,7 @@ class Rack::Attack
   end
 
   throttle('throttle_sign_up_attempts/ip', limit: 25, period: 5.minutes) do |req|
-    if req.post? && req.path == '/auth'
-      if req.remote_ip.ipv6?
-        req.remote_ip.mask(64)
-      else
-        req.remote_ip
-      end
-    end
+    req.remote_ip if req.post? && req.path == '/auth'
   end
 
   throttle('throttle_password_resets/ip', limit: 25, period: 5.minutes) do |req|
