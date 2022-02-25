@@ -55,13 +55,8 @@ th:
         subject: 'koyu.space: เปิดใช้งานการรับรองความถูกต้องด้วยสองปัจจัยแล้ว'
         title: เปิดใช้งาน 2FA แล้ว
       two_factor_recovery_codes_changed:
-<<<<<<< HEAD
         explanation: ยกเลิกรหัสกู้คืนก่อนหน้าและสร้างรหัสใหม่แล้ว
         subject: 'koyu.space: สร้างรหัสกู้คืนสองปัจจัยใหม่แล้ว'
-=======
-        explanation: ยกเลิกรหัสกู้คืนก่อนหน้านี้และสร้างรหัสใหม่แล้ว
-        subject: 'Mastodon: สร้างรหัสกู้คืนสองปัจจัยใหม่แล้ว'
->>>>>>> e48eaf64cc7cb0cfab388331c4823ee5fb580d59
         title: เปลี่ยนรหัสกู้คืน 2FA แล้ว
       unlock_instructions:
         subject: 'koyu.space: คำแนะนำการปลดล็อค'
