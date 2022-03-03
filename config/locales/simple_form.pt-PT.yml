@@ -26,7 +26,7 @@ pt-PT:
         ends_at: Opcional. O anúncio será automaticamente retirado de exibição neste momento
         scheduled_at: Deixe em branco para publicar o anúncio imediatamente
         starts_at: Opcional. Caso o seu anúncio seja vinculado a um intervalo de tempo específico
-        text: Pode utilizar a sintaxe dos toot. Por favor, tenha em consideração o espaço que o anúncio ocupará no ecrã do utilizador
+        text: Pode utilizar a sintaxe dospost. Por favor, tenha em consideração o espaço que o anúncio ocupará no ecrã do utilizador
       appeal:
         text: Só pode recorrer de uma punição uma vez
       defaults:
@@ -64,7 +64,7 @@ pt-PT:
       domain_allow:
         domain: Este domínio será capaz de obter dados desta instância e os dados dele recebidos serão processados e armazenados
       email_domain_block:
-        domain: Este pode ser o nome de domínio que aparece no endereço de e-mail, o registo MX para o qual o domínio resolve, ou o IP do servidor para o qual o registo MX resolve. Estes serão verificados no momento da inscrição do utilizador e a inscrição será rejeitada.
+        domain: Este pode ser o nome de domínio que aparece no endereço de e-mail ou o registo MX por ele utilizado. Eles serão verificados aquando da inscrição.
         with_dns_records: Será feita uma tentativa de resolver os registos DNS do domínio em questão e os resultados também serão colocados na lista negra
       featured_tag:
         name: 'Poderás querer usar um destes:'

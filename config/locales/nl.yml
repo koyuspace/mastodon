@@ -41,7 +41,7 @@ nl:
       reason: 'Reden:'
       rejecting_media: 'Mediabestanden van deze server worden niet verwerkt en er worden geen thumbnails getoond. Je moet handmatig naar deze server doorklikken om de mediabestanden te kunnen bekijken:'
       rejecting_media_title: Mediabestanden geweigerd
-      silenced: Toots van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
+      silenced: Posts van deze server worden nergens weergegeven, behalve op jouw eigen starttijdlijn wanneer je het account volgt.
       silenced_title: Beperkte servers
       suspended: Je bent niet in staat om iemand van deze server te volgen, en er worden geen gegevens van deze server verwerkt of opgeslagen, en met deze server uitgewisseld.
       suspended_title: Opgeschorte servers
@@ -406,10 +406,7 @@ nl:
       add_new: Nieuwe toevoegen
       created_msg: Blokkeren e-maildomein geslaagd
       delete: Verwijderen
-      destroyed_msg: Deblokkeren e-maildomein geslaagd
       domain: Domein
-      empty: Momenteel worden er geen e-maildomeinen geblokkeerd.
-      from_html: van %{domain}
       new:
         create: Blokkeren
         title: Nieuw e-maildomein blokkeren
@@ -637,8 +634,8 @@ nl:
       deleted: Verwijderd
       media:
         title: Media
-      no_status_selected: Er werden geen toots gewijzigd, omdat er geen enkele werd geselecteerd
-      title: Toots van account
+      no_status_selected: Er werden geen posts gewijzigd, omdat er geen enkele werd geselecteerd
+      title: Posts van account
       with_media: Met media
     system_checks:
       database_schema_check:
@@ -1166,12 +1163,12 @@ nl:
       one: 'bevatte een niet toegestane hashtag: %{tags}'
       other: 'bevatte niet toegestane hashtags: %{tags}'
     errors:
-      in_reply_not_found: De toot waarop je probeert te reageren lijkt niet te bestaan.
+      in_reply_not_found: Depost waarop je probeert te reageren lijkt niet te bestaan.
     open_in_web: In de webapp openen
     over_character_limit: Limiet van %{max} tekens overschreden
     pin_errors:
-      limit: Je hebt het maximaal aantal toots al vastgezet
-      ownership: Een toot van iemand anders kan niet worden vastgezet
+      limit: Je hebt het maximaal aantal posts al vastgezet
+      ownership: Eenpost van iemand anders kan niet worden vastgezet
       reblog: Een boost kan niet worden vastgezet
     poll:
       total_people:

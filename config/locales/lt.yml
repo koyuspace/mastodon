@@ -203,7 +203,6 @@ lt:
       add_new: Pridėti naują
       created_msg: El pašto domenas sėkmingai pridėtas į juodąjį sąrašą
       delete: Ištrinti
-      destroyed_msg: El pašto adresas sėkmingai pašalintas iš juodojo sąrašo
       domain: Domenas
       new:
         create: Pridėto domeną
@@ -612,8 +611,8 @@ lt:
     open_in_web: Atidaryti naudojan Web
     over_character_limit: pasiektas %{max} simbolių limitas
     pin_errors:
-      limit: Jūs jau prisegėte maksimalų toot'ų skaičų
-      ownership: Kitų vartotojų toot'ai negali būti prisegti
+      limit: Jūs jau prisegėte maksimalųpost'ų skaičų
+      ownership: Kitų vartotojųpost'ai negali būti prisegti
       reblog: Pakeltos žinutės negali būti prisegtos
     show_more: Daugiau
     sign_in_to_participate: Prisijunkite jeigu norite dalyvauti pokalbyje

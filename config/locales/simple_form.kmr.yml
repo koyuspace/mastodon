@@ -26,7 +26,7 @@ kmr:
         ends_at: Bi dilê xwe ye. Daxuyanî di vê demê de bi xweberî ji weşanê de rabe
         scheduled_at: Vala bihêle ku yekcar daxûyanî were weşandin
         starts_at: Bi dilê xwe ye. Heke daxûyanî ya te di demeke diyar ve girêdayî be
-        text: Tu dikarî hevoksazî yên toot bikarbînî. Ji kerema xwe cihê ku ev daxuyanî li ser dîmenderê bikarhêner bigire baldar be
+        text: Tu dikarî hevoksazî yênpost bikarbînî. Ji kerema xwe cihê ku ev daxuyanî li ser dîmenderê bikarhêner bigire baldar be
       appeal:
         text: Tu dikarî tenê carekê îtîraza binpêkirinê bikî
       defaults:
@@ -66,7 +66,7 @@ kmr:
       domain_allow:
         domain: Ev navê navperê, ji vê rajekarê wê daneyan bistîne û daneyên ku jê bê wê were sazkirin û veşartin
       email_domain_block:
-        domain: Ev navê qada yê ku di navnîşana e-maîlê da xuya dibe, tomara MXê ya ku qada vê çareser dike an jî iPya rajekara ku MX tomar dike. Ev ên bi tomarê bikarhêneran bên kontrolkirin û tomarê were redkirin.
+        domain: Ev dikare bibe navê navparek ku di navnîşana e-nameyê de an tomara MX ya ku ew bi kar tîne de xuya dike. Ew ê di dema tomarkirinê de werin kontrolkirin.
         with_dns_records: Hewl tê dayîn ku tomarên DNSê yên li qada jê re hatine dayîn were çareserkirin û encamên wê jî were astengkirin
       featured_tag:
         name: 'Belkî tu yekê bi kar bînî çi van:'
