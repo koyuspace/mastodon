@@ -71,3 +71,4 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
 - [InstanceTicker](https://inst.ance.tk)
+- Post editing enabled by default (hidden Mastodon feature)
