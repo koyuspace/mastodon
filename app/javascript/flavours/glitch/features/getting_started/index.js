@@ -28,6 +28,7 @@ const messages = defineMessages({
   navigation_subheading: { id: 'column_subheading.navigation', defaultMessage: 'Navigation' },
   settings_subheading: { id: 'column_subheading.settings', defaultMessage: 'Settings' },
   community_timeline: { id: 'navigation_bar.community_timeline', defaultMessage: 'Local timeline' },
+  explore: { id: 'navigation_bar.explore', defaultMessage: 'Explore' },
   direct: { id: 'navigation_bar.direct', defaultMessage: 'Direct messages' },
   bookmarks: { id: 'navigation_bar.bookmarks', defaultMessage: 'Bookmarks' },
   preferences: { id: 'navigation_bar.preferences', defaultMessage: 'Preferences' },
@@ -139,6 +140,10 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
       if (!columns.find(item => item.get('id') === 'PUBLIC')) {
         navItems.push(<ColumnLink key='3' icon='globe' text={intl.formatMessage(messages.public_timeline)} to='/public' />);
       }
+
+      if (!columns.find(item => item.get('id') === 'EXPLORE')) {
+        navItems.push(<ColumnLink key='explore' icon='hashtag' text={intl.formatMessage(messages.explore)} to='/explore' />);
+      }
     }
 
     if (!multiColumn || !columns.find(item => item.get('id') === 'DIRECT')) {
@@ -176,7 +181,6 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
             {!multiColumn && <NavigationBar account={myAccount} />}
             {multiColumn && <ColumnSubheading text={intl.formatMessage(messages.navigation_subheading)} />}
             {navItems}
-            <div id="motd"></div>
             <ColumnSubheading text={intl.formatMessage(messages.lists_subheading)} />
             {listItems}
             <ColumnSubheading text={intl.formatMessage(messages.settings_subheading)} />

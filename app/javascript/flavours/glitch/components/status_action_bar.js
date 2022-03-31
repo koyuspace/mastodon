@@ -67,6 +67,7 @@ class StatusActionBar extends ImmutablePureComponent {
     onBookmark: PropTypes.func,
     onFilter: PropTypes.func,
     withDismiss: PropTypes.bool,
+    withCounters: PropTypes.bool,
     showReplyCount: PropTypes.bool,
     directMessage: PropTypes.bool,
     scrollKey: PropTypes.string,
@@ -209,7 +210,7 @@ class StatusActionBar extends ImmutablePureComponent {
   }
 
   render () {
-    const { status, intl, withDismiss, showReplyCount, directMessage, scrollKey } = this.props;
+    const { status, intl, withDismiss, withCounters, showReplyCount, directMessage, scrollKey } = this.props;
 
     const anonymousAccess    = !me;
     const mutingConversation = status.get('muted');
@@ -324,8 +325,8 @@ class StatusActionBar extends ImmutablePureComponent {
       <div className='status__action-bar'>
         {replyButton}
         {!directMessage && [
-          <IconButton key='reblog-button' className={classNames('status__action-bar-button', { reblogPrivate })} disabled={!publicStatus && !reblogPrivate} active={status.get('reblogged')} pressed={status.get('reblogged')} title={reblogTitle} icon={reblogIcon} onClick={this.handleReblogClick} />,
-          <IconButton key='favourite-button' className='status__action-bar-button star-icon' animate active={status.get('favourited')} pressed={status.get('favourited')} title={intl.formatMessage(messages.favourite)} icon='star' onClick={this.handleFavouriteClick} />,
+          <IconButton className={classNames('status__action-bar-button', { reblogPrivate })} disabled={!publicStatus && !reblogPrivate} active={status.get('reblogged')} pressed={status.get('reblogged')} title={reblogTitle} icon='retweet' onClick={this.handleReblogClick} counter={withCounters ? status.get('reblogs_count') : undefined} />,
+          <IconButton className='status__action-bar-button star-icon' animate active={status.get('favourited')} pressed={status.get('favourited')} title={intl.formatMessage(messages.favourite)} icon='star' onClick={this.handleFavouriteClick} counter={withCounters ? status.get('favourites_count') : undefined} />,
           shareButton,
           <IconButton key='translate-button' className='status__action-bar-button' icon='language' title={intl.formatMessage(messages.translate)} onClick={this.handleTranslateClick} />,
           <IconButton key='bookmark-button' className='status__action-bar-button bookmark-icon' disabled={anonymousAccess} active={status.get('bookmarked')} pressed={status.get('bookmarked')} title={intl.formatMessage(messages.bookmark)} icon='bookmark' onClick={this.handleBookmarkClick} />,

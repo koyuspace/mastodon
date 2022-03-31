@@ -14,6 +14,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <NavLink className='column-link column-link--transparent' to='/home' data-preview-title-id='column.home' data-preview-icon='home' ><Icon className='column-link__icon' id='home' fixedWidth /><FormattedMessage id='tabs_bar.home' defaultMessage='Home' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/notifications' data-preview-title-id='column.notifications' data-preview-icon='bell' ><NotificationsCounterIcon className='column-link__icon' /><FormattedMessage id='tabs_bar.notifications' defaultMessage='Notifications' /></NavLink>
     <FollowRequestsNavLink />
+    <NavLink className='column-link column-link--transparent' to='/explore' data-preview-title-id='explore.title' data-preview-icon='bolt'><Icon className='column-link__icon' id='bolt' fixedWidth /><FormattedMessage id='explore.title' defaultMessage='Explore' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/public/local' data-preview-title-id='column.community' data-preview-icon='users' ><Icon className='column-link__icon' id='users' fixedWidth /><FormattedMessage id='tabs_bar.local_timeline' defaultMessage='Local' /></NavLink>
     <NavLink className='column-link column-link--transparent' exact to='/public' data-preview-title-id='column.public' data-preview-icon='globe' ><Icon className='column-link__icon' id='globe' fixedWidth /><FormattedMessage id='tabs_bar.federated_timeline' defaultMessage='Federated' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
@@ -23,8 +24,6 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <NavLink className='column-link column-link--transparent' to='/lists'><Icon className='column-link__icon' id='list-ul' fixedWidth /><FormattedMessage id='navigation_bar.lists' defaultMessage='Lists' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/start'><Icon className='column-link__icon' id='plus-circle' fixedWidth /><FormattedMessage id='navigation_bar.recommendations' defaultMessage='Recommendations' /></NavLink>
     <NavLink className='column-link column-link--transparent' to='/getting-started-misc'><Icon className='column-link__icon' id='ellipsis-h' fixedWidth /><FormattedMessage id='navigation_bar.misc' defaultMessage='Misc' /></NavLink>
-
-    <div id="motd"></div>
 
     <ListPanel />
 

@@ -47,7 +47,7 @@ const componentMap = {
   'DIRECTORY': Directory,
 };
 
-const shouldHideFAB = path => path.match(/^\/statuses\/|^\/@[^/]+\/\d+|^\/publish|^\/search|^\/getting-started|^\/start/);
+const shouldHideFAB = path => path.match(/^\/statuses\/|^\/@[^/]+\/\d+|^\/publish|^\/explore|^\/getting-started|^\/start/);
 
 const messages = defineMessages({
   publish: { id: 'compose_form.hop', defaultMessage: 'Toot' },
