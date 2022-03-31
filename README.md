@@ -70,4 +70,4 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 - Stickers
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
-- [InstanceTicker](https://miy.pw)
+- [InstanceTicker](https://inst.ance.tk)
