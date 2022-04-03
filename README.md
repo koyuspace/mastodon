@@ -14,7 +14,7 @@ If you want the full source code please clone with the `css-plugins` submodule s
 
 ## Changing things around
 
-Logo: `css-plugins/logo.scss`
+Logo: `public/img/pb-icon.svg`
 
 Disable CSS plugins: `app/javascript/styles/application.scss`
 
@@ -24,22 +24,9 @@ Sidebar content (simple UI): `app/javascript/flavours/glitch/features/ui/compone
 
 Sidebar content (advanced UI): `app/javascript/flavours/glitch/features/getting_started/index.js`
 
-About page (you may have to add a few lines of CSS code to make it work properly with yours): `app/views/about/show.html`
-
-And probably many more things that are getting documented soon
-
-## Adding pictures to the front-page
-
-Fork this repository and add your picture in the `public/about-assets/pictures/` folder and change the file `public/about-assets/pictures.json` to include your picture along with metadata about yourself for attribution. If you did that submit a pull request to add your new picture.
-
-## Building a Docker image
-
-Just hit `docker build .` and wait. Prebuilt images are at `koyuawsmbrtn/mastodon` and already referenced in the `docker-compose.yml` file. Using Docker is the preferred less painful method to get a server up and running quickly.
-
 ## Self-hosting
 
 Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) to successfully build and self-host your own instance. This wiki also includes instructions on how to set up a development environment for contributing to the software.
-
 
 ## Differences between glitch-soc, Mastodon and koyu.space
 
