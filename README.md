@@ -50,7 +50,7 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 -   [Advanced theming via flavours+skins](https://glitch-soc.github.io/docs/features/themes/)
 -   [Doodle](https://glitch-soc.github.io/docs/features/doodle/)
 
-### Added koyu.space features
+### Added or supported koyu.space features
 
 - [GIFs by Giphy](https://giphy.com)
 - [Google Translate](https://translate.google.com)
@@ -59,3 +59,5 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 - [Jitsi](https://meet.jit.si) integration
 - [InstanceTicker](https://inst.ance.tk)
 - Post editing enabled by default (hidden Mastodon feature)
+- Local posts
+- Explore page
