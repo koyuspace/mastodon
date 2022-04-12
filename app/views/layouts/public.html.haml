@@ -42,7 +42,8 @@
               %li= link_to t('about.api'), 'https://docs.joinmastodon.org/client/intro/'
           .column-2
             %h4= link_to t('about.what_is_mastodon'), 'https://koyu.space/about'
-            = link_to svg_logo, root_url, class: 'brand'
+            = link_to root_url do
+              = image_tag '/img/pb-icon.svg', height: 48, alt: 'Logo'
           .column-3
             %h4= site_hostname
             %ul
