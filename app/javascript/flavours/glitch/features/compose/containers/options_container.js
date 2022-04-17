@@ -55,8 +55,8 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch(changeCompose("https://meet.jit.si//"+x));
   },
 
-  onEmbedGiphy() {
-    dispatch(openModal('GIPHY', { noEsc: true }));
+  onEmbedTenor() {
+    dispatch(openModal('TENOR', { noEsc: true }));
   },
 
   onModalClose() {

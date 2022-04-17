@@ -52,7 +52,7 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 
 ### Added or supported koyu.space features
 
-- [GIFs by Giphy](https://giphy.com)
+- [GIFs by Tenor](https://tenor.com)
 - [Google Translate](https://translate.google.com)
 - Stickers
 - Custom logo and themes

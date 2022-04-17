@@ -36,7 +36,7 @@ import {
   COMPOSE_UPLOAD_CHANGE_SUCCESS,
   COMPOSE_UPLOAD_CHANGE_FAIL,
   COMPOSE_DOODLE_SET,
-  COMPOSE_GIPHY_SET,
+  COMPOSE_TENOR_SET,
   COMPOSE_RESET,
   COMPOSE_POLL_ADD,
   COMPOSE_POLL_REMOVE,
@@ -104,7 +104,7 @@ const initialState = ImmutableMap({
   resetFileKey: Math.floor((Math.random() * 0x10000)),
   idempotencyKey: null,
   tagHistory: ImmutableList(),
-  giphy: null,
+  tenor: null,
   media_modal: ImmutableMap({
     id: null,
     description: '',
@@ -545,8 +545,8 @@ export default function compose(state = initialState, action) {
       }));
   case COMPOSE_DOODLE_SET:
     return state.mergeIn(['doodle'], action.options);
-  case COMPOSE_GIPHY_SET:
-    return state.mergeIn(['giphy'], action.options);
+  case COMPOSE_TENOR_SET:
+    return state.mergeIn(['tenor'], action.options);
   case REDRAFT:
     const do_not_federate = !!action.status.get('local_only');
     let text = action.raw_text || unescapeHTML(expandMentions(action.status));
