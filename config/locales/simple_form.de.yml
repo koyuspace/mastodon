@@ -49,7 +49,7 @@ de:
         phrase: Wird schreibungsunabhängig mit dem Text und Inhaltswarnung eines Beitrags verglichen
         scopes: Welche Schnittstellen der Applikation erlaubt sind. Wenn du einen Top-Level-Scope auswählst, dann musst du nicht jeden einzelnen darunter auswählen.
         setting_aggregate_reblogs: Zeige denselben Beitrag nicht nochmal an, wenn er erneut geteilt wurde (dies betrifft nur neulich erhaltene erneut geteilte Beiträge)
-        setting_always_send_emails: Normalerweise werden E-Mail-Benachrichtigungen nicht gesendet, wenn du Mastodon aktiv verwendest
+        setting_always_send_emails: Normalerweise werden E-Mail-Benachrichtigungen nicht gesendet, wenn du koyu.space aktiv verwendest
         setting_default_sensitive: NSFW-Medien werden erst nach einem Klick sichtbar
         setting_display_media_default: Verstecke Medien, die als NSFW markiert sind
         setting_display_media_hide_all: Alle Medien immer verstecken

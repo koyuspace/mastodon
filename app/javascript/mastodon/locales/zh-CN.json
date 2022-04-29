@@ -205,7 +205,7 @@
   "getting_started.documentation": "文档",
   "getting_started.heading": "开始使用",
   "getting_started.invite": "邀请用户",
-  "getting_started.open_source_notice": "Mastodon 是开源软件。欢迎前往 GitHub（{github}）贡献代码或反馈问题。",
+  "getting_started.open_source_notice": "koyu.space 是开源软件。欢迎前往 GitHub（{github}）贡献代码或反馈问题。",
   "getting_started.security": "账户安全设置",
   "getting_started.terms": "使用条款",
   "hashtag.column_header.tag_mode.all": "以及 {additional}",

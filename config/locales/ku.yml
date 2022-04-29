@@ -2,17 +2,17 @@
 ku:
   about:
     about_hashtag_html: Ev şandiyeke gelemperî ye bi <strong>#%{hashtag}</strong> re nîşankirî ye. Tu dikarî pê re çalak bibî heke ajimêreke te heye li ser fediverse.
-    about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne çavdêriya pargîdanî, sêwirana exlaqî, û desentralîzasyon! Bi Mastodon re bibe xwediyê daneyên xwe!'
+    about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne çavdêriya pargîdanî, sêwirana exlaqî, û desentralîzasyon! Bi koyu.space re bibe xwediyê daneyên xwe!'
     about_this: Derbar
     active_count_after: çalak
     active_footnote: Mehane bikarhênerên çalak (MBÇ)
     administered_by: 'Tê bi rêvebirin ji aliyê:'
     api: API
     apps: Sepana mobîl
-    apps_platforms: Mastodon ji iOS, Android û platformên din bi kar bîne
+    apps_platforms: koyu.space ji iOS, Android û platformên din bi kar bîne
     browse_directory: Li riya profîlê bigere û li gorî berjewendiyan parzûn bike
     browse_local_posts: Ji vî rajekarê weşaneke zindî ya şandiyên giştî bigere
-    browse_public_posts: Weşaneke zindî ya şandiyên giştî bigere li ser Mastodon
+    browse_public_posts: Weşaneke zindî ya şandiyên giştî bigere li ser koyu.space
     contact: Têkilî
     contact_missing: Nehate sazkirin
     contact_unavailable: N/A
@@ -21,7 +21,7 @@ ku:
     documentation: Pelbend
     federation_hint_html: Bi ajimêrê xwe %{instance} re tu dikarî kesên rajekar û li derveyî mastodonê bişopînî.
     get_apps: Sepaneke mobîl bicerbîne
-    hosted_on: Mastodon li ser %{domain} tê pêşkêşkirin
+    hosted_on: koyu.space li ser %{domain} tê pêşkêşkirin
     instance_actor_flash: 'Ev ajimêr aktorekî aşopî ye ji bo rajekar were temsîl kirin tê bikaranîn ne ajimêra kesî ye. Ji bo armanca federasyonê dixebite û divê ney asteng kirin heta ku te xwest hemû nimûneyan asteng bikî, di vir de ger tu blogek navper bikarbînî.
 
       '
@@ -50,12 +50,12 @@ ku:
       silenced_title: Rajekarên sînor kirî
       suspended: 'Dê tu daneya ji van rajekaran neyê berhev kirin, tomarkirin an jî guhertin, ku têkilî an danûstendinek bi bikarhênerên van rajekaran re tune dike:'
       suspended_title: Rajekarên rawestî
-    unavailable_content_html: Mastodon bi gelemperî dihêle ku tu naverokê bibînî û bi bikarhênerên ji rajekareke din a li fendiverse re têkilî dayne. Ev awaretyên ku li ser vê rajekara taybetî hatine çêkirin ev in.
+    unavailable_content_html: koyu.space bi gelemperî dihêle ku tu naverokê bibînî û bi bikarhênerên ji rajekareke din a li fendiverse re têkilî dayne. Ev awaretyên ku li ser vê rajekara taybetî hatine çêkirin ev in.
     user_count_after:
       one: bikarhêner
       other: bikarhêner
     user_count_before: Serrûpel
-    what_is_mastodon: Mastodon çi ye?
+    what_is_mastodon: koyu.space çi ye?
   accounts:
     choices_html: 'Hilbijartina %{name}:'
     endorsements_hint: Tu dikarî kesên ku di navrûyê wep de dişopînî bipejirînî û ew li vir were nîşan kirin.
@@ -721,13 +721,13 @@ ku:
         desc_html: Di rûpela bikarhêner da rozeta xebatkaran nîşan bike
         title: Rozeta xebatkara nîşan bike
       site_description:
-        desc_html: Paragrafa destpêkê li ser API. Dide nasîn ka çi ev rajekarê Mastodon taybet dike û tiştên din ên girîn. Tu dikarî hashtagên HTML-ê, bi kar bîne di <code>&lt;a&gt;</code> û <code>&lt;em&gt;</code> de.
+        desc_html: Paragrafa destpêkê li ser API. Dide nasîn ka çi ev rajekarê koyu.space taybet dike û tiştên din ên girîn. Tu dikarî hashtagên HTML-ê, bi kar bîne di <code>&lt;a&gt;</code> û <code>&lt;em&gt;</code> de.
         title: Danasîna rajekar
       site_description_extended:
         desc_html: Ji bo kodê perwerdetî, rêzik, rêbername û tiştên din ên ku rajekara te ji hev cihê dike cîhekî baş e. Tu dikarî hashtagên HTML-ê bi kar bîne
         title: Zanyarên berfirehkirî ya rajekar
       site_short_description:
-        desc_html: Ew di alavdanka kêlekê û tagên meta de tên xuyakirin. Di yek paragrafê de rave bike ka Mastodon çi ye û ya ku ev rajekar taybetî dike.
+        desc_html: Ew di alavdanka kêlekê û tagên meta de tên xuyakirin. Di yek paragrafê de rave bike ka koyu.space çi ye û ya ku ev rajekar taybetî dike.
         title: Danasîna rajekarê kurt
       site_terms:
         desc_html: Tu dikarî polîtika nihêniyê xwe, mercên karûbar an nameyên din binvisîne. Tu dikarî nîşanên HTML-ê bi kar bîne
@@ -900,7 +900,7 @@ ku:
     confirmation_dialogs: Gotûbêjên piştrastkirî
     discovery: Vedîtin
     localization:
-      body: Mastodon ji aliyê xêrxwazan tê wergerandin.
+      body: koyu.space ji aliyê xêrxwazan tê wergerandin.
       guide_link: https://crowdin.com/project/mastodon
       guide_link_text: Herkes dikare beşdar bibe.
     sensitive_content: Naveroka hestiyarî
@@ -928,9 +928,9 @@ ku:
     delete_account: Ajimêr jê bibe
     delete_account_html: Heke tu dixwazî ajimêra xwe jê bibe, tu dikarî <a href="%{path}">li vir bidomîne</a>. Ji te tê xwestin ku were pejirandin.
     description:
-      prefix_invited_by_user: "@%{name} te vedixwîne ku tu beşdarî vê rajekara Mastodon-ê bibî!"
-      prefix_sign_up: Îro li Mastodonê tomar bibe!
-      suffix: Bi ajimêrekê, tu yê karibî kesan bişopînî, rojanekirinan bişînî û bi bikarhênerên ji her rajekarê Mastodon re peyaman bişînî û bêhtir!
+      prefix_invited_by_user: "@%{name} te vedixwîne ku tu beşdarî vê rajekara koyu.space-ê bibî!"
+      prefix_sign_up: Îro li koyu.spaceê tomar bibe!
+      suffix: Bi ajimêrekê, tu yê karibî kesan bişopînî, rojanekirinan bişînî û bi bikarhênerên ji her rajekarê koyu.space re peyaman bişînî û bêhtir!
     didnt_get_confirmation: Te rêwerzên pejirandinê wernegirt?
     dont_have_your_security_key: Kilîda te ya ewlehiyê tune ye?
     forgot_password: Te borînpeyva xwe ji bîr kir?
@@ -1070,7 +1070,7 @@ ku:
       content: Em xemgîn in, lê tiştek di aliyê me de şaş çû.
       title: Ev rûpel ne rast e
     '503': Ji ber têkçûna rajekar a demkî rûpel nayê bikaranîn.
-    noscript_html: Ji bo ku tu sepanaa Mastodon a tevnê bi kar bîne, jkx JavaScript-ê çalak bike. Wekî din, yek ji <a href="%{apps_path}">sepanên xwemalî</a> ji bo Mastodon ji bo platforma xwe biceribîne.
+    noscript_html: Ji bo ku tu sepanaa koyu.space a tevnê bi kar bîne, jkx JavaScript-ê çalak bike. Wekî din, yek ji <a href="%{apps_path}">sepanên xwemalî</a> ji bo koyu.space ji bo platforma xwe biceribîne.
   existing_username_validator:
     not_found: nikaribû bikarhênerek herêmî bi wê navê bikarhêner bibîne
     not_found_multiple: "%{usernames} nehat dîtin"
@@ -1381,7 +1381,7 @@ ku:
       weibo: Weibo
     current_session: Danişîna heyî
     description: "%{platform} ser %{browser}"
-    explanation: Gerokên tevnê di dema heyî de hene ku têketin kirine di ajimêra te ya Mastodon.
+    explanation: Gerokên tevnê di dema heyî de hene ku têketin kirine di ajimêra te ya koyu.space.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1406,7 +1406,7 @@ ku:
     aliases: Nûçikên ajimêra
     appearance: Xuyang
     authorized_apps: Rayedarê sepanan
-    back: Vegere bo Mastodon
+    back: Vegere bo koyu.space
     delete: Jêbirina ajimêr
     development: Pêşdebir
     edit_profile: Profîlê serrast bike
@@ -1522,7 +1522,7 @@ ku:
       <ul>
         <li><em>Basic account information</em>: If you register on this server, you may be asked to enter a username, an e-mail address and a password. You may also enter additional profile information such as a display name and biography, and upload a profile picture and header image. The username, display name, biography, profile picture and header image are always listed publicly.</li>
         <li><em>Posts, following and other public information</em>: The list of people you follow is listed publicly, the same is true for your followers. When you submit a message, the date and time is stored as well as the application you submitted the message from. Messages may contain media attachments, such as pictures and videos. Public and unlisted posts are available publicly. When you feature a post on your profile, that is also publicly available information. Your posts are delivered to your followers, in some cases it means they are delivered to different servers and copies are stored there. When you delete posts, this is likewise delivered to your followers. The action of reblogging or favouriting another post is always public.</li>
-        <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over Mastodon.</em></li>
+        <li><em>Direct and followers-only posts</em>: All posts are stored and processed on the server. Followers-only posts are delivered to your followers and users who are mentioned in them, and direct posts are delivered only to users mentioned in them. In some cases it means they are delivered to different servers and copies are stored there. We make a good faith effort to limit the access to those posts only to authorized persons, but other servers may fail to do so. Therefore it's important to review servers your followers belong to. You may toggle an option to approve and reject new followers manually in the settings. <em>Please keep in mind that the operators of the server and any receiving server may view such messages</em>, and that recipients may screenshot, copy or otherwise re-share them. <em>Do not share any dangerous information over koyu.space.</em></li>
         <li><em>IPs and other metadata</em>: When you log in, we record the IP address you log in from, as well as the name of your browser application. All the logged in sessions are available for your review and revocation in the settings. The latest IP address used is stored for up to 12 months. We also may retain server logs which include the IP address of every request to our server.</li>
       </ul>
 
@@ -1533,7 +1533,7 @@ ku:
       <p>Any of the information we collect from you may be used in the following ways:</p>
 
       <ul>
-        <li>To provide the core functionality of Mastodon. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
+        <li>To provide the core functionality of koyu.space. You can only interact with other people's content and post your own content when you are logged in. For example, you may follow other people to view their combined posts in your own personalized home timeline.</li>
         <li>To aid moderation of the community, for example comparing your IP address with other known ones to determine ban evasion or other violations.</li>
         <li>The email address you provide may be used to send you information, notifications about other people interacting with your content or sending you messages, and to respond to inquiries, and/or other requests or questions.</li>
       </ul>
@@ -1598,9 +1598,9 @@ ku:
       <p>Originally adapted from the <a href="https://github.com/discourse/discourse">Discourse privacy policy</a>.</p>
     title: "%{instance} mercên bikaranîn û politîkayên nehêniyê"
   themes:
-    contrast: Mastodon (Dijberiya bilind)
-    default: Mastodon (Tarî)
-    mastodon-light: Mastodon (Ronahî)
+    contrast: koyu.space (Dijberiya bilind)
+    default: koyu.space (Tarî)
+    mastodon-light: koyu.space (Ronahî)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ ku:
       subject: Îtîraza te ji %{date} nehate pejirandin
       title: Îtîraz nehate pejirandin
     backup_ready:
-      explanation: Te yedekîya tijê ya ajimêrê xwe Mastodonê xwest. Niha ji daxistinê re amade ye!
+      explanation: Te yedekîya tijê ya ajimêrê xwe koyu.spaceê xwest. Niha ji daxistinê re amade ye!
       subject: Arşîva te amede ye bo daxistinê
       title: Pakêtkirina arşîvan
     suspicious_sign_in:
@@ -1683,11 +1683,11 @@ ku:
       full_handle_hint: Ji hevalên xwe re, ji bona ji rajekarekê din peyam bişîne an jî ji bona ku te bikaribe bişopîne tişta ku tu bibêjî ev e.
       review_preferences_action: Bijartinan biguherîne
       review_preferences_step: Pê bawer be ku vebijêrkên xwe saz bikî, wek mînak kîjan e-nameyên ku tu dixwaziî wergirîne, an tu dixwazî weşanên te ji kîjan astê nehêniyê de kesanekirî bin. Heke nexweşiya te ya tevgerê tune be, tu dikarî hilbijêrî ku GIF ya xweser çalak bibe.
-      subject: Tu bi xêr hatî Mastodon
-      tip_federated_timeline: Demnameya giştî dimenêke gelemperî a Mastodon e. Lê tenê kesên ku ciranên te endamên wê ne dihewîne, ji ber vê yekê ew hemû nîne.
+      subject: Tu bi xêr hatî koyu.space
+      tip_federated_timeline: Demnameya giştî dimenêke gelemperî a koyu.space e. Lê tenê kesên ku ciranên te endamên wê ne dihewîne, ji ber vê yekê ew hemû nîne.
       tip_following: Tu rêvebir (ên) rajeker wek berdest dişopînî. Ji bo mirovên balkêştir bibînî, demnameya herêmî û federasyonî kontrol bike.
       tip_local_timeline: Demnameya herêmî, dimenêke bi giştî ye li ser %{instance} e. Ev ciranên te yên herî nêzik in!
-      tip_mobile_webapp: Ger geroka te ya desta pêşkêşî te bike ku tu Mastodon li ser ekrana xwe ya malê lê zêde bikî, tu dikarî agahdariyên push bistînî. Ew bi gelek awayan mîna serîlêdanek xwemalî tevdigere!
+      tip_mobile_webapp: Ger geroka te ya desta pêşkêşî te bike ku tu koyu.space li ser ekrana xwe ya malê lê zêde bikî, tu dikarî agahdariyên push bistînî. Ew bi gelek awayan mîna serîlêdanek xwemalî tevdigere!
       tips: Serbend
       title: Bi xêr hatî, %{name}!
   users:

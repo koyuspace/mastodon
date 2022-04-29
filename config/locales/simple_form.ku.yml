@@ -51,7 +51,7 @@ ku:
           Sepana ku dê kîjan maf bide bigihije APIyan.
           Ger te asteke jor hilbijartibe, ne pêwîste ku tu yên berfirehî a kesane hilbijêrî.
         setting_aggregate_reblogs: Bilindkirinên ku nû hatine weşan ji şandiyên di dema dawî de nîşan nede (tenê li ser bilindkirinên nû wergirtî bandor dike)
-        setting_always_send_emails: Dema ku tu Mastodon bi rengek çalak bi kar tînî, bi gelemperî agahdariya e-nameyê nayê şandin
+        setting_always_send_emails: Dema ku tu koyu.space bi rengek çalak bi kar tînî, bi gelemperî agahdariya e-nameyê nayê şandin
         setting_default_sensitive: Medyaya hestiyar berdestî ve tê veşartin û bi tikandin dikare were eşkere kirin
         setting_display_media_default: Medyaya wekî hestyarî hatiye nîşankirî ye veşêre
         setting_display_media_hide_all: Medyayê tim veşêre
@@ -73,7 +73,7 @@ ku:
       form_challenge:
         current_password: Tu dikevî qadeke ewledar
       imports:
-        data: Pelê CSV-ê ji rajekareke din a Mastodon hate derxistin
+        data: Pelê CSV-ê ji rajekareke din a koyu.space hate derxistin
       invite_request:
         text: Ev ê alikariya me bikê bo nirxandina sepanê te
       ip_block:

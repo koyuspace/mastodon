@@ -49,7 +49,7 @@ lv:
         phrase: Tiks saskaņots neatkarīgi no ziņas teksta reģistra vai satura brīdinājuma
         scopes: Kuriem API lietojumprogrammai būs atļauta piekļuve. Ja izvēlies augstākā līmeņa tvērumu, tev nav jāatlasa atsevišķi vienumi.
         setting_aggregate_reblogs: Nerādīt jaunus palielinājumus ziņām, kas nesen tika palielinātas (ietekmē tikai nesen saņemtos palielinājumus)
-        setting_always_send_emails: Parasti e-pasta paziņojumi netiek sūtīti, kad aktīvi izmantojat Mastodon
+        setting_always_send_emails: Parasti e-pasta paziņojumi netiek sūtīti, kad aktīvi izmantojat koyu.space
         setting_default_sensitive: Sensitīvi mediji pēc noklusējuma ir paslēpti, un tos var atklāt, noklikšķinot
         setting_display_media_default: Paslēpt mediju, kas atzīmēts kā sensitīvs
         setting_display_media_hide_all: Vienmēr slēpt medijus
