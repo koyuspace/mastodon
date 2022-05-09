@@ -7,6 +7,7 @@ const messages = {
   'layout.desktop': 'Desktop',
   'layout.mobile': 'Mobil',
   'navigation_bar.app_settings': 'App-Einstellungen',
+  'navigation_bar.chat': 'Chat',
   'navigation_bar.frontpage': 'Zeige Startseite',
   'navigation_bar.weekly': 'Unser Discord-Server ist verfügbar unter 8gbd7YR und wir veranstalten eine große Stammtischrunde auf chat.koyu.space jeden Samstag um 18:00 Uhr in UTC-Zeit.',
   'navigation_bar.radiostation': 'Aktuelle Radiostation',

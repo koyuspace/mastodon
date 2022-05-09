@@ -31,6 +31,7 @@ const NavigationPanel = ({ onOpenSettings }) => (
     <a className='column-link column-link--transparent' href='#' onClick={onOpenSettings}><Icon className='column-link__icon' id='cogs' fixedWidth /><FormattedMessage id='navigation_bar.app_settings' defaultMessage='App settings' /></a>
     {!!relationshipsLink && <a className='column-link column-link--transparent' href={relationshipsLink} target='_blank'><Icon className='column-link__icon' id='users' fixedWidth /><FormattedMessage id='navigation_bar.follows_and_followers' defaultMessage='Follows and followers' /></a>}
     <a className='column-link column-link--transparent' href='/about'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
+    <a className='column-link column-link--transparent' href='https://chat.koyu.space' target='_blank'><Icon className='column-link__icon' id='comments' fixedWidth /><FormattedMessage id='navigation_bar.chat' defaultMessage='Chat' /></a>
 
     {showTrends && <div className='flex-spacer' />}
     {showTrends && <TrendsContainer />}
