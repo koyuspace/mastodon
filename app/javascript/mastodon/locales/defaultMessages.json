@@ -1620,7 +1620,7 @@
         "id": "column.direct"
       },
       {
-        "defaultMessage": "Posts on Mastodon are not end-to-end encrypted. Do not share any dangerous information over Mastodon.",
+        "defaultMessage": "Posts on koyu.space are not end-to-end encrypted. Do not share any dangerous information over koyu.space.",
         "id": "compose_form.encryption_warning"
       },
       {
