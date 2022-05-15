@@ -15,6 +15,7 @@ import DoodleModal from './doodle_modal';
 import GIFModal from './gif_modal';
 import ConfirmationModal from './confirmation_modal';
 import FocalPointModal from './focal_point_modal';
+import DeprecatedSettingsModal from './deprecated_settings_modal';
 import {
   OnboardingModal,
   MuteModal,
@@ -42,6 +43,7 @@ const MODAL_COMPONENTS = {
   'BLOCK': BlockModal,
   'REPORT': ReportModal,
   'SETTINGS': SettingsModal,
+  'DEPRECATED_SETTINGS': () => Promise.resolve({ default: DeprecatedSettingsModal }),
   'ACTIONS': () => Promise.resolve({ default: ActionsModal }),
   'EMBED': EmbedModal,
   'LIST_EDITOR': ListEditor,
