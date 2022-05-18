@@ -110,6 +110,10 @@ ENV BIND="0.0.0.0"
 # Set the run user
 USER mastodon
 
+# Initialize submodules
+RUN cd ~ && \
+  git submodule update --init --recursive
+
 # Precompile assets
 RUN cd ~ && \
 	OTP_SECRET=precompile_placeholder SECRET_KEY_BASE=precompile_placeholder rails assets:precompile && \
