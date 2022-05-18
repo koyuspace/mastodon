@@ -89,7 +89,7 @@ RUN apt-get update && \
   apt-get -y --no-install-recommends install \
 	  libssl1.1 libpq5 imagemagick ffmpeg libjemalloc2 \
 	  libicu66 libidn11 libyaml-0-2 \
-	  file ca-certificates tzdata libreadline8 gcc tini apt-utils && \
+	  file ca-certificates tzdata libreadline8 gcc tini apt-utils git && \
 	ln -s /opt/mastodon /mastodon && \
 	gem install bundler && \
 	rm -rf /var/cache && \
