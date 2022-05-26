@@ -7,14 +7,9 @@ et:
     active_count_after: aktiivne
     active_footnote: Igakuiselt aktiivseid kasutajaid (MAU)
     administered_by: 'Administraator:'
-<<<<<<< HEAD
-    apps: Mobiilrakendused
-    apps_platforms: Kasuta koyu.spacei iOS-is, Androidis ja teistel platvormidel
-=======
     api: API
     apps: Mobiilirakendused
     apps_platforms: Kasuta koyu.spacei iOS-is, Androidis ja teistel platvormidel
->>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
     browse_directory: Sirvi profiilide kataloogi ja filtreeri huvide alusel
     browse_local_posts: Sirvi reaalajas voogu avalikest postitustest sellest serverist
     browse_public_posts: Sirvi reaalajas voogu avalikest postitustest koyu.spaceis

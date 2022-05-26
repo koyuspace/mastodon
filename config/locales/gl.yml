@@ -928,17 +928,10 @@ gl:
     delete_account: Eliminar conta
     delete_account_html: Se queres eliminar a túa conta, podes <a href="%{path}">facelo aquí</a>. Deberás confirmar a acción.
     description:
-<<<<<<< HEAD
-      prefix_invited_by_user: "@%{name} convídate a que te unas a este servidor koyu.space!"
-      prefix_sign_up: Rexístrate agora en koyu.space!
-      suffix: Ao abrir unha conta, poderás seguir a xente, actualizacións das publicacións e intercambiar mensaxes coas usuarias de calquera servidor de koyu.space e moito máis!
-    didnt_get_confirmation: Non recibeu as instruccións de confirmación?
-=======
       prefix_invited_by_user: "@%{name} convídate a que te unas a este servidor koyu.space!"
       prefix_sign_up: Rexístrate agora en koyu.space!
       suffix: Ao abrir unha conta, poderás seguir a xente, actualizacións das publicacións e intercambiar mensaxes coas usuarias de calquera servidor de koyu.space e moito máis!
     didnt_get_confirmation: Non recibiches as instruccións de confirmación?
->>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
     dont_have_your_security_key: "¿Non tes a túa chave de seguridade?"
     forgot_password: Esqueceu o contrasinal?
     invalid_reset_password_token: O testemuño para restablecer o contrasinal non é válido ou caducou. Por favor solicite un novo.

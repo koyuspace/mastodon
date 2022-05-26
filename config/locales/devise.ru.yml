@@ -56,13 +56,8 @@ ru:
         title: 2ФА включена
       two_factor_recovery_codes_changed:
         explanation: Предыдущие резервные коды были аннулированы и созданы новые.
-<<<<<<< HEAD
-        subject: 'koyu.space: Резервные коды двуфакторной авторизации обновлены'
-        title: Резервные коды 2ФА изменены
-=======
         subject: 'koyu.space: Резервные коды двуфакторной авторизации обновлены'
         title: Коды восстановления 2FA изменены
->>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
       unlock_instructions:
         subject: 'koyu.space: Инструкция по разблокировке'
       webauthn_credential:

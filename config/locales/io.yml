@@ -1,12 +1,8 @@
 ---
 io:
   about:
-<<<<<<< HEAD
-    about_mastodon_html: koyu.space esas <em>gratuita, apertitkodexa</em> sociala reto. Ol esas <em>sencentra</em> altra alternativo a komercala servadi. Ol evitigas, ke sola firmo guvernez tua tota komunikadol. Selektez servero, quan tu fidas. Irge qua esas tua selekto, tu povas komunikar kun omna altra uzeri. Irgu povas krear sua propra instaluro di koyu.space en sua servero, e partoprenar en la <em>sociala reto</em> tote glate.
-=======
     about_hashtag_html: Co esas publika posti quo etiketigesis kun <strong>#%{hashtag}</strong>. Vu povas interagar kun oli se vu havas konto irgaloke en fediverso.
     about_mastodon_html: koyu.space esas <em>gratuita, apertitkodexa</em> sociala reto. Ol esas <em>sencentra</em> altra alternativo a komercala servadi. Ol evitigas, ke sola firmo guvernez tua tota komunikadol. Selektez servero, quan tu fidas. Irge qua esas tua selekto, tu povas komunikar kun omna altra uzeri. Irgu povas krear sua propra instaluro di koyu.space en sua servero, e partoprenar en la <em>sociala reto</em> tote glate.
->>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
     about_this: Pri ta instaluro
     active_count_after: aktiva
     active_footnote: Monade Aktiva Uzanti (MAU)
@@ -1417,13 +1413,9 @@ io:
     aliases: Kontoaltnomi
     appearance: Aspekto
     authorized_apps: Yurizita apliki
-<<<<<<< HEAD
-    back: Retro a koyu.space
-=======
     back: Retro a koyu.space
     delete: Kontoefaco
     development: Developo
->>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
     edit_profile: Redaktar la profilo
     export: Exportacar datumi
     featured_tags: Estelata hashtagi
