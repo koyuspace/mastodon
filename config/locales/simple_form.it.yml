@@ -48,7 +48,7 @@ it:
         password: Usa almeno 8 caratteri
         phrase: Il confronto sarà eseguito ignorando minuscole/maiuscole e i content warning
         scopes: A quali API l'applicazione potrà avere accesso. Se selezionate un ambito di alto livello, non c'è bisogno di selezionare quelle singole.
-        setting_aggregate_reblogs: Non mostrare nuove condivisioni per toot che sono stati condivisi di recente (ha effetto solo sulle nuove condivisioni)
+        setting_aggregate_reblogs: Non mostrare nuove condivisioni per hop che sono stati condivisi di recente (ha effetto solo sulle nuove condivisioni)
         setting_always_send_emails: Normalmente le notifiche e-mail non vengono inviate quando si utilizza attivamente koyu.space
         setting_default_sensitive: Media con contenuti sensibili sono nascosti in modo predefinito e possono essere rivelati con un click
         setting_display_media_default: Nascondi media segnati come sensibili
