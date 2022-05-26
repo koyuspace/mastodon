@@ -26,7 +26,7 @@ eu:
         ends_at: Aukerakoa. Iragapena une honetan automatikoki desargitaratuko da
         scheduled_at: Laga hutsik iragarpena berehala argitaratzeko
         starts_at: Aukerakoa. Zure iragarpena denbora-tarte batera lotuta dagoenerako
-        text: Tootetako sintaxia erabili dezakezu. Kontuan izan iragarpenak erabiltzailearen pantailan hartuko duen neurria
+        text: Hopetako sintaxia erabili dezakezu. Kontuan izan iragarpenak erabiltzailearen pantailan hartuko duen neurria
       appeal:
         text: Abisu bati errekurtsoa behin bakarrik jarri diezaiokezu
       defaults:

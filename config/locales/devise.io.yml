@@ -55,9 +55,15 @@ io:
         subject: 'koyu.space: 2-faktorverifiko aktivigesis'
         title: 2FA aktivigesis
       two_factor_recovery_codes_changed:
+<<<<<<< HEAD
         explanation: Antea rigannumeri devalidesis e novo facesis.
         subject: 'koyu.space: 2-faktorrigannumeri rifacesis'
         title: 2FA rigannumeri chanjesis
+=======
+        explanation: Antea rigankodexi devalidesis e novo facesis.
+        subject: 'koyu.space: 2-faktorrigankodexi rifacesis'
+        title: 2FA-rigankodexi chanjesis
+>>>>>>> 6d13901e4c1f660a25420b623cbfea6966b218b9
       unlock_instructions:
         subject: Instructioni por riacendar la konto
       webauthn_credential:

@@ -207,7 +207,7 @@ pt-BR:
         targeted_reports: Denúncias sobre esta conta
       silence: Silenciar
       silenced: Silenciado
-      statuses: Toots
+      statuses: Hops
       strikes: Ataques anteriores
       subscribe: Inscrever-se
       suspend: Suspender
@@ -1286,7 +1286,7 @@ pt-BR:
       prompt: 'Você dará boost neste hop:'
     reply:
       proceed: Continue para responder
-      prompt: 'Você responderá este toot:'
+      prompt: 'Você responderá este hop:'
   reports:
     errors:
       invalid_rules: não faz referência a regras válidas

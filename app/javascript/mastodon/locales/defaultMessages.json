@@ -1546,7 +1546,7 @@
         "id": "compose_form.hashtag_warning"
       },
       {
-        "defaultMessage": "Posts on koyu.space are not end-to-end encrypted. Do not share any dangerous information over koyu.space.",
+        "defaultMessage": "Posts on koyu.space are not end-to-end encrypted. Do not share any sensitive information over koyu.space.",
         "id": "compose_form.encryption_warning"
       },
       {
