@@ -1,0 +1,41 @@
+.status__content .emojione:not([alt^=":sticker_"]) {
+  width: 32px !important;
+  height: 32px !important;
+  margin-top: 0px;
+}
+
+img[alt^=":sticker_"] {
+  width: 128px !important;
+  height: 128px !important;
+  display: block;
+  margin: 0 auto !important;
+}
+
+div.emoji-mart-category > span[title^=":sticker_"] > span,
+button[aria-label^="sticker_"] > span {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.emoji-mart-emoji[title^=":sticker_"]:hover::before {
+  border-radius: 10px !important;
+}
+
+span.reactions-bar__item__emoji > img[alt^=":sticker_"],
+.display-name__html > img[alt^=":sticker_"],
+.status__display-name .emojione.custom-emoji {
+  width: 16px !important;
+  height: 16px !important;
+  display: inline !important;
+}
+
+.status__content .emojione:not([alt^=":sticker_"]) {
+  padding: 3px;
+  margin: -3px -3px -3px -3px;
+}
+
+.account__header__tabs__name .emojione {
+  width: 22px !important;
+  height: 22px !important;
+  display: inline !important;
+}
