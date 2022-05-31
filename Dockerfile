@@ -89,7 +89,7 @@ RUN apt-get update && \
   apt-get -y --no-install-recommends install \
 	  libssl1.1 libpq5 imagemagick ffmpeg libjemalloc2 \
 	  libicu66 libidn11 libyaml-0-2 \
-	  file ca-certificates tzdata libreadline8 gcc tini apt-utils git && \
+	  file ca-certificates tzdata libreadline8 gcc tini apt-utils && \
 	ln -s /opt/mastodon /mastodon && \
 	gem install bundler && \
 	rm -rf /var/cache && \
@@ -109,10 +109,6 @@ ENV BIND="0.0.0.0"
 
 # Set the run user
 USER mastodon
-
-# Initialize submodules
-RUN cd ~ && \
-  git submodule update --init --recursive
 
 # Precompile assets
 RUN cd ~ && \
