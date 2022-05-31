@@ -8,10 +8,6 @@ So here's the deal: we all work on this code, and anyone who uses that does so a
 
 **koyu.space is a fork of glitch-soc**
 
-## Instructions
-
-If you want the full source code please clone with the `css-plugins` submodule since it contains the koyu.space spice like instant noodles we eat while we work on that code. This submodule contains things like stickers, instance tickers and many more koyu.space features.
-
 ## Changing things around
 
 Logo: `public/img/pb-icon.svg`
