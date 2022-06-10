@@ -38,7 +38,7 @@
   "account.requested": "Čakanje na odobritev. Kliknite, da prekličete prošnjo za sledenje",
   "account.share": "Delite profil osebe @{name}",
   "account.show_reblogs": "Pokaži izpostavitve osebe @{name}",
-  "account.statuses_counter": "{count, plural, one {{counter} Toot} other {{counter} Toots}}",
+  "account.statuses_counter": "{count, plural, one {{counter} Hop} other {{counter} Hops}}",
   "account.unblock": "Odblokiraj @{name}",
   "account.unblock_domain": "Razkrij {domain}",
   "account.unblock_short": "Odblokiraj",
