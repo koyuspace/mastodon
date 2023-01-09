@@ -10,15 +10,16 @@ import { openModal } from 'flavours/glitch/actions/modal';
 import PropTypes from 'prop-types';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import ImmutablePureComponent from 'react-immutable-pure-component';
-import { me, showTrends } from 'flavours/glitch/util/initial_state';
+import { me, showTrends } from 'flavours/glitch/initial_state';
 import { fetchFollowRequests } from 'flavours/glitch/actions/accounts';
 import { List as ImmutableList } from 'immutable';
 import { createSelector } from 'reselect';
 import { fetchLists } from 'flavours/glitch/actions/lists';
-import { preferencesLink } from 'flavours/glitch/util/backend_links';
+import { preferencesLink } from 'flavours/glitch/utils/backend_links';
 import NavigationBar from '../compose/components/navigation_bar';
 import LinkFooter from 'flavours/glitch/features/ui/components/link_footer';
 import TrendsContainer from './containers/trends_container';
+import { Helmet } from 'react-helmet';
 
 const messages = defineMessages({
   heading: { id: 'getting_started.heading', defaultMessage: 'Getting started' },
@@ -86,11 +87,12 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
 
   static contextTypes = {
     router: PropTypes.object.isRequired,
+    identity: PropTypes.object,
   };
 
   static propTypes = {
     intl: PropTypes.object.isRequired,
-    myAccount: ImmutablePropTypes.map.isRequired,
+    myAccount: ImmutablePropTypes.map,
     columns: ImmutablePropTypes.list,
     multiColumn: PropTypes.bool,
     fetchFollowRequests: PropTypes.func.isRequired,
@@ -106,10 +108,10 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
   }
 
   componentDidMount () {
-    const { fetchFollowRequests, multiColumn } = this.props;
+    const { fetchFollowRequests } = this.props;
+    const { signedIn } = this.context.identity;
 
-    if (!multiColumn && window.innerWidth >= NAVIGATION_PANEL_BREAKPOINT) {
-      this.context.router.history.replace('/home');
+    if (!signedIn) {
       return;
     }
 
@@ -118,25 +120,26 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
 
   render () {
     const { intl, myAccount, columns, multiColumn, unreadFollowRequests, unreadNotifications, lists, openSettings } = this.props;
+    const { signedIn } = this.context.identity;
 
     const navItems = [];
     let listItems = [];
 
     if (multiColumn) {
-      if (!columns.find(item => item.get('id') === 'HOME')) {
-        navItems.push(<ColumnLink key='0' icon='home' text={intl.formatMessage(messages.home_timeline)} to='/home' />);
+      if (signedIn && !columns.find(item => item.get('id') === 'HOME')) {
+        navItems.push(<ColumnLink key='home' icon='home' text={intl.formatMessage(messages.home_timeline)} to='/home' />);
       }
 
       if (!columns.find(item => item.get('id') === 'NOTIFICATIONS')) {
-        navItems.push(<ColumnLink key='1' icon='bell' text={intl.formatMessage(messages.notifications)} badge={badgeDisplay(unreadNotifications)} to='/notifications' />);
+        navItems.push(<ColumnLink key='notifications' icon='bell' text={intl.formatMessage(messages.notifications)} badge={badgeDisplay(unreadNotifications)} to='/notifications' />);
       }
 
       if (!columns.find(item => item.get('id') === 'COMMUNITY')) {
-        navItems.push(<ColumnLink key='2' icon='users' text={intl.formatMessage(messages.community_timeline)} to='/public/local' />);
+        navItems.push(<ColumnLink key='community_timeline' icon='users' text={intl.formatMessage(messages.community_timeline)} to='/public/local' />);
       }
 
       if (!columns.find(item => item.get('id') === 'PUBLIC')) {
-        navItems.push(<ColumnLink key='3' icon='globe' text={intl.formatMessage(messages.public_timeline)} to='/public' />);
+        navItems.push(<ColumnLink key='public_timeline' icon='globe' text={intl.formatMessage(messages.public_timeline)} to='/public' />);
       }
 
       if (!columns.find(item => item.get('id') === 'EXPLORE')) {
@@ -144,51 +147,64 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
       }
     }
 
-    if (!multiColumn || !columns.find(item => item.get('id') === 'DIRECT')) {
-      navItems.push(<ColumnLink key='4' icon='envelope' text={intl.formatMessage(messages.direct)} to='/conversations' />);
+    if (showTrends) {
+      navItems.push(<ColumnLink key='explore' icon='hashtag' text={intl.formatMessage(messages.explore)} to='/explore' />);
     }
 
-    if (!multiColumn || !columns.find(item => item.get('id') === 'BOOKMARKS')) {
-      navItems.push(<ColumnLink key='5' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} to='/bookmarks' />);
+    if (signedIn) {
+      if (!multiColumn || !columns.find(item => item.get('id') === 'DIRECT')) {
+        navItems.push(<ColumnLink key='conversations' icon='envelope' text={intl.formatMessage(messages.direct)} to='/conversations' />);
+      }
+
+      if (!multiColumn || !columns.find(item => item.get('id') === 'BOOKMARKS')) {
+        navItems.push(<ColumnLink key='bookmarks' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} to='/bookmarks' />);
+      }
+
+      if (myAccount.get('locked') || unreadFollowRequests > 0) {
+        navItems.push(<ColumnLink key='follow_requests' icon='user-plus' text={intl.formatMessage(messages.follow_requests)} badge={badgeDisplay(unreadFollowRequests, 40)} to='/follow_requests' />);
+      }
+
+      navItems.push(<ColumnLink key='getting_started' icon='ellipsis-h' text={intl.formatMessage(messages.misc)} to='/getting-started-misc' />);
+
+      listItems = listItems.concat([
+        <div key='9'>
+          <ColumnLink key='lists' icon='bars' text={intl.formatMessage(messages.lists)} to='/lists' />
+          {lists.filter(list => !columns.find(item => item.get('id') === 'LIST' && item.getIn(['params', 'id']) === list.get('id'))).map(list =>
+            <ColumnLink key={`list-${list.get('id')}`} to={`/lists/${list.get('id')}`} icon='list-ul' text={list.get('title')} />
+          )}
+        </div>,
+      ]);
     }
-
-    if (myAccount.get('locked') || unreadFollowRequests > 0) {
-      navItems.push(<ColumnLink key='6' icon='user-plus' text={intl.formatMessage(messages.follow_requests)} badge={badgeDisplay(unreadFollowRequests, 40)} to='/follow_requests' />);
-    }
-
-    navItems.push(<ColumnLink key='9' icon='ellipsis-h' text={intl.formatMessage(messages.misc)} to='/getting-started-misc' />);
-
-    listItems = listItems.concat([
-      <div key='9'>
-        <ColumnLink key='10' icon='bars' text={intl.formatMessage(messages.lists)} to='/lists' />
-        {lists.filter(list => !columns.find(item => item.get('id') === 'LIST' && item.getIn(['params', 'id']) === list.get('id'))).map(list =>
-          <ColumnLink key={(11 + Number(list.get('id'))).toString()} to={`/lists/${list.get('id')}`} icon='list-ul' text={list.get('title')} />
-        )}
-      </div>,
-    ]);
 
     return (
       <Column bindToDocument={!multiColumn} name='getting-started' icon='asterisk' heading={intl.formatMessage(messages.heading)} label={intl.formatMessage(messages.menu)} hideHeadingOnMobile>
         <div className='scrollable optionally-scrollable'>
           <div className='getting-started__wrapper'>
-            {!multiColumn && <NavigationBar account={myAccount} />}
+            {!multiColumn && signedIn && <NavigationBar account={myAccount} />}
             {multiColumn && <ColumnSubheading text={intl.formatMessage(messages.navigation_subheading)} />}
             {navItems}
-            <ColumnSubheading text={intl.formatMessage(messages.lists_subheading)} />
-            {listItems}
-            <ColumnSubheading text={intl.formatMessage(messages.settings_subheading)} />
-            { preferencesLink !== undefined && <ColumnLink icon='cog' text={intl.formatMessage(messages.preferences)} href={preferencesLink} /> }
-            <ColumnLink icon='cogs' text={intl.formatMessage(messages.settings)} onClick={openSettings} />
-            <ColumnSubheading text={intl.formatMessage(messages.misc)} />
-            <a className='column-link' href='/about'><Icon className='column-link__icon' id='external-link' fixedWidth /><FormattedMessage id='navigation_bar.frontpage' defaultMessage='Show front page' /></a>
-            <a className='column-link' href='https://chat.koyu.space' target='_blank'><Icon className='column-link__icon' id='comments' fixedWidth /><FormattedMessage id='navigation_bar.chat' defaultMessage='Chat' /></a>
-            <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
+            {signedIn && (
+              <React.Fragment>
+                <ColumnSubheading text={intl.formatMessage(messages.lists_subheading)} />
+                {listItems}
+                <ColumnSubheading text={intl.formatMessage(messages.settings_subheading)} />
+                { preferencesLink !== undefined && <ColumnLink icon='cog' text={intl.formatMessage(messages.preferences)} href={preferencesLink} /> }
+                <ColumnLink icon='cogs' text={intl.formatMessage(messages.settings)} onClick={openSettings} />
+                <a className='column-link' href='https://links.koyu.space'><Icon className='column-link__icon' id='link' fixedWidth /><FormattedMessage id='navigation_bar.links' defaultMessage='Links' /></a>
+                <NavLink className='column-link' to='/timelines/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
+              </React.Fragment>
+            )}
           </div>
 
           <LinkFooter />
         </div>
 
         {multiColumn && showTrends && <TrendsContainer />}
+
+        <Helmet>
+          <title>{intl.formatMessage(messages.menu)}</title>
+          <meta name='robots' content='noindex' />
+        </Helmet>
       </Column>
     );
   }

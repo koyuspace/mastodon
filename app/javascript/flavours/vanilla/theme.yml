@@ -1,6 +1,5 @@
 #  (REQUIRED) The location of the pack files inside `pack_directory`.
 pack:
-  about: about.js
   admin:
     - admin.js
     - public.js
@@ -13,10 +12,10 @@ pack:
   home:
     filename: application.js
     preload:
-    - features/getting_started
-    - features/compose
-    - features/home_timeline
-    - features/notifications
+      - features/getting_started
+      - features/compose
+      - features/home_timeline
+      - features/notifications
   mailer:
   modal:
   public: public.js

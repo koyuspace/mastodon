@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ImmutablePropTypes from 'react-immutable-proptypes';
-import { FormattedMessage } from 'react-intl';
+import { injectIntl, defineMessages, FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { expandSearch } from 'flavours/glitch/actions/search';
 import Account from 'flavours/glitch/containers/account_container';
@@ -10,10 +10,16 @@ import { ImmutableHashtag as Hashtag } from 'flavours/glitch/components/hashtag'
 import { List as ImmutableList } from 'immutable';
 import LoadMore from 'flavours/glitch/components/load_more';
 import LoadingIndicator from 'flavours/glitch/components/loading_indicator';
+import { Helmet } from 'react-helmet';
+
+const messages = defineMessages({
+  title: { id: 'search_results.title', defaultMessage: 'Search for {q}' },
+});
 
 const mapStateToProps = state => ({
   isLoading: state.getIn(['search', 'isLoading']),
   results: state.getIn(['search', 'results']),
+  q: state.getIn(['search', 'searchTerm']),
 });
 
 const appendLoadMore = (id, list, onLoadMore) => {
@@ -24,19 +30,20 @@ const appendLoadMore = (id, list, onLoadMore) => {
   }
 };
 
-const renderAccounts = (results, onLoadMore) => appendLoadMore('accounts', results.get('accounts').map(item => (
+const renderAccounts = (results, onLoadMore) => appendLoadMore('accounts', results.get('accounts', ImmutableList()).map(item => (
   <Account key={`account-${item}`} id={item} />
 )), onLoadMore);
 
-const renderHashtags = (results, onLoadMore) => appendLoadMore('hashtags', results.get('hashtags').map(item => (
+const renderHashtags = (results, onLoadMore) => appendLoadMore('hashtags', results.get('hashtags', ImmutableList()).map(item => (
   <Hashtag key={`tag-${item.get('name')}`} hashtag={item} />
 )), onLoadMore);
 
-const renderStatuses = (results, onLoadMore) => appendLoadMore('statuses', results.get('statuses').map(item => (
+const renderStatuses = (results, onLoadMore) => appendLoadMore('statuses', results.get('statuses', ImmutableList()).map(item => (
   <Status key={`status-${item}`} id={item} />
 )), onLoadMore);
 
 export default @connect(mapStateToProps)
+@injectIntl
 class Results extends React.PureComponent {
 
   static propTypes = {
@@ -44,6 +51,8 @@ class Results extends React.PureComponent {
     isLoading: PropTypes.bool,
     multiColumn: PropTypes.bool,
     dispatch: PropTypes.func.isRequired,
+    q: PropTypes.string,
+    intl: PropTypes.object,
   };
 
   state = {
@@ -64,7 +73,7 @@ class Results extends React.PureComponent {
   }
 
   render () {
-    const { isLoading, results } = this.props;
+    const { intl, isLoading, q, results } = this.props;
     const { type } = this.state;
 
     let filteredResults = ImmutableList();
@@ -104,8 +113,12 @@ class Results extends React.PureComponent {
         </div>
 
         <div className='explore__search-results'>
-          {isLoading ? (<LoadingIndicator />) : filteredResults}
+          {isLoading ? <LoadingIndicator /> : filteredResults}
         </div>
+
+        <Helmet>
+          <title>{intl.formatMessage(messages.title, { q })}</title>
+        </Helmet>
       </React.Fragment>
     );
   }

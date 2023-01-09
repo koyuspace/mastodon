@@ -6,6 +6,12 @@ Here are some guidelines, and ways you can help.
 >   (This document is a bit of a work-in-progress, so please bear with us.
 >   If you don't see what you're looking for here, please don't hesitate to reach out!)
 
+## Translations
+
+You can submit glitch-soc-specific translations via [Crowdin](https://crowdin.com/project/glitch-soc). They are periodically merged into the codebase.
+
+[![Crowdin](https://badges.crowdin.net/glitch-soc/localized.svg)](https://crowdin.com/project/glitch-soc)
+
 ##  Planning  ##
 
 Right now a lot of the planning for this project takes place in our development Discord, or through GitHub Issues and Projects.
@@ -27,7 +33,7 @@ See the guidelines below.
 
  - - -
 
-You should also try to follow the guidelines set out in the original `CONTRIBUTING.md` from `tootsuite/mastodon`, reproduced below.
+You should also try to follow the guidelines set out in the original `CONTRIBUTING.md` from `mastodon/mastodon`, reproduced below.
 
 <blockquote>
 
@@ -75,6 +81,8 @@ It is not always possible to phrase every change in such a manner, but it is des
 - Unit and integration tests (rspec, jest)
 - Code style rules (rubocop, eslint)
 - Normalization of locale files (i18n-tasks)
+
+**Note**: You may need to log in and authorise the GitHub account your fork of this repository belongs to with CircleCI to enable some of the automated checks to run.
 
 ## Documentation
 

@@ -1,37 +1,80 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormattedMessage, injectIntl } from 'react-intl';
-import { invitesEnabled, limitedFederationMode, version, repository, source_url } from 'flavours/glitch/util/initial_state';
-import { securityLink } from 'flavours/glitch/util/backend_links';
+import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
+import { Link } from 'react-router-dom';
+import { domain, version, source_url, profile_directory as profileDirectory } from 'flavours/glitch/initial_state';
+import { logOut } from 'flavours/glitch/utils/log_out';
+import { openModal } from 'flavours/glitch/actions/modal';
+import { PERMISSION_INVITE_USERS } from 'flavours/glitch/permissions';
+
+const messages = defineMessages({
+  logoutMessage: { id: 'confirmations.logout.message', defaultMessage: 'Are you sure you want to log out?' },
+  logoutConfirm: { id: 'confirmations.logout.confirm', defaultMessage: 'Log out' },
+});
+
+const mapDispatchToProps = (dispatch, { intl }) => ({
+  onLogout () {
+    dispatch(openModal('CONFIRM', {
+      message: intl.formatMessage(messages.logoutMessage),
+      confirm: intl.formatMessage(messages.logoutConfirm),
+      closeWhenConfirm: false,
+      onConfirm: () => logOut(),
+    }));
+  },
+});
 
 export default @injectIntl
 class LinkFooter extends React.PureComponent {
+
+  static contextTypes = {
+    identity: PropTypes.object,
+  };
 
   static propTypes = {
     intl: PropTypes.object.isRequired,
   };
 
-  render () {
-    return (
-      <div className='getting-started__footer'>
-        <ul>
-          {invitesEnabled && <li><a href='/invites' target='_blank'><FormattedMessage id='getting_started.invite' defaultMessage='Invite people' /></a> · </li>}
-          {!!securityLink && <li><a href='/auth/edit'><FormattedMessage id='getting_started.security' defaultMessage='Security' /></a> · </li>}
-          {!limitedFederationMode && <li><a href='/about/more' target='_blank'><FormattedMessage id='navigation_bar.info' defaultMessage='About this server' /></a> · </li>}
-          <li><a href='/apps/index.html' target='_blank'><FormattedMessage id='navigation_bar.apps' defaultMessage='Mobile apps' /></a> · </li>
-          <li><a href='/terms' target='_blank'><FormattedMessage id='getting_started.terms' defaultMessage='Terms of service' /></a> · </li>
-          <li><a href='/settings/applications' target='_blank'><FormattedMessage id='getting_started.developers' defaultMessage='Developers' /></a> · </li>
-          <li><a href='https://docs.joinmastodon.org' target='_blank'><FormattedMessage id='getting_started.documentation' defaultMessage='Documentation' /></a></li>
-        </ul>
+  handleLogoutClick = e => {
+    e.preventDefault();
+    e.stopPropagation();
 
+    this.props.onLogout();
+
+    return false;
+  }
+
+  render () {
+    const { signedIn, permissions } = this.context.identity;
+
+    const canInvite = signedIn && ((permissions & PERMISSION_INVITE_USERS) === PERMISSION_INVITE_USERS);
+    const canProfileDirectory = profileDirectory;
+
+    return (
+      <div className='link-footer'>
         <p>
-          <FormattedMessage
-            id='getting_started.open_source_notice'
-            defaultMessage='Glitchsoc is open source software, a friendly fork of {Mastodon}. You can contribute or report issues on GitHub at {github}.'
-            values={{
-              github: <span><a href={source_url} rel='noopener noreferrer' target='_blank'>{repository}</a> (v{version})</span>,
-              Mastodon: <a href='https://github.com/tootsuite/mastodon' rel='noopener noreferrer' target='_blank'>Mastodon</a> }}
-          />
+          <strong>{domain}</strong>:
+          {' '}
+          <Link key='about' to='/about'><FormattedMessage id='footer.about' defaultMessage='About' /></Link>
+          {canInvite && (
+            <>
+              {' · '}
+              <a key='invites' href='/invites' target='_blank'><FormattedMessage id='footer.invite' defaultMessage='Invite people' /></a>
+            </>
+          )}
+          {canProfileDirectory && (
+            <>
+              {' · '}
+              <Link key='directory' to='/directory'><FormattedMessage id='footer.directory' defaultMessage='Profiles directory' /></Link>
+            </>
+          )}
+          {' · '}
+          <Link key='privacy-policy' to='/privacy-policy'><FormattedMessage id='footer.privacy_policy' defaultMessage='Privacy policy' /></Link>
+          {' · '}
+          <Link to='/keyboard-shortcuts'><FormattedMessage id='footer.keyboard_shortcuts' defaultMessage='Keyboard shortcuts' /></Link>
+          {' · '}
+          <a href={source_url} rel='noopener noreferrer' target='_blank'><FormattedMessage id='footer.source_code' defaultMessage='View source code' /></a>
+          {' · '}
+          v{version}
         </p>
       </div>
     );

@@ -7,6 +7,7 @@ import ImmutablePropTypes from 'react-immutable-proptypes';
 import { createSelector } from 'reselect';
 import { fetchStatus } from 'flavours/glitch/actions/statuses';
 import MissingIndicator from 'flavours/glitch/components/missing_indicator';
+import LoadingIndicator from 'flavours/glitch/components/loading_indicator';
 import DetailedStatus from './components/detailed_status';
 import ActionBar from './components/action_bar';
 import Column from 'flavours/glitch/features/ui/components/column';
@@ -26,12 +27,21 @@ import {
   directCompose,
 } from 'flavours/glitch/actions/compose';
 import { changeLocalSetting } from 'flavours/glitch/actions/local_settings';
-import { muteStatus, unmuteStatus, deleteStatus, editStatus } from 'flavours/glitch/actions/statuses';
+import {
+  muteStatus,
+  unmuteStatus,
+  deleteStatus,
+  editStatus,
+  hideStatus,
+  revealStatus,
+  translateStatus,
+  undoStatusTranslation,
+} from 'flavours/glitch/actions/statuses';
 import { initMuteModal } from 'flavours/glitch/actions/mutes';
 import { initBlockModal } from 'flavours/glitch/actions/blocks';
 import { initReport } from 'flavours/glitch/actions/reports';
 import { initBoostModal } from 'flavours/glitch/actions/boosts';
-import { makeGetStatus } from 'flavours/glitch/selectors';
+import { makeGetStatus, makeGetPictureInPicture } from 'flavours/glitch/selectors';
 import ScrollContainer from 'flavours/glitch/containers/scroll_container';
 import ColumnBackButton from 'flavours/glitch/components/column_back_button';
 import ColumnHeader from '../../components/column_header';
@@ -40,11 +50,12 @@ import { openModal } from 'flavours/glitch/actions/modal';
 import { defineMessages, injectIntl } from 'react-intl';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import { HotKeys } from 'react-hotkeys';
-import { boostModal, favouriteModal, deleteModal } from 'flavours/glitch/util/initial_state';
-import { attachFullscreenListener, detachFullscreenListener, isFullscreen } from 'flavours/glitch/util/fullscreen';
-import { autoUnfoldCW } from 'flavours/glitch/util/content_warning';
+import { boostModal, favouriteModal, deleteModal } from 'flavours/glitch/initial_state';
+import { attachFullscreenListener, detachFullscreenListener, isFullscreen } from '../ui/util/fullscreen';
+import { autoUnfoldCW } from 'flavours/glitch/utils/content_warning';
 import { textForScreenReader, defaultMediaVisibility } from 'flavours/glitch/components/status';
 import Icon from 'flavours/glitch/components/icon';
+import { Helmet } from 'react-helmet';
 
 const messages = defineMessages({
   deleteConfirm: { id: 'confirmations.delete.confirm', defaultMessage: 'Delete' },
@@ -56,11 +67,12 @@ const messages = defineMessages({
   detailedStatus: { id: 'status.detailed_status', defaultMessage: 'Detailed conversation view' },
   replyConfirm: { id: 'confirmations.reply.confirm', defaultMessage: 'Reply' },
   replyMessage: { id: 'confirmations.reply.message', defaultMessage: 'Replying now will overwrite the message you are currently composing. Are you sure you want to proceed?' },
-  tootHeading: { id: 'column.toot', defaultMessage: 'Hops and replies' },
+  tootHeading: { id: 'account.posts_with_replies', defaultMessage: 'Posts and replies' },
 });
 
 const makeMapStateToProps = () => {
   const getStatus = makeGetStatus();
+  const getPictureInPicture = makeGetPictureInPicture();
 
   const getAncestorsIds = createSelector([
     (_, { id }) => id,
@@ -118,26 +130,45 @@ const makeMapStateToProps = () => {
 
   const mapStateToProps = (state, props) => {
     const status = getStatus(state, { id: props.params.statusId });
-    let ancestorsIds = Immutable.List();
+
+    let ancestorsIds   = Immutable.List();
     let descendantsIds = Immutable.List();
 
     if (status) {
-      ancestorsIds = getAncestorsIds(state, { id: status.get('in_reply_to_id') });
+      ancestorsIds   = getAncestorsIds(state, { id: status.get('in_reply_to_id') });
       descendantsIds = getDescendantsIds(state, { id: status.get('id') });
     }
 
     return {
+      isLoading: state.getIn(['statuses', props.params.statusId, 'isLoading']),
       status,
       ancestorsIds,
       descendantsIds,
       settings: state.get('local_settings'),
       askReplyConfirmation: state.getIn(['local_settings', 'confirm_before_clearing_draft']) && state.getIn(['compose', 'text']).trim().length !== 0,
       domain: state.getIn(['meta', 'domain']),
-      usingPiP: state.get('picture_in_picture').statusId === props.params.statusId,
+      pictureInPicture: getPictureInPicture(state, { id: props.params.statusId }),
     };
   };
 
   return mapStateToProps;
+};
+
+const truncate = (str, num) => {
+  if (str.length > num) {
+    return str.slice(0, num) + '…';
+  } else {
+    return str;
+  }
+};
+
+const titleFromStatus = status => {
+  const displayName = status.getIn(['account', 'display_name']);
+  const username = status.getIn(['account', 'username']);
+  const prefix = displayName.trim().length === 0 ? username : displayName;
+  const text = status.get('search_index');
+
+  return `${prefix}: "${truncate(text, 30)}"`;
 };
 
 export default @injectIntl
@@ -146,12 +177,14 @@ class Status extends ImmutablePureComponent {
 
   static contextTypes = {
     router: PropTypes.object,
+    identity: PropTypes.object,
   };
 
   static propTypes = {
     params: PropTypes.object.isRequired,
     dispatch: PropTypes.func.isRequired,
     status: ImmutablePropTypes.map,
+    isLoading: PropTypes.bool,
     settings: ImmutablePropTypes.map.isRequired,
     ancestorsIds: ImmutablePropTypes.list,
     descendantsIds: ImmutablePropTypes.list,
@@ -159,7 +192,10 @@ class Status extends ImmutablePureComponent {
     askReplyConfirmation: PropTypes.bool,
     multiColumn: PropTypes.bool,
     domain: PropTypes.string.isRequired,
-    usingPiP: PropTypes.bool,
+    pictureInPicture: ImmutablePropTypes.contains({
+      inUse: PropTypes.bool,
+      available: PropTypes.bool,
+    }),
   };
 
   state = {
@@ -215,11 +251,19 @@ class Status extends ImmutablePureComponent {
     return updated ? update : null;
   }
 
-  handleExpandedToggle = () => {
-    if (this.props.status.get('spoiler_text')) {
+  handleToggleHidden = () => {
+    const { status } = this.props;
+
+    if (this.props.settings.getIn(['content_warnings', 'shared_state'])) {
+      if (status.get('hidden')) {
+        this.props.dispatch(revealStatus(status.get('id')));
+      } else {
+        this.props.dispatch(hideStatus(status.get('id')));
+      }
+    } else if (this.props.status.get('spoiler_text')) {
       this.setExpansion(!this.state.isExpanded);
     }
-  };
+  }
 
   handleToggleMediaVisibility = () => {
     this.setState({ showMedia: !this.state.showMedia });
@@ -230,14 +274,25 @@ class Status extends ImmutablePureComponent {
   }
 
   handleFavouriteClick = (status, e) => {
-    if (status.get('favourited')) {
-      this.props.dispatch(unfavourite(status));
-    } else {
-      if ((e && e.shiftKey) || !favouriteModal) {
-        this.handleModalFavourite(status);
+    const { dispatch } = this.props;
+    const { signedIn } = this.context.identity;
+
+    if (signedIn) {
+      if (status.get('favourited')) {
+        dispatch(unfavourite(status));
       } else {
-        this.props.dispatch(openModal('FAVOURITE', { status, onFavourite: this.handleModalFavourite }));
+        if ((e && e.shiftKey) || !favouriteModal) {
+          this.handleModalFavourite(status);
+        } else {
+          dispatch(openModal('FAVOURITE', { status, onFavourite: this.handleModalFavourite }));
+        }
       }
+    } else {
+      dispatch(openModal('INTERACTION', {
+        type: 'favourite',
+        accountId: status.getIn(['account', 'id']),
+        url: status.get('url'),
+      }));
     }
   }
 
@@ -250,16 +305,26 @@ class Status extends ImmutablePureComponent {
   }
 
   handleReplyClick = (status) => {
-    let { askReplyConfirmation, dispatch, intl } = this.props;
-    if (askReplyConfirmation) {
-      dispatch(openModal('CONFIRM', {
-        message: intl.formatMessage(messages.replyMessage),
-        confirm: intl.formatMessage(messages.replyConfirm),
-        onDoNotAsk: () => dispatch(changeLocalSetting(['confirm_before_clearing_draft'], false)),
-        onConfirm: () => dispatch(replyCompose(status, this.context.router.history)),
-      }));
+    const { askReplyConfirmation, dispatch, intl } = this.props;
+    const { signedIn } = this.context.identity;
+
+    if (signedIn) {
+      if (askReplyConfirmation) {
+        dispatch(openModal('CONFIRM', {
+          message: intl.formatMessage(messages.replyMessage),
+          confirm: intl.formatMessage(messages.replyConfirm),
+          onDoNotAsk: () => dispatch(changeLocalSetting(['confirm_before_clearing_draft'], false)),
+          onConfirm: () => dispatch(replyCompose(status, this.context.router.history)),
+        }));
+      } else {
+        dispatch(replyCompose(status, this.context.router.history));
+      }
     } else {
-      dispatch(replyCompose(status, this.context.router.history));
+      dispatch(openModal('INTERACTION', {
+        type: 'reply',
+        accountId: status.getIn(['account', 'id']),
+        url: status.get('url'),
+      }));
     }
   }
 
@@ -275,13 +340,22 @@ class Status extends ImmutablePureComponent {
 
   handleReblogClick = (status, e) => {
     const { settings, dispatch } = this.props;
+    const { signedIn } = this.context.identity;
 
-    if (settings.get('confirm_boost_missing_media_description') && status.get('media_attachments').some(item => !item.get('description')) && !status.get('reblogged')) {
-      dispatch(initBoostModal({ status, onReblog: this.handleModalReblog, missingMediaDescription: true }));
-    } else if ((e && e.shiftKey) || !boostModal) {
-      this.handleModalReblog(status);
+    if (signedIn) {
+      if (settings.get('confirm_boost_missing_media_description') && status.get('media_attachments').some(item => !item.get('description')) && !status.get('reblogged')) {
+        dispatch(initBoostModal({ status, onReblog: this.handleModalReblog, missingMediaDescription: true }));
+      } else if ((e && e.shiftKey) || !boostModal) {
+        this.handleModalReblog(status);
+      } else {
+        dispatch(initBoostModal({ status, onReblog: this.handleModalReblog }));
+      }
     } else {
-      dispatch(initBoostModal({ status, onReblog: this.handleModalReblog }));
+      dispatch(openModal('INTERACTION', {
+        type: 'reblog',
+        accountId: status.getIn(['account', 'id']),
+        url: status.get('url'),
+      }));
     }
   }
 
@@ -354,8 +428,30 @@ class Status extends ImmutablePureComponent {
   }
 
   handleToggleAll = () => {
-    const { isExpanded } = this.state;
+    const { status, ancestorsIds, descendantsIds, settings } = this.props;
+    const statusIds = [status.get('id')].concat(ancestorsIds.toJS(), descendantsIds.toJS());
+    let { isExpanded } = this.state;
+
+    if (settings.getIn(['content_warnings', 'shared_state']))
+      isExpanded = !status.get('hidden');
+
+    if (!isExpanded) {
+      this.props.dispatch(revealStatus(statusIds));
+    } else {
+      this.props.dispatch(hideStatus(statusIds));
+    }
+
     this.setState({ isExpanded: !isExpanded, threadExpanded: !isExpanded });
+  }
+
+  handleTranslate = status => {
+    const { dispatch } = this.props;
+
+    if (status.get('translation')) {
+      dispatch(undoStatusTranslation(status.get('id')));
+    } else {
+      dispatch(translateStatus(status.get('id')));
+    }
   }
 
   handleBlockClick = (status) => {
@@ -513,9 +609,16 @@ class Status extends ImmutablePureComponent {
 
   render () {
     let ancestors, descendants;
-    const { setExpansion } = this;
-    const { status, settings, ancestorsIds, descendantsIds, intl, domain, multiColumn, usingPiP } = this.props;
-    const { fullscreen, isExpanded } = this.state;
+    const { isLoading, status, settings, ancestorsIds, descendantsIds, intl, domain, multiColumn, pictureInPicture } = this.props;
+    const { fullscreen } = this.state;
+
+    if (isLoading) {
+      return (
+        <Column>
+          <LoadingIndicator />
+        </Column>
+      );
+    }
 
     if (status === null) {
       return (
@@ -526,6 +629,8 @@ class Status extends ImmutablePureComponent {
       );
     }
 
+    const isExpanded = settings.getIn(['content_warnings', 'shared_state']) ? !status.get('hidden') : this.state.isExpanded;
+
     if (ancestorsIds && ancestorsIds.size > 0) {
       ancestors = <div>{this.renderChildren(ancestorsIds)}</div>;
     }
@@ -533,6 +638,9 @@ class Status extends ImmutablePureComponent {
     if (descendantsIds && descendantsIds.size > 0) {
       descendants = <div>{this.renderChildren(descendantsIds)}</div>;
     }
+
+    const isLocal = status.getIn(['account', 'acct'], '').indexOf('@') === -1;
+    const isIndexable = !status.getIn(['account', 'noindex']);
 
     const handlers = {
       moveUp: this.handleHotkeyMoveUp,
@@ -543,7 +651,7 @@ class Status extends ImmutablePureComponent {
       bookmark: this.handleHotkeyBookmark,
       mention: this.handleHotkeyMention,
       openProfile: this.handleHotkeyOpenProfile,
-      toggleSpoiler: this.handleExpandedToggle,
+      toggleSpoiler: this.handleToggleHidden,
       toggleSensitive: this.handleHotkeyToggleSensitive,
       openMedia: this.handleHotkeyOpenMedia,
     };
@@ -557,7 +665,7 @@ class Status extends ImmutablePureComponent {
           showBackButton
           multiColumn={multiColumn}
           extraButton={(
-            <button className='column-header__button' title={intl.formatMessage(!isExpanded ? messages.revealAll : messages.hideAll)} aria-label={intl.formatMessage(!isExpanded ? messages.revealAll : messages.hideAll)} onClick={this.handleToggleAll} aria-pressed={!isExpanded ? 'false' : 'true'}><Icon id={!isExpanded ? 'eye-slash' : 'eye'} /></button>
+            <button className='column-header__button' title={intl.formatMessage(!isExpanded ? messages.revealAll : messages.hideAll)} aria-label={intl.formatMessage(!isExpanded ? messages.revealAll : messages.hideAll)} onClick={this.handleToggleAll}><Icon id={!isExpanded ? 'eye-slash' : 'eye'} /></button>
           )}
         />
 
@@ -574,11 +682,12 @@ class Status extends ImmutablePureComponent {
                   onOpenVideo={this.handleOpenVideo}
                   onOpenMedia={this.handleOpenMedia}
                   expanded={isExpanded}
-                  onToggleHidden={this.handleExpandedToggle}
+                  onToggleHidden={this.handleToggleHidden}
+                  onTranslate={this.handleTranslate}
                   domain={domain}
                   showMedia={this.state.showMedia}
                   onToggleMediaVisibility={this.handleToggleMediaVisibility}
-                  usingPiP={usingPiP}
+                  pictureInPicture={pictureInPicture}
                 />
 
                 <ActionBar
@@ -605,6 +714,11 @@ class Status extends ImmutablePureComponent {
             {descendants}
           </div>
         </ScrollContainer>
+
+        <Helmet>
+          <title>{titleFromStatus(status)}</title>
+          <meta name='robots' content={(isLocal && isIndexable) ? 'all' : 'noindex'} />
+        </Helmet>
       </Column>
     );
   }
