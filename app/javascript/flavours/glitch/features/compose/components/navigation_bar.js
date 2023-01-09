@@ -5,6 +5,7 @@ import ImmutablePropTypes from 'react-immutable-proptypes';
 import ActionBar from './action_bar';
 import Avatar from 'flavours/glitch/components/avatar';
 import Permalink from 'flavours/glitch/components/permalink';
+import { openModal } from 'flavours/glitch/actions/modal';
 import { FormattedMessage } from 'react-intl';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import { profileLink, signOutLink } from 'flavours/glitch/utils/backend_links';
