@@ -59,18 +59,6 @@ body {
     background: #0c0c0c;
 }
 
-/*focusable content/removing focusing highlighting*/
-.focusable:focus {
-    outline: 0;
-    background: none;
-}
-.focusable:focus .detailed-status{
-    background: none;
-}
-.focusable:focus .detailed-status__action-bar {
-    background: var(--element-color);
-}
-
 
 /*Avatars*/
 @media screen and (max-width: 600px){
@@ -991,11 +979,6 @@ body.admin,
     display: none;
 }
 
-.dashboard__quick-access,
-.dashboard__quick-access:active, .dashboard__quick-access:focus, .dashboard__quick-access:hover {
-    background: var(--accent-color);
-}
-
 .sparkline__graph path:first-child {
     fill: var(--trends-transparency) !important;
 }
@@ -1050,11 +1033,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     display: inline !important;
 }
 
-a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
-.sparkline {
-    background: #33334d !important;
-}
-
 .page-header {
     background: var(--element-color) !important;
     border-radius: 20px !important;
@@ -1093,13 +1071,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     .admin-wrapper .sidebar__toggle {
         background: var(--element-color) !important;
     }
-}
-
-.floating-action-button,
-.floating-action-button:active,
-.floating-action-button:focus,
-.floating-action-button:hover {
-    background: var(--accent-color);
 }
 
 .drawer__inner__mastodon {
@@ -1198,11 +1169,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 }
 #mastodon .compose-form__upload-thumbnail,  .public-layout .compose-form__upload-thumbnail,  .modal-layout .compose-form__upload-thumbnail,  #mastodon .button,  .public-layout .button,  .modal-layout .button,  #mastodon button:not(.column-header__button),  .public-layout button:not(.column-header__button),  .modal-layout button:not(.column-header__button),  #mastodon video,  .public-layout video,  .modal-layout video,  #mastodon input,  .public-layout input,  .modal-layout input,  #mastodon iframe,  .public-layout iframe,  .modal-layout iframe,  #mastodon .privacy-dropdown__dropdown,  .public-layout .privacy-dropdown__dropdown,  .modal-layout .privacy-dropdown__dropdown,  #mastodon .react-toggle-track,  .public-layout .react-toggle-track,  .modal-layout .react-toggle-track,  #mastodon .reply-indicator,  .public-layout .reply-indicator,  .modal-layout .reply-indicator,  #mastodon .compose-form__warning,  .public-layout .compose-form__warning,  .modal-layout .compose-form__warning  {
     border-radius:  var(--radius) !important;
-}
-#mastodon button:focus-visible,  .public-layout button:focus-visible,  .modal-layout button:focus-visible,  #mastodon .focusable:focus-visible,  .public-layout .focusable:focus-visible,  .modal-layout .focusable:focus-visible,  #mastodon a:focus-visible,  .public-layout a:focus-visible,  .modal-layout a:focus-visible,  #mastodon .media-gallery__item-thumbnail:focus-visible,  .public-layout .media-gallery__item-thumbnail:focus-visible,  .modal-layout .media-gallery__item-thumbnail:focus-visible  {
-    box-shadow:  inset 0 0 0 2px #dc7b18;
-    outline:  2px #dc7b18 solid;
-    outline-offset:  -2px;
 }
 #mastodon *,  .public-layout *,  .modal-layout *  {
     border-color:  var(--border-color) !important;
@@ -1576,16 +1542,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     font-weight:  inherit;
     vertical-align:  unset;
 }
-#mastodon .account__header__fields.account__header__account-note.account__header__account-note:focus-within,  .public-layout .account__header__fields.account__header__account-note.account__header__account-note:focus-within,  .modal-layout .account__header__fields.account__header__account-note.account__header__account-note:focus-within,  #mastodon .account__header__account-note.account__header__account-note.account__header__account-note:focus-within,  .public-layout .account__header__account-note.account__header__account-note.account__header__account-note:focus-within,  .modal-layout .account__header__account-note.account__header__account-note.account__header__account-note:focus-within  {
-    padding:  0.5em 0.7em !important;
-    margin-inline:  -5px !important;
-    border:  1px solid;
-}
-#mastodon .account__header__fields.account__header__account-note.account__header__account-note:not(:focus-within),  .public-layout .account__header__fields.account__header__account-note.account__header__account-note:not(:focus-within),  .modal-layout .account__header__fields.account__header__account-note.account__header__account-note:not(:focus-within),  #mastodon .account__header__account-note.account__header__account-note.account__header__account-note:not(:focus-within),  .public-layout .account__header__account-note.account__header__account-note.account__header__account-note:not(:focus-within),  .modal-layout .account__header__account-note.account__header__account-note.account__header__account-note:not(:focus-within)  {
-    border-radius:  0;
-    border-bottom:  1px solid;
-    padding-bottom:  0.4em !important;
-}
 #mastodon .account__header__fields.account__header__account-note.account__header__account-note textarea,  .public-layout .account__header__fields.account__header__account-note.account__header__account-note textarea,  .modal-layout .account__header__fields.account__header__account-note.account__header__account-note textarea,  #mastodon .account__header__account-note.account__header__account-note.account__header__account-note textarea,  .public-layout .account__header__account-note.account__header__account-note.account__header__account-note textarea,  .modal-layout .account__header__account-note.account__header__account-note.account__header__account-note textarea  {
     width:  0;
     flex-grow:  1;
@@ -1687,11 +1643,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     pointer-events:  none;
     transition:  background-color 0.2s;
 }
-@media (min-width: 895px)  {
-    #mastodon .focusable:not(.detailed-status__wrapper):hover::before,  .public-layout .focusable:not(.detailed-status__wrapper):hover::before,  .modal-layout .focusable:not(.detailed-status__wrapper):hover::before,  #mastodon .entry:not(.detailed-status__wrapper):hover::before,  .public-layout .entry:not(.detailed-status__wrapper):hover::before,  .modal-layout .entry:not(.detailed-status__wrapper):hover::before,  #mastodon .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):hover::before,  .public-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):hover::before,  .modal-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):hover::before,  #mastodon .trends__item:not(.detailed-status__wrapper):hover::before,  .public-layout .trends__item:not(.detailed-status__wrapper):hover::before,  .modal-layout .trends__item:not(.detailed-status__wrapper):hover::before,  #mastodon .story:not(.detailed-status__wrapper):hover::before,  .public-layout .story:not(.detailed-status__wrapper):hover::before,  .modal-layout .story:not(.detailed-status__wrapper):hover::before,  #mastodon .account-card:not(.detailed-status__wrapper):hover::before,  .public-layout .account-card:not(.detailed-status__wrapper):hover::before,  .modal-layout .account-card:not(.detailed-status__wrapper):hover::before,  #mastodon :not(.focusable) > .account:not(.detailed-status__wrapper):hover::before,  .public-layout :not(.focusable) > .account:not(.detailed-status__wrapper):hover::before,  .modal-layout :not(.focusable) > .account:not(.detailed-status__wrapper):hover::before,  #mastodon .timeline-hint:not(.detailed-status__wrapper):hover::before,  .public-layout .timeline-hint:not(.detailed-status__wrapper):hover::before,  .modal-layout .timeline-hint:not(.detailed-status__wrapper):hover::before,  #mastodon .focusable:not(.detailed-status__wrapper):focus-within::before,  .public-layout .focusable:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .focusable:not(.detailed-status__wrapper):focus-within::before,  #mastodon .entry:not(.detailed-status__wrapper):focus-within::before,  .public-layout .entry:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .entry:not(.detailed-status__wrapper):focus-within::before,  #mastodon .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):focus-within::before,  .public-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper):focus-within::before,  #mastodon .trends__item:not(.detailed-status__wrapper):focus-within::before,  .public-layout .trends__item:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .trends__item:not(.detailed-status__wrapper):focus-within::before,  #mastodon .story:not(.detailed-status__wrapper):focus-within::before,  .public-layout .story:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .story:not(.detailed-status__wrapper):focus-within::before,  #mastodon .account-card:not(.detailed-status__wrapper):focus-within::before,  .public-layout .account-card:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .account-card:not(.detailed-status__wrapper):focus-within::before,  #mastodon :not(.focusable) > .account:not(.detailed-status__wrapper):focus-within::before,  .public-layout :not(.focusable) > .account:not(.detailed-status__wrapper):focus-within::before,  .modal-layout :not(.focusable) > .account:not(.detailed-status__wrapper):focus-within::before,  #mastodon .timeline-hint:not(.detailed-status__wrapper):focus-within::before,  .public-layout .timeline-hint:not(.detailed-status__wrapper):focus-within::before,  .modal-layout .timeline-hint:not(.detailed-status__wrapper):focus-within::before  {
-        background-color:  var(--hover-color);
-    }
-}
 .explore__links  {
     padding:  10px !important;
     display:  flex;
@@ -1730,9 +1681,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 }
 .explore__links .trends__item .trends__item__sparkline svg path:first-child  {
     transform-origin:  center;
-}
-.explore__links .trends__item:hover svg path:first-child,  .explore__links .trends__item:focus-within svg path:first-child  {
-    transform:  scale(2);
 }
 #mastodon .focusable.trends__item,  .public-layout .focusable.trends__item,  .modal-layout .focusable.trends__item,  #mastodon .entry.trends__item,  .public-layout .entry.trends__item,  .modal-layout .entry.trends__item,  #mastodon .statuses-grid__item .detailed-status.trends__item,  .public-layout .statuses-grid__item .detailed-status.trends__item,  .modal-layout .statuses-grid__item .detailed-status.trends__item,  #mastodon .trends__item.trends__item,  .public-layout .trends__item.trends__item,  .modal-layout .trends__item.trends__item,  #mastodon .story.trends__item,  .public-layout .story.trends__item,  .modal-layout .story.trends__item,  #mastodon .account-card.trends__item,  .public-layout .account-card.trends__item,  .modal-layout .account-card.trends__item,  #mastodon :not(.focusable) > .account.trends__item,  .public-layout :not(.focusable) > .account.trends__item,  .modal-layout :not(.focusable) > .account.trends__item,  #mastodon .timeline-hint.trends__item,  .public-layout .timeline-hint.trends__item,  .modal-layout .timeline-hint.trends__item,  #mastodon .focusable.story,  .public-layout .focusable.story,  .modal-layout .focusable.story,  #mastodon .entry.story,  .public-layout .entry.story,  .modal-layout .entry.story,  #mastodon .statuses-grid__item .detailed-status.story,  .public-layout .statuses-grid__item .detailed-status.story,  .modal-layout .statuses-grid__item .detailed-status.story,  #mastodon .trends__item.story,  .public-layout .trends__item.story,  .modal-layout .trends__item.story,  #mastodon .story.story,  .public-layout .story.story,  .modal-layout .story.story,  #mastodon .account-card.story,  .public-layout .account-card.story,  .modal-layout .account-card.story,  #mastodon :not(.focusable) > .account.story,  .public-layout :not(.focusable) > .account.story,  .modal-layout :not(.focusable) > .account.story,  #mastodon .timeline-hint.story,  .public-layout .timeline-hint.story,  .modal-layout .timeline-hint.story  {
     padding:  10px;
@@ -1864,9 +1812,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     width:  calc(100% + 150px);
     text-align:  unset;
     font-size:  0.8em;
-}
-#mastodon .status__content__spoiler-link:hover,  .public-layout .status__content__spoiler-link:hover,  .modal-layout .status__content__spoiler-link:hover,  #mastodon .status__content__spoiler-link:focus,  .public-layout .status__content__spoiler-link:focus,  .modal-layout .status__content__spoiler-link:focus  {
-    background-color:  var(--hover-color);
 }
 #mastodon .media-gallery,  .public-layout .media-gallery,  .modal-layout .media-gallery,  #mastodon .video-player,  .public-layout .video-player,  .modal-layout .video-player,  #mastodon .status-card.horizontal.interactive,  .public-layout .status-card.horizontal.interactive,  .modal-layout .status-card.horizontal.interactive,  #mastodon .status-card,  .public-layout .status-card,  .modal-layout .status-card,  #mastodon .audio-player,  .public-layout .audio-player,  .modal-layout .audio-player,  #mastodon .picture-in-picture-placeholder,  .public-layout .picture-in-picture-placeholder,  .modal-layout .picture-in-picture-placeholder  {
     box-shadow:  var(--shadow-low);
@@ -2114,9 +2059,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     opacity:  1 !important;
     font-weight:  600;
 }
-#mastodon .navigation-panel .column-link:hover:before,  .public-layout .navigation-panel .column-link:hover:before,  .modal-layout .navigation-panel .column-link:hover:before,  #mastodon .navigation-panel .column-link:focus:before,  .public-layout .navigation-panel .column-link:focus:before,  .modal-layout .navigation-panel .column-link:focus:before  {
-    opacity:  1 !important;
-}
 }
 @media (min-width: 895px)  {
     #mastodon .getting-started__trends,  .public-layout .getting-started__trends,  .modal-layout .getting-started__trends  {
@@ -2358,9 +2300,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
     scroll-snap-align:  start;
     box-shadow:  var(--shadow);
     transition:  background-color 0.2s,  box-shadow 0.2s;
-}
-#mastodon.public-layout .table-of-contents > li:hover,  .public-layout.public-layout .table-of-contents > li:hover,  .modal-layout.public-layout .table-of-contents > li:hover,  #mastodon.public-layout .table-of-contents > li:focus-within,  .public-layout.public-layout .table-of-contents > li:focus-within,  .modal-layout.public-layout .table-of-contents > li:focus-within  {
-    background-color:  var(--hover-color);
 }
 #mastodon.public-layout .table-of-contents > li ul,  .public-layout.public-layout .table-of-contents > li ul,  .modal-layout.public-layout .table-of-contents > li ul  {
     border:  0 !important;
