@@ -5,3 +5,139 @@
 .sidebar__toggle__logo {
   padding: 10px;
 }
+
+.logo-container h1 a {
+  background: transparent url('https://cdn.koyu.space/assets/pb-icon.svg') no-repeat bottom/100% auto !important;
+  padding: 79px;
+}
+
+.public-layout .header .brand {
+  background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat center/160% auto !important;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.landing-page__logo {
+  background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat bottom/100% auto !important;
+  padding: 30px;
+}
+
+@media(min-width:800px) {
+  a[href="/"]:not(.logofont):not(.button) {
+    background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat center/75% auto !important;
+    box-sizing: border-box;
+    display: block;
+    margin-left: -24px;
+    margin-top: 1px;
+  }
+}
+
+@media(max-width:800px) {
+  a[href="/"]:not(.button) {
+    background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat top/50% auto !important;
+    box-sizing: border-box;
+    display: block;
+    margin-left: -160px;
+    margin-top: 8px;
+  }
+}
+
+.brand {
+  background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat top/170% auto !important;
+  padding: 60px;
+  width: 90px;
+}
+
+.public-layout .footer .brand {
+  display: inline-block;
+  padding: 30px;
+}
+
+.landing-page h1 small:after {
+  content: "A cute Mastodon server!";
+  visibility: visible;
+  display: block;
+  position: absolute;
+}
+
+img[alt="Mastodon"],
+.landing-page h1 small,
+a[href="/"] svg {
+  visibility: hidden;
+}
+
+.modal-layout__mastodon,
+.public-layout .header .brand svg,
+.brand__tagline,
+a[href="https://joinmastodon.org/"],
+.landing-page__forms .button[href="https://joinmastodon.org"],
+.landing__brand svg,
+.public-layout .footer .brand svg,
+.logo-container h1 svg {
+  display: none;
+}
+
+a.logofont {
+  background: transparent !important;
+}
+
+.button.logo-button svg {
+  display: none;
+}
+
+.logo-container > h1:nth-child(1) > a:nth-child(1) {
+  background-size: 160% !important;
+}
+
+.logo-container {
+  margin: 0 !important;
+}
+
+.column-title .logo > use {
+  visibility: hidden;
+}
+
+.column-title .logo {
+  background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat top/100% auto !important;
+}
+
+.column-actions {
+  padding: 40px;
+}
+
+.column-actions__background {
+  display: none;
+}
+
+.scrollable.follow-recommendations-container {
+  background-image: url(https://cdn.koyu.space/assets/pb-icon.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 20%;
+  background-position-y: 10px;
+}
+
+.follow-recommendations-container > .column-title > svg {
+  visibility: hidden;
+}
+
+.logo-container h1 {
+  display: auto;
+}
+
+b {
+  font-weight: bold !important;
+}
+
+#web a {
+  background: transparent !important;
+  margin: 0;
+}
+
+.announcements__mastodon {
+  display: none;
+}
+
+.announcements__container {
+  width: calc(100% - 0px);
+}
