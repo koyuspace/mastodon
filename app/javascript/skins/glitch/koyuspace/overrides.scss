@@ -63,7 +63,7 @@
 .account__avatar-overlay-overlay,
 .account__avatar-overlay-base,
 .account__avatar-overlay-base img {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
 @media(min-width:800px) {
