@@ -30,7 +30,16 @@ const componentMap = {
   'NOTIFICATIONS': Notifications,
   'PUBLIC': PublicTimeline,
   'REMOTE': PublicTimeline,
-  'COMMUNITY': CommunityT<ColumnLink transparent to='/about' icon='ellipsis-h' text={intl.formatMessage(messages.about)} />olumnsArea extends ImmutablePureComponent {
+  'COMMUNITY': CommunityTimeline,
+  'HASHTAG': HashtagTimeline,
+  'DIRECT': DirectTimeline,
+  'FAVOURITES': FavouritedStatuses,
+  'BOOKMARKS': BookmarkedStatuses,
+  'LIST': ListTimeline,
+  'DIRECTORY': Directory,
+};
+
+export default class ColumnsArea extends ImmutablePureComponent {
 
   static contextTypes = {
     router: PropTypes.object.isRequired,
