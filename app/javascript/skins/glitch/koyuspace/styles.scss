@@ -1635,14 +1635,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 #mastodon .focusable.entry,  .public-layout .focusable.entry,  .modal-layout .focusable.entry,  #mastodon .entry.entry,  .public-layout .entry.entry,  .modal-layout .entry.entry,  #mastodon .statuses-grid__item .detailed-status.entry,  .public-layout .statuses-grid__item .detailed-status.entry,  .modal-layout .statuses-grid__item .detailed-status.entry,  #mastodon .trends__item.entry,  .public-layout .trends__item.entry,  .modal-layout .trends__item.entry,  #mastodon .story.entry,  .public-layout .story.entry,  .modal-layout .story.entry,  #mastodon .account-card.entry,  .public-layout .account-card.entry,  .modal-layout .account-card.entry,  #mastodon :not(.focusable) > .account.entry,  .public-layout :not(.focusable) > .account.entry,  .modal-layout :not(.focusable) > .account.entry,  #mastodon .timeline-hint.entry,  .public-layout .timeline-hint.entry,  .modal-layout .timeline-hint.entry  {
     margin-bottom:  10px;
 }
-#mastodon .focusable:not(.detailed-status__wrapper)::before,  .public-layout .focusable:not(.detailed-status__wrapper)::before,  .modal-layout .focusable:not(.detailed-status__wrapper)::before,  #mastodon .entry:not(.detailed-status__wrapper)::before,  .public-layout .entry:not(.detailed-status__wrapper)::before,  .modal-layout .entry:not(.detailed-status__wrapper)::before,  #mastodon .statuses-grid__item .detailed-status:not(.detailed-status__wrapper)::before,  .public-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper)::before,  .modal-layout .statuses-grid__item .detailed-status:not(.detailed-status__wrapper)::before,  #mastodon .trends__item:not(.detailed-status__wrapper)::before,  .public-layout .trends__item:not(.detailed-status__wrapper)::before,  .modal-layout .trends__item:not(.detailed-status__wrapper)::before,  #mastodon .story:not(.detailed-status__wrapper)::before,  .public-layout .story:not(.detailed-status__wrapper)::before,  .modal-layout .story:not(.detailed-status__wrapper)::before,  #mastodon .account-card:not(.detailed-status__wrapper)::before,  .public-layout .account-card:not(.detailed-status__wrapper)::before,  .modal-layout .account-card:not(.detailed-status__wrapper)::before,  #mastodon :not(.focusable) > .account:not(.detailed-status__wrapper)::before,  .public-layout :not(.focusable) > .account:not(.detailed-status__wrapper)::before,  .modal-layout :not(.focusable) > .account:not(.detailed-status__wrapper)::before,  #mastodon .timeline-hint:not(.detailed-status__wrapper)::before,  .public-layout .timeline-hint:not(.detailed-status__wrapper)::before,  .modal-layout .timeline-hint:not(.detailed-status__wrapper)::before  {
-    content:  "";
-    position:  absolute;
-    inset:  0;
-    bottom:  1px;
-    pointer-events:  none;
-    transition:  background-color 0.2s;
-}
 .explore__links  {
     padding:  10px !important;
     display:  flex;
@@ -1765,25 +1757,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 }
 #mastodon .status__info .display-name strong,  .public-layout .status__info .display-name strong,  .modal-layout .status__info .display-name strong  {
     font-weight:  600;
-}
-#mastodon .focusable:not(.detailed-status__wrapper) .status__content,  .public-layout .focusable:not(.detailed-status__wrapper) .status__content,  .modal-layout .focusable:not(.detailed-status__wrapper) .status__content  {
-    overflow:  visible;
-}
-#mastodon .focusable:not(.detailed-status__wrapper) .status__content .status__content__text,  .public-layout .focusable:not(.detailed-status__wrapper) .status__content .status__content__text,  .modal-layout .focusable:not(.detailed-status__wrapper) .status__content .status__content__text  {
-    max-height:  inherit !important;
-    overflow:  hidden;
-}
-#mastodon .focusable:not(.detailed-status__wrapper) .status__content::before,  .public-layout .focusable:not(.detailed-status__wrapper) .status__content::before,  .modal-layout .focusable:not(.detailed-status__wrapper) .status__content::before,  #mastodon .focusable:not(.detailed-status__wrapper) .status__content::after,  .public-layout .focusable:not(.detailed-status__wrapper) .status__content::after,  .modal-layout .focusable:not(.detailed-status__wrapper) .status__content::after  {
-    content:  "";
-    position:  absolute;
-    top:  100%;
-    left:  0;
-    right:  0;
-    height:  900px;
-}
-#mastodon .focusable:not(.detailed-status__wrapper) .status__content::after,  .public-layout .focusable:not(.detailed-status__wrapper) .status__content::after,  .modal-layout .focusable:not(.detailed-status__wrapper) .status__content::after  {
-    bottom:  100%;
-    top:  unset;
 }
 #mastodon .status__content,  .public-layout .status__content,  .modal-layout .status__content  {
     padding-top:  2px;
