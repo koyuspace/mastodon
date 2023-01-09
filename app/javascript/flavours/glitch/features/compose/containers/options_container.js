@@ -7,7 +7,7 @@ import {
   addPoll,
   removePoll,
 } from 'flavours/glitch/actions/compose';
-import { closeModal, openModal } from 'flavours/glitch/actions/modal';
+import { openModal } from 'flavours/glitch/actions/modal';
 
 function mapStateToProps (state) {
   const spoilersAlwaysOn = state.getIn(['local_settings', 'always_show_spoilers_field']);
@@ -47,7 +47,7 @@ const mapDispatchToProps = (dispatch) => ({
   },
 
   onDoodleOpen() {
-    dispatch(openModal('DOODLE', { noEsc: true }));
+    dispatch(openModal('DOODLE', { noEsc: true, noClose: true }));
   },
 
   onEmbedJitsi() {
@@ -56,15 +56,7 @@ const mapDispatchToProps = (dispatch) => ({
   },
 
   onEmbedTenor() {
-    dispatch(openModal('TENOR', { noEsc: true }));
-  },
-
-  onModalClose() {
-    dispatch(closeModal());
-  },
-
-  onModalOpen(props) {
-    dispatch(openModal('ACTIONS', props));
+    dispatch(openModal('TENOR', { noEsc: true, noClose: false }));
   },
 });
 

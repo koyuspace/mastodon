@@ -3,7 +3,7 @@
     .logo-container
       %h1
         = link_to root_path do
-          = image_tag '/img/pb-icon.svg', height: 128, alt: 'Logo'
+          = logo_as_symbol(:wordmark)
 
     .form-container
       = render 'flashes'

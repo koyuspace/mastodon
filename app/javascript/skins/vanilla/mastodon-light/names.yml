@@ -2,6 +2,10 @@ en:
   skins:
     vanilla:
       mastodon-light: koyu.space (light)
+cs:
+  skins:
+    vanilla:
+      mastodon-light: koyu.space (světlý)
 es:
   skins:
     glitch:
