@@ -59,6 +59,13 @@
     border-radius: 20px 20px 0 0;
 }
 
+.account__avatar,
+.account__avatar-overlay-overlay,
+.account__avatar-overlay-base,
+.account__avatar-overlay-base img {
+    border-radius: 50%;
+}
+
 @media(min-width:800px) {
     .search__input,
     .drawer--header,

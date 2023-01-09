@@ -1802,13 +1802,6 @@ a.sparkline:active, a.sparkline:focus, a.sparkline:hover,
 #mastodon .status.account .account__avatar-wrapper,  .public-layout .status.account .account__avatar-wrapper,  .modal-layout .status.account .account__avatar-wrapper,  #mastodon .columns-area__panels__main .account.account .account__avatar-wrapper,  .public-layout .columns-area__panels__main .account.account .account__avatar-wrapper,  .modal-layout .columns-area__panels__main .account.account .account__avatar-wrapper  {
     margin-left:  0px;
 }
-#mastodon .status__prepend,  .public-layout .status__prepend,  .modal-layout .status__prepend,  #mastodon .notification__message,  .public-layout .notification__message,  .modal-layout .notification__message  {
-    padding-top:  15px !important;
-    padding-bottom:  0 !important;
-    margin-bottom:  -10px !important;
-    z-index:  2;
-    position:  relative;
-}
 #mastodon .status__prepend .notification__display-name,  .public-layout .status__prepend .notification__display-name,  .modal-layout .status__prepend .notification__display-name,  #mastodon .notification__message .notification__display-name,  .public-layout .notification__message .notification__display-name,  .modal-layout .notification__message .notification__display-name  {
     white-space:  nowrap;
 }
