@@ -60,11 +60,6 @@ const initialState = ImmutableMap({
     loaded: false,
     items: ImmutableOrderedSet(),
   }),
-  trending: ImmutableMap({
-    next: null,
-    loaded: false,
-    items: ImmutableList(),
-  }),
 });
 
 const normalizeList = (state, listType, statuses, next) => {
