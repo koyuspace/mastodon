@@ -9,6 +9,7 @@ import FollowRequestsColumnLink from './follow_requests_column_link';
 import ListPanel from './list_panel';
 import NotificationsCounterIcon from './notifications_counter_icon';
 import SignInBanner from './sign_in_banner';
+import Icon from 'flavours/glitch/components/icon';
 import { preferencesLink, relationshipsLink } from 'flavours/glitch/utils/backend_links';
 import NavigationPortal from 'flavours/glitch/components/navigation_portal';
 
@@ -81,6 +82,8 @@ class NavigationPanel extends React.Component {
             <ColumnLink transparent to='/favourites' icon='star' text={intl.formatMessage(messages.favourites)} />
             <ColumnLink transparent to='/bookmarks' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} />
             <ColumnLink transparent to='/lists' icon='list-ul' text={intl.formatMessage(messages.lists)} />
+            <ColumnLink transparent href='https://links.koyu.space' icon="link" text="Links" />
+            <ColumnLink transparent to='/timelines/tag/koyujournal' icon="hashtag" text="#koyujournal" />
 
             <ListPanel />
 

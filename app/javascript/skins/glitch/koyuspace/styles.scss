@@ -126,33 +126,6 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
-.account {
-    padding: 10px;
-    /* border-bottom: 1px solid #393f4f; */
-    border-radius: 20px;
-    border: 0px solid;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #1c1f27;
-    box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
-    margin-bottom: 15px;
-}
-.account__section-headline a.active, .account__section-headline button.active, .notification__filter-bar a.active, .notification__filter-bar button.active {
-    color: #d9e1e8;
-    background-color: #0000003d;
-    border-radius: 30px;
-}
-.account__section-headline a.active:hover, .account__section-headline button.active:hover, .notification__filter-bar a.active:hover, .notification__filter-bar button.active:hover {
-    color: #d9e1e8;
-    background-color: #0000003d;
-    border-radius: 30px;
-}
-
-.account__section-headline a:hover {
-    background-color: #0000001f;
-    border-radius: 30px;
-}
 .load-more {
     display: block;
     color: #606984;
@@ -942,24 +915,6 @@ body {
 .hero-widget {
     background: var(--element-color);
     border-radius: 10px;
-}
-
-.hero-widget__footer,
-.hero-widget__text,
-.account,
-.column > .scrollable,
-.account__section-headline,
-.column-back-button,
-.column-header__back-button,
-.column-header__button,
-.column-header > button,
-.column-header__collapsible-inner,
-.search__input,
-body.admin,
-.sidebar-wrapper__inner,
-.admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover,
-.admin-wrapper .sidebar ul a:hover {
-    background: var(--element-color) !important;
 }
 
 .empty-column-indicator, .error-column, .follow_requests-unlocked_explanation,

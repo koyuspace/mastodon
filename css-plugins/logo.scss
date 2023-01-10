@@ -37,8 +37,8 @@
     background: transparent url(https://cdn.koyu.space/assets/pb-icon.svg) no-repeat top/50% auto !important;
     box-sizing: border-box;
     display: block;
-    margin-left: -160px;
-    margin-top: 8px;
+    margin-left: -90px;
+    margin-top: 60px;
   }
 }
 
@@ -140,4 +140,8 @@ b {
 
 .announcements__container {
   width: calc(100% - 0px);
+}
+
+#mastodon > div > div > div.ui__header > a > img {
+  visibility: hidden;
 }
