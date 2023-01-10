@@ -1,54 +1,19 @@
-import { connect } from 'react-redux';
 import React from 'react';
 import PropTypes from 'prop-types';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import ActionBar from './action_bar';
 import Avatar from 'flavours/glitch/components/avatar';
 import Permalink from 'flavours/glitch/components/permalink';
-import { openModal } from 'flavours/glitch/actions/modal';
 import { FormattedMessage } from 'react-intl';
 import ImmutablePureComponent from 'react-immutable-pure-component';
-import { profileLink, signOutLink } from 'flavours/glitch/utils/backend_links';
-import { defineMessages, injectIntl } from 'react-intl';
+import { profileLink } from 'flavours/glitch/utils/backend_links';
 
-const messages = defineMessages({
-  logoutMessage: { id: 'confirmations.logout.message', defaultMessage: 'Are you sure you want to log out?' },
-  logoutConfirm: { id: 'confirmations.logout.confirm', defaultMessage: 'Log out' },
-});
-
-const mapDispatchToProps = (dispatch, { intl }) => ({
-  onLogout () {
-    dispatch(openModal('CONFIRM', {
-      message: intl.formatMessage(messages.logoutMessage),
-      confirm: intl.formatMessage(messages.logoutConfirm),
-      onConfirm: () => logOut(),
-    }));
-  },
-});
-
-export default @injectIntl
-@connect(null, mapDispatchToProps)
-class NavigationBar extends React.PureComponent {
+export default class NavigationBar extends ImmutablePureComponent {
 
   static propTypes = {
     account: ImmutablePropTypes.map.isRequired,
     onLogout: PropTypes.func.isRequired,
   };
-
-  handleLogoutClick = e => {
-    const { dispatch, intl } = this.props;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    dispatch(openModal('CONFIRM', {
-      message: intl.formatMessage(messages.logoutMessage),
-      confirm: intl.formatMessage(messages.logoutConfirm),
-      onConfirm: () => logOut(),
-    }));
-
-    return false;
-  }
 
   render () {
     return (
@@ -68,8 +33,6 @@ class NavigationBar extends React.PureComponent {
               className='edit'
               href={profileLink}
             ><FormattedMessage id='navigation_bar.edit_profile' defaultMessage='Edit profile' /></a>
-          )} | { signOutLink !== undefined && (
-            <a href={signOutLink} onClick={this.handleLogoutClick}><FormattedMessage id='navigation_bar.logout' defaultMessage='Logout' /></a>
           )}
         </div>
 
