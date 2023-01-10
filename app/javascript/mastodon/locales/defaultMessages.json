@@ -895,7 +895,7 @@
         "id": "about.domain_blocks.no_reason_available"
       },
       {
-        "defaultMessage": "koyu.space is free, open-source software, and a trademark of koyu.space gGmbH.",
+        "defaultMessage": "koyu.space is free, open-source software.",
         "id": "about.disclaimer"
       }
     ],

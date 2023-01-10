@@ -1,7 +1,7 @@
 {
   "about.blocks": "Moderated servers",
   "about.contact": "Contact:",
-  "about.disclaimer": "koyu.space is free, open-source software, and a trademark of koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space is free, open-source software.",
   "about.domain_blocks.no_reason_available": "Reason not available",
   "about.domain_blocks.preamble": "koyu.space generally allows you to view content from and interact with users from any other server in the Fediverse. These are the exceptions that have been made on this particular server.",
   "about.domain_blocks.silenced.explanation": "You will generally not see profiles and content from this server, unless you explicitly look it up or opt into it by following.",

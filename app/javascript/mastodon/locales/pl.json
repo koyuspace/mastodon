@@ -1,7 +1,7 @@
 {
   "about.blocks": "Serwery moderowane",
   "about.contact": "Kontakt:",
-  "about.disclaimer": "koyu.space jest darmowym, otwartym oprogramowaniem i znakiem towarowym koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space jest darmowym, otwartym oprogramowaniem.",
   "about.domain_blocks.no_reason_available": "Powód niedostępny",
   "about.domain_blocks.preamble": "Domyślnie koyu.space pozwala ci przeglądać i reagować na treści od innych użytkowników z jakiegokolwiek serwera w fediwersum. Poniżej znajduje się lista wyjątków, które zostały stworzone na tym konkretnym serwerze.",
   "about.domain_blocks.silenced.explanation": "Zazwyczaj nie zobaczysz profili i treści z tego serwera, chyba że wyraźnie go poszukasz lub zdecydujesz się go obserwować.",

@@ -1,7 +1,7 @@
 {
   "about.blocks": "Модерирани сервери",
   "about.contact": "Контакт:",
-  "about.disclaimer": "koyu.space е бесплатен, open-source софтвер, и заштитен знак на koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space е бесплатен, open-source софтвер.",
   "about.domain_blocks.no_reason_available": "Reason not available",
   "about.domain_blocks.preamble": "koyu.space вообичаено ви дозволува да прегледувате содржини и комуницирате со корисниците од било кој сервер во федиверзумот. На овој сервер има исклучоци.",
   "about.domain_blocks.silenced.explanation": "Вообичаено нема да гледате профили и содржина од овој сервер, освен ако не го пребарате намерно, или го заследите.",

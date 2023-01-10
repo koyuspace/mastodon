@@ -1,7 +1,7 @@
 {
   "about.blocks": "Moderoidut palvelimet",
   "about.contact": "Yhteystiedot:",
-  "about.disclaimer": "koyu.space on vapaa avoimen lähdekoodin ohjelmisto ja koyu.space gGmbH:n tavaramerkki.",
+  "about.disclaimer": "koyu.space on vapaa avoimen lähdekoodin ohjelmisto.",
   "about.domain_blocks.no_reason_available": "Syytä ei ole ilmoitettu",
   "about.domain_blocks.preamble": "Yleisesti koyu.spacein avulla voidaan tarkastella minkä tahansa muun fediverse-palvelinten sisältöä ja vuorovaikuttaa eri palvelinten käyttäjien kanssa. Nämä ovat tälle palvelimelle määritetyt poikkeukset.",
   "about.domain_blocks.silenced.explanation": "Et yleensä näe tämän palvelimen profiileja ja sisältöä, jollet erityisesti etsi juuri sitä tai liity siihen seuraamalla.",

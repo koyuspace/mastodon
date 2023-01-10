@@ -1,7 +1,7 @@
 {
   "about.blocks": "Gemodereerde servers",
   "about.contact": "Contact:",
-  "about.disclaimer": "koyu.space is vrije, opensourcesoftware en een handelsmerk van koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space is vrije, opensourcesoftware.",
   "about.domain_blocks.no_reason_available": "Reden niet beschikbaar",
   "about.domain_blocks.preamble": "In het algemeen kun je met koyu.space berichten ontvangen van, en interactie hebben met gebruikers van elke server in de fediverse. Dit zijn de uitzonderingen die op deze specifieke server gelden.",
   "about.domain_blocks.silenced.explanation": "In het algemeen zie je geen berichten en accounts van deze server, tenzij je berichten expliciet opzoekt of ervoor kiest om een account van deze server te volgen.",

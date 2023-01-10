@@ -1,7 +1,7 @@
 {
   "about.blocks": "受管制的伺服器",
   "about.contact": "聯絡我們：",
-  "about.disclaimer": "koyu.space 是一個自由的開源軟體，是 koyu.space gGmbH 的註冊商標。",
+  "about.disclaimer": "koyu.space 是一個自由的開源軟體。",
   "about.domain_blocks.no_reason_available": "無法存取之原因",
   "about.domain_blocks.preamble": "koyu.space 一般來說允許您閱讀並和聯邦宇宙上任何伺服器的使用者互動。這些伺服器是這個站台設下的例外。",
   "about.domain_blocks.silenced.explanation": "一般來說您不會看到來自這個伺服器的個人檔案和內容，除非您明確地打開或著跟隨此個人檔案。",

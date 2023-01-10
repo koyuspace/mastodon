@@ -1,7 +1,7 @@
 {
   "about.blocks": "Moderierte Server",
   "about.contact": "Kontakt:",
-  "about.disclaimer": "koyu.space ist eine freie, quelloffene Software und eine Marke der koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space ist eine freie, quelloffene Software.",
   "about.domain_blocks.no_reason_available": "Grund unbekannt",
   "about.domain_blocks.preamble": "koyu.space erlaubt es dir grundsätzlich, alle Inhalte von allen Nutzer*innen auf allen Servern im Fediversum zu sehen und mit ihnen zu interagieren. Für diesen Server gibt es aber ein paar Ausnahmen.",
   "about.domain_blocks.silenced.explanation": "Alle Inhalte und Profile dieses Servers werden zunächst nicht angezeigt. Du kannst die Profile und Inhalte aber dennoch sehen, wenn du explizit nach diesen suchst oder diesen folgst.",

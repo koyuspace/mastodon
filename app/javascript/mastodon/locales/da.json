@@ -1,7 +1,7 @@
 {
   "about.blocks": "Modererede servere",
   "about.contact": "Kontakt:",
-  "about.disclaimer": "koyu.space er gratis, open-source software og et varemærke tilhørende koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space er gratis, open-source software.",
   "about.domain_blocks.no_reason_available": "Begrundelse ikke tilgængelig",
   "about.domain_blocks.preamble": "koyu.space tillader generelt, at man ser indhold og interagere med brugere fra enhver anden server i fediverset. Disse er undtagelserne, som er implementeret på netop denne server.",
   "about.domain_blocks.silenced.explanation": "Du vil generelt ikke se profiler og indhold fra denne server, medmindre du udtrykkeligt slår den op eller vælger den ved at følge.",

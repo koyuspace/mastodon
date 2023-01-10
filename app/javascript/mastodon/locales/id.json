@@ -1,7 +1,7 @@
 {
   "about.blocks": "Server yang dimoderasi",
   "about.contact": "Hubungi:",
-  "about.disclaimer": "koyu.space addalah perangkat lunak bebas dan sumber terbuka, dan adalah merek dagang dari koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space addalah perangkat lunak bebas dan sumber terbuka.",
   "about.domain_blocks.no_reason_available": "Alasan tidak tersedia",
   "about.domain_blocks.preamble": "koyu.space umumnya mengizinkan Anda untuk melihat konten dan berinteraksi dengan pengguna dari server lain di fediverse. Ini adalah pengecualian yang dibuat untuk beberapa server.",
   "about.domain_blocks.silenced.explanation": "Anda secara umum tidak melihat profil dan konten dari server ini, kecuali jika Anda mencarinya atau memilihnya dengan mengikuti secara eksplisit.",

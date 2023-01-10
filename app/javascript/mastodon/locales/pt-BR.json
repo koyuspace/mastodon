@@ -1,7 +1,7 @@
 {
   "about.blocks": "Servidores moderados",
   "about.contact": "Contato:",
-  "about.disclaimer": "koyu.space é um software de código aberto e livre, e uma marca registrada de koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space é um software de código aberto e livre.",
   "about.domain_blocks.no_reason_available": "Razão não disponível",
   "about.domain_blocks.preamble": "O koyu.space geralmente permite que você veja o conteúdo e interaja com usuários de qualquer outro servidor no fediverso. Estas são as exceções deste servidor em específico.",
   "about.domain_blocks.silenced.explanation": "Você geralmente não verá perfis e conteúdo deste servidor, a menos que você o procure explicitamente ou opte por seguir.",

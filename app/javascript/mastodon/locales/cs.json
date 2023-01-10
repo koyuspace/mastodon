@@ -1,7 +1,7 @@
 {
   "about.blocks": "Moderované servery",
   "about.contact": "Kontakt:",
-  "about.disclaimer": "koyu.space je svobodný software s otevřeným zdrojovým kódem a ochranná známka společnosti koyu.space gGmbH.",
+  "about.disclaimer": "koyu.space je svobodný software s otevřeným zdrojovým kódem.",
   "about.domain_blocks.no_reason_available": "Důvod není k dispozici",
   "about.domain_blocks.preamble": "koyu.space umožňuje prohlížet obsah a komunikovat s uživateli jakéhokoliv serveru ve fediversu. Pro tento konkrétní server se vztahují následující výjimky.",
   "about.domain_blocks.silenced.explanation": "Uživatele a obsah tohoto serveru neuvidíte, pokud je nebudete výslovně hledat nebo je nezačnete sledovat.",
