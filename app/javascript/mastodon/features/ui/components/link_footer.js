@@ -52,6 +52,8 @@ class LinkFooter extends React.PureComponent {
     const canInvite = signedIn && ((permissions & PERMISSION_INVITE_USERS) === PERMISSION_INVITE_USERS);
     const canProfileDirectory = profileDirectory;
 
+    const DividingCircle = <span aria-hidden>{' · '}</span>;
+
     return (
       <div className='link-footer'>
         <p>
@@ -60,23 +62,23 @@ class LinkFooter extends React.PureComponent {
           <Link key='about' to='/about'><FormattedMessage id='footer.about' defaultMessage='About' /></Link>
           {canInvite && (
             <>
-              {' · '}
+              {DividingCircle}
               <a key='invites' href='/invites' target='_blank'><FormattedMessage id='footer.invite' defaultMessage='Invite people' /></a>
             </>
           )}
           {canProfileDirectory && (
             <>
-              {' · '}
+              {DividingCircle}
               <Link key='directory' to='/directory'><FormattedMessage id='footer.directory' defaultMessage='Profiles directory' /></Link>
             </>
           )}
-          {' · '}
+          {DividingCircle}
           <Link key='privacy-policy' to='/privacy-policy'><FormattedMessage id='footer.privacy_policy' defaultMessage='Privacy policy' /></Link>
           {' · '}
           <Link to='/keyboard-shortcuts'><FormattedMessage id='footer.keyboard_shortcuts' defaultMessage='Keyboard shortcuts' /></Link>
-          {' · '}
+          {DividingCircle}
           <a href={source_url} rel='noopener noreferrer' target='_blank'><FormattedMessage id='footer.source_code' defaultMessage='View source code' /></a>
-          {' · '}
+          {DividingCircle}
           v{version}
         </p>
       </div>
