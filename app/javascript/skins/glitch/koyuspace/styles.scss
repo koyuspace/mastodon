@@ -2978,11 +2978,11 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     background: #334;
 }
 
-.button.button-tertiary,
-.button.button-secondary,
-.button.button-secondary:hover,
-.button.button-secondary:focus {
-    color: #fff;
+.button-tertiary,
+.button-secondary,
+.button-secondary:hover,
+.button-secondary:focus {
+    color: #fff !important;
 }
 
 .button {
@@ -3015,15 +3015,6 @@ body.lighter {
     border-radius: 20px;
 }
 
-.button,
-button {
-    color: #fff !important;
-}
-
 .dropdown-menu {
   border-radius: 12px;
-}
-
-button > .fa {
-  color: var(--accent-color) !important;
 }
