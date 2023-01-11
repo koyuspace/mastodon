@@ -83,7 +83,7 @@ class NavigationPanel extends React.Component {
             <ColumnLink transparent to='/bookmarks' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} />
             <ColumnLink transparent to='/lists' icon='list-ul' text={intl.formatMessage(messages.lists)} />
             <ColumnLink transparent href='https://links.koyu.space' icon="link" text="Links" />
-            <ColumnLink transparent to='/timelines/tag/koyujournal' icon="hashtag" text="#koyujournal" />
+            <ColumnLink transparent to='/tag/koyujournal' icon="hashtag" text="#koyujournal" />
 
             <ListPanel />
 
