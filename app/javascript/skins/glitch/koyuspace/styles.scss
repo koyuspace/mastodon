@@ -3023,3 +3023,7 @@ button {
 .dropdown-menu {
   border-radius: 12px;
 }
+
+button > .fa {
+  color: var(--accent-color) !important;
+}
