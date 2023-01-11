@@ -191,7 +191,7 @@ const NAVIGATION_PANEL_BREAKPOINT = 600 + (285 * 2) + (10 * 2);
                 { preferencesLink !== undefined && <ColumnLink icon='cog' text={intl.formatMessage(messages.preferences)} href={preferencesLink} /> }
                 <ColumnLink icon='cogs' text={intl.formatMessage(messages.settings)} onClick={openSettings} />
                 <a className='column-link' href='https://links.koyu.space'><Icon className='column-link__icon' id='link' fixedWidth /><FormattedMessage id='navigation_bar.links' defaultMessage='Links' /></a>
-                <NavLink className='column-link' to='/tag/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
+                <NavLink className='column-link' to='/tags/koyujournal'><Icon className='column-link__icon' id='hashtag' fixedWidth /><FormattedMessage id='navigation_bar.journal' defaultMessage='koyu.space Journal'></FormattedMessage></NavLink>
               </React.Fragment>
             )}
           </div>
