@@ -1219,14 +1219,12 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 }
 #mastodon .compose-form .compose-form__upload__actions,  .public-layout .compose-form .compose-form__upload__actions,  .modal-layout .compose-form .compose-form__upload__actions  {
     z-index:  5;
-    position:  relative;
 }
 #mastodon .compose-form .compose-form__upload-thumbnail,  .public-layout .compose-form .compose-form__upload-thumbnail,  .modal-layout .compose-form .compose-form__upload-thumbnail  {
     display:  flex;
     flex-direction:  column;
 }
 #mastodon .compose-form .compose-form__upload__warning,  .public-layout .compose-form .compose-form__upload__warning,  .modal-layout .compose-form .compose-form__upload__warning  {
-    position:  relative;
     display:  flex;
     justify-content:  center;
     background:  rgba(0,  0,  0,  0.7);
@@ -1456,7 +1454,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     overflow:  hidden;
     border:  1px solid var(--border-color-2);
     padding:  8px 12px !important;
-    position:  relative;
     overflow:  hidden;
 }
 #mastodon .account__header__fields dl dt,  .public-layout .account__header__fields dl dt,  .modal-layout .account__header__fields dl dt,  #mastodon .account__header__account-note dl dt,  .public-layout .account__header__account-note dl dt,  .modal-layout .account__header__account-note dl dt,  #mastodon .account__header__fields.account__header__account-note.account__header__account-note dt,  .public-layout .account__header__fields.account__header__account-note.account__header__account-note dt,  .modal-layout .account__header__fields.account__header__account-note.account__header__account-note dt,  #mastodon .account__header__account-note.account__header__account-note.account__header__account-note dt,  .public-layout .account__header__account-note.account__header__account-note.account__header__account-note dt,  .modal-layout .account__header__account-note.account__header__account-note.account__header__account-note dt,  #mastodon .account__header__fields dl dd,  .public-layout .account__header__fields dl dd,  .modal-layout .account__header__fields dl dd,  #mastodon .account__header__account-note dl dd,  .public-layout .account__header__account-note dl dd,  .modal-layout .account__header__account-note dl dd,  #mastodon .account__header__fields.account__header__account-note.account__header__account-note dd,  .public-layout .account__header__fields.account__header__account-note.account__header__account-note dd,  .modal-layout .account__header__fields.account__header__account-note.account__header__account-note dd,  #mastodon .account__header__account-note.account__header__account-note.account__header__account-note dd,  .public-layout .account__header__account-note.account__header__account-note.account__header__account-note dd,  .modal-layout .account__header__account-note.account__header__account-note.account__header__account-note dd  {
@@ -1615,7 +1612,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     height:  100%;
     float:  right;
     overflow:  visible !important;
-    position:  relative;
     z-index:  -1;
 }
 .explore__links .trends__item .trends__item__sparkline svg path  {
@@ -1695,16 +1691,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 }
 #mastodon .status__info,  .public-layout .status__info,  .modal-layout .status__info  {
     margin-top:  5px;
-}
-#mastodon .status__info > *,  .public-layout .status__info > *,  .modal-layout .status__info > *  {
-    position:  relative;
-    z-index:  2;
-}
-#mastodon .status__info .status__avatar,  .public-layout .status__info .status__avatar,  .modal-layout .status__info .status__avatar  {
-    top:  15px;
-    left:  15px !important;
-    right:  15px;
-    z-index:  2;
 }
 #mastodon .status__info .display-name strong,  .public-layout .status__info .display-name strong,  .modal-layout .status__info .display-name strong  {
     font-weight:  600;
@@ -1792,7 +1778,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     margin-top:  0.7em;
 }
 #mastodon .status__action-bar,  .public-layout .status__action-bar,  .modal-layout .status__action-bar,  #mastodon .detailed-status__action-bar,  .public-layout .detailed-status__action-bar,  .modal-layout .detailed-status__action-bar,  #mastodon .picture-in-picture__footer,  .public-layout .picture-in-picture__footer,  .modal-layout .picture-in-picture__footer  {
-    position:  relative;
     z-index:  2;
     pointer-events:  none;
 }
@@ -1877,7 +1862,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 }
 #mastodon .tabs-bar__wrapper .announcements__mastodon,  .public-layout .tabs-bar__wrapper .announcements__mastodon,  .modal-layout .tabs-bar__wrapper .announcements__mastodon,  #mastodon .column-back-button--slim .column-back-button .announcements__mastodon,  .public-layout .column-back-button--slim .column-back-button .announcements__mastodon,  .modal-layout .column-back-button--slim .column-back-button .announcements__mastodon  {
     z-index:  -1;
-    position:  relative;
 }
 }
 @media (min-width: 895px) and (max-width: 1175px)  {
@@ -1926,7 +1910,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     display:  flex;
     align-items:  center;
     margin-bottom:  14px;
-    position:  relative;
 }
 #mastodon .setting-toggle .setting-toggle__label,  .public-layout .setting-toggle .setting-toggle__label,  .modal-layout .setting-toggle .setting-toggle__label  {
     margin-bottom:  0 !important;
@@ -1960,7 +1943,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     max-height:  3.3em;
     min-height:  2.7em !important;
     padding-block:  0;
-    position:  relative;
     box-sizing:  border-box;
     opacity:  0.9;
     overflow:  hidden;
@@ -2041,7 +2023,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     padding:  0;
     margin:  20px;
     margin-bottom:  5px;
-    position:  relative;
 }
 #mastodon .getting-started .getting-started__wrapper .navigation-bar > *,  .public-layout .getting-started .getting-started__wrapper .navigation-bar > *,  .modal-layout .getting-started .getting-started__wrapper .navigation-bar > *  {
     flex-grow:  0;
@@ -2192,7 +2173,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     padding:  0 10px;
 }
 #mastodon.public-layout .grid-4 > div:not(.column-4),  .public-layout.public-layout .grid-4 > div:not(.column-4),  .modal-layout.public-layout .grid-4 > div:not(.column-4)  {
-    position:  relative;
     z-index:  2;
 }
 #mastodon.public-layout .grid-4 > div:not(.column-4).column-2,  .public-layout.public-layout .grid-4 > div:not(.column-4).column-2,  .modal-layout.public-layout .grid-4 > div:not(.column-4).column-2  {
@@ -2210,7 +2190,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     scroll-snap-type:  x mandatory;
     scroll-padding-inline-start:  30px;
     gap:  20px 30px;
-    position:  relative;
     background:  none !important;
     border:  0 !important;
     scroll-behavior:  smooth;
@@ -2446,7 +2425,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     flex-grow:  1 !important;
     flex-basis:  unset !important;
     padding-block:  20px;
-    position:  relative;
     border:  0;
     background:  none !important;
     transition:  transform 0.4s cubic-bezier(0,  0,  0,  4),  filter 0.1s;
