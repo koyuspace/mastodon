@@ -421,7 +421,6 @@ body {
 }
 /*account header bear*/
 .account__header__bar {
-    position: relative;
     background: var(--element-color);
     border-bottom: 0px;
 }
@@ -466,7 +465,6 @@ body {
     border-width: 0 10px 10px;
 }
 .notification, .status__wrapper {
-    position: relative;
     margin-bottom: 15px;
 }
 
@@ -784,7 +782,6 @@ body {
 /*hero widget*/
 .hero-widget__img {
     width: 100%;
-    position: relative;
     overflow: hidden;
     border-radius: 10px 10px 0 0;
     background: #000;
