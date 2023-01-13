@@ -98,17 +98,6 @@ body {
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
 }
-.notification.unread:before, .status__wrapper.unread:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    pointer-events: 0;
-    width: 100%;
-    height: 100%;
-    border-left: 2px solid var(--accent-color); /*color of unread notifications lines*/
-    pointer-events: none;
-}
 
 .account__section-headline button, .notification__filter-bar button {
     margin-top: 5px;
@@ -161,10 +150,6 @@ body {
 /*Search bar*/
 .search__input {
     border-radius: 30px;
-}
-.search__icon .fa {
-    position: absolute;
-    top: 14px;
 }
 
 /*toogle slider*/
@@ -339,20 +324,6 @@ body {
     border-radius: 50px;
     transition-duration: 0.5s;
 }
-/*Nav sidebar badges*/
-.icon-with-badge__badge {
-    position: absolute;
-    left: 9px;
-    top: -13px;
-    background: var(--accent-color); /*editable: https://cssgradient.io/*/
-    border: 2px solid #393f4f;
-    padding: 1px 6px;
-    border-radius: 70px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #fff;
-}
 /*image thumbnails in feed*/
 .media-gallery__item-thumbnail img, .media-gallery__preview {
     -o-object-fit: cover;
@@ -450,19 +421,6 @@ body {
 .account__section-headline a{
     border-radius: 30px;
     transition-duration: 0.3s;
-}
-.account__section-headline a.active:after, .account__section-headline a.active:before, .account__section-headline button.active:after, .account__section-headline button.active:before, .notification__filter-bar a.active:after, .notification__filter-bar a.active:before, .notification__filter-bar button.active:after, .notification__filter-bar button.active:before {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    transform: translateX(-50%);
-    border-color: transparent transparent transparent;
-    border-style: solid;
-    border-width: 0 10px 10px;
 }
 .notification, .status__wrapper {
     margin-bottom: 15px;
@@ -577,14 +535,6 @@ body {
 }
 .emoji-mart-anchor-selected:hover {
     color: var(--accent-color-hover);
-}
-.emoji-mart-anchor-bar {
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: var(--accent-color);
 }
 .emoji-picker-dropdown__menu {
     border-radius: 20px;
@@ -1112,9 +1062,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 .rtl textarea,  .rtl p  {
     text-align:  right;
     direction:  rtl;
-}
-#mastodon a,  .public-layout a,  .modal-layout a,  #mastodon button,  .public-layout button,  .modal-layout button,  #mastodon label,  .public-layout label,  .modal-layout label  {
-    user-select:  none;
 }
 #mastodon .button--block,  .public-layout .button--block,  .modal-layout .button--block  {
     font-weight:  700;
@@ -1935,31 +1882,8 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
 }
 }
 @media (min-width: 895px)  {
-    #mastodon .navigation-panel .column-link,  .public-layout .navigation-panel .column-link,  .modal-layout .navigation-panel .column-link  {
-    flex-grow:  2 !important;
-    display:  flex !important;
-    align-items:  center !important;
-    align-content:  center;
-    max-height:  3.3em;
-    min-height:  2.7em !important;
-    padding-block:  0;
-    box-sizing:  border-box;
-    opacity:  0.9;
-    overflow:  hidden;
-}
 #mastodon .navigation-panel .column-link .column-link__icon,  .public-layout .navigation-panel .column-link .column-link__icon,  .modal-layout .navigation-panel .column-link .column-link__icon,  .column-header > button .column-header__icon  {
     margin-inline-end:  1em !important;
-}
-#mastodon .navigation-panel .column-link::before,  .public-layout .navigation-panel .column-link::before,  .modal-layout .navigation-panel .column-link::before  {
-    content:  "" !important;
-    position:  absolute;
-    border-radius:  100px;
-    width:  unset !important;
-    height:  unset !important;
-    inset:  0px 0px !important;
-    opacity:  0 !important;
-    background-color:  rgba(150,  150,  150,  0.1);
-    transition:  opacity 0.2s;
 }
 #mastodon .navigation-panel .column-link.active,  .public-layout .navigation-panel .column-link.active,  .modal-layout .navigation-panel .column-link.active  {
     opacity:  1 !important;
@@ -1970,14 +1894,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     #mastodon .getting-started__trends,  .public-layout .getting-started__trends,  .modal-layout .getting-started__trends  {
     display:  unset !important;
 }
-}
-#mastodon .trends__item,  .public-layout .trends__item,  .modal-layout .trends__item  {
-    display:  flex !important;
-}
-#mastodon .trends__item__name a::before,  .public-layout .trends__item__name a::before,  .modal-layout .trends__item__name a::before  {
-    content:  "";
-    position:  absolute;
-    inset:  0;
 }
 #mastodon .trends__item__current,  .public-layout .trends__item__current,  .modal-layout .trends__item__current  {
     display:  none;
