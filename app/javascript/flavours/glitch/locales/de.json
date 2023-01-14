@@ -29,6 +29,8 @@
   "compose.attach": "Anhängen...",
   "compose.attach.doodle": "Etwas zeichnen",
   "compose.attach.upload": "Eine Datei hochladen",
+  "compose.attach.jitsi": "Anruf starten",
+  "compose.attach.gif": "GIF anhängen",
   "compose.content-type.html": "HTML",
   "compose.content-type.markdown": "Markdown",
   "compose.content-type.plain": "Unformatierter Text",
