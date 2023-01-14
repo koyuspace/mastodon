@@ -2,7 +2,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "We're sorry, but something went wrong with the Mastodon app.",
+        "defaultMessage": "We're sorry, but something went wrong with the koyu.space app.",
         "id": "web_app_crash.title"
       },
       {
@@ -156,7 +156,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Glitch-soc is free open source software forked from Mastodon.",
+        "defaultMessage": "Glitch-soc is free open source software forked from koyu.space.",
         "id": "about.fork_disclaimer"
       }
     ],
@@ -727,7 +727,7 @@
         "id": "settings.content_warnings_shared_state"
       },
       {
-        "defaultMessage": "Reproduce upstream Mastodon behavior by having the Content Warning button affect all copies of a post at once. This will prevent automatic collapsing of any copy of a toot with unfolded CW",
+        "defaultMessage": "Reproduce upstream koyu.space behavior by having the Content Warning button affect all copies of a post at once. This will prevent automatic collapsing of any copy of a toot with unfolded CW",
         "id": "settings.content_warnings_shared_state_hint"
       },
       {
@@ -735,7 +735,7 @@
         "id": "settings.content_warnings_media_outside"
       },
       {
-        "defaultMessage": "Reproduce upstream Mastodon behavior by having the Content Warning toggle not affect media attachments",
+        "defaultMessage": "Reproduce upstream koyu.space behavior by having the Content Warning toggle not affect media attachments",
         "id": "settings.content_warnings_media_outside_hint"
       },
       {
@@ -747,7 +747,7 @@
         "id": "settings.enable_content_warnings_auto_unfold"
       },
       {
-        "defaultMessage": "This setting is now controlled from Mastodon's {settings_page_link}",
+        "defaultMessage": "This setting is now controlled from koyu.space's {settings_page_link}",
         "id": "settings.deprecated_setting"
       },
       {
@@ -927,7 +927,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Use Mastodon preferences",
+        "defaultMessage": "Use koyu.space preferences",
         "id": "confirmations.deprecated_settings.confirm"
       },
       {
@@ -939,7 +939,7 @@
         "id": "settings.swipe_to_change_columns"
       },
       {
-        "defaultMessage": "Some of the glitch-soc device-specific {app_settings} you are using have been replaced by Mastodon {preferences} and will be overriden:",
+        "defaultMessage": "Some of the glitch-soc device-specific {app_settings} you are using have been replaced by koyu.space {preferences} and will be overriden:",
         "id": "confirmations.deprecated_settings.message"
       },
       {
@@ -974,7 +974,7 @@
         "id": "onboarding.page_one.welcome"
       },
       {
-        "defaultMessage": "{domain} is an \"instance\" of Mastodon. Mastodon is a network of independent servers joining up to make one larger social network. We call these servers instances.",
+        "defaultMessage": "{domain} is an \"instance\" of koyu.space. koyu.space is a network of independent servers joining up to make one larger social network. We call these servers instances.",
         "id": "onboarding.page_one.federation"
       },
       {
@@ -1022,7 +1022,7 @@
         "id": "onboarding.page_six.almost_done"
       },
       {
-        "defaultMessage": "{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of {Mastodon}. Glitchsoc is fully compatible with all Mastodon apps and instances. Glitchsoc is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
+        "defaultMessage": "{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of koyu.space. Glitchsoc is fully compatible with all koyu.space apps and instances. Glitchsoc is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
         "id": "onboarding.page_six.github"
       },
       {
