@@ -138,7 +138,7 @@ class BundleColumnError extends React.PureComponent {
     return (
       <Column bindToDocument={!multiColumn}>
         <div className='error-column'>
-          <GIF src='/oops.gif' staticSrc='/oops.png' className='error-column__image' />
+          <GIF src='/oops.png' staticSrc='/oops.png' className='error-column__image' />
 
           <div className='error-column__message'>
             <h1>{title}</h1>
