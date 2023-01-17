@@ -2886,7 +2886,7 @@ a {
   position: relative;
 }
 
-.icon-button {
+.icon-button:not(.media-modal__close):not(.media-modal__zoom-button) {
   position: relative !important;
   z-index: 1 !important;
 }
