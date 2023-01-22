@@ -1114,8 +1114,8 @@ en:
       title: Security verification failed
     '429': Too many requests
     '500':
-      content: We're sorry, but something went wrong on our end.
-      title: This page is not correct
+      content: We are currently on maintenance. Please try again in a few moments.
+      title: Something went wrong
     '503': The page could not be served due to a temporary server failure.
     noscript_html: To use the koyu.space web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for koyu.space for your platform.
   existing_username_validator:

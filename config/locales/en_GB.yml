@@ -575,8 +575,8 @@ en_GB:
       title: Security verification failed
     '429': Throttled
     '500':
-      content: We're sorry, but something went wrong on our end.
-      title: This page is not correct
+      content: We are currently on maintenance. Please try again in a few moments.
+      title: Something went wrong
     noscript_html: To use the koyu.space web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for koyu.space for your platform.
   exports:
     archive_takeout:
