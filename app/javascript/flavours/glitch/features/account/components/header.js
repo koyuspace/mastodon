@@ -322,8 +322,8 @@ class Header extends ImmutablePureComponent {
     }
 
     let role = null;
-    if (account.get('role')) {
-      role = (<div key='role' className={`account-role user-role-${account.getIn(['role', 'id'])}`}>{account.getIn(['role', 'name'])}</div>);
+    if (account.getIn(['roles', 0])) {
+      role = (<div key='role' className={`account-role user-role-${account.getIn(['roles', 0, 'id'])}`}>{account.getIn(['roles', 0, 'name'])}</div>);
     }
 
     return (
@@ -342,6 +342,7 @@ class Header extends ImmutablePureComponent {
           <div className='account__header__tabs'>
             <a className='avatar' href={account.get('avatar')} rel='noopener noreferrer' target='_blank' onClick={this.handleAvatarClick}>
               <Avatar account={suspended || hidden ? undefined : account} size={90} />
+              {role}
             </a>
 
             {!suspended && (

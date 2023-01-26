@@ -215,7 +215,7 @@
   line-height: 12px;
   font-weight: 500;
   color: $ui-secondary-color;
-  background-color: var(--user-role-accent);
+  background-color: var(--user-role-background, rgba($ui-secondary-color, 0.1));
   border: 1px solid var(--user-role-border, rgba($ui-secondary-color, 0.5));
 
   &.moderator {
