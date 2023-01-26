@@ -16,16 +16,6 @@ class REST::AccountSerializer < ActiveModel::Serializer
   attribute :silenced, key: :limited, if: :silenced?
   attribute :noindex, if: :local?
 
-  class RoleSerializer < ActiveModel::Serializer
-    attributes :id, :name, :color
-
-    def id
-      object.id.to_s
-    end
-  end
-
-  has_one :role, serializer: RoleSerializer, if: :local?
-
   class AccountDecorator < SimpleDelegator
     def self.model_name
       Account.model_name
