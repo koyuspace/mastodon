@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-      '+koyuspace-kb1120'
+      '+koyuspace-kb1121'
     end
 
     def to_a
