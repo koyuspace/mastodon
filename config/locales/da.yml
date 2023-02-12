@@ -4,7 +4,7 @@ da:
     about_mastodon_html: 'Fremtidens sociale netværk: Ingen annoncer, ingen virksomhedsovervågning, etisk design og decentralisering! Vær ejer af egne data med koyu.space!'
     contact_missing: Ikke angivet
     contact_unavailable: Utilgængelig
-    hosted_on: Mastodon hostet på %{domain}
+    hosted_on: koyu.space hostet på %{domain}
     title: Om
   accounts:
     follow: Følg
@@ -142,7 +142,7 @@ da:
       show:
         created_reports: Indsendte anmeldelser
         targeted_reports: Anmeldt af andre
-      silence: Brgræns
+      silence: Begræns
       silenced: Begrænset
       statuses: Indlæg
       strikes: Tidligere anmeldelser
@@ -603,7 +603,7 @@ da:
         delete: Slet
         placeholder: Beskriv udførte foranstaltninger eller andre relevante opdateringer...
         title: Notater
-      notes_description_html: Se og skriv notater til andre moderatorer og dit fremtid selv
+      notes_description_html: Se og skriv notater til andre moderatorer og dit fremtidige jeg
       processed_msg: 'Anmeldelse #%{id} er blev behandlet'
       quick_actions_description_html: 'Træf en hurtig foranstaltning eller rul ned for at se anmeldt indhold:'
       remote_user_placeholder: fjernbrugeren fra %{instance}
@@ -1664,7 +1664,7 @@ da:
       final_step: 'Begynd at poste! Selv uden følgere vil offentlige indlæg kunne ses af andre f.eks. på den lokale tidslinje og i hashtags. Man kan introducere sig selv via hastagget #introductions.'
       full_handle: Dit fulde brugernavn
       full_handle_hint: Dette er, hvad du oplyser til dine venner, så de kan sende dig beskeder eller følge dig fra andre servere.
-      subject: Velkommen til Mastodon
+      subject: Velkommen til koyu.space
       title: Velkommen ombord, %{name}!
   users:
     follow_limit_reached: Du kan maks. følge %{limit} personer
