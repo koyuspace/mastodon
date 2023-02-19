@@ -27,7 +27,7 @@
   "notifications.marked_clear_confirmation": "Czy na pewno chcesz bezpowrtonie usunąć wszystkie powiadomienia?",
   "onboarding.page_one.federation": "{domain} jest 'instancją' Mastodona. koyu.space to sieć działających niezależnie serwerów tworzących jedną sieć społecznościową. Te serwery nazywane są instancjami.",
   "onboarding.page_one.welcome": "Witamy na {domain}!",
-  "onboarding.page_six.github": "{domain} jest oparty na Glitchsoc. Glitchsoc jest {forkiem} koyu.spacea kompatybilnym z każdym klientem i aplikacją Mastodona. Glitchsoc jest całkowicie wolnym i otwartoźródłowym oprogramowaniem. Możesz zgłaszać błędy i sugestie funkcji oraz współtworzyć projekt na {github}.",
+  "onboarding.page_six.github": "{domain} jest oparty na koyu.space. koyu.space jest {forkiem} koyu.spacea kompatybilnym z każdym klientem i aplikacją Mastodona. koyu.space jest całkowicie wolnym i otwartoźródłowym oprogramowaniem. Możesz zgłaszać błędy i sugestie funkcji oraz współtworzyć projekt na {github}.",
   "settings.auto_collapse": "Automatyczne zwijanie",
   "settings.auto_collapse_all": "Wszystko",
   "settings.auto_collapse_lengthy": "Długie wpisy",

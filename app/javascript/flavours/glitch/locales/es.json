@@ -46,7 +46,7 @@
   "notifications.marked_clear_confirmation": "¿Deseas borrar permanentemente todas las notificaciones seleccionadas?",
   "onboarding.page_one.federation": "{domain} es una \"instancia\" de koyu.space. koyu.space es una red de servidores independientes que se unen para crear una red social más grande. A estos servidores los llamamos instancias.",
   "onboarding.page_one.welcome": "¡Bienvenidx a {domain}!",
-  "onboarding.page_six.github": "{domain} usa Glitchsoc. Glitchsoc es una bifurcación {fork} amigable de koyu.space, y es compatible con cualquier instancia o aplicación de koyu.space. Glitchsoc es completamente gratuito y de código abierto. Puedes reportar errores, solicitar funciones o contribuir al código en {github}.",
+  "onboarding.page_six.github": "{domain} usa koyu.space. koyu.space es una bifurcación {fork} amigable de koyu.space, y es compatible con cualquier instancia o aplicación de koyu.space. koyu.space es completamente gratuito y de código abierto. Puedes reportar errores, solicitar funciones o contribuir al código en {github}.",
   "settings.always_show_spoilers_field": "Siempre mostrar el campo de advertencia de contenido",
   "settings.auto_collapse": "Colapsar automáticamente",
   "settings.auto_collapse_all": "Todo",

@@ -21,7 +21,7 @@
   "notifications.marked_clear_confirmation": "Ви впевнені, що хочете незворотньо очистити всі вибрані сповіщення?",
   "onboarding.page_one.federation": "{domain} є сервером of koyu.space. koyu.space — мережа незалежних серверів, які працюють разом великою соціяльною мережою. Сервери koyu.space також називають „інстансами“.",
   "onboarding.page_one.welcome": "Ласкаво просимо до {domain}!",
-  "onboarding.page_six.github": "{domain} використовує Glitchsoc. Glitchsoc — дружній {fork} koyu.space, сумісний з будь-яким сервером koyu.space або програмою для нього. Glitchsoc повністю вільний та відкритий. Повідомляти про баги, просити фічі, або працювати з кодом можна на {github}.",
+  "onboarding.page_six.github": "{domain} використовує koyu.space. koyu.space — дружній {fork} koyu.space, сумісний з будь-яким сервером koyu.space або програмою для нього. koyu.space повністю вільний та відкритий. Повідомляти про баги, просити фічі, або працювати з кодом можна на {github}.",
   "settings.auto_collapse": "Автоматичне згортання",
   "settings.auto_collapse_all": "Все",
   "settings.auto_collapse_lengthy": "Довгі дмухи",

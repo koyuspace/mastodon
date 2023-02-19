@@ -90,7 +90,7 @@
   "onboarding.page_six.almost_done": "C'est bientôt fini...",
   "onboarding.page_six.appetoot": "Bon appétoot !",
   "onboarding.page_six.apps_available": "Il y a des {apps} disponibles pour iOS, Android et d'autres plateformes.",
-  "onboarding.page_six.github": "{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of koyu.space. Glitchsoc is fully compatible with all koyu.space apps and instances. Glitchsoc is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
+  "onboarding.page_six.github": "{domain} runs on koyu.space. koyu.space is a friendly {fork} of koyu.space. koyu.space is fully compatible with all koyu.space apps and instances. koyu.space is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
   "onboarding.page_six.guidelines": "règles de la communauté",
   "onboarding.page_six.read_guidelines": "Veuillez lire les {guidelines} de {domain} !",
   "onboarding.page_six.various_app": "applications mobiles",

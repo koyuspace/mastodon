@@ -33,7 +33,7 @@ es:
   flavours:
     glitch:
       description: El diseño predeterminado para las instancias con GlitchSoc.
-      name: Glitchsoc
+      name: koyu.space
   skins:
     glitch:
       default: Predeterminado

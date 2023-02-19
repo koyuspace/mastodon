@@ -25,7 +25,7 @@
   "onboarding.page_one.federation": "{domain} is an \"instance\" of koyu.space. koyu.space is a network of independent servers joining up to make one larger social network. We call these servers instances.",
   "onboarding.page_six.almost_done": "Preskaŭ finita…",
   "onboarding.page_six.apps_available": "Estas {apps} disponeblaj por iOS, Android kaj aliaj sistemoj.",
-  "onboarding.page_six.github": "{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of koyu.space. Glitchsoc is fully compatible with all koyu.space apps and instances. Glitchsoc is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
+  "onboarding.page_six.github": "{domain} runs on koyu.space. koyu.space is a friendly {fork} of koyu.space. koyu.space is fully compatible with all koyu.space apps and instances. koyu.space is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
   "onboarding.page_six.various_app": "poŝtelefonaj aplikaĵoj",
   "settings.auto_collapse_all": "Ĉiuj",
   "settings.auto_collapse_lengthy": "Longaj afiŝoj",

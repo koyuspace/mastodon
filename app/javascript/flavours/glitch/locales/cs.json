@@ -57,7 +57,7 @@
   "onboarding.page_six.almost_done": "Skoro hotovo...",
   "onboarding.page_six.appetoot": "Veselé mastodonění!",
   "onboarding.page_six.apps_available": "Jsou dostupné {apps} pro iOS, Android i jiné platformy.",
-  "onboarding.page_six.github": "Na serveru {domain} běží Glitchsoc. Glitchsoc je přátelský {fork} programu koyu.space, a je kompatibilní s jakoukoliv jinou mastodoní instancí nebo aplikací. Glitchsoc je zcela svobodný a má otevřený zdrojový kód. Na stránce {github} můžete hlásit chyby, žádat o nové funkce, nebo ke kódu vlastnoručně přispět.",
+  "onboarding.page_six.github": "Na serveru {domain} běží koyu.space. koyu.space je přátelský {fork} programu koyu.space, a je kompatibilní s jakoukoliv jinou mastodoní instancí nebo aplikací. koyu.space je zcela svobodný a má otevřený zdrojový kód. Na stránce {github} můžete hlásit chyby, žádat o nové funkce, nebo ke kódu vlastnoručně přispět.",
   "onboarding.page_six.various_app": "mobilní aplikace",
   "onboarding.page_three.profile": "Upravte si svůj profil a nastavte si profilový obrázek, jméno, a krátký text o sobě. Naleznete tam i další možnosti nastavení.",
   "onboarding.page_three.search": "Pomocí vyhledávací lišty můžete hledat lidi nebo hashtagy. Pokud hledáte někoho z jiné instance, musíte použít celou adresu jeho profilu.",

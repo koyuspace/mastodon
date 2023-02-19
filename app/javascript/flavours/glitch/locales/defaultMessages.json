@@ -1022,7 +1022,7 @@
         "id": "onboarding.page_six.almost_done"
       },
       {
-        "defaultMessage": "{domain} runs on Glitchsoc. Glitchsoc is a friendly {fork} of koyu.space. Glitchsoc is fully compatible with all koyu.space apps and instances. Glitchsoc is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
+        "defaultMessage": "{domain} runs on koyu.space. koyu.space is a friendly {fork} of koyu.space. koyu.space is fully compatible with all koyu.space apps and instances. koyu.space is free open-source software. You can report bugs, request features, or contribute to the code on {github}.",
         "id": "onboarding.page_six.github"
       },
       {

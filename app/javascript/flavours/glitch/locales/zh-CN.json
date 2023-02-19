@@ -81,7 +81,7 @@
   "onboarding.page_six.almost_done": "就快完成了...",
   "onboarding.page_six.appetoot": "尽情享用吧！",
   "onboarding.page_six.apps_available": "有适用于 iOS、Android 和其他平台的应用程序。",
-  "onboarding.page_six.github": "{domain} 在 Glitchsoc 上运行。Glitchsoc 是 koyu.space 的一个友好 {fork}，与任何 koyu.space 实例或应用兼容。Glitchsoc 是完全免费和开源的。你可以在 {github} 上报告错误、请求功能或贡献代码。",
+  "onboarding.page_six.github": "{domain} 在 koyu.space 上运行。koyu.space 是 koyu.space 的一个友好 {fork}，与任何 koyu.space 实例或应用兼容。koyu.space 是完全免费和开源的。你可以在 {github} 上报告错误、请求功能或贡献代码。",
   "onboarding.page_six.guidelines": "社区准则",
   "onboarding.page_six.read_guidelines": "请阅读 {domain} 的 {guidelines}！",
   "onboarding.page_six.various_app": "应用程序",
