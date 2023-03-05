@@ -62,7 +62,6 @@ Go to the custom CSS section of your instance and add the following code to enab
 ### Added or supported koyu.space features
 
 - [GIFs by Tenor](https://tenor.com)
-~~- [Google Translate](https://translate.google.com)~~
 - Stickers
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
