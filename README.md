@@ -22,7 +22,20 @@ Sidebar content (advanced UI): `app/javascript/flavours/glitch/features/getting_
 
 ## Self-hosting
 
-Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) to successfully build and self-host your own instance. This wiki also includes instructions on how to set up a development environment for contributing to the software.
+Follow the standard Mastodon documentation for installing from source, but change the git repository to this one and compile the Ruby version referenced in the `.ruby-version` file.
+
+### (Optional) Adding #InstanceTicker to koyu.space
+
+Go to the custom CSS section of your instance and add the following code to enable #InstanceTicker:
+
+```css
+@import url(https://34.si/402/1.css);
+@import url(https://34.si/330/1.css);
+
+.compose-form::after {
+  display: none !important;
+}
+```
 
 ## Differences between glitch-soc, Mastodon and koyu.space
 
@@ -49,11 +62,7 @@ Follow the instructions [from the wiki](https://wiki.koyu.space/docs/selfhost/) 
 ### Added or supported koyu.space features
 
 - [GIFs by Tenor](https://tenor.com)
-- [Google Translate](https://translate.google.com)
+~~- [Google Translate](https://translate.google.com)~~
 - Stickers
 - Custom logo and themes
 - [Jitsi](https://meet.jit.si) integration
-- [InstanceTicker](https://inst.ance.tk)
-- Post editing enabled by default (hidden Mastodon feature)
-- Local posts
-- Explore page
