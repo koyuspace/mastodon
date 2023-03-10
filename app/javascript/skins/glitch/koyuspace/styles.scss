@@ -2498,12 +2498,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
     padding:  0px !important;
     padding-bottom:  40vh !important;
 }
-.layout-multiple-columns #mastodon .columns-area .scrollable:not(.scrollable--flex)::before  {
-    content:  "";
-    position:  absolute;
-    inset:  0;
-    background-color:  inherit;
-}
 .layout-multiple-columns #mastodon .columns-area .scrollable:not(.scrollable--flex) .account-timeline__header  {
     margin:  0px !important;
     margin-top:  -15px !important;
