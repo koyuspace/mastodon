@@ -231,15 +231,9 @@
   "empty_column.notifications": "သတိပေးချက်မရှိသေးပါ။ သတိပေးချက်အသစ်ရှိလျှင် ဤနေရာတွင်ကြည့်ရှုနိုင်သည်",
   "empty_column.public": "There is nothing here! Write something publicly, or manually follow users from other servers to fill it up",
   "error.unexpected_crash.explanation": "Due to a bug in our code or a browser compatibility issue, this page could not be displayed correctly.",
-<<<<<<< HEAD
-  "error.unexpected_crash.explanation_addons": "This page could not be displayed correctly. This error is likely caused by a browser add-on or automatic translation tools.",
-  "error.unexpected_crash.next_steps": "Try refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
-  "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
-=======
   "error.unexpected_crash.explanation_addons": "ဤစာမျက်နှာကို မှန်ကန်စွာ မပြသနိုင်ခဲ့ပါ။ ဤအမှားသည် Browser add-on ထည့်သွင်းထားမှုများ သို့မဟုတ် အလိုအလျောက် ဘာသာပြန်ကိရိယာများကြောင့် ဖြစ်နိုင်သည်။",
   "error.unexpected_crash.next_steps": "စာမျက်နှာကို ပြန်လည်စတင်ကြည့်ပါ။ ၎င်းမှာ အကူအညီမဖြစ်ပါက သင်သည် အခြား Browser သို့မဟုတ် မူရင်းအက်ပ်မှတစ်ဆင့် koyu.space ကို ဆက်လက်အသုံးပြုနိုင်ပါမည်။",
   "error.unexpected_crash.next_steps_addons": "Try disabling them and refreshing the page. If that does not help, you may still be able to use koyu.space through a different browser or native app.",
->>>>>>> bb4e211c86270de6de8a78da96295208ee77dce1
   "errors.unexpected_crash.copy_stacktrace": "Copy stacktrace to clipboard",
   "errors.unexpected_crash.report_issue": "အဆင်မပြေမှုကို တိုင်ကြားရန်",
   "explore.search_results": "ရှာဖွေမှုရလဒ်များ",
@@ -294,21 +288,6 @@
   "hashtag.unfollow": "Hashtag ကို မစောင့်ကြည့်ပါ",
   "home.column_settings.basic": "အခြေခံ",
   "home.column_settings.show_reblogs": "Show boosts",
-<<<<<<< HEAD
-  "home.column_settings.show_replies": "Show replies",
-  "home.hide_announcements": "Hide announcements",
-  "home.show_announcements": "Show announcements",
-  "interaction_modal.description.favourite": "With an account on koyu.space, you can favourite this post to let the author know you appreciate it and save it for later.",
-  "interaction_modal.description.follow": "With an account on koyu.space, you can follow {name} to receive their posts in your home feed.",
-  "interaction_modal.description.reblog": "With an account on koyu.space, you can boost this post to share it with your own followers.",
-  "interaction_modal.description.reply": "With an account on koyu.space, you can respond to this post.",
-  "interaction_modal.on_another_server": "On a different server",
-  "interaction_modal.on_this_server": "ဤဆာဗာတွင်",
-  "interaction_modal.other_server_instructions": "Copy and paste this URL into the search field of your favourite koyu.space app or the web interface of your koyu.space server.",
-  "interaction_modal.preamble": "Since koyu.space is decentralized, you can use your existing account hosted by another koyu.space server or compatible platform if you don't have an account on this one.",
-  "interaction_modal.title.favourite": "Favourite {name}'s post",
-  "interaction_modal.title.follow": "Follow {name}",
-=======
   "home.column_settings.show_replies": "ပြန်စာများကို ပြပါ",
   "home.hide_announcements": "ကြေညာချက်များကို ဖျောက်ပါ",
   "home.show_announcements": "ကြေညာချက်များကို ပြပါ",
@@ -322,7 +301,6 @@
   "interaction_modal.preamble": "Since koyu.space is decentralized, you can use your existing account hosted by another koyu.space server or compatible platform if you don't have an account on this one.",
   "interaction_modal.title.favourite": "အကြိုက်ဆုံး {name} ၏ ပို့စ်",
   "interaction_modal.title.follow": "{name} ကို စောင့်ကြည့်မယ်",
->>>>>>> bb4e211c86270de6de8a78da96295208ee77dce1
   "interaction_modal.title.reblog": "Boost {name}'s post",
   "interaction_modal.title.reply": "{name} ၏ ပို့စ်ကို စာပြန်မယ်",
   "intervals.full.days": "{number, plural, one {# day} other {# days}}",
@@ -555,13 +533,8 @@
   "search_results.hashtags": "ဟက်ရှ်တက်များ",
   "search_results.nothing_found": "ရှာဖွေလိုသောအရာမရှိပါ",
   "search_results.statuses": "ပို့စ်တင်မယ်",
-<<<<<<< HEAD
-  "search_results.statuses_fts_disabled": "Searching posts by their content is not enabled on this koyu.space server.",
-  "search_results.title": "Search for {q}",
-=======
   "search_results.statuses_fts_disabled": "Searching posts by their content is not enabled on this koyu.space server.",
   "search_results.title": "{q} ကို ရှာပါ",
->>>>>>> bb4e211c86270de6de8a78da96295208ee77dce1
   "search_results.total": "{count, number} {count, plural, one {result} other {results}}",
   "server_banner.about_active_users": "People using this server during the last 30 days (Monthly Active Users)",
   "server_banner.active_users": "လက်ရှိအသုံးပြုသူများ",
@@ -645,13 +618,8 @@
   "timeline_hint.resources.follows": "စောင့်ကြည့်မယ်",
   "timeline_hint.resources.statuses": "ပို့စ်အဟောင်းများ",
   "trends.counter_by_accounts": "{count, plural, one {{counter} person} other {{counter} people}} in the past {days, plural, one {day} other {{days} days}}",
-<<<<<<< HEAD
-  "trends.trending_now": "Trending now",
-  "ui.beforeunload": "Your draft will be lost if you leave koyu.space.",
-=======
   "trends.trending_now": "လက်ရှိခေတ်စားနေသော ပို့စ်များ",
   "ui.beforeunload": "Your draft will be lost if you leave koyu.space.",
->>>>>>> bb4e211c86270de6de8a78da96295208ee77dce1
   "units.short.billion": "{count}B",
   "units.short.million": "{count}M",
   "units.short.thousand": "{count}K",
