@@ -74,8 +74,8 @@ body {
     margin-left: -30px;
     margin-top: 8px;
 }
-    
-    
+
+
 /*toot button*/
 .button {
     background-color: var(--accent-color)!important;
@@ -682,7 +682,7 @@ body {
 .public-layout .public-account-header__tabs__tabs .counter.active:after {
     margin-left: 50%;
     width: 5%;
-    border-bottom: 4px solid var(--accent-color);    
+    border-bottom: 4px solid var(--accent-color);
 }
 
 /*metadata*/
@@ -2201,12 +2201,6 @@ span.reactions-bar__item__emoji > img[alt^=":sticker_"],
         padding:  0px !important;
         padding-bottom:  40vh !important;
     }
-#mastodon .scrollable:not(.scrollable--flex)::before,  .public-layout .scrollable:not(.scrollable--flex)::before,  .modal-layout .scrollable:not(.scrollable--flex)::before  {
-    content:  "";
-    position:  absolute;
-    inset:  0;
-    background-color:  inherit;
-}
 #mastodon .scrollable:not(.scrollable--flex) .account-timeline__header,  .public-layout .scrollable:not(.scrollable--flex) .account-timeline__header,  .modal-layout .scrollable:not(.scrollable--flex) .account-timeline__header  {
     margin:  0px !important;
     margin-top:  -15px !important;
