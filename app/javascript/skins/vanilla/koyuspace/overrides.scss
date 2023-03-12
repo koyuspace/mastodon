@@ -10,3 +10,7 @@ a[href="/"]:not(.logofont):not(.button) {
 .logo-container > h1:nth-child(1) > a:nth-child(1) {
   background-image: url(https://cdn.koyu.space/assets/pb-icon.svg) !important;
 }
+
+.notification-admin-sign-up {
+  display: none;
+}
