@@ -1,5 +1,5 @@
 /* Mastodon Bird UI by @rolle@mementomori.social
-   1.2.1rc1 */
+   1.2.1rc8 */
 
 /* CSS variables */
 :root {
@@ -115,13 +115,17 @@ body.layout-single-column {
 }
 
 /* Modal overlay */
-.modal-root__overlay,
 .layout-single-column .modal-root__overlay {
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
   background-color: var(--color-modal-overlay) !important;
   /* stylelint-disable-next-line */
   color: var(--color-light-text) !important;
+}
+
+/* Hide footer buttons in modals */
+.layout-single-column .media-modal__overlay .picture-in-picture__footer {
+  display: none;
 }
 
 /* Modal buttons */
@@ -312,6 +316,9 @@ a.status-card.compact .status-card__description {
 }
 
 /* Border colors */
+.layout-single-column .dropdown-menu__item.edited-timestamp__history__item,
+.layout-single-column .dropdown-menu__container__header,
+.layout-single-column .compare-history-modal .report-modal__target,
 .layout-single-column .account__section-headline,
 .layout-single-column .detailed-status__action-bar,
 .layout-single-column .column-back-button,
@@ -431,6 +438,7 @@ a.status-card.compact .status-card__description {
 .layout-single-column .status__wrapper.unread
 
 /* Things like notification status update text that should be dim */
+.layout-single-column .dropdown-menu__container__header,
 .layout-single-column .sign-in-banner p,
 .layout-single-column .navigation-bar > a,
 .layout-single-column .character-counter,
@@ -506,7 +514,6 @@ a.status-card.compact .status-card__description {
 .layout-single-column .setting-toggle__label {
   color: var(--color-light-purple);
 }
-
 
 /* White things */
 .layout-single-column .detailed-status__display-name strong,
@@ -974,16 +981,20 @@ a.status-card.compact .status-card__description {
 }
 
 /* Hack to show follow notification more minimal way */
+.layout-single-column .notification.notification-update .account__wrapper,
 .layout-single-column .notification.notification-follow .account__wrapper {
   position: relative;
 }
 
 /* Hack to show follow notification more minimal way */
 .layout-single-column .notification.notification-poll .display-name,
+.layout-single-column .notification.notification-update .display-name__html,
+.layout-single-column .notification.notification-update .display-name__account,
 .layout-single-column .notification.notification-follow .display-name__html {
   visibility: hidden;
 }
 
+.layout-single-column .notification.notification-update .account__avatar-wrapper,
 .layout-single-column .notification.notification-follow .account__avatar-wrapper,
 .layout-single-column .notification .account__avatar-overlay {
   left: calc(var(--size-avatar-small) + var(--gap-default) + 18px);
@@ -1005,10 +1016,32 @@ a.status-card.compact .status-card__description {
   padding-left: calc(var(--size-avatar) - 4px);
 }
 
+.layout-single-column .notification.notification.notification-update .account__display-name,
 .layout-single-column .notification.notification.notification-follow .account__display-name {
   display: inline-flex;
   gap: var(--gap-default);
   padding-left: calc(var(--size-avatar) + var(--gap-default));
+}
+
+/* Admin reports and other admin notifications */
+.layout-single-column .notification-admin-report .notification__report {
+  padding-left: calc(var(--size-avatar) + var(--gap-default));
+}
+
+.layout-single-column .notification-admin-report .notification__report__details {
+  color: var(--color-dim);
+  font-size: var(--font-size);
+}
+
+.layout-single-column .notification-admin-report .notification__report__details  strong {
+  font-weight: 400;
+}
+
+/* Revert hack for notification admin message that has no avatar visible */
+.layout-single-column .notification-admin-report .notification__message > span {
+  display: block;
+  margin-top: calc(var(--size-avatar-small) + 4px);
+  overflow: visible;
 }
 
 /* Hide things in notifications */
@@ -1028,6 +1061,7 @@ a.status-card.compact .status-card__description {
 }
 
 /* Hide scrollbars for .navigation-panel */
+.dropdown-menu__container__list--scrollable::-webkit-scrollbar,
 .layout-single-column .navigation-panel::-webkit-scrollbar {
   display: none;
   width: 3px;
@@ -1369,6 +1403,7 @@ a.status-card.compact .status-card__description {
   width: 133.5px;
 }
 
+.layout-single-column .notification__report__actions .button,
 .layout-single-column .column-inline-form button,
 .layout-single-column .explore__suggestions .account-card__actions__button button,
 .layout-single-column .account__header__tabs__buttons .button {
@@ -1611,7 +1646,7 @@ a.status-card.compact .status-card__description {
   /* stylelint-disable-next-line */
   background-color: var(--color-brand-mastodon-links) !important;
   /* stylelint-disable-next-line */
-  border: 1px solid var(--color-brand-mastodon-links) !important;
+  border-color: var(--color-brand-mastodon-links) !important;
   /* stylelint-disable-next-line */
   color: var(--color-bg) !important;
 }
@@ -1633,6 +1668,7 @@ a.status-card.compact .status-card__description {
 /* Smaller icons for status action bar */
 .layout-single-column .status__action-bar .fa {
   font-size: 14.6px;
+  min-width: 18px;
 }
 
 .layout-single-column .status__action-bar .icon-button--with-counter {
