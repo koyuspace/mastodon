@@ -1,5 +1,5 @@
 /* Mastodon Bird UI by @rolle@mementomori.social
-   v1.1.8rc11 */
+   1.2.1rc1 */
 
 /* CSS variables */
 :root {
@@ -65,6 +65,11 @@
   :root {
     --font-size-heading: 17px;
   }
+
+  /* Hide scrollbar on mobile, since we can't pick the handle anyway */
+  .layout-single-column::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 body.layout-single-column {
@@ -74,7 +79,8 @@ body.layout-single-column {
 }
 
 .layout-single-column .ui {
-  width: calc(100% - 4px);
+  display: flex;
+  width: 100%;
 }
 
 /* Text color */
@@ -172,6 +178,11 @@ body.layout-single-column {
   padding: 15px;
 }
 
+.layout-single-column .embed-modal .embed-modal__container .embed-modal__html {
+  color: var(--color-light-text);
+}
+
+.layout-single-column .embed-modal .embed-modal__container .embed-modal__html,
 .layout-single-column .list-editor__search .search__input {
   background-color: transparent;
   border-color: var(--color-black-coral);
@@ -247,6 +258,7 @@ a.status-card.compact .status-card__description {
 }
 
 /* Dark panels like modal boxes */
+.layout-single-column .compose-form .autosuggest-textarea__suggestions,
 .layout-single-column .privacy-dropdown__dropdown,
 .layout-single-column .drawer__backdrop,
 .layout-single-column .list-editor__account,
@@ -294,9 +306,19 @@ a.status-card.compact .status-card__description {
   box-shadow: 2px 4px 16px rgb(0 0 0 / .01);
 }
 
+/* Autosuggest box shadow reset */
+.layout-single-column .compose-form .autosuggest-textarea__suggestions {
+  box-shadow: none;
+}
+
+/* Border colors */
+.layout-single-column .account__section-headline,
+.layout-single-column .detailed-status__action-bar,
 .layout-single-column .column-back-button,
 .layout-single-column .column-header,
 .layout-single-column .audio-player,
+.layout-single-column .video-player,
+.layout-single-column .media-gallery,
 .layout-single-column .compose-form .spoiler-input__input,
 .layout-single-column .compose-form__autosuggest-wrapper,
 .layout-single-column .compose-form__poll-wrapper select,
@@ -401,7 +423,7 @@ a.status-card.compact .status-card__description {
   background-color: var(--color-dark);
 }
 
-.layout-single-column .notification:hover .notification__message {
+.layout-single-column .notification:hover ..notification__message {
   background-color: transparent;
 }
 
@@ -409,6 +431,7 @@ a.status-card.compact .status-card__description {
 .layout-single-column .status__wrapper.unread
 
 /* Things like notification status update text that should be dim */
+.layout-single-column .sign-in-banner p,
 .layout-single-column .navigation-bar > a,
 .layout-single-column .character-counter,
 .layout-single-column .text-icon-button,
@@ -478,7 +501,16 @@ a.status-card.compact .status-card__description {
   color: var(--color-gainsboro);
 }
 
+/* Light purple things */
+.layout-single-column .column-settings__section,
+.layout-single-column .setting-toggle__label {
+  color: var(--color-light-purple);
+}
+
+
 /* White things */
+.layout-single-column .detailed-status__display-name strong,
+.layout-single-column .dismissable-banner__message,
 .layout-single-column .privacy-dropdown__option,
 .layout-single-column .privacy-dropdown__option__content strong,
 .layout-single-column .status__info .display-name strong.display-name__html,
@@ -655,6 +687,7 @@ a.status-card.compact .status-card__description {
   border: 0;
 }
 
+.layout-single-column article,
 .layout-single-column .status__prepend,
 .layout-single-column .notification__message,
 .layout-single-column .status {
@@ -667,7 +700,11 @@ a.status-card.compact .status-card__description {
   background-color: var(--color-light-shade);
 }
 
-/* Focusable toot */
+/* Focusable toot and other hilighted items */
+.layout-single-column .compose-form .autosuggest-textarea__suggestions__item.selected,
+.layout-single-column .compose-form .autosuggest-textarea__suggestions__item:active,
+.layout-single-column .compose-form .autosuggest-textarea__suggestions__item:focus,
+.layout-single-column .compose-form .autosuggest-textarea__suggestions__item:hover,
 .layout-single-column .focusable:focus {
   background-color: var(--color-focusable-toot);
 }
@@ -710,9 +747,19 @@ a.status-card.compact .status-card__description {
 /* Status update tinted to right */
 .layout-single-column .status__action-bar,
 .layout-single-column .attachment-list,
+.layout-single-column .status__content__read-more-button,
 .layout-single-column .status .status__content {
   font-size: var(--font-size);
   padding-left: calc(var(--size-avatar) + var(--gap-default));
+}
+
+/* Rtl version */
+[dir="rtl"] .layout-single-column .status__action-bar,
+[dir="rtl"] .layout-single-column .attachment-list
+[dir="rtl"] .layout-single-column .status__content__read-more-button,
+[dir="rtl"] .layout-single-column .status .status__content {
+  padding-left: 0;
+  padding-right: calc(var(--size-avatar) + var(--gap-default));
 }
 
 /* Reset padding from attachment-list on reply indicator */
@@ -725,11 +772,20 @@ a.status-card.compact .status-card__description {
   border-radius: 50%;
 }
 
+.layout-single-column .detailed-status__action-bar .icon-button[disabled],
+.layout-single-column .status__action-bar .icon-button[disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
 /* Media inside status update tinted to right */
+.layout-single-column .status .audio-player,
 .layout-single-column .status .video-player,
 .layout-single-column .status .media-gallery {
   margin-left: auto;
-  width: calc(100% - calc(var(--size-avatar) + var(--gap-default)));
+  /* Need to override inline styles */
+  /* stylelint-disable-next-line */
+  width: calc(100% - calc(var(--size-avatar) + var(--gap-default))) !important;
 }
 
 .layout-single-column .status .status-card {
@@ -784,6 +840,14 @@ a.status-card.compact .status-card__description {
   color: var(--color-accent);
 }
 
+/* Other general buttons */
+.layout-single-column .column-header__button.active:active,
+.column-header__button.active:focus,
+.layout-single-column .column-header__button.active:hover {
+  background-color: var(--color-focusable-toot);
+  color: var(--color-fg);
+}
+
 /* "Retweet" button by default */
 .layout-single-column button.icon-button i.fa-retweet {
   /* Change the fill in this manually if you want to change colors */
@@ -807,6 +871,7 @@ a.status-card.compact .status-card__description {
 .layout-single-column .tabs-bar__wrapper {
   backdrop-filter: blur(12px);
   background-color: var(--color-bg-75);
+  border-color: var(--color-border);
   padding: 0;
 }
 
@@ -985,6 +1050,11 @@ a.status-card.compact .status-card__description {
   transition: all 100ms;
 }
 
+[dir="rtl"] .layout-single-column .column-link {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .layout-single-column .column-link:hover {
   background-color: var(--color-column-link-hover);
 }
@@ -996,6 +1066,13 @@ a.status-card.compact .status-card__description {
 .layout-single-column .notification__filter-bar button:hover,
 .layout-single-column .account__section-headline a:hover {
   background-color: var(--color-column-link-hover);
+}
+
+/* Notification filter bar */
+.layout-single-column .notification__filter-bar {
+  border-bottom: 1px solid var(--color-border);
+  border-left: 0;
+  border-right: 0;
 }
 
 .layout-single-column .column-link__icon {
@@ -1066,6 +1143,10 @@ a.status-card.compact .status-card__description {
   font-size: 20px;
 }
 
+.layout-single-column .notification .account__relationship .fa.fa-user-plus:not(.fa-link)::before {
+  color: var(--color-dim);
+}
+
 .layout-single-column .notification .fa.fa-tasks:not(.fa-link)::before {
   color: var(--color-accent-dark);
 }
@@ -1075,14 +1156,41 @@ a.status-card.compact .status-card__description {
   font-size: 24px;
 }
 
+/* Follow/unfollow button in notifications */
+.layout-single-column .account__relationship .icon-button,
+.layout-single-column .notification .account__relationship .icon-button {
+  background-color: transparent;
+}
+
 .layout-single-column .notification .account__relationship .fa::before {
   /* stylelint-disable-next-line */
-  color: var(--color-dim) !important;
+  color: var(--color-dim);
   font-size: 20px;
 }
 
-.layout-single-column .account__relationship .button:hover {
-  background-color: transparent;
+.layout-single-column .explore__search-results .account__relationship .icon-button.active .fa::before,
+.layout-single-column .notification .account__relationship .icon-button.active .fa::before {
+  /* stylelint-disable-next-line */
+  color: var(--color-green);
+  opacity: .75;
+}
+
+.layout-single-column .explore__search-results .icon-button.active:hover .fa::before,
+.layout-single-column .notification .account__relationship .icon-button.active:hover .fa::before {
+  /* stylelint-disable-next-line */
+  color: var(--color-red);
+  opacity: 1;
+}
+
+.layout-single-column .explore__search-results .icon-button:focus .fa::before,
+.layout-single-column .notification .account__relationship .icon-button:focus .fa::before,
+.layout-single-column .explore__search-results .icon-button.active:focus .fa::before,
+.layout-single-column .notification .account__relationship .icon-button.active:focus .fa::before,
+.layout-single-column .explore__search-results .icon-button:hover .fa::before,
+.layout-single-column .notification .account__relationship .icon-button:hover .fa::before {
+  /* stylelint-disable-next-line */
+  color: var(--color-green);
+  opacity: 1;
 }
 
 .layout-single-column .notification .account__relationship {
@@ -1093,6 +1201,33 @@ a.status-card.compact .status-card__description {
 
 .layout-single-column .notification .account__relationship:hover {
   background-color: rgba(96, 105, 132, .15);
+}
+
+/* Emoji-mart search input */
+.layout-single-column .emoji-mart-search-icon svg {
+  fill: var(--color-border);
+  opacity: 1;
+}
+
+.layout-single-column .emoji-mart-search > input:focus-visible ~ .emoji-mart-search-icon svg {
+  fill: var(--color-accent);
+}
+
+.layout-single-column .emoji-mart-search > input {
+  font-size: var(--font-size-smaller);
+}
+
+.layout-single-column .emoji-mart-search > input::placeholder {
+  color: var(--color-dim);
+  opacity: 1;
+}
+
+.layout-single-column .emoji-mart-search > input:focus {
+  color: var(--color-light-text);
+}
+
+.layout-single-column .emoji-mart-search-icon:disabled {
+  opacity: 1;
 }
 
 /* Search */
@@ -1124,6 +1259,7 @@ a.status-card.compact .status-card__description {
   color: var(--color-light-text);
 }
 
+.layout-single-column .search__input::placeholder,
 .layout-single-column input::placeholder,
 .layout-single-column input.setting-text::placeholder {
   color: var(--color-dim);
@@ -1913,26 +2049,68 @@ a.status-card.compact .status-card__description {
   .layout-single-column .detailed-status__action-bar-dropdown .icon-button::after {
     display: none;
   }
+
+  .layout-single-column .ui__header,
+  .layout-single-column .columns-area__panels__main > div.tabs-bar__wrapper,
+  .layout-single-column .tabs-bar__wrapper {
+    backdrop-filter: unset;
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+/* In-between breakpoint */
+@media (min-width: 889px) and (max-width: 1175px) {
+  .layout-single-column .ui__header,
+  .layout-single-column .columns-area__panels__main > div.tabs-bar__wrapper,
+  .layout-single-column .tabs-bar__wrapper {
+    backdrop-filter: blur(12px);
+    background-color: var(--color-bg-75);
+    border-color: var(--color-border);
+  }
+
+  .layout-single-column .columns-area__panels__main > .tabs-bar__wrapper {
+    border-right: 0;
+  }
 }
 
 /* Mobile */
 @media screen and (max-width: 889px) {
-  .app-holder,
-  .app-holder > div,
-  body.app-body.layout-single-column {
-    overflow-x: hidden;
+  /* Better blur overlay for ui-header */
+  .layout-single-column .ui::after {
+    backdrop-filter: blur(12px);
+    background-color: var(--color-bg-75);
+    content: '';
+    /* Height is .ui__header + .tabs-bar__wrapper */
+    height: calc(48px + 56px);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Fix navigation-bar getting underneath layer */
+  .layout-single-column .navigation-bar {
+    z-index: 2;
   }
 
   .layout-single-column .tabs-bar__wrapper {
     margin-right: 0;
     position: sticky;
     top: 55px;
+    z-index: 2;
   }
 
   .layout-single-column .columns-area__panels__main {
     order: 1;
-    position: absolute;
-    width: calc(100% - 4px);
+    position: unset;
+    width: 100%;
+  }
+
+  .layout-single-column .columns-area__panels {
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .layout-single-column .columns-area__panels__main::-webkit-scrollbar {
@@ -2020,11 +2198,16 @@ a.status-card.compact .status-card__description {
   }
 
   .layout-single-column .ui__header {
+    align-items: center;
     border-bottom: 0;
+    box-sizing: border-box;
+    display: flex;
     height: 56px;
-    position: fixed;
+    justify-content: space-between;
+    position: sticky;
     top: 0;
     width: 100%;
+    z-index: 2;
   }
 
   .layout-single-column .account__header__bar .avatar .account__avatar {
@@ -2039,10 +2222,6 @@ a.status-card.compact .status-card__description {
 
   .layout-single-column .account__header__image {
     height: 157px;
-  }
-
-  .layout-single-column .columns-area.columns-area--mobile {
-    top: 16px;
   }
 
   .layout-single-column .column > .scrollable {
@@ -2061,11 +2240,6 @@ a.status-card.compact .status-card__description {
 
   .layout-single-column .compose-form {
     padding-bottom: calc(3.5rem + calc(var(--gap-default) * 2));
-  }
-
-  .columns-area--mobile .column,
-  .columns-area--mobile .drawer {
-    margin-top: var(--gap-default);
   }
 
   /* Column items order */
@@ -2223,4 +2397,55 @@ a.status-card.compact .status-card__description {
   100% {
     background-position: -2800px;
   }
+}
+
+/* Add border radius to media */
+.layout-single-column .media-gallery__item-thumbnail img,
+.layout-single-column .audio-player,
+.layout-single-column .video-player video,
+.layout-single-column .media-gallery__gifv video,
+.layout-single-column .media-gallery__preview {
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.layout-single-column .media-gallery__item-thumbnail:has(> img:not([alt]))::after,
+.layout-single-column .video-player:has(> video:not([title]))::after,
+.layout-single-column .media-gallery__gifv:has(> video:not([title]))::after {
+  align-self: flex-end;
+  background-color: var(--color-bg-75);
+  border-radius: 4px;
+  bottom: 4px;
+  color: var(--color-light-text);
+  content: 'No alt';
+  display: flex;
+  font-size: 9px;
+  font-weight: 500;
+  height: 14px;
+  justify-self: flex-end;
+  left: auto;
+  line-height: 14px;
+  opacity: 1;
+  padding: 2px 5px;
+  position: absolute;
+  right: 4px;
+  text-transform: uppercase;
+  top: auto;
+  width: unset;
+  z-index: 3;
+}
+
+.layout-single-column .media-gallery__item-thumbnail:has(> img:not([alt])):focus::after,
+.layout-single-column .video-player:has(> video:not([title])):focus::after,
+.layout-single-column .media-gallery__gifv:has(> video:not([title])):focus::after,
+.layout-single-column .media-gallery__item-thumbnail:has(> img:not([alt])):hover::after,
+.layout-single-column .video-player:has(> video:not([title])):hover::after,
+.layout-single-column .media-gallery__gifv:has(> video:not([title])):hover::after {
+  background-color: var(--color-red);
+}
+
+/* More distinct focus color for accessibility, instead of just white */
+.layout-single-column input:focus-visible {
+  outline-color: var(--color-accent);
+  outline-style: solid;
 }
