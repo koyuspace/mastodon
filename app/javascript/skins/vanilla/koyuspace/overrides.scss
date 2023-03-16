@@ -5,12 +5,13 @@
 a[href="/"]:not(.logofont):not(.button) {
   background: transparent url(https://cdn.koyu.space/assets/pb-icon_single.svg) no-repeat center/75% auto !important;
   margin-left: 0 !important;
+  margin-top: 0 !important;
 }
 
 .logo-container > h1:nth-child(1) > a:nth-child(1) {
   background-image: url(https://cdn.koyu.space/assets/pb-icon.svg) !important;
 }
 
-.notification-admin-sign-up {
-  display: none;
+.layout-single-column .status__content__read-more-button {
+  padding-left: 0px !important;
 }
