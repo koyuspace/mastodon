@@ -1,5 +1,5 @@
 /* Mastodon Bird UI by @rolle@mementomori.social
-   1.2.1rc8 */
+   1.2.1rc12 */
 
 /* CSS variables */
 :root {
@@ -510,6 +510,7 @@ a.status-card.compact .status-card__description {
 }
 
 /* Light purple things */
+.layout-single-column .account .account__display-name,
 .layout-single-column .column-settings__section,
 .layout-single-column .setting-toggle__label {
   color: var(--color-light-purple);
@@ -938,7 +939,7 @@ a.status-card.compact .status-card__description {
 /* Hack to display notification message title on one line */
 .layout-single-column .notification__message > span {
   display: block;
-  margin-top: calc(var(--size-avatar-small) + 4px);
+  margin-top: calc(var(--size-avatar-small) + 6px);
   overflow: visible;
 }
 
@@ -972,6 +973,7 @@ a.status-card.compact .status-card__description {
   min-height: var(--size-avatar-small) !important;
   /* stylelint-disable-next-line */
   min-width: var(--size-avatar-small) !important;
+  position: absolute;
   /* stylelint-disable-next-line */
   width: var(--size-avatar-small) !important;
 }
@@ -981,9 +983,14 @@ a.status-card.compact .status-card__description {
 }
 
 /* Hack to show follow notification more minimal way */
+.layout-single-column .notification.notification-admin-report .notification__report,
 .layout-single-column .notification.notification-update .account__wrapper,
 .layout-single-column .notification.notification-follow .account__wrapper {
   position: relative;
+}
+
+.layout-single-column .notification.notification-admin-report .account__avatar-overlay-overlay {
+  top: calc(-1 * calc(var(--size-avatar-small) + var(--gap-default) + 4px));
 }
 
 /* Hack to show follow notification more minimal way */
@@ -1001,6 +1008,11 @@ a.status-card.compact .status-card__description {
   margin-top: calc(-1 * calc(var(--size-avatar-small) + var(--gap-default)));
   position: absolute;
   top: 4px;
+}
+
+.layout-single-column .notification.notification-admin-report .account__avatar-overlay {
+  margin-top: 0;
+  top: 0;
 }
 
 .layout-single-column .notification.notification-status .notification__message > span {
@@ -1025,6 +1037,12 @@ a.status-card.compact .status-card__description {
 
 /* Admin reports and other admin notifications */
 .layout-single-column .notification-admin-report .notification__report {
+  border-color: var(--color-border);
+  display: flex;
+  font-size: var(--font-size);
+  gap: 16px;
+  margin-top: 22px;
+  padding: 16px;
   padding-left: calc(var(--size-avatar) + var(--gap-default));
 }
 
@@ -1181,6 +1199,7 @@ a.status-card.compact .status-card__description {
   color: var(--color-dim);
 }
 
+.layout-single-column .notification .fa.fa-flag::before,
 .layout-single-column .notification .fa.fa-tasks:not(.fa-link)::before {
   color: var(--color-accent-dark);
 }
@@ -2484,4 +2503,10 @@ a.status-card.compact .status-card__description {
 .layout-single-column input:focus-visible {
   outline-color: var(--color-accent);
   outline-style: solid;
+}
+
+/* Hide boosted content from the explore tab */
+.layout-single-column .explore__search-header ~ .scrollable .item-list > article:has(.icon-button.active .fa-retweet) {
+  height: 0;
+  overflow: hidden;
 }
