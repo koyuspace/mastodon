@@ -38,8 +38,6 @@ const mapDispatchToProps = dispatch => ({
   submit: (file, alt) => dispatch(uploadCompose([file], alt)),
 });
 
-export default @connect(mapStateToProps, mapDispatchToProps)
-@injectIntl
 class GIFModal extends ImmutablePureComponent {
 
   static propTypes = {
@@ -59,7 +57,7 @@ class GIFModal extends ImmutablePureComponent {
       return response.blob();
     }).then(function(blob) {
       const reader = new FileReader();
-      reader.readAsDataURL(blob); 
+      reader.readAsDataURL(blob);
       reader.onloadend = function() {
         var dataUrl = reader.result;
         const file = dataURLtoFile(dataUrl, 'tenor.mp4');
@@ -95,3 +93,6 @@ class GIFModal extends ImmutablePureComponent {
   }
 
 }
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(GIFModal);
