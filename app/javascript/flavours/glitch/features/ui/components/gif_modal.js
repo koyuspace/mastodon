@@ -95,4 +95,4 @@ class GIFModal extends ImmutablePureComponent {
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(GIFModal);
+export default connect(mapStateToProps, mapDispatchToProps)(injectIntl(GIFModal));
