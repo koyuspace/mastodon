@@ -55,8 +55,8 @@ services:
   #     - '127.0.0.1:9200:9200'
 
   web:
-    #build: .
-    image: ghcr.io/koyuspace/mastodon:latest
+    build: .
+    image: ghcr.io/koyuspace/mastodon
     restart: always
     env_file: .env.production
     command: bash -c "rm -f /mastodon/tmp/pids/server.pid; bundle exec rails s -p 3000"
@@ -77,7 +77,7 @@ services:
 
   streaming:
     build: .
-    image: koyuawsmbrtn/mastodon
+    image: ghcr.io/koyuspace/mastodon
     restart: always
     env_file: .env.production
     command: node ./streaming
@@ -95,7 +95,7 @@ services:
 
   sidekiq:
     build: .
-    image: koyuawsmbrtn/mastodon
+    image: ghcr.io/koyuspace/mastodon
     restart: always
     env_file: .env.production
     command: bundle exec sidekiq
