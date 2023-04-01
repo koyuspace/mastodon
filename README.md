@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="public/img/pb-icon.svg">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.koyu.space/assets/pb-icon.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.koyu.space/assets/logo-full.svg">
+    <img alt="Logo" src="https://content.koyu.space/img/logo-full.svg" height="120">
+  </picture>
 </p>
 
 # koyu.space
