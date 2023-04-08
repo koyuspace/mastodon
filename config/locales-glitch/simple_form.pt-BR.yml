@@ -7,10 +7,10 @@ pt-BR:
         fields: Você pode ter até %{count} itens exibidos como uma tabela no seu perfil
         setting_default_content_type_html: Ao escrever toots, assume que estão escritos em HTML bruto, a menos que especificado de outra forma
         setting_default_content_type_markdown: Ao escrever toots, assume que ele está usando Markdown para formatação de texto, a menos que especificado seja diferente
-        setting_default_content_type_plain: Ao escrever toots, assume que eles são textos simples sem formatação especial, a menos que esteja especificado de outra forma (comportamento padrão do Mastodon)
+        setting_default_content_type_plain: Ao escrever toots, assume que eles são textos simples sem formatação especial, a menos que esteja especificado de outra forma (comportamento padrão do koyu.space)
         setting_default_language: O idioma dos seus toots pode ser detectado automaticamente, mas nem sempre é preciso
         setting_hide_followers_count: Ocultar a contagem de seguidores de todos, incluindo você. Algumas aplicações podem exibir uma contagem de seguidores negativa.
-        setting_skin: Reaplica o sabor Mastodon selecionado
+        setting_skin: Reaplica o sabor koyu.space selecionado
     labels:
       defaults:
         setting_default_content_type: Formato padrão para toots

@@ -6,10 +6,10 @@ cs:
         fields: Na svém profilu můžete mít zobrazeno několik položek (max. %{count}) jako tabulku
         setting_default_content_type_html: Předpokládat, že nové příspěvky jsou napsané v HTML, pokud není uvedeno jinak
         setting_default_content_type_markdown: Předpokládat, že nové příspěvky používají pro formátování Markdown, pokud není uvedeno jinak
-        setting_default_content_type_plain: Předpokládat, že nové příspěvky nejsou nijak formátované, pokud není uvedeno jinak (standardní chování Mastodonu)
+        setting_default_content_type_plain: Předpokládat, že nové příspěvky nejsou nijak formátované, pokud není uvedeno jinak (standardní chování koyu.spaceu)
         setting_default_language: Jazyk vašich příspěvků lze detekovat automaticky, ale není to vždycky přesné
         setting_hide_followers_count: Počet vašich sledujících se nebude nikomu zobrazovat, ani vám. Některé aplikace mohou zobrazit negativní počet sledujících.
-        setting_skin: Aplikuje barevný styl na zvolené rozhraní Mastodonu
+        setting_skin: Aplikuje barevný styl na zvolené rozhraní koyu.spaceu
     labels:
       defaults:
         setting_default_content_type: Výchozí formát příspěvků
