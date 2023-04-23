@@ -1,5 +1,5 @@
 /* Mastodon Bird UI by @rolle@mementomori.social
-   1.4.5 */
+   1.4.9rc4 */
 
 /* CSS variables */
 :root {
@@ -275,7 +275,7 @@ body.layout-single-column {
 /* Logo */
 .layout-single-column .ui__header__logo,
 .layout-single-column .column-link.column-link--logo {
-  background-image: url('data:image/svg+xml, %3Csvg class="mastodon-logo" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 216.4144 232.00976"%3E%3Cdefs xmlns="http://www.w3.org/2000/svg"%3E%3ClinearGradient xmlns="http://www.w3.org/2000/svg" id="gradient" x2="0%25" y2="100%25" gradientUnits="userSpaceOnUse"%3E%3Cstop offset="0%25" stop-color="%23fe53e0"%3E%3C/stop%3E%3Cstop offset="100%25" stop-color="%23fe53e0"%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath xmlns="http://www.w3.org/2000/svg" d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.975 14.7525 32.975 65.0825 0 0 .41375 37.13375-4.59875 62.915" fill="url(%23gradient)"%3E%3C/path%3E%3Cpath d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025 0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375 0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355 0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775 0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675" fill="%23fff"%3E%3C/path%3E%3C/svg%3E');
+  background-image: url('data:image/svg+xml, %3Csvg class="mastodon-logo" xmlns="http://www.w3.org/2000/svg" width="28px" height="28px" viewBox="0 0 216.4144 232.00976"%3E%3Cdefs xmlns="http://www.w3.org/2000/svg"%3E%3ClinearGradient xmlns="http://www.w3.org/2000/svg" id="gradient" x2="0%25" y2="100%25" gradientUnits="userSpaceOnUse"%3E%3Cstop offset="0%25" stop-color="%23595aff"%3E%3C/stop%3E%3Cstop offset="100%25" stop-color="%23595aff"%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath xmlns="http://www.w3.org/2000/svg" d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.975 14.7525 32.975 65.0825 0 0 .41375 37.13375-4.59875 62.915" fill="url(%23gradient)"%3E%3C/path%3E%3Cpath d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025 0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375 0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355 0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775 0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675" fill="%23fff"%3E%3C/path%3E%3C/svg%3E');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 32px auto;
@@ -816,15 +816,35 @@ body.embed .status__content a,
 /* CW button */
 .layout-single-column .reply-indicator__content .status__content__spoiler-link,
 .layout-single-column .status__content__spoiler-link {
-  background-color: var(--color-mud);
-  color: var(--color-dim);
+  background-color: var(--color-dark);
+  color: var(--color-light-purple);
   font-weight: 500;
+
+  /* Need to override forced styles */
+  /* stylelint-disable-next-line */
+  margin-left: calc(var(--gap-default) / 2) !important;
+  vertical-align: baseline;
 }
 
 .layout-single-column .reply-indicator__content .status__content__spoiler-link:focus,
 .layout-single-column .reply-indicator__content .status__content__spoiler-link:hover,
 .layout-single-column .status__content .status__content__spoiler-link:focus,
 .layout-single-column .status__content .status__content__spoiler-link:hover {
+  background-color: var(--color-dark);
+  color: var(--color-lighter-purple);
+}
+
+/* CW button in notifications */
+.layout-single-column .notification .reply-indicator__content .status__content__spoiler-link,
+.layout-single-column .notification .status__content__spoiler-link {
+  background-color: var(--color-dark);
+  color: var(--color-dim);
+}
+
+.layout-single-column .notification .reply-indicator__content .status__content__spoiler-link:focus,
+.layout-single-column .notification .reply-indicator__content .status__content__spoiler-link:hover,
+.layout-single-column .notification .status__content .status__content__spoiler-link:focus,
+.layout-single-column .notification .status__content .status__content__spoiler-link:hover {
   background-color: var(--color-dark);
   color: var(--color-dim);
 }
@@ -985,8 +1005,6 @@ body.embed .detailed-status,
   max-width: var(--size-avatar) !important;
   /* stylelint-disable-next-line */
   min-height: var(--size-avatar) !important;
-  /* stylelint-disable-next-line */
-  min-width: var(--size-avatar) !important;
   /* stylelint-disable-next-line */
   min-width: var(--size-avatar) !important;
 
@@ -1365,6 +1383,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 .layout-single-column .notification.notification-update .display-name__html,
 .layout-single-column .notification.notification-update .display-name__account,
 .layout-single-column .notification.notification-admin-sign-up .display-name__html,
+.layout-single-column .notification.notification-admin-sign-up .display-name,
 .layout-single-column .notification.notification-follow .display-name__html {
   visibility: hidden;
 }
@@ -1390,6 +1409,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 .layout-single-column .notification.notification-follow .verified-badge,
 .layout-single-column .notification.notification-follow .display-name,
+.layout-single-column .notification.notification-admin-sign-up .display-name + span,
 .layout-single-column .notification.notification-follow .display-name + span,
 .layout-single-column .notification.notification-favourite .status__wrapper-direct .status__prepend,
 .layout-single-column .notification.notification-reblog .display-name,
@@ -1407,6 +1427,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   margin-top: calc(calc(var(--size-avatar-small) + calc(var(--gap-default) / 2)) + 6px);
 }
 
+.layout-single-column .notification.notification.notification-admin-sign-up .account__relationship,
 .layout-single-column .notification.notification-follow .account__relationship {
   transform: translateY(-8px);
 }
@@ -1436,6 +1457,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   margin-top: calc(var(--gap-default) / 2);
 }
 
+.layout-single-column .notification.notification.notification-admin-sign-up .notification__message + .account,
 .layout-single-column .notification.notification-follow .notification__message + .account {
   padding-bottom: 0;
 }
@@ -1551,7 +1573,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   border-radius: 32px;
   bottom: calc(2px - var(--gap-default) * 1.5);
   content: "";
-  inset-inline-end: calc(0px - var(--gap-default));
+  inset-inline-end: calc(0px - (var(--gap-default) * 2));
   inset-inline-start: calc(-1.28571429em - (var(--gap-default) * 2));
   opacity: 0;
   position: absolute;
@@ -2123,6 +2145,7 @@ body.embed .button.logo-button:hover,
 /* Compose form */
 .layout-single-column .compose-panel .compose-form {
   position: relative;
+  z-index: 100;
 }
 
 .layout-single-column .compose-panel .compose-form,
@@ -2133,25 +2156,6 @@ body.embed .button.logo-button:hover,
 
 .layout-single-column .compose-form {
   background-color: var(--color-bg);
-}
-
-/* Add a layer behind  composer form so things would not overlap */
-@media (min-width: 1175px) {
-  .layout-single-column .compose-form .compose-form__publish::after {
-    background-image: var(--compose-form-linear-gradient);
-    content: '';
-    height: 100px;
-    left: -38px;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    width: calc(100% + 80px);
-    z-index: -1;
-  }
-
-  .layout-single-column .compose-form .compose-form__publish {
-    position: relative;
-  }
 }
 
 /* Compose form and reply indicator box, see https://mastodo.fi/@rmattila74/110140863513856240 */
@@ -2550,6 +2554,25 @@ body.embed .button.logo-button:hover,
 .layout-single-column button.icon-button:not(.active):focus i.fa-retweet ~ span,
 .layout-single-column button.icon-button:not(.active):hover i.fa-retweet ~ span {
   color: var(--color-dim);
+}
+
+
+/* If a hover device */
+@media (hover: hover) {
+  .layout-single-column button.icon-button:not(.active):hover i.fa-retweet,
+  .layout-single-column button.icon-button:not(.active):hover i.fa-retweet ~ span {
+    color: var(--color-green);
+  }
+
+  .layout-single-column button.icon-button:not(.active):hover i.fa-bookmark::before {
+    /* stylelint-disable-next-line */
+    content: var(--icon-bookmark-status-hover-red) !important;
+  }
+
+  .layout-single-column button.icon-button:not(.active):hover i.fa-retweet {
+    /* stylelint-disable-next-line */
+    background-image: var(--icon-boost-active) !important;
+  }
 }
 
 .layout-single-column button.icon-button:hover i.fa-retweet ~ span,
@@ -3037,6 +3060,11 @@ body.embed .entry .detailed-status {
   border-color: var(--color-destructive);
 }
 
+/* Fix character counter color when it's over the limit */
+.layout-single-column .character-counter.character-counter--over {
+  color: var(--color-destructive);
+}
+
 /* Follow hashtag icon */
 .layout-single-column .column-header__button .column-header__icon.fa-user-plus::before {
   content: var(--icon-follow-hashtag);
@@ -3315,6 +3343,19 @@ body.embed .entry .detailed-status {
  * -------------------------------------------------------------------------
  */
 
+/* If a hover device */
+@media (hover: hover) {
+  .layout-single-column button.icon-button:not(.active):hover i.fa-star,
+  .layout-single-column button.icon-button:not(.active):hover i.fa-star ~ span,
+  .layout-single-column button.icon-button:not(.active):hover i.fa-star::before {
+    color: var(--color-yellow);
+  }
+
+  .layout-single-column button.icon-button.active:hover i.fa-star ~ span {
+    color: var(--color-dim);
+  }
+}
+
 /* stylelint-disable no-duplicate-selectors */
 /* Left sidebar column links */
 .layout-single-column .column-link .fa-star::before {
@@ -3499,14 +3540,14 @@ body.embed .entry .detailed-status {
   /* Sparkle offset on numbered item */
   .layout-single-column .status__action-bar button.icon-button.icon-button--with-counter.star-icon.activate.star-icon::after {
     /* stylelint-disable-next-line */
-    left: calc(50% - 13px) !important;
+    left: calc(50% - 11px) !important;
   }
 
   /* Circle offset on numbered item */
   .layout-single-column .detailed-status__action-bar button.icon-button.icon-button--with-counter.activate.star-icon::before,
   .layout-single-column .status__action-bar button.icon-button.icon-button--with-counter.activate.star-icon::before {
     /* stylelint-disable-next-line */
-    left: calc(50% - 13px) !important;
+    left: calc(50% - 11px) !important;
   }
 }
 
@@ -3584,7 +3625,7 @@ body.embed .entry .detailed-status {
   }
 
   7% {
-    content: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='40' width='40' class='stardust'%3E%3Ccircle cx='20' cy='20' r='14' stroke='%23fa733e' stroke-dasharray='1 15' stroke-dashoffset='23' stroke-width='10.4 fill='transparent' /%3E%3C/svg%3E");
+    content: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='40' width='40' class='stardust'%3E%3Ccircle cx='20' cy='20' r='14' stroke='%23fa733e' stroke-dasharray='1 15' stroke-dashoffset='23' stroke-width='10.4' fill='transparent' /%3E%3C/svg%3E");
   }
 
   8% {

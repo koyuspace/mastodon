@@ -55,7 +55,7 @@
  * @property {boolean=} delete_modal
  * @property {boolean=} disable_swiping
  * @property {string=} disabled_account_id
- * @property {boolean} display_media
+ * @property {string} display_media
  * @property {string} domain
  * @property {boolean=} expand_spoilers
  * @property {boolean} limited_federation_mode
@@ -96,10 +96,12 @@ const element = document.getElementById('initial-state');
 const initialState = element?.textContent && JSON.parse(element.textContent);
 
 // Glitch-soc-specific “local settings”
-try {
-  initialState.local_settings = JSON.parse(localStorage.getItem('mastodon-settings'));
-} catch (e) {
-  initialState.local_settings = {};
+if (initialState) {
+  try {
+    initialState.local_settings = JSON.parse(localStorage.getItem('mastodon-settings'));
+  } catch (e) {
+    initialState.local_settings = {};
+  }
 }
 
 /**
